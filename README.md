@@ -1,8 +1,6 @@
-# Emergent-gravity-open-question
-Une question ouverte sur l'origine émergente de la gravité (Sakharov, gravité induite) — note de réflexion, retours bienvenus.
-Distinction entre (G), (G_{\mu\nu}), (R_{\mu\nu}) et (R^\rho{}_{\sigma\mu\nu}), élargissement des degrés de liberté fondamentaux au-delà du seul « vide quantique », clarification de la gravité induite et formulation plus rigoureuse de la question ouverte.
-
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
+
+> ⚠️ **Note :** ce document évolue fréquemment. Pensez à rafraîchir la page pour consulter la dernière version.
 
 **Statut du document :** note de réflexion personnelle, formulée avec l'assistance de plusieurs modèles de langage (Claude, ChatGPT, Perplexity) à partir d'échanges exploratoires.
 **Auteur :** Vahan
@@ -290,7 +288,29 @@ La question devient alors : **comment les paramètres et les équations de la gr
 
 ---
 
-## 19. Objectif de ce dépôt
+## 19. Complément : le problème de la constante cosmologique comme reformulation possible
+
+Le programme de gravité induite de Sakharov bute depuis son origine sur un problème bien documenté : la constante cosmologique effective calculée à partir de la sommation des modes de champs quantiques dépasse la valeur observée d'un facteur qui atteint, selon les hypothèses de coupure retenues, jusqu'à environ $10^{120}$ — c'est le **problème de la constante cosmologique**, considéré comme l'un des désaccords les plus importants entre théorie et observation en physique.
+
+Ce désaccord n'est pas ignoré par la littérature : plusieurs pistes existent déjà pour tenter de l'expliquer, notamment la sélection anthropique dans un paysage de solutions (approches de type "landscape"), des mécanismes de *sequestering* (Kaloper-Padilla) qui découplent dynamiquement l'énergie du vide de la courbure observée, ou des scénarios de relaxation dynamique. Aucun de ces mécanismes n'est aujourd'hui établi ou consensuel.
+
+Dans ce cadre, une question complémentaire à celle des sections précédentes peut être formulée sans présupposer de réponse :
+
+> **Et si l'écart de $\sim 10^{120}$ ne résultait pas d'une simple erreur d'estimation de l'énergie du vide, mais du fait que les différents états quantiques, leurs corrélations et leurs transitions contribuent différemment à la géométrie gravitationnelle effective — c'est-à-dire que l'univers observable correspondrait non pas à la somme brute des contributions énergétiques de tous les degrés de liberté quantiques, mais à un état collectif du vide, stabilisé dynamiquement au cours de l'évolution cosmologique ?**
+
+Formulé schématiquement, la question porterait sur l'existence d'une relation du type :
+
+$$
+\{\text{états quantiques}, \text{corrélations}, \text{transitions}\} \longrightarrow \{\Lambda_{\mathrm{eff}}, G_{\mathrm{eff}}, g_{\mu\nu}\}
+$$
+
+telle que des contributions microscopiques individuellement très importantes donnent, après corrélation, moyennage ou relaxation vers un état collectif stable, une contribution gravitationnelle effective très faible à l'échelle cosmologique — et telle que le même mécanisme éclaire simultanément pourquoi $G$ apparaît universel à l'échelle macroscopique.
+
+Cette reformulation relie les deux fils de cette réflexion — l'émergence de $G$ (sections 3 à 12) et le problème de la constante cosmologique — **sans prétendre que l'un explique déjà l'autre**. C'est une question supplémentaire à soumettre à la même communauté de recherche que celle de la section 16, pas une réponse au problème qu'elle pose.
+
+---
+
+## 20. Objectif de ce dépôt
 
 Ce dépôt a pour objectif de documenter le cheminement de la réflexion, distinguer les résultats établis des hypothèses spéculatives, identifier les travaux existants pertinents, éviter de redécouvrir sous une autre forme une construction déjà publiée, recueillir les critiques permettant de falsifier ou de reformuler l'hypothèse, et déterminer si le problème est déjà résolu, partiellement traité ou réellement ouvert.
 
@@ -298,7 +318,7 @@ Toute réponse permettant de rapprocher cette question d'une théorie existante 
 
 ---
 
-## 20. Position méthodologique
+## 21. Position méthodologique
 
 Cette recherche adopte volontairement une position prudente : **hypothèse ≠ résultat ≠ théorie établie**.
 
