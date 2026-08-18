@@ -35,7 +35,7 @@ Le problème n'est donc plus de chercher immédiatement une « force antigravita
 La relativité générale décrit la gravitation par :
 
 $$
-G_{\mu\nu} + \Lambda g_{\mu\nu}
+G_{\mu\nu} + \Lambda g_{\mu\nu}$$
 ===============================
 
 \frac{8\pi G}{c^4}T_{\mu\nu}
