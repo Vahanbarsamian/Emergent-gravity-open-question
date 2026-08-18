@@ -1,8 +1,3 @@
-Oui. Je vais conserver **exactement l'architecture de la version précédente**, notamment l'utilisation de `$$ ... $$` pour les équations centrées et `$...$` pour les expressions inline, afin que le rendu soit propre dans GitHub.
-
-J'intègre surtout ta nouvelle idée comme **hypothèse ouverte**, sans transformer l'analogie avec le programme informatique en affirmation physique. Le point nouveau sera la distinction entre **micro-états/intermédiaires** et **état collectif macroscopique stabilisé**.
-
-```markdown
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
 **Statut du document :** note de réflexion personnelle, formulée avec l'assistance de plusieurs modèles de langage (Claude, ChatGPT, Perplexity) à partir d'échanges exploratoires.  
