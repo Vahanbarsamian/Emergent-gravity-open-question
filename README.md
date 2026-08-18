@@ -1,6 +1,8 @@
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
+
 > **Note :** Pensez à rafraîchir régulièrement ce document car il est souvent modifié.
+
 
 **Statut du document :** note de réflexion personnelle, formulée avec l'assistance de plusieurs modèles de langage (Claude, ChatGPT, Perplexity) à partir d'échanges exploratoires.  
 **Auteur :** Vahan  
