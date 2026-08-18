@@ -1,6 +1,6 @@
 # Emergent-gravity-open-question
 Une question ouverte sur l'origine émergente de la gravité (Sakharov, gravité induite) — note de réflexion, retours bienvenus.
-Voici une version **complète, corrigée et restructurée** du README, en conservant l'esprit de ton document original mais en intégrant les corrections importantes : distinction entre (G), (G_{\mu\nu}), (R_{\mu\nu}) et (R^\rho{}_{\sigma\mu\nu}), élargissement des degrés de liberté fondamentaux au-delà du seul « vide quantique », clarification de la gravité induite et formulation plus rigoureuse de la question ouverte.
+Distinction entre (G), (G_{\mu\nu}), (R_{\mu\nu}) et (R^\rho{}_{\sigma\mu\nu}), élargissement des degrés de liberté fondamentaux au-delà du seul « vide quantique », clarification de la gravité induite et formulation plus rigoureuse de la question ouverte.
 
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
