@@ -594,41 +594,31 @@ Dans un programme informatique, une ligne de code peut être exécutée localeme
 
 Par analogie, on peut imaginer :
 
-| Analogie informatique | Hypothèse physique |
-|---|---|
-| Ligne de code | Degré de liberté ou micro-état quantique |
-| Interaction entre modules | Corrélations quantiques |
-| Résolution des dépendances | Mise en cohérence collective |
-| Compilation | Émergence d'un état macroscopique |
-| Programme exécuté | Géométrie classique effective |
-
-Cette analogie conduit à introduire prudemment l'idée d'un **temps différentiel de description**.
-
-Il ne s'agit pas de proposer plusieurs temps physiques indépendants, mais de se demander si différentes échelles de description peuvent posséder des **temps caractéristiques d'évolution, de corrélation et de relaxation très différents**.
-
-On pourrait schématiquement écrire :
-
 $$
-\tau_{\mathrm{micro}}
-\ll
-\tau_{\mathrm{corr}}
-\ll
-\tau_{\mathrm{macro}}
+\text{micro-états}
+\rightarrow
+\text{interactions}
+\rightarrow
+\text{contraintes de cohérence}
+\rightarrow
+\text{état collectif stable}
 $$
 
-où :
+En relativité générale, les identités de Bianchi jouent un rôle fondamental :
 
-- $\tau_{\mathrm{micro}}$ représente une échelle temporelle microscopique ;
-- $\tau_{\mathrm{corr}}$ représente une échelle caractéristique de propagation ou d'établissement des corrélations ;
-- $\tau_{\mathrm{macro}}$ représente une échelle de relaxation ou d'évolution collective.
+$$
+\nabla^\mu G_{\mu\nu}=0
+$$
 
-Cette écriture est **heuristique**.
+et les équations d'Einstein assurent alors la compatibilité avec la dynamique de l'énergie-impulsion.
 
-Elle ne signifie pas qu'il existe trois temps fondamentaux distincts dans la nature.
+Cela ne signifie évidemment pas que les équations d'Einstein constituent littéralement un « compilateur cosmique ».
 
-La question scientifique serait plutôt :
+L'analogie sert uniquement à poser une question :
 
-> **Une théorie de l'espace-temps émergent pourrait-elle faire apparaître, à partir d'une dynamique quantique fondamentale, plusieurs échelles temporelles effectives associées respectivement aux fluctuations microscopiques, à l'établissement des corrélations et à la stabilisation de la géométrie macroscopique ?**
+> **La géométrie classique pourrait-elle être l'état macroscopique qui subsiste après la résolution collective de contraintes imposées par une dynamique microscopique plus fondamentale ?**
+
+Cette question pourrait être rapprochée de notions déjà présentes dans différents domaines : état fondamental, relaxation, décohérence, renormalisation, point fixe du groupe de renormalisation, contraintes de jauge, émergence hydrodynamique ou auto-cohérence.
 
 ---
 
@@ -679,11 +669,11 @@ L'hypothèse précédente conduit à une question plus précise :
 On pourrait alors rechercher une structure conceptuelle du type :
 
 $$
-\mathcal{Q}_{0}
+\mathcal{Q}_0
 \rightarrow
-\mathcal{Q}_{1}
+\mathcal{Q}_1
 \rightarrow
-\mathcal{Q}_{2}
+\mathcal{Q}_2
 \rightarrow
 \cdots
 \rightarrow
@@ -820,7 +810,7 @@ Toute affirmation importante doit donc être confrontée aux publications origin
 
 ---
 
-## Conclusion
+# Conclusion
 
 La question n'est plus simplement :
 
@@ -858,7 +848,7 @@ Si elle n'existe pas :
 
 ---
 
-### Question finale
+## Question finale
 
 L'ensemble de cette réflexion peut finalement être condensé en une question volontairement ouverte :
 
