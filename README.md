@@ -945,7 +945,39 @@ La question ouverte est donc :
 L'écart d'environ $10^{120}$ ne doit donc pas être présenté ici comme une réponse.
 
 Il constitue précisément **l'une des anomalies quantitatives qui pourraient permettre de tester cette hypothèse**.
+---
+### Question subsidiaire — Et si la faible différence d'énergie était la grandeur physiquement observable ?
 
+L'effet Casimir présente une particularité conceptuellement importante : l'expérience ne mesure pas directement une énergie absolue du vide, mais une différence entre configurations quantiques, produite par les conditions aux limites. 
+
+Cela conduit à une question supplémentaire :
+
+> **Et si, de manière analogue, la quantité gravitationnellement pertinente à l'échelle cosmologique n'était pas la somme des contributions énergétiques microscopiques du vide, mais la différence d'énergie entre l'état quantique initial et l'état collectif stable finalement sélectionné par la dynamique cosmologique ?**
+
+On pourrait alors rechercher une relation conceptuelle du type :
+
+$$\Delta E_{\text{vac}} = E_{\text{micro}} - E_{\text{stable}}$$
+
+avec :
+
+$$\Delta E_{\text{vac}} \longrightarrow \Lambda_{\text{eff}}$$
+
+et se demander si cette différence pourrait être le véritable analogue cosmologique de la différence d'énergie rendue observable dans l'effet Casimir.
+
+Cette hypothèse ne signifie pas que la constante cosmologique est un effet Casimir. Elle pose une question plus générale :
+
+$$\text{La gravitation couple-t-elle à l'énergie absolue du vide, ou à une quantité effective résultant des différences entre états ?}$$
+
+Si la seconde possibilité était pertinente, pourrait-elle contribuer à expliquer pourquoi une énorme contribution microscopique conduit finalement à une très faible énergie du vide gravitationnellement observable ?
+
+Il existe déjà des travaux dans la littérature qui explorent l'idée que les différences d'énergie du vide sont physiquement pertinentes alors que l'énergie absolue pose problème. C'est une piste à confronter directement aux modèles existants.
+
+Le rapprochement conceptuel s'écrirait ainsi :
+
+$$\underbrace{\Delta E_{\text{Casimir}}}_{\text{différence entre configurations}} \;\longleftrightarrow\; \underbrace{\Delta E_{\text{cosmique}}}_{\text{différence entre état microscopique et état stable}}$$
+
+C'est le point précis à vérifier.
+---
 Toute remarque, référence bibliographique, correction mathématique ou contre-exemple est bienvenue.
 
 ---
