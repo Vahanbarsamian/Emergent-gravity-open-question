@@ -1,11 +1,3 @@
-```python
-# Script python pour vérifier et générer le document README.md corrigé.
-# En Markdown Standard/GitHub-Flavored Markdown (GFM), le rendu mathématique LaTeX nécessite généralement 
-# $...$ pour le math en ligne (inline) et $$...$$ pour les blocs (display math).
-# On s'assure également qu'il y ait des saut de lignes appropriés autour des blocs $$...$$ pour éviter les bugs de rendu des parseurs MathJax/KaTeX sur GitHub.
-
-content = """> **Note :** Pensez à rafraîchir régulièrement ce document car il est souvent modifié.
-
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
 **Statut du document :** note de réflexion personnelle, formulée avec l'assistance de plusieurs modèles de langage (Claude, ChatGPT, Perplexity) à partir d'échanges exploratoires.  
