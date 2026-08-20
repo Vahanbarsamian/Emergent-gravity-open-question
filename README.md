@@ -1409,7 +1409,125 @@ Cette question reste volontairement ouverte et falsifiable.
 Une démonstration qu'une telle construction est impossible serait aussi informative qu'une démonstration qu'elle existe.
 
 ---
+# Cartographie des pistes de recherche
+### Document source : « La géométrie gravitationnelle peut-elle émerger d'une structure quantique ? »
+**Auteur :** Vahan — avec assistance de plusieurs LLM (Claude, ChatGPT, Perplexity)
+**Objet de ce fichier :** pour chaque question ouverte posée dans le document original, identifier les programmes de recherche existants qui la traitent (au moins partiellement), avec références précises, ce qu'ils apportent réellement, et ce qui reste non résolu.
 
+> Ce document ne valide pas l'hypothèse de départ. Il indique où elle rejoint des travaux publiés, afin d'éviter de redécouvrir sous une forme nue ce qui existe déjà sous forme calculée.
+
+---
+
+## 1. Gravité induite — origine de G (§3–6)
+
+**Piste :** Sakharov, *Vacuum quantum fluctuations in curved space and the theory of gravitation*, Sov. Phys. Dokl. 12, 1040 (1967).
+**Complément moderne :** M. Visser, *Sakharov's induced gravity: a modern perspective*, Mod. Phys. Lett. A 17, 977 (2002).
+
+**Ce que ça apporte :** dérivation explicite de $1/G_{eff} \sim \sum_i c_i N_i \Lambda_i^2$ à partir des fluctuations de champs quantiques couplés à une géométrie de fond — exactement la relation schématique du §5.
+
+**Ce qui reste ouvert :** le cutoff $\Lambda_i$ reste un paramètre de régularisation, pas une grandeur physique manipulable (point déjà noté correctement au §6.1 du document original). Aucune variation locale de G n'en découle.
+
+---
+
+## 2. Géométrie comme fonctionnelle de corrélations quantiques (§8–9)
+
+**Pistes :**
+- M. Van Raamsdonk, *Building up spacetime with quantum entanglement*, Gen. Rel. Grav. 42, 2323 (2010).
+- S. Ryu, T. Takayanagi, *Holographic Derivation of Entanglement Entropy from AdS/CFT*, Phys. Rev. Lett. 96, 181602 (2006) ; extension covariante Hubeny-Rangamani-Takayanagi (2007).
+- B. Swingle, *Entanglement Renormalization and Holography*, Phys. Rev. D 86, 065007 (2012) — réseaux de tenseurs (MERA) comme modèle jouet.
+
+**Ce que ça apporte :** une formule *exacte* dans un cadre holographique (AdS/CFT) reliant l'aire d'une surface géométrique à l'entropie d'intrication d'un état quantique — la réponse la plus concrète à la question posée en §9 ($G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\langle\hat\Phi_i\hat\Phi_j\rangle]$).
+
+**Ce qui reste ouvert :** valable dans un cadre AdS (courbure négative, holographie), pas directement transposable à notre univers (de Sitter). Pas de dérivation depuis une théorie microscopique unique et non postulée.
+
+---
+
+## 3. Cohérence géométrique macroscopique — identités de Bianchi (§13.2, §31)
+
+**Piste :** T. Jacobson, *Thermodynamics of Spacetime: The Einstein Equation of State*, Phys. Rev. Lett. 75, 1260 (1995).
+**Variante :** E. Verlinde, *On the origin of gravity and the laws of Newton*, JHEP 04, 029 (2011) — gravité entropique.
+
+**Ce que ça apporte :** dérivation thermodynamique complète des équations d'Einstein (covariance générale et $\nabla^\mu G_{\mu\nu}=0$ compris) à partir de la seule hypothèse entropie ∝ aire appliquée à des horizons locaux de Rindler. C'est probablement le résultat le plus proche de l'architecture conceptuelle du §32-33 du document original — court, autonome, vérifiable ligne par ligne.
+
+**Ce qui reste ouvert :** repose sur l'hypothèse d'entropie-aire (Bekenstein-Hawking) comme donnée d'entrée, pas dérivée d'un substrat microscopique explicite.
+
+---
+
+## 4. Substrat discret / maillage (§14)
+
+**Pistes :**
+- R. Sorkin, ensembles causaux (*causal sets*) — voir revue Surya, *The causal set approach to quantum gravity*, Living Rev. Relativity 22, 5 (2019).
+- C. Rovelli, A. Ashtekar, gravité quantique à boucles — réseaux de spin comme états géométriques quantiques discrets.
+
+**Ce que ça apporte :** deux formalismes distincts et techniquement aboutis où l'espace-temps continu émerge d'une structure discrète sous-jacente — répond directement à la reformulation du §14 ("substrat discret, relationnel").
+
+**Ce qui reste ouvert :** aucun des deux ne redérive complètement et sans ambiguïté la limite semi-classique de la RG à toutes les échelles ; débats internes actifs sur ce point.
+
+---
+
+## 5. Temps comme variable émergente (§24–29)
+
+**Pistes :**
+- D. Page, W. Wootters, *Evolution without evolution*, Phys. Rev. D 27, 2885 (1983) — le temps comme corrélation relationnelle entre sous-systèmes d'un état global stationnaire.
+- A. Connes, C. Rovelli, *Von Neumann algebra automorphisms and time-thermodynamics relation*, Class. Quantum Grav. 11, 2899 (1994) — hypothèse du temps thermique.
+
+**Ce que ça apporte :** deux mécanismes concrets où le paramètre temporel macroscopique n'est pas fondamental mais dérive respectivement de corrélations quantiques (Page-Wootters) ou de l'état thermique/KMS du système (temps thermique) — exactement la question du §24.
+
+**Ce qui reste ouvert :** aucun consensus sur lequel (s'il y en a un) s'applique à notre univers ; articulation avec l'émergence simultanée de $g_{\mu\nu}$ non résolue.
+
+---
+
+## 6. Constante cosmologique et hiérarchie ~10¹²⁰ (§15, §19–20)
+
+**Piste :** S. Weinberg, *The cosmological constant problem*, Rev. Mod. Phys. 61, 1 (1989) — référence de base, encore citée aujourd'hui.
+**Compléments :** revues de T. Padmanabhan et C. Burgess sur le sujet.
+
+**Ce que ça apporte :** cadrage rigoureux de ce que le facteur 10¹²⁰ représente réellement (dépendance à la régularisation, pas une "énergie cachée mesurable") — confirme la prudence déjà adoptée dans le document original au §15.
+
+**Ce qui reste ouvert :** problème non résolu à ce jour ; aucun mécanisme de sélection d'état stable n'explique quantitativement la hiérarchie.
+
+---
+
+## 7. Effet Casimir comme indice de grandeur effective (§30)
+
+**Constat de la littérature :** l'énergie de Casimir est une différence entre configurations aux conditions aux limites, pas une mesure de l'énergie absolue du vide — c'est un point explicitement discuté dans les analyses du problème de la constante cosmologique (Weinberg et suivants) précisément pour écarter cette piste comme solution directe.
+
+**Ce que ça apporte :** confirme que l'intuition du document ("la gravité pourrait répondre à une différence entre états plutôt qu'à une énergie absolue") est correcte dans son principe, mais que Casimir spécifiquement ne fournit pas le mécanisme cosmologique recherché.
+
+---
+
+## 8. Masse émergente et vitesse locale non universelle (m = E/c_loc²) — soulevé en échange LinkedIn
+
+**Pistes :**
+- W. Unruh, *Experimental black-hole evaporation?*, Phys. Rev. Lett. 46, 1351 (1981) ; M. Visser, *Acoustic black holes: horizons, ergospheres, and Hawking radiation*, Class. Quantum Grav. 15, 1767 (1998) — gravité analogique, métrique acoustique lorentzienne pour les phonons dans un fluide en écoulement.
+- J. Steinhauer, *Observation of quantum Hawking radiation and its entanglement in an analogue black hole*, Nature Physics 12, 959 (2016) — confirmation expérimentale de l'analogue de rayonnement Hawking dans un BEC.
+- G. Volovik, *The Universe in a Helium Droplet*, Oxford (2003) — Théorie du vide superfluide (*Superfluid Vacuum Theory*) : le vide physique comme liquide quantique de Bose, la masse comme propriété émergente de l'interaction avec ce substrat.
+
+**Ce que ça apporte :** un cadre technique complet et partiellement testé expérimentalement (en laboratoire, pas cosmologiquement) où une vitesse locale de propagation non universelle produit une métrique effective et une masse effective — formalise directement $m = E/c_{loc}^2$.
+
+**Ce qui reste ouvert et point de vigilance :** dans les BEC de laboratoire, le substrat est fait d'atomes ayant déjà une masse conventionnelle — la métrique émerge *pour les phonons*, pas pour la matière fondamentale elle-même. L'extension de cette logique au vide cosmologique (SVT) est un programme minoritaire, publié mais non consensuel, qui ne reproduit pas encore la RG complète.
+
+---
+
+## Synthèse — où cela mène
+
+| Problème du document original | Piste établie la plus proche | Statut |
+|---|---|---|
+| Origine de G | Sakharov (1967) | Établi, mais cutoff non physique |
+| g_μν comme fonctionnelle de corrélations | Van Raamsdonk / Ryu-Takayanagi | Établi en AdS, pas transposé à notre univers |
+| Cohérence géométrique (Bianchi) | Jacobson (1995) | Établi, hypothèse entropie-aire non dérivée |
+| Substrat discret | Causal sets / LQG | Programmes actifs, non conclusifs |
+| Temps émergent | Page-Wootters / temps thermique | Deux mécanismes concurrents, non tranchés |
+| Constante cosmologique | Weinberg (1989) et suite | Problème ouvert |
+| Masse émergente / c_loc non universel | Gravité analogique / SVT (Volovik) | Testé en laboratoire ; extension cosmologique spéculative |
+
+**Aucune de ces pistes, prise isolément, ne referme la chaîne complète micro-états → g_μν → G_eff → Λ_eff → temps effectif demandée au §35 du document original.** C'est cohérent avec le fait que ce soit encore un problème ouvert de la physique théorique — pas une lacune propre à votre démarche.
+
+---
+
+*Document de travail personnel. Les références sont fournies pour permettre une vérification indépendante, pas comme validation du document source.*
+
+---
 *Toute remarque, référence bibliographique, correction mathématique, contre-exemple ou démonstration d'une construction déjà existante est bienvenue.*
 
 *Document de réflexion personnelle — aucune revendication de découverte ou de résultat nouveau.*
