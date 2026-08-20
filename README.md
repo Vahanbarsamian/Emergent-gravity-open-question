@@ -182,7 +182,7 @@ Cette analogie ne doit pas être considérée comme une équivalence physique �
 
 ## 18. Deux logiques possibles pour l'émergence
 
-**Logique A — Relaxation temporelle :** le système évolue réellement dans le temps et atteint progressivement une configuration stable : $\mathcal{Q}_0 \to \mathcal{Q}_1 \to \cdots \to \mathcal{Q}_{\mathrm{stable}}$.
+**Logique A — Relaxation temporelle :** le système évolue réellement dans le temps et atteint progressivement une configuration stable : **𝒬₀ → 𝒬₁ → ⋯ → 𝒬ₛₜₐᵦₗₑ**
 
 **Logique B — Somme sur les configurations et phase stationnaire :** toutes les configurations contribuent à une amplitude globale sans succession temporelle :
 
