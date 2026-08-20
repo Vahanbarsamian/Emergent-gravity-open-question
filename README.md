@@ -1638,7 +1638,7 @@ Le mécanisme de Brown & Teitelboim (1987, cité en section 9 de ce fichier) est
 | Sélection de la géométrie classique (logique B) | Hartle-Hawking / Wheeler-DeWitt | Cadre formel existant, non résolu (mesure, non-renormalisabilité) |
 | Hiérarchie 10¹²⁰ comme test | Weinberg (1989) ; Brown-Teitelboim (1987) | Critère de validation posé, aucun mécanisme candidat ne le satisfait à ce jour |
 
-**Aucune de ces pistes, prise isolément, ne referme la chaîne complète micro-états → g_μν → G_eff → Λ_eff → temps effectif demandée au §35 du document original.** C'est cohérent avec le fait que ce soit encore un problème ouvert de la physique théorique — pas une lacune propre à votre démarche.
+**Aucune de ces pistes, prise isolément, ne referme la chaîne complète micro-états → g_μν → G_eff → Λ_eff → temps effectif demandée au §35 du document original.** C'est cohérent avec le fait que ce soit encore un problème ouvert de la physique théorique — pas une lacune propre à notre démarche.
 
 ---
 
