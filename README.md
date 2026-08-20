@@ -166,7 +166,13 @@ La hiérarchie souvent résumée par un facteur de l'ordre de $10^{120}$ entre c
 ## 16. Et si les états quantiques intermédiaires étaient masqués par la description macroscopique ?
 
 > **Et si les calculs microscopiques décrivaient une multiplicité de degrés de liberté, d'états et de configurations, alors que la gravitation cosmologique effective ne nous donnait accès qu'à une description collective macroscopique ?**
-Une première formulation représentait cette transition comme une relaxation ($\mathcal{Q}_0 \to \mathcal{Q}_1 \to \cdots \to \mathcal{Q}_{\mathrm{stable}}$ — Logique A). Cette représentation reste pertinente pour comparer différents mécanismes physiques, mais elle n'est plus le mécanisme privilégié pour l'émergence fondamentale de la géométrie étudiée ici (voir section 18).
+Une première formulation représentait cette transition comme une relaxation
+$\mathcal{Q}_0 \rightarrow \mathcal{Q}_1 \rightarrow \cdots \rightarrow
+\mathcal{Q}_{\mathrm{stable}}$ — **Logique A**.
+
+Cette représentation reste pertinente pour comparer différents mécanismes
+physiques, mais elle n'est plus le mécanisme privilégié pour l'émergence
+fondamentale de la géométrie étudiée ici (voir **section 18**).
 ---
 
 ## 17. L'analogie avec un programme informatique
