@@ -308,7 +308,9 @@ Cette formulation constitue une hypothèse de recherche, pas une interprétation
 
 $$\rho_{\mathrm{micro}} \gg \rho_{\mathrm{eff}}$$
 
-sans supposer que l'énergie microscopique « disparaît ». $\{$états quantiques, corrélations, histoires$\} \to T_{\mu\nu}^{\mathrm{eff}} \to g_{\mu\nu}$.
+sans supposer que l'énergie microscopique « disparaît ». 
+
+$$\{\text{états quantiques}, \text{corrélations}, \text{histoires}\} \to T_{\mu\nu}^{\mathrm{eff}} \to g_{\mu\nu}$$
 
 ---
 
