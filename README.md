@@ -1,3 +1,4 @@
+|🇫🇷 Français | [🇬🇧 English version](./Reflexion-ouverte-sur-la-gravite.en.md)|
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
 > ⚠️ **Note :** ce document évolue fréquemment. Pensez à rafraîchir la page pour consulter la dernière version.
