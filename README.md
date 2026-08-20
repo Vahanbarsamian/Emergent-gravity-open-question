@@ -1624,6 +1624,35 @@ Le mécanisme de Brown & Teitelboim (1987, cité en section 9 de ce fichier) est
 
 ---
 
+## 12. Raffinement du substrat (H1-H2) et sa réalisation existante : les Triangulations Dynamiques Causales
+
+Une analyse indépendante (Perplexity, reprenant le cadre de ce fichier) a proposé un raffinement précis de H1-H2 : remplacer $G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\langle\hat\Phi_i\hat\Phi_j\rangle]$ — qui présuppose déjà un espace $x$ pour indexer les corrélations, donc présuppose une partie de ce qu'on cherche à faire émerger — par une amplitude sur des **configurations relationnelles candidates**, sans métrique préalable :
+
+```math
+\Psi[G] = \int_{\mathcal{C}(G)} \mathcal{D}\Phi\; e^{iS_{micro}[\Phi]/\hbar}
+```
+
+avec sélection de la géométrie classique par phase stationnaire ($\delta S_{eff}[g] = 0$), et un choix de substrat explicite : **discret et relationnel**, en écartant volontairement en première approche le vide superfluide (Volovik, substrat déjà massif — cf. section 8) et l'holographie AdS/CFT (non transposable à un univers de Sitter — cf. section 2).
+
+**Ce raffinement correspond, presque terme à terme, à un programme de recherche existant et actif :**
+
+**J. Ambjørn, J. Jurkiewicz, R. Loll**, *Nonperturbative Quantum Gravity*, Phys. Rept. 519, 127 (2012) — revue de référence sur les **Triangulations Dynamiques Causales (CDT)**.
+**J. Ambjørn, A. Görlich, J. Jurkiewicz, R. Loll**, *The Nonperturbative Quantum de Sitter Universe*, Phys. Rev. D 78, 063544 (2008).
+
+**Principe :** l'espace-temps est discrétisé en simplexes, avec une structure causale imposée (feuilletage en tranches spatiales successives — ce qui distingue CDT des triangulations euclidiennes non causales antérieures, qui échouaient à produire un espace-temps macroscopique cohérent). On somme, par simulation numérique, sur toutes les triangulations pondérées par l'action de Regge (version discrète de l'action d'Einstein-Hilbert) — exactement $\Psi[G] \sim \sum_{\mathcal{C}(G)} e^{iS_{Regge}/\hbar}$, après rotation de Wick (cf. H4, section 10).
+
+**Résultat obtenu, calculé et publié :** dans une phase particulière du diagramme de phases du modèle (« phase C »), la configuration dominante produit à grande échelle un univers macroscopique à quatre dimensions, de type de Sitter — sans que la dimension 4 ni la géométrie classique n'aient été postulées au départ. Diagnostic notable : la **dimension spectrale** de l'espace-temps émergent varie avec l'échelle d'observation — proche de 4 à grande échelle, proche de 2 à l'échelle de Planck. C'est littéralement le critère de falsification proposé (« la dimension effective ne devient pas quatre ») — sauf qu'il a déjà été testé, avec un résultat plus riche qu'un simple oui/non.
+
+### Ce que CDT ne résout pas — et pourquoi le critère de la section 11 reste pertinent
+
+- $\Lambda_{eff}$ n'est pas dérivé dans CDT : il est **ajusté** pour placer la simulation dans la phase C. Le critère de la hiérarchie $10^{120}$ (section 11) n'est donc pas satisfait par ce programme non plus, à ce jour.
+- $G_{eff}$ n'émerge pas d'un calcul de premier principe indépendant.
+- L'incorporation de la matière (au-delà de la géométrie pure) reste partielle.
+
+**Conclusion pour la cartographie :** le choix de substrat (discret, relationnel, avec somme quantique et sélection par phase stationnaire) n'est donc plus seulement une orientation méthodologique — c'est un programme actif, avec des résultats calculés et vérifiables, qui a déjà résolu l'**Étape 1** (émergence d'une géométrie 4D classique, cf. section 10) sans avoir résolu l'**Étape 3** (calcul non ajusté de $G_{eff}$ et $\Lambda_{eff}$, cf. section 11). C'est une avancée réelle dans la cartographie : l'intuition de départ, affinée à travers plusieurs échanges, converge maintenant vers un programme de recherche testable par simulation, et pas seulement vers une intuition qualitative.
+
+---
+
 ## Synthèse — où cela mène
 
 | Problème du document original | Piste établie la plus proche | Statut |
@@ -1637,10 +1666,10 @@ Le mécanisme de Brown & Teitelboim (1987, cité en section 9 de ce fichier) est
 | Masse émergente / c_loc non universel | Gravité analogique / SVT (Volovik) | Testé en laboratoire ; extension cosmologique spéculative |
 | Sélection de la géométrie classique (logique B) | Hartle-Hawking / Wheeler-DeWitt | Cadre formel existant, non résolu (mesure, non-renormalisabilité) |
 | Hiérarchie 10¹²⁰ comme test | Weinberg (1989) ; Brown-Teitelboim (1987) | Critère de validation posé, aucun mécanisme candidat ne le satisfait à ce jour |
+| Substrat discret/relationnel + somme quantique → géométrie 4D | Triangulations Dynamiques Causales (Ambjørn-Jurkiewicz-Loll) | Étape 1 résolue et publiée (dimension 4, de Sitter) ; étape 3 (G_eff, Λ_eff non ajustés) non résolue |
 
-**Aucune de ces pistes, prise isolément, ne referme la chaîne complète micro-états → g_μν → G_eff → Λ_eff → temps effectif demandée au §35 du document original.** C'est cohérent avec le fait que ce soit encore un problème ouvert de la physique théorique — pas une lacune propre à notre démarche.
+**Aucune de ces pistes, prise isolément, ne referme la chaîne complète micro-états → g_μν → G_eff → Λ_eff → temps effectif demandée au §35 du document original.** C'est cohérent avec le fait que ce soit encore un problème ouvert de la physique théorique — pas une lacune propre à votre démarche. Le point notable de cette dernière étape est que l'intuition de départ a maintenant, pour la première fois dans cette cartographie, un point d'ancrage calculable et partiellement vérifié (CDT) plutôt qu'un ensemble de cadres seulement analogues.
 
 ---
 
 *Document de travail personnel. Les références sont fournies pour permettre une vérification indépendante, pas comme validation du document source.*
-
