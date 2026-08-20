@@ -167,8 +167,7 @@ La hiérarchie souvent résumée par un facteur de l'ordre de $10^{120}$ entre c
 
 > **Et si les calculs microscopiques décrivaient une multiplicité de degrés de liberté, d'états et de configurations, alors que la gravitation cosmologique effective ne nous donnait accès qu'à une description collective macroscopique ?**
 Une première formulation représentait cette transition comme une relaxation
-$\mathcal{Q}_0 \rightarrow \mathcal{Q}_1 \rightarrow \cdots \rightarrow
-\mathcal{Q}_{\mathrm{stable}}$ — **Logique A**.
+$\mathcal{Q}_0 \rightarrow \mathcal{Q}_1 \rightarrow \cdots \rightarrow \mathcal{Q}_{\mathrm{stable}}$ — **Logique A**.
 
 Cette représentation reste pertinente pour comparer différents mécanismes
 physiques, mais elle n'est plus le mécanisme privilégié pour l'émergence
