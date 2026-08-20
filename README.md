@@ -490,7 +490,7 @@ Une hypothèse exploratoire peut être formulée ainsi :
 
 > **Et si les calculs microscopiques décrivaient une multiplicité de degrés de liberté, d'états et de configurations, alors que la gravitation cosmologique effective ne nous donnait accès qu'à une description collective macroscopique ?**
 
-Dans la première version de l'hypothèse, cette transition pouvait être représentée comme une relaxation :
+Dans une première formulation, cette transition pouvait être représentée comme une relaxation :
 
 ```math
 \mathcal{Q}_0
@@ -504,9 +504,9 @@ Dans la première version de l'hypothèse, cette transition pouvait être repré
 \mathcal{Q}_{\mathrm{stable}}
 ```
 
-Mais cette représentation ne doit pas être confondue avec le mécanisme désormais privilégié.
+Cette représentation correspond à une **logique A : relaxation temporelle**.
 
-Elle correspond à la **logique A : relaxation temporelle**.
+Elle reste pertinente pour comparer différents mécanismes physiques, mais elle ne constitue plus le mécanisme privilégié pour l'émergence fondamentale de la géométrie étudiée dans ce document.
 
 La question plus générale demeure :
 
@@ -570,7 +570,7 @@ Le système évolue réellement dans le temps et atteint progressivement une con
 
 Cette logique peut être pertinente pour certains mécanismes de transition, relaxation, thermalisation, changement de phase ou flux vers un point fixe.
 
-### Logique B — Somme simultanée sur les configurations
+### Logique B — Somme sur les configurations et phase stationnaire
 
 Dans cette logique, il n'est pas nécessaire de supposer une succession temporelle des configurations.
 
@@ -616,11 +616,11 @@ Le résultat observé — par exemple un point sur l'écran — n'est donc pas n
 
 Il peut être interprété comme le résultat macroscopique dominant d'une somme sur toutes les possibilités.
 
-C'est cette structure que nous retenons comme analogue conceptuel pour l'émergence de $g_{\mu\nu}$.
+C'est cette structure qui est retenue ici comme **analogie mathématique de travail** pour l'émergence de $g_{\mu\nu}$.
 
 ---
 
-## 20. Phase stationnaire et critère de résonance
+## 20. Phase stationnaire et critère de cohérence
 
 Le critère formel de phase stationnaire est :
 
@@ -630,23 +630,25 @@ Le critère formel de phase stationnaire est :
 
 Mais notre question va légèrement plus loin.
 
-Nous cherchons à savoir si, dans une théorie microscopique complète, une géométrie classique pourrait correspondre à une **configuration cohérente vis-à-vis de l'ensemble des configurations voisines**.
+Nous cherchons à savoir si, dans une théorie microscopique complète, une géométrie classique pourrait correspondre à une **configuration ou une famille de configurations dont les contributions restent cohérentes dans une région de l'espace des configurations**.
 
-Une intuition supplémentaire provient de la condition de résonance en boucle fermée de type Bohr-Sommerfeld :
+Une intuition supplémentaire peut être tirée des conditions de fermeture de phase rencontrées dans les systèmes quantiques.
+
+On peut représenter très schématiquement une condition de quantification de type Bohr-Sommerfeld par :
 
 ```math
 n\lambda = 2\pi r
 ```
 
-Lorsque les phases se referment de manière cohérente, la contribution peut devenir stable vis-à-vis de l'interférence avec elle-même.
+Lorsque les phases se referment de manière cohérente, certaines contributions peuvent être renforcées par interférence.
 
 Cette intuition conduit à la question :
 
-> **Existe-t-il, pour les configurations géométriques, une condition de cohérence analogue qui sélectionne certaines géométries comme configurations quasi-classiques stables ?**
+> **Existe-t-il, pour les configurations géométriques, une condition de cohérence analogue qui favorise certaines géométries comme configurations quasi-classiques stables ?**
 
-Cette formulation doit être considérée comme une analogie heuristique.
+Cette formulation reste une **analogie heuristique**.
 
-Elle ne signifie pas que la gravité quantique est simplement un problème de résonance mécanique au sens classique.
+Elle ne signifie pas que la gravité quantique est simplement un phénomène de résonance mécanique classique.
 
 ---
 
@@ -740,7 +742,7 @@ mais le véritable test consiste à montrer que ce critère appliqué à l'actio
 
 ### H6 — Mécanisme de décohérence
 
-Une phase stationnaire dominante n'explique pas à elle seule pourquoi un observateur voit une géométrie classique et non une superposition de géométries.
+Une phase stationnaire dominante n'explique pas à elle seule pourquoi un observateur voit une géométrie classique plutôt qu'une superposition de géométries.
 
 Il faut donc un mécanisme séparé de décohérence.
 
@@ -778,7 +780,7 @@ Une théorie scientifique complète doit produire au moins une conséquence test
 
 L'idée des « possibilités parallèles » peut être poussée plus loin.
 
-Au lieu de considérer simplement plusieurs états intermédiaires d'un même espace-temps, on peut envisager une multiplicité de **configurations ou histoires spatio-temporelles possibles**.
+Au lieu de considérer simplement plusieurs états intermédiaires d'un même espace-temps, on peut envisager une multiplicité de **configurations ou histoires spatio-temporelles possibles** dans l'espace des configurations quantiques.
 
 On peut écrire :
 
@@ -794,7 +796,7 @@ On peut écrire :
 
 où chaque $\mathcal{H}_i$ représente une histoire ou une configuration possible.
 
-Dans une hypothèse plus ambitieuse, chaque histoire pourrait posséder sa propre géométrie effective :
+Dans une hypothèse plus ambitieuse, chaque histoire pourrait être associée à sa propre géométrie effective :
 
 ```math
 \mathcal{H}_i
@@ -802,7 +804,7 @@ Dans une hypothèse plus ambitieuse, chaque histoire pourrait posséder sa propr
 g_{\mu\nu}^{(i)}
 ```
 
-et éventuellement son propre temps propre effectif :
+et éventuellement à un temps propre effectif :
 
 ```math
 d\tau_i^2
@@ -811,11 +813,11 @@ d\tau_i^2
 g_{\mu\nu}^{(i)}dx^\mu dx^\nu
 ```
 
-Cette hypothèse est volontairement plus forte que la simple notion de niveaux de description.
+Cette hypothèse doit cependant être comprise avec prudence :
 
-Elle demande si une multiplicité de configurations spatio-temporelles pourrait exister au niveau quantique avant qu'un secteur quasi-classique soit identifié comme celui que nous observons.
+> **Une multiplicité de configurations spatio-temporelles dans une description quantique ne signifie pas automatiquement l'existence de plusieurs espaces-temps classiques indépendants au sens ordinaire.**
 
-> **Précaution :** la physique actuelle formalise des amplitudes, des histoires et des branches quantiques dans plusieurs cadres, mais cela ne démontre pas l'existence empirique de plusieurs espaces-temps classiques indépendants.
+La question est précisément de savoir quelle interprétation géométrique, s'il en existe une, peut être donnée à cette multiplicité.
 
 ---
 
@@ -837,11 +839,11 @@ où $\mathcal{H}_i^{\mathrm{qc}}$ désigne une histoire devenue approximativemen
 
 Il ne s'agit pas nécessairement d'imaginer qu'une seule histoire « gagne ».
 
-Une famille d'histoires peut devenir suffisamment décohérente des autres pour pouvoir être décrite comme un secteur quasi-classique indépendant.
+Une famille d'histoires peut devenir suffisamment décohérente des autres pour pouvoir être décrite comme un secteur quasi-classique.
 
 La question devient alors :
 
-> **La géométrie classique observée pourrait-elle être associée à une classe d'histoires dont la structure spatio-temporelle devient stable sous l'effet de la décohérence ?**
+> **La géométrie classique observée pourrait-elle être associée à une classe d'histoires dont la structure spatio-temporelle devient suffisamment cohérente pour être décrite classiquement ?**
 
 ---
 
@@ -869,9 +871,7 @@ Cette observation fournit une analogie utile :
 
 > **Une multiplicité de configurations locales peut donner naissance à une organisation macroscopique dominante.**
 
-Dans cette image, la « plus grosse bulle » représente symboliquement la configuration collective la plus forte ou la plus cohérente à l'échelle d'observation considérée.
-
-Mais la comparaison doit rester strictement heuristique.
+Dans cette image, la « plus grosse bulle » représente symboliquement non pas une entité qui absorberait littéralement toutes les autres, mais **la configuration collective qui devient dominante dans la description macroscopique considérée**.
 
 Pour les bulles, le mécanisme est physique et connu :
 
@@ -899,31 +899,41 @@ Ainsi :
 \text{interférence quantique}
 ```
 
+L'analogie porte uniquement sur la transition conceptuelle :
+
+```math
+\text{multiplicité}
+\rightarrow
+\text{organisation collective}
+\rightarrow
+\text{description macroscopique}
+```
+
 ---
 
-## 27. H6bis.3 — Les bulles comme représentation de plusieurs espaces-temps possibles
+## 27. H6bis.3 — Les bulles comme représentation heuristique de configurations spatio-temporelles
 
-L'analogie des bulles peut être poussée encore plus loin.
+L'analogie des bulles peut être poussée plus loin sans prétendre qu'elles représentent littéralement des univers séparés.
 
-Chaque bulle peut être considérée, symboliquement, comme une représentation d'une configuration spatio-temporelle possible :
+Chaque bulle peut être considérée symboliquement comme une représentation d'une configuration ou d'une histoire :
 
 ```math
 \mathcal{H}_1,\mathcal{H}_2,\mathcal{H}_3,\ldots
 ```
 
-La diversité des bulles correspond alors, par analogie :
+La multiplicité des bulles correspond alors, par analogie :
 
 ```math
-\text{multiplicité des configurations}
+\text{multiplicité des configurations spatio-temporelles possibles}
 ```
 
 et la structure dominante :
 
 ```math
-\text{configuration collective macroscopiquement cohérente}
+\text{configuration ou famille de configurations macroscopiquement cohérente}
 ```
 
-On peut représenter l'ensemble :
+On peut représenter l'ensemble hypothétique :
 
 ```math
 \left\{
@@ -934,15 +944,15 @@ g_{\mu\nu}^{(N)}
 \right\}
 ```
 
-comme une collection hypothétique de géométries possibles.
+comme une collection de géométries effectives candidates.
 
 La question scientifique serait alors :
 
 > **La géométrie de l'espace-temps que nous observons pourrait-elle être le secteur quasi-classique dominant issu d'une multiplicité de configurations spatio-temporelles quantiques possibles ?**
 
-Cette formulation ne prétend pas que plusieurs espaces-temps classiques sont directement observables.
+Cette formulation ne prétend pas démontrer que plusieurs espaces-temps classiques existent réellement.
 
-Elle propose de déterminer si une théorie quantique de la gravitation donne un sens mathématique à une telle multiplicité.
+Elle propose de déterminer si une théorie quantique de la gravitation peut donner un sens mathématique à une telle multiplicité.
 
 ---
 
@@ -1003,6 +1013,8 @@ et :
 \text{résultat observable}
 ```
 
+Le parallèle est donc structurel, pas littéral.
+
 ---
 
 ## 29. H6bis.5 — Une formulation plus précise de la « réalité construite »
@@ -1015,7 +1027,7 @@ Il ne s'agit pas de dire :
 
 Il est plus rigoureux de parler d'une :
 
-> **configuration ou famille de configurations dont la cohérence collective domine dans la limite macroscopique considérée.**
+> **configuration ou famille de configurations dont la contribution constructive et la cohérence collective dominent dans la limite macroscopique considérée.**
 
 On peut l'écrire :
 
@@ -1026,7 +1038,7 @@ On peut l'écrire :
 \rightarrow
 \mathcal{H}_{\mathrm{dominante}}
 \rightarrow
-\text{réalité macroscopique effective}
+\text{description macroscopique effective}
 ```
 
 Le terme « dominante » signifie ici dominante dans la description effective, et non nécessairement une entité physique qui aurait absorbé les autres.
@@ -1112,7 +1124,7 @@ g_{\mu\nu},
 
 La question devient :
 
-> **Et si la réalité macroscopique que nous observons n'était pas la description fondamentale unique, mais le secteur quasi-classique cohérent d'une multiplicité de configurations spatio-temporelles quantiques simultanément contributives ?**
+> **Et si la réalité macroscopique que nous observons n'était pas une description fondamentale unique, mais le secteur quasi-classique cohérent d'une multiplicité de configurations spatio-temporelles quantiques simultanément contributives dans l'amplitude ?**
 
 Cette formulation constitue une hypothèse de recherche et non une interprétation établie.
 
@@ -1583,9 +1595,9 @@ Il s'agit uniquement d'une **question de recherche théorique**.
 
 ---
 
-## 44. Quatre problèmes liés mais distincts
+## 44. Cinq problèmes liés mais distincts
 
-La réflexion distingue désormais explicitement quatre problèmes :
+La réflexion distingue désormais explicitement cinq problèmes :
 
 | Niveau | Question |
 |---|---|
@@ -1721,7 +1733,7 @@ alors que l'analogie quantique correspond plutôt à :
 \rightarrow
 \text{décohérence}
 \rightarrow
-\text{structure classique observable}
+\text{structure quasi-classique observable}
 ```
 
 Dans le cas des bulles, la grandeur organisatrice est notamment la tension de surface.
@@ -1738,7 +1750,7 @@ Il constitue précisément **l'une des anomalies quantitatives qui pourraient pe
 
 # Question finale
 
-> **Et si l'espace-temps classique que nous observons n'était pas le niveau fondamental de la réalité, mais le secteur quasi-classique cohérent émergent d'une multiplicité de configurations spatio-temporelles quantiques simultanément contributives ?**
+> **Et si l'espace-temps classique que nous observons n'était pas le niveau fondamental de la réalité, mais le secteur quasi-classique cohérent émergent d'une multiplicité de configurations spatio-temporelles quantiques simultanément contributives dans une amplitude ?**
 >
 > **Et si les différentes configurations, au lieu de constituer simplement des états successifs dans un même espace-temps, représentaient des histoires possibles possédant chacune leur organisation géométrique et temporelle effective ?**
 >
@@ -1835,7 +1847,7 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 - HRT (2007).
 - B. Swingle, *Entanglement Renormalization and Holography*, Phys. Rev. D 86, 065007 (2012).
 
-**Ce que cela apporte :** dans les cadres holographiques, des relations quantitatives existent entre entanglement et géométrie.
+**Ce que cela apporte :** dans les cadres holographiques, des relations quantitatives existent entre intrication et géométrie.
 
 **Ce qui reste ouvert :** ces constructions ne fournissent pas directement une dérivation de notre géométrie cosmologique à partir d'un substrat microscopique unique.
 
@@ -1860,7 +1872,7 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 - R. Sorkin, *causal sets*.
 - S. Surya, revue sur les causal sets.
 - C. Rovelli, A. Ashtekar, gravité quantique à boucles et réseaux de spin.
-- CDT : Ambjørn, Jurkiewicz, Loll.
+- Triangulations dynamiques causales (CDT).
 
 **Ce que cela apporte :** plusieurs formalismes étudient explicitement l'idée que la géométrie continue peut émerger d'une structure discrète ou relationnelle.
 
@@ -2018,7 +2030,7 @@ Le parallèle quantique recherché est :
 
 ---
 
-## 13. Triangulations Dynamiques Causales
+## 13. Triangulations dynamiques causales
 
 **Références :**
 
@@ -2052,7 +2064,7 @@ Le parallèle quantique recherché est :
 | Masse effective | Gravité analogique / BEC | Analogie expérimentale |
 | Casimir | Différences d'énergie | Phénomène expérimental établi |
 | Constante cosmologique | Weinberg et autres | Problème ouvert |
-| Espaces-temps/histoires multiples | Histoires quantiques / gravité quantique | Hypothèse à préciser |
+| Espaces-temps / histoires multiples | Histoires quantiques / gravité quantique | Hypothèse à préciser |
 | $g_{\mu\nu}$ + $G$ + $\Lambda$ + temps | Aucun cadre unique identifié | Problème ouvert |
 
 La cartographie conduit à une conclusion prudente :
