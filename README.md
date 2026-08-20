@@ -1521,7 +1521,7 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 | Constante cosmologique | Weinberg (1989) et suite | Problème ouvert |
 | Masse émergente / c_loc non universel | Gravité analogique / SVT (Volovik) | Testé en laboratoire ; extension cosmologique spéculative |
 
-**Aucune de ces pistes, prise isolément, ne referme la chaîne complète micro-états → g_μν → G_eff → Λ_eff → temps effectif demandée au §35 du document original.** C'est cohérent avec le fait que ce soit encore un problème ouvert de la physique théorique — pas une lacune propre à votre démarche.
+**Aucune de ces pistes, prise isolément, ne referme la chaîne complète micro-états → g_μν → G_eff → Λ_eff → temps effectif demandée au §35 du document original.** C'est cohérent avec le fait que ce soit encore un problème ouvert de la physique théorique — pas une lacune propre à notre démarche.
 
 ---
 
