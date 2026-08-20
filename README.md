@@ -484,13 +484,13 @@ Cette possibilité conduit à rechercher une transformation physique entre ces d
 
 ---
 
-## 16. Et si les états quantiques intermédiaires étaient masqués par l'état macroscopique final ?
+## 16. Et si les états quantiques intermédiaires étaient masqués par la description macroscopique ?
 
 Une hypothèse exploratoire peut être formulée ainsi :
 
-> **Et si les calculs microscopiques décrivaient plusieurs degrés de liberté, états ou configurations intermédiaires, alors que la gravitation cosmologique effective ne « voyait » que l'état collectif final après corrélation, relaxation ou stabilisation ?**
+> **Et si les calculs microscopiques décrivaient une multiplicité de degrés de liberté, d'états et de configurations, alors que la gravitation cosmologique effective ne nous donnait accès qu'à une description collective macroscopique ?**
 
-On pourrait représenter conceptuellement cette succession par :
+Dans la première version de l'hypothèse, cette transition pouvait être représentée comme une relaxation :
 
 ```math
 \mathcal{Q}_0
@@ -504,19 +504,13 @@ On pourrait représenter conceptuellement cette succession par :
 \mathcal{Q}_{\mathrm{stable}}
 ```
 
-avec :
+Mais cette représentation ne doit pas être confondue avec le mécanisme désormais privilégié.
 
-```math
-\mathcal{Q}_{\mathrm{stable}}
-\longrightarrow
-g_{\mu\nu}
-```
+Elle correspond à la **logique A : relaxation temporelle**.
 
-Cette hypothèse ne prétend pas expliquer aujourd'hui le facteur $10^{120}$.
+La question plus générale demeure :
 
-Elle pose une question plus fondamentale :
-
-> **Existe-t-il une dynamique physique permettant de calculer le passage des contributions microscopiques vers un état collectif dont la réponse gravitationnelle effective est beaucoup plus faible ?**
+> **Existe-t-il une dynamique physique permettant de relier les contributions microscopiques à un état ou un secteur collectif dont la réponse gravitationnelle effective est beaucoup plus faible ?**
 
 ---
 
@@ -547,18 +541,20 @@ Cette analogie ne doit évidemment pas être considérée comme une équivalence
 Elle sert uniquement à distinguer :
 
 - la dynamique microscopique ;
-- les états intermédiaires ;
+- les états ou configurations intermédiaires ;
 - les interactions ;
 - les contraintes de cohérence ;
-- l'état collectif final.
+- la description macroscopique.
 
 ---
 
-## 18. Hypothèse d'une dynamique de stabilisation
+## 18. Deux logiques possibles pour l'émergence
 
-Cette première formulation constitue une **logique A** possible.
+Les échanges ayant suivi le document initial ont conduit à distinguer explicitement deux mécanismes conceptuels.
 
-On peut formaliser cette intuition de manière abstraite :
+### Logique A — Relaxation temporelle
+
+Le système évolue réellement dans le temps et atteint progressivement une configuration stable :
 
 ```math
 \mathcal{Q}_0
@@ -569,170 +565,188 @@ On peut formaliser cette intuition de manière abstraite :
 \rightarrow
 \cdots
 \rightarrow
-\mathcal{Q}_n
-```
-
-et une dynamique collective $\mathcal{R}$ conduisant vers un état stable :
-
-```math
-\{\mathcal{Q}_0,\mathcal{Q}_1,\ldots,\mathcal{Q}_n\}
-\xrightarrow{\mathcal{R}}
 \mathcal{Q}_{\mathrm{stable}}
 ```
 
-On pourrait alors rechercher :
+Cette logique peut être pertinente pour certains mécanismes de transition, relaxation, thermalisation, changement de phase ou flux vers un point fixe.
+
+### Logique B — Somme simultanée sur les configurations
+
+Dans cette logique, il n'est pas nécessaire de supposer une succession temporelle des configurations.
+
+Toutes les configurations contribuent à une amplitude globale :
 
 ```math
-\mathcal{Q}_{\mathrm{stable}}
-\xrightarrow{\mathcal{G}}
-g_{\mu\nu}
+\Psi
+\sim
+\int
+\mathcal{D}[\text{configurations}]
+\,e^{iS/\hbar}
 ```
 
-La chaîne conceptuelle devient :
+Dans la limite semi-classique, les contributions dont la phase varie rapidement tendent à s'annuler, tandis que les régions où l'action est stationnaire contribuent de façon constructive.
 
-```math
-\text{micro-états}
-\rightarrow
-\text{corrélations}
-\rightarrow
-\text{relaxation / stabilisation}
-\rightarrow
-\text{état collectif}
-\rightarrow
-\text{géométrie}
-```
+L'état classique observé n'est donc pas nécessairement un état « atteint » après une exploration temporelle des alternatives.
 
-Cette logique reste utile comme hypothèse comparative, mais elle n'est plus la formulation privilégiée pour le mécanisme fondamental d'émergence de $g_{\mu\nu}$.
+Il peut être le résultat dominant d'une somme sur les possibilités.
 
 ---
 
-## 19. Énergie microscopique et gravitation effective
+## 19. Pourquoi la logique B est désormais privilégiée
 
-Cette hypothèse conduit à distinguer conceptuellement :
+L'exemple du photon réfléchi par un miroir permet d'illustrer intuitivement cette seconde logique.
 
-```math
-\rho_{\mathrm{micro}}
-\gg
-\rho_{\mathrm{eff}}
-```
+Dans l'intégrale de chemin, toutes les trajectoires possibles contribuent à l'amplitude.
 
-sans supposer que l'énergie microscopique « disparaît ».
-
-La question serait plutôt de savoir si la grandeur qui intervient dans la description gravitationnelle macroscopique est une grandeur effective issue de la dynamique collective.
-
-Une formulation plus fondamentale pourrait être :
+Les chemins éloignés du chemin classique ont des phases qui varient rapidement les unes par rapport aux autres :
 
 ```math
-\{\text{états quantiques},\text{corrélations}\}
-\rightarrow
-T_{\mu\nu}^{\mathrm{eff}}
-\rightarrow
-g_{\mu\nu}
+\text{interférences destructives}
 ```
 
-La question devient alors :
+Le voisinage du chemin classique correspond au contraire à une région de phase stationnaire :
 
-> **Comment construire $T_{\mu\nu}^{\mathrm{eff}}$ à partir des degrés de liberté fondamentaux ?**
+```math
+\delta S = 0
+```
 
-Aucune relation générale de cette forme n'est supposée acquise ici.
+Les contributions voisines ont alors des phases proches et se renforcent.
+
+Le résultat observé — par exemple un point sur l'écran — n'est donc pas nécessairement la trace d'un unique chemin réellement emprunté.
+
+Il peut être interprété comme le résultat macroscopique dominant d'une somme sur toutes les possibilités.
+
+C'est cette structure que nous retenons comme analogue conceptuel pour l'émergence de $g_{\mu\nu}$.
 
 ---
 
-## 20. Le lien possible avec la constante cosmologique
+## 20. Phase stationnaire et critère de résonance
 
-La constante cosmologique intervient dans les équations d'Einstein :
+Le critère formel de phase stationnaire est :
 
 ```math
-G_{\mu\nu}
-+
-\Lambda g_{\mu\nu}
+\delta S = 0
+```
+
+Mais notre question va légèrement plus loin.
+
+Nous cherchons à savoir si, dans une théorie microscopique complète, une géométrie classique pourrait correspondre à une **configuration cohérente vis-à-vis de l'ensemble des configurations voisines**.
+
+Une intuition supplémentaire provient de la condition de résonance en boucle fermée de type Bohr-Sommerfeld :
+
+```math
+n\lambda = 2\pi r
+```
+
+Lorsque les phases se referment de manière cohérente, la contribution peut devenir stable vis-à-vis de l'interférence avec elle-même.
+
+Cette intuition conduit à la question :
+
+> **Existe-t-il, pour les configurations géométriques, une condition de cohérence analogue qui sélectionne certaines géométries comme configurations quasi-classiques stables ?**
+
+Cette formulation doit être considérée comme une analogie heuristique.
+
+Elle ne signifie pas que la gravité quantique est simplement un problème de résonance mécanique au sens classique.
+
+---
+
+## 21. Une formulation de type intégrale de chemin
+
+La formulation générale recherchée peut être représentée symboliquement par :
+
+```math
+\Psi[G]
 =
-\frac{8\pi G}{c^4}T_{\mu\nu}
+\int_{\mathcal{C}(G)}
+\mathcal{D}\Phi\;
+e^{iS_{\mathrm{micro}}[\Phi]/\hbar}
 ```
 
-Une contribution d'énergie du vide peut, dans certaines conventions, être représentée par une contribution de type :
+où :
 
-```math
-T_{\mu\nu}^{\mathrm{vac}}
-=
--\rho_{\mathrm{vac}}c^2 g_{\mu\nu}
-```
+- $\Phi$ représente les degrés de liberté fondamentaux ;
+- $\mathcal{C}(G)$ désigne l'ensemble des configurations compatibles avec une géométrie effective candidate $G$ ;
+- $S_{\mathrm{micro}}$ représente une action microscopique encore à définir.
 
-La question devient alors :
+Cette écriture doit être considérée comme **un objectif de formalisation**, et non comme une équation déjà dérivée.
 
-> **La valeur cosmologiquement observée de $\Lambda$ pourrait-elle être une propriété émergente d'un état collectif stabilisé du secteur quantique plutôt qu'une simple somme des énergies de point zéro de tous les champs ?**
+Elle permet toutefois de poser clairement le problème :
 
-Cette hypothèse devrait expliquer pourquoi la contribution effectivement observée est extrêmement faible par rapport aux estimations naïves.
+> **Quelle classe de configurations microscopiques, quelle mesure et quelle action produisent, après sommation et prise de la limite semi-classique, une géométrie de type Einstein ?**
 
 ---
 
-## 21. Une formulation générale de la dynamique recherchée
+## 22. Problèmes techniques associés à la logique B
 
-La structure hypothétique peut être résumée par :
+Cette formulation rencontre plusieurs difficultés connues :
 
-```math
-\{\hat{\Phi}_i\}
-\rightarrow
-\{\text{états quantiques}\}
-\rightarrow
-\{\text{corrélations et transitions}\}
-\rightarrow
-\mathcal{Q}_{\mathrm{stable}}
-\rightarrow
-T_{\mu\nu}^{\mathrm{eff}}
-\rightarrow
-g_{\mu\nu}
-```
+- **problème de la mesure :** comment définir $\mathcal{D}[g_{\mu\nu}]$ ou son analogue microscopique de façon covariante ?
+- **convergence :** le poids lorentzien $e^{iS/\hbar}$ est oscillant ;
+- **facteur conforme :** l'action gravitationnelle possède des directions problématiques dans certaines formulations ;
+- **renormalisation :** la relativité générale quantifiée perturbativement n'est pas renormalisable au sens usuel.
 
-puis, dans une limite macroscopique :
-
-```math
-G_{\mu\nu}
-+
-\Lambda_{\mathrm{eff}}g_{\mu\nu}
-=
-\frac{8\pi G_{\mathrm{eff}}}{c^4}
-T_{\mu\nu}^{\mathrm{eff}}
-```
-
-Cette chaîne représente **une architecture conceptuelle**, et non une théorie établie.
+Ainsi, l'intégrale de chemin gravitationnelle constitue un **cadre formel puissant**, mais pas encore une théorie microscopique complète et calculable de la gravité.
 
 ---
 
-## 22. Nouvelles questions ouvertes
+## 23. Hypothèses de travail H1–H10
 
-Cette hypothèse permet de poser plusieurs questions distinctes.
+Une fois la logique B retenue, le programme se décompose en hypothèses précises.
 
-### 22.1 Existe-t-il un état attracteur cosmologique ?
+### H1 — Nature des degrés de liberté sommés
 
-Existe-t-il une dynamique quantique possédant un état stable ou attracteur :
+Que sont concrètement les $\hat{\Phi}_i$ ?
+
+Possibilités envisagées :
+
+- champs quantiques sur un espace-temps de fond ;
+- états d'un réseau discret ;
+- réseaux de spins ;
+- ensembles causaux ;
+- configurations relationnelles ;
+- substrat de type liquide quantique.
+
+Tant que ce choix n'est pas fait, l'intégrale sur les configurations n'a pas d'objet complètement défini.
+
+### H2 — Action microscopique
+
+Il faut une action fondamentale :
 
 ```math
-\mathcal{Q}_{\mathrm{stable}}
+S[\hat{\Phi}_i]
 ```
 
-dont les propriétés macroscopiques reproduisent les paramètres observés de la gravitation ?
+et non simplement supposer l'action d'Einstein-Hilbert au départ.
 
-### 22.2 Les états intermédiaires sont-ils gravitationnellement observables ?
+L'objectif serait de comprendre comment une action gravitationnelle effective apparaît après intégration ou réduction des degrés de liberté microscopiques.
 
-Si la géométrie macroscopique dépend essentiellement de l'état collectif final, les états intermédiaires pourraient-ils être masqués par le processus de coarse-graining ?
+### H3 — Mesure d'intégration
 
-### 22.3 Existe-t-il une opération de renormalisation physique permettant de calculer cette transition ?
+Il faut préciser quelle classe de configurations est sommée et comment la mesure respecte les symétries pertinentes.
 
-Peut-on identifier une transformation de type :
+### H4 — Signature et convergence
+
+Il faut distinguer les formulations euclidiennes et lorentziennes et préciser dans quel régime la somme sur les configurations est définie.
+
+### H5 — Critère de phase stationnaire
+
+Formellement :
 
 ```math
-\mathcal{R}_\mu :
-\mathcal{Q}_{\mathrm{micro}}
-\rightarrow
-\mathcal{Q}_{\mathrm{macro}}
+\delta S = 0
 ```
 
-qui expliquerait quantitativement l'apparition des paramètres gravitationnels effectifs ?
+mais le véritable test consiste à montrer que ce critère appliqué à l'action microscopique conduit, après réduction appropriée, aux équations d'Einstein ou à leur équivalent effectif.
 
-### 22.4 Le même mécanisme pourrait-il déterminer $G$ et $\Lambda$ ?
+### H6 — Mécanisme de décohérence
 
-Existe-t-il un mécanisme commun donnant simultanément :
+Une phase stationnaire dominante n'explique pas à elle seule pourquoi un observateur voit une géométrie classique et non une superposition de géométries.
+
+Il faut donc un mécanisme séparé de décohérence.
+
+### H7 — Origine des constantes effectives
+
+Il faut relier explicitement :
 
 ```math
 G_{\mathrm{eff}}
@@ -744,158 +758,521 @@ et :
 \Lambda_{\mathrm{eff}}
 ```
 
-avec une relation du type :
+aux paramètres du modèle microscopique.
+
+### H8 — Conditions aux limites
+
+Il faut préciser quelles conditions aux limites sont imposées ou si aucune condition de bord particulière n'est requise.
+
+### H9 — Domaine de validité
+
+La construction devra indiquer à quelle échelle elle est censée être valable.
+
+### H10 — Prédiction distinctive
+
+Une théorie scientifique complète doit produire au moins une conséquence testable qui distingue cette construction des modèles standards.
+
+---
+
+## 24. H6bis — Configurations spatio-temporelles parallèles
+
+L'idée des « possibilités parallèles » peut être poussée plus loin.
+
+Au lieu de considérer simplement plusieurs états intermédiaires d'un même espace-temps, on peut envisager une multiplicité de **configurations ou histoires spatio-temporelles possibles**.
+
+On peut écrire :
 
 ```math
-\mathcal{Q}_{\mathrm{stable}}
+\left\{
+\mathcal{H}_1,
+\mathcal{H}_2,
+\mathcal{H}_3,
+\ldots,
+\mathcal{H}_N
+\right\}
+```
+
+où chaque $\mathcal{H}_i$ représente une histoire ou une configuration possible.
+
+Dans une hypothèse plus ambitieuse, chaque histoire pourrait posséder sa propre géométrie effective :
+
+```math
+\mathcal{H}_i
 \rightarrow
-\left(
-g_{\mu\nu},
-G_{\mathrm{eff}},
-\Lambda_{\mathrm{eff}}
-\right)
+g_{\mu\nu}^{(i)}
 ```
 
----
-
-## 23. Une distinction entre trois problèmes
-
-La réflexion fait apparaître trois questions liées mais logiquement indépendantes :
-
-| Problème | Question |
-|---|---|
-| **Géométrie** | Comment $g_{\mu\nu}$ pourrait-il émerger ? |
-| **Gravitation** | Comment $G_{\mathrm{eff}}$ pourrait-il apparaître ? |
-| **Cosmologie** | Pourquoi $\Lambda_{\mathrm{eff}}$ est-il si faible ? |
-| **Temps** | Le temps propre pourrait-il lui-même être émergent ? |
-
-Une théorie pourrait éventuellement résoudre l'un de ces problèmes sans résoudre les deux autres.
-
-Il faut donc éviter de supposer que :
+et éventuellement son propre temps propre effectif :
 
 ```math
-\text{émergence de }g_{\mu\nu}
-\Longrightarrow
-\text{résolution automatique de }G
-\Longrightarrow
-\text{résolution automatique de }\Lambda
-```
-
-Ces implications restent à démontrer.
-
----
-
-## 24. Hypothèse complémentaire : le temps comme variable émergente
-
-Si la géométrie classique $g_{\mu\nu}$ est elle-même émergente, une question analogue peut être posée concernant le temps.
-
-En relativité, le temps propre dépend de la métrique :
-
-```math
-d\tau^2
+d\tau_i^2
 =
 -\frac{1}{c^2}
-g_{\mu\nu}dx^\mu dx^\nu
+g_{\mu\nu}^{(i)}dx^\mu dx^\nu
 ```
+
+Cette hypothèse est volontairement plus forte que la simple notion de niveaux de description.
+
+Elle demande si une multiplicité de configurations spatio-temporelles pourrait exister au niveau quantique avant qu'un secteur quasi-classique soit identifié comme celui que nous observons.
+
+> **Précaution :** la physique actuelle formalise des amplitudes, des histoires et des branches quantiques dans plusieurs cadres, mais cela ne démontre pas l'existence empirique de plusieurs espaces-temps classiques indépendants.
+
+---
+
+## 25. H6bis.1 — La décohérence des histoires
+
+Les différentes histoires peuvent être schématiquement représentées par :
+
+```math
+\{\mathcal{H}_i\}
+\rightarrow
+\text{interférences}
+\rightarrow
+\text{décohérence}
+\rightarrow
+\{\mathcal{H}_i^{\mathrm{qc}}\}
+```
+
+où $\mathcal{H}_i^{\mathrm{qc}}$ désigne une histoire devenue approximativement classique.
+
+Il ne s'agit pas nécessairement d'imaginer qu'une seule histoire « gagne ».
+
+Une famille d'histoires peut devenir suffisamment décohérente des autres pour pouvoir être décrite comme un secteur quasi-classique indépendant.
 
 La question devient alors :
 
-> **Et si le temps macroscopique que nous mesurons était lui-même une variable effective résultant de la dynamique collective des degrés de liberté quantiques ?**
+> **La géométrie classique observée pourrait-elle être associée à une classe d'histoires dont la structure spatio-temporelle devient stable sous l'effet de la décohérence ?**
 
-Il ne s'agirait pas de supposer l'existence de plusieurs temps physiques indépendants.
+---
 
-Il s'agirait plutôt d'étudier si le paramètre temporel utilisé dans une description microscopique et le temps propre de la description macroscopique sont reliés par une dynamique d'émergence.
+## 26. H6bis.2 — L'analogie des bulles de savon
 
-On peut introduire conceptuellement :
+Une intuition macroscopique provient d'une observation simple : la formation de bulles de savon.
+
+Plusieurs bulles peuvent apparaître simultanément, interagir et se réorganiser.
+
+Les bulles les plus petites peuvent fusionner avec des bulles plus grandes, sous l'effet de la tension de surface et des contraintes du système.
+
+On peut représenter schématiquement :
 
 ```math
-\tau_{\mathrm{micro}}
+\{\mathcal{B}_1,\mathcal{B}_2,\mathcal{B}_3,\ldots\}
+\rightarrow
+\text{interactions}
+\rightarrow
+\text{coalescence}
+\rightarrow
+\mathcal{B}_{\mathrm{collective}}
+```
+
+Cette observation fournit une analogie utile :
+
+> **Une multiplicité de configurations locales peut donner naissance à une organisation macroscopique dominante.**
+
+Dans cette image, la « plus grosse bulle » représente symboliquement la configuration collective la plus forte ou la plus cohérente à l'échelle d'observation considérée.
+
+Mais la comparaison doit rester strictement heuristique.
+
+Pour les bulles, le mécanisme est physique et connu :
+
+```math
+\text{tension de surface}
+\rightarrow
+\text{coalescence}
+```
+
+Pour le problème quantique étudié ici, le mécanisme recherché est différent :
+
+```math
+\text{interférences}
+\rightarrow
+\text{phase stationnaire}
+\rightarrow
+\text{décohérence}
+```
+
+Ainsi :
+
+```math
+\text{coalescence classique}
+\neq
+\text{interférence quantique}
+```
+
+---
+
+## 27. H6bis.3 — Les bulles comme représentation de plusieurs espaces-temps possibles
+
+L'analogie des bulles peut être poussée encore plus loin.
+
+Chaque bulle peut être considérée, symboliquement, comme une représentation d'une configuration spatio-temporelle possible :
+
+```math
+\mathcal{H}_1,\mathcal{H}_2,\mathcal{H}_3,\ldots
+```
+
+La diversité des bulles correspond alors, par analogie :
+
+```math
+\text{multiplicité des configurations}
+```
+
+et la structure dominante :
+
+```math
+\text{configuration collective macroscopiquement cohérente}
+```
+
+On peut représenter l'ensemble :
+
+```math
+\left\{
+g_{\mu\nu}^{(1)},
+g_{\mu\nu}^{(2)},
+\ldots,
+g_{\mu\nu}^{(N)}
+\right\}
+```
+
+comme une collection hypothétique de géométries possibles.
+
+La question scientifique serait alors :
+
+> **La géométrie de l'espace-temps que nous observons pourrait-elle être le secteur quasi-classique dominant issu d'une multiplicité de configurations spatio-temporelles quantiques possibles ?**
+
+Cette formulation ne prétend pas que plusieurs espaces-temps classiques sont directement observables.
+
+Elle propose de déterminer si une théorie quantique de la gravitation donne un sens mathématique à une telle multiplicité.
+
+---
+
+## 28. H6bis.4 — Le parallèle avec le photon et le miroir
+
+Cette intuition peut être rapprochée de l'exemple du photon réfléchi par un miroir.
+
+Dans l'intégrale de chemin :
+
+```math
+\Psi
+\sim
+\sum_{\text{chemins}}
+e^{iS/\hbar}
+```
+
+ou, en version continue :
+
+```math
+\Psi
+\sim
+\int \mathcal{D}[\text{chemins}]\,e^{iS/\hbar}
+```
+
+Toutes les trajectoires contribuent à l'amplitude.
+
+Les contributions dont les phases varient rapidement tendent à s'annuler par interférence destructive.
+
+À proximité du chemin classique :
+
+```math
+\delta S = 0
+```
+
+les contributions voisines sont plus cohérentes et se renforcent.
+
+Le point macroscopiquement observé n'est donc pas nécessairement la manifestation d'un seul chemin microscopique réellement emprunté.
+
+Il peut être compris comme la manifestation de la région de l'espace des configurations où les contributions interfèrent de manière constructive.
+
+Cela conduit au parallèle :
+
+```math
+\text{bulles}
+\rightarrow
+\text{coalescence vers une structure macroscopique}
 ```
 
 et :
 
 ```math
-\tau_{\mathrm{eff}}
+\text{photon}
+\rightarrow
+\text{interférence de toutes les possibilités}
+\rightarrow
+\text{région de phase stationnaire}
+\rightarrow
+\text{résultat observable}
 ```
-
-mais sans supposer qu'ils correspondent à deux temps physiques indépendants.
 
 ---
 
-## 25. Temps microscopique, temps effectif et stabilisation
+## 29. H6bis.5 — Une formulation plus précise de la « réalité construite »
 
-Dans cette hypothèse, la question pourrait être formulée ainsi :
+La notion intuitive de « réalité finale » doit être reformulée avec prudence.
+
+Il ne s'agit pas de dire :
+
+> « la plus grosse configuration absorbe toutes les autres ».
+
+Il est plus rigoureux de parler d'une :
+
+> **configuration ou famille de configurations dont la cohérence collective domine dans la limite macroscopique considérée.**
+
+On peut l'écrire :
 
 ```math
-\mathcal{Q}_{\mathrm{micro}}
+\{\mathcal{H}_i\}
+\rightarrow
+\text{interférences}
+\rightarrow
+\mathcal{H}_{\mathrm{dominante}}
+\rightarrow
+\text{réalité macroscopique effective}
+```
+
+Le terme « dominante » signifie ici dominante dans la description effective, et non nécessairement une entité physique qui aurait absorbé les autres.
+
+---
+
+## 30. H6bis.6 — Les temporalités internes aux histoires
+
+Si chaque histoire possède sa propre géométrie effective :
+
+```math
+\mathcal{H}_i
+\rightarrow
+g_{\mu\nu}^{(i)}
+```
+
+alors son temps propre est également déterminé par cette géométrie :
+
+```math
+d\tau_i^2
+=
+-\frac{1}{c^2}
+g_{\mu\nu}^{(i)}dx^\mu dx^\nu
+```
+
+On peut alors introduire conceptuellement :
+
+```math
+\left\{
+\tau_1,
+\tau_2,
+\ldots,
+\tau_N
+\right\}
+```
+
+associés aux différentes histoires.
+
+Cela ne signifie pas nécessairement que plusieurs temps fondamentaux existent.
+
+La question est plutôt :
+
+> **Le temps que nous observons pourrait-il être le temps propre interne à l'histoire quasi-classique dans laquelle notre description macroscopique est définie ?**
+
+Cette hypothèse fournit un lien conceptuel entre :
+
+```math
+\text{multiplicité des histoires}
+\rightarrow
+\text{décohérence}
+\rightarrow
+\text{géométrie effective}
+\rightarrow
+\text{temps effectif}
+```
+
+mais ce lien reste à construire mathématiquement.
+
+---
+
+## 31. H6bis.7 — Formulation unifiée de H6
+
+L'ensemble des idées associées à H6 peut finalement être résumé par :
+
+```math
+\boxed{
+\text{configurations spatio-temporelles quantiques}
+\rightarrow
+\text{interférences}
+\rightarrow
+\text{phase stationnaire}
+\rightarrow
+\text{décohérence}
+\rightarrow
+\text{histoires quasi-classiques}
+\rightarrow
 \left(
-\tau_{\mathrm{micro}}
-\right)
-\xrightarrow{\mathcal{C}}
-\mathcal{Q}_{\mathrm{collectif}}
-\left(
+g_{\mu\nu},
 \tau_{\mathrm{eff}}
 \right)
-\xrightarrow{\mathcal{G}}
+}
+```
+
+La question devient :
+
+> **Et si la réalité macroscopique que nous observons n'était pas la description fondamentale unique, mais le secteur quasi-classique cohérent d'une multiplicité de configurations spatio-temporelles quantiques simultanément contributives ?**
+
+Cette formulation constitue une hypothèse de recherche et non une interprétation établie.
+
+---
+
+## 32. Énergie microscopique et gravitation effective
+
+Cette hypothèse conduit à distinguer conceptuellement :
+
+```math
+\rho_{\mathrm{micro}}
+\gg
+\rho_{\mathrm{eff}}
+```
+
+sans supposer que l'énergie microscopique « disparaît ».
+
+La question serait plutôt de savoir si la grandeur qui intervient dans la description gravitationnelle macroscopique est une grandeur effective issue de l'organisation collective des configurations.
+
+Une formulation plus fondamentale pourrait être :
+
+```math
+\{\text{états quantiques},\text{corrélations},\text{histoires}\}
+\rightarrow
+T_{\mu\nu}^{\mathrm{eff}}
+\rightarrow
 g_{\mu\nu}
 ```
 
-où :
+La question devient alors :
 
-- $\tau_{\mathrm{micro}}$ représente une éventuelle paramétrisation microscopique ;
-- $\mathcal{C}$ représente un processus de coarse-graining ou de réduction des degrés de liberté ;
-- $\tau_{\mathrm{eff}}$ représente le paramètre temporel effectif de la description collective ;
-- $\mathcal{G}$ représente le passage vers la géométrie effective.
-
-Cette hypothèse ne prétend pas que les deux paramètres représentent deux temps fondamentaux.
-
-Elle pose plutôt la question :
-
-> **Le temps lui-même pourrait-il être une observable ou une variable collective émergente ?**
+> **Comment construire $T_{\mu\nu}^{\mathrm{eff}}$ à partir des degrés de liberté fondamentaux et de la structure collective des histoires ?**
 
 ---
 
-## 26. Une possible échelle de stabilisation temporelle
+## 33. Le lien possible avec la constante cosmologique
 
-La transition vers un état collectif stable peut être associée, de manière conceptuelle, à une échelle de temps :
+La constante cosmologique intervient dans les équations d'Einstein :
 
 ```math
-\tau_{\mathrm{stab}}
+G_{\mu\nu}
++
+\Lambda g_{\mu\nu}
+=
+\frac{8\pi G}{c^4}T_{\mu\nu}
 ```
 
-On pourrait alors considérer :
+Une contribution d'énergie du vide peut, dans certaines conventions, être représentée par :
 
 ```math
-\mathcal{Q}(t_0)
-\rightarrow
-\mathcal{Q}(t_1)
-\rightarrow
-\mathcal{Q}(t_2)
-\rightarrow
-\cdots
-\rightarrow
-\mathcal{Q}_{\mathrm{stable}}
+T_{\mu\nu}^{\mathrm{vac}}
+=
+-\rho_{\mathrm{vac}}c^2 g_{\mu\nu}
 ```
 
-et rechercher une relation entre :
+La question devient :
+
+> **La valeur cosmologiquement observée de $\Lambda$ pourrait-elle être une propriété émergente d'un secteur collectif de configurations quantiques plutôt qu'une simple somme des énergies de point zéro de tous les champs ?**
+
+Cette hypothèse devrait expliquer pourquoi la contribution effectivement observée est extrêmement faible par rapport aux estimations naïves.
+
+---
+
+## 34. Une distinction entre trois niveaux de description
+
+La réflexion conduit désormais à distinguer au moins trois niveaux :
+
+### Niveau microscopique
 
 ```math
-\tau_{\mathrm{micro}},
-\qquad
-\tau_{\mathrm{stab}},
-\qquad
+\hat{\Phi}_i
+```
+
+### Niveau quantique des configurations ou histoires
+
+```math
+\mathcal{H}_i
+```
+
+### Niveau classique émergent
+
+```math
+\left(
+g_{\mu\nu},
+\tau_{\mathrm{eff}},
+G_{\mathrm{eff}},
+\Lambda_{\mathrm{eff}}
+\right)
+```
+
+On peut résumer :
+
+```math
+\boxed{
+\hat{\Phi}_i
+\rightarrow
+\mathcal{H}_i
+\rightarrow
+\text{phase stationnaire / décohérence}
+\rightarrow
+\left(
+g_{\mu\nu},
+\tau_{\mathrm{eff}},
+G_{\mathrm{eff}},
+\Lambda_{\mathrm{eff}}
+\right)
+}
+```
+
+Cette séparation permet d'éviter de confondre :
+
+- les degrés de liberté fondamentaux ;
+- les configurations ou histoires possibles ;
+- les variables macroscopiques effectives.
+
+---
+
+## 35. Temps, histoire et géométrie
+
+Si l'on associe à une histoire :
+
+```math
+\mathcal{H}_i
+\rightarrow
+\left(
+g_{\mu\nu}^{(i)},
+\tau_{\mathrm{eff}}^{(i)}
+\right)
+```
+
+alors la géométrie et le temps deviennent deux aspects liés de la même description effective.
+
+La question ne consiste plus seulement à rechercher :
+
+```math
+\text{microphysique}
+\rightarrow
+g_{\mu\nu}
+```
+
+mais potentiellement :
+
+```math
+\text{microphysique}
+\rightarrow
+\left(
+g_{\mu\nu},
 \tau_{\mathrm{eff}}
+\right)
 ```
 
-Cette proposition doit être distinguée des notions existantes de décohérence, relaxation, thermalisation et renormalisation.
-
-Il faudrait déterminer quel mécanisme, le cas échéant, pourrait réellement jouer un rôle dans l'émergence d'une géométrie classique.
+La possibilité d'un mécanisme commun constitue une question ouverte.
 
 ---
 
-## 27. Une hypothèse de séparation des échelles temporelles
+## 36. Une hypothèse de séparation des échelles temporelles
 
-Une intuition supplémentaire peut être exprimée sous la forme :
+Même dans une formulation où les configurations contribuent simultanément, plusieurs échelles temporelles peuvent apparaître dans la description effective.
+
+On peut considérer :
 
 ```math
 \tau_{\mathrm{micro}}
@@ -907,103 +1284,21 @@ Une intuition supplémentaire peut être exprimée sous la forme :
 
 où :
 
-- $\tau_{\mathrm{micro}}$ représente une échelle dynamique microscopique ;
-- $\tau_{\mathrm{corr}}$ une éventuelle échelle d'établissement des corrélations ;
-- $\tau_{\mathrm{macro}}$ une échelle macroscopique.
+- $\tau_{\mathrm{micro}}$ représente une échelle microscopique ;
+- $\tau_{\mathrm{corr}}$ représente une échelle éventuelle d'établissement des corrélations ;
+- $\tau_{\mathrm{macro}}$ représente une échelle macroscopique.
 
-Cette relation est uniquement heuristique.
+Cette relation est heuristique.
 
-Elle ne signifie pas qu'il existe plusieurs temps fondamentaux.
+Elle ne signifie pas l'existence de plusieurs temps fondamentaux.
 
-Elle pose la question :
+Elle pose plutôt la question :
 
-> **Une séparation d'échelles temporelles pourrait-elle accompagner le passage d'une dynamique quantique microscopique à une géométrie macroscopique stable ?**
-
----
-
-## 28. Une formulation hypothétique entre les deux descriptions temporelles
-
-On pourrait rechercher, dans une théorie éventuelle, une relation du type :
-
-```math
-\tau_{\mathrm{eff}}
-=
-\mathcal{T}
-\left[
-\mathcal{Q}_{\mathrm{micro}},
-\text{corrélations},
-\text{contraintes},
-\text{état collectif}
-\right]
-```
-
-ou plus abstraitement :
-
-```math
-d\tau_{\mathrm{eff}}
-=
-F
-\left(
-d\tau_{\mathrm{micro}},
-\mathcal{Q},
-\mathcal{C},
-\mathcal{I}
-\right)
-```
-
-Une théorie complète devrait évidemment dériver cette relation plutôt que la postuler.
-
-Dans la limite macroscopique, elle devrait retrouver le temps propre relativiste :
-
-```math
-d\tau^2
-=
--\frac{1}{c^2}
-g_{\mu\nu}dx^\mu dx^\nu
-```
-
-La question est donc :
-
-> **Le temps propre de la relativité générale pourrait-il lui-même apparaître comme une limite collective d'une dynamique plus fondamentale ?**
+> **Une hiérarchie d'échelles temporelles pourrait-elle émerger de la dynamique des corrélations et des histoires quasi-classiques ?**
 
 ---
 
-## 29. Le temps et la hiérarchie des énergies
-
-Cette hypothèse temporelle permet également de reformuler la question des grandes différences d'échelle :
-
-```math
-\left(
-\mathcal{Q}_{\mathrm{micro}},
-E_{\mathrm{micro}},
-\tau_{\mathrm{micro}}
-\right)
-\rightarrow
-\left(
-\mathcal{Q}_{\mathrm{stable}},
-E_{\mathrm{eff}},
-\tau_{\mathrm{eff}}
-\right)
-```
-
-Dans cette perspective, les différences entre les descriptions microscopique et macroscopique pourraient concerner :
-
-- les degrés de liberté accessibles ;
-- les corrélations ;
-- les échelles spatiales ;
-- les échelles temporelles ;
-- les observables ;
-- les paramètres effectifs.
-
-Cela conduit à une question générale :
-
-> **Les grands écarts entre certaines grandeurs microscopiques et leurs valeurs gravitationnelles effectives pourraient-ils être liés à une transformation simultanée des degrés de liberté, des échelles d'énergie et des échelles temporelles ?**
-
-Cette hypothèse reste entièrement à démontrer.
-
----
-
-## 30. Le rôle possible de l'effet Casimir
+## 37. Le rôle possible de l'effet Casimir
 
 L'effet Casimir apporte une motivation expérimentale intéressante pour poser une question sur la pertinence des **différences d'énergie entre configurations quantiques**.
 
@@ -1023,7 +1318,7 @@ Il montre qu'une modification des conditions imposées aux champs quantiques peu
 
 Cela conduit à la question :
 
-> **Et si la quantité gravitationnellement pertinente à grande échelle était elle aussi une grandeur effective associée à une différence ou à une combinaison de plusieurs états quantiques ?**
+> **Et si la quantité gravitationnellement pertinente à grande échelle était elle aussi une grandeur effective associée à une différence ou à une combinaison de plusieurs configurations quantiques ?**
 
 On pourrait alors rechercher :
 
@@ -1033,11 +1328,12 @@ On pourrait alors rechercher :
 \mathcal{F}
 \left[
 \mathcal{Q}_{\mathrm{micro}},
-\mathcal{Q}_{\mathrm{stable}}
+\mathcal{H}_i,
+\mathcal{H}_j
 \right]
 ```
 
-et examiner si, dans une théorie précise :
+et examiner si une telle grandeur contribue effectivement à :
 
 ```math
 \Delta E_{\mathrm{eff}}
@@ -1049,11 +1345,11 @@ Il ne s'agit pas de proposer une « constante cosmologique Casimir ».
 
 Il s'agit seulement de demander :
 
-> **La gravitation couple-t-elle à une énergie absolue, ou pourrait-elle répondre à une grandeur effective issue de différences entre états ?**
+> **La gravitation couple-t-elle à une énergie absolue, ou pourrait-elle répondre à une grandeur effective issue de différences entre états ou configurations ?**
 
 ---
 
-## 31. Une contrainte de cohérence géométrique
+## 38. Une contrainte de cohérence géométrique
 
 L'analogie avec une « vérification de cohérence » peut également être rapprochée d'une propriété mathématique réelle de la relativité générale.
 
@@ -1079,16 +1375,15 @@ L'analogie avec un linker ou un compilateur est uniquement heuristique.
 
 ---
 
-## 32. Une formulation unifiée
+## 39. Une formulation générale de la dynamique recherchée
 
-Les différentes propositions peuvent finalement être regroupées en une seule chaîne conceptuelle :
+L'ensemble de l'hypothèse peut être résumé par :
 
 ```math
+\boxed{
 \text{degrés de liberté quantiques}
 \rightarrow
-\text{micro-états}
-\rightarrow
-\text{interactions}
+\text{configurations / histoires}
 \rightarrow
 \text{corrélations}
 \rightarrow
@@ -1098,7 +1393,15 @@ Les différentes propositions peuvent finalement être regroupées en une seule 
 \rightarrow
 \text{décohérence}
 \rightarrow
-\text{histoires quasi-classiques}
+\text{secteur quasi-classique}
+}
+```
+
+Puis :
+
+```math
+\boxed{
+\text{secteur quasi-classique}
 \rightarrow
 \left(
 g_{\mu\nu},
@@ -1106,296 +1409,77 @@ g_{\mu\nu},
 G_{\mathrm{eff}},
 \Lambda_{\mathrm{eff}}
 \right)
+}
 ```
 
-Puis :
+et enfin :
 
 ```math
-g_{\mu\nu}
-\longrightarrow
-G_{\mu\nu}
-```
-
-et, dans la limite classique :
-
-```math
+\boxed{
 G_{\mu\nu}
 +
 \Lambda_{\mathrm{eff}}g_{\mu\nu}
 =
 \frac{8\pi G_{\mathrm{eff}}}{c^4}
 T_{\mu\nu}^{\mathrm{eff}}
+}
 ```
 
 Cette chaîne constitue **une architecture conceptuelle**, et non une théorie établie.
 
-Elle remplace volontairement l'idée trop simple d'une « stabilisation finale » par une succession plus précise :
-
-> **possibilités quantiques → interférences → phase stationnaire → décohérence → description quasi-classique.**
-
 ---
 
-## 33. Une analogie supplémentaire : la coalescence des bulles de savon
+## 40. Question ouverte sur la masse effective
 
-Une observation macroscopique simple fournit une analogie utile.
-
-Dans une mousse de savon, plusieurs bulles peuvent coexister. Les interactions entre elles, combinées à la tension de surface, conduisent à des phénomènes de coalescence et de réorganisation vers des configurations globalement plus favorables.
-
-On peut schématiquement représenter :
+Une piste parallèle apparue dans un échange porte sur l'hypothèse :
 
 ```math
-\{\mathcal{B}_1,\mathcal{B}_2,\mathcal{B}_3,\ldots\}
-\rightarrow
-\text{interactions}
-\rightarrow
-\text{coalescence}
-\rightarrow
-\mathcal{B}_{\mathrm{collective}}
+m_{\mathrm{eff}}
+=
+\frac{E}{c_{\mathrm{loc}}^2}
 ```
 
-Cette analogie n'est évidemment pas une description du mécanisme quantique.
+Cette relation est dimensionnellement cohérente, mais ne devient physiquement non triviale que si $c_{\mathrm{loc}}$ est défini comme une vitesse de propagation effective dérivée d'une dynamique microscopique.
 
-Elle permet seulement d'illustrer une idée générale :
-
-> **Une multiplicité de configurations locales peut donner naissance à une description macroscopique dominée par une organisation collective.**
-
-Dans le cas des bulles, la grandeur organisatrice est principalement associée à l'énergie de surface.
-
-Dans le cas quantique, le mécanisme analogue recherché n'est pas une tension de surface, mais la structure des amplitudes, des phases, des corrélations et de la décohérence.
-
----
-
-## 34. Coalescence classique et interférence quantique : une distinction essentielle
-
-Le parallèle précédent doit cependant être utilisé avec rigueur :
+La question pourrait être formulée comme :
 
 ```math
-\text{coalescence classique}
-\neq
-\text{interférence quantique}
-```
-
-Pour les bulles, les configurations évoluent réellement et se fusionnent sous l'effet des forces et de la tension de surface.
-
-Dans une intégrale de chemin, les alternatives quantiques ne fusionnent pas littéralement en une seule configuration.
-
-Elles contribuent à une amplitude globale et interfèrent entre elles.
-
-On peut alors représenter le mécanisme quantique :
-
-```math
-\text{configurations quantiques}
-\rightarrow
-\text{phases différentes}
-\rightarrow
-\text{interférences destructives}
-\rightarrow
-\text{contributions fortement supprimées}
-\rightarrow
-\text{région de phase stationnaire}
-\rightarrow
-\text{contribution dominante}
-```
-
-La « résonance » utilisée dans ce document désigne donc de façon heuristique la région où les phases restent suffisamment cohérentes pour éviter l'annulation destructive.
-
-Ce terme ne doit pas être compris comme une nouvelle loi physique déjà démontrée.
-
----
-
-## 35. Des possibilités parallèles aux histoires quasi-classiques
-
-Cette réflexion permet de reformuler l'idée de « possibilités parallèles ».
-
-On peut envisager une collection d'histoires quantiques possibles :
-
-```math
-\mathcal{H}_1,
-\mathcal{H}_2,
-\mathcal{H}_3,
-\ldots
-```
-
-dont les amplitudes interfèrent avant qu'une décohérence suffisante permette l'émergence de secteurs quasi-classiques distincts.
-
-On peut représenter schématiquement :
-
-```math
-\{\mathcal{H}_i\}
-\rightarrow
-\text{interférences}
-\rightarrow
-\text{décohérence}
-\rightarrow
-\{\mathcal{H}_i^{\mathrm{quasi-classiques}}\}
-```
-
-Cette formulation ne signifie pas qu'une seule histoire « gagne ».
-
-Elle suggère plutôt que certaines familles d'histoires peuvent devenir pratiquement indépendantes du point de vue de leurs interférences et acquérir une description classique.
-
-La question de recherche devient :
-
-> **La géométrie classique pourrait-elle être associée à une classe d'histoires quasi-classiques dont la métrique effective est stable sous les fluctuations restantes ?**
-
----
-
-## 36. Une géométrie et un temps effectifs associés à une histoire
-
-On peut alors introduire, de manière hypothétique, une association entre une histoire quasi-classique et ses variables effectives :
-
-```math
-\mathcal{H}_i
-\rightarrow
-\left(
-g_{\mu\nu}^{(i)},
-G_{\mathrm{eff}}^{(i)},
-\Lambda_{\mathrm{eff}}^{(i)},
-\tau_{\mathrm{eff}}^{(i)}
-\right)
-```
-
-Il ne s'agit pas de supposer que toutes ces grandeurs varient effectivement d'une histoire à l'autre.
-
-Il s'agit de poser une question :
-
-> **Peut-on dériver les variables effectives d'une histoire à partir de la même structure microscopique et de ses corrélations ?**
-
-Cette formulation permet de relier plusieurs axes du document :
-
-```math
-\text{substrat quantique}
+\mathcal{Q}_{\mathrm{local}}
 \rightarrow
 \text{corrélations}
 \rightarrow
-\text{histoires}
+c_{\mathrm{loc}}
 \rightarrow
-\text{décohérence}
+E(p)
 \rightarrow
-\text{géométrie effective}
+m_{\mathrm{eff}}
 ```
 
-avec éventuellement :
+Cette piste ne démontre pas que la masse fondamentale est émergente.
+
+Elle pose plutôt une question supplémentaire :
+
+> **Le même substrat quantique qui produirait éventuellement la géométrie pourrait-il également produire l'inertie ou la masse effective ?**
+
+On pourrait alors rechercher, de manière ambitieuse :
 
 ```math
-\text{géométrie effective}
+\text{même structure quantique}
 \rightarrow
 \left(
+g_{\mu\nu},
+m_{\mathrm{eff}},
 G_{\mathrm{eff}},
 \Lambda_{\mathrm{eff}},
 \tau_{\mathrm{eff}}
 \right)
 ```
 
----
-
-## 37. Les temporalités comme propriétés internes des histoires ?
-
-Cette approche permet de reformuler plus précisément le problème des différentes temporalités.
-
-Il faut éviter de parler de plusieurs temps fondamentaux indépendants.
-
-La question serait plutôt :
-
-> **Le temps macroscopique pourrait-il être une propriété relationnelle interne à une histoire quasi-classique particulière, au même titre que sa géométrie ?**
-
-On pourrait alors envisager :
-
-```math
-\mathcal{H}_i
-\rightarrow
-\left(
-g_{\mu\nu}^{(i)},
-\tau_{\mathrm{eff}}^{(i)}
-\right)
-```
-
-La temporalité effective deviendrait ainsi une propriété de la description macroscopique émergente.
-
-Cela permettrait de relier le problème du temps aux mécanismes de phase stationnaire et de décohérence sans supposer l'existence de plusieurs temps physiques fondamentaux.
-
-Cette hypothèse reste spéculative.
+Aucun mécanisme commun de cette forme n'est considéré comme établi ici.
 
 ---
 
-## 38. Une question générale issue de l'analogie des bulles
-
-L'analogie des bulles de savon conduit finalement à une question générale commune aux deux descriptions :
-
-```math
-\text{multiplicité}
-\rightarrow
-\text{interactions / contraintes}
-\rightarrow
-\text{organisation collective}
-\rightarrow
-\text{description macroscopique cohérente}
-```
-
-Dans les bulles :
-
-```math
-\text{multiplicité}
-\rightarrow
-\text{tension de surface}
-\rightarrow
-\text{coalescence}
-\rightarrow
-\text{configuration collective}
-```
-
-Dans notre hypothèse quantique :
-
-```math
-\text{multiplicité}
-\rightarrow
-\text{interférences / corrélations}
-\rightarrow
-\text{phase stationnaire}
-\rightarrow
-\text{décohérence}
-\rightarrow
-\text{histoire quasi-classique}
-```
-
-La question scientifique consiste précisément à déterminer **quelle grandeur microscopique joue réellement le rôle organisateur** dans cette seconde chaîne.
-
----
-
-## 39. Question ouverte sur l'état collectif stable
-
-L'ensemble de cette réflexion peut être condensé dans la question suivante :
-
-> **Et si l'espace-temps classique n'était pas le niveau fondamental de la réalité, mais une description collective issue d'une multiplicité de configurations quantiques dont les interférences, les corrélations et la décohérence sélectionnent des histoires quasi-classiques cohérentes ?**
-
-On pourrait alors rechercher :
-
-```math
-\mathcal{Q}_{\mathrm{micro}}
-\xrightarrow{\mathcal{D}}
-\{\mathcal{H}_i\}
-\xrightarrow{\text{interférences}}
-\{\mathcal{H}_i^{\mathrm{qc}}\}
-\xrightarrow{\text{décohérence}}
-\left(
-g_{\mu\nu},
-\tau_{\mathrm{eff}},
-G_{\mathrm{eff}},
-\Lambda_{\mathrm{eff}}
-\right)
-```
-
-où :
-
-- $\mathcal{D}$ représente la dynamique microscopique ;
-- $\mathcal{H}_i$ représente les histoires quantiques ;
-- $\mathcal{H}_i^{\mathrm{qc}}$ représente les histoires devenues quasi-classiques.
-
-Cette chaîne est une architecture conceptuelle et non une théorie établie.
-
----
-
-## 40. Ce qu'il faudrait démontrer pour transformer l'hypothèse en théorie
+## 41. Ce qu'il faudrait démontrer pour transformer l'hypothèse en théorie
 
 Pour passer d'une intuition à une théorie physique, il faudrait au minimum :
 
@@ -1405,23 +1489,24 @@ Pour passer d'une intuition à une théorie physique, il faudrait au minimum :
 4. définir précisément les corrélations pertinentes ;
 5. définir l'objet mathématique sur lequel porte la somme ou l'intégrale ;
 6. définir la mesure d'intégration ;
-7. montrer comment apparaît une phase stationnaire pertinente ;
+7. établir un critère de phase stationnaire ;
 8. montrer comment la décohérence produit des histoires quasi-classiques ;
 9. montrer comment une métrique $g_{\mu\nu}$ émerge ;
 10. montrer comment le temps effectif apparaît, si le temps est lui-même émergent ;
-11. dériver une action effective ;
-12. retrouver le terme $\sqrt{-g}R$ ;
-13. déterminer $G_{\mathrm{eff}}$ ;
-14. expliquer l'apparition de $\Lambda_{\mathrm{eff}}$ ;
-15. retrouver les équations d'Einstein dans une limite appropriée ;
-16. reproduire les observations connues ;
-17. produire une prédiction nouvelle permettant de falsifier la théorie.
+11. déterminer si une masse ou inertie effective peut apparaître ;
+12. dériver une action effective ;
+13. retrouver le terme $\sqrt{-g}R$ ;
+14. déterminer $G_{\mathrm{eff}}$ ;
+15. expliquer l'apparition de $\Lambda_{\mathrm{eff}}$ ;
+16. retrouver les équations d'Einstein dans une limite appropriée ;
+17. reproduire les observations connues ;
+18. produire une prédiction nouvelle permettant de falsifier la théorie.
 
 Sans ces étapes, l'idée reste une **hypothèse heuristique**.
 
 ---
 
-## 41. Question ouverte à la communauté scientifique
+## 42. Question ouverte à la communauté scientifique
 
 La question que nous souhaitons soumettre à des chercheurs travaillant notamment en :
 
@@ -1438,11 +1523,11 @@ La question que nous souhaitons soumettre à des chercheurs travaillant notammen
 
 est la suivante :
 
-> **Existe-t-il dans la littérature une construction mathématique dans laquelle la géométrie gravitationnelle effective — par exemple la métrique $g_{\mu\nu}$, le tenseur de Ricci $R_{\mu\nu}$ ou le tenseur d'Einstein $G_{\mu\nu}$ — est explicitement dérivée d'une structure de corrélations quantiques, de leurs amplitudes et éventuellement d'une somme sur des histoires ou configurations fondamentales, et dont la limite macroscopique ou semi-classique reproduit les équations d'Einstein ?**
+> **Existe-t-il dans la littérature une construction mathématique dans laquelle la géométrie gravitationnelle effective — par exemple la métrique $g_{\mu\nu}$, le tenseur de Ricci $R_{\mu\nu}$ ou le tenseur d'Einstein $G_{\mu\nu}$ — est explicitement dérivée d'une structure de corrélations quantiques, d'amplitudes et éventuellement d'une somme sur des histoires ou configurations fondamentales, et dont la limite macroscopique ou semi-classique reproduit les équations d'Einstein ?**
 
 Une seconde question complète la première :
 
-> **Existe-t-il également une dynamique ou un principe de sélection permettant de passer d'un ensemble de configurations ou d'histoires quantiques à un secteur quasi-classique cohérent dont les paramètres effectifs — notamment $G_{\mathrm{eff}}$, $\Lambda_{\mathrm{eff}}$ et éventuellement $\tau_{\mathrm{eff}}$ — peuvent être calculés plutôt que postulés ?**
+> **Existe-t-il également un mécanisme permettant de passer d'une multiplicité de configurations ou d'histoires quantiques à un secteur quasi-classique cohérent dont les paramètres effectifs — notamment $G_{\mathrm{eff}}$, $\Lambda_{\mathrm{eff}}$ et éventuellement $\tau_{\mathrm{eff}}$ — peuvent être calculés plutôt que postulés ?**
 
 Si oui :
 
@@ -1454,19 +1539,20 @@ Si oui :
 6. Existe-t-il un critère de phase stationnaire identifiable ?
 7. Quel mécanisme produit la décohérence ?
 8. Comment la métrique $g_{\mu\nu}$ apparaît-elle ?
-9. Comment le temps effectif apparaît-il, le cas échéant ?
+9. Comment le temps effectif apparaît-il ?
 10. Comment la courbure apparaît-elle ?
-11. Comment le terme d'Einstein-Hilbert $\sqrt{-g}R$ est-il généré ?
-12. Comment $G_{\mathrm{eff}}$ apparaît-il ?
-13. Comment $\Lambda_{\mathrm{eff}}$ apparaît-il ?
-14. Comment les équations d'Einstein sont-elles récupérées ?
-15. Quelles sont les hypothèses nécessaires ?
-16. Quelles sont les limites connues ?
-17. La construction est-elle locale ou intrinsèquement non locale ?
-18. Comment la covariance générale est-elle obtenue ?
-19. Comment la cohérence avec l'énergie-impulsion est-elle assurée ?
-20. Existe-t-il une explication quantitative de la hiérarchie associée au problème de la constante cosmologique ?
-21. Existe-t-il une prédiction expérimentale distinguant cette construction d'une cosmologie standard ?
+11. Comment une masse ou inertie effective apparaît-elle, le cas échéant ?
+12. Comment le terme d'Einstein-Hilbert $\sqrt{-g}R$ est-il généré ?
+13. Comment $G_{\mathrm{eff}}$ apparaît-il ?
+14. Comment $\Lambda_{\mathrm{eff}}$ apparaît-il ?
+15. Comment les équations d'Einstein sont-elles récupérées ?
+16. Quelles sont les hypothèses nécessaires ?
+17. Quelles sont les limites connues ?
+18. La construction est-elle locale ou intrinsèquement non locale ?
+19. Comment la covariance générale est-elle obtenue ?
+20. Comment la cohérence avec l'énergie-impulsion est-elle assurée ?
+21. Existe-t-il une explication quantitative de la hiérarchie associée au problème de la constante cosmologique ?
+22. Existe-t-il une prédiction expérimentale distinguant cette construction d'une cosmologie standard ?
 
 Si aucune construction satisfaisant ces critères n'existe actuellement :
 
@@ -1474,19 +1560,21 @@ Si aucune construction satisfaisant ces critères n'existe actuellement :
 
 ---
 
-## 42. Ce que cette recherche ne prétend PAS démontrer
+## 43. Ce que cette recherche ne prétend PAS démontrer
 
 Cette recherche ne prétend pas démontrer :
 
 - que l'espace-temps est constitué de « points de vide quantique » ;
+- que plusieurs espaces-temps classiques indépendants existent réellement ;
 - que la constante $G$ est nécessairement émergente ;
 - que les $10^{120}$ ordres de grandeur représentent les étapes physiques d'une stabilisation ;
 - que le coarse-graining explique déjà cette hiérarchie ;
 - que l'effet Casimir est responsable de la constante cosmologique ;
-- que plusieurs temps physiques indépendants existent ;
+- que plusieurs temps physiques fondamentaux indépendants existent ;
 - que le temps microscopique « s'écoule plus vite » que le temps macroscopique ;
 - que la phase stationnaire sélectionne à elle seule une unique réalité classique ;
 - que la décohérence constitue une preuve d'une géométrie émergente ;
+- que la masse est nécessairement émergente ;
 - que le vide quantique permet de contrôler la gravité ;
 - qu'une nouvelle théorie de gravité quantique a été découverte ;
 - qu'une application d'antigravité ou de propulsion découle de cette hypothèse.
@@ -1495,7 +1583,7 @@ Il s'agit uniquement d'une **question de recherche théorique**.
 
 ---
 
-## 43. Quatre problèmes liés mais distincts
+## 44. Quatre problèmes liés mais distincts
 
 La réflexion distingue désormais explicitement quatre problèmes :
 
@@ -1505,12 +1593,13 @@ La réflexion distingue désormais explicitement quatre problèmes :
 | **Gravitation** | Comment $G_{\mathrm{eff}}$ pourrait-il apparaître ? |
 | **Cosmologie** | Pourquoi $\Lambda_{\mathrm{eff}}$ est-il si faible ? |
 | **Temps** | Le temps propre pourrait-il lui-même être émergent ? |
+| **Inertie** | Une masse ou inertie effective pourrait-elle émerger du même substrat ? |
 
 Ces problèmes peuvent être liés dans une théorie plus profonde, mais aucune implication automatique n'est supposée.
 
 ---
 
-## 44. Objectif de ce dépôt
+## 45. Objectif de ce dépôt
 
 Ce dépôt a pour objectif de :
 
@@ -1527,7 +1616,7 @@ Une démonstration que l'approche est impossible, incohérente ou déjà résolu
 
 ---
 
-## 45. Position méthodologique
+## 46. Position méthodologique
 
 Cette recherche adopte volontairement une distinction stricte :
 
@@ -1553,12 +1642,14 @@ mais :
 
 Une seconde question apparaît alors :
 
-> **« Et si les contributions quantiques que nous calculons correspondaient à une multiplicité de configurations et d'histoires, dont les interférences conduisent à une phase stationnaire, puis dont la décohérence permet l'émergence de secteurs quasi-classiques ? »**
+> **« Et si les contributions quantiques que nous calculons correspondaient à une multiplicité de configurations et d'histoires spatio-temporelles, dont les interférences conduisent à certaines régions de phase stationnaire, puis dont la décohérence permet l'émergence de secteurs quasi-classiques ? »**
 
 La forme conceptuelle minimale recherchée devient :
 
 ```math
 \text{micro-états quantiques}
+\rightarrow
+\text{configurations / histoires}
 \rightarrow
 \text{corrélations}
 \rightarrow
@@ -1585,16 +1676,15 @@ G_{\mathrm{eff}},
 \right)
 ```
 
-et, dans la limite macroscopique :
+et éventuellement :
 
 ```math
-G_{\mu\nu}
-+
-\Lambda_{\mathrm{eff}}g_{\mu\nu}
-=
-\frac{8\pi G_{\mathrm{eff}}}{c^4}
-T_{\mu\nu}^{\mathrm{eff}}
+\text{même structure quantique}
+\rightarrow
+m_{\mathrm{eff}}
 ```
+
+dans une hypothèse plus ambitieuse.
 
 La question ouverte est donc :
 
@@ -1606,55 +1696,60 @@ La question ouverte est donc :
 
 Et surtout :
 
-> **Existe-t-il un mécanisme de corrélation, d'interférence, de phase stationnaire, de décohérence, de renormalisation ou de coarse-graining permettant de comprendre quantitativement comment une structure microscopique complexe peut conduire à une géométrie classique, à un temps effectif et à des paramètres gravitationnels macroscopiques très différents des descriptions microscopiques naïves ?**
+> **Existe-t-il un mécanisme de corrélation, d'interférence, de phase stationnaire, de décohérence, de renormalisation ou de coarse-graining permettant de comprendre quantitativement comment une multiplicité de structures microscopiques ou spatio-temporelles possibles peut conduire à la géométrie classique, au temps effectif et aux paramètres gravitationnels que nous observons ?**
 
-L'analogie des bulles de savon apporte une image intuitive de la question, mais pas sa solution physique.
-
-Dans les bulles :
+L'analogie des bulles de savon fournit une image intuitive :
 
 ```math
 \text{multiplicité}
 \rightarrow
-\text{tension de surface}
+\text{interaction}
 \rightarrow
 \text{coalescence}
 \rightarrow
-\text{configuration collective}
+\text{structure collective}
 ```
 
-Dans l'hypothèse quantique :
+alors que l'analogie quantique correspond plutôt à :
 
 ```math
 \text{multiplicité}
 \rightarrow
-\text{interférences / corrélations}
+\text{interférences}
 \rightarrow
 \text{phase stationnaire}
 \rightarrow
 \text{décohérence}
 \rightarrow
-\text{description classique}
+\text{structure classique observable}
 ```
 
-Le véritable enjeu est d'identifier la grandeur microscopique qui joue le rôle organisateur de cette seconde chaîne.
+Dans le cas des bulles, la grandeur organisatrice est notamment la tension de surface.
+
+Dans le cas quantique étudié ici, la grandeur organisatrice recherchée serait liée aux amplitudes, aux phases, aux corrélations et à la décohérence.
+
+Le parallèle avec le photon réfléchi par un miroir suggère alors que le résultat macroscopique observé peut être la conséquence de l'ensemble des possibilités plutôt que la trace d'une unique trajectoire microscopique.
 
 L'écart souvent associé au problème de la constante cosmologique, parfois caractérisé par un facteur de l'ordre de $10^{120}$, ne doit donc pas être présenté ici comme une réponse.
 
-Il constitue précisément **l'une des anomalies quantitatives qui pourraient permettre de tester la cohérence de cette hypothèse**.
+Il constitue précisément **l'une des anomalies quantitatives qui pourraient permettre de tester la cohérence de cette architecture**.
 
 ---
 
-## Question finale
+# Question finale
 
-> **Et si l'espace-temps classique que nous observons n'était pas le niveau fondamental de la réalité, mais le secteur quasi-classique émergent d'une multiplicité de configurations quantiques dont les corrélations et les interférences sélectionnent les géométries observables ?**
+> **Et si l'espace-temps classique que nous observons n'était pas le niveau fondamental de la réalité, mais le secteur quasi-classique cohérent émergent d'une multiplicité de configurations spatio-temporelles quantiques simultanément contributives ?**
 >
-> **Et si la métrique, le temps propre ainsi que les constantes gravitationnelles observées étaient eux-mêmes des variables effectives associées à ces histoires quasi-classiques ?**
+> **Et si les différentes configurations, au lieu de constituer simplement des états successifs dans un même espace-temps, représentaient des histoires possibles possédant chacune leur organisation géométrique et temporelle effective ?**
 >
-> **Et si l'immense hiérarchie entre certaines descriptions microscopiques et les grandeurs gravitationnelles observées révélait non pas simplement une erreur numérique, mais la nécessité de comprendre la transformation physique entre les deux niveaux de description ?**
+> **Et si les corrélations, les interférences et la décohérence déterminaient quelles familles d'histoires deviennent suffisamment cohérentes pour constituer notre description macroscopique de l'espace-temps ?**
+>
+> **Et si la métrique, le temps propre, les paramètres gravitationnels et éventuellement l'inertie étaient tous des variables effectives liées à cette même structure collective ?**
 
 Sous forme condensée :
 
 ```math
+\boxed{
 \mathcal{Q}_{\mathrm{micro}}
 \xrightarrow{\mathcal{D}}
 \{\mathcal{H}_i\}
@@ -1667,13 +1762,23 @@ g_{\mu\nu},
 G_{\mathrm{eff}},
 \Lambda_{\mathrm{eff}}
 \right)
+}
 ```
 
-où :
+et, dans une extension éventuelle :
 
-- $\mathcal{D}$ représente la dynamique microscopique ;
-- $\mathcal{H}_i$ représente les histoires quantiques ;
-- $\mathcal{H}_i^{\mathrm{qc}}$ représente les histoires devenues quasi-classiques.
+```math
+\boxed{
+\left(
+g_{\mu\nu},
+\tau_{\mathrm{eff}},
+G_{\mathrm{eff}},
+\Lambda_{\mathrm{eff}}
+\right)
+\longleftrightarrow
+m_{\mathrm{eff}}
+}
+```
 
 La question scientifique finale est alors :
 
@@ -1707,7 +1812,7 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 
 **Complément moderne :** M. Visser, *Sakharov's induced gravity: a modern perspective*, Mod. Phys. Lett. A 17, 977 (2002).
 
-**Ce que cela apporte :** dérivation explicite de contributions schématiques de type :
+**Ce que cela apporte :** dérivation de contributions schématiques de type :
 
 ```math
 \frac{1}{G_{\mathrm{eff}}}
@@ -1717,7 +1822,7 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 
 à partir de fluctuations de champs quantiques couplés à une géométrie de fond.
 
-**Ce qui reste ouvert :** le cutoff $\Lambda_i$ reste un paramètre de régularisation dans ce type de construction et ne peut pas être automatiquement interprété comme une grandeur physique manipulable. Aucune variation locale de $G$ n'en découle directement.
+**Ce qui reste ouvert :** le cutoff $\Lambda_i$ reste un paramètre de régularisation dans ce type de construction et ne peut pas être automatiquement interprété comme une grandeur physique manipulable.
 
 ---
 
@@ -1727,12 +1832,12 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 
 - M. Van Raamsdonk, *Building up spacetime with quantum entanglement*, Gen. Rel. Grav. 42, 2323 (2010).
 - S. Ryu, T. Takayanagi, *Holographic Derivation of Entanglement Entropy from AdS/CFT*, Phys. Rev. Lett. 96, 181602 (2006).
-- Extension covariante Hubeny-Rangamani-Takayanagi (2007).
+- HRT (2007).
 - B. Swingle, *Entanglement Renormalization and Holography*, Phys. Rev. D 86, 065007 (2012).
 
-**Ce que cela apporte :** dans les cadres holographiques, des relations quantitatives existent entre informations d'intrication et quantités géométriques.
+**Ce que cela apporte :** dans les cadres holographiques, des relations quantitatives existent entre entanglement et géométrie.
 
-**Ce qui reste ouvert :** ces constructions sont fortement dépendantes du cadre, notamment AdS/CFT, et ne constituent pas une dérivation directe d'une géométrie cosmologique de type de Sitter à partir d'un substrat microscopique unique non postulé.
+**Ce qui reste ouvert :** ces constructions ne fournissent pas directement une dérivation de notre géométrie cosmologique à partir d'un substrat microscopique unique.
 
 ---
 
@@ -1742,9 +1847,9 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 
 **Variante :** E. Verlinde, *On the origin of gravity and the laws of Newton*, JHEP 04, 029 (2011).
 
-**Ce que cela apporte :** Jacobson montre comment les équations d'Einstein peuvent être obtenues comme équation d'état thermodynamique sous des hypothèses précises.
+**Ce que cela apporte :** dérivations thermodynamiques des équations d'Einstein sous des hypothèses précises.
 
-**Ce qui reste ouvert :** l'entropie-aire et les propriétés thermodynamiques utilisées comme données d'entrée ne sont pas elles-mêmes dérivées d'un substrat microscopique explicite dans cette construction.
+**Ce qui reste ouvert :** les propriétés thermodynamiques pertinentes ne sont pas elles-mêmes dérivées ici d'un substrat microscopique unique.
 
 ---
 
@@ -1752,13 +1857,14 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 
 **Pistes :**
 
-- R. Sorkin, théorie des *causal sets*.
-- Revue : S. Surya, *The causal set approach to quantum gravity*, Living Reviews in Relativity 22, 5 (2019).
+- R. Sorkin, *causal sets*.
+- S. Surya, revue sur les causal sets.
 - C. Rovelli, A. Ashtekar, gravité quantique à boucles et réseaux de spin.
+- CDT : Ambjørn, Jurkiewicz, Loll.
 
-**Ce que cela apporte :** plusieurs programmes explorent explicitement l'idée que la géométrie classique continue pourrait émerger d'une structure discrète ou relationnelle sous-jacente.
+**Ce que cela apporte :** plusieurs formalismes étudient explicitement l'idée que la géométrie continue peut émerger d'une structure discrète ou relationnelle.
 
-**Ce qui reste ouvert :** aucun de ces programmes ne fournit aujourd'hui une dérivation unique et complète de tous les paramètres macroscopiques recherchés dans le présent document.
+**Ce qui reste ouvert :** aucun ne fournit aujourd'hui toute la chaîne recherchée jusqu'à $G_{\mathrm{eff}}$, $\Lambda_{\mathrm{eff}}$ et $\tau_{\mathrm{eff}}$ simultanément.
 
 ---
 
@@ -1769,9 +1875,9 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 - D. Page, W. Wootters, *Evolution without evolution*, Phys. Rev. D 27, 2885 (1983).
 - A. Connes, C. Rovelli, *Von Neumann algebra automorphisms and time-thermodynamics relation*, Class. Quantum Grav. 11, 2899 (1994).
 
-**Ce que cela apporte :** des mécanismes concrets dans lesquels le temps macroscopique peut être compris comme une structure relationnelle ou thermodynamique plutôt que comme une variable fondamentale indépendante.
+**Ce que cela apporte :** exemples où le temps macroscopique peut être considéré comme une structure relationnelle ou thermodynamique.
 
-**Ce qui reste ouvert :** aucun consensus n'établit que l'un de ces mécanismes décrit notre Univers, ni qu'il peut être combiné de manière unique avec une émergence simultanée de $g_{\mu\nu}$.
+**Ce qui reste ouvert :** aucun mécanisme unique ne relie encore de manière démontrée ces approches à l'émergence simultanée de la géométrie.
 
 ---
 
@@ -1779,207 +1885,187 @@ Une démonstration qu'une telle construction est impossible serait aussi informa
 
 **Piste :** S. Weinberg, *The cosmological constant problem*, Rev. Mod. Phys. 61, 1 (1989).
 
-**Compléments :** revues ultérieures de T. Padmanabhan, C. Burgess et autres.
+**Ce que cela apporte :** un cadre rigoureux pour comprendre ce que représente réellement la hiérarchie cosmologique.
 
-**Ce que cela apporte :** un cadre rigoureux pour comprendre ce que représente réellement l'immense hiérarchie entre certaines estimations théoriques et la contribution cosmologique observée.
-
-**Ce qui reste ouvert :** aucune solution générale au problème de la constante cosmologique ne fournit actuellement le mécanisme complet recherché ici.
+**Ce qui reste ouvert :** aucune solution générale ne fournit aujourd'hui une dérivation complète de la faible valeur observée.
 
 ---
 
-## 7. Effet Casimir comme indice de grandeur effective
+## 7. Effet Casimir
 
-**Constat :** l'énergie associée à l'effet Casimir est une différence entre configurations soumises à des conditions aux limites données ; elle ne constitue pas une mesure simple de l'énergie absolue du vide.
+**Constat :** l'effet Casimir concerne des différences d'énergie associées à des conditions aux limites.
 
-**Ce que cela apporte :** cela motive légitimement la question de savoir si certaines grandeurs physiques pertinentes pour la gravitation pourraient être des différences ou des combinaisons effectives entre états.
+**Ce que cela apporte :** motivation expérimentale pour étudier la pertinence physique de différences entre configurations quantiques.
 
-**Ce qui reste ouvert :** l'effet Casimir ne fournit pas à lui seul une explication de la constante cosmologique ni de l'origine de $G$.
+**Ce qui reste ouvert :** aucune démonstration ne relie directement l'effet Casimir à une origine émergente de $\Lambda$ ou de $G$.
 
 ---
 
-## 8. Masse émergente et vitesse locale non universelle
+## 8. Masse émergente et vitesse locale
 
-Question soulevée lors d'un échange :
+Question soulevée dans un échange :
 
 ```math
-m = \frac{E}{c_{\mathrm{loc}}^2}
+m_{\mathrm{eff}}
+=
+\frac{E}{c_{\mathrm{loc}}^2}
 ```
 
 **Pistes :**
 
-- W. Unruh, *Experimental black-hole evaporation?*, Phys. Rev. Lett. 46, 1351 (1981).
-- M. Visser, *Acoustic black holes: horizons, ergospheres, and Hawking radiation*, Class. Quantum Grav. 15, 1767 (1998).
-- J. Steinhauer, travaux expérimentaux sur les analogues de trous noirs dans les BEC.
-- G. Volovik, *The Universe in a Helium Droplet*, Oxford University Press (2003).
+- W. Unruh, gravité analogique.
+- M. Visser, trous noirs acoustiques.
+- J. Steinhauer, expériences analogues dans les BEC.
+- G. Volovik, vide superfluide.
 
-**Ce que cela apporte :** les systèmes analogues montrent qu'une dynamique collective peut produire des vitesses de propagation effectives, des métriques effectives et des masses effectives.
+**Ce que cela apporte :** ces systèmes montrent qu'une dynamique collective peut produire des variables effectives de type vitesse de propagation, métrique et masse effective.
 
-**Point de vigilance :** dans les BEC de laboratoire, le substrat matériel possède déjà des masses conventionnelles. L'analogie ne constitue donc pas une démonstration qu'une masse fondamentale ou que la géométrie cosmologique émergent du même mécanisme.
-
----
-
-## 9. Deux logiques distinctes pour l'émergence de $g_{\mu\nu}$
-
-Le document distingue maintenant explicitement deux architectures.
-
-### Logique A — Relaxation temporelle
-
-```math
-\mathcal{Q}_0
-\rightarrow
-\mathcal{Q}_1
-\rightarrow
-\cdots
-\rightarrow
-\mathcal{Q}_{\mathrm{stable}}
-```
-
-Cette logique suppose un avant, un après et une dynamique de relaxation.
-
-### Logique B — Somme sur les configurations
-
-```math
-\Psi
-\sim
-\int
-\mathcal{D}[\text{configurations}]
-e^{iS/\hbar}
-```
-
-Dans cette logique, les configurations contribuent à une amplitude globale et les régions de phase stationnaire peuvent dominer dans la limite semi-classique.
-
-**Pourquoi la logique B est privilégiée :** elle fournit un cadre mathématique précis permettant de poser des questions sur la phase stationnaire et la somme sur les géométries.
-
-**Précaution :** la phase stationnaire ne suffit pas à elle seule à expliquer une géométrie classique unique. La décohérence constitue une question séparée.
+**Ce qui reste ouvert :** le substrat de laboratoire possède déjà une masse conventionnelle. L'analogie ne prouve donc pas l'émergence d'une masse fondamentale cosmologique.
 
 ---
 
-## 10. Décohérence, histoires quasi-classiques et formulation des temporalités
+## 9. Phase stationnaire et intégrale de chemin
 
-Ce point complète directement H6 du document principal.
+**Pistes :**
 
-Une phase stationnaire explique pourquoi certaines contributions dominent l'amplitude, mais pas à elle seule pourquoi un observateur macroscopique perçoit une géométrie classique unique plutôt qu'une superposition.
+- Feynman et Hibbs.
+- Approches Hartle-Hawking.
+- Gravité quantique par intégrale de chemin.
+- Triangulations dynamiques causales.
 
-Une couche supplémentaire concerne donc la décohérence.
+**Ce que cela apporte :** un cadre mathématique pour considérer simultanément une multiplicité de configurations et étudier l'émergence de comportements classiques dans certaines limites.
 
-On peut représenter conceptuellement :
-
-```math
-\{\mathcal{H}_i\}
-\rightarrow
-\text{interférences}
-\rightarrow
-\text{décohérence}
-\rightarrow
-\{\mathcal{H}_i^{\mathrm{quasi-classiques}}\}
-```
-
-Cette structure rapproche l'intuition du document des approches des histoires décohérentes.
-
-**Ce que cela apporte :** un langage pour distinguer les différentes histoires et expliquer comment certaines acquièrent une description quasi-classique.
-
-**Ce qui reste ouvert :** cela ne suffit pas à montrer que notre géométrie particulière, ni notre temps particulier, émergent d'un substrat donné.
+**Ce qui reste ouvert :** mesure, convergence, renormalisation, conditions aux limites et choix du substrat microscopique.
 
 ---
 
-## 11. Décohérence et temporalités
+## 10. Histoires décohérentes
 
-L'idée intuitive de « plusieurs possibilités qui se construisent en parallèle » peut être reformulée avec prudence :
+**Cadre pertinent :** formulations en histoires cohérentes/décohérentes de la mécanique quantique et de la cosmologie quantique.
+
+**Ce que cela apporte :** un langage permettant de considérer des familles d'histoires dont les interférences deviennent négligeables et qui peuvent alors être décrites quasi-classiquement.
+
+**Ce qui reste ouvert :** cela ne fournit pas automatiquement une dérivation de notre géométrie ni une explication complète des temporalités effectives.
+
+---
+
+## 11. Configurations spatio-temporelles parallèles
+
+La proposition exploratoire peut être représentée par :
+
+```math
+\left\{
+\mathcal{H}_1,
+\mathcal{H}_2,
+\ldots,
+\mathcal{H}_N
+\right\}
+```
+
+avec :
 
 ```math
 \mathcal{H}_i
 \rightarrow
-\left(
-g_{\mu\nu}^{(i)},
+g_{\mu\nu}^{(i)}
+```
+
+et éventuellement :
+
+```math
+\mathcal{H}_i
+\rightarrow
 \tau_{\mathrm{eff}}^{(i)}
-\right)
 ```
 
-Il ne s'agit pas de postuler plusieurs temps fondamentaux.
+**Ce que cela apporte :** une manière de relier les histoires quantiques à la géométrie et au temps effectifs.
 
-La question est plutôt de savoir si une histoire quasi-classique possède une notion de temps interne et relationnelle différente de celle d'une autre description microscopique.
-
-Cela rejoint conceptuellement le problème du temps en gravité quantique et les modèles où le temps émerge à partir de corrélations entre sous-systèmes.
-
-**Ce qui reste ouvert :** le lien précis entre décohérence, histoires quasi-classiques et temps émergent n'est pas établi comme un mécanisme unique reproduisant la relativité générale.
+**Ce qui reste ouvert :** l'interprétation littérale en termes de plusieurs espaces-temps classiques simultanés n'est pas démontrée.
 
 ---
 
-## 12. La hiérarchie 10¹²⁰ comme critère de validation quantitatif
+## 12. Coalescence et analogie des bulles
 
-Toute construction candidate doit être confrontée à un critère quantitatif :
-
-```math
-\rho_{\mathrm{eff}}
-\ll
-\rho_{\mathrm{micro}}
-```
-
-avec une hiérarchie souvent résumée par un facteur de l'ordre de :
+Les bulles de savon constituent une analogie macroscopique :
 
 ```math
-10^{120}
+\text{multiplicité}
+\rightarrow
+\text{tension}
+\rightarrow
+\text{coalescence}
+\rightarrow
+\text{configuration collective}
 ```
 
-Un mécanisme qui produit exactement zéro pour la constante cosmologique n'est pas suffisant non plus.
+Le parallèle quantique recherché est :
 
-La question scientifique est donc double :
+```math
+\text{multiplicité}
+\rightarrow
+\text{interférences}
+\rightarrow
+\text{phase stationnaire}
+\rightarrow
+\text{décohérence}
+\rightarrow
+\text{description quasi-classique}
+```
 
-1. éviter une annulation exacte incompatible avec une constante cosmologique non nulle ;
-2. expliquer quantitativement une suppression extrêmement importante sans ajustement arbitraire.
+**Ce que cela apporte :** une intuition physique du passage d'une multiplicité de configurations vers une organisation macroscopique cohérente.
 
-La hiérarchie doit donc être considérée comme **un test potentiel de la théorie**, et non simplement comme une motivation philosophique.
+**Ce qui reste ouvert :** aucune équivalence directe entre tension de surface et interférence quantique n'est proposée.
 
 ---
 
-## 13. Raffinement du substrat : triangulations dynamiques causales
+## 13. Triangulations Dynamiques Causales
 
-Une piste qui correspond particulièrement bien à H1-H2 est celle des **Triangulations Dynamiques Causales (CDT)**.
-
-Références :
+**Références :**
 
 - J. Ambjørn, J. Jurkiewicz, R. Loll, *Nonperturbative Quantum Gravity*, Phys. Rept. 519, 127 (2012).
 - J. Ambjørn, A. Görlich, J. Jurkiewicz, R. Loll, *The Nonperturbative Quantum de Sitter Universe*, Phys. Rev. D 78, 063544 (2008).
 
-L'idée générale est de sommer numériquement sur des configurations discrètes dotées d'une structure causale, pondérées par une action discrète de type Regge.
+**Principe :** somme numérique sur des configurations discrètes possédant une structure causale et une action de Regge.
 
-Un résultat important de cette approche est l'apparition, dans certaines phases, d'une géométrie macroscopique à quatre dimensions de type de Sitter.
-
-La dimension spectrale peut également dépendre de l'échelle d'observation.
-
-**Ce que cela apporte :** un exemple calculable où une géométrie macroscopique émerge d'un ensemble de structures microscopiques sans que la géométrie classique ne soit simplement imposée comme point de départ.
+**Ce que cela apporte :** certaines phases produisent une géométrie macroscopique à quatre dimensions de type de Sitter sans imposer directement cette géométrie au départ.
 
 **Ce qui reste ouvert :**
 
-- $G_{\mathrm{eff}}$ n'est pas obtenu ici comme prédiction universelle indépendante ;
-- $\Lambda_{\mathrm{eff}}$ n'est pas dérivée dans le sens recherché ici ;
+- $G_{\mathrm{eff}}$ n'est pas dérivé dans le sens recherché ici ;
+- $\Lambda_{\mathrm{eff}}$ n'est pas obtenu comme prédiction indépendante de type $10^{-120}$ ;
 - l'inclusion complète de la matière reste un problème actif ;
-- le lien avec les corrélations quantiques précises de notre hypothèse reste à établir.
+- le lien direct avec la structure de corrélations de notre hypothèse reste à établir.
 
 ---
 
-## Synthèse — où cela mène
+# Synthèse — où cela mène
 
-| Problème | Piste existante | Statut |
+| Problème du document | Piste la plus proche | Statut |
 |---|---|---|
 | Origine de $G$ | Sakharov | Partiellement traité |
-| Géométrie liée aux corrélations | Holographie / intrication | Établi dans certains cadres, non généralisé |
-| Cohérence géométrique | Jacobson / thermodynamique | Traité sous hypothèses |
+| Géométrie liée aux corrélations | Intrication / holographie | Établi dans certains cadres |
+| Cohérence géométrique | Jacobson | Traité sous hypothèses |
 | Substrat discret | Causal sets / LQG / CDT | Programmes actifs |
-| Phase stationnaire | Intégrales de chemin / gravité quantique | Cadre formel puissant, mais incomplet |
-| Décohérence | Histoires cohérentes/décohérentes | Cadre établi pour la mécanique quantique, extension gravitationnelle non résolue |
-| Temps émergent | Page-Wootters / temps thermique | Plusieurs mécanismes, aucun consensus |
-| Masse effective | Gravité analogique / BEC / superfluides | Analogie expérimentale, pas preuve cosmologique |
-| Casimir | Différences d'énergie entre configurations | Phénomène expérimental établi, pas solution cosmologique |
-| Constante cosmologique | Weinberg et nombreux programmes | Problème ouvert |
-| $g_{\mu\nu}$, $G$, $\Lambda$, $\tau$ simultanément | Aucune théorie unique identifiée | Problème ouvert |
+| Phase stationnaire | Intégrale de chemin | Cadre formel puissant |
+| Décohérence | Histoires cohérentes/décohérentes | Cadre quantique établi |
+| Temps émergent | Page-Wootters / temps thermique | Programmes concurrents |
+| Masse effective | Gravité analogique / BEC | Analogie expérimentale |
+| Casimir | Différences d'énergie | Phénomène expérimental établi |
+| Constante cosmologique | Weinberg et autres | Problème ouvert |
+| Espaces-temps/histoires multiples | Histoires quantiques / gravité quantique | Hypothèse à préciser |
+| $g_{\mu\nu}$ + $G$ + $\Lambda$ + temps | Aucun cadre unique identifié | Problème ouvert |
 
-La cartographie conduit donc à une conclusion prudente :
+La cartographie conduit à une conclusion prudente :
 
-> **Aucune de ces pistes, prise isolément, ne referme aujourd'hui la chaîne complète :**
+> **Aucune de ces pistes, prise isolément, ne referme aujourd'hui la chaîne complète.**
+
+La chaîne complète recherchée est :
 
 ```math
-\text{micro-états}
+\boxed{
+\text{substrat microscopique}
+\rightarrow
+\text{configurations / histoires}
 \rightarrow
 \text{corrélations}
 \rightarrow
@@ -1989,51 +2075,50 @@ La cartographie conduit donc à une conclusion prudente :
 \rightarrow
 \text{décohérence}
 \rightarrow
-g_{\mu\nu}
-\rightarrow
-G_{\mathrm{eff}},
-\Lambda_{\mathrm{eff}},
-\tau_{\mathrm{eff}}
-```
-
-La dernière piste examinée, les CDT, fournit toutefois un point d'ancrage calculable important : elle montre qu'un substrat discret soumis à une somme sur les configurations peut produire une géométrie macroscopique à quatre dimensions dans une phase appropriée.
-
-Cela **ne constitue pas une validation de notre hypothèse**.
-
-C'est plutôt un exemple concret indiquant qu'une partie de la chaîne :
-
-```math
-\text{structure microscopique}
-\rightarrow
-\text{somme sur configurations}
-\rightarrow
-\text{géométrie classique}
-```
-
-peut être étudiée par simulation et confrontation quantitative.
-
-La partie qui reste ouverte est précisément celle qui intéresse le présent document :
-
-```math
-\boxed{
-\text{substrat microscopique}
-\rightarrow
-\text{corrélations}
-\rightarrow
-\text{sélection / phase stationnaire}
-\rightarrow
-\text{décohérence}
+\text{géométrie quasi-classique}
 \rightarrow
 \left(
-g_{\mu\nu},
 G_{\mathrm{eff}},
 \Lambda_{\mathrm{eff}},
-\tau_{\mathrm{eff}}
+\tau_{\mathrm{eff}},
+m_{\mathrm{eff}}
 \right)
 }
 ```
 
-**C'est cette jonction qui constitue aujourd'hui le véritable problème de recherche.**
+Cette cartographie ne constitue pas une validation de cette chaîne.
+
+Elle montre plutôt que **plusieurs morceaux existent déjà séparément dans des programmes de recherche distincts**, tandis que leur jonction complète reste à construire ou à identifier.
+
+Le programme de travail peut donc être résumé ainsi :
+
+```math
+\boxed{
+\text{H1 : substrat}
+\rightarrow
+\text{H2 : action}
+\rightarrow
+\text{H3 : mesure}
+\rightarrow
+\text{H4 : signature}
+\rightarrow
+\text{H5 : phase stationnaire}
+\rightarrow
+\text{H6 : décohérence}
+\rightarrow
+\text{H7 : }G_{\mathrm{eff}},\Lambda_{\mathrm{eff}}
+\rightarrow
+\text{H8 : frontières}
+\rightarrow
+\text{H9 : validité}
+\rightarrow
+\text{H10 : prédiction}
+}
+```
+
+L'une des pistes les plus concrètes déjà identifiées est la CDT, parce qu'elle fournit un exemple calculable d'émergence d'une géométrie macroscopique à partir d'une multiplicité de structures discrètes.
+
+Elle ne résout toutefois pas les questions relatives à $G_{\mathrm{eff}}$, $\Lambda_{\mathrm{eff}}$, au temps effectif, ni à la masse effective dans le cadre recherché ici.
 
 ---
 
