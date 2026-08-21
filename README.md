@@ -1282,8 +1282,7 @@ Il faudra mesurer quantitativement l'écart :
 
 $$
 \Delta g_{\mu\nu}=
-g_{\mu\nu}^{\mathrm{eff}}
--
+g_{\mu\nu}^{\mathrm{eff}}-
 g_{\mu\nu}^{\mathrm{GR}}.
 $$
 
@@ -1509,8 +1508,7 @@ $$
 ### Une procédure de reconstruction
 
 $$
-g_{\mu\nu}^{\mathrm{eff}}
-=
+g_{\mu\nu}^{\mathrm{eff}}=
 \sum_iw_i g_{\mu\nu}^{(i)}.
 $$
 
