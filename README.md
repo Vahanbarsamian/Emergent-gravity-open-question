@@ -496,8 +496,7 @@ Elle ne constitue pas, à elle seule, une théorie nouvelle.
 La première formulation mathématique était volontairement générale :
 
 $$
-G_{\mu\nu}(x)
-=
+G_{\mu\nu}(x)=
 \mathcal{F}_{\mu\nu}
 \left[
 \left\langle
@@ -619,8 +618,7 @@ Une quantité notée $R$ a été introduite dans les modèles jouets.
 Sous une forme schématique :
 
 $$
-A_i
-=
+A_i=
 e^{iS[Q_i]/\hbar}
 $$
 
@@ -790,8 +788,7 @@ Cette idée doit encore être définie mathématiquement.
 Une quantité composite avait été proposée sous la forme :
 
 $$
-\Phi_{\mathrm{coh}}
-=
+\Phi_{\mathrm{coh}}=
 \alpha C
 +
 \beta(1-D)
@@ -860,8 +857,7 @@ $$
 on peut définir provisoirement une géométrie collective :
 
 $$
-g_{\mu\nu}^{\mathrm{eff}}
-=
+g_{\mu\nu}^{\mathrm{eff}}=
 \sum_i
 w_i
 g_{\mu\nu}^{(i)}
@@ -878,8 +874,7 @@ et des poids déterminés par une règle indépendante de la géométrie recherc
 Une forme possible est :
 
 $$
-w_i
-=
+w_i=
 \frac{
 W(Q_i)
 }{
