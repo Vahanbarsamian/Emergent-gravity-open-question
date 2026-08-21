@@ -1281,8 +1281,7 @@ Le but ne sera pas simplement d'obtenir « quelque chose qui ressemble » à la 
 Il faudra mesurer quantitativement l'écart :
 
 $$
-\Delta g_{\mu\nu}
-=
+\Delta g_{\mu\nu}=
 g_{\mu\nu}^{\mathrm{eff}}
 -
 g_{\mu\nu}^{\mathrm{GR}}.
