@@ -1632,8 +1632,7 @@ Tester une masse sphérique idéalisée.
 Comparer la géométrie obtenue avec la limite newtonienne :
 
 $$
-\Phi_N(r)
-=
+\Phi_N(r)=
 -\frac{GM}{r}.
 $$
 
