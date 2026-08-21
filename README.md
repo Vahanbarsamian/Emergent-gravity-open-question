@@ -1188,8 +1188,7 @@ Le candidat naturel est la limite newtonienne d'un corps sphérique.
 On pourra ensuite considérer une métrique connue, par exemple Schwarzschild :
 
 $$
-ds^2
-=
+ds^2=
 -\left(1-\frac{2GM}{rc^2}\right)c^2dt^2
 +
 \left(1-\frac{2GM}{rc^2}\right)^{-1}dr^2
