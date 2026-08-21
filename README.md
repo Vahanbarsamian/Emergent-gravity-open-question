@@ -452,7 +452,8 @@ Cette question reste volontairement ouverte et falsifiable. Une démonstration q
 ---
 *Document de réflexion personnelle — aucune revendication de découverte ou de résultat nouveau.*
 ---
-README_REPRISE.md
+## README_REPRISE.md
+---
 # Émergence d'une géométrie gravitationnelle à partir d'une structure quantique
 
 ## Synthèse méthodologique et point de reprise
