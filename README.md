@@ -925,8 +925,7 @@ $$
 Si le mécanisme fonctionne réellement, l'étape ultime serait de montrer que l'intégration des degrés de liberté microscopiques produit une action effective du type :
 
 $$
-S_{\mathrm{eff}}[g]
-=
+S_{\mathrm{eff}}[g]=
 \frac{c^3}{16\pi G_{\mathrm{eff}}}
 \int
 d^4x\,
