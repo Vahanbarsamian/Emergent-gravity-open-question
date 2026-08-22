@@ -531,8 +531,8 @@ $$\Lambda_{\text{eff}}(C) = \Lambda_{\text{bare}} \cdot \mathrm{Re}\left( \sum_i
 #### 4. Fermeture du Système (Boucle d'Émergence)
 Le système se ferme par l'équation d'auto-consistance :
 
-$$\boxed{ \{ \hat{\Phi}_i \} \xrightarrow{\text{Somme } R > 0} C(\mathbf{x}) \xrightarrow{\nabla_\mu C} T_{\mu\nu}^{(C)} \xrightarrow{\text{Équation globale}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{Cœur saturé}} \text{Absence de singularité} }$$
----
+$$ \{ \hat{\Phi}_i \} \xrightarrow{\text{Somme } R > 0} C(\mathbf{x}) \xrightarrow{\nabla_\mu C} T_{\mu\nu}^{(C)} \xrightarrow{\text{Équation globale}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{Cœur saturé}} \text{Absence de singularité} $$
+----
 ## Conclusion générale
 
 > **« La géométrie gravitationnelle que nous décrivons par la relativité générale est la manifestation macroscopique et filtrée d'un champ de cohérence de phase quantique. La saturation du champ élimine les singularités ($r \to 0$), tandis que le filtrage des phases résout le problème de la constante cosmologique ($10^{120}$). »**
