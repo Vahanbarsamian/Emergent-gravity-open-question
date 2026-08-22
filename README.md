@@ -504,7 +504,35 @@ Une objection classique consiste à utiliser l'effet Casimir comme "preuve" que 
 3. **Résolution du paradoxe :**
    L'effet Casimir prouve que les *variations de configurations* de phase quantiques ont une réalité physique mesurable. Il confirme notre principe : **la gravité couple aux variations relatives de cohérence/phase ($\Delta C$), et non à la masse/énergie absolue renormalisée du vide microscopique.**
 ---
+---
 
+### 47.6 Synthèse du Système d'Équations Émergentes (Le Formalisme Complet)
+
+L'ensemble du travail conduit à un système d'équations couplées où la géométrie de l'espace-temps n'est plus un postulat, mais la solution macroscopique stationnaire d'un champ de cohérence de phase $C(x) \in [C_c, C_{\text{max}}]$.
+
+#### 1. Le Tenseur Énergie-Impulsion Effectif de Phase $T_{\mu\nu}^{(C)}$
+La contribution gravitationnelle du vide et des configurations quantiques ne provient pas de l'énergie brute, mais des gradients du champ de cohérence :
+$$T_{\mu\nu}^{(C)} = \alpha_{\text{émergence}} \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu\nu}^{\text{eff}} g^{\alpha\beta}_{\text{eff}} \nabla_\alpha C \nabla_\beta C - g_{\mu\nu}^{\text{eff}} V(C) \right)$$
+*où le potentiel de sélection $V(C)$ s'annule au niveau du vide critique $V(C_c) = 0$, garantissant l'absence de divergence cosmologique.*
+
+#### 2. Émergence Dynamique de la Constante Gravitationnelle $G_{\text{eff}}$
+La constante de Newton $G$ n'est pas une constante fondamentale microscopique, mais l'inverse du carré de la cohérence moyenne du secteur quasi-classique :
+$$\frac{1}{G_{\text{eff}}(x)} = \frac{1}{G_0} \cdot \frac{C(x)}{C_c}$$
+*En région à forte cohérence ($C \to C_{\text{max}}$), $G_{\text{eff}}$ s'adoucit, ce qui participe au plafonnement des forces au cœur des structures concentrées.*
+
+#### 3. Équation Émergente Globale de l'Espace-Temps
+En combinant le filtrage des histoires $R > 0$, la condition de phase stationnaire $\delta S = 0$ et le champ de cohérence, l'équation champ-géométrie prend sa forme finale :
+
+$$G_{\mu\nu}\left[g^{\text{eff}}\right] + \Lambda_{\text{eff}}(C) g_{\mu\nu}^{\text{eff}} = \frac{8\pi G_{\text{eff}}(C)}{c^4} \left( T_{\mu\nu}^{\text{matière}} + T_{\mu\nu}^{(C)} \right)$$
+
+avec la constante cosmologique effective résiduelle :
+$$\Lambda_{\text{eff}}(C) = \Lambda_{\text{bare}} \cdot \mathrm{Re}\left( \sum_i a_i e^{i S[Q_i]/\hbar} \right) \cdot \left( \frac{C - C_c}{C_{\text{max}}} \right)^{N_{\text{dof}}}$$
+
+#### 4. Fermeture du Système (Boucle d'Émergence)
+Le système se ferme par l'équation d'auto-consistance :
+
+$$\boxed{ \{ \hat{\Phi}_i \} \xrightarrow{\text{Somme } R > 0} C(\mathbf{x}) \xrightarrow{\nabla_\mu C} T_{\mu\nu}^{(C)} \xrightarrow{\text{Équation globale}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{Cœur saturé}} \text{Absence de singularité} }$$
+---
 ## Conclusion générale
 
 > **« La géométrie gravitationnelle que nous décrivons par la relativité générale est la manifestation macroscopique et filtrée d'un champ de cohérence de phase quantique. La saturation du champ élimine les singularités ($r \to 0$), tandis que le filtrage des phases résout le problème de la constante cosmologique ($10^{120}$). »**
