@@ -487,6 +487,23 @@ Dans ce cadre théorique :
 4. **Cœur Saturé Non-Singulier :** La point-singularité est remplacée par un cœur de phase d'extension finie $r_{\text{core}} \approx 0.4 r_g$, éliminant toutes les infinités physiques tout en conservant l'horizon des événements et la géométrie externe de Schwarzschild/Kerr à grande distance.
 
 ---
+---
+
+### 47.5 Traitement de l'Effet Casimir et de sa Contribution Gravitationnelle
+
+Une objection classique consiste à utiliser l'effet Casimir comme "preuve" que la gravité doit coupler directement à l'énergie absolue du vide quantique. Dans notre cadre, l'effet Casimir est réinterprété sans contradiction avec la résolution de la constante cosmologique :
+
+1. **Énergie de contrainte vs Énergie absolue :**
+   L'énergie mesurée dans l'effet Casimir ($\Delta E_{\text{Casimir}}$) n'est pas une mesure de la densité brute du vide $\rho_{\text{micro}}$, mais une **variation différentielle d'énergie** induite par des conditions aux limites macroscopiques (les plaques conductrices) :
+   $$\Delta E_{\text{Casimir}} = E_{\text{vide}}(\text{avec plaques}) - E_{\text{vide}}(\text{sans plaques})$$
+
+2. **Couplage gravitationnel effectif :**
+   La gravitation ne réagit pas à la somme infinie des modes microscopiques de point zéro, mais au gradient local du champ de cohérence $C(\mathbf{x})$ imposé par les contraintes matérielles :
+   $$T_{\mu\nu}^{\text{Casimir}} \propto \nabla_\mu C(\mathbf{x}) \nabla_\nu C(\mathbf{x})$$
+
+3. **Résolution du paradoxe :**
+   L'effet Casimir prouve que les *variations de configurations* de phase quantiques ont une réalité physique mesurable. Il confirme notre principe : **la gravité couple aux variations relatives de cohérence/phase ($\Delta C$), et non à la masse/énergie absolue renormalisée du vide microscopique.**
+---
 
 ## Conclusion générale
 
