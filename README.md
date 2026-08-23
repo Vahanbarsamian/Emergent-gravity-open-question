@@ -526,25 +526,25 @@ Ce mécanisme vise à proposer un cadre conceptuel où la valeur observée est n
 
 ---
 
-### 47.3 Interprétation provisoire du signe de RR
+### 47.3 Interprétation provisoire du signe de $R$
 
 Dans le modèle jouet, on définit :
-Z=R+iI,C=∣Z∣2=R2+I2,ϕ=atan2⁡(I,R).
-Z=R+iI,C=∣Z∣2=R2+I2,ϕ=atan2(I,R).
 
-Le signe de RR n’est pas invariant sous une rotation de phase globale. Il ne peut donc pas être interprété seul comme une mesure de cohérence.
+$$Z = R + iI, \qquad C = |Z|^2 = R^2 + I^2, \qquad \phi = \mathrm{atan2}(I, R)$$
+
+Le signe de $R$ n’est pas invariant sous une rotation de phase globale. Il ne peut donc pas être interprété seul comme une mesure de cohérence.
 
 Deux interprétations restent ouvertes :
+- $R < 0$ pourrait correspondre à une contribution effectivement destructive ou dynamiquement supprimée ;
+- $R < 0$ pourrait avoir une valeur de $C$ comparable à celle de $R > 0$ et représenter principalement une orientation de phase proche de $\phi = \pi$.
 
-    R<0 pourrait correspondre à une contribution effectivement destructive ou dynamiquement supprimée ;
-
-    R<0 pourrait avoir une valeur de CC comparable à celle de R>0 et représenter principalement une orientation de phase proche de ϕ=πϕ=π.
-
-Une troisième possibilité est que les occurrences R<0R<0 constituent une mémoire dynamique d’un état antérieur, ce qui doit être testé par les probabilités de transition et l’autocorrélation temporelle du signe.
+Une troisième possibilité est que les occurrences $R < 0$ constituent une mémoire dynamique d’un état antérieur, ce qui doit être testé par les probabilités de transition et l’autocorrélation temporelle du signe.
 
 Le statut actuel est donc :
-R>0 : critère de sélection du jouet,​
-R<0 : secteur à caractériser, pas encore secteur destructif démontré​
+
+$$\boxed{R > 0 \text{ : critère de sélection du jouet,}}$$
+
+$$\boxed{R < 0 \text{ : secteur à caractériser, pas encore secteur destructif démontré.}}$$​
 
 ---
 
