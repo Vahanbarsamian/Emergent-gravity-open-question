@@ -684,8 +684,8 @@ $$\(r_g=\dfrac{2GM}{c^2}\)$$.
 
 3. **Heuristic indicator of collective response $$\(R\)$$:**
 
-```math
-R = \operatorname{Re}\left( \sum_{i} a_i \, e^{i S[Q_i]/\hbar} \right)
+```
+R=\operatorname{Re}\left( \sum_{i} a_i \, e^{i S[Q_i]/\hbar} \right)
 [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/75060282/d2a1bdf3-fa2f-4747-8be1-10f6e2f71c74/paste.txt?AWSAccessKeyId=ASIA2F3EMEYETB2YQ7IL&Signature=p9rq8P21hLbw03Iq8wf4AXJn4Gw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEBMaCXVzLWVhc3QtMSJHMEUCIEr9oHQYO6gE%2BuZfyEJjlc5nrp%2FRJ0AG8cIHUqkGJtUsAiEA2CYmxyKdqjMi%2B1FCPI9QWnIMW4JF0HhPxEh3s6I9spQq%2FAQI3P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDCelHIEawiL4hS5GfyrQBLJEKbmb87YWuIR%2FlFpejzr1UBO%2B9v%2Bs2u54IHzATomu%2BQweteRgWvLmyFcLFHmdQAGGN8YrBzbo5gjV%2B8%2FdysJ7ij608Q5d7soeXGdr4gXwwqufcVpB5ub3QGg1nF5oRv4ZN5uLQtQKO9MQVjjrLxqfCpMDAWCCZlFtqX2YJY50UQoeVSpShdEsDWX1h%2FLVegIeuMhPxe8wpradwXeXyBguoIGQWET%2BSts2Y%2FYjIhIQNw5A5kPDN2LOPMI4JbREhA431wvizhAN5YuIyiy3j5f9b43aB6o%2FOFYElRD3QZSmAOPtCLy99iGyLMR0LlUIOxGau0Y%2FeqQvNoL7dQUgnUwJMzSgQupxiyQj1zJU0m5fgsF9ehWYODzsCtxLGUZrqU%2BgHuuEx6Rvjn6qNgbTzft5pURypFRn6jelNpi8OPeP9wmhp7ltTjlA6T9EIKid4doA6zzUvzLK%2F1jm4aX97fLgkBtGgMDX7y3qwHarrDCWtz3aQaNGjBjSIMm9T3xdSoNYe%2F9RDj4BF0YHcV9Rg4k1GV%2F9MZAu%2F2BIxy9KypKbtq9p%2BgQMcJyxzTN4EaFkV2zXV0CB2jnty5xBHPeINF7hyhfMMvObfsYHF3M6mqrZoAN%2BosWOjguMAu%2FOp9f629CwL11dFXCSfHD5x4JIWMm07UFprs7PTsWnk4yi7fW%2FFlmiE4BzHtE2YaO1wvEjknAfcjTnVyPn5Oh1NsiECvzq4p15uOeNzJsGNwrwRvIVrrkAl2LfLn%2B0oW6rCKJlCpyuHo03hZLGtyPbD7LT5fww9IOt1AY6mAFb34hUiHq8PFw5x7MDIU%2B%2FSxR9S7IQYyTbW2I853IleWrLipj%2Fy9KX688xUMhRpIR1g9RhG7RJ5HwR4yM4j4e1lXBLhZwC116GjBFJbJXx%2F5AedMHxinz2A3SNRs3I%2Bb1k66AHR2iN%2Funr%2FeYcCzJxtaA5fEbFf1woK6%2BMbwJbu6AtoJcFOA7mcaNk6pBYNUtLysopalYOBg%3D%3D&Expires=1787514823)
 
 ***
@@ -753,8 +753,7 @@ R > 0\ \text{(defined as } \mathrm{Re}(\bar{A})\text{)}:
 $$
 
 $$
-\boxed{
-C = |\bar{A}|^2:
+\boxed{C=|\bar{A}|^2:
 \text{phase-invariant scalar, the only robust candidate for comparing independent sectors (numerically confirmed).}
 }
 $$
