@@ -513,6 +513,7 @@ L'effet Casimir n'est pas vu ici comme une preuve que la gravité couple à l'é
 L'ensemble des hypothèses conduit au système d'équations couplées suivant :
 
 #### 1. Tenseur Énergie-Impulsion Effectif de Phase $T_{\mu\nu}^{(C)}$
+
 $$T_{\mu\nu}^{(C)} = \alpha_{\text{émergence}} \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu\nu}^{\text{eff}} g^{\alpha\beta}_{\text{eff}} \nabla_\alpha C \nabla_\beta C - g_{\mu\nu}^{\text{eff}} V(C) \right)$$
 *avec $V(C_c) = 0$ au niveau du vide critique.*
 
