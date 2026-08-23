@@ -1,4 +1,5 @@
-10.5281/zenodo.22064401
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22064401.svg)](https://doi.org/10.5281/zenodo.22064401)
+---
 🇫🇷 Français | [🇬🇧 English version](./Reflexion-ouverte-sur-la-gravite.en.md)
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
