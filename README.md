@@ -575,7 +575,6 @@ Dans cette approche, $c_{\text{loc}}$ (ou $c_{\text{loc}}^2$) n'est plus une con
 De même que la vitesse du son dépend de la rigidité et de la densité du milieu traversé, $c_{\text{loc}}$ s'ajuste dynamiquement selon la valeur locale du champ $C(\mathbf{x})$. Cette dépendance ferme la boucle entre la masse $m_{\text{eff}}$, l'énergie $E$ et la courbure géométrique $g_{\mu\nu}^{\text{eff}}$ générée dans l'équation champ-géométrie globale.
 
 ---
----
 
 ## 49. Formalisation Géométrique : Topologie Torique Spatialisée et Cône Causal Dynamique
 
