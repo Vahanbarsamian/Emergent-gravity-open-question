@@ -540,7 +540,7 @@ $$ \{ \hat{\Phi}_i \} \xrightarrow{\text{Somme } R > 0} C(\mathbf{x}) \xrightarr
 
 *Cette section intègre la réponse apportée aux échanges publics (notamment l'interpellation de Moïse Daniel sur LinkedIn) concernant l'origine et la justification de la relation masse-énergie dans le cadre d'un champ de cohérence $C(\mathbf{x})$.*
 
-### 48.1 La masse comme condensation de phase(Réponse a Moise Daniel sur Linkedin)
+### 48.1 La masse comme condensation de phase(Réponse à Moise Daniel sur Linkedin)
 Dans le modèle, la relation $m_{\text{eff}} = E / c_{\text{loc}}^2$ cesse d'être un postulat axiomatique parachuté : elle devient l'**équation d'état hydrodynamique du substrat quantique**.
 
 Dans le vide fondamental au niveau critique ($C = C_c$), le champ est libre et les configurations se propagent sans masse à la vitesse locale $c_{\text{loc}}$. Dès qu'une configuration quantique forme un état lié ou une excitation localisée (une particule), la phase du champ $C(\mathbf{x})$ se focalise. 
