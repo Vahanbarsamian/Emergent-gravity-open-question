@@ -571,7 +571,7 @@ $$\int_{V_{\mathbb{T}^3}} \left( C(\mathbf{x}) - C_c \right) \sqrt{|g_{\text{tor
 
 ## 50. Invariance de la Gravité et Interdiction Absolue de l'Antigravitation
 
-Dans cette section, nous apportons une réponse définitive à une interrogation fondamentale quant aux applications théoriques du modèle : *un champ de cohérence $C(\mathbf{x})$ permet-il d'engendrer un effet répulsif ou une « antigravitation » ?*
+Dans cette section, nous apportons une réponse définitive à une interrogation fondamentale quant aux applications théoriques du modèle : un champ de cohérence $C(\mathbf{x})$ permet-il d'engendrer un effet répulsif ou une « antigravitation » ?
 
 ### 50.1 L'impossibilité par saturation du champ ($C \le C_{\text{max}}$)
 Pour générer une gravité répulsive ou une masse négative dans le formalisme géométrique, il faudrait pouvoir inverser le signe du gradient de cohérence ($\nabla_\mu C$) ou forcer le champ au-delà de sa valeur de saturation.
