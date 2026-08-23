@@ -645,11 +645,19 @@ $$\nabla_\mu C \to 0$$
 Le gradient s'annule naturellement, ce qui lisse le potentiel gravitationnel au cœur des configurations denses. L'absence de singularité ($r \to 0$) interdit du même coup la création d'une région à « densité négative ».
 
 ### 50.2 Le filtrage des phases et la décohérence du secteur $R < 0$
-La possibilité d'une antigravitation reposerait sur la survie d'états à réponse collective négative ($R < 0$). Comme démontré dans le formalisme de sélection par la phase :
+Dans la construction actuelle, le secteur $R < 0$ est exclu par la règle de sélection $R > 0$. Cette exclusion est un choix du modèle jouet et ne constitue pas encore une démonstration que les contributions $R < 0$ sont physiquement détruites ou incapables de produire une géométrie effective. La campagne $(R, I, C, \phi)$, complétée par une analyse temporelle et par comparaison entre niveaux d’agrégation, doit déterminer si cette exclusion correspond à une dynamique réelle, à une rotation de phase ou à un effet de projection.
 
-* Les configurations présentant un secteur $R < 0$ subissent une **interférence destructive quasi-totale** à l'échelle macroscopique.
-* Seul le secteur attractif et cohérent ($R > 0$) franchit le filtre de décohérence pour générer la métrique effective $g_{\mu\nu}^{\text{eff}}$.
+| Formulation actuelle | Formulation plus rigoureuse |
+| :--- | :--- |
+| « le modèle résout $10^{120}$ » | « le modèle propose une piste pour la hiérarchie $10^{120}$ » |
+| « le filtre $R > 0$ est démontré » | « le filtre $R > 0$ est imposed dans le modèle actuel » |
+| « $R < 0$ est destructif » | « $R < 0$ est compatible avec une interprétation destructive, à tester » |
+| « la métrique émerge » | « une règle candidate d’émergence de métrique est proposée » |
+| « l’absence de singularité est obtenue » | « un profil régularisé évite la divergence dans ce modèle phénoménologique » |
+| « confirme la relativité générale » | « pourrait être comparé aux limites de la relativité générale » |
+| « interdit formellement l’antigravitation » | « exclut ce comportement dans la version particulière du modèle » |
 
+**$R^-$ n’est pas encore identifié comme une perte de cohérence. Il pourrait représenter une orientation de phase opposée, un secteur destructif, ou une mémoire dynamique du signe antérieur de $R$. La distinction nécessite l’enregistrement conjoint de $(R, I, C, \phi)$, une analyse des transitions temporelles et une comparaison micro/macro.**
 ### 50.3 La forme quadratique de la densité d'énergie
 Le tenseur d'énergie-impulsion effectif du champ dépend de termes quadratiques $(\nabla C)^2$ :
 
