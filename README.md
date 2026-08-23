@@ -444,13 +444,13 @@ L'assistance de modèles de langage a servi à explorer la littérature, reformu
 
 ## 47. Piste de Formalisation Mathématique (Modèle Jouet Exploratoire)
 
-*Dans cette section, nous introduisons une tentative de formalisation phénoménologique basée sur un champ scalaire ad dimensionnel de cohérence de phase $C(\mathbf{x}) \in [0, 1]$ et son lien potentiel avec l'émergence de la métrique effective $g_{\mu\nu}^{\text{eff}}$.*
+Dans cette section, nous introduisons une tentative de formalisation phénoménologique basée sur un champ scalaire ad dimensionnel de cohérence de phase $C(\mathbf{x}) \in [0, 1]$ et son lien potentiel avec l'émergence de la métrique effective $g_{\mu\nu}^{\text{eff}}$.
 
 ### 47.1 Formules de Travail Proposées
 
 1. **Équation d'émergence du potentiel (Type Poisson modifiée) :**
    $$\nabla^2 \Phi(\mathbf{x}) = \frac{4\pi c^2}{L_0^2} \left( C(\mathbf{x}) - C_c \right)$$
-   *où $C_c = 0.2000$ représente la valeur critique du vide, et $L_0$ est une échelle de longueur caractéristique assurant l'homogénéité dimensionnelle ($s^{-2}$).*
+   où $C_c = 0.2000$ représente la valeur critique du vide, et $L_0$ est une échelle de longueur caractéristique assurant l'homogénéité dimensionnelle ($s^{-2}$).
 
 2. **Profil de saturation au cœur (forme régularisée) :**
    $$C(r) = C_c + \left( \frac{r_g^2}{r^2 + r_g^2} \right) (C_{\text{max}} - C_c)$$
