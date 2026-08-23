@@ -400,7 +400,7 @@ Question soumise aux chercheurs en gravité quantique, QFT en espace-temps courb
 >
 > **Existe-t-il un mécanisme permettant de passer d'une multiplicité de configurations quantiques à un secteur quasi-classique cohérent dont les paramètres effectifs sont calculés plutôt que postulés ?**
 
-*(19 sous-questions techniques détaillées — formulation mathématique exacte, degrés de liberté, corrélations, mesure, décohérence, émergence de la métrique, du temps, de la masse, de $G_{\mathrm{eff}}$, de $\Lambda_{\mathrm{eff}}$, hypothèses, limites, localité, covariance, cohérence énergie-impulsion, hiérarchie $10^{120}$, prédiction distinctive.)*
+(19 sous-questions techniques détaillées — formulation mathématique exacte, degrés de liberté, corrélations, mesure, décohérence, émergence de la métrique, du temps, de la masse, de $G_{\text{eff}}$, de $\Lambda_{\text{eff}}$, hypothèses, limites, localité, covariance, cohérence énergie-impulsion, hiérarchie $10^{120}$, prédiction distinctive.)
 
 Si aucune construction satisfaisant ces critères n'existe : **quel obstacle structurel connu empêche une telle construction ?**
 
