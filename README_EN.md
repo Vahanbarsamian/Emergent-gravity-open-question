@@ -47,8 +47,7 @@ The problem is therefore no longer to immediately seek an “antigravitational f
 General relativity describes gravitation through Einstein’s field equations:
 
 $$
-G_{\mu\nu} + \Lambda g_{\mu\nu}
-= \frac{8\pi G}{c^4} T_{\mu\nu}
+G_{\mu\nu} + \Lambda g_{\mu\nu}= \frac{8\pi G}{c^4} T_{\mu\nu}
 $$
 
 where \(g_{\mu\nu}\) is the spacetime metric, \(G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu}\) is the Einstein tensor, \(\Lambda\) is the cosmological constant, \(G\) is the gravitational constant, and \(T_{\mu\nu}\) is the stress–energy tensor. The complete curvature tensor is the Riemann tensor \(R^{\rho}{}_{\sigma\mu\nu}\).
@@ -72,20 +71,15 @@ This question is related in particular to the concept of **induced gravity**, hi
 In the induced-gravity picture, an Einstein–Hilbert-type gravitational term may arise as an effective term resulting from quantum fluctuations of fields coupled to a geometry:
 
 $$
-S_{\mathrm{EH}}= \frac{c^3}{16\pi G}
-\int d^4x\,\sqrt{-g}\,R
+S_{\mathrm{EH}}= \frac{c^3}{16\pi G}\int d^4x\,\sqrt{-g}\,R
 $$
 
 After integrating out quantum degrees of freedom, one may schematically obtain:
 
 $$
-S_{\mathrm{eff}}[g]= \int d^4x\,\sqrt{-g}
-\left[
+S_{\mathrm{eff}}[g]=\int d^4x\,\sqrt{-g}\left[
 \frac{c^3}{16\pi G_{\mathrm{eff}}}
-\left(R - 2\Lambda_{\mathrm{eff}}\right)
-+ aR^2
-+ bR_{\mu\nu}R^{\mu\nu}
-+ \cdots
+\left(R - 2\Lambda_{\mathrm{eff}}\right)+ aR^2+ bR_{\mu\nu}R^{\mu\nu}+ \cdots
 \right]
 $$
 
@@ -120,15 +114,8 @@ A modification of \(G\) alone is insufficient to explain gravity, which is a the
 
 > **Could geometry itself emerge from more fundamental quantum degrees of freedom?**
 
-$$
-\text{microscopic quantum structure}
-\;\rightarrow\;
-\text{correlations}
-\;\rightarrow\;
-\text{effective geometry}
-\;\rightarrow\;
-\text{classical gravity}
-$$ [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/75060282/d2a1bdf3-fa2f-4747-8be1-10f6e2f71c74/paste.txt?AWSAccessKeyId=ASIA2F3EMEYETIQ3IWT4&Signature=8GnbQRku08Rlx%2B9814hY1NllKzM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEBMaCXVzLWVhc3QtMSJGMEQCIAuXk%2BqfE8I%2BkNc6wPpLFQ%2B%2FrzPFhtA%2FAkN90pvjYNPGAiAmd6yB0W7FS%2BV9GYWZR5MGpeS6ctiBczEsv5D9WiD57Cr8BAjc%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIMsbtSonHSR30qN3EvKtAEp%2F8qAmpUNzjnNSaPxd4%2F5h3hLI1xqsK7gCtIvvrZboGDsc4aBz9ZCQ387lt6acZh9cVat1Z5M%2FkiG5AsYdAe%2BH8u4ImQQ6E4nLWz95yNz9KFUh73aSm%2FnS%2FCsmwIbFIQGNU%2FmEG%2BXn6v6wdUKrLVTs4cpGHj9PLvZZ5CMguiGSArH1tBEm9Ew48DTj%2B1bEWGSHiKyT1yoeEX%2B6NU0fOSK5OAo6ExV5nrJMZh72WfzzfsW7lYucQ4xSI0th4awSMyx66wO8A70yMWkKE%2FJDyn4QJoDFQttqnC0kwUHhb2JWcxESfNzNdSq%2B%2BVSNZPPIRvGfhL337Hl1kehc4WMvGYtXnJXnW8fZiXuwhv2b%2FUfU8tXspSw9hlXGhF7d8PW4cQ9jDqGSodft%2FPtRQm4BYYt%2FE%2BdRq0FJ3Em2OB44yYRYgJbnUeqFmNomOPPnVafDSnljNDQWVEhpycnyL8KNitYHI3jP%2BXzPTigb0fc8hXmPJm7vSgS1fISZXqVEo21HEwSEuNFV73dl0YzyVV%2BtkXvLKuChmfUJguKRE7DWXAfJVvgJpoO06raLbX8h334KmlH9SJPwZh%2BQNN4SZYR8d6kYcTge7WT1t3NZr3HGZtDbLTjP0g%2F6mgwv%2F8eZz%2FARENYbL%2F0N0puFbUb3GUlXTnLSTP3JsoBAzJhtyRK3GPWDnL3diC8llkKwBXUcfSTAHPWJPUXWUqPM9MK7sOAmjF4iv1VgpLG3JWAWT4aXtVO7RX6T8qndL4GL4bDQXz%2BfMFJfkqFx5CJHPfpKJXM7S2eDCDgq3UBjqZAdb6LOU26gUYRLGpZTMM%2Fb1dgRpT3lVE3SGCC8uVuq9NgujFjra3HAKMKRHy9%2BMoijO4Z95fhkTneKd2UV68RrYLZluxcYWyE8p8%2BtVHZsLCP5%2FlGofnCwS9ZvKei0kIKcLo%2Fq5jZz2kbkBFI4tfgV6ewcXEXplFAD%2Bla55F0vrwG8Zq7DqHR3P8kf5QAJJZ8DiOTu7qMjiYlw%3D%3D&Expires=1787514582)
+$$\text{microscopic quantum structure} \rightarrow \text{correlations} \rightarrow \text{effective geometry} \rightarrow \text{classical gravity}$$
+[ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/75060282/d2a1bdf3-fa2f-4747-8be1-10f6e2f71c74/paste.txt?AWSAccessKeyId=ASIA2F3EMEYETIQ3IWT4&Signature=8GnbQRku08Rlx%2B9814hY1NllKzM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEBMaCXVzLWVhc3QtMSJGMEQCIAuXk%2BqfE8I%2BkNc6wPpLFQ%2B%2FrzPFhtA%2FAkN90pvjYNPGAiAmd6yB0W7FS%2BV9GYWZR5MGpeS6ctiBczEsv5D9WiD57Cr8BAjc%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIMsbtSonHSR30qN3EvKtAEp%2F8qAmpUNzjnNSaPxd4%2F5h3hLI1xqsK7gCtIvvrZboGDsc4aBz9ZCQ387lt6acZh9cVat1Z5M%2FkiG5AsYdAe%2BH8u4ImQQ6E4nLWz95yNz9KFUh73aSm%2FnS%2FCsmwIbFIQGNU%2FmEG%2BXn6v6wdUKrLVTs4cpGHj9PLvZZ5CMguiGSArH1tBEm9Ew48DTj%2B1bEWGSHiKyT1yoeEX%2B6NU0fOSK5OAo6ExV5nrJMZh72WfzzfsW7lYucQ4xSI0th4awSMyx66wO8A70yMWkKE%2FJDyn4QJoDFQttqnC0kwUHhb2JWcxESfNzNdSq%2B%2BVSNZPPIRvGfhL337Hl1kehc4WMvGYtXnJXnW8fZiXuwhv2b%2FUfU8tXspSw9hlXGhF7d8PW4cQ9jDqGSodft%2FPtRQm4BYYt%2FE%2BdRq0FJ3Em2OB44yYRYgJbnUeqFmNomOPPnVafDSnljNDQWVEhpycnyL8KNitYHI3jP%2BXzPTigb0fc8hXmPJm7vSgS1fISZXqVEo21HEwSEuNFV73dl0YzyVV%2BtkXvLKuChmfUJguKRE7DWXAfJVvgJpoO06raLbX8h334KmlH9SJPwZh%2BQNN4SZYR8d6kYcTge7WT1t3NZr3HGZtDbLTjP0g%2F6mgwv%2F8eZz%2FARENYbL%2F0N0puFbUb3GUlXTnLSTP3JsoBAzJhtyRK3GPWDnL3diC8llkKwBXUcfSTAHPWJPUXWUqPM9MK7sOAmjF4iv1VgpLG3JWAWT4aXtVO7RX6T8qndL4GL4bDQXz%2BfMFJfkqFx5CJHPfpKJXM7S2eDCDgq3UBjqZAdb6LOU26gUYRLGpZTMM%2Fb1dgRpT3lVE3SGCC8uVuq9NgujFjra3HAKMKRHy9%2BMoijO4Z95fhkTneKd2UV68RrYLZluxcYWyE8p8%2BtVHZsLCP5%2FlGofnCwS9ZvKei0kIKcLo%2Fq5jZz2kbkBFI4tfgV6ewcXEXplFAD%2Bla55F0vrwG8Zq7DqHR3P8kf5QAJJZ8DiOTu7qMjiYlw%3D%3D&Expires=1787514582)
 
 ***
 
