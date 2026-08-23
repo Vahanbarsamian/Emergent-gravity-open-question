@@ -563,10 +563,7 @@ $$\int_{V_{\mathbb{T}^3}} \left( C(\mathbf{x}) - C_c \right) \sqrt{|g_{\text{tor
 1. **Piégeage de phase sur $\mathbb{T}^3$ :** Le tore spatial piège et confine la phase ($C > C_c$), générant la masse effective et l'énergie confinée.
 2. **Cône de propagation causal :** Fixe la vitesse d'avancement $c_{\text{loc}}$ du front de phase.
 3. **Réaction d'inertie ($T_{\mu\nu}^{(C)}$) :** Quantifie la résistance élastique lors de la translation du tore le long du cône causal.
-
----
----
-
+4. 
 ---
 
 ## 50. Invariance de la Gravité et Interdiction Absolue de l'Antigravitation
@@ -597,6 +594,37 @@ Cette structure quadratique garantit que la densité d'énergie effective demeur
 
 ### Conclusion du Paragraphe 50
 Si le modèle est vérifié, **il interdit formellement toute forme d'antigravitation**. La saturation $C_{\text{max}}$ qui élimine les singularités physiques de l'espace-temps ($r \to 0$) est exactement le même mécanisme qui empêche l'émergence de forces gravitationnelles répulsives. L'Univers se révèle être rigoureusement protégé contre les divergences et les instabilités exotiques.
+
+---
+---
+
+## 51. Dilatation Temporelle et Concordance avec la Relativité Générale
+
+Dans cette section, nous analysons l'impact d'une variation locale du champ de cohérence $C(\mathbf{x})$ sur l'écoulement du temps propre et la navigation spatiale, démontrant la parfaite continuité entre notre formalisme et les prédictions validées d'Albert Einstein.
+
+### 51.1 Le temps propre comme fonction de la densité de cohérence
+Dans notre cadre théorique, le temps propre $d\tau$ mesuré par un observateur ou un système embarqué ne dépend pas d'un temps universel absolu, mais de la valeur locale de la métrique effective $g_{\mu\nu}^{\text{eff}}(C)$ :
+
+$$d\tau = dt \sqrt{g_{00}^{\text{eff}}(C) - \frac{v^2}{c_{\text{loc}}^2(C)}}$$
+
+Lorsque la cohérence locale s'accroît ($C(\mathbf{x}) > C_c$) — que ce soit au voisinage d'une masse condensée ou par une modification artificielle de la densité de phase —, la composante $g_{00}^{\text{eff}}$ diminue.
+
+* **Ralentissement de l'horloge interne :** Pour un équipage évoluant au cœur d'un puits de cohérence élevé, la fréquence des micro-processus quantiques ralentit par rapport au vide critique distant ($C \approx C_c$).
+* **Effet sur les voyages spatiaux :** Si un véhicule parvenait à condenser le champ $C(\mathbf{x})$ autour de sa structure, le temps propre $d\tau$ perçu par les occupants s'écoulerait beaucoup plus lentement que le temps coordonnée $dt$ mesuré sur Terre. Un trajet interstellaire de plusieurs décennies terrestres ne durerait que quelques mois pour l'équipage.
+
+### 51.2 L'explication sous-jacente du principe d'Einstein
+Loin de contredire la Relativité Générale, cette dynamique apporte le mécanisme physique fondamental sous-jacent aux équations d'Einstein :
+
+1. **La géométrie d'Einstein comme émergence :** La dilatation du temps et la courbure des trajectoires relativistes ne sont pas des postulats abstraits, mais la manifestation directe de la résistance hydrodynamique du substrat quantique sous l'effet du gradient $\nabla C$.
+2. **Le principe de correspondance :** Aux échelles macroscopiques ordinaires, notre tenseur $T_{\mu\nu}^{(C)}$ et l'équation champ-géométrie redonnent rigoureusement les résultats d'Einstein (effet Shapiro, décalage vers le rouge gravitationnel, dilatation temporelle).
+
+### 51.3 La préservation de la causalité cosmique
+Cependant, l'infléchissement du temps propre ne permet aucun « saut instantané » ni voyage vers le passé :
+* **Conservation de la causalité :** L'absence de masse négative et le filtrage des phases $R < 0$ (établis aux paragraphes 48 et 50) interdisent la création de boucles temporelles fermées ou de trous de ver traversables.
+* **Le coût relativiste :** Tout gain sur le temps propre $d\tau$ de l'équipage se paye par un décalage irréversible avec le reste de l'Univers. Le voyageur interstellaire retrouve une Terre vieillie de plusieurs siècles, confirmant le cadre relativiste classique.
+
+### Conclusion du Paragraphe 51
+La capacité du champ de cohérence à infléchir l'écoulement du temps confirme la robustesse du modèle : il explique **pourquoi** la Relativité Générale fonctionne si bien aux échelles observées, tout en fournissant une description sub-quantique continue qui élimine ses divergences aux limites.
 
 ---
 ---
