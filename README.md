@@ -196,7 +196,7 @@ Cette analogie ne doit pas être considérée comme une équivalence physique �
 
 $$\Psi \sim \int \mathcal{D}[\text{configurations}]\; e^{iS/\hbar}$$
 
-Dans la limite semi-classique, les contributions dont la phase varie rapidly s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $g_{\mu\nu}$.
+Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $g_{\mu\nu}$.
 
 ---
 
@@ -283,7 +283,7 @@ Cette formulation ne prétend pas démontrer que plusieurs espaces-temps classiq
 
 ## 28. H6bis.4 — Le parallèle avec le photon et le miroir
 
-Toutes les trajectoires contribuent à l'amplitude ; les contributions à phase rapidly variable s'annulent ; près du chemin classique ($\delta S = 0$), les contributions se renforcent. Le point macroscopiquement observé n'est pas la manifestation d'un seul chemin microscopique réellement emprunté, mais de la région où les contributions interfèrent constructivement. Le parallèle avec les bulles et avec les histoires est structurel, pas littéral.
+Toutes les trajectoires contribuent à l'amplitude ; les contributions à phase rapidement variable s'annulent ; près du chemin classique ($\delta S = 0$), les contributions se renforcent. Le point macroscopiquement observé n'est pas la manifestation d'un seul chemin microscopique réellement emprunté, mais de la région où les contributions interfèrent constructivement. Le parallèle avec les bulles et avec les histoires est structurel, pas littéral.
 
 ---
 
@@ -443,158 +443,132 @@ L'assistance de modèles de langage a servi à explorer la littérature, reformu
 
 ---
 
-## 47. Formulation Mathématique et Résolution des Énigmes Physiques
+## 47. Piste de Formalisation Mathématique (Modèle Jouet Exploratoire)
 
-Pour clore ce cadre de travail, nous formalisons la dynamique du champ de cohérence de phase $C(\mathbf{x}) \in [0, 1]$ et son lien direct avec l'émergence de la métrique effective $g_{\mu\nu}^{\text{eff}}$.
+*Dans cette section, nous introduisons une tentative de formalisation phénoménologique basée sur un champ scalaire ad dimensionnel de cohérence de phase $C(\mathbf{x}) \in [0, 1]$ et son lien potentiel avec l'émergence de la métrique effective $g_{\mu\nu}^{\text{eff}}$.*
 
-### 47.1 Les Formules Fondamentales
+### 47.1 Formules de Travail Proposées
 
 1. **Équation d'émergence du potentiel (Type Poisson modifiée) :**
-   $$\nabla^2 \Phi(\mathbf{x}) = 4\pi G \alpha_{\text{émergence}} \left( C(\mathbf{x}) - C_c \right)$$
-   *où $C_c = 0.2000$ représente la cohérence du vide critique, et $\alpha_{\text{émergence}} \approx \frac{c^2}{G}$ fixe l'échelle de couplage.*
+   $$\nabla^2 \Phi(\mathbf{x}) = \frac{4\pi c^2}{L_0^2} \left( C(\mathbf{x}) - C_c \right)$$
+   *où $C_c = 0.2000$ représente la valeur critique du vide, et $L_0$ est une échelle de longueur caractéristique assurant l'homogénéité dimensionnelle ($s^{-2}$).*
 
-2. **Saturation de la cohérence au cœur :**
-   $$C(r) = C_c + \left( \frac{r_g}{r + r_g} \right) (C_{\text{max}} - C_c)$$
+2. **Profil de saturation au cœur (forme régularisée) :**
+   $$C(r) = C_c + \left( \frac{r_g^2}{r^2 + r_g^2} \right) (C_{\text{max}} - C_c)$$
    *avec $C_{\text{max}} = 1.0000$ (borne supérieure absolue) et $r_g = \frac{2GM}{c^2}$.*
 
-3. **Indicateur de réponse collective et de filtrage $R$ :**
+3. **Indicateur heuristique de réponse collective $R$ :**
    $$R = \mathrm{Re}\left( \sum_{i} a_i e^{i S[Q_i]/\hbar} \right)$$
 
 ---
 
-### 47.2 Explication du facteur $10^{120}$ (L'Écart Cosmologique)
+### 47.2 Piste d'explication pour l'Écart Cosmologique ($10^{120}$)
 
-Dans les approches conventionnelles de la Théorie Quantique des Champs (QFT), la constante cosmologique $\Lambda$ est calculée comme la somme directe des énergies de point zéro de tous les modes jusqu'à l'échelle de Planck, produisant une densité d'énergie $\rho_{\text{micro}} \sim M_{\text{Planck}}^4$, soit $10^{120}$ fois la valeur observée $\rho_{\text{obs}}$.
+Dans les approches conventionnelles de la QFT, la constante cosmologique $\Lambda$ est estimée en sommant l'énergie de point zéro jusqu'à l'échelle de Planck ($\rho_{\text{micro}} \sim M_{\text{Planck}}^4$).
 
-Notre modèle résout cet écart par un **mécanisme de sous-espace de cohérence (Filtrage Dynamique par $R$)** :
-* La gravité classique ne couple **pas** à l'énergie microscopique brute $\rho_{\text{micro}}$, mais uniquement à la fraction de phase cohérente sélectionnée par la condition de phase stationnaire ($\delta S = 0$).
-* L'intégration des modes non-cohérents s'annule par interférence destructive dans la somme sur les configurations.
-* La constante cosmologique effective $\Lambda_{\text{eff}}$ n'est donc pas une somme d'énergies absolues, mais un résidu statistique de cohérence : 
-  $$\Lambda_{\text{eff}} \sim \Lambda_{\text{bare}} \times \left( \frac{C_c}{C_{\text{max}}} \right)^{N_{\text{dof}}} \ll \rho_{\text{micro}}$$
-Ce changement de paradigme explique pourquoi la constante cosmologique observée est extrêmement faible tout en restant non nulle ($\rho_{\text{eff}} > 0$), résolvant naturellement le problème des $10^{120}$ ordres de grandeur sans ajustement fin (*fine-tuning*).
+Dans le présent cadre exploratoire, la résolution s'envisage par un **moteur de filtrage dynamique par $R$** :
+* La gravité classique ne se couplerait pas à la densité microscopique brute, mais uniquement au secteur de phase sélectionné par la condition de phase stationnaire ($\delta S = 0$).
+* Les modes non incohérents s'annuleraient par interférence destructive dans l'intégrale de chemin.
+* La constante cosmologique effective $\Lambda_{\text{eff}}$ résulterait d'un atténuateur d'échelle régularisé :
+  $$\Lambda_{\text{eff}} \sim \Lambda_{\text{bare}} \times \left( \frac{C_c}{C_{\text{max}}} \right)^{\ln(\ell_{\text{Planck}} / \ell_{\text{cosmo}})}$$
+Ce mécanisme vise à proposer un cadre conceptuel où la valeur observée est naturellement supprimée sans nécessiter un ajustement fin (*fine-tuning*) des paramètres nus.
 
 ---
 
-### 47.3 Signification du signe de $R$
+### 47.3 Interprétation du signe de $R$
 
-L'indicateur $R$ agit comme un filtre de sélection des régimes collectifs :
+Dans ce modèle d'étude, l'indicateur $R$ sert de critère de sélection :
 
 * **Régime $R > 0$ (Régime Constructif / Gravitationnel) :** Les phases des configurations $Q_i$ interfèrent de manière constructive. Les corrélations se stabilisent et génèrent une géométrie effective attractive standard ($g_{00} < 0$).
-* **Régime $R < 0$ (Régime Destructif / Non-Attractif) :** Un signe négatif de $R$ ne signifie **pas** une "antigravité" physique ou une masse négative. Il indique une zone d'interférence destructive ou d'instabilité de phase où le substrat microscopique ne peut pas soutenir une géométrie classique continue. Les configurations associées à $R < 0$ sont naturellement "filtrées" et éliminées lors de la transition vers le secteur quasi-classique.
+* **Régime $R < 0$ (Régime Destructif / Non-Attractif) :** Un signe négatif ne représente **pas** une gravité répulsive ou une masse négative, mais une zone d'instabilité de phase où le substrat ne peut pas soutenir une métrique classique continue. Ces configurations sont éliminées lors de la transition semi-classique.
 
 ---
 
-### 47.4 Résolution des Singularités Physiques
+### 47.4 Comportement aux Courbures Élevées et Régularisation
 
-En Relativité Générale classique, les centres des trous noirs et l'instant initial du Big Bang présentent des singularités ($r \to 0 \Rightarrow \rho \to \infty, R^{\mu\nu\rho\sigma}R_{\mu\nu\rho\sigma} \to \infty$).
+En relativité générale, l'effondrement classique conduit à des singularités ($r \to 0 \Rightarrow \rho \to \infty$). Dans ce formalisme exploratoire :
 
-Dans ce cadre théorique :
-1. **Borne de Cohérence :** Lorsque $r \to 0$, le champ de cohérence atteint sa saturation absolue $C(r) \to C_{\text{max}} = 1.0000$.
-2. **Plafonnement du Gradient :** La saturation impose $\nabla C(r) \to 0$ au cœur absolu.
-3. **Annulation de l'Accélération :** L'accélération effective $g(r) = -\nabla \Phi(r)$ s'annule au centre ($g(0) = 0$).
-4. **Cœur Saturé Non-Singulier :** La point-singularité est remplacée par un cœur de phase d'extension finie $r_{\text{core}} \approx 0.4 r_g$, éliminant toutes les infinités physiques tout en conservant l'horizon des événements et la géométrie externe de Schwarzschild/Kerr à grande distance.
+1. **Borne de Cohérence :** Lorsque $r \to 0$, le profil régularisé donne $C(r) \to C_{\text{max}} = 1.0000$.
+2. **Gradient au centre :** La forme quadratique assure que $\frac{dC}{dr}(0) = 0$, et donc $\nabla C(0) = \mathbf{0}$.
+3. **Annulation de l'Accélération :** L'accélération effective $g(r) = -\nabla \Phi(r)$ s'annule naturellement en $r=0$.
+4. **Cœur Saturé :** La point-singularité est remplacée par un cœur de phase de rayon caractéristique $r_{\text{core}} \sim r_g$, évitant les divergences à l'origine tout en préservant la géométrie externe à grande distance.
 
 ---
 
-### 47.5 Traitement de l'Effet Casimir et de sa Contribution Gravitationnelle
+### 47.5 Traitement de l'Effet Casimir
 
-Une objection classique consiste à utiliser l'effet Casimir comme "preuve" que la gravité doit coupler directement à l'énergie absolue du vide quantique. Dans notre cadre, l'effet Casimir est réinterprété sans contradiction avec la résolution de la constante cosmologique :
+L'effet Casimir n'est pas vu ici comme une preuve que la gravité couple à l'énergie absolue du vide, mais comme une confirmation du couplage aux variations différentielles :
 
-1. **Énergie de contrainte vs Énergie absolue :**
-   L'énergie mesurée dans l'effet Casimir ($\Delta E_{\text{Casimir}}$) n'est pas une mesure de la densité brute du vide $\rho_{\text{micro}}$, mais une **variation différentielle d'énergie** induite par des conditions aux limites macroscopiques (les plaques conductrices) :
+1. **Variation de contrainte :**
    $$\Delta E_{\text{Casimir}} = E_{\text{vide}}(\text{avec plaques}) - E_{\text{vide}}(\text{sans plaques})$$
-
-2. **Couplage gravitationnel effectif :**
-   La gravitation ne réagit pas à la somme infinie des modes microscopiques de point zéro, mais au gradient local du champ de cohérence $C(\mathbf{x})$ imposé par les contraintes matérielles :
+2. **Couplage aux gradients :**
+   La gravitation effective réagirait au gradient local du champ de cohérence imposé par les conditions aux limites matérielles :
    $$T_{\mu\nu}^{\text{Casimir}} \propto \nabla_\mu C(\mathbf{x}) \nabla_\nu C(\mathbf{x})$$
+   L'effet Casimir confirme ainsi l'hypothèse selon laquelle la gravité répond aux variations relatives de phase ($\Delta C$) et non à la masse/énergie absolue du vide microscopique.
 
-3. **Résolution du paradoxe :**
-   L'effet Casimir prouve que les *variations de configurations* de phase quantiques ont une réalité physique mesurable. Il confirme notre principe : **la gravité couple aux variations relatives de cohérence/phase ($\Delta C$), et non à la masse/énergie absolue renormalisée du vide microscopique.**
-   
 ---
 
-### 47.6 Synthèse du Système d'Équations Émergentes (Le Formalisme Complet)
+### 47.6 Synthèse du Système d'Équations Émergentes Proposé
 
-L'ensemble du travail conduit à un système d'équations couplées où la géométrie de l'espace-temps n'est plus un postulat, mais la solution macroscopique stationnaire d'un champ de cohérence de phase $C(x) \in [C_c, C_{\text{max}}]$.
+L'ensemble des hypothèses conduit au système d'équations couplées suivant :
 
-#### 1. Le Tenseur Énergie-Impulsion Effectif de Phase $T_{\mu\nu}^{(C)}$
-La contribution gravitationnelle du vide et des configurations quantiques ne provient pas de l'énergie brute, mais des gradients du champ de cohérence :
+#### 1. Tenseur Énergie-Impulsion Effectif de Phase $T_{\mu\nu}^{(C)}$
 $$T_{\mu\nu}^{(C)} = \alpha_{\text{émergence}} \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu\nu}^{\text{eff}} g^{\alpha\beta}_{\text{eff}} \nabla_\alpha C \nabla_\beta C - g_{\mu\nu}^{\text{eff}} V(C) \right)$$
-*où le potentiel de sélection $V(C)$ s'annule au niveau du vide critique $V(C_c) = 0$, garantissant l'absence de divergence cosmologique.*
+*avec $V(C_c) = 0$ au niveau du vide critique.*
 
-#### 2. Émergence Dynamique de la Constante Gravitationnelle $G_{\text{eff}}$
-La constante de Newton $G$ n'est pas une constante fondamentale microscopique, mais l'inverse du carré de la cohérence moyenne du secteur quasi-classique :
-$$\frac{1}{G_{\text{eff}}(x)} = \frac{1}{G_0} \cdot \frac{C(x)}{C_c}$$
-*En région à forte cohérence ($C \to C_{\text{max}}$), $G_{\text{eff}}$ s'adoucit, ce qui participe au plafonnement des forces au cœur des structures concentrées.*
+#### 2. Dépendance de la Constante Gravitationnelle $G_{\text{eff}}$
+$$\frac{1}{G_{\text{eff}}(x)} = \frac{1}{G_0} \cdot \left( \frac{C(x)}{C_c} \right)$$
 
-#### 3. Équation Émergente Globale de l'Espace-Temps
-En combinant le filtrage des histoires $R > 0$, la condition de phase stationnaire $\delta S = 0$ et le champ de cohérence, l'équation champ-géométrie prend sa forme finale :
-
+#### 3. Équation Champ-Géométrie Global
 $$G_{\mu\nu}\left[g^{\text{eff}}\right] + \Lambda_{\text{eff}}(C) g_{\mu\nu}^{\text{eff}} = \frac{8\pi G_{\text{eff}}(C)}{c^4} \left( T_{\mu\nu}^{\text{matière}} + T_{\mu\nu}^{(C)} \right)$$
 
-avec la constante cosmologique effective résiduelle :
-$$\Lambda_{\text{eff}}(C) = \Lambda_{\text{bare}} \cdot \mathrm{Re}\left( \sum_i a_i e^{i S[Q_i]/\hbar} \right) \cdot \left( \frac{C - C_c}{C_{\text{max}}} \right)^{N_{\text{dof}}}$$
-
-#### 4. Fermeture du Système (Boucle d'Émergence)
-Le système se ferme par l'équation d'auto-consistance :
-
-$$ \{ \hat{\Phi}_i \} \xrightarrow{\text{Somme } R > 0} C(\mathbf{x}) \xrightarrow{\nabla_\mu C} T_{\mu\nu}^{(C)} \xrightarrow{\text{Equation globale}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{Coeur sature}} \text{Absence de singularite} $$
+#### 4. Schéma de la Boucle d'Émergence
+$$\{ \hat{\Phi}_i \} \xrightarrow{\text{Somme } R > 0} C(\mathbf{x}) \xrightarrow{\nabla_\mu C} T_{\mu\nu}^{(C)} \xrightarrow{\text{Équation globale}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{Cœur saturé}} \text{Absence de singularité}$$
 
 ---
 
 ## 48. Clarification Conceptuelle : L'Équivalence $m_{\text{eff}} = E / c_{\text{loc}}^2$
 
-*Cette section intègre la réponse apportée aux échanges publics (notamment l'interpellation de Moïse Daniel sur LinkedIn) concernant l'origine et la justification de la relation masse-énergie dans le cadre d'un champ de cohérence $C(\mathbf{x})$.*
+### 48.1 La masse comme condensation de phase
+Dans ce cadre, la relation $m_{\text{eff}} = E / c_{\text{loc}}^2$ est interprétée comme une équation d'état du substrat quantique.
 
-### 48.1 La masse comme condensation de phase(Réponse à Moise Daniel sur Linkedin)
-Dans le modèle, la relation $m_{\text{eff}} = E / c_{\text{loc}}^2$ cesse d'être un postulat axiomatique parachuté : elle devient l'**équation d'état hydrodynamique du substrat quantique**.
+Pour une excitation localisée, la masse effective s'exprime par la condensation de cohérence au-dessus du vide critique :
 
-Dans le vide fondamental au niveau critique ($C = C_c$), le champ est libre et les configurations se propagent sans masse à la vitesse locale $c_{\text{loc}}$. Dès qu'une configuration quantique forme un état lié ou une excitation localisée (une particule), la phase du champ $C(\mathbf{x})$ se focalise. 
+$$m_{\text{eff}} = \frac{\rho_0}{c_{\text{loc}}^2} \int_V \left( \frac{C(\mathbf{x}) - C_c}{C_c} \right) d^3x$$
 
-La masse effective $m_{\text{eff}}$ apparaît alors comme l'intégrale du surcroît de cohérence sur le volume de l'excitation :
-
-$$m_{\text{eff}} = \frac{1}{c_{\text{loc}}^2} \int_V \mathcal{E}_{\text{cohérence}}(C) \, d^3x = \frac{\alpha_{\text{émergence}}}{c_{\text{loc}}^2} \int_V \left( C(\mathbf{x}) - C_c \right) d^3x$$
-
-* **Régime de vide ($C = C_c$) :** $m_{\text{eff}} = 0$. Il n'y a pas de masse au repos ; seules des impulsions pures peuvent se propager.
-* **Régime condensé ($C > C_c$) :** L'énergie $E = \int \mathcal{E} \, d^3x$ est confinée localement. Le facteur $1/c_{\text{loc}}^2$ représente le coût d'inertie nécessaire pour déplacer cette structure de phase stationnaire à travers le substrat.
+*où $\rho_0$ est une densité d'énergie de référence assurant l'homogénéité en masse ($kg$).*
 
 ### 48.2 Origine de l'inertie via le tenseur $T_{\mu\nu}^{(C)}$
-Si l'on examine la composante d'énergie du tenseur d'énergie-impulsion effectif $T_{\mu\nu}^{(C)}$ défini à la section 47.6, sa densité $T_{00}^{(C)}$ dépend directement des gradients du champ de cohérence :
+La densité $T_{00}^{(C)}$ dépend directement des gradients du champ :
 
-$$T_{00}^{(C)} \propto \left( \nabla C \right)^2$$
+$$T_{00}^{(C)} \propto (\nabla C)^2$$
 
-L'inertie (la résistance d'un corps à l'accélération) s'interprète comme la **rigidité du gradient de phase $\nabla C$**. Déplacer ou accélérer une particule revient à déformer ce gradient dans le substrat, ce qui génère une réaction élastique. L'intégration spatiale de cette densité d'énergie redonne exactement :
+L'inertie s'interprète comme la résistance à la déformation de ce gradient de phase lors d'une accélération, redonnant par intégration :
 
-$$E_{\text{totale}} = \int T_{00}^{(C)} \, d^3x = m_{\text{eff}} \cdot c_{\text{loc}}^2$$
+$$E_{\text{totale}} = \int T_{00}^{(C)} d^3x = m_{\text{eff}} \cdot c_{\text{loc}}^2$$
 
-### 48.3 La célérité $c_{\text{loc}}$ comme propriété dynamique du milieu
-Dans cette approche, $c_{\text{loc}}$ (ou $c_{\text{loc}}^2$) n'est plus une constante fondamentale ad hoc, mais la **célérité de propagation des fluctuations de phase dans le substrat de cohérence**.
-
-De même que la vitesse du son dépend de la rigidité et de la densité du milieu traversé, $c_{\text{loc}}$ s'ajuste dynamiquement selon la valeur locale du champ $C(\mathbf{x})$. Cette dépendance ferme la boucle entre la masse $m_{\text{eff}}$, l'énergie $E$ et la courbure géométrique $g_{\mu\nu}^{\text{eff}}$ générée dans l'équation champ-géométrie globale.
+### 48.3 La célérité $c_{\text{loc}}$ comme propriété dynamique
+Dans ce modèle, $c_{\text{loc}}$ représente la vitesse de propagation des perturbations de phase au sein du champ de cohérence, variant localement selon $C(\mathbf{x})$.
 
 ---
 
 ## 49. Formalisation Géométrique : Topologie Torique Spatialisée et Cône Causal Dynamique
 
 ### 49.1 Intégration sur la topologie torique $\mathbb{T}^3$
-La description quantitative de la masse effective $m_{\text{eff}}$ et de l'énergie confinée $E$ repose sur une topologie torique spatiale ($\mathbb{T}^3$), balayée le long de l'axe temporel par un cône causal dynamique. 
-
-Dans ce cadre, la condensation du champ de cohérence de phase $C(\mathbf{x})$ au-dessus du niveau du vide critique $C_c$ s'exprime de manière rigoureuse par l'intégration de volume :
+Pour analyser les configurations confinées, on peut considérer une topologie torique spatiale ($\mathbb{T}^3$) balayée par un cône causal le long du temps propre :
 
 $$\int_{V_{\mathbb{T}^3}} \left( C(\mathbf{x}) - C_c \right) \sqrt{|g_{\text{tore}}|} \, d^3x$$
 
 ### 49.2 Articulation du mécanisme
-L'interaction entre la géométrie du tore et la dynamique causale du cône s'articule selon trois axes fondamentaux :
-
-1. **Piégeage de phase sur $\mathbb{T}^3$ :** Le tore spatial $\mathbb{T}^3$ piège et confine la phase ($C > C_c$), générant directement la masse effective $m_{\text{eff}}$ et l'énergie confinée $E$.
-2. **Cône de propagation causal :** Le cône de propagation définit l'ouverture causale et fixe la vitesse d'avancement $c_{\text{loc}}$ du front de phase le long du temps propre.
-3. **Réaction d'inertie ($T_{\mu\nu}^{(C)}$) :** Le tenseur d'énergie-impulsion du champ $T_{\mu\nu}^{(C)}$ (établi à la section 47.6) quantifie la réaction d'inertie générée lors de la translation du tore le long du cône causal.
+1. **Piégeage de phase sur $\mathbb{T}^3$ :** Le tore spatial piège et confine la phase ($C > C_c$), générant la masse effective et l'énergie confinée.
+2. **Cône de propagation causal :** Fixe la vitesse d'avancement $c_{\text{loc}}$ du front de phase.
+3. **Réaction d'inertie ($T_{\mu\nu}^{(C)}$) :** Quantifie la résistance élastique lors de la translation du tore le long du cône causal.
 
 ---
 ---
 ## Conclusion générale
 
-> **« La géométrie gravitationnelle que nous décrivons par la relativité générale est la manifestation macroscopique et filtrée d'un champ de cohérence de phase quantique. La saturation du champ élimine les singularités ($r \to 0$), tandis que le filtrage des phases résout le problème de la constante cosmologique ($10^{120}$). »**
+> **« La géométrie gravitationnelle décrite par la relativité générale est envisagée ici comme la manifestation macroscopique et filtrée d'un champ de cohérence de phase quantique. La saturation du champ préviendrait les singularités ($r \to 0$), tandis que le filtrage des phases offrirait une piste pour comprendre l'écart de la constante cosmologique. »**
 
 $$\text{degrés de liberté quantiques} \xrightarrow{\text{filtrage } R > 0} \text{secteur cohérent } (C_c \to C_{\text{max}}) \rightarrow g_{\mu\nu}^{\text{eff}} \text{ non-singulier}$$
 
