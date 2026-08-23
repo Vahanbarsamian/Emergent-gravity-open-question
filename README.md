@@ -570,6 +570,82 @@ En relativité générale, l'effondrement classique conduit à des singularités
 
 ---
 
+### 47.4.1 Géométrie régularisée : test de cohérence avec la limite relativiste
+
+Le profil de cohérence proposé en §47.1 est utile comme jouet phénoménologique, mais il présente une difficulté importante s'il est interprété directement comme une source gravitationnelle :
+
+$$C(r)-C_c = \frac{r_g^2}{r^2+r_g^2}(C_{\max}-C_c).$$
+
+À grande distance, ce profil décroît comme $1/r^2$. Si cette quantité était identifiée directement à une densité de source, la masse intégrée ne convergerait pas. Le profil ne peut donc pas, tel quel, être présenté comme un raccordement démontré à une géométrie de Schwarzschild.
+
+La correction méthodologique consiste à séparer le **champ phénoménologique de cohérence** $C(r)$ de la **fonction de masse géométrique** $m(r)$, qui doit avoir une masse totale finie.
+
+Pour tester cette idée, on peut utiliser comme géométrie de référence une classe de métriques régulières de type Hayward :
+
+$$ds^2=-f(r)c^2dt^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,$$
+
+avec, en unités géométriques $G=c=1$,
+
+$$m(r)=M\frac{r^3}{r^3+a^3},$$
+
+et
+
+$$f(r)=1-\frac{2m(r)}r=1-\frac{2Mr^2}{r^3+a^3}.$$
+
+Cette construction n'est **pas dérivée du champ $C$** : elle sert de référence pour déterminer les propriétés qu'une éventuelle loi de reconstruction devra respecter.
+
+#### Limite à grande distance
+
+Pour $r\gg a$ :
+
+$$m(r)=M\left(1-\frac{a^3}{r^3}+O(r^{-6})\right),$$
+
+donc
+
+$$f(r)=1-\frac{2GM}{c^2r}+O(r^{-4}).$$
+
+La masse totale tend vers $M$ et la métrique retrouve la forme de Schwarzschild à grande distance.
+
+#### Limite au centre
+
+Pour $r\ll a$ :
+
+$$m(r)\simeq M\frac{r^3}{a^3}.$$
+
+En posant, en unités géométriques, $a^3=2Ml^2$, on obtient :
+
+$$f(r)\simeq1-\frac{r^2}{l^2}.$$
+
+Le terme divergent $1/r$ disparaît. Le cœur possède alors une courbure finie de type de Sitter au lieu d'une concentration ponctuelle de masse.
+
+La densité associée est :
+
+$$\rho(r)=\frac{1}{4\pi r^2}\frac{dm}{dr}=\frac{3Ma^3}{4\pi(r^3+a^3)^2}.$$
+
+Ainsi :
+
+$$\rho(0)=\frac{3M}{4\pi a^3}<\infty,$$
+
+et, à grande distance,
+
+$$\rho(r)\sim r^{-6}.$$
+
+La masse totale est donc intégrable, contrairement à un profil de densité en $1/r^2$ qui produirait une masse divergente à l'infini.
+
+#### Portée du résultat
+
+Ce calcul montre une propriété mathématique importante : **une régularisation de la source peut supprimer la divergence centrale tout en conservant la limite Schwarzschild à grande distance, sans modifier les équations d'Einstein elles-mêmes**. C'est le principe général des géométries de trous noirs réguliers, étudiées notamment dans les modèles de Bardeen et Hayward.
+
+Il ne démontre pas que le champ $C$ produit réellement cette fonction $m(r)$. Il indique seulement la chaîne de reconstruction que notre programme doit parvenir à dériver :
+
+$$C(r),R(r),I(r)\quad\longrightarrow\quad \rho(r)\quad\longrightarrow\quad m(r)\quad\longrightarrow\quad g_{\mu\nu}^{\mathrm{eff}}.$$
+
+Le problème devient donc plus précis : **quelle loi issue des degrés de liberté microscopiques pourrait produire une fonction de masse régulière avec $m(r)\propto r^3$ au centre et $m(r)\to M$ à grande distance ?**
+
+Cette formulation est plus restrictive et plus testable que l'affirmation initiale selon laquelle la saturation de $C$ supprimerait directement une singularité.
+
+---
+
 ### 47.5 Traitement de l'Effet Casimir
 
 L'effet Casimir n'est pas vu ici comme une preuve que la gravité couple à l'énergie absolue du vide, mais comme une confirmation du couplage aux variations différentielles :
@@ -599,7 +675,7 @@ $$\frac{1}{G_{\text{eff}}(x)} = \frac{1}{G_0} \cdot \left( \frac{C(x)}{C_c} \rig
 $$G_{\mu\nu}\left[g^{\text{eff}}\right] + \Lambda_{\text{eff}}(C) g_{\mu\nu}^{\text{eff}} = \frac{8\pi G_{\text{eff}}(C)}{c^4} \left( T_{\mu\nu}^{\text{matière}} + T_{\mu\nu}^{(C)} \right)$$
 
 #### 4. Schéma de la Boucle d'Émergence
-$$\{ \hat{\Phi}_i \} \xrightarrow{\text{Somme } R > 0} C(\mathbf{x}) \xrightarrow{\nabla_\mu C} T_{\mu\nu}^{(C)} \xrightarrow{\text{Équation globale}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{Cœur saturé}} \text{Absence de singularité}$$
+$$\{ \hat{\Phi}_i \} \xrightarrow{\text{corrélations / amplitudes}} C(\mathbf{x}) \xrightarrow{\text{reconstruction}} \rho(r),m(r) \xrightarrow{\text{équations d'Einstein}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{profil régularisé}} \text{cœur non singulier}$$
 
 ---
 
