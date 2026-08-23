@@ -495,7 +495,6 @@ Dans ce cadre théorique :
 4. **Cœur Saturé Non-Singulier :** La point-singularité est remplacée par un cœur de phase d'extension finie $r_{\text{core}} \approx 0.4 r_g$, éliminant toutes les infinités physiques tout en conservant l'horizon des événements et la géométrie externe de Schwarzschild/Kerr à grande distance.
 
 ---
----
 
 ### 47.5 Traitement de l'Effet Casimir et de sa Contribution Gravitationnelle
 
@@ -511,7 +510,7 @@ Une objection classique consiste à utiliser l'effet Casimir comme "preuve" que 
 
 3. **Résolution du paradoxe :**
    L'effet Casimir prouve que les *variations de configurations* de phase quantiques ont une réalité physique mesurable. Il confirme notre principe : **la gravité couple aux variations relatives de cohérence/phase ($\Delta C$), et non à la masse/énergie absolue renormalisée du vide microscopique.**
----
+   
 ---
 
 ### 47.6 Synthèse du Système d'Équations Émergentes (Le Formalisme Complet)
@@ -541,7 +540,6 @@ Le système se ferme par l'équation d'auto-consistance :
 
 $$ \{ \hat{\Phi}_i \} \xrightarrow{\text{Somme } R > 0} C(\mathbf{x}) \xrightarrow{\nabla_\mu C} T_{\mu\nu}^{(C)} \xrightarrow{\text{Equation globale}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{Coeur sature}} \text{Absence de singularite} $$
 
----
 ---
 
 ## 48. Clarification Conceptuelle : L'Équivalence $m_{\text{eff}} = E / c_{\text{loc}}^2$
