@@ -124,8 +124,6 @@ $$\mathcal{Q}\left[\langle\hat{\Phi}_i\hat{\Phi}_j\rangle, \langle\hat{\Phi}_i\h
 
 ---
 
----
-
 ## 11. La Limite Macroscopique : L'Émergence du Régime Semi-Classique et la Résolution des $10^{120}$
 
 Le test décisif de toute théorie de gravité émergente réside dans sa capacité à déduire — et non à postuler — les équations du champ d'Einstein à l'échelle macroscopique, tout en résolvant la « catastrophe du vide » ($10^{120}$). Cette section détaille le passage du régime microscopique des phases sub-quantiques à la métrique lisse de la Relativité Générale.
