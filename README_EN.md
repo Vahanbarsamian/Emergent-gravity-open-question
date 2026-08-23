@@ -1,4 +1,4 @@
-🇬🇧 English | [🇫🇷 Version française](./Reflexion-ouverte-sur-la-gravite.fr.md)
+🇬🇧 English | [🇫🇷 Version française](README.md)
 
 # Open Reflection on Gravity — Emergence of Gravitational Geometry from Quantum Structure
 
