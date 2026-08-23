@@ -596,7 +596,6 @@ Cette structure quadratique garantit que la densité d'énergie effective demeur
 Si le modèle est vérifié, **il interdit formellement toute forme d'antigravitation**. La saturation $C_{\text{max}}$ qui élimine les singularités physiques de l'espace-temps ($r \to 0$) est exactement le même mécanisme qui empêche l'émergence de forces gravitationnelles répulsives. L'Univers se révèle être rigoureusement protégé contre les divergences et les instabilités exotiques.
 
 ---
----
 
 ## 51. Dilatation Temporelle et Concordance avec la Relativité Générale
 
