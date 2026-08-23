@@ -180,7 +180,8 @@ $$G_{\mu\nu}\left[g^{\text{eff}}\right] + \Lambda(C_c) g_{\mu\nu}^{\text{eff}} =
 Où la constante cosmologique observée $\Lambda(C_c) \propto V(C_c) \sim 10^{-52} \text{ m}^{-2}$ découle directement de l'énergie du vide critique *après* annulation destructive des phases, et non de la somme brute de Planck.
 
 ### Conclusion du Paragraphe 11
-Le passage de la micro-dynamique quantique à la métrique macroscopique résout le plus grand paradoxe de la cosmologie moderne : les $10^{120}$ ne représentent pas de la matière manquante ou un réglage fin (fine-tuning), mais simplement le **rapport statistique entre la fluctuation locale maximale et l'état condensé moyen du champ de cohérence $C(\mathbf{x})$**.
+Le passage de la micro-dynamique quantique à la métrique macroscopique résout le plus grand paradoxe de la cosmologie moderne : les $10^{120}$ ne représentent pas de la matière manquante ou un réglage fin (fine-tuning), mais simplement le rapport statistique entre la fluctuation locale maximale et l'état condensé moyen du champ de cohérence $C(\mathbf{x})$.
+
 ---
 
 ## 12. Pourquoi la question dépasse une simple théorie de $G$ variable
