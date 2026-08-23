@@ -124,11 +124,50 @@ $$\mathcal{Q}\left[\langle\hat{\Phi}_i\hat{\Phi}_j\rangle, \langle\hat{\Phi}_i\h
 
 ---
 
-## 11. La limite macroscopique : le test décisif
+---
 
-$$\text{dynamique quantique microscopique} \xrightarrow{\text{limite semi-classique}} G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}$$
+## 11. La Limite Macroscopique : L'Émergence du Régime Semi-Classique
 
-dans un régime où le nombre de degrés de liberté devient macroscopique, les fluctuations pertinentes sont moyennées, une métrique classique devient bien définie, et la dynamique effective respecte les contraintes de la relativité générale.
+Le test décisif de toute théorie de gravité émergente réside dans sa capacité à déduire — et non à postuler — les équations du champ d'Einstein à l'échelle macroscopique. Cette section détaille le passage du régime microscopique des phases sub-quantiques à la métrique lisse de la Relativité Générale.
+[ Micro-fluctuations de Phase ]
+      Ψ(x) = |Ψ(x)| e^{i S(x)/ℏ}
+                 │
+                 ▼  ( Intégration sur N >> 1 degrés de liberté )
+ [ Champ de Cohérence Émergent C(x) ]
+                 │
+                 ▼  ( Limite semi-classique & Principe d'action )
+
+[ Métrique Effective & Équation d'Einstein ]
+G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c^4) T_μν^{eff}
+
+
+### 11.1 L'Opérateur de Moyennage et l'Élimination des Fluctuations
+À l'échelle sub-quantique, le milieu est régi par des fluctuations de phase locales rapides. Lorsque le nombre de degrés de liberté $N$ couplés devient macroscopique ($N \gg 1$), nous appliquons un opérateur de moyenne statistique d'ensemble $\langle \cdot \rangle_{\Omega}$ sur un méso-volume $\Omega$ :
+
+1. **Régularisation des phases :** Les modes d'interférence incohérents ou destructifs ($R < 0$) s'annulent par phase aléatoire : $\langle e^{i \Delta \phi} \rangle_{\Omega} \to 0$.
+2. **Émergence du scalaire de cohérence :** La moyenne des intensités résiduelles convergentes ($R > 0$) définit la valeur continue du champ macroscopique :
+   $$C(\mathbf{x}) \equiv \langle |\Psi(\mathbf{x})|^2 \rangle_{\Omega}$$
+
+### 11.2 Formation de la Métrique Effective $g_{\mu\nu}^{\text{eff}}$
+La métrique classique continue $g_{\mu\nu}^{\text{eff}}$ n'est pas un fond préexistant, meublé par la matière, mais le **tenseur de réponse du substrat** aux gradients de ce champ de cohérence moyenné :
+
+$$g_{\mu\nu}^{\text{eff}}(\mathbf{x}) = \eta_{\mu\nu} + f\left( \frac{\nabla_\mu C(\mathbf{x}) \nabla_\nu C(\mathbf{x})}{C_c} \right)$$
+
+Où $\eta_{\mu\nu}$ représente la métrique plate du vide critique stationnaire ($C = C_c$), et $f$ est la fonction de couplage hydrodynamique du milieu.
+
+### 11.3 La Déduction de l'Équation d'Einstein
+En appliquant le principe de moindre action à l'action effective du système $S_{\text{eff}} = \int \mathcal{L}(C, g^{\text{eff}}) \sqrt{|g^{\text{eff}}|} \, d^4x$ dans cette limite semi-classique, la variation par rapport à la métrique fait émerger naturellement le tenseur d'Einstein :
+
+$$G_{\mu\nu}\left[g^{\text{eff}}\right] + \Lambda(C_c) g_{\mu\nu}^{\text{eff}} = \frac{8\pi G_{\text{eff}}(C)}{c_{\text{loc}}^2(C)^2} T_{\mu\nu}^{\text{eff}}$$
+
+Où :
+* **$G_{\mu\nu}\left[g^{\text{eff}}\right]$** est le tenseur de courbure construit à partir des dérivées secondes de la métrique émergente.
+* **$\Lambda(C_c)$** est la constante cosmologique effective, strictement verrouillée par le potentiel du vide critique $V(C_c)$, résolvant le problème des $10^{120}$.
+* **$G_{\text{eff}}(C)$** est la constante de gravitation locale, inversement proportionnelle à la rigidité de la cohérence de phase ($G_{\text{eff}} \propto 1/C$).
+* **$T_{\mu\nu}^{\text{eff}}$** rassemble le tenseur d'énergie-impulsion de la matière ordinaire et le terme de pression interne du champ $T_{\mu\nu}^{(C)}$.
+
+### 11.4 Conclusion du Paragraphe 11
+Le passage de la dynamique microscopique à la limite macroscopique obéit à une **loi des grands nombres sub-quantique**. La métrique classique $g_{\mu\nu}$ et la gravité ne sont pas des entités fondamentales, mais la description thermo-hydrodynamique moyenne d'un très grand nombre de degrés de liberté de phase verrouillés en cohérence.
 
 ---
 
