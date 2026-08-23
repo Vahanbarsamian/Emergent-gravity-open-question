@@ -72,16 +72,14 @@ This question is related in particular to the concept of **induced gravity**, hi
 In the induced-gravity picture, an Einstein–Hilbert-type gravitational term may arise as an effective term resulting from quantum fluctuations of fields coupled to a geometry:
 
 $$
-S_{\mathrm{EH}}
-= \frac{c^3}{16\pi G}
+S_{\mathrm{EH}}= \frac{c^3}{16\pi G}
 \int d^4x\,\sqrt{-g}\,R
 $$
 
 After integrating out quantum degrees of freedom, one may schematically obtain:
 
 $$
-S_{\mathrm{eff}}[g]
-= \int d^4x\,\sqrt{-g}
+S_{\mathrm{eff}}[g]= \int d^4x\,\sqrt{-g}
 \left[
 \frac{c^3}{16\pi G_{\mathrm{eff}}}
 \left(R - 2\Lambda_{\mathrm{eff}}\right)
@@ -145,8 +143,7 @@ This proposal constitutes a **research hypothesis**, not an established theory. 
 ## 9. The Central Mathematical Question
 
 $$
-G_{\mu\nu}(x)
-= \mathcal{F}_{\mu\nu}\!\left[
+G_{\mu\nu}(x)= \mathcal{F}_{\mu\nu}\!\left[
 \langle \hat{\Phi}_i(x)\hat{\Phi}_j(x') \rangle
 \right]
 $$
@@ -200,8 +197,7 @@ G_μν[g^{eff}] + Λ(C_c) g_μν^{eff}
 In conventional quantum field theory (QFT), the vacuum energy density is computed by summing the zero-point energy \(\frac{1}{2}\hbar\omega\) of all modes up to the Planck cutoff frequency \(\omega_{\text{Planck}}\):
 
 $$
-\rho_{\text{QFT}}
-= \int_0^{k_{\text{Planck}}}
+\rho_{\text{QFT}}= \int_0^{k_{\text{Planck}}}
 \frac{\hbar c k}{2}\,
 \frac{d^3k}{(2\pi)^3}
 \approx 10^{114}\ \text{J/m}^3
@@ -218,8 +214,7 @@ In our formalism, macroscopic spacetime is not sensitive to the raw algebraic su
 2. **Mesospatial Averaging:** Integrating fluctuations over a macroscopic volume \(\Omega\) obeys the law of large numbers for random phases. The scale ratio between the elementary Planck volume \(v_{\text{Planck}} = \ell_{\text{Planck}}^3\) and the mesoscopic coherence volume \(V_{\text{coh}}\) naturally generates the attenuation factor:
 
 $$
-\rho_{\text{vac}}^{\text{macro}}
-= \rho_{\text{QFT}} \cdot
+\rho_{\text{vac}}^{\text{macro}}= \rho_{\text{QFT}} \cdot
 \left(
 \frac{\ell_{\text{Planck}}}{L_{\text{cohérence}}}
 \right)^4
@@ -241,8 +236,7 @@ $$
 The classical metric \(g_{\mu\nu}^{\text{eff}}\) then becomes the substrate’s response tensor to variations of this averaged field:
 
 $$
-g_{\mu\nu}^{\text{eff}}(\mathbf{x})
-= \eta_{\mu\nu}
+g_{\mu\nu}^{\text{eff}}(\mathbf{x})= \eta_{\mu\nu}
 + f\!\left(
 \frac{\nabla_\mu C(\mathbf{x})\, \nabla_\nu C(\mathbf{x})}{C_c}
 \right)
@@ -255,9 +249,7 @@ Applying the principle of least action to the effective action
 yields the macroscopic field equations:
 
 $$
-G_{\mu\nu}\!\left[g^{\text{eff}}\right]
-+ \Lambda(C_c)\, g_{\mu\nu}^{\text{eff}}
-= \frac{8\pi G_{\text{eff}}(C)}{c_{\text{loc}}^2(C)^2}\,
+G_{\mu\nu}\!\left[g^{\text{eff}}\right]+ \Lambda(C_c)\, g_{\mu\nu}^{\text{eff}}= \frac{8\pi G_{\text{eff}}(C)}{c_{\text{loc}}^2(C)^2}\,
 T_{\mu\nu}^{\text{eff}}
 $$
 
@@ -387,8 +379,7 @@ This formulation remains a heuristic analogy—it does not mean that quantum gra
 ## 21. A Path-Integral-Type Formulation
 
 $$
-\Psi[G]
-= \int_{\mathcal{C}(G)} \mathcal{D}\Phi\;
+\Psi[G]= \int_{\mathcal{C}(G)} \mathcal{D}\Phi\;
 e^{iS_{\mathrm{micro}}[\Phi]/\hbar}
 $$
 
