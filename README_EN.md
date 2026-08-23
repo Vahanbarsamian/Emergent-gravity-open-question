@@ -210,29 +210,23 @@ $$
 
 The \(10^{120}\) discrepancy is therefore not a constant to be artificially fine-tuned: it is the **dimensionless scale ratio** between the maximal excitation at the Planck level and the stationary background level of the critical vacuum \(C_c\). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/75060282/d2a1bdf3-fa2f-4747-8be1-10f6e2f71c74/paste.txt?AWSAccessKeyId=ASIA2F3EMEYETIQ3IWT4&Signature=8GnbQRku08Rlx%2B9814hY1NllKzM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEBMaCXVzLWVhc3QtMSJGMEQCIAuXk%2BqfE8I%2BkNc6wPpLFQ%2B%2FrzPFhtA%2FAkN90pvjYNPGAiAmd6yB0W7FS%2BV9GYWZR5MGpeS6ctiBczEsv5D9WiD57Cr8BAjc%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIMsbtSonHSR30qN3EvKtAEp%2F8qAmpUNzjnNSaPxd4%2F5h3hLI1xqsK7gCtIvvrZboGDsc4aBz9ZCQ387lt6acZh9cVat1Z5M%2FkiG5AsYdAe%2BH8u4ImQQ6E4nLWz95yNz9KFUh73aSm%2FnS%2FCsmwIbFIQGNU%2FmEG%2BXn6v6wdUKrLVTs4cpGHj9PLvZZ5CMguiGSArH1tBEm9Ew48DTj%2B1bEWGSHiKyT1yoeEX%2B6NU0fOSK5OAo6ExV5nrJMZh72WfzzfsW7lYucQ4xSI0th4awSMyx66wO8A70yMWkKE%2FJDyn4QJoDFQttqnC0kwUHhb2JWcxESfNzNdSq%2B%2BVSNZPPIRvGfhL337Hl1kehc4WMvGYtXnJXnW8fZiXuwhv2b%2FUfU8tXspSw9hlXGhF7d8PW4cQ9jDqGSodft%2FPtRQm4BYYt%2FE%2BdRq0FJ3Em2OB44yYRYgJbnUeqFmNomOPPnVafDSnljNDQWVEhpycnyL8KNitYHI3jP%2BXzPTigb0fc8hXmPJm7vSgS1fISZXqVEo21HEwSEuNFV73dl0YzyVV%2BtkXvLKuChmfUJguKRE7DWXAfJVvgJpoO06raLbX8h334KmlH9SJPwZh%2BQNN4SZYR8d6kYcTge7WT1t3NZr3HGZtDbLTjP0g%2F6mgwv%2F8eZz%2FARENYbL%2F0N0puFbUb3GUlXTnLSTP3JsoBAzJhtyRK3GPWDnL3diC8llkKwBXUcfSTAHPWJPUXWUqPM9MK7sOAmjF4iv1VgpLG3JWAWT4aXtVO7RX6T8qndL4GL4bDQXz%2BfMFJfkqFx5CJHPfpKJXM7S2eDCDgq3UBjqZAdb6LOU26gUYRLGpZTMM%2Fb1dgRpT3lVE3SGCC8uVuq9NgujFjra3HAKMKRHy9%2BMoijO4Z95fhkTneKd2UV68RrYLZluxcYWyE8p8%2BtVHZsLCP5%2FlGofnCwS9ZvKei0kIKcLo%2Fq5jZz2kbkBFI4tfgV6ewcXEXplFAD%2Bla55F0vrwG8Zq7DqHR3P8kf5QAJJZ8DiOTu7qMjiYlw%3D%3D&Expires=1787514582)
 
-### 11.3 Emergence of the Scalar Field \(C(\mathbf{x})\) and the Metric
+### 11.3 Emergence of the Scalar Field $$\(C(\mathbf{x})\)$$ and the Metric
 
 When the number of degrees of freedom \(N\) becomes macroscopic (\(N \gg 1\)), the ensemble statistical averaging operator \(\langle \cdot \rangle_{\Omega}\) gives rise to the continuous field:
 
 $$
-C(\mathbf{x})
-\equiv
-\langle |\Psi(\mathbf{x})|^2 \rangle_{\Omega}
+C(\mathbf{x})\equiv\langle |\Psi(\mathbf{x})|^2 \rangle_{\Omega}
 $$
 
-The classical metric \(g_{\mu\nu}^{\text{eff}}\) then becomes the substrate’s response tensor to variations of this averaged field:
+The classical metric $$\(g_{\mu\nu}^{\text{eff}}\)$$ then becomes the substrate’s response tensor to variations of this averaged field:
 
-$$
-g_{\mu\nu}^{\text{eff}}(\mathbf{x})= \eta_{\mu\nu}
-+ f\!\left(
-\frac{\nabla_\mu C(\mathbf{x})\, \nabla_\nu C(\mathbf{x})}{C_c}
-\right)
-$$ [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/75060282/d2a1bdf3-fa2f-4747-8be1-10f6e2f71c74/paste.txt?AWSAccessKeyId=ASIA2F3EMEYETIQ3IWT4&Signature=8GnbQRku08Rlx%2B9814hY1NllKzM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEBMaCXVzLWVhc3QtMSJGMEQCIAuXk%2BqfE8I%2BkNc6wPpLFQ%2B%2FrzPFhtA%2FAkN90pvjYNPGAiAmd6yB0W7FS%2BV9GYWZR5MGpeS6ctiBczEsv5D9WiD57Cr8BAjc%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIMsbtSonHSR30qN3EvKtAEp%2F8qAmpUNzjnNSaPxd4%2F5h3hLI1xqsK7gCtIvvrZboGDsc4aBz9ZCQ387lt6acZh9cVat1Z5M%2FkiG5AsYdAe%2BH8u4ImQQ6E4nLWz95yNz9KFUh73aSm%2FnS%2FCsmwIbFIQGNU%2FmEG%2BXn6v6wdUKrLVTs4cpGHj9PLvZZ5CMguiGSArH1tBEm9Ew48DTj%2B1bEWGSHiKyT1yoeEX%2B6NU0fOSK5OAo6ExV5nrJMZh72WfzzfsW7lYucQ4xSI0th4awSMyx66wO8A70yMWkKE%2FJDyn4QJoDFQttqnC0kwUHhb2JWcxESfNzNdSq%2B%2BVSNZPPIRvGfhL337Hl1kehc4WMvGYtXnJXnW8fZiXuwhv2b%2FUfU8tXspSw9hlXGhF7d8PW4cQ9jDqGSodft%2FPtRQm4BYYt%2FE%2BdRq0FJ3Em2OB44yYRYgJbnUeqFmNomOPPnVafDSnljNDQWVEhpycnyL8KNitYHI3jP%2BXzPTigb0fc8hXmPJm7vSgS1fISZXqVEo21HEwSEuNFV73dl0YzyVV%2BtkXvLKuChmfUJguKRE7DWXAfJVvgJpoO06raLbX8h334KmlH9SJPwZh%2BQNN4SZYR8d6kYcTge7WT1t3NZr3HGZtDbLTjP0g%2F6mgwv%2F8eZz%2FARENYbL%2F0N0puFbUb3GUlXTnLSTP3JsoBAzJhtyRK3GPWDnL3diC8llkKwBXUcfSTAHPWJPUXWUqPM9MK7sOAmjF4iv1VgpLG3JWAWT4aXtVO7RX6T8qndL4GL4bDQXz%2BfMFJfkqFx5CJHPfpKJXM7S2eDCDgq3UBjqZAdb6LOU26gUYRLGpZTMM%2Fb1dgRpT3lVE3SGCC8uVuq9NgujFjra3HAKMKRHy9%2BMoijO4Z95fhkTneKd2UV68RrYLZluxcYWyE8p8%2BtVHZsLCP5%2FlGofnCwS9ZvKei0kIKcLo%2Fq5jZz2kbkBFI4tfgV6ewcXEXplFAD%2Bla55F0vrwG8Zq7DqHR3P8kf5QAJJZ8DiOTu7qMjiYlw%3D%3D&Expires=1787514582)
+$$g_{\mu\nu}^{\text{eff}}(\mathbf{x}) = \eta_{\mu\nu} + f\left( \frac{\nabla_\mu C(\mathbf{x})\, \nabla_\nu C(\mathbf{x})}{C_c} \right)$$
+[ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/75060282/d2a1bdf3-fa2f-4747-8be1-10f6e2f71c74/paste.txt?AWSAccessKeyId=ASIA2F3EMEYETIQ3IWT4&Signature=8GnbQRku08Rlx%2B9814hY1NllKzM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEBMaCXVzLWVhc3QtMSJGMEQCIAuXk%2BqfE8I%2BkNc6wPpLFQ%2B%2FrzPFhtA%2FAkN90pvjYNPGAiAmd6yB0W7FS%2BV9GYWZR5MGpeS6ctiBczEsv5D9WiD57Cr8BAjc%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIMsbtSonHSR30qN3EvKtAEp%2F8qAmpUNzjnNSaPxd4%2F5h3hLI1xqsK7gCtIvvrZboGDsc4aBz9ZCQ387lt6acZh9cVat1Z5M%2FkiG5AsYdAe%2BH8u4ImQQ6E4nLWz95yNz9KFUh73aSm%2FnS%2FCsmwIbFIQGNU%2FmEG%2BXn6v6wdUKrLVTs4cpGHj9PLvZZ5CMguiGSArH1tBEm9Ew48DTj%2B1bEWGSHiKyT1yoeEX%2B6NU0fOSK5OAo6ExV5nrJMZh72WfzzfsW7lYucQ4xSI0th4awSMyx66wO8A70yMWkKE%2FJDyn4QJoDFQttqnC0kwUHhb2JWcxESfNzNdSq%2B%2BVSNZPPIRvGfhL337Hl1kehc4WMvGYtXnJXnW8fZiXuwhv2b%2FUfU8tXspSw9hlXGhF7d8PW4cQ9jDqGSodft%2FPtRQm4BYYt%2FE%2BdRq0FJ3Em2OB44yYRYgJbnUeqFmNomOPPnVafDSnljNDQWVEhpycnyL8KNitYHI3jP%2BXzPTigb0fc8hXmPJm7vSgS1fISZXqVEo21HEwSEuNFV73dl0YzyVV%2BtkXvLKuChmfUJguKRE7DWXAfJVvgJpoO06raLbX8h334KmlH9SJPwZh%2BQNN4SZYR8d6kYcTge7WT1t3NZr3HGZtDbLTjP0g%2F6mgwv%2F8eZz%2FARENYbL%2F0N0puFbUb3GUlXTnLSTP3JsoBAzJhtyRK3GPWDnL3diC8llkKwBXUcfSTAHPWJPUXWUqPM9MK7sOAmjF4iv1VgpLG3JWAWT4aXtVO7RX6T8qndL4GL4bDQXz%2BfMFJfkqFx5CJHPfpKJXM7S2eDCDgq3UBjqZAdb6LOU26gUYRLGpZTMM%2Fb1dgRpT3lVE3SGCC8uVuq9NgujFjra3HAKMKRHy9%2BMoijO4Z95fhkTneKd2UV68RrYLZluxcYWyE8p8%2BtVHZsLCP5%2FlGofnCwS9ZvKei0kIKcLo%2Fq5jZz2kbkBFI4tfgV6ewcXEXplFAD%2Bla55F0vrwG8Zq7DqHR3P8kf5QAJJZ8DiOTu7qMjiYlw%3D%3D&Expires=1787514582)
 
 ### 11.4 Derivation of the Einstein Equation
 
 Applying the principle of least action to the effective action
-\(S_{\text{eff}} = \int \mathcal{L}(C, g^{\text{eff}}) \sqrt{|g^{\text{eff}}|}\, d^4x\)
+$$\(S_{\text{eff}} = \int \mathcal{L}(C, g^{\text{eff}}) \sqrt{|g^{\text{eff}}|}\, d^4x\)$$
 yields the macroscopic field equations:
 
 $$
