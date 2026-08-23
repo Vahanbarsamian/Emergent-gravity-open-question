@@ -330,8 +330,7 @@ $$\{\text{états quantiques}, \text{corrélations}, \text{histoires}\} \to T_{\m
 ---
 
 ## 34. Une distinction entre trois niveaux de description
-
-Niveau microscopique ($\hat{\Phi}_i$) → niveau quantique des configurations/histoires ($H_i$) → niveau classique émergent ($g_{\mu\nu}$, $\tau_{\text{eff}}$, $G_{\text{eff}}$, $\Lambda_{\text{eff}}$). Cette séparation évite de confondre degrés de liberté fondamentaux, configurations possibles et variables macroscopiques effectives.
+Niveau microscopique (Φ̂ᵢ) → niveau quantique des configurations/histoires (Hᵢ) → niveau classique émergent (g_μν, τ_eff, G_eff, Λ_eff). Cette séparation évite de confondre degrés de liberté fondamentaux, configurations possibles et variables macroscopiques effectives.
 
 ---
 
