@@ -576,6 +576,25 @@ De même que la vitesse du son dépend de la rigidité et de la densité du mili
 
 ---
 ---
+
+## 49. Formalisation Géométrique : Topologie Torique Spatialisée et Cône Causal Dynamique
+
+### 49.1 Intégration sur la topologie torique $\mathbb{T}^3$
+La description quantitative de la masse effective $m_{\text{eff}}$ et de l'énergie confinée $E$ repose sur une topologie torique spatiale ($\mathbb{T}^3$), balayée le long de l'axe temporel par un cône causal dynamique. 
+
+Dans ce cadre, la condensation du champ de cohérence de phase $C(\mathbf{x})$ au-dessus du niveau du vide critique $C_c$ s'exprime de manière rigoureuse par l'intégration de volume :
+
+$$\int_{V_{\mathbb{T}^3}} \left( C(\mathbf{x}) - C_c \right) \sqrt{|g_{\text{tore}}|} \, d^3x$$
+
+### 49.2 Articulation du mécanisme
+L'interaction entre la géométrie du tore et la dynamique causale du cône s'articule selon trois axes fondamentaux :
+
+1. **Piégeage de phase sur $\mathbb{T}^3$ :** Le tore spatial $\mathbb{T}^3$ piège et confine la phase ($C > C_c$), générant directement la masse effective $m_{\text{eff}}$ et l'énergie confinée $E$.
+2. **Cône de propagation causal :** Le cône de propagation définit l'ouverture causale et fixe la vitesse d'avancement $c_{\text{loc}}$ du front de phase le long du temps propre.
+3. **Réaction d'inertie ($T_{\mu\nu}^{(C)}$) :** Le tenseur d'énergie-impulsion du champ $T_{\mu\nu}^{(C)}$ (établi à la section 47.6) quantifie la réaction d'inertie générée lors de la translation du tore le long du cône causal.
+
+---
+---
 ## Conclusion générale
 
 > **« La géométrie gravitationnelle que nous décrivons par la relativité générale est la manifestation macroscopique et filtrée d'un champ de cohérence de phase quantique. La saturation du champ élimine les singularités ($r \to 0$), tandis que le filtrage des phases résout le problème de la constante cosmologique ($10^{120}$). »**
