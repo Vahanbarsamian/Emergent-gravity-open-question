@@ -658,6 +658,7 @@ Dans la construction actuelle, le secteur $R < 0$ est exclu par la règle de sé
 | « interdit formellement l’antigravitation » | « exclut ce comportement dans la version particulière du modèle » |
 
 **$R^-$ n’est pas encore identifié comme une perte de cohérence. Il pourrait représenter une orientation de phase opposée, un secteur destructif, ou une mémoire dynamique du signe antérieur de $R$. La distinction nécessite l’enregistrement conjoint de $(R, I, C, \phi)$, une analyse des transitions temporelles et une comparaison micro/macro.**
+---
 ### 50.3 La forme quadratique de la densité d'énergie
 Le tenseur d'énergie-impulsion effectif du champ dépend de termes quadratiques $(\nabla C)^2$ :
 
