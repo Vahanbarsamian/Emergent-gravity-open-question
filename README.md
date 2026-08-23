@@ -526,12 +526,25 @@ Ce mécanisme vise à proposer un cadre conceptuel où la valeur observée est n
 
 ---
 
-### 47.3 Interprétation du signe de $R$
+### 47.3 Interprétation provisoire du signe de RR
 
-Dans ce modèle d'étude, l'indicateur $R$ sert de critère de sélection :
+Dans le modèle jouet, on définit :
+Z=R+iI,C=∣Z∣2=R2+I2,ϕ=atan2⁡(I,R).
+Z=R+iI,C=∣Z∣2=R2+I2,ϕ=atan2(I,R).
 
-* **Régime $R > 0$ (Régime Constructif / Gravitationnel) :** Les phases des configurations $Q_i$ interfèrent de manière constructive. Les corrélations se stabilisent et génèrent une géométrie effective attractive standard ($g_{00} < 0$).
-* **Régime $R < 0$ (Régime Destructif / Non-Attractif) :** Un signe négatif ne représente **pas** une gravité répulsive ou une masse négative, mais une zone d'instabilité de phase où le substrat ne peut pas soutenir une métrique classique continue. Ces configurations sont éliminées lors de la transition semi-classique.
+Le signe de RR n’est pas invariant sous une rotation de phase globale. Il ne peut donc pas être interprété seul comme une mesure de cohérence.
+
+Deux interprétations restent ouvertes :
+
+    R<0 pourrait correspondre à une contribution effectivement destructive ou dynamiquement supprimée ;
+
+    R<0 pourrait avoir une valeur de CC comparable à celle de R>0 et représenter principalement une orientation de phase proche de ϕ=πϕ=π.
+
+Une troisième possibilité est que les occurrences R<0R<0 constituent une mémoire dynamique d’un état antérieur, ce qui doit être testé par les probabilités de transition et l’autocorrélation temporelle du signe.
+
+Le statut actuel est donc :
+R>0 : critère de sélection du jouet,​
+R<0 : secteur à caractériser, pas encore secteur destructif démontré​
 
 ---
 
