@@ -4,7 +4,7 @@
 
 Si vous référencez ces travaux, merci d'utiliser la citation suivante :
 
-> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): Resolution of the Cosmological Constant Problem, Singularities, and Variable G_eff*. Zenodo. https://doi.org/10.5281/zenodo.22064401
+> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22064401
 ---
 🇫🇷 Français | [🇬🇧 English version](./Reflexion-ouverte-sur-la-gravite.en.md)
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
@@ -178,7 +178,7 @@ $$G_{\mu\nu}\left[g^{\text{eff}}\right] + \Lambda(C_c) g_{\mu\nu}^{\text{eff}} =
 Où la constante cosmologique observée $\Lambda(C_c) \propto V(C_c) \sim 10^{-52} \text{ m}^{-2}$ découle directement de l'énergie du vide critique *après* annulation destructive des phases, et non de la somme brute de Planck.
 
 ### Conclusion du Paragraphe 11
-Le passage de la micro-dynamique quantique à la métrique macroscopique résout le plus grand paradoxe de la cosmologie moderne : les $10^{120}$ ne représentent pas de la matière manquante ou un réglage fin (fine-tuning), mais simplement le rapport statistique entre la fluctuation locale maximale et l'état condensé moyen du champ de cohérence $C(\mathbf{x})$.
+Le passage de la micro-dynamique quantique à la métrique macroscopique **propose une piste** pour le paradoxe de la cosmologie moderne : les $10^{120}$ ne représenteraient pas de la matière manquante ou un réglage fin (fine-tuning), mais le rapport statistique entre la fluctuation locale maximale et l'état condensé moyen du champ de cohérence $C(\mathbf{x})$. **Ce mécanisme reste un cadre conceptuel non testé quantitativement à ce stade** — les tests numériques disponibles (voir le [document de synthèse](./Synthese-experiences-numeriques.fr.md), §3) montrent une suppression d'énergie effective réelle mais modeste (facteur ~2-3×, pas 10¹²⁰) dans un modèle jouet nettement plus simple que celui décrit ici, avec le critère de validation quantitatif rigoureux détaillé dans le document compagnon (§11/47 de la cartographie) : aucun mécanisme candidat ne le satisfait à ce jour, y compris celui-ci.
 
 ---
 
@@ -538,11 +538,24 @@ Deux interprétations restent ouvertes :
 
 Une troisième possibilité est que les occurrences $R < 0$ constituent une mémoire dynamique d’un état antérieur, ce qui doit être testé par les probabilités de transition et l’autocorrélation temporelle du signe.
 
-Le statut actuel est donc :
+**Ces trois hypothèses ont depuis été testées numériquement** (28 tests, voir le [document compagnon de synthèse numérique](./Synthese-experiences-numeriques.fr.md)). Les résultats obtenus permettent de trancher partiellement, dans un sens différent de ce qui était anticipé ici.
 
-$$\boxed{R > 0 \text{ : critère de sélection du jouet,}}$$
+**Ce qui est confirmé par les tests :**
+- L'invariance de phase de $C$ (Garde-fou 2 du document de synthèse) est confirmée comme le bon scalaire de comparaison — $R$ seul dépend d'une phase de référence arbitraire et ne doit **jamais** servir de critère de comparaison entre secteurs indépendants (démontré numériquement au Test 10, avant même les tests dédiés à $R$).
+- Un plancher positif durable, $R_\infty > 0$, n'a pas été démontré à ce stade, sur les séries temporelles disponibles (voir le document de synthèse, §7) — $\langle R \rangle$ tend vers une valeur proche de zéro, avec signes positifs et négatifs qui se compensent presque exactement dans les échantillons testés.
+- **L'hypothèse d'une orientation causale codée par le signe de $R$ (« deux cônes symétriques », futur/passé) a été testée directement (Test 27) et n'est pas confirmée.** Une asymétrie causale systématique et persistante a été trouvée (fraction de futur > passé ≈ 86% dans la partie centrale des séquences testées), attribuable à la nature dissipative du mécanisme de rappel utilisé plutôt qu'à une propriété géométrique symétrique du signe de $R$.
+- **L'hypothèse d'une frustration topologique sur domaine compact codée par le signe de $R$ a été testée directement (Test 28, winding number sur un tore 1D) et n'est pas confirmée non plus** — le winding number ne corrèle pas avec le signe de $R$. En revanche, un effet topologique réel existe : un enroulement non trivial supprime effectivement la cohérence globale $C$ (et non $R$). L'intuition topologique contenait donc une graine correcte, mais mal identifiée dans sa formulation initiale : c'est $C$, pas $R$, qui porte la signature topologique.
+- **Une redéfinition géométrique de $R$** (Test 25 : taux de formation de relations causales dans un ordre causal dérivé de la dynamique, plutôt que $dC/dt$) donne un comportement qualitativement différent — décroissance quasi monotone d'un régime actif vers une saturation proche de zéro, sans oscillation aléatoire de signe. Cette définition alternative, ancrée dans une construction géométrique (voir §49 pour le rapprochement avec la structure causale), est plus prometteuse que $R=\mathrm{Re}(\bar A)$ pour porter une signification physique, mais ne démontre toujours pas de plancher positif.
 
-$$\boxed{R < 0 \text{ : secteur à caractériser, pas encore secteur destructif démontré.}}$$​
+Le statut mis à jour est donc :
+
+$$\boxed{R > 0 \text{ (défini comme } \mathrm{Re}(\bar A)\text{) : critère de sélection du jouet, dépendant d'une phase de référence arbitraire — non retenu comme critère de comparaison entre secteurs.}}$$
+
+$$\boxed{C = |\bar A|^2 \text{ : scalaire invariant de phase, seul candidat robuste pour comparer des secteurs indépendants (confirmé numériquement).}}$$
+
+$$\boxed{R < 0 \text{ : ni un secteur destructif démontré, ni une orientation causale, ni une signature topologique confirmée — hypothèses testées et non retenues sous cette forme précise.}}$$
+
+$$\boxed{R_{\text{causal}}(t) \text{ (taux de formation de relations causales) : candidat plus prometteur, testé partiellement (Test 25), sans plancher positif établi à ce stade.}}$$
 
 ---
 
@@ -629,9 +642,9 @@ $$\int_{V_{\mathbb{T}^3}} \left( C(\mathbf{x}) - C_c \right) \sqrt{|g_{\text{tor
 4. 
 ---
 
-## 50. Invariance de la Gravité et Interdiction Absolue de l'Antigravitation
+## 50. Invariance de la Gravité et Limites du Modèle Face à l'Antigravitation
 
-Dans cette section, nous apportons une réponse définitive à une interrogation fondamentale quant aux applications théoriques du modèle : un champ de cohérence $C(\mathbf{x})$ permet-il d'engendrer un effet répulsif ou une « antigravitation » ?
+Dans cette section, nous examinons une interrogation fondamentale quant aux applications théoriques du modèle : un champ de cohérence $C(\mathbf{x})$ permet-il d'engendrer un effet répulsif ou une « antigravitation » ? **Il faut être clair d'emblée : ce que ce paragraphe établit est une propriété interne à ce modèle jouet particulier, sous les hypothèses posées ci-dessous — pas une réponse physique définitive.**
 
 ### 50.1 L'impossibilité par saturation du champ ($C \le C_{\text{max}}$)
 Pour générer une gravité répulsive ou une masse négative dans le formalisme géométrique, il faudrait pouvoir inverser le signe du gradient de cohérence ($\nabla_\mu C$) ou forcer le champ au-delà de sa valeur de saturation.
@@ -665,7 +678,7 @@ $$T_{\mu\nu}^{(C)} \propto \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu
 Cette structure quadratique garantit que la densité d'énergie effective demeure strictement positive ou nulle ($T_{00}^{(C)} \ge 0$). Le modèle préserve ainsi la condition faible sur l'énergie de la Relativité Générale et interdit tout phénomène de répulsion gravitationnelle artificielle.
 
 ### Conclusion du Paragraphe 50
-Si le modèle est vérifié, **il interdit formellement toute forme d'antigravitation**. La saturation $C_{\text{max}}$ qui élimine les singularités physiques de l'espace-temps ($r \to 0$) est exactement le même mécanisme qui empêche l'émergence de forces gravitationnelles répulsives. L'Univers se révèle être rigoureusement protégé contre les divergences et les instabilités exotiques.
+**Si les hypothèses de saturation posées ici étaient vérifiées** (ce qui n'est pas démontré — voir le tableau ci-dessus, §50.2), **elles excluraient** toute forme d'antigravitation dans ce modèle précis. La saturation $C_{\text{max}}$ qui élimine les singularités physiques de l'espace-temps ($r \to 0$) serait alors le même mécanisme qui empêcherait l'émergence de forces gravitationnelles répulsives — une conséquence interne et conditionnelle du modèle, pas une propriété démontrée de l'Univers.
 
 ---
 
@@ -680,8 +693,9 @@ $$d\tau = dt \sqrt{g_{00}^{\text{eff}}(C) - \frac{v^2}{c_{\text{loc}}^2(C)}}$$
 
 Lorsque la cohérence locale s'accroît ($C(\mathbf{x}) > C_c$) — que ce soit au voisinage d'une masse condensée ou par une modification artificielle de la densité de phase —, la composante $g_{00}^{\text{eff}}$ diminue.
 
-* **Ralentissement de l'horloge interne :** Pour un équipage évoluant au cœur d'un puits de cohérence élevé, la fréquence des micro-processus quantiques ralentit par rapport au vide critique distant ($C \approx C_c$).
-* **Effet sur les voyages spatiaux :** Si un véhicule parvenait à condenser le champ $C(\mathbf{x})$ autour de sa structure, le temps propre $d\tau$ perçu par les occupants s'écoulerait beaucoup plus lentement que le temps coordonnée $dt$ mesuré sur Terre. Un trajet interstellaire de plusieurs décennies terrestres ne durerait que quelques mois pour l'équipage.
+* **Ralentissement de l'horloge interne :** Pour un équipage évoluant au cœur d'un puits de cohérence élevé, la fréquence des micro-processus quantiques ralentit par rapport au vide critique distant ($C \approx C_c$) — c'est une reformulation du champ $C$ de la dilatation temporelle gravitationnelle standard déjà connue en RG, pas un effet nouveau.
+
+> ⚠️ **Rappel du §43 :** ce document ne prétend PAS qu'une application de propulsion ou de voyage en découle. Aucun mécanisme de condensation artificielle et contrôlée de $C(\mathbf{x})$ n'est proposé, testé, ou même esquissé ici — la mention d'un « véhicule » ci-dessus serait, en l'état, une extrapolation non fondée du formalisme, à la fois techniquement non spécifiée et en contradiction avec les limites que ce document s'impose ailleurs. Le mécanisme décrit dans ce paragraphe reste un exercice de cohérence interne avec la RG (§51.2), pas une proposition applicative.
 
 ### 51.2 L'explication sous-jacente du principe d'Einstein
 Loin de contredire la Relativité Générale, cette dynamique apporte le mécanisme physique fondamental sous-jacent aux équations d'Einstein :
@@ -702,11 +716,16 @@ La capacité du champ de cohérence à infléchir l'écoulement du temps confirm
 ---
 ## Conclusion générale
 
-> **« La géométrie gravitationnelle décrite par la relativité générale est envisagée ici comme la manifestation macroscopique et filtrée d'un champ de cohérence de phase quantique. La saturation du champ préviendrait les singularités ($r \to 0$), tandis que le filtrage des phases offrirait une piste pour comprendre l'écart de la constante cosmologique. »**
+> **« La géométrie gravitationnelle décrite par la relativité générale est envisagée ici comme la manifestation macroscopique et filtrée d'un champ de cohérence de phase quantique. La saturation du champ pourrait, sous certaines hypothèses non encore vérifiées, prévenir les singularités ($r \to 0$), tandis que le filtrage des phases offre une piste conceptuelle — non quantitativement validée à ce stade — pour l'écart de la constante cosmologique. »**
 
-$$\text{degrés de liberté quantiques} \xrightarrow{\text{filtrage } R > 0} \text{secteur cohérent } (C_c \to C_{\text{max}}) \rightarrow g_{\mu\nu}^{\text{eff}} \text{ non-singulier}$$
+$$\text{degrés de liberté quantiques} \xrightarrow{\text{filtrage } R > 0 \text{ (hypothèse)}} \text{secteur cohérent } (C_c \to C_{\text{max}}) \rightarrow g_{\mu\nu}^{\text{eff}} \text{ (candidat non-singulier)}$$
 
-> **Le critère de validation quantitatif associé au facteur $10^{120}$ reste consigné et détaillé dans le document compagnon (Cartographie des pistes de recherche, section 11).**
+> **Le critère de validation quantitatif associé au facteur $10^{120}$ reste consigné et détaillé dans le document compagnon (Cartographie des pistes de recherche, section 11/47) — aucun mécanisme candidat présenté dans ce document, y compris le formalisme des sections 47-51, ne le satisfait à ce jour.**
+
+### Deux niveaux distincts dans ce document, à ne pas confondre
+
+- **Sections 1-46 :** cadre de questions théoriques, confrontées à la littérature existante (voir la cartographie compagnon) — niveau de rigueur maintenu tout du long.
+- **Sections 47-51 :** formalisme phénoménologique candidat ($C(\mathbf{x})$, saturation, tore-cône), **largement non testé numériquement**. Un programme de 28 tests numériques sur des modèles jouets simplifiés a été mené en parallèle — voir le [document de synthèse numérique](./Synthese-experiences-numeriques.fr.md) — avec des résultats positifs et négatifs qui contraignent partiellement certaines des hypothèses de ces sections (notamment §47.3, mis à jour ci-dessus), mais qui ne couvrent pas l'ensemble du formalisme proposé (le tenseur $T_{\mu\nu}^{(C)}$, la dépendance $G_{\text{eff}}(C)$, et la topologie $\mathbb{T}^3$ de §49 restent, à ce jour, des propositions non testées).
 
 ---
 *Document de réflexion personnelle et d'open-science — Dépôt officiel GitHub.*
