@@ -567,31 +567,38 @@ $$\int_{V_{\mathbb{T}^3}} \left( C(\mathbf{x}) - C_c \right) \sqrt{|g_{\text{tor
 ---
 ---
 
+---
+
 ## 50. Invariance de la Gravité et Interdiction Absolue de l'Antigravitation
 
 Dans cette section, nous apportons une réponse définitive à une interrogation fondamentale quant aux applications théoriques du modèle : *un champ de cohérence $C(\mathbf{x})$ permet-il d'engendrer un effet répulsif ou une « antigravitation » ?*
 
-### 50.1 L'Impossibilité par Saturation du Champ ($C \le C_{\text{max}}$)
+### 50.1 L'impossibilité par saturation du champ ($C \le C_{\text{max}}$)
 Pour générer une gravité répulsive ou une masse négative dans le formalisme géométrique, il faudrait pouvoir inverser le signe du gradient de cohérence ($\nabla_\mu C$) ou forcer le champ au-delà de sa valeur de saturation.
 
 Or, la structure du champ impose la borne stricte $C(\mathbf{x}) \le C_{\text{max}} = 1,0000$. Lorsque la cohérence s'approche de son maximum ($C \to C_{\text{max}}$) :
+
 $$\nabla_\mu C \to 0$$
+
 Le gradient s'annule naturellement, ce qui lisse le potentiel gravitationnel au cœur des configurations denses. L'absence de singularité ($r \to 0$) interdit du même coup la création d'une région à « densité négative ».
 
-### 50.2 Le Filtrage des Phases et la Décohérence du Secteur $R < 0$
+### 50.2 Le filtrage des phases et la décohérence du secteur $R < 0$
 La possibilité d'une antigravitation reposerait sur la survie d'états à réponse collective négative ($R < 0$). Comme démontré dans le formalisme de sélection par la phase :
+
 * Les configurations présentant un secteur $R < 0$ subissent une **interférence destructive quasi-totale** à l'échelle macroscopique.
 * Seul le secteur attractif et cohérent ($R > 0$) franchit le filtre de décohérence pour générer la métrique effective $g_{\mu\nu}^{\text{eff}}$.
 
-### 50.3 La Forme Quadratique de la Densité d'Énergie
+### 50.3 La forme quadratique de la densité d'énergie
 Le tenseur d'énergie-impulsion effectif du champ dépend de termes quadratiques $(\nabla C)^2$ :
-$$T_{\mu\nu}^{(C)} \propto \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu\nu}^{\text{eff}} g^{\alpha\beta}_{\text{eff}} \nabla_\alpha C \nabla_\beta C - g_{\mu\nu}^{\text{eff}} V(C) \right)$$
+
+$$T_{\mu\nu}^{(C)} \propto \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu\nu}^{\text{eff}} g_{\text{eff}}^{\alpha\beta} \nabla_\alpha C \nabla_\beta C - g_{\mu\nu}^{\text{eff}} V(C) \right)$$
 
 Cette structure quadratique garantit que la densité d'énergie effective demeure strictement positive ou nulle ($T_{00}^{(C)} \ge 0$). Le modèle préserve ainsi la condition faible sur l'énergie de la Relativité Générale et interdit tout phénomène de répulsion gravitationnelle artificielle.
 
 ### Conclusion du Paragraphe 50
-Si le modèle est vérifié, **il interdit formellement toute forme d'antigravitation**. La saturation $C_{\text{max}}$ qui élimine les singularités physiques de l'espace-temps est exactement le même mécanisme qui empêche l'émergence de forces gravitationnelles répulsives. L'Univers se révèle être rigoureusement protégé contre les divergences et les instabilités exotiques.
+Si le modèle est vérifié, **il interdit formellement toute forme d'antigravitation**. La saturation $C_{\text{max}}$ qui élimine les singularités physiques de l'espace-temps ($r \to 0$) est exactement le même mécanisme qui empêche l'émergence de forces gravitationnelles répulsives. L'Univers se révèle être rigoureusement protégé contre les divergences et les instabilités exotiques.
 
+---
 ---
 ---
 ## Conclusion générale
