@@ -508,7 +508,7 @@ Dans les modèles de dynamique collective, il est représenté par le paramètre
 
 $$Z=\frac{1}{N}\sum_{j=1}^{N}e^{i\theta_j},\qquad C=|Z|^2.$$
 
-Cette définition présente une propriété importante : $C$ est invariant sous une rotation globale des phases, contrairement à $R=\operatorname{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $C$ comme observable de cohérence robuste.
+Cette définition présente une propriété importante : $C$ est invariant sous une rotation globale des phases, contrairement à $R=\mathrm{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $C$ comme observable de cohérence robuste.
 
 Le cadre structurel reste fixé en **3+1 dimensions** :
 
@@ -558,7 +558,7 @@ ce qui fournit une référence indispensable pour interpréter les petits $C$ à
 
 ### 47.4 Statut de $R$
 
-Le signe de $R=\operatorname{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
+Le signe de $R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
 
 Les hypothèses spécifiques suivantes n'ont pas été confirmées sous leur forme initiale :
 
