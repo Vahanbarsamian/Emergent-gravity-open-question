@@ -644,6 +644,8 @@ Le problème devient donc plus précis : **quelle loi issue des degrés de liber
 
 Cette formulation est plus restrictive et plus testable que l'affirmation initiale selon laquelle la saturation de $C$ supprimerait directement une singularité.
 
+> 📎 **Mise à jour numérique :** cette chaîne de reconstruction a depuis été partiellement testée. Un mécanisme de croissance spatialement localisée (motivé par la largeur $\sigma_Q$ dérivée en §47.2) restaure un point fixe stable loin du cœur et produit une loi en $1/r^2$ authentique à grande distance (écart de 0,65% à 2,36% sur 9 configurations testées). Voir le [document de synthèse numérique](./Synthese-experiences-numeriques.fr.md), §9 (Fil 8), pour le détail — y compris un faux positif initial explicitement corrigé, et une recherche d'exposants intermédiaires ($4/3$, $3/4$) restée non concluante.
+
 ---
 
 ### 47.5 Traitement de l'Effet Casimir
@@ -661,6 +663,8 @@ L'effet Casimir n'est pas vu ici comme une preuve que la gravité couple à l'é
 
 ### 47.6 Synthèse du Système d'Équations Émergentes Proposé
 
+> ⚠️ **Statut de cette sous-section : formalisme candidat, non testé numériquement.** Les quatre équations ci-dessous assemblent les hypothèses des sections précédentes en un système cohérent sur le papier — aucune n'a été vérifiée par calcul à ce stade (voir le [document de synthèse numérique](./Synthese-experiences-numeriques.fr.md) pour ce qui a réellement été testé). En particulier, la dérivation de $K$ obtenue par un mécanisme différent et effectivement vérifié ($K_{\mathrm{eff}}=g^2/m^2$, élimination adiabatique d'un champ médiateur) n'a pas encore été reliée à la dépendance $G_{\text{eff}}(C)$ proposée au point 2 ci-dessous — les deux constructions coexistent sans lien établi entre elles.
+
 L'ensemble des hypothèses conduit au système d'équations couplées suivant :
 
 #### 1. Tenseur Énergie-Impulsion Effectif de Phase $T_{\mu\nu}^{(C)}$
@@ -668,7 +672,7 @@ L'ensemble des hypothèses conduit au système d'équations couplées suivant :
 $$T_{\mu\nu}^{(C)} = \alpha_{\text{émergence}} \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu\nu}^{\text{eff}} g_{\text{eff}}^{\alpha\beta} \nabla_\alpha C \nabla_\beta C - g_{\mu\nu}^{\text{eff}} V(C) \right)$$
 *avec $V(C_c) = 0$ au niveau du vide critique.*
 
-#### 2. Dépendance de la Constante Gravitationnelle $G_{\text{eff}}$
+#### 2. Dépendance de la Constante Gravitationnelle $G_{\text{eff}}$ (non testée)
 $$\frac{1}{G_{\text{eff}}(x)} = \frac{1}{G_0} \cdot \left( \frac{C(x)}{C_c} \right)$$
 
 #### 3. Équation Champ-Géométrie Global
