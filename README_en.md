@@ -8,7 +8,7 @@ If you reference this work, please use the following citation:
 
 ---
 
-[🇫🇷 Version française]README.md) | 🇬🇧 English version
+[🇫🇷 Version française](README.md) | 🇬🇧 English version
 
 # Open Question: Can Gravitational Geometry Emerge from a Quantum Structure?
 
