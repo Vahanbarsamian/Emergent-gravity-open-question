@@ -580,7 +580,7 @@ La contrainte physique devient donc :
 
 $$\text{régime central/intermédiaire : correction possible}$$
 
-$$\text{grand }r:\qquad |g(r)|\propto\frac1{r^2}.$$
+$$\text{grand}r:\qquad |g(r)|\propto\frac1{r^2}.$$
 
 ### 48.2 Test 41 — succès de la correction localisée
 
