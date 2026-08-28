@@ -8,7 +8,7 @@ If you reference this work, please use the following citation:
 
 ---
 
-🇬🇧 English | [🇫🇷 French version](./Reflexion-ouverte-sur-la-gravite.fr.md)
+🇬🇧 English | [🇫🇷 French version](README.md)
 
 # Open Question: Can Gravitational Geometry Emerge from a Quantum Structure?
 
