@@ -4,7 +4,7 @@
 **Licence :** CC BY 4.0  
 **DOI de citation :** Barsamian, V. (2026). Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program. Zenodo. https://doi.org/10.5281/zenodo.22068679
 
-🇫🇷 Français | [🇬🇧 English version](README.md)
+🇫🇷 Français | [🇬🇧 English version](README_en.md)
 
 > ⚠️ **Note :** ce document évolue fréquemment. Pensez à rafraîchir la page pour consulter la dernière version.  
 > 📎 **Document compagnon :** [Cartographie des pistes de recherche](Cartographie.md) — contient les références précises à la littérature existante et le critère de validation quantitatif (section 11), à ne consulter et modifier qu'à cet endroit.  
