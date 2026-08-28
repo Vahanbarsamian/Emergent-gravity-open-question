@@ -892,20 +892,17 @@ is consistent with $d=3$, but its scientific value still depends on an independe
 
 The current scientific position can therefore be summarized as:
 
-$$$
-
+$$
 \boxed{
 \text{numerically constrained toy model}
 \neq
 \text{demonstrated emergent gravity theory}
 }
-
 $$
 
 and by the research chain:
 
 $$
-
 {Q_i,\theta_i}
 \rightarrow C
 \rightarrow\text{correlations}
@@ -914,16 +911,13 @@ $$
 \rightarrow N(r)
 \rightarrow D_{\mathrm{eff}}(r)
 \rightarrow g_{\mu\nu}^{\mathrm{eff}}
-
 $$
 
 with a non-negotiable constraint:
 
 $$
-
 |g(r)|r^2\rightarrow\mathrm{constant}
 \qquad(r\rightarrow\infty).
-
 $$
 
 > **Working principle: we no longer choose the desired result; we first seek whether the dynamics produce it, and we preserve successes as well as failures.**
