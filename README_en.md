@@ -590,7 +590,7 @@ The physical constraint therefore becomes:
 
 $$\(\text{central/intermediate regime: possible correction}\)$$
 
-$$\(\text{large}r:\qquad |g(r)|\propto\frac1{r^2}.\)$$
+$$\text{Grand } r :\qquad |g(r)| \propto \frac{1}{r^2}.$$
 
 ### 48.2 Test 41 — Success of the Localized Correction
 
@@ -658,7 +658,7 @@ In Test 44, the cone region gave approximately $1,21\lesssim\alpha\lesssim1,28$,
 
 A working expression compatible with the previous results is:
 
-$$\rho_{\mathrm{eff}}(r)=\rho_b(r)\left[1+k_0\left(\frac r{r_t}\right)^{4/3}\operatorname{sech}^2\left(\frac{r-r_t}{\sigma}\right)\right].$$
+$$\rho_{\mathrm{eff}}(r)=\rho_b(r)\left[1+k_0\left(\frac{r}{r_t}\right)^{4/3}\mathrm{sech}^2\left(\frac{r-r_t}{\sigma}\right)\right].$$
 
 This expression is not yet a fundamental law. It only encodes the three numerical constraints:
 
