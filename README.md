@@ -580,7 +580,7 @@ La contrainte physique devient donc :
 
 $$\text{régime central/intermédiaire : correction possible}$$
 
-$$\text{grand}r:\qquad |g(r)|\propto\frac1{r^2}.$$
+$$\text{Grand } r :\qquad |g(r)| \propto \frac{1}{r^2}.$$
 
 ### 48.2 Test 41 — succès de la correction localisée
 
@@ -648,7 +648,7 @@ Dans le Test 44, la zone cône donnait approximativement $1,21\lesssim\alpha\les
 
 Une écriture de travail compatible avec les résultats précédents est :
 
-$$\rho_{\mathrm{eff}}(r)=\rho_b(r)\left[1+k_0\left(\frac r{r_t}\right)^{4/3}\operatorname{sech}^2\left(\frac{r-r_t}{\sigma}\right)\right].$$
+$$\rho_{\mathrm{eff}}(r)=\rho_b(r)\left[1+k_0\left(\frac{r}{r_t}\right)^{4/3}\mathrm{sech}^2\left(\frac{r-r_t}{\sigma}\right)\right].$$
 
 Cette expression n'est pas encore une loi fondamentale. Elle encode seulement les trois contraintes numériques :
 
