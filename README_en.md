@@ -1,8 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22068679.svg)](https://doi.org/10.5281/zenodo.22068679)
----
-
-
-🇬🇧 English | [🇫🇷 Version française](README.md)
+🇬🇧 English | [🇫🇷 Version française](./Reflexion-ouverte-sur-la-gravite.fr.md)
 
 # Open Reflection on Gravity — Emergence of Gravitational Geometry from Quantum Structure
 
