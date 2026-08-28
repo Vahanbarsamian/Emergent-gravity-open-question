@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22068679.svg)](https://doi.org/10.5281/zenodo.22068679)
+---
 ## Citation
 
 If you reference this work, please use the following citation:
@@ -6,7 +8,7 @@ If you reference this work, please use the following citation:
 
 ---
 
-[🇫🇷 Version française](https://www.google.com/search?q=README.md) | 🇬🇧 English version
+[🇫🇷 Version française]README.md) | 🇬🇧 English version
 
 # Open Question: Can Gravitational Geometry Emerge from a Quantum Structure?
 
