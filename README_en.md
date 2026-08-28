@@ -512,63 +512,63 @@ This section brings together the phenomenological formalism and the numerical re
 
 We consider a scalar phase-coherence field:
 
-\(C(\mathbf{x})\in[0,1].\)
+$$\(C(\mathbf{x})\in[0,1].\)$$
 
 In collective-dynamics models, it is represented by the order parameter:
 
-\(Z=\frac{1}{N}\sum_{j=1}^{N}e^{i\theta_j},\qquad C=|Z|^2.\)
+$$\(Z=\frac{1}{N}\sum_{j=1}^{N}e^{i\theta_j},\qquad C=|Z|^2.\)$$
 
-This definition has an important property: $C$ is invariant under a global phase rotation, unlike $R=\operatorname{Re}(Z)$. Previous campaigns therefore led to retaining $C$ as a robust coherence observable.
+This definition has an important property: $C$ is invariant under a global phase rotation, unlike $R=\mathrm{Re}(Z)$. Previous campaigns therefore led to retaining $C$ as a robust coherence observable.
 
 The structural framework remains fixed in **3+1 dimensions**:
 
-\(d=3\quad\text{spatial dimensions},\qquad D=d+1=4.\)
+$$\(d=3\quad\text{spatial dimensions},\qquad D=d+1=4.\)$$
 
 ### 47.2 Potential Equation and Regularized Profile
 
 The working model retains a modified Poisson-type equation:
 
-\(\nabla^2\Phi(\mathbf{x})=\frac{4\pi c^2}{L_0^2}\left[C(\mathbf{x})-C_c\right].\)
+$$\(\nabla^2\Phi(\mathbf{x})=\frac{4\pi c^2}{L_0^2}\left[C(\mathbf{x})-C_c\right].\)$$
 
 The regularized profile used as a reference is:
 
-\(C(r)=C_c+\frac{r_g^2}{r^2+r_g^2}(C_{\max}-C_c),\)
+$$\(C(r)=C_c+\frac{r_g^2}{r^2+r_g^2}(C_{\max}-C_c),\)$$
 
 with $C_{\max}=1$ and $r_g=2GM/c^2$.
 
 This profile has a useful property:
 
-\(C(0)=C_{\max},\qquad C'(0)=0.\)
+$$\(C(0)=C_{\max},\qquad C'(0)=0.\)$$
 
 But it must not be directly identified with a mass density: its $1/r^2$ asymptotic behavior would make the integrated mass divergent. The reconstruction must therefore remain separate:
 
-\(C(r)\rightarrow\rho(r)\rightarrow m(r)\rightarrow g(r)\rightarrow g_{\mu\nu}^{\mathrm{eff}}.\)
+$$\(C(r)\rightarrow\rho(r)\rightarrow m(r)\rightarrow g(r)\rightarrow g_{\mu\nu}^{\mathrm{eff}}.\)$$
 
 ### 47.3 Collective Dynamics Tested
 
 The weighted Kuramoto dynamics used in Tests 12–13 and the Test 51 campaign is:
 
-\(E_i=Q_i^2,\)
+$$\(E_i=Q_i^2,\)$$
 
-\(w_{ij}=\exp\left[-\frac{(E_i-E_j)^2}{2\sigma^2}\right],\)
+$$\(w_{ij}=\exp\left[-\frac{(E_i-E_j)^2}{2\sigma^2}\right],\)$$
 
-\(\dot\theta_i=\frac{K}{N}\sum_jw_{ij}\sin(\theta_j-\theta_i).\)
+$$\(\dot\theta_i=\frac{K}{N}\sum_jw_{ij}\sin(\theta_j-\theta_i).\)$$
 
 The order parameter is then:
 
-\(C=|Z|^2,\qquad Z=\frac1N\sum_j e^{i\theta_j}.\)
+$$\(C=|Z|^2,\qquad Z=\frac1N\sum_j e^{i\theta_j}.\)$$
 
 This dynamics makes it possible to distinguish an incoherent state ($C\sim1/N$) from a collectively coherent state ($C\gg1/N$).
 
 For independently uniformly distributed phases:
 
-\(\mathbb E[C]=\frac1N,\)
+$$\(\mathbb E[C]=\frac1N,\)$$
 
 which provides an essential reference for interpreting small $C$ at finite size.
 
 ### 47.4 Status of $R$
 
-The sign of $R=\operatorname{Re}(Z)$ is not invariant under a global phase rotation. Previous tests therefore ruled out its use as an absolute coherence criterion or as evidence of a causal orientation.
+The sign of $R=\mathrm{Re}(Z)$. is not invariant under a global phase rotation. Previous tests therefore ruled out its use as an absolute coherence criterion or as evidence of a causal orientation.
 
 The following specific hypotheses were not confirmed in their initial form:
 
