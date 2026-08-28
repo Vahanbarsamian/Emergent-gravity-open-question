@@ -588,9 +588,9 @@ The first versions used a global scaling of the form $r\sim N^{4/3}$. Tests 39â€
 
 The physical constraint therefore becomes:
 
-\(\text{central/intermediate regime: possible correction}\)
+$$\(\text{central/intermediate regime: possible correction}\)$$
 
-\(\text{large }r:\qquad |g(r)|\propto\frac1{r^2}.\)
+$$\(\text{large}r:\qquad |g(r)|\propto\frac1{r^2}.\)$$
 
 ### 48.2 Test 41 â€” Success of the Localized Correction
 
