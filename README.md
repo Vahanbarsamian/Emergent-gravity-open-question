@@ -4,9 +4,9 @@
 
 Si vous référencez ces travaux, merci d'utiliser la citation suivante :
 
-> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22068679
+> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22064401
 ---
-🇫🇷 Français | [🇬🇧 English version](README_en.md)
+🇫🇷 Français | [🇬🇧 English version](./Reflexion-ouverte-sur-la-gravite.en.md)
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
 > ⚠️ **Note :** ce document évolue fréquemment. Pensez à rafraîchir la page pour consulter la dernière version.
@@ -492,320 +492,437 @@ L'assistance de modèles de langage a servi à explorer la littérature, reformu
 
 ---
 
-## 47. Piste de Formalisation Mathématique (Modèle Jouet Exploratoire)
+---
 
-Dans cette section, nous introduisons une tentative de formalisation phénoménologique basée sur un champ scalaire ad dimensionnel de cohérence de phase $C(\mathbf{x}) \in [0, 1]$ et son lien potentiel avec l'émergence de la métrique effective $g_{\mu\nu}^{\text{eff}}$.
+## 47. Formalisation mathématique et modèle jouet : état consolidé
 
-### 47.1 Formules de Travail Proposées
+Cette section rassemble le formalisme phénoménologique et les résultats numériques obtenus après les campagnes successives. Elle doit être lue comme un **programme de recherche falsifiable**, et non comme une dérivation établie de la relativité générale.
 
-1. **Équation d'émergence du potentiel (Type Poisson modifiée) :**
-   $$\nabla^2 \Phi(\mathbf{x}) = \frac{4\pi c^2}{L_0^2} \left( C(\mathbf{x}) - C_c \right)$$
-   où $C_c = 0.2000$ représente la valeur critique du vide, et $L_0$ est une échelle de longueur caractéristique assurant l'homogénéité dimensionnelle ($s^{-2}$).
+### 47.1 Champ de cohérence et variables fondamentales
 
-2. **Profil de saturation au cœur (forme régularisée) :**
-   $$C(r) = C_c + \left( \frac{r_g^2}{r^2 + r_g^2} \right) (C_{\text{max}} - C_c)$$
-   *avec $C_{\text{max}} = 1.0000$ (borne supérieure absolue) et $r_g = \frac{2GM}{c^2}$.*
+On considère un champ scalaire de cohérence de phase :
 
-3. **Indicateur heuristique de réponse collective $R$ :**
-   $$R = \mathrm{Re}\left( \sum_{i} a_i e^{i S[Q_i]/\hbar} \right)$$
+$$C(\mathbf{x})\in[0,1].$$
+
+Dans les modèles de dynamique collective, il est représenté par le paramètre d'ordre :
+
+$$Z=\frac{1}{N}\sum_{j=1}^{N}e^{i\theta_j},\qquad C=|Z|^2.$$
+
+Cette définition présente une propriété importante : $C$ est invariant sous une rotation globale des phases, contrairement à $R=\operatorname{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $C$ comme observable de cohérence robuste.
+
+Le cadre structurel reste fixé en **3+1 dimensions** :
+
+$$d=3\quad\text{dimensions spatiales},\qquad D=d+1=4.$$
+
+### 47.2 Équation de potentiel et profil régularisé
+
+Le modèle de travail conserve une équation de type Poisson modifiée :
+
+$$\nabla^2\Phi(\mathbf{x})=\frac{4\pi c^2}{L_0^2}\left[C(\mathbf{x})-C_c\right].$$
+
+Le profil régularisé utilisé comme référence est :
+
+$$C(r)=C_c+\frac{r_g^2}{r^2+r_g^2}(C_{\max}-C_c),$$
+
+avec $C_{\max}=1$ et $r_g=2GM/c^2$.
+
+Ce profil possède une propriété utile :
+
+$$C(0)=C_{\max},\qquad C'(0)=0.$$
+
+Mais il ne doit pas être identifié directement à une densité de masse : son comportement asymptotique en $1/r^2$ rendrait la masse intégrée divergente. La reconstruction doit donc rester séparée :
+
+$$C(r)\rightarrow\rho(r)\rightarrow m(r)\rightarrow g(r)\rightarrow g_{\mu\nu}^{\mathrm{eff}}.$$
+
+### 47.3 Dynamique collective testée
+
+La dynamique de Kuramoto pondérée utilisée dans les Tests 12–13 et la campagne du Test 51 est :
+
+$$E_i=Q_i^2,$$
+
+$$w_{ij}=\exp\left[-\frac{(E_i-E_j)^2}{2\sigma^2}\right],$$
+
+$$\dot\theta_i=\frac{K}{N}\sum_jw_{ij}\sin(\theta_j-\theta_i).$$
+
+Le paramètre d'ordre est ensuite :
+
+$$C=|Z|^2,\qquad Z=\frac1N\sum_j e^{i\theta_j}.$$
+
+Cette dynamique permet de distinguer un état incohérent ($C\sim1/N$) d'un état collectivement cohérent ($C\gg1/N$).
+
+Pour des phases indépendantes uniformes :
+
+$$\mathbb E[C]=\frac1N,$$
+
+ce qui fournit une référence indispensable pour interpréter les petits $C$ à taille finie.
+
+### 47.4 Statut de $R$
+
+Le signe de $R=\operatorname{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
+
+Les hypothèses spécifiques suivantes n'ont pas été confirmées sous leur forme initiale :
+
+- $R<0$ comme secteur nécessairement destructif ;
+- $R$ comme code direct d'un cône causal futur/passé ;
+- corrélation entre le signe de $R$ et un winding topologique.
+
+Un indicateur causal alternatif $R_{\mathrm{causal}}$ reste une piste, mais sans plancher positif démontré.
 
 ---
 
-### 47.2 Piste d'explication pour l'Écart Cosmologique ($10^{120}$)
+## 48. Géométrie régularisée et récupération de la limite newtonienne
 
-Dans les approches conventionnelles de la QFT, la constante cosmologique $\Lambda$ est estimée en sommant l'énergie de point zéro jusqu'à l'échelle de Planck ($\rho_{\text{micro}} \sim M_{\text{Planck}}^4$).
+### 48.1 Pourquoi le $4/3$ global a été abandonné
 
-Dans le présent cadre exploratoire, la résolution s'envisage par un **moteur de filtrage dynamique par $R$** :
-* La gravité classique ne se couplerait pas à la densité microscopique brute, mais uniquement au secteur de phase sélectionné par la condition de phase stationnaire ($\delta S = 0$).
-* Les modes non incohérents s'annuleraient par interférence destructive dans l'intégrale de chemin.
-* La constante cosmologique effective $\Lambda_{\text{eff}}$ résulterait d'un atténuateur d'échelle régularisé :
-  $$\Lambda_{\text{eff}} \sim \Lambda_{\text{bare}} \times \left( \frac{C_c}{C_{\text{max}}} \right)^{\ln(\ell_{\text{Planck}} / \ell_{\text{cosmo}})}$$
-Ce mécanisme vise à proposer un cadre conceptuel où la valeur observée est naturellement supprimée sans nécessiter un ajustement fin (*fine-tuning*) des paramètres nus.
+Les premières versions utilisaient un scaling global du type $r\sim N^{4/3}$. Les Tests 39–40 ont montré que cette croissance non bornée ne peut pas être maintenue jusqu'à l'infini : elle détruit la limite newtonienne.
 
----
+La contrainte physique devient donc :
 
-### 47.3 Interprétation provisoire du signe de $R$
+$$\text{régime central/intermédiaire : correction possible}$$
 
-Dans le modèle jouet, on définit :
+$$\text{grand }r:\qquad |g(r)|\propto\frac1{r^2}.$$
 
-$$Z = R + iI, \qquad C = |Z|^2 = R^2 + I^2, \qquad \phi = \mathrm{atan2}(I, R)$$
+### 48.2 Test 41 — succès de la correction localisée
 
-Le signe de $R$ n’est pas invariant sous une rotation de phase globale. Il ne peut donc pas être interprété seul comme une mesure de cohérence.
+Le Test 41 a corrigé une erreur de signe : $g(r)$ est négatif par convention, tandis que $M_{\mathrm{tot}}>0$. La comparaison correcte porte donc sur les magnitudes $|g(r)|r^2$.
 
-Deux interprétations restent ouvertes :
-- $R < 0$ pourrait correspondre à une contribution effectivement destructive ou dynamiquement supprimée ;
-- $R < 0$ pourrait avoir une valeur de $C$ comparable à celle de $R > 0$ et représenter principalement une orientation de phase proche de $\phi = \pi$.
+Valeurs rapportées :
 
-Une troisième possibilité est que les occurrences $R < 0$ constituent une mémoire dynamique d’un état antérieur, ce qui doit être testé par les probabilités de transition et l’autocorrélation temporelle du signe.
+| $r$ (kpc) | $|g(r)|r^2$ |
+|---:|---:|
+| 15 | 1183,9 |
+| 20 | 1183,0 |
+| 30 | 1182,0 |
 
-**Ces trois hypothèses ont depuis été testées numériquement** (28 tests, voir le [document compagnon de synthèse numérique](./Synthese-experiences-numeriques.fr.md)). Les résultats obtenus permettent de trancher partiellement, dans un sens différent de ce qui était anticipé ici.
+La moyenne est d'environ $1183$, avec un coefficient de variation d'environ $0,07\%$, et l'écart relatif à $M_{\mathrm{tot}}=1196,7$ est d'environ $1,15\%$.
 
-**Ce qui est confirmé par les tests :**
-- L'invariance de phase de $C$ (Garde-fou 2 du document de synthèse) est confirmée comme le bon scalaire de comparaison — $R$ seul dépend d'une phase de référence arbitraire et ne doit **jamais** servir de critère de comparaison entre secteurs indépendants (démontré numériquement au Test 10, avant même les tests dédiés à $R$).
-- Un plancher positif durable, $R_\infty > 0$, n'a pas été démontré à ce stade, sur les séries temporelles disponibles (voir le document de synthèse, §7) — $\langle R \rangle$ tend vers une valeur proche de zéro, avec signes positifs et négatifs qui se compensent presque exactement dans les échantillons testés.
-- **L'hypothèse d'une orientation causale codée par le signe de $R$ (« deux cônes symétriques », futur/passé) a été testée directement (Test 27) et n'est pas confirmée.** Une asymétrie causale systématique et persistante a été trouvée (fraction de futur > passé ≈ 86% dans la partie centrale des séquences testées), attribuable à la nature dissipative du mécanisme de rappel utilisé plutôt qu'à une propriété géométrique symétrique du signe de $R$.
-- **L'hypothèse d'une frustration topologique sur domaine compact codée par le signe de $R$ a été testée directement (Test 28, winding number sur un tore 1D) et n'est pas confirmée non plus** — le winding number ne corrèle pas avec le signe de $R$. En revanche, un effet topologique réel existe : un enroulement non trivial supprime effectivement la cohérence globale $C$ (et non $R$). L'intuition topologique contenait donc une graine correcte, mais mal identifiée dans sa formulation initiale : c'est $C$, pas $R$, qui porte la signature topologique.
-- **Une redéfinition géométrique de $R$** (Test 25 : taux de formation de relations causales dans un ordre causal dérivé de la dynamique, plutôt que $dC/dt$) donne un comportement qualitativement différent — décroissance quasi monotone d'un régime actif vers une saturation proche de zéro, sans oscillation aléatoire de signe. Cette définition alternative, ancrée dans une construction géométrique (voir §49 pour le rapprochement avec la structure causale), est plus prometteuse que $R=\mathrm{Re}(\bar A)$ pour porter une signification physique, mais ne démontre toujours pas de plancher positif.
+Le résultat établit dans ce modèle jouet une récupération très propre de la loi :
 
-Le statut mis à jour est donc :
+$$|g(r)|r^2\rightarrow\mathrm{constante}.$$
 
-$$\boxed{R > 0 \text{ (défini comme } \mathrm{Re}(\bar A)\text{) : critère de sélection du jouet, dépendant d'une phase de référence arbitraire — non retenu comme critère de comparaison entre secteurs.}}$$
+**Statut : 🟢 résultat numérique de non-régression dans le modèle jouet.** Il ne constitue pas une validation observationnelle de la gravité émergente.
 
-$$\boxed{C = |\bar A|^2 \text{ : scalaire invariant de phase, seul candidat robuste pour comparer des secteurs indépendants (confirmé numériquement).}}$$
+### 48.3 Test 42 — robustesse de la correction localisée
 
-$$\boxed{R < 0 \text{ : ni un secteur destructif démontré, ni une orientation causale, ni une signature topologique confirmée — hypothèses testées et non retenues sous cette forme précise.}}$$
+Une grille $4\times4$ a été explorée en faisant varier indépendamment $\sigma$ et $k_0$ entre $0,5$ et $2$ fois leurs valeurs nominales.
 
-$$\boxed{R_{\text{causal}}(t) \text{ (taux de formation de relations causales) : candidat plus prometteur, testé partiellement (Test 25), sans plancher positif établi à ce stade.}}$$
+Résultat rapporté : **16/16 points robustes**, avec $|g|r^2$ quasi constant et un écart relatif à $M_{\mathrm{tot}}$ de l'ordre de $0,1\%$ dans le jouet reproductible.
 
----
+La conclusion méthodologique est importante : la récupération de l'asymptote n'est pas uniquement liée à un réglage ponctuel des paramètres testés.
 
-### 47.4 Comportement aux Courbures Élevées et Régularisation
+**Statut : 🟢 robustesse numérique du mécanisme de localisation dans le modèle testé.**
 
-En relativité générale, l'effondrement classique conduit à des singularités ($r \to 0 \Rightarrow \rho \to \infty$). Dans ce formalisme exploratoire :
+### 48.4 Tests 43–44 — intégration tore–cône et exposant dynamique
 
-1. **Borne de Cohérence :** Lorsque $r \to 0$, le profil régularisé donne $C(r) \to C_{\text{max}} = 1.0000$.
-2. **Gradient au centre :** La forme quadratique assure que $\frac{dC}{dr}(0) = 0$, et donc $\nabla C(0) = \mathbf{0}$.
-3. **Annulation de l'Accélération :** L'accélération effective $g(r) = -\nabla \Phi(r)$ s'annule naturellement en $r=0$.
-4. **Cœur Saturé :** La point-singularité est remplacée par un cœur de phase de rayon caractéristique $r_{\text{core}} \sim r_g$, évitant les divergences à l'origine tout en préservant la géométrie externe à grande distance.
+La géométrie de travail a ensuite été organisée en trois régimes :
 
----
+1. région centrale/tore ;
+2. région de transition/cône ;
+3. pente douce et retour asymptotique.
 
-### 47.4.1 Géométrie régularisée : test de cohérence avec la limite relativiste
+Les rayons utilisés dans le Test 43 étaient :
 
-Le profil de cohérence proposé en §47.1 est utile comme jouet phénoménologique, mais il présente une difficulté importante s'il est interprété directement comme une source gravitationnelle :
+$$R_{\mathrm{trans}}=0,61\ \mathrm{kpc},\qquad R_{\mathrm{gentle}}=1,31\ \mathrm{kpc}.$$
 
-$$C(r)-C_c = \frac{r_g^2}{r^2+r_g^2}(C_{\max}-C_c).$$
+Le rapport $\simeq2,15$ entre ces rayons reste une entrée géométrique et n'est pas encore dérivé.
 
-À grande distance, ce profil décroît comme $1/r^2$. Si cette quantité était identifiée directement à une densité de source, la masse intégrée ne convergerait pas. Le profil ne peut donc pas, tel quel, être présenté comme un raccordement démontré à une géométrie de Schwarzschild.
+Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ $0,005\%$ et un écart relatif d'environ $-0,004\%$ dans le calcul rapporté.
 
-La correction méthodologique consiste à séparer le **champ phénoménologique de cohérence** $C(r)$ de la **fonction de masse géométrique** $m(r)$, qui doit avoir une masse totale finie.
+Pour rendre le $4/3$ compatible avec cette contrainte, une interpolation dynamique a été testée :
 
-Pour tester cette idée, on peut utiliser comme géométrie de référence une classe de métriques régulières de type Hayward :
-
-$$ds^2=-f(r)c^2dt^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,$$
-
-avec, en unités géométriques $G=c=1$,
-
-$$m(r)=M\frac{r^3}{r^3+a^3},$$
-
-et
-
-$$f(r)=1-\frac{2m(r)}r=1-\frac{2Mr^2}{r^3+a^3}.$$
-
-Cette construction n'est **pas dérivée du champ $C$** : elle sert de référence pour déterminer les propriétés qu'une éventuelle loi de reconstruction devra respecter.
-
-#### Limite à grande distance
-
-Pour $r\gg a$ :
-
-$$m(r)=M\left(1-\frac{a^3}{r^3}+O(r^{-6})\right),$$
-
-donc
-
-$$f(r)=1-\frac{2GM}{c^2r}+O(r^{-4}).$$
-
-La masse totale tend vers $M$ et la métrique retrouve la forme de Schwarzschild à grande distance.
-
-#### Limite au centre
-
-Pour $r\ll a$ :
-
-$$m(r)\simeq M\frac{r^3}{a^3}.$$
-
-En posant, en unités géométriques, $a^3=2Ml^2$, on obtient :
-
-$$f(r)\simeq1-\frac{r^2}{l^2}.$$
-
-Le terme divergent $1/r$ disparaît. Le cœur possède alors une courbure finie de type de Sitter au lieu d'une concentration ponctuelle de masse.
-
-La densité associée est :
-
-$$\rho(r)=\frac{1}{4\pi r^2}\frac{dm}{dr}=\frac{3Ma^3}{4\pi(r^3+a^3)^2}.$$
+$$s(r)=\frac{C(r)-C_c}{C_{\max}-C_c},
+\qquad
+\alpha(s)=1+\frac{s}{3}.$$
 
 Ainsi :
 
-$$\rho(0)=\frac{3M}{4\pi a^3}<\infty,$$
+$$s\rightarrow0\Rightarrow\alpha\rightarrow1,$$
 
-et, à grande distance,
+$$s\rightarrow1\Rightarrow\alpha\rightarrow\frac43.$$
 
-$$\rho(r)\sim r^{-6}.$$
+Dans le Test 44, la zone cône donnait approximativement $1,21\lesssim\alpha\lesssim1,28$, avec une moyenne proche de $1,25$. La valeur $4/3$ n'était donc pas atteinte partout : elle apparaît comme **limite de saturation**, pas comme une constante globale imposée à tous les rayons.
 
-La masse totale est donc intégrable, contrairement à un profil de densité en $1/r^2$ qui produirait une masse divergente à l'infini.
+**Statut : 🟢 cohérence numérique du raccordement testé ; 🟡 origine fondamentale du $4/3$ encore ouverte.**
 
-#### Portée du résultat
+### 48.5 Forme candidate de correction localisée
 
-Ce calcul montre une propriété mathématique importante : **une régularisation de la source peut supprimer la divergence centrale tout en conservant la limite Schwarzschild à grande distance, sans modifier les équations d'Einstein elles-mêmes**. C'est le principe général des géométries de trous noirs réguliers, étudiées notamment dans les modèles de Bardeen et Hayward.
+Une écriture de travail compatible avec les résultats précédents est :
 
-Il ne démontre pas que le champ $C$ produit réellement cette fonction $m(r)$. Il indique seulement la chaîne de reconstruction que notre programme doit parvenir à dériver :
+$$\rho_{\mathrm{eff}}(r)=\rho_b(r)\left[1+k_0\left(\frac r{r_t}\right)^{4/3}\operatorname{sech}^2\left(\frac{r-r_t}{\sigma}\right)\right].$$
 
-$$C(r),R(r),I(r)\quad\longrightarrow\quad \rho(r)\quad\longrightarrow\quad m(r)\quad\longrightarrow\quad g_{\mu\nu}^{\mathrm{eff}}.$$
+Cette expression n'est pas encore une loi fondamentale. Elle encode seulement les trois contraintes numériques :
 
-Le problème devient donc plus précis : **quelle loi issue des degrés de liberté microscopiques pourrait produire une fonction de masse régulière avec $m(r)\propto r^3$ au centre et $m(r)\to M$ à grande distance ?**
-
-Cette formulation est plus restrictive et plus testable que l'affirmation initiale selon laquelle la saturation de $C$ supprimerait directement une singularité.
-
-> 📎 **Mise à jour numérique :** cette chaîne de reconstruction a depuis été partiellement testée. Un mécanisme de croissance spatialement localisée (motivé par la largeur $\sigma_Q$ dérivée en §47.2) restaure un point fixe stable loin du cœur et produit une loi en $1/r^2$ authentique à grande distance (écart de 0,65% à 2,36% sur 9 configurations testées). Voir le [document de synthèse numérique](./Synthese-experiences-numeriques.fr.md), §9 (Fil 8), pour le détail — y compris un faux positif initial explicitement corrigé, et une recherche d'exposants intermédiaires ($4/3$, $3/4$) restée non concluante.
+- correction faible hors de la zone de transition ;
+- scaling $4/3$ dans la zone active ;
+- extinction de la correction à grand $r$.
 
 ---
 
-### 47.5 Traitement de l'Effet Casimir
+## 49. Recherche de l'origine dimensionnelle de $4/3$, $3/4$ et $1/4$
 
-L'effet Casimir n'est pas vu ici comme une preuve que la gravité couple à l'énergie absolue du vide, mais comme une confirmation du couplage aux variations différentielles :
+Le modèle est désormais explicitement fixé en $3+1$ dimensions : $d=3$.
 
-1. **Variation de contrainte :**
-   $$\Delta E_{\text{Casimir}} = E_{\text{vide}}(\text{avec plaques}) - E_{\text{vide}}(\text{sans plaques})$$
-2. **Couplage aux gradients :**
-   La gravitation effective réagirait au gradient local du champ de cohérence imposé par les conditions aux limites matérielles :
-   $$T_{\mu\nu}^{\text{Casimir}} \propto \nabla_\mu C(\mathbf{x}) \nabla_\nu C(\mathbf{x})$$
-   L'effet Casimir confirme ainsi l'hypothèse selon laquelle la gravité répond aux variations relatives de phase ($\Delta C$) et non à la masse/énergie absolue du vide microscopique.
+Une famille dimensionnelle simple donne :
 
----
+$$\alpha=\frac{d+1}{d}=\frac43,$$
 
-### 47.6 Synthèse du Système d'Équations Émergentes Proposé
+$$\beta=\frac d{d+1}=\frac34,$$
 
-> ⚠️ **Statut de cette sous-section : formalisme candidat, non testé numériquement.** Les quatre équations ci-dessous assemblent les hypothèses des sections précédentes en un système cohérent sur le papier — aucune n'a été vérifiée par calcul à ce stade (voir le [document de synthèse numérique](./Synthese-experiences-numeriques.fr.md) pour ce qui a réellement été testé). En particulier, la dérivation de $K$ obtenue par un mécanisme différent et effectivement vérifié ($K_{\mathrm{eff}}=g^2/m^2$, élimination adiabatique d'un champ médiateur) n'a pas encore été reliée à la dépendance $G_{\text{eff}}(C)$ proposée au point 2 ci-dessous — les deux constructions coexistent sans lien établi entre elles.
+avec :
 
-L'ensemble des hypothèses conduit au système d'équations couplées suivant :
+$$\alpha\beta=1.$$
 
-#### 1. Tenseur Énergie-Impulsion Effectif de Phase $T_{\mu\nu}^{(C)}$
+Une autre relation candidate donne :
 
-$$T_{\mu\nu}^{(C)} = \alpha_{\text{émergence}} \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu\nu}^{\text{eff}} g_{\text{eff}}^{\alpha\beta} \nabla_\alpha C \nabla_\beta C - g_{\mu\nu}^{\text{eff}} V(C) \right)$$
-*avec $V(C_c) = 0$ au niveau du vide critique.*
+$$\eta=\frac1{d+1}=\frac14.$$
 
-#### 2. Dépendance de la Constante Gravitationnelle $G_{\text{eff}}$ (non testée)
-$$\frac{1}{G_{\text{eff}}(x)} = \frac{1}{G_0} \cdot \left( \frac{C(x)}{C_c} \right)$$
+Avec la définition utilisée pour l'angle :
 
-#### 3. Équation Champ-Géométrie Global
-$$G_{\mu\nu}\left[g^{\text{eff}}\right] + \Lambda_{\text{eff}}(C) g_{\mu\nu}^{\text{eff}} = \frac{8\pi G_{\text{eff}}(C)}{c^4} \left( T_{\mu\nu}^{\text{matière}} + T_{\mu\nu}^{(C)} \right)$$
+$$\theta=2\arcsin\left(\frac{C_c}{1-C_c}\right),$$
 
-#### 4. Schéma de la Boucle d'Émergence
-$$\{ \hat{\Phi}_i \} \xrightarrow{\text{corrélations / amplitudes}} C(\mathbf{x}) \xrightarrow{\text{reconstruction}} \rho(r),m(r) \xrightarrow{\text{équations d'Einstein}} g_{\mu\nu}^{\text{eff}} \xrightarrow{\text{profil régularisé}} \text{cœur non singulier}$$
+la valeur $C_c=0,2=1/5$ entraîne exactement :
 
----
+$$\frac{C_c}{1-C_c}=\frac14,$$
 
-## 48. Clarification Conceptuelle : L'Équivalence $m_{\text{eff}} = E / c_{\text{loc}}^2$
+puis :
 
-### 48.1 La masse comme condensation de phase
-Dans ce cadre, la relation $m_{\text{eff}} = E / c_{\text{loc}}^2$ est interprétée comme une équation d'état du substrat quantique.
+$$\theta=2\arcsin\left(\frac14\right)\approx28,955^\circ.$$
 
-Pour une excitation localisée, la masse effective s'exprime par la condensation de cohérence au-dessus du vide critique :
+On peut également écrire la relation candidate :
 
-$$m_{\text{eff}} = \frac{\rho_0}{c_{\text{loc}}^2} \int_V \left( \frac{C(\mathbf{x}) - C_c}{C_c} \right) d^3x$$
+$$C_c=\frac1{d+2}.$$
 
-*où $\rho_0$ est une densité d'énergie de référence assurant l'homogénéité en masse ($kg$).*
+Pour $d=3$ :
 
-### 48.2 Origine de l'inertie via le tenseur $T_{\mu\nu}^{(C)}$
-La densité $T_{00}^{(C)}$ dépend directement des gradients du champ :
+$$C_c=\frac15,$$
 
-$$T_{00}^{(C)} \propto (\nabla C)^2$$
+et donc :
 
-L'inertie s'interprète comme la résistance à la déformation de ce gradient de phase lors d'une accélération, redonnant par intégration :
+$$\frac{C_c}{1-C_c}=\frac1{d+1}=\frac14.$$
 
-$$E_{\text{totale}} = \int T_{00}^{(C)} d^3x = m_{\text{eff}} \cdot c_{\text{loc}}^2$$
+### 49.1 Ce qui est réellement démontré
 
-### 48.3 La célérité $c_{\text{loc}}$ comme propriété dynamique
-Dans ce modèle, $c_{\text{loc}}$ représente la vitesse de propagation des perturbations de phase au sein du champ de cohérence, variant localement selon $C(\mathbf{x})$.
+Les identités numériques sont exactes :
 
----
+$$0,2=\frac15,\qquad\frac{0,2}{0,8}=\frac14,$$
 
-## 49. Formalisation Géométrique : Topologie Torique Spatialisée et Cône Causal Dynamique
+$$2\arcsin(1/4)\approx28,955^\circ,$$
 
-### 49.1 Intégration sur la topologie torique $\mathbb{T}^3$
-Pour analyser les configurations confinées, on peut considérer une topologie torique spatiale ($\mathbb{T}^3$) balayée par un cône causal le long du temps propre :
+$$\frac{d+1}{d}=\frac43,\qquad\frac d{d+1}=\frac34\quad(d=3).$$
 
-$$\int_{V_{\mathbb{T}^3}} \left( C(\mathbf{x}) - C_c \right) \sqrt{|g_{\text{tore}}|} \, d^3x$$
+### 49.2 Ce qui n'est pas dérivé
 
-### 49.2 Articulation du mécanisme
-1. **Piégeage de phase sur $\mathbb{T}^3$ :** Le tore spatial piège et confine la phase ($C > C_c$), générant la masse effective et l'énergie confinée.
-2. **Cône de propagation causal :** Fixe la vitesse d'avancement $c_{\text{loc}}$ du front de phase.
-3. **Réaction d'inertie ($T_{\mu\nu}^{(C)}$) :** Quantifie la résistance élastique lors de la translation du tore le long du cône causal.
-4. 
----
+Les Tests 49–50 ont montré que la dynamique minimale de $C$ et les rétroactions simples testées ne sélectionnent pas spontanément $C_c=1/5$.
 
-## 50. Invariance de la Gravité et Limites du Modèle Face à l'Antigravitation
+Avec :
 
-Dans cette section, nous examinons une interrogation fondamentale quant aux applications théoriques du modèle : un champ de cohérence $C(\mathbf{x})$ permet-il d'engendrer un effet répulsif ou une « antigravitation » ? **Il faut être clair d'emblée : ce que ce paragraphe établit est une propriété interne à ce modèle jouet particulier, sous les hypothèses posées ci-dessous — pas une réponse physique définitive.**
+$$Z\Box C-V'(C)=0,$$
 
-### 50.1 L'impossibilité par saturation du champ ($C \le C_{\text{max}}$)
-Pour générer une gravité répulsive ou une masse négative dans le formalisme géométrique, il faudrait pouvoir inverser le signe du gradient de cohérence ($\nabla_\mu C$) ou forcer le champ au-delà de sa valeur de saturation.
+un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De même, les rétroactions testées du type $\sigma(C)$ ont produit des attracteurs nettement plus cohérents, environ $0,72$ à $0,91$, sans attracteur dans la fenêtre $[0,16;0,24]$.
 
-Or, la structure du champ impose la borne stricte $C(\mathbf{x}) \le C_{\text{max}} = 1,0000$. Lorsque la cohérence s'approche de son maximum ($C \to C_{\text{max}}$) :
-
-$$\nabla_\mu C \to 0$$
-
-Le gradient s'annule naturellement, ce qui lisse le potentiel gravitationnel au cœur des configurations denses. L'absence de singularité ($r \to 0$) interdit du même coup la création d'une région à « densité négative ».
-
-### 50.2 Le filtrage des phases et la décohérence du secteur $R < 0$
-Dans la construction actuelle, le secteur $R < 0$ est exclu par la règle de sélection $R > 0$. Cette exclusion est un choix du modèle jouet et ne constitue pas encore une démonstration que les contributions $R < 0$ sont physiquement détruites ou incapables de produire une géométrie effective. La campagne $(R, I, C, \phi)$, complétée par une analyse temporelle et par comparaison entre niveaux d’agrégation, doit déterminer si cette exclusion correspond à une dynamique réelle, à une rotation de phase ou à un effet de projection.
-
-| Formulation actuelle | Formulation plus rigoureuse |
-| :--- | :--- |
-| « le modèle résout $10^{120}$ » | « le modèle propose une piste pour la hiérarchie $10^{120}$ » |
-| « le filtre $R > 0$ est démontré » | « le filtre $R > 0$ est imposed dans le modèle actuel » |
-| « $R < 0$ est destructif » | « $R < 0$ est compatible avec une interprétation destructive, à tester » |
-| « la métrique émerge » | « une règle candidate d’émergence de métrique est proposée » |
-| « l’absence de singularité est obtenue » | « un profil régularisé évite la divergence dans ce modèle phénoménologique » |
-| « confirme la relativité générale » | « pourrait être comparé aux limites de la relativité générale » |
-| « interdit formellement l’antigravitation » | « exclut ce comportement dans la version particulière du modèle » |
-
-* $R^-$ n’est pas encore identifié comme une perte de cohérence. Il pourrait représenter une orientation de phase opposée, un secteur destructif, ou une mémoire dynamique du signe antérieur de $R$. La distinction nécessite l’enregistrement conjoint de $(R, I, C, \phi)$, une analyse des transitions temporelles et une comparaison micro/macro. 
----
-### 50.3 La forme quadratique de la densité d'énergie
-Le tenseur d'énergie-impulsion effectif du champ dépend de termes quadratiques $(\nabla C)^2$ :
-
-$$T_{\mu\nu}^{(C)} \propto \left( \nabla_\mu C \nabla_\nu C - \frac{1}{2} g_{\mu\nu}^{\text{eff}} g_{\text{eff}}^{\alpha\beta} \nabla_\alpha C \nabla_\beta C - g_{\mu\nu}^{\text{eff}} V(C) \right)$$
-
-Cette structure quadratique garantit que la densité d'énergie effective demeure strictement positive ou nulle ($T_{00}^{(C)} \ge 0$). Le modèle préserve ainsi la condition faible sur l'énergie de la Relativité Générale et interdit tout phénomène de répulsion gravitationnelle artificielle.
-
-### Conclusion du Paragraphe 50
-**Si les hypothèses de saturation posées ici étaient vérifiées** (ce qui n'est pas démontré — voir le tableau ci-dessus, §50.2), **elles excluraient** toute forme d'antigravitation dans ce modèle précis. La saturation $C_{\text{max}}$ qui élimine les singularités physiques de l'espace-temps ($r \to 0$) serait alors le même mécanisme qui empêcherait l'émergence de forces gravitationnelles répulsives — une conséquence interne et conditionnelle du modèle, pas une propriété démontrée de l'Univers.
+**Conclusion :** $C_c=1/5$ reste une **entrée du modèle gravitationnel**, tandis que $4/3$, $3/4$ et $1/4$ forment une structure dimensionnelle élégante et cohérente **conditionnelle à cette entrée**. Aucune dérivation physique fondamentale de $C_c=1/5$ n'est actuellement établie.
 
 ---
 
-## 51. Dilatation Temporelle et Concordance avec la Relativité Générale
+## 50. Tests de dynamique collective : de $Q_i$ à $C$
 
-Dans cette section, nous analysons l'impact d'une variation locale du champ de cohérence $C(\mathbf{x})$ sur l'écoulement du temps propre et la navigation spatiale, démontrant la parfaite continuité entre notre formalisme et les prédictions validées d'Albert Einstein.
+### 50.1 Chaîne de calcul
 
-### 51.1 Le temps propre comme fonction de la densité de cohérence
-Dans notre cadre théorique, le temps propre $d\tau$ mesuré par un observateur ou un système embarqué ne dépend pas d'un temps universel absolu, mais de la valeur locale de la métrique effective $g_{\mu\nu}^{\text{eff}}(C)$ :
+Le programme numérique est organisé selon la chaîne :
 
-$$d\tau = dt \sqrt{g_{00}^{\text{eff}}(C) - \frac{v^2}{c_{\text{loc}}^2(C)}}$$
+$$Q_i\rightarrow E_i\rightarrow\theta_i\rightarrow C,$$
 
-Lorsque la cohérence locale s'accroît ($C(\mathbf{x}) > C_c$) — que ce soit au voisinage d'une masse condensée ou par une modification artificielle de la densité de phase —, la composante $g_{00}^{\text{eff}}$ diminue.
+avec :
 
-* **Ralentissement de l'horloge interne :** Pour un équipage évoluant au cœur d'un puits de cohérence élevé, la fréquence des micro-processus quantiques ralentit par rapport au vide critique distant ($C \approx C_c$) — c'est une reformulation du champ $C$ de la dilatation temporelle gravitationnelle standard déjà connue en RG, pas un effet nouveau.
+$$E_i=Q_i^2,$$
 
-> ⚠️ **Rappel du §43 :** ce document ne prétend PAS qu'une application de propulsion ou de voyage en découle. Aucun mécanisme de condensation artificielle et contrôlée de $C(\mathbf{x})$ n'est proposé, testé, ou même esquissé ici — la mention d'un « véhicule » ci-dessus serait, en l'état, une extrapolation non fondée du formalisme, à la fois techniquement non spécifiée et en contradiction avec les limites que ce document s'impose ailleurs. Le mécanisme décrit dans ce paragraphe reste un exercice de cohérence interne avec la RG (§51.2), pas une proposition applicative.
+$$w_{ij}=\exp\left[-\frac{(E_i-E_j)^2}{2\sigma^2}\right].$$
 
-### 51.2 L'explication sous-jacente du principe d'Einstein
-Loin de contredire la Relativité Générale, cette dynamique apporte le mécanisme physique fondamental sous-jacent aux équations d'Einstein :
+L'objectif est de déterminer si une structure collective produit une valeur privilégiée de $C$ ou uniquement une transition continue entre incohérence et synchronisation.
 
-1. **La géométrie d'Einstein comme émergence :** La dilatation du temps et la courbure des trajectoires relativistes ne sont pas des postulats abstraits, mais la manifestation directe de la résistance hydrodynamique du substrat quantique sous l'effet du gradient $\nabla C$.
-2. **Le principe de correspondance :** Aux échelles macroscopiques ordinaires, notre tenseur $T_{\mu\nu}^{(C)}$ et l'équation champ-géométrie redonnent rigoureusement les résultats d'Einstein (effet Shapiro, décalage vers le rouge gravitationnel, dilatation temporelle).
+### 50.2 Test 50 — rétroactions aveugles de $C$ sur $\sigma$
 
-### 51.3 La préservation de la causalité cosmique
-Cependant, l'infléchissement du temps propre ne permet aucun « saut instantané » ni voyage vers le passé :
-* **Conservation de la causalité :** L'absence de masse négative et le filtrage des phases $R < 0$ (établis aux paragraphes 48 et 50) interdisent la création de boucles temporelles fermées ou de trous de ver traversables.
-* **Le coût relativiste :** Tout gain sur le temps propre $d\tau$ de l'équipage se paye par un décalage irréversible avec le reste de l'Univers. Le voyageur interstellaire retrouve une Terre vieillie de plusieurs siècles, confirmant le cadre relativiste classique.
+Deux familles sans ciblage de $0,2$ ont été testées :
 
-### Conclusion du Paragraphe 51
-La capacité du champ de cohérence à infléchir l'écoulement du temps confirme la robustesse du modèle : il explique **pourquoi** la Relativité Générale fonctionne si bien aux échelles observées, tout en fournissant une description sub-quantique continue qui élimine ses divergences aux limites.
+$$\sigma(C)=\sigma_0(1-C),$$
+
+et
+
+$$\sigma(C)=\frac{\sigma_0}{1+\kappa C}.$$
+
+Les attracteurs rapportés étaient environ :
+
+| Forme | Paramètres | $C^*$ |
+|---|---|---:|
+| linéaire | $\sigma_0=0,5$ | 0,778 |
+| linéaire | $\sigma_0=1,0$ | 0,818 |
+| linéaire | $\sigma_0=1,5$ | 0,913 |
+| inverse | $\sigma_0=0,8,\kappa=1$ | 0,836 |
+| inverse | $\sigma_0=0,8,\kappa=2$ | 0,893 |
+| inverse | $\sigma_0=1,2,\kappa=1,5$ | 0,914 |
+| inverse | $\sigma_0=1,0,\kappa=3$ | 0,722 |
+
+Aucun attracteur n'est apparu dans $[0,16;0,24]$.
+
+**Verdict : 🔴 ces rétroactions simples ne sélectionnent pas $C_c\simeq0,2$.**
+
+### 50.3 Test 51 — recherche aveugle d'une transition collective
+
+Le Test 51 a ensuite abandonné toute rétroaction artificielle et recherché directement une transition dans le système pondéré :
+
+$$\dot\theta_i=\frac KN\sum_jw_{ij}\sin(\theta_j-\theta_i).$$
+
+Le protocole utilise notamment :
+
+$$N\in\{200,400,800,1600\},$$
+
+un balayage de $K$ et $\sigma$, plusieurs graines indépendantes, et un temps d'intégration suffisamment long.
+
+Les observables prévues sont :
+
+$$\chi_C=N\left(\langle C^2\rangle-\langle C\rangle^2\right),$$
+
+ainsi qu'un cumulant de Binder traité comme indicateur secondaire, et le temps de relaxation.
+
+Le premier scan 2D rapporté, avec $N=200,400$, $K\in\{0,5,1,1,5,2\}$ et $\sigma\in\{8,12,16,20\}$, montre :
+
+- un régime incohérent à faible $K$, avec $C$ proche de l'échelle $1/N$ ;
+- une montée continue de $C$ avec $K$ ;
+- des valeurs ponctuelles proches de $0,2$ ;
+- aucune ligne critique robuste qui fixe universellement $C\simeq0,2$.
+
+Par exemple, des valeurs proches de $0,2$ apparaissent autour de $C\approx0,218$ et $C\approx0,169$ pour certains couples $(K,\sigma)$, mais elles se déplacent lorsque les paramètres ou $N$ changent.
+
+**Verdict du Test 51 :**
+
+$$\boxed{\text{le modèle pondéré possède une transition de synchronisation, mais ne sélectionne pas }C_{\mathrm{crit}}\approx0,2\text{ universellement}.}$$
+
+Ainsi, $C=0,2$ est actuellement mieux décrit comme un **point de passage paramétrique** du modèle que comme un attracteur ou point critique fondamental.
 
 ---
+
+## 51. Conséquences physiques et limites actuelles
+
+### 51.1 Ce que les campagnes numériques établissent réellement
+
+| Élément | Statut |
+|---|---|
+| Structure dimensionnelle 3+1 | 🟢 Hypothèse structurelle fixée |
+| $C=|Z|^2$ comme invariant de phase | 🟢 Confirmé comme observable robuste du jouet |
+| État incohérent $C\sim1/N$ | 🟢 Référence statistique confirmée |
+| Correction localisée | 🟢 Testée avec non-régression newtonienne |
+| Robustesse de l'asymptote sous variation $\sigma,k_0$ | 🟢 Testée dans le jouet |
+| Intégration tore–cône | 🟢 Cohérente numériquement dans le cadre testé |
+| $\alpha(s)\to4/3$ à saturation | 🟢 Formulation dynamique cohérente ; origine fondamentale ouverte |
+| $4/3$ global | 🔴 Abandonné : divergence à grand $r$ |
+| $3/4$ | 🟡 Relation inverse cohérente avec $4/3$, pas dérivation indépendante |
+| $C_c=1/5$ | 🟡 Paramètre d'entrée ; non sélectionné dynamiquement |
+| $1/4$ | 🟡 Identité conditionnelle à $C_c=1/5$ ; non dérivée indépendamment |
+| $\theta\approx28,955^\circ$ | 🟢 Conséquence mathématique de $C_c=0,2$ dans la formule actuelle |
+| $E=mc^2$ | 🔴 Pas de validation indépendante ; toute définition de $m$ via $c^2$ serait circulaire |
+| $c_{\mathrm{eff}}\approx\sqrt2$ | 🟡 À auditer séparément ; aucune origine fondamentale établie ici |
+| $r$ spatial émergent | 🔴 Non dérivé à partir des corrélations |
+| $D_{\mathrm{eff}}=3/4$ ou $4/3$ comme dimension géométrique émergente | 🔴 Non établi |
+| résolution quantitative de $10^{120}$ | 🔴 Non obtenue ; les jouets testés donnent une suppression très inférieure |
+| dérivation des équations d'Einstein | 🔴 Non obtenue |
+
+### 51.2 Le point essentiel sur les singularités
+
+Le profil régularisé montre qu'il est mathématiquement possible de construire une source dont la densité reste finie au centre et dont la masse totale converge vers $M$ à grande distance. Une métrique de référence de type Hayward possède par exemple :
+
+$$m(r)=M\frac{r^3}{r^3+a^3},$$
+
+et récupère asymptotiquement la forme de Schwarzschild.
+
+Cela démontre une **propriété de régularisation**, pas que le champ $C$ engendre effectivement cette masse géométrique.
+
+### 51.3 Le point essentiel sur l'antigravitation
+
+Dans la version actuelle, le tenseur candidat est quadratique en gradients de $C$ et la borne $C\le1$ empêche une extrapolation triviale au-delà de la saturation. Cela exclut certains comportements répulsifs **dans ce modèle particulier**, sous ses hypothèses.
+
+Il ne s'agit pas d'une preuve que l'antigravitation est impossible dans toute théorie physique.
+
+### 51.4 Temps propre et temps émergent
+
+La question reste ouverte : si une histoire quasi-classique $H_i$ possède une métrique $g_{\mu\nu}^{(i)}$, son temps propre pourrait être défini par :
+
+$$\tau_i=\int\sqrt{-g_{\mu\nu}^{(i)}\frac{dx^\mu}{d\lambda}\frac{dx^\nu}{d\lambda}}\,d\lambda.$$
+
+La hiérarchie heuristique :
+
+$$\tau_{\mathrm{micro}}\ll\tau_{\mathrm{corr}}\ll\tau_{\mathrm{macro}}$$
+
+reste une hypothèse de travail et non une mesure expérimentale de trois temps fondamentaux.
+
+### 51.5 Feuille de route suivante
+
+Les prochaines étapes doivent rester séparées et falsifiables :
+
+1. **Auditer $c_{\mathrm{eff}}$ terme par terme**, en recherchant notamment toute racine carrée déjà présente dans sa définition avant d'interpréter un résultat proche de $\sqrt2$.
+2. **Poursuivre l'analyse des corrélations** $\tau_{ij}$ pour déterminer si des échelles de corrélation différenciées émergent réellement.
+3. Construire une distance $d_{ij}$ seulement si les corrélations produisent une structure non triviale qui n'est pas simplement héritée de $E_i$.
+4. Chercher ensuite un rayon émergent $r$ et seulement alors tester $N(r)$ et $D_{\mathrm{eff}}(r)$.
+5. Tester si l'exposant observé dans la zone de transition est réellement compatible avec $4/3$ sans le fixer à l'avance.
+6. Confronter le profil gravitationnel corrigé à des données observationnelles réelles, notamment les courbes de rotation, sans recalibrage ad hoc par galaxie si l'objectif est la prédictivité.
+7. Conserver séparément la question de l'origine microscopique de $C_c$ : le Test 51 ferme la piste précise « pondération énergétique $
+ightarrow C_c=1/5$ » sous la famille testée, mais ne ferme pas toutes les possibilités théoriques.
+
 ---
+
+## 52. Conclusion générale — état du programme de recherche
+
+Le modèle a franchi une étape importante : certaines constructions qui divergeaient ont été abandonnées, tandis qu'une **correction localisée** a montré une récupération robuste de la limite newtonienne dans le modèle jouet.
+
+Le $4/3$ n'est plus utilisé comme loi globale. Il est maintenant traité comme un **scaling de transition potentiel**, avec une interpolation $\alpha(s)$ qui tend vers $4/3$ lorsque la densification normalisée tend vers la saturation $s\to1$.
+
+La structure :
+
+$$\frac43,\qquad\frac34,\qquad\frac14$$
+
+est cohérente avec $d=3$, mais sa valeur scientifique dépend encore d'une dérivation indépendante de $C_c=1/5$. Les Tests 49–51 ont précisément empêché de présenter cette relation comme déjà dérivée : les dynamiques testées ne sélectionnent pas $1/5$ spontanément.
+
+La position scientifique actuelle peut donc être résumée par :
+
+$$
+\boxed{
+\text{modèle jouet numériquement contraint}
+\neq
+\text{théorie de gravité émergente démontrée}
+}
+$$
+
+et par la chaîne de recherche :
+
+$$
+\{Q_i,\theta_i\}
+\rightarrow C
+\rightarrow\text{corrélations}
+\rightarrow d_{ij}\ ?
+\rightarrow r\ ?
+\rightarrow N(r)
+\rightarrow D_{\mathrm{eff}}(r)
+\rightarrow g_{\mu\nu}^{\mathrm{eff}}
+$$
+
+avec une contrainte non négociable :
+
+$$
+|g(r)|r^2\rightarrow\mathrm{constante}
+\qquad(r\rightarrow\infty).
+$$
+
+> **Principe de travail : on ne choisit plus le résultat recherché ; on cherche d'abord si la dynamique le produit, puis on conserve aussi bien les succès que les échecs.**
+
+Le programme reste donc ouvert, mais il est désormais plus falsifiable, plus propre mathématiquement et mieux séparé entre **entrées**, **conséquences**, **résultats numériques** et **hypothèses fondamentales**.
+
 ---
-## Conclusion générale
 
-> **« La géométrie gravitationnelle décrite par la relativité générale est envisagée ici comme la manifestation macroscopique et filtrée d'un champ de cohérence de phase quantique. La saturation du champ pourrait, sous certaines hypothèses non encore vérifiées, prévenir les singularités ($r \to 0$), tandis que le filtrage des phases offre une piste conceptuelle — non quantitativement validée à ce stade — pour l'écart de la constante cosmologique. »**
+## Conclusion
 
-$$\text{degrés de liberté quantiques} \xrightarrow{\text{filtrage } R > 0 \text{ (hypothèse)}} \text{secteur cohérent } (C_c \to C_{\text{max}}) \rightarrow g_{\mu\nu}^{\text{eff}} \text{ (candidat non-singulier)}$$
+> **La géométrie gravitationnelle décrite par la relativité générale est ici étudiée comme une éventuelle description macroscopique émergente d'une structure quantique collective. Les résultats numériques actuels ne démontrent pas cette émergence, mais ils permettent déjà d'éliminer certaines constructions instables et d'identifier des contraintes précises pour la suite.**
 
-> **Le critère de validation quantitatif associé au facteur $10^{120}$ reste consigné et détaillé dans le document compagnon (Cartographie des pistes de recherche, section 11/47) — aucun mécanisme candidat présenté dans ce document, y compris le formalisme des sections 47-51, ne le satisfait à ce jour.**
+Le problème scientifique central reste :
 
-### Deux niveaux distincts dans ce document, à ne pas confondre
+> **Existe-t-il une dynamique microscopique suffisamment précise pour produire simultanément la cohérence $C$, une structure métrique émergente, la limite newtonienne, les équations d'Einstein et les paramètres cosmologiques observés sans les imposer à l'avance ?**
 
-- **Sections 1-46 :** cadre de questions théoriques, confrontées à la littérature existante (voir la cartographie compagnon) — niveau de rigueur maintenu tout du long.
-- **Sections 47-51 :** formalisme phénoménologique candidat ($C(\mathbf{x})$, saturation, tore-cône), **largement non testé numériquement**. Un programme de 28 tests numériques sur des modèles jouets simplifiés a été mené en parallèle — voir le [document de synthèse numérique](./Synthese-experiences-numeriques.fr.md) — avec des résultats positifs et négatifs qui contraignent partiellement certaines des hypothèses de ces sections (notamment §47.3, mis à jour ci-dessus), mais qui ne couvrent pas l'ensemble du formalisme proposé (le tenseur $T_{\mu\nu}^{(C)}$, la dépendance $G_{\text{eff}}(C)$, et la topologie $\mathbb{T}^3$ de §49 restent, à ce jour, des propositions non testées).
-
----
-*Document de réflexion personnelle et d'open-science — Dépôt officiel GitHub.*
+*Document de réflexion personnelle et d'open science — à confronter à la littérature scientifique et à des validations indépendantes.*
