@@ -6,7 +6,7 @@ If you reference this work, please use the following citation:
 
 > Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22064401
 ---
-🇬🇧 English | [🇫🇷 Version française](README.fr.md)
+🇬🇧 English | [🇫🇷 Version française](README.md)
 # Open Question: Can Gravitational Geometry Emerge from a Quantum Structure?
 
 > ⚠️ **Note:** this document evolves frequently. Please refresh the page to see the latest version.
