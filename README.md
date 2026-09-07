@@ -4,7 +4,7 @@
 
 Si vous référencez ces travaux, merci d'utiliser la citation suivante :
 
-> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22068679
+> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22064401
 ---
 🇫🇷 Français | [🇬🇧 English version](README_en.md)
 # Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
@@ -570,6 +570,32 @@ Un indicateur causal alternatif $R_{\mathrm{causal}}$ reste une piste, mais sans
 
 ---
 
+### 47.5 Dérivation de $K$ : d'un paramètre postulé à une constante de couplage dérivée
+
+La dynamique décrite en 47.3 utilise une constante de couplage $K$ qui, jusqu'ici, était un paramètre externe ajusté à la main. Deux résultats établissent qu'elle peut être reformulée, puis en partie dérivée.
+
+**Étape 1 — $K$ est déjà, structurellement, une constante de couplage.** La dynamique $\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel :
+
+$$V[\theta]=-\frac{K}{2N}\sum_{i,j}w_{ij}\cos(\theta_i-\theta_j)$$
+
+vérifié numériquement à la précision machine ($\sim10^{-11}$) — $K$ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
+
+**Étape 2 — dérivation par élimination adiabatique d'un champ médiateur.** En couplant chaque phase $\theta_i$ à un champ médiateur complexe $\psi$ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
+
+$$\dot\psi = \mathrm{taux}\cdot(-m^2\psi+g\,\bar Z),\qquad \bar Z=\frac{1}{N}\sum_j e^{i\theta_j}$$
+
+l'élimination adiabatique de $\psi$ (relaxation rapide vers son équilibre $\psi_{\mathrm{eq}}=(g/m^2)\bar Z$) reproduit la dynamique de Kuramoto réduite avec :
+
+$$\boxed{K_{\mathrm{eff}}=\frac{g^2}{m^2}}$$
+
+Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage $g$ testées (de $g=0{,}05$ à $g=1{,}0$).
+
+**Portée et limite.** C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais $g$ (couplage au médiateur) et $m$ (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
+
+> ⚠️ **Point de vigilance sur la numérotation des tests.** Plusieurs fils de travail indépendants (celui-ci, et le journal numérique compagnon) ont chacun leur propre numérotation de « Test N », qui ne coïncident pas terme à terme — par exemple, le « Test 43 » de la section 48.4 ci-dessous (rayons $R_{\mathrm{trans}}$, $R_{\mathrm{gentle}}$) n'est pas le même calcul que le « Test 43 » du [journal d'expériences numériques](./Journal-experiences-numeriques.fr.md) (recherche d'exposants sur la solution radiale). Se référer au contenu de chaque test, pas seulement à son numéro, en cas de doute.
+
+---
+
 ## 48. Géométrie régularisée et récupération de la limite newtonienne
 
 ### 48.1 Pourquoi le $4/3$ global a été abandonné
@@ -926,3 +952,920 @@ Le problème scientifique central reste :
 > **Existe-t-il une dynamique microscopique suffisamment précise pour produire simultanément la cohérence $C$, une structure métrique émergente, la limite newtonienne, les équations d'Einstein et les paramètres cosmologiques observés sans les imposer à l'avance ?**
 
 *Document de réflexion personnelle et d'open science — à confronter à la littérature scientifique et à des validations indépendantes.*
+
+
+---
+
+## 53. Mise à jour critique — campagnes 68–70 : audit du seuil, symétries et protocole de falsification
+
+> **Statut : mise à jour méthodologique majeure.**  
+> Cette section conserve la trace des résultats, corrections et questions ouvertes apparus après les campagnes 68–69e. Elle doit être lue comme un audit du modèle jouet, et non comme une validation de la théorie d'émergence gravitationnelle.
+
+### 53.1 Point de départ : l'écart $v_c(\alpha=0)\simeq2,92$ contre $v_c^{\rm th}=2u=2,0$
+
+Le rapport des campagnes 68–69e rapportait une extrapolation numérique :
+
+$$
+v_c(\alpha=0)\simeq2,92
+$$
+
+alors que l'analyse du modèle symétrique donnait :
+
+$$
+v_c^{\rm th}=2u.
+$$
+
+Pour $u=1$,
+
+$$
+v_c^{\rm th}=2.
+$$
+
+Cet écart de l'ordre de $46\%$ a été identifié comme une anomalie méthodologique à résoudre **avant toute nouvelle campagne interprétative**.
+
+Le principe de travail est :
+
+$$
+\boxed{
+\text{artefact numérique}
+\;\rightarrow\;
+\text{limites }T,N
+\;\rightarrow\;
+\text{terme physique manquant}
+}
+$$
+
+et non l'inverse.
+
+---
+
+### 53.2 Correction importante de l'audit énergétique du rapport 70A
+
+Une vérification algébrique supplémentaire a montré que le rapport 70A contenait une erreur dans l'évaluation des minima.
+
+Le potentiel est :
+
+$$
+F=
+-r\sum_a|\psi_a|^2
++
+u\sum_a|\psi_a|^4
++
+v\sum_{a<b}|\psi_a|^2|\psi_b|^2,
+\qquad r>0,\;u>0,\;v>0.
+$$
+
+#### Rang 1
+
+Pour une seule composante active :
+
+$$
+F_1(\rho)=-r\rho^2+u\rho^4.
+$$
+
+La condition de stationnarité donne :
+
+$$
+-2r\rho+4u\rho^3=0
+$$
+
+et donc, pour le minimum non trivial,
+
+$$
+\boxed{\rho_1^2=\frac{r}{2u}}.
+$$
+
+L'énergie correspondante est :
+
+$$
+F_1
+=
+-r\frac{r}{2u}
++
+u\frac{r^2}{4u^2}
+=
+-\frac{r^2}{4u}.
+$$
+
+Ainsi :
+
+$$
+\boxed{F_1=-\frac{r^2}{4u}}.
+$$
+
+Pour $r=u=1$,
+
+$$
+\boxed{F_1=-0,25}.
+$$
+
+> **Correction explicite :** $F_1$ n'est pas égal à $0$. Le terme quadratique et le terme quartique ne s'annulent pas au minimum ; ils donnent ensemble $-r^2/(4u)$.
+
+#### Rang 3 symétrique
+
+Pour :
+
+$$
+\psi_1=\psi_2=\psi_3=\rho,
+$$
+
+on obtient :
+
+$$
+F_3(\rho)
+=
+-3r\rho^2+3(u+v)\rho^4.
+$$
+
+La stationnarité donne :
+
+$$
+\boxed{
+\rho_3^2=\frac{r}{2(u+v)}
+}.
+$$
+
+Donc :
+
+$$
+\boxed{
+F_3=-\frac{3r^2}{4(u+v)}
+}.
+$$
+
+Pour $r=u=1$ et $v=0$,
+
+$$
+\boxed{F_3=-0,75}.
+$$
+
+Le rapport 70A donnait $-0,5625$, valeur compatible avec une mauvaise substitution de l'amplitude.
+
+---
+
+### 53.3 Le croisement énergétique n'est pas à $v\simeq0,86$
+
+Avec les expressions correctes :
+
+$$
+F_1=-\frac{r^2}{4u},
+\qquad
+F_3=-\frac{3r^2}{4(u+v)}.
+$$
+
+La condition $F_1=F_3$ donne :
+
+$$
+\frac1u=\frac3{u+v},
+$$
+
+donc :
+
+$$
+u+v=3u
+$$
+
+et finalement :
+
+$$
+\boxed{v=2u}.
+$$
+
+Pour $u=1$ :
+
+$$
+\boxed{v_c^{\rm énergie}=2}.
+$$
+
+Le seuil énergétique et le seuil de stabilité locale coïncident donc dans ce modèle symétrique :
+
+$$
+\boxed{
+v_c^{\rm énergie}
+=
+v_c^{\rm stabilité}
+=
+2u
+}.
+$$
+
+Il n'existe donc **pas**, dans ce potentiel quartique symétrique précis, de fenêtre thermodynamique distincte
+
+$$
+0,86<v<2
+$$
+
+telle que le rang 1 serait globalement favorisé alors que le rang 3 resterait métastable.
+
+Le prétendu seuil $v\simeq0,86$ du rapport 70A doit être classé comme **artefact algébrique**, et non comme un second seuil physique.
+
+---
+
+### 53.4 Formule générale pour $k$ composantes actives
+
+Pour $k$ composantes de même amplitude $\rho$ :
+
+$$
+F_k(\rho)
+=
+-kr\rho^2
++
+\left[
+ku+\frac{k(k-1)}2v
+\right]\rho^4.
+$$
+
+La condition de stationnarité donne :
+
+$$
+\rho_k^2
+=
+\frac{r}
+{2u+(k-1)v}.
+$$
+
+Ainsi :
+
+$$
+\boxed{
+\rho_k
+=
+\sqrt{\frac{r}{2u+(k-1)v}}
+}.
+$$
+
+Cette formule corrige une ambiguïté importante présente dans les versions précédentes : l'amplitude elle-même porte une racine carrée.
+
+L'énergie minimale devient :
+
+$$
+\boxed{
+F_k^{\min}
+=
+-\frac{k r^2}
+{2\,[2u+(k-1)v]}
+}.
+$$
+
+Pour $k=1$ :
+
+$$
+F_1^{\min}=-\frac{r^2}{4u}.
+$$
+
+Pour $k=3$ :
+
+$$
+F_3^{\min}=-\frac{3r^2}{4(u+v)}.
+$$
+
+La comparaison $F_1^{\min}=F_3^{\min}$ redonne bien :
+
+$$
+\boxed{v=2u}.
+$$
+
+---
+
+### 53.5 Conséquence : le mécanisme de compétition modale reste plausible, mais l'interprétation doit être nettoyée
+
+Le modèle minimal :
+
+$$
+F=
+-r\sum_a|\psi_a|^2
++
+u\sum_a|\psi_a|^4
++
+v\sum_{a<b}|\psi_a|^2|\psi_b|^2
+$$
+
+possède donc, pour $u>0$ et $r>0$, un seuil naturel :
+
+$$
+\boxed{v_c=2u}.
+$$
+
+Ce résultat ne dépend pas d'un ajustement numérique du seuil.
+
+En revanche, il ne suffit pas à expliquer pourquoi une simulation donnée pourrait produire un seuil apparent autour de $2,9$. Cette question reste distincte :
+
+$$
+\boxed{
+v_c^{\rm apparent}\neq v_c^{\rm théorique}
+}
+$$
+
+tant que les effets de temps fini, taille finie, définition opérationnelle du seuil et éventuelle réduction du modèle n'ont pas été séparés.
+
+---
+
+## 53.6 Formalisation 70S — nature exacte de la dynamique
+
+La dynamique collective étudiée dans les Tests 9–46 est un flot de gradient :
+
+$$
+\boxed{
+\dot\psi_a
+=
+-\frac{\partial F}{\partial\psi_a^*}
+}
+$$
+
+soit, dans le cas général :
+
+$$
+\boxed{
+\dot\psi_a
+=
+r\psi_a
+-
+2u|\psi_a|^2\psi_a
+-
+\left(
+\sum_{b\neq a}v_{ab}|\psi_b|^2
+\right)\psi_a
+}.
+$$
+
+### Symétrie du potentiel
+
+Lorsque le potentiel ne dépend que des modules :
+
+$$
+F=F(|\psi_1|^2,|\psi_2|^2,|\psi_3|^2),
+$$
+
+il est invariant sous :
+
+$$
+\psi_a\rightarrow e^{i\varphi_a}\psi_a,
+$$
+
+avec trois phases indépendantes.
+
+Donc :
+
+$$
+\boxed{G_F=U(1)^3}.
+$$
+
+### Symétrie du flot
+
+Le flot de gradient est alors équivariant sous la même action :
+
+$$
+\boxed{G_{\rm flot}=U(1)^3}.
+$$
+
+La symétrie du potentiel et celle du flot ne doivent cependant pas être confondues avec une loi de conservation d'une charge de Noether.
+
+### Variables polaires
+
+En écrivant :
+
+$$
+\psi_a=\sqrt{\rho_a}\,e^{i\theta_a},
+$$
+
+le flot considéré ici donne :
+
+$$
+\dot\rho_a=2\lambda_a(\rho)\rho_a,
+$$
+
+avec $\lambda_a$ réel, et :
+
+$$
+\boxed{\dot\theta_a=0}
+$$
+
+pour cette **dynamique réduite précise**.
+
+Les amplitudes peuvent donc décroître jusqu'à zéro alors que les phases restent figées.
+
+> **Point méthodologique essentiel :** $\dot\theta_a=0$ n'est pas une conséquence de $U(1)^3$ seule. C'est une conséquence de la combinaison « potentiel invariant en phase + choix du flot de gradient ».
+
+---
+
+## 53.7 Ne pas extrapoler automatiquement cette propriété au niveau microscopique
+
+La dynamique microscopique d'origine, notamment les oscillateurs de type Kuramoto étudiés ailleurs dans le programme, possède une dynamique de phase active :
+
+$$
+\dot\theta_i
+=
+\frac KN
+\sum_j
+w_{ij}
+\sin(\theta_j-\theta_i).
+$$
+
+Il existe donc deux niveaux distincts :
+
+$$
+\boxed{
+\text{dynamique microscopique}
+\neq
+\text{dynamique modale réduite}
+}
+$$
+
+La propriété $\dot\theta_a=0$ du modèle de Landau réduit ne doit pas être présentée comme une propriété démontrée de la dynamique microscopique tant qu'une réduction explicite n'a pas été dérivée.
+
+C'est désormais une question prioritaire de 70S :
+
+> **La dynamique de phase gelée des variables modales est-elle dérivée de la dynamique microscopique, ou introduite par la réduction phénoménologique ?**
+
+---
+
+# 54. Protocole de diagnostic 70A–70D
+
+## 54.1 70A — tester l'extrapolation $\alpha\rightarrow0$
+
+### Hypothèse testée
+
+Le $2,92$ pourrait provenir d'une extrapolation linéaire inadéquate plutôt que d'un véritable seuil à $\alpha=0$.
+
+On part des mesures :
+
+$$
+\{(\alpha_i,v_c(\alpha_i))\}_{i=1}^{M}.
+$$
+
+Comparer au minimum :
+
+$$
+v_c(\alpha)=a_0+a_1\alpha
+$$
+
+et :
+
+$$
+v_c(\alpha)=b_0+b_1\alpha+b_2\alpha^2.
+$$
+
+Le résultat à comparer est respectivement :
+
+$$
+v_c^{\rm lin}(0)=a_0,
+\qquad
+v_c^{\rm quad}(0)=b_0.
+$$
+
+### Paramètres fixes
+
+- dynamique exacte ;
+- $N$ ;
+- $u,r$ ;
+- intégrateur ;
+- $dt$ ;
+- définition opérationnelle de $v_c$ ;
+- seeds ;
+- définition de $\alpha$.
+
+### Paramètre variable
+
+Uniquement :
+
+$$
+\alpha.
+$$
+
+### Critère défini avant le résultat
+
+**Succès :**
+
+$$
+|v_c^{\rm extrap}-2|
+$$
+
+diminue substantiellement avec un modèle non linéaire.
+
+**Échec :**
+
+$$
+v_c^{\rm lin}(0)\simeq v_c^{\rm quad}(0)\simeq2,92
+$$
+
+avec des incertitudes suffisamment faibles pour exclure $2$.
+
+> **Condition indispensable :** les points bruts $v_c(\alpha)$ doivent être conservés. Une extrapolation ne doit pas être reconstruite à partir de sa seule formule finale.
+
+---
+
+## 54.2 70B — convergence temporelle puis convergence en taille
+
+Les deux effets doivent être séparés.
+
+### 70B-1 — Temps
+
+Fixer :
+
+$$
+N=N_0
+$$
+
+et faire varier uniquement :
+
+$$
+T_1<T_2<T_3<T_4.
+$$
+
+Mesurer :
+
+$$
+v_c(T)
+$$
+
+et, lorsque possible, le temps de relaxation :
+
+$$
+\tau_{\rm rel}(v).
+$$
+
+**Critère :**
+
+$$
+v_c(T)\rightarrow2
+$$
+
+indique un effet de temps fini.
+
+Si :
+
+$$
+v_c(T)\rightarrow2,92,
+$$
+
+le temps fini n'explique pas l'écart.
+
+### 70B-2 — Taille
+
+Une fois $T$ suffisamment convergé :
+
+$$
+T=T_{\rm convergé},
+$$
+
+faire varier :
+
+$$
+N=N_1,N_2,N_3,N_4.
+$$
+
+Mesurer :
+
+$$
+v_c(N).
+$$
+
+Une extrapolation possible est :
+
+$$
+v_c(N)=v_c(\infty)+AN^{-\beta}.
+$$
+
+**Critère :**
+
+$$
+v_c(N)\rightarrow2
+$$
+
+indique un effet de taille finie.
+
+Sinon, la taille finie n'explique pas l'écart.
+
+### Règle non négociable
+
+Ne jamais faire varier simultanément $T$ et $N$ dans un test destiné à attribuer causalement un déplacement du seuil.
+
+---
+
+## 54.3 70C — terme manquant, seulement si 70A et 70B échouent
+
+Le potentiel de départ reste :
+
+$$
+F_0=
+-r\sum_a|\psi_a|^2
++
+u\sum_a|\psi_a|^4
++
+v\sum_{a<b}|\psi_a|^2|\psi_b|^2.
+$$
+
+Un seul terme supplémentaire doit être introduit à la fois.
+
+### Candidat phase-couplé
+
+Par exemple :
+
+$$
+F_3=
+w(\psi_1\psi_2\psi_3+\mathrm{c.c.}).
+$$
+
+Mais ce terme ne doit être retenu que si les symétries microscopiques l'autorisent.
+
+D'autres couplages sont possibles, par exemple :
+
+$$
+w_{12}(\psi_1^*\psi_2+\mathrm{c.c.}),
+$$
+
+qui sélectionne une autre combinaison de phases.
+
+Il n'est donc plus correct de présenter le terme cubique comme « le » terme manquant privilégié a priori.
+
+### Candidat spatial
+
+Si les variables $\psi_a$ sont réellement des champs spatiaux, on peut tester :
+
+$$
+F_\nabla
+=
+\sum_a\kappa_a|\nabla\psi_a|^2
++
+\sum_{a<b}\kappa_{ab}
+\nabla\psi_a\cdot\nabla\psi_b.
+$$
+
+Mais cette extension change la nature du modèle : elle introduit des degrés de liberté spatiaux qui n'existent pas dans le modèle homogène 0D.
+
+### Critère de causalité
+
+Un terme supplémentaire n'est explicatif que si :
+
+1. il est autorisé par les symétries ;
+2. son coefficient est mesurable ou dérivable microscopiquement ;
+3. il est introduit avant de connaître son effet sur $v_c$ ;
+4. sa magnitude est physiquement plausible ;
+5. il améliore la prédiction sans réglage arbitraire.
+
+La condition forte recherchée est :
+
+$$
+\boxed{
+\text{micro-dynamique}
+\rightarrow
+\text{coefficient effectif}
+\rightarrow
+v_c\simeq2,92
+}
+$$
+
+et non :
+
+$$
+\text{choix de }w
+\rightarrow
+v_c\simeq2,92.
+$$
+
+---
+
+## 54.4 70D — reconstruction directe du potentiel effectif
+
+À partir des trajectoires microscopiques :
+
+$$
+Q_i(t),
+$$
+
+définir les variables modales $\psi_a(t)$, puis estimer leur distribution stationnaire :
+
+$$
+P(\psi_1,\psi_2,\psi_3).
+$$
+
+On peut alors reconstruire, sous les hypothèses appropriées :
+
+$$
+\boxed{
+F_{\rm eff}
+=
+-k_BT_{\rm eff}\ln P
+}
+$$
+
+ou, en unités réduites :
+
+$$
+\boxed{
+F_{\rm eff}=-\ln P+C.
+}
+$$
+
+Le potentiel reconstruit peut ensuite être comparé à :
+
+$$
+F_{\rm eff}
+=
+-r_{\rm eff}\sum_a|\psi_a|^2
++
+u_{\rm eff}\sum_a|\psi_a|^4
++
+\sum_{a<b}
+v_{ab}^{\rm eff}|\psi_a|^2|\psi_b|^2
++\cdots
+$$
+
+L'objectif est de déterminer si les $v_{ab}$, les anisotropies et d'éventuels termes de phase ou de gradient apparaissent **dans les données**, plutôt que d'être introduits pour reproduire un résultat.
+
+> **Réserve :** l'inversion $F_{\rm eff}=-\ln P$ n'est interprétable comme un potentiel thermodynamique standard que si les conditions statistiques et d'équilibre nécessaires sont satisfaites. Pour une dynamique hors équilibre, il s'agit d'abord d'un potentiel statistique effectif, pas automatiquement d'une énergie thermodynamique.
+
+---
+
+# 55. Résultat intermédiaire de reconstruction indépendante
+
+Une reconstruction indépendante réalisée à partir de la formule disponible :
+
+$$
+v_c(\alpha)\approx2,92-1,5\alpha
+$$
+
+a produit, avec une paramétrisation explicitement reconstruite et non les données brutes originales, un premier résultat :
+
+$$
+v_c(0)\approx2,118,
+$$
+
+et environ :
+
+$$
+v_c(0,2)\approx1,750.
+$$
+
+Ce résultat est **indicatif seulement** : il ne reproduit pas encore le protocole exact des campagnes 68–69d faute d'accès aux points bruts et à leur définition opérationnelle complète du seuil.
+
+Il est néanmoins important car il montre qu'une reconstruction indépendante du modèle anisotrope peut produire une valeur beaucoup plus proche de $2$ que $2,92$.
+
+Cela conduit à une règle stricte :
+
+$$
+\boxed{
+2,118\ \text{n'est pas une validation ; c'est un signal de non-reproductibilité à investiguer.}
+}
+$$
+
+Il faut donc obtenir les données brutes et le protocole exact avant toute conclusion sur l'origine du $2,92$.
+
+---
+
+# 56. Correction du rapport 70A–70B externe
+
+Le rapport externe 70A–70B avait interprété :
+
+$$
+v\simeq0,86
+$$
+
+comme un seuil énergétique distinct, puis introduit une fenêtre de métastabilité entre $0,86$ et $2,0$.
+
+L'audit algébrique montre que cette interprétation est invalide pour le potentiel quartique symétrique défini ici.
+
+Le seuil correct est :
+
+$$
+\boxed{v_c=2u}.
+$$
+
+La valeur $0,86$ doit donc être conservée dans le journal uniquement comme **résultat historique erroné**, accompagné de la correction mathématique.
+
+Cette distinction est importante pour éviter qu'une valeur fausse ne réapparaisse ultérieurement comme une « prédiction précédente ».
+
+---
+
+# 57. Arbre décisionnel consolidé
+
+```text
+                  v_c apparent ≈ 2,92
+                           │
+                           ▼
+              70A — extrapolation α → 0
+                           │
+                 ┌─────────┴─────────┐
+                 ▼                   ▼
+             → 2,0              reste ≈ 2,92
+                 │                   │
+          artefact α                 ▼
+                              70B — convergence
+                               T puis N séparément
+                                      │
+                           ┌──────────┴──────────┐
+                           ▼                     ▼
+                        → 2,0              reste ≈ 2,92
+                           │                     │
+                     effet fini                 ▼
+                                           70C — terme
+                                           supplémentaire
+                                                 │
+                                                 ▼
+                                      validation microscopique
+                                                 │
+                                                 ▼
+                                           70D — F_eff
+                                      reconstruction directe
+```
+
+Une étape 70S doit être considérée comme **transversale et préalable** à l'interprétation physique :
+
+$$
+\boxed{
+70S:\quad
+\text{identifier précisément la classe de dynamique}
+}
+$$
+
+notamment :
+
+- dynamique de gradient ;
+- dynamique hamiltonienne/conservative ;
+- dynamique dissipative hors équilibre ;
+- dynamique microscopique de type Kuramoto ;
+- réduction modale reliant explicitement ces niveaux.
+
+---
+
+# 58. Critère scientifique final
+
+Le programme doit désormais distinguer explicitement :
+
+$$
+\boxed{
+\text{reproduction numérique}
+\neq
+\text{explication physique}
+}
+$$
+
+Une explication prédictive complète devrait idéalement suivre la chaîne :
+
+$$
+\boxed{
+S_{\rm micro}
+\rightarrow
+P(\psi)
+\rightarrow
+F_{\rm eff}
+\rightarrow
+v_{ab}^{\rm eff}
+\rightarrow
+v_c
+\rightarrow
+\gamma_2,\gamma_3
+}
+$$
+
+sans choisir les paramètres effectifs spécifiquement pour reproduire la dernière observable.
+
+Cette exigence est particulièrement importante pour le ratio :
+
+$$
+\frac{\gamma_3}{\gamma_2}\approx1,37
+$$
+
+obtenu avec anisotropie, car l'ajustement de plusieurs $v_{ab}$ sur une seule cible ne constitue pas à lui seul une démonstration causale.
+
+---
+
+# 59. Questions restant ouvertes après l'audit
+
+1. Quelle est exactement la définition opérationnelle de $v_c$ dans les campagnes 68–69e ?
+2. Quels sont les points bruts $(\alpha_i,v_c(\alpha_i))$ ?
+3. Quelle est la sensibilité de $v_c$ à la durée $T$ ?
+4. Quelle est sa convergence en $N$ une fois $T$ convergé ?
+5. La réduction microscopique vers $\psi_a$ peut-elle être dérivée explicitement ?
+6. Le gel $\dot\theta_a=0$ existe-t-il au niveau microscopique ou est-il créé par la réduction ?
+7. Quels couplages de phase sont réellement permis par les symétries microscopiques ?
+8. Les coefficients $v_{ab}$ peuvent-ils être reconstruits directement à partir des trajectoires ?
+9. Les anisotropies $v_{12}<v_{13}<v_{23}$ sont-elles explicitement imposées ou émergent-elles ?
+10. Le modèle homogène 0D est-il suffisant, ou faut-il introduire une structure spatiale ?
+
+---
+
+# 60. Principe de conservation du fil de recherche
+
+> **Ne pas effacer les erreurs historiques : les conserver, les étiqueter et les corriger.**
+
+Le statut actuel doit être lu ainsi :
+
+- $v_c=2u$ : **résultat analytique du potentiel quartique symétrique** ;
+- $v\simeq0,86$ : **artefact algébrique identifié** ;
+- $v_c\simeq2,92$ : **observation/extrapolation historique à reproduire et auditer**, pas une valeur théorique établie ;
+- $v_c\simeq2,118$ : **reconstruction indépendante partielle**, non concluante ;
+- $U(1)^3$ : **symétrie du potentiel et du flot réduit** dans le modèle considéré ;
+- $\dot\theta_a=0$ : **propriété du flot de gradient réduit**, pas encore dérivée de la dynamique microscopique ;
+- $v_{ab}$ : **paramètres effectifs non encore dérivés microscopiquement** ;
+- 70A–70D : **protocole de falsification**, pas résultats définitifs ;
+- 70S : **audit de la classe de dynamique et du lien micro → modal**.
+
+La règle directrice reste :
+
+$$
+\boxed{
+\text{on ne choisit plus le résultat recherché ; on cherche d'abord si la dynamique le produit.}
+}
+$$
+
