@@ -7,7 +7,7 @@ Si vous rÃ©fÃ©rencez ces travaux, merci d'utiliser la citation suivante :
 > Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22064401
 ---
 ðŸ‡«ðŸ‡· FranÃ§ais | [ðŸ‡¬ðŸ‡§ English version](README_en.md)
-# Question ouverte : la gÃ©omÃ©trie gravitationnelle peut-elle Ã©merger d'une structure quantique ?
+# Question ouverte : la géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
 > âš ï¸ **Note :** ce document Ã©volue frÃ©quemment. Pensez Ã  rafraÃ®chir la page pour consulter la derniÃ¨re version.
 > ðŸ“Ž **Document compagnon :** [Cartographie des pistes de recherche](./Reflexion-ouverte-sur-la-gravite.fr.md) â€” contient les rÃ©fÃ©rences prÃ©cises Ã  la littÃ©rature existante et le critÃ¨re de validation quantitatif (section 11), Ã  ne consulter et modifier qu'Ã  cet endroit.
@@ -22,79 +22,79 @@ Si vous rÃ©fÃ©rencez ces travaux, merci d'utiliser la citation suivante :
 
 ## 1. Point de dÃ©part
 
-La question initiale Ã©tait volontairement large :
+La question initiale était volontairement large :
 
-> **Existe-t-il un mÃ©canisme physique susceptible de compenser localement l'effet gravitationnel sur un objet ?**
+> **Existe-t-il un mécanisme physique susceptible de compenser localement l'effet gravitationnel sur un objet ?**
 
-Plusieurs pistes classiques ont Ã©tÃ© explorÃ©es : ionisation de l'air, gravitomagnÃ©tisme de type Lense-Thirring, distributions d'Ã©nergie exotique, Ã©nergie noire, etc. Ces pistes ne fournissent pas, dans le cadre de la physique actuellement Ã©tablie, de mÃ©canisme permettant de produire une compensation gravitationnelle macroscopique contrÃ´lable.
+Plusieurs pistes classiques ont Ã©tÃ© explorÃ©es : ionisation de l'air, gravitomagnétisme de type Lense-Thirring, distributions d'énergie exotique, énergie noire, etc. Ces pistes ne fournissent pas, dans le cadre de la physique actuellement Ã©tablie, de mÃ©canisme permettant de produire une compensation gravitationnelle macroscopique contrÃ´lable.
 
-Cette recherche a progressivement conduit Ã  une question diffÃ©rente, plus fondamentale :
+Cette recherche a progressivement conduit Ã  une question différente, plus fondamentale :
 
-> **La gravitÃ© elle-mÃªme pourrait-elle Ãªtre une propriÃ©tÃ© Ã©mergente d'une structure quantique plus fondamentale ?**
+> **La gravité elle-même pourrait-elle être une proprieté émergente d'une structure quantique plus fondamentale ?**
 
-Le problÃ¨me n'est donc plus de chercher immÃ©diatement une Â« force antigravitationnelle Â», mais de s'interroger sur l'origine effective de la gÃ©omÃ©trie gravitationnelle et de la constante $G$.
+Le probleme n'est donc plus de chercher immédiatement une " force antigravitationnelle ", mais de s'interroger sur l'origine effective de la géométrie gravitationnelle et de la constante $G$.
 
 ---
 
 ## 2. Ce qui est Ã©tabli
 
-La relativitÃ© gÃ©nÃ©rale dÃ©crit la gravitation par les Ã©quations d'Einstein :
+La relativité generale décrit la gravitation par les équations d'Einstein :
 
 $$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
 oÃ¹ $g_{\mu\nu}$ est la mÃ©trique de l'espace-temps, $G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu}$ le tenseur d'Einstein, $\Lambda$ la constante cosmologique, $G$ la constante gravitationnelle, $T_{\mu\nu}$ le tenseur Ã©nergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $R^{\rho}{}_{\sigma\mu\nu}$.
 
-> **PrÃ©cision importante :** $G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les Ã©quations d'Einstein.
+> **Précision importante :** $G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les équations d'Einstein.
 
 ---
 
-## 3. Pourquoi s'intÃ©resser Ã  l'origine de $G$ ?
+## 3. Pourquoi s'intéresser Ã  l'origine de $G$ ?
 
-La relativitÃ© gÃ©nÃ©rale dÃ©crit remarquablement bien la gravitÃ©, mais elle ne fournit pas, Ã  elle seule, une description microscopique de l'origine de la constante $G$.
+La relativité générale décrit remarquablement bien la gravité, mais elle ne fournit pas, Ã  elle seule, une description microscopique de l'origine de la constante $G$.
 
-> **La constante gravitationnelle est-elle fondamentale, ou pourrait-elle Ãªtre un paramÃ¨tre effectif rÃ©sultant d'une dynamique plus profonde ?**
+> **La constante gravitationnelle est-elle fondamentale, ou pourrait-elle être un paramètre effectif résultant d'une dynamique plus profonde ?**
 
-Cette question conduit notamment au concept de **gravitÃ© induite**, associÃ© historiquement aux travaux d'Andrei Sakharov.
+Cette question conduit notamment au concept de **gravité induite**, associé historiquement aux travaux d'Andrei Sakharov.
 
 ---
 
-## 4. La piste de la gravitÃ© induite
+## 4. La piste de la gravité induite
 
-Dans l'idÃ©e de gravitÃ© induite, le terme gravitationnel de type Einstein-Hilbert peut apparaÃ®tre comme un terme effectif rÃ©sultant des fluctuations quantiques de champs couplÃ©s Ã  une gÃ©omÃ©trie :
+Dans l'idée de gravitÃ© induite, le terme gravitationnel de type Einstein-Hilbert peut apparaître comme un terme effectif résultant des fluctuations quantiques de champs couplés à une géométrie :
 
 $$S_{\mathrm{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R$$
 
-AprÃ¨s intÃ©gration de degrÃ©s de libertÃ© quantiques, on peut schÃ©matiquement obtenir :
+Après intégration de degrès de liberté quantiques, on peut schématiquement obtenir :
 
 $$S_{\mathrm{eff}}[g] = \int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]$$
 
-L'idÃ©e importante est que le coefficient du terme de courbure $R$ peut recevoir une contribution provenant des degrÃ©s de libertÃ© quantiques intÃ©grÃ©s.
+L'idée importante est que le coefficient du terme de courbure $R$ peut recevoir une contribution provenant des degrès de liberté quantiques Intégrés .
 
 ---
 
-## 5. Une relation schÃ©matique pour $1/G_{\mathrm{eff}}$
+## 5. Une relation schematique pour $1/G_{\mathrm{eff}}$
 
 $$\frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2$$
 
-oÃ¹ $N_i$ est le nombre de degrÃ©s de libertÃ© d'un secteur, $\Lambda_i$ une Ã©chelle de coupure, $c_i$ un coefficient dÃ©pendant de la thÃ©orie, du spin, des couplages et de la rÃ©gularisation. Cette relation est **schÃ©matique et dÃ©pendante du cadre thÃ©orique** â€” elle ne dÃ©montre pas que $G$ est directement dÃ©terminÃ© par le contenu quantique rÃ©el de l'Univers.
+ou $N_i$ est le nombre de degrès de liberté d'un secteur, $\Lambda_i$ une échelle de coupure, $c_i$ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique**  elle ne démontre pas que $G$ est directement déterminé par le contenu quantique rÃ©el de l'Univers.
 
 ---
 
 ## 6. Ce que cette relation ne permet PAS d'affirmer
 
-### 6.1 Le cutoff $\Lambda$ n'est pas nÃ©cessairement un paramÃ¨tre physique manipulable
-Une Ã©chelle de coupure peut dÃ©pendre de la rÃ©gularisation ou de la limite de validitÃ© du modÃ¨le â€” ce n'est pas une Ã©nergie physique modifiable expÃ©rimentalement pour changer $G$.
+### 6.1 Le cutoff $\Lambda$ n'est pas nécessairement un paramètre physique manipulable
+Une échelle de coupure peut dépendre de la régularisation ou de la limite de validité du modèle ce n'est pas une énergie physique modifiable expérimentalement pour changer $G$.
 
 ### 6.2 Une variation de $G$ serait fortement contrainte
-$G \rightarrow G(x)$ devrait rester compatible avec la covariance gÃ©nÃ©rale, les lois de conservation, et les nombreuses observations qui bornent les variations Ã©ventuelles de $G$.
+$G \rightarrow G(x)$ devrait rester compatible avec la covariance générale, les lois de conservation, et les nombreuses observations qui bornent les variations éventuelles de $G$.
 
 ---
 
 ## 7. Le changement de perspective
 
-Une modification de $G$ ne suffit pas Ã  expliquer la gravitÃ©, qui est une thÃ©orie de la **gÃ©omÃ©trie dynamique de l'espace-temps**. La question plus profonde devient :
+Une modification de $G$ ne suffit pas Ã  expliquer la gravitÃ©, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
 
-> **La gÃ©omÃ©trie elle-mÃªme pourrait-elle Ã©merger de degrÃ©s de libertÃ© quantiques plus fondamentaux ?**
+> **La géométrie elle-mÃªme pourrait-elle émerger de degrés de libertÃ© quantiques plus fondamentaux ?**
 
 $$\text{structure quantique microscopique} \rightarrow \text{corrÃ©lations} \rightarrow \text{gÃ©omÃ©trie effective} \rightarrow \text{gravitÃ© classique}$$
 
