@@ -1004,15 +1004,8 @@ et non l'inverse.
 Une vérification algébrique supplémentaire a montré que le rapport 70A contenait une erreur dans l'évaluation des minima.
 
 Le potentiel est :
-
 $$
-F=
--r\sum_a|\psi_a|^2
-+
-u\sum_a|\psi_a|^4
-+
-v\sum_{a<b}|\psi_a|^2|\psi_b|^2,
-\qquad r>0,\;u>0,\;v>0.
+F=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2,\qquad r>0,\;u>0,\;v>0.
 $$
 
 #### Rang 1
