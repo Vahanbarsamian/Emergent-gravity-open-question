@@ -463,7 +463,7 @@ $$
 
 ## 33. Le lien possible avec la constante cosmologique
 
-> **La valeur cosmologiquement observée de $\Lambda $ pourrait-elle être une propriété émergente d'un secteur collectif de configurations quantiques plutôt qu'une simple somme des énergies de point zéro de tous les champs ?**
+> **La valeur cosmologiquement observée de $\Lambda$ pourrait-elle être une propriété émergente d'un secteur collectif de configurations quantiques plutôt qu'une simple somme des énergies de point zéro de tous les champs ?**
 
 ---
 
@@ -474,7 +474,7 @@ Niveau microscopique (Φ̂ᵢ) → niveau quantique des configurations/histoires
 
 ## 35. Temps, histoire et géométrie
 
-Si $ H_i \to (g_{\mu\nu}^{(i)}, \tau_{\mathrm{eff}}^{(i)})$, géométrie et temps deviennent deux aspects liés de la même description effective. La possibilité d'un mécanisme commun reste une question ouverte.
+Si H_i \to (g_{\mu\nu}^{(i)}, \tau_{\mathrm{eff}}^{(i)})$, géométrie et temps deviennent deux aspects liés de la même description effective. La possibilité d'un mécanisme commun reste une question ouverte.
 
 ---
 
