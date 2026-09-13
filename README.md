@@ -89,7 +89,7 @@ $$
 \frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2
 $$
 
-où $ N_i $est le nombre de degrés de liberté d'un secteur,$\Lambda_i $ une échelle de coupure,$c_i $ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique** — elle ne démontre pas que$G $ est directement déterminé par le contenu quantique réel de l'Univers.
+où $N_i$ est le nombre de degrés de liberté d'un secteur,$\Lambda_i$ une échelle de coupure,$c_i$ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique** — elle ne démontre pas que $G$ est directement déterminé par le contenu quantique réel de l'Univers.
 
 ---
 
@@ -102,7 +102,7 @@ où $ N_i $est le nombre de degrés de liberté d'un secteur,$\Lambda_i $ une é
 
 ## 7. Le Changement de Perspective
 
-Une modification de $ G $ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
+Une modification de $G$ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
 
 > **La géométrie elle-même pourrait-elle émerger de degrés de liberté quantiques plus fondamentaux ?**
 
