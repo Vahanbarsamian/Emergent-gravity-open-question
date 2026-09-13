@@ -765,7 +765,7 @@ Le test numérique confirme la conservation de la masse totale intégrée et la 
 
 ---
 
-## 49. Origine Dimensionnelle de $ 4/3 $, $ 3/4 $ et $ 1/4 $
+## 49. Origine Dimensionnelle de $4/3$, $3/4$ et $1/4$
 
 Dans un espace à $ d=3 $ dimensions spatiales ($ 3+1 $) :
 
@@ -777,9 +777,9 @@ Avec $ C_c = \frac{1}{d+2} = \frac{1}{5}$, on retrouve exactement $\frac{C_c}{1-
 
 ---
 
-## 50. Tests de Dynamique Collective : De $ Q_i $ à $ C $
+## 50. Tests de Dynamique Collective : De $Q_i$ à $C$
 
-Le scan 2D du Test 51 ($ N=200..1600 $) confirme que le modèle possède une transition de synchronisation mais ne sélectionne pas $ C_{\text{crit}} \approx 0{,}2 $ universellement. $ C_c=0{,}2 $ est donc actuellement un **point de passage paramétrique**.
+Le scan 2D du Test 51 ($N=200..1600$) confirme que le modèle possède une transition de synchronisation mais ne sélectionne pas $C_{\text{crit}} \approx 0{,}2$ universellement. $C_c=0{,}2$ est donc actuellement un **point de passage paramétrique**.
 
 ---
 
@@ -797,31 +797,23 @@ Le programme reste ouvert, falsifiable et séparé entre entrées, conséquences
 
 ---
 
-## 53. Audit du Seuil Modale et Correction Algébrique ($ v_c = 2u $)
+## 53. Audit du Seuil Modale et Correction Algébrique ($v_c = 2u$)
 
 ### 53.1 Correction algébrique des minima d'énergie
 L'analyse algébrique du potentiel quartique symétrique :
 
-$$
-F = -r \sum_a |\psi_a|^2 + u \sum_a |\psi_a|^4 + v \sum_{a<b} |\psi_a|^2 |\psi_b|^2
-$$
+$$F = -r \sum_a |\psi_a|^2 + u \sum_a |\psi_a|^4 + v \sum_{a < b} |\psi_a|^2 |\psi_b|^2$$
 
-Donne pour $ k $ composantes actives de même amplitude :
+Donne pour $k$ composantes actives de même amplitude :
 
-$$
-\rho_k^2 = \frac{r}{2u + (k-1)v} \implies F_k^{\min} = -\frac{k r^2}{2[2u + (k-1)v]}
-$$
+$$\rho_k^2 = \frac{r}{2u + (k-1)v} \implies F_k^{\min} = -\frac{k r^2}{2[2u + (k-1)v]}$$
+Pour $k=1$ : $F_1^{\min} = -\frac{r^2}{4u}$. 
+Pour $k=3$ : $F_3^{\min} = -\frac{3r^2}{4(u+v)}$. 
 
-Pour $ k=1 $ : $ F_1^{\min} = -\frac{r^2}{4u}$. 
-Pour $ k=3 $ : $ F_3^{\min} = -\frac{3r^2}{4(u+v)}$. 
+La condition $F_1^{\min} = F_3^{\min}$ donne exactement :
 
-La condition $ F_1^{\min} = F_3^{\min}$ donne exactement :
-
-$$
-\boxed{v_c^{\text{énergie}} = v_c^{\text{stabilité}} = 2u}
-$$
-
-Pour $ r=u=1 $, $ F_1 = F_3 = -0{,}25 $. L'ancienne valeur $ v \approx 0{,}86$ est formellement identifiée comme une erreur d'évaluation algébrique et classée comme artefact historique corrigé.
+$$\boxed{v_c^{\text{énergie}} = v_c^{\text{stabilité}} = 2u}$$
+Pour $r=u=1$, $F_1 = F_3 = -0{,}25$. L'ancienne valeur $v \approx 0{,}86$ est formellement identifiée comme une erreur d'évaluation algébrique et classée comme artefact historique corrigé.
 
 ```python
 import numpy as np
