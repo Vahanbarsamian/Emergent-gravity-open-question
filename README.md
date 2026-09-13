@@ -37,7 +37,7 @@ Plusieurs pistes classiques ont été explorées (ionisation de l'air, gravitoma
 
 > **La gravité elle-même pourrait-elle être une propriété émergente d'une structure quantique plus fondamentale ?**
 
-Le problème n'est donc plus de chercher immédiatement une « force antigravitationnelle », mais de s'interroger sur l'origine effective de la géométrie gravitationnelle et de la constante $G $.
+Le problème n'est donc plus de chercher immédiatement une « force antigravitationnelle », mais de s'interroger sur l'origine effective de la géométrie gravitationnelle et de la constante $G$.
 
 ---
 
@@ -45,13 +45,11 @@ Le problème n'est donc plus de chercher immédiatement une « force antigravita
 
 La relativité générale décrit la gravitation par les équations d'Einstein :
 
-$$
-G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
-$$
+$$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
-où $ g_{\mu\nu}$ est la métrique de l'espace-temps, $ G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ le tenseur d'Einstein, $\Lambda $ la constante cosmologique, $ G $ la constante gravitationnelle, $ T_{\mu\nu}$ le tenseur énergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $ R^{\rho}{}_{\sigma\mu\nu}$.
+où $g_{\mu\nu}$ est la métrique de l'espace-temps, $G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ le tenseur d'Einstein, $\Lambda$ la constante cosmologique, $G$ la constante gravitationnelle, $T_{\mu\nu}$ le tenseur énergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $R^{\rho}{}_{\sigma\mu\nu}$.
 
-> **Précision importante :** $ G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les équations d'Einstein.
+> **Précision importante :** $G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les équations d'Einstein.
 
 ---
 
