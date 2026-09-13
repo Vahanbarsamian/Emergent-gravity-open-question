@@ -102,13 +102,11 @@ où $ N_i $ est le nombre de degrés de liberté d'un secteur, $\Lambda_i $ une 
 
 ## 7. Le Changement de Perspective
 
-Une modification de $ G $ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
+Une modification de $G$ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
 
 > **La géométrie elle-même pourrait-elle émerger de degrés de liberté quantiques plus fondamentaux ?**
 
-$$
-\text{structure quantique microscopique} \to \text{corrélations} \to \text{géométrie effective} \to \text{gravité classique}
-$$
+$$\text{structure quantique microscopique} \to \text{corrélations} \to \text{géométrie effective} \to \text{gravité classique}$$
 
 ---
 
