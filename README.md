@@ -215,19 +215,19 @@ $$a_0 = c^2 \sqrt{\frac{\Lambda}{3}} \approx 5.4546 \times 10^{-10} \text{ m/s}^
 
 | Échelle | Régime Physico-Mathématique | Manifestation Observationnelle |
 | :--- | :--- | :--- |
-| **Microscopique ($r \to 0 $)** | Pression de dégénérescence $S^2$ ($A_{\text{min}} = 0.6132$) | Absence de singularité / Cœur lisse |
+| **Microscopique ($r \to 0$)** | Pression de dégénérescence $S^2$ ($A_{\text{min}} = 0.6132$) | Absence de singularité / Cœur lisse |
 | **Intermédiaire (Système Solaire)** | Champ Fort ($\nabla n \gg a_0$), $\mu(x) \to 1$ | Relativité Générale / Schwarzschild ($1/r^2$) |
 | **Galactique ($r \gg R_{\text{disque}}$)** | Champ Faible ($\nabla n \ll a_0$), $\mu(x) \to x$ | Courbes de rotation plates ($1/r$) / MOND |
 
 #### 5.2 Relation de compliance du couplage
-La constante de gravitation effective $ G_{\text{eff}}$ mesurée à l'échelle macroscopique est liée à la cohérence moyenne du fond ambiant par :
+La constante de gravitation effective $G_{\text{eff}}$ mesurée à l'échelle macroscopique est liée à la cohérence moyenne du fond ambiant par :
 
 $$
 G_{\text{eff}} = \frac{G_{\text{fond}}}{\langle A \rangle_{S^2}}
 $$
 
 #### 5.3 Conclusion
-Le modèle H2C démontre que la « matière noire » est l'expression asymptotique de l'auto-interaction non-linéaire d'un condensat de phase $ S^2 $ couplé au bruit de fond du vide cosmologique.
+Le modèle H2C démontre que la « matière noire » est l'expression asymptotique de l'auto-interaction non-linéaire d'un condensat de phase $S^2$ couplé au bruit de fond du vide cosmologique.
 
 ---
 
