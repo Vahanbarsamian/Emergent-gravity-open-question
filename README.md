@@ -196,7 +196,7 @@ Cependant, l'application de ce formalisme linéaire à la base de données galac
 
 | Modèle / Test | RMSE (RAR) | Pente BTFR | Amplification Max |
 | :--- | :--- | :--- | :--- |
-| **H2C Fixe ($A_{\text{min}}=0.61$)** |$0.4124 $|$0.3015$|$1.63\times$ |
+| **H2C Fixe ($A_{\text{min}}=0.61$)** |$0.4124$|$0.3015$|$1.63\times$ |
 | **H2C Scaling ($M^{-0.055}$)** |$0.4281$|$0.3242$|$1.4\times \text{ à } 2.1\times$ |
 | **Observations (SPARC)** | **$0.1927$** | **$0.2500$** | **jusqu'à $34\times$** |
 
@@ -266,7 +266,7 @@ $ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt qu
 |---|---|
 | **13.1 Covariance générale** | $G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
 | **13.2 Identités de Bianchi** | $\nabla^\mu G_{\mu\nu} = 0$ doit apparaître au niveau macroscopique. |
-| **13.3 Conservation énergie-impulsion** | $\nabla^\mu T_{\mu\nu} = 0 $doit se généraliser si $G_{\mathrm{eff}}$/$\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
+| **13.3 Conservation énergie-impulsion** | $\nabla^\mu T_{\mu\nu} = 0$ doit se généraliser si $G_{\mathrm{eff}}$ / $\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
 | **13.4 Émergence de la métrique** | Il faut expliquer comment $g_{\mu\nu}$ elle-même émerge des degrés de liberté fondamentaux. |
 | **13.5 Dynamique de la géométrie** | Il faut expliquer l'apparition du terme $\sqrt{-g}R$ avec le bon coefficient. |
 | **13.6 Définition du vide quantique** | Préciser quel état quantique et quelles corrélations sont physiquement pertinents. |
@@ -350,7 +350,7 @@ $$
 \Psi[G] = \int_{\mathcal{C}(G)} \mathcal{D}\Phi\; e^{iS_{\mathrm{micro}}[\Phi]/\hbar}
 $$
 
-où $\Phi$ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et$ S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
+où $\Phi$ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et $S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
 
 ---
 
@@ -370,7 +370,7 @@ Problème de la mesure ($\mathcal{D}[g_{\mu\nu}]$ covariante), convergence (poid
 | **H4** | Signature et convergence — euclidien vs lorentzien. |
 | **H5** | Critère de phase stationnaire, appliqué à l'action microscopique. |
 | **H6** | Mécanisme de décohérence séparé de la phase stationnaire elle-même. |
-| **H7** | Origine de $ G_{\mathrm{eff}}$et $\Lambda_{\mathrm{eff}}$ depuis les paramètres microscopiques. |
+| **H7** | Origine de $G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ depuis les paramètres microscopiques. |
 | **H8** | Conditions aux limites. |
 | **H9** | Domaine de validité. |
 | **H10** | Prédiction distinctive et testable. |
@@ -427,7 +427,7 @@ Il est plus rigoureux de parler d'une **configuration ou famille de configuratio
 
 ## 30. H6bis.6 — Les temporalités internes aux histoires
 
-Si $ H_i \to g_{\mu\nu}^{(i)}$, alors le temps propre associé$\tau_i $ est déterminé par cette géométrie.
+Si $H_i \to g_{\mu\nu}^{(i)}$, alors le temps propre associé $\tau_i$ est déterminé par cette géométrie.
 
 > **Le temps que nous observons pourrait-il être le temps propre interne à l'histoire quasi-classique dans laquelle notre description macroscopique est définie ?**
 
