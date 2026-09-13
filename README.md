@@ -161,7 +161,7 @@ $$\langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i \phi_k} \sim \frac
 ### Chapitre 2 : La Gouttelette de Cohérence (Émergence de la Masse)
 
 #### 2.1 Dynamique de phase et suppression des singularités
-Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'aligner. La campagne numérique **61H-10A** ($ N=2000 $ agents sur 500 pas) a testé cette dynamique sans bornage artificiel.
+Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'aligner. La campagne numérique **61H-10A** ($N=2000$ agents sur 500 pas) a testé cette dynamique sans bornage artificiel.
 
 #### 2.2 Résultat de la Campagne 61H-10A (Inversions de phase)
 - **Basculements de phase** : $55\ 706$ inversions de signe ($\pm $) détectées sur les dérivées d'amplitude.
@@ -170,7 +170,7 @@ Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'ali
 
 $$A_{\text{min}} \approx 0.6132$$
 
-Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($n \to \infty $) est éliminée par la réponse propre du substrat.
+Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($n \to \infty$) est éliminée par la réponse propre du substrat.
 
 ---
 
