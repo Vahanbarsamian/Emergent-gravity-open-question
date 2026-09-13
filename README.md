@@ -37,7 +37,7 @@ Plusieurs pistes classiques ont été explorées (ionisation de l'air, gravitoma
 
 > **La gravité elle-même pourrait-elle être une propriété émergente d'une structure quantique plus fondamentale ?**
 
-Le problème n'est donc plus de chercher immédiatement une « force antigravitationnelle », mais de s'interroger sur l'origine effective de la géométrie gravitationnelle et de la constante $G$.
+Le problème n'est donc plus de chercher immédiatement une « force antigravitationnelle », mais de s'interroger sur l'origine effective de la géométrie gravitationnelle et de la constante $G $.
 
 ---
 
@@ -49,13 +49,13 @@ $$
 G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
 $$
 
-où $g_{\mu\nu}$ est la métrique de l'espace-temps,$G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ le tenseur d'Einstein, $\Lambda$ la constante cosmologique, $G$ la constante gravitationnelle, $T_{\mu\nu}$ le tenseur énergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $R^{\rho}{}_{\sigma\mu\nu}$.
+où $ g_{\mu\nu}$est la métrique de l'espace-temps,$ G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$le tenseur d'Einstein,$\Lambda $ la constante cosmologique,$G $ la constante gravitationnelle,$T_{\mu\nu}$ le tenseur énergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $R^{\rho}{}_{\sigma\mu\nu}$.
 
 > **Précision importante :** $ G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les équations d'Einstein.
 
 ---
 
-## 3. Pourquoi s'Intéresser à l'Origine de $G$ ?
+## 3. Pourquoi s'Intéresser à l'Origine de $ G $ ?
 
 La relativité générale décrit remarquablement bien la gravité, mais elle ne fournit pas, à elle seule, une description microscopique de l'origine de la constante $ G $.
 
@@ -70,39 +70,39 @@ Cette question conduit notamment au concept de **gravité induite**, associé hi
 Dans l'idée de gravité induite, le terme gravitationnel de type Einstein-Hilbert peut apparaître comme un terme effectif résultant des fluctuations quantiques de champs couplés à une géométrie :
 
 $$
-S_{\mathrm{EH}}=\frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R
+S_{\mathrm{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R
 $$
 
 Après intégration de degrés de liberté quantiques, on peut schématiquement obtenir :
 
 $$
-S_{\mathrm{eff}}[g]=\int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]
+S_{\mathrm{eff}}[g] = \int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]
 $$
 
-L'idée importante est que le coefficient du terme de courbure $R$ peut recevoir une contribution provenant des degrés de liberté quantiques intégrés.
+L'idée importante est que le coefficient du terme de courbure $ R $ peut recevoir une contribution provenant des degrés de liberté quantiques intégrés.
 
 ---
 
-## 5. Une Relation Schématique pour $1/G_{\mathrm{eff}}$
+## 5. Une Relation Schématique pour $ 1/G_{\mathrm{eff}}$
 
 $$
 \frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2
 $$
 
-où $N_i$ est le nombre de degrés de liberté d'un secteur,$\Lambda_i$ une échelle de coupure,$c_i$ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique** — elle ne démontre pas que $G$ est directement déterminé par le contenu quantique réel de l'Univers.
+où $ N_i $est le nombre de degrés de liberté d'un secteur,$\Lambda_i $ une échelle de coupure,$c_i $ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique** — elle ne démontre pas que$G $ est directement déterminé par le contenu quantique réel de l'Univers.
 
 ---
 
 ## 6. Ce que cette Relation ne permet PAS d'Affirmer
 
-### 6.1 Le cutoff $\Lambda$ n'est pas nécessairement un paramètre physique manipulable
-### 6.2 Une variation de $G$ serait fortement contrainte
+### 6.1 Le cutoff $\Lambda $ n'est pas nécessairement un paramètre physique manipulable
+### 6.2 Une variation de $ G $ serait fortement contrainte
 
 ---
 
 ## 7. Le Changement de Perspective
 
-Une modification de $G$ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
+Une modification de $ G $ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
 
 > **La géométrie elle-même pourrait-elle émerger de degrés de liberté quantiques plus fondamentaux ?**
 
@@ -114,7 +114,7 @@ $$
 
 ## 8. Hypothèse de Travail
 
-> **La métrique classique $g_{\mu\nu}$pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
+> **La métrique classique $ g_{\mu\nu}$pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
 
 ---
 
@@ -139,7 +139,7 @@ $$
 
 ---
 
-### Chapitre 1 : Le Substrat $S^2$et la Catastrophe du Vide ($ 10^{120}$)
+### Chapitre 1 : Le Substrat $ S^2 $et la Catastrophe du Vide ($ 10^{120}$)
 
 #### 1.1 Le réservoir microscopique
 La gravité est modélisée non pas comme une interaction fondamentale primordiale, mais comme la manifestation réfractive d'un champ de cohérence de phase $ C(x)$. Le vide quantique est représenté par un réservoir d'oscillations stationnaires à très haute fréquence (échelle de Planck).
@@ -172,43 +172,43 @@ $$
 ### Chapitre 2 : La Gouttelette de Cohérence & Campagne 61H-10A ($ A_{\text{min}} = 0.6132 $)
 
 #### 2.1 Dynamique de phase et suppression des singularités
-Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'aligner. La campagne numérique **61H-10A** ($N=2000$ agents sur 500 pas) a testé cette dynamique sans bornage artificiel.
+Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'aligner. La campagne numérique **61H-10A** ($ N=2000 $ agents sur 500 pas) a testé cette dynamique sans bornage artificiel.
 
 #### 2.2 Résultat de la Campagne 61H-10A (Inversions de phase)
-- **Basculements de phase** : $55\ 706$inversions de signe ($\pm$) détectées sur les dérivées d'amplitude.
-- **Auto-régularisation** : Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($A \to 0$).
+- **Basculements de phase** : $ 55\ 706 $inversions de signe ($\pm $) détectées sur les dérivées d'amplitude.
+- **Auto-régularisation** : Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($ A \to 0 $).
 - **Plancher d'amplitude** : Stabilisation d'une valeur minimale finie :
 
 $$
 A_{\text{min}} \approx 0.6132
 $$
 
-Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($n \to \infty$) est éliminée par la réponse propre du substrat.
+Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($ n \to \infty $) est éliminée par la réponse propre du substrat.
 
 ---
 
 ### Chapitre 3 : Du Local au Global — Réfutation des Modèles Linéaires (SPARC / 61H-11/12)
 
 #### 3.1 Réfutation des modèles ponctuels et linéaires
-La transposition du modèle au système solaire (déflexion des rayons lumineux) avec un indice de réfraction $n(r) = 1 + \frac{K}{r A(r)}$reproduit la valeur d'Einstein ($ 1.7501''$) dans le cas limite où$A = 1.0$.
+La transposition du modèle au système solaire (déflexion des rayons lumineux) avec un indice de réfraction $ n(r) = 1 + \frac{K}{r A(r)}$reproduit la valeur d'Einstein ($ 1.7501''$) dans le cas limite où$ A = 1.0 $.
 
 Cependant, l'application de ce formalisme linéaire à la base de données galactiques **SPARC** (175 galaxies) a révélé une limite structurelle stricte :
 
 | Modèle / Test | RMSE (RAR) | Pente BTFR | Amplification Max |
 | :--- | :--- | :--- | :--- |
-| **H2C Fixe ($A_{\text{min}}=0.61$)** |$0.4124 $|$ 0.3015$|$1.63\times$ |
-| **H2C Scaling ($M^{-0.055}$)** |$0.4281$|$0.3242$|$1.4\times \text{ à } 2.1\times$ |
-| **Observations (SPARC)** | **$0.1927$** | **$0.2500$** | **jusqu'à$34\times$** |
+| **H2C Fixe ($ A_{\text{min}}=0.61 $)** |$ 0.4124 $|$ 0.3015 $|$ 1.63\times $ |
+| **H2C Scaling ($ M^{-0.055}$)** |$ 0.4281 $|$ 0.3242 $|$ 1.4\times \text{ à } 2.1\times $ |
+| **Observations (SPARC)** | **$ 0.1927 $** | **$ 0.2500 $** | **jusqu'à$ 34\times $** |
 
 #### 3.2 Diagnostic
-L'intégration d'un indice linéaire sur une source ponctuelle ou un disque étendu retombe inévitablement en champ lointain sur une loi keplérienne en $1/r^2$(pente logarithmique de$-2.00 $). La géométrie étendue de la matière baryonique seule ne suffit pas à adoucir la décroissance du champ.
+L'intégration d'un indice linéaire sur une source ponctuelle ou un disque étendu retombe inévitablement en champ lointain sur une loi keplérienne en $ 1/r^2 $(pente logarithmique de$-2.00 $). La géométrie étendue de la matière baryonique seule ne suffit pas à adoucir la décroissance du champ.
 
 ---
 
-### Chapitre 4 : L'Auto-interaction du Vide & Campagne 61H-13 (Plateau MOND à $-1.0000$)
+### Chapitre 4 : L'Auto-interaction du Vide & Campagne 61H-13 (Plateau MOND à $-1.0000 $)
 
 #### 4.1 La non-linéarité du champ de phase
-Pour affranchir le gradient de la décroissance en $1/r^2$, un terme d'auto-interaction quartique est introduit dans l'équation d'état du condensat$S^2$. L'équation de Poisson généralisée prend la forme :
+Pour affranchir le gradient de la décroissance en $ 1/r^2 $, un terme d'auto-interaction quartique est introduit dans l'équation d'état du condensat$ S^2 $. L'équation de Poisson généralisée prend la forme :
 
 $$
 \nabla \cdot \left[ \mu\left(\frac{|\nabla n|}{a_0}\right) \nabla n \right] = \frac{8\pi G}{c^2} \rho_{\text{baryon}}
@@ -221,21 +221,21 @@ a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 1.20 \times 10^{-10} \text{ m/s}^2
 $$
 
 #### 4.2 Résultats de la Campagne 61H-13
-- **Verrouillage de la pente** : En champ faible ($g_{\text{bar}} \ll a_0$), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000 $** ($\theta_{\text{périphérie}} = -0.9999 $).
-- **Rapport d'amplification** : Décrochement du champ vis-à-vis de la matière visible, permettant d'atteindre des facteurs d'amplification supérieurs à $30\times$ en bordure de disque.
+- **Verrouillage de la pente** : En champ faible ($ g_{\text{bar}} \ll a_0 $), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000 $** ($\theta_{\text{périphérie}} = -0.9999 $).
+- **Rapport d'amplification** : Décrochement du champ vis-à-vis de la matière visible, permettant d'atteindre des facteurs d'amplification supérieurs à $ 30\times $ en bordure de disque.
 
 # PARTIE II : APPROFONDISSEMENT THÉORIQUE & PROTOCOLE DE VALIDATION ASTROPHYSIQUE (SPARC)
 
-L'émergence de la métrique et de la dynamique non-linéaire au sein du condensat $S^2$ est formalisée par une action effective incluant les termes d'auto-interaction du vide.
+L'émergence de la métrique et de la dynamique non-linéaire au sein du condensat $ S^2 $ est formalisée par une action effective incluant les termes d'auto-interaction du vide.
 
 ### 1. Raccordement Lagrangien & Équation du Champ
-Le Lagrangien effectif du condensat de phase $\psi$ couplé à la densité baryonique$\rho_b $ s'écrit :
+Le Lagrangien effectif du condensat de phase $\psi $ couplé à la densité baryonique$\rho_b $ s'écrit :
 
 $$
 \mathcal{L}_{\text{eff}} = \frac{1}{2} (\nabla \psi)^2 - \frac{\lambda}{4} |\psi|^4 - V(\psi) + g \psi \rho_b
 $$
 
-Où $\lambda$ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire$a_0 \propto \sqrt{\Lambda}$, la saturation du terme quartique fait émerger la fonction d'interpolation $\mu(x)$ de type MOND/AQUAL.
+Où $\lambda $ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire$a_0 \propto \sqrt{\Lambda}$, la saturation du terme quartique fait émerger la fonction d'interpolation $\mu(x)$ de type MOND/AQUAL.
 
 L'équation de champ généralisée prend la forme d'une équation de Poisson modifiée conservative :
 
@@ -244,8 +244,8 @@ $$
 $$
 
 ### 2. Protocole d'Essai Prédictif sur le Catalogue SPARC
-- **Zéro Paramètre Libre** : $a_0 $est ancré sur le vide cosmologique ($\Lambda$).
-- **Masse Sombre Nulle** : $M_{\text{DM}}=0$.
+- **Zéro Paramètre Libre** : $ a_0 $est ancré sur le vide cosmologique ($\Lambda $).
+- **Masse Sombre Nulle** : $ M_{\text{DM}}=0 $.
 - **Validation** : Confrontation directe aux 175 galaxies du catalogue SPARC pour vérifier la réduction du $\chi^2 $ et la conformité à la Relation d'Accélération Radiale (RAR).
 
 # PARTIE III : JOURNAL DES CAMPAGNES & ÉVOLUTION ANALYTIQUE
@@ -264,11 +264,11 @@ $ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt qu
 
 | Obstacle | Description |
 |---|---|
-| **13.1 Covariance générale** | $G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
-| **13.2 Identités de Bianchi** | $\nabla^\mu G_{\mu\nu} = 0$ doit apparaître au niveau macroscopique. |
-| **13.3 Conservation énergie-impulsion** | $\nabla^\mu T_{\mu\nu} = 0$ doit se généraliser si$G_{\mathrm{eff}}$/$\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
+| **13.1 Covariance générale** | $ G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
+| **13.2 Identités de Bianchi** | $\nabla^\mu G_{\mu\nu} = 0 $ doit apparaître au niveau macroscopique. |
+| **13.3 Conservation énergie-impulsion** | $\nabla^\mu T_{\mu\nu} = 0 $ doit se généraliser si$G_{\mathrm{eff}}$/$\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
 | **13.4 Émergence de la métrique** | Il faut expliquer comment $ g_{\mu\nu}$ elle-même émerge des degrés de liberté fondamentaux. |
-| **13.5 Dynamique de la géométrie** | Il faut expliquer l'apparition du terme $\sqrt{-g}R$ avec le bon coefficient. |
+| **13.5 Dynamique de la géométrie** | Il faut expliquer l'apparition du terme $\sqrt{-g}R $ avec le bon coefficient. |
 | **13.6 Définition du vide quantique** | Préciser quel état quantique et quelles corrélations sont physiquement pertinents. |
 | **13.7 Localité / non-localité** | Comprendre comment une géométrie macroscopique locale émerge d'une description microscopique éventuellement non locale. |
 | **13.8 Universalité de la gravitation** | Expliquer pourquoi le couplage reste universel malgré la diversité des degrés de liberté microscopiques. |
@@ -279,7 +279,7 @@ $ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt qu
 
 L'intuition initiale considérait le « maillage » géométrique de l'espace-temps comme pouvant correspondre, par analogie, à une structure microscopique du vide quantique — une **métaphore heuristique**, non une affirmation qu'Einstein aurait proposé un espace-temps fait d'un réseau physique de points.
 
-> **La structure géométrique continue décrite par $g_{\mu\nu}$ pourrait-elle être une description effective, à grande échelle, d'un substrat quantique discret, relationnel ou autrement structuré ?**
+> **La structure géométrique continue décrite par $ g_{\mu\nu}$ pourrait-elle être une description effective, à grande échelle, d'un substrat quantique discret, relationnel ou autrement structuré ?**
 
 ---
 
@@ -320,7 +320,7 @@ $$
 \Psi \sim \int \mathcal{D}[\text{configurations}]\; e^{iS/\hbar}
 $$
 
-Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $g_{\mu\nu}$.
+Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $ g_{\mu\nu}$.
 
 ---
 
@@ -336,7 +336,7 @@ $$
 \delta S = 0
 $$
 
-Une intuition supplémentaire vient des conditions de fermeture de phase (Bohr-Sommerfeld, $n\lambda = 2\pi r$) : lorsque les phases se referment de manière cohérente, certaines contributions sont renforcées par interférence.
+Une intuition supplémentaire vient des conditions de fermeture de phase (Bohr-Sommerfeld, $ n\lambda = 2\pi r $) : lorsque les phases se referment de manière cohérente, certaines contributions sont renforcées par interférence.
 
 > **Existe-t-il, pour les configurations géométriques, une condition de cohérence analogue qui favorise certaines géométries comme configurations quasi-classiques stables ?**
 
@@ -350,7 +350,7 @@ $$
 \Psi[G] = \int_{\mathcal{C}(G)} \mathcal{D}\Phi\; e^{iS_{\mathrm{micro}}[\Phi]/\hbar}
 $$
 
-où $\Phi $ représente les degrés de liberté fondamentaux,$\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et $S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
+où $\Phi $ représente les degrés de liberté fondamentaux,$\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et $ S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
 
 ---
 
@@ -364,13 +364,13 @@ Problème de la mesure ($\mathcal{D}[g_{\mu\nu}]$ covariante), convergence (poid
 
 | ID | Question |
 |---|---|
-| **H1** | Nature des degrés de liberté sommés — que sont concrètement les $\hat{\Phi}_i$ ? |
+| **H1** | Nature des degrés de liberté sommés — que sont concrètement les $\hat{\Phi}_i $ ? |
 | **H2** | Action microscopique $ S[\hat{\Phi}_i]$, sans présupposer $\sqrt{-g}R$. |
 | **H3** | Mesure d'intégration — quelle classe de configurations, quelles symétries respectées. |
 | **H4** | Signature et convergence — euclidien vs lorentzien. |
 | **H5** | Critère de phase stationnaire, appliqué à l'action microscopique. |
 | **H6** | Mécanisme de décohérence séparé de la phase stationnaire elle-même. |
-| **H7** | Origine de $G_{\mathrm{eff}}$et $\Lambda_{\mathrm{eff}}$ depuis les paramètres microscopiques. |
+| **H7** | Origine de $ G_{\mathrm{eff}}$et $\Lambda_{\mathrm{eff}}$ depuis les paramètres microscopiques. |
 | **H8** | Conditions aux limites. |
 | **H9** | Domaine de validité. |
 | **H10** | Prédiction distinctive et testable. |
@@ -379,7 +379,7 @@ Problème de la mesure ($\mathcal{D}[g_{\mu\nu}]$ covariante), convergence (poid
 
 ## 24. H6bis — Configurations spatio-temporelles parallèles
 
-Au lieu de considérer plusieurs états intermédiaires d'un même espace-temps, on envisage une multiplicité de configurations ou histoires spatio-temporelles possibles : $\{H_1, H_2, \ldots, H_N\}$, chacune associée à sa propre géométrie effective $g_{\mu\nu}^{(i)}$ et éventuellement à un temps propre effectif.
+Au lieu de considérer plusieurs états intermédiaires d'un même espace-temps, on envisage une multiplicité de configurations ou histoires spatio-temporelles possibles : $\{H_1, H_2, \ldots, H_N\}$, chacune associée à sa propre géométrie effective $ g_{\mu\nu}^{(i)}$ et éventuellement à un temps propre effectif.
 
 > Une multiplicité de configurations spatio-temporelles dans une description quantique ne signifie pas automatiquement l'existence de plusieurs espaces-temps classiques indépendants au sens ordinaire.
 
@@ -427,7 +427,7 @@ Il est plus rigoureux de parler d'une **configuration ou famille de configuratio
 
 ## 30. H6bis.6 — Les temporalités internes aux histoires
 
-Si $H_i \to g_{\mu\nu}^{(i)}$, alors le temps propre associé$\tau_i$ est déterminé par cette géométrie.
+Si $ H_i \to g_{\mu\nu}^{(i)}$, alors le temps propre associé$\tau_i $ est déterminé par cette géométrie.
 
 > **Le temps que nous observons pourrait-il être le temps propre interne à l'histoire quasi-classique dans laquelle notre description macroscopique est définie ?**
 
@@ -474,7 +474,7 @@ Niveau microscopique (Φ̂ᵢ) → niveau quantique des configurations/histoires
 
 ## 35. Temps, histoire et géométrie
 
-Si $H_i \to (g_{\mu\nu}^{(i)}, \tau_{\mathrm{eff}}^{(i)})$, géométrie et temps deviennent deux aspects liés de la même description effective. La possibilité d'un mécanisme commun reste une question ouverte.
+Si $ H_i \to (g_{\mu\nu}^{(i)}, \tau_{\mathrm{eff}}^{(i)})$, géométrie et temps deviennent deux aspects liés de la même description effective. La possibilité d'un mécanisme commun reste une question ouverte.
 
 ---
 
@@ -534,7 +534,7 @@ Aucun mécanisme commun de cette forme n'est établi ici. *(Voir le document com
 
 ## 41. Ce qu'il faudrait démontrer pour transformer l'hypothèse en théorie
 
-Définir les degrés de liberté fondamentaux et leur espace d'états ; définir leur dynamique et les corrélations pertinentes ; définir l'objet sommé et la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $ g_{\mu\nu}$et le temps effectif émergent ; déterminer si une masse effective peut apparaître ; dériver une action effective retrouvant $\sqrt{-g}R$; déterminer $G_{\mathrm{eff}}$et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
+Définir les degrés de liberté fondamentaux et leur espace d'états ; définir leur dynamique et les corrélations pertinentes ; définir l'objet sommé et la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $ g_{\mu\nu}$et le temps effectif émergent ; déterminer si une masse effective peut apparaître ; dériver une action effective retrouvant $\sqrt{-g}R$; déterminer $ G_{\mathrm{eff}}$et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
 
 Sans ces étapes, l'idée reste une **hypothèse heuristique**.
 
@@ -566,8 +566,8 @@ Il s'agit uniquement d'une **question de recherche théorique**.
 
 | Niveau | Question |
 |---|---|
-| **Géométrie** | Comment $g_{\mu\nu}$ pourrait-il émerger ? |
-| **Gravitation** | Comment $G_{\mathrm{eff}}$ pourrait-il apparaître ? |
+| **Géométrie** | Comment $ g_{\mu\nu}$ pourrait-il émerger ? |
+| **Gravitation** | Comment $ G_{\mathrm{eff}}$ pourrait-il apparaître ? |
 | **Cosmologie** | Pourquoi $\Lambda_{\mathrm{eff}}$ est-il si faible ? |
 | **Temps** | Le temps propre pourrait-il lui-même être émergent ? |
 | **Inertie** | Une masse effective pourrait-elle émerger du même substrat ? |
@@ -610,7 +610,7 @@ $$
 Z=\frac{1}{N}\sum_{j=1}^{N}e^{i\theta_j},\qquad C=|Z|^2.
 $$
 
-Cette définition présente une propriété importante : $C$ est invariant sous une rotation globale des phases, contrairement à$R=\mathrm{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $C$ comme observable de cohérence robuste.
+Cette définition présente une propriété importante : $ C $est invariant sous une rotation globale des phases, contrairement à$ R=\mathrm{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $ C$ comme observable de cohérence robuste.
 
 Le cadre structurel reste fixé en **3+1 dimensions** :
 
@@ -632,7 +632,7 @@ $$
 C(r)=C_c+\frac{r_g^2}{r^2+r_g^2}(C_{\max}-C_c),
 $$
 
-avec $C_{\max}=1$ et $r_g=2GM/c^2$.
+avec $ C_{\max}=1 $et$ r_g=2GM/c^2 $.
 
 Ce profil possède une propriété utile :
 
@@ -676,17 +676,17 @@ $$
 \mathbb E[C]=\frac1N,
 $$
 
-ce qui fournit une référence indispensable pour interpréter les petits $C$ à taille finie.
+ce qui fournit une référence indispensable pour interpréter les petits $ C $ à taille finie.
 
-### 47.4 Statut de $R$ Le signe de $R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
+### 47.4 Statut de $ R $Le signe de$ R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
 
 Les hypothèses spécifiques suivantes n'ont pas été confirmées sous leur forme initiale :
 
-- $R<0$ comme secteur nécessairement destructif ;
-- $R$ comme code direct d'un cône causal futur/passé ;
-- corrélation entre le signe de $R$ et un winding topologique.
+- $ R<0 $ comme secteur nécessairement destructif ;
+- $ R $ comme code direct d'un cône causal futur/passé ;
+- corrélation entre le signe de $ R $ et un winding topologique.
 
-Un indicateur causal alternatif $R_{\mathrm{causal}}$ reste une piste, mais sans plancher positif démontré.
+Un indicateur causal alternatif $ R_{\mathrm{causal}}$ reste une piste, mais sans plancher positif démontré.
 
 ---
 
@@ -694,31 +694,31 @@ Un indicateur causal alternatif $R_{\mathrm{causal}}$ reste une piste, mais sans
 
 La dynamique décrite en 47.3 utilise une constante de couplage $ K $ qui, jusqu'ici, était un paramètre externe ajusté à la main. Deux résultats établissent qu'elle peut être reformulée, puis en partie dérivée.
 
-**Étape 1 — $K$ est déjà, structurellement, une constante de couplage.** La dynamique$\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel :
+**Étape 1 — $ K $est déjà, structurellement, une constante de couplage.** La dynamique$\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel :
 
 $$
 V[\theta]=-\frac{K}{2N}\sum_{i,j}w_{ij}\cos(\theta_i-\theta_j)
 $$
 
-vérifié numériquement à la précision machine ($\sim10^{-11}$) —$K$ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
+vérifié numériquement à la précision machine ($\sim10^{-11}$) —$ K $ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
 
-**Étape 2 — dérivation par élimination adiabatique d'un champ médiateur.** En couplant chaque phase $\theta_i$à un champ médiateur complexe$\psi $ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
+**Étape 2 — dérivation par élimination adiabatique d'un champ médiateur.** En couplant chaque phase $\theta_i $à un champ médiateur complexe$\psi $ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
 
 $$
 \dot\psi = \mathrm{taux}\cdot(-m^2\psi+g\,\bar Z),\qquad \bar Z=\frac{1}{N}\sum_j e^{i\theta_j}
 $$
 
-l'élimination adiabatique de $\psi$(relaxation rapide vers son équilibre$\psi_{\mathrm{eq}}=(g/m^2)\bar Z $) reproduit la dynamique de Kuramoto réduite avec :
+l'élimination adiabatique de $\psi $(relaxation rapide vers son équilibre$\psi_{\mathrm{eq}}=(g/m^2)\bar Z $) reproduit la dynamique de Kuramoto réduite avec :
 
 $$
 \boxed{K_{\mathrm{eff}}=\frac{g^2}{m^2}}
 $$
 
-Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage $g$ testées (de $g=0{,}05$ à $g=1{,}0$).
+Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage $ g $testées (de$ g=0{,}05 $à$ g=1{,}0 $).
 
-**Portée et limite.** C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais $g$(couplage au médiateur) et $m$ (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
+**Portée et limite.** C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais $ g $(couplage au médiateur) et$ m $ (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
 
-> ⚠️ **Point de vigilance sur la numérotation des tests.** Plusieurs fils de travail indépendants (celui-ci, et le journal numérique compagnon) ont chacun leur propre numérotation de « Test N », qui ne coïncident pas terme à terme — par exemple, le « Test 43 » de la section 48.4 ci-dessous (rayons $R_{\mathrm{trans}}$, $R_{\mathrm{gentle}}$) n'est pas le même calcul que le « Test 43 » du [journal d'expériences numériques](./Journal-experiences-numeriques.fr.md) (recherche d'exposants sur la solution radiale). Se référer au contenu de chaque test, pas seulement à son numéro, en cas de doute.
+> ⚠️ **Point de vigilance sur la numérotation des tests.** Plusieurs fils de travail indépendants (celui-ci, et le journal numérique compagnon) ont chacun leur propre numérotation de « Test N », qui ne coïncident pas terme à terme — par exemple, le « Test 43 » de la section 48.4 ci-dessous (rayons $ R_{\mathrm{trans}}$,$ R_{\mathrm{gentle}}$) n'est pas le même calcul que le « Test 43 » du [journal d'expériences numériques](./Journal-experiences-numeriques.fr.md) (recherche d'exposants sur la solution radiale). Se référer au contenu de chaque test, pas seulement à son numéro, en cas de doute.
 
 ---
 
@@ -726,7 +726,7 @@ Vérifié numériquement : le système complet avec médiateur explicite reprodu
 
 ### 48.1 Pourquoi le $ 4/3 $ global a été abandonné
 
-Les premières versions utilisaient un scaling global du type $r\sim N^{4/3}$. Les Tests 39–40 ont montré que cette croissance non bornée ne peut pas être maintenue jusqu'à l'infini : elle détruit la limite newtonienne.
+Les premières versions utilisaient un scaling global du type $ r\sim N^{4/3}$. Les Tests 39–40 ont montré que cette croissance non bornée ne peut pas être maintenue jusqu'à l'infini : elle détruit la limite newtonienne.
 
 La contrainte physique devient donc :
 
@@ -750,7 +750,7 @@ Valeurs rapportées :
 | 20 | 1183,0 |
 | 30 | 1182,0 |
 
-La moyenne est d'environ $1183$, avec un coefficient de variation d'environ $0,07\%$, et l'écart relatif à $M_{\mathrm{tot}}=1196,7 $est d'environ$1,15\%$.
+La moyenne est d'environ $ 1183 $, avec un coefficient de variation d'environ$ 0,07\%$, et l'écart relatif à$ M_{\mathrm{tot}}=1196,7 $est d'environ$ 1,15\%$.
 
 Le résultat établit dans ce modèle jouet une récupération très propre de la loi :
 
