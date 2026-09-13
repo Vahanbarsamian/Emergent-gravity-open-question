@@ -138,7 +138,7 @@ La gravité est modélisée non pas comme une interaction fondamentale primordia
 L'énergie de point zéro du vide quantique dépasse la valeur cosmologique observée d'un facteur $10^{120}$. Dans le modèle H2C, ce facteur traduit le taux d'interférence destructive massive au sein d'un réseau d'agents à phases libres orientées sur la sphère $S^2$. Le champ résiduel observable $\Lambda$ représente la composante non annulée issue de ce moyennage statistique :
 
 ```
-  [ Micro-fluctuations de Phase à l'Échelle de Planck ]
+[ Micro-fluctuations de Phase à l'Échelle de Planck ]
          ρ_micro ~ ρ_Planck ~ 10^{114} J/m³
               │
               ▼ ( Moyennage d'ensemble sur N >> 1 modes )
@@ -151,7 +151,7 @@ L'énergie de point zéro du vide quantique dépasse la valeur cosmologique obse
               ▼
 
 [ Métrique Effective & Équation d'Einstein Cosmologique ]
-$G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}$
+G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}
 ```
 
 $$\langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i \phi_k} \sim \frac{1}{\sqrt{N}} \approx 10^{-60} \implies \rho_{\Lambda} \sim 10^{-120} \rho_{\text{Planck}}$$
@@ -168,29 +168,27 @@ Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'ali
 - **Auto-régularisation** : Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($A \to 0$).
 - **Plancher d'amplitude** : Stabilisation d'une valeur minimale finie :
 
-$$
-A_{\text{min}} \approx 0.6132
-$$
+$$A_{\text{min}} \approx 0.6132$$
 
-Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($ n \to \infty $) est éliminée par la réponse propre du substrat.
+Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($n \to \infty $) est éliminée par la réponse propre du substrat.
 
 ---
 
 ### Chapitre 3 : Du Local au Global — Réfutation des Modèles Linéaires (SPARC / 61H-11/12)
 
 #### 3.1 Réfutation des modèles ponctuels et linéaires
-La transposition du modèle au système solaire (déflexion des rayons lumineux) avec un indice de réfraction $ n(r) = 1 + \frac{K}{r A(r)}$ reproduit la valeur d'Einstein ($ 1.7501''$) dans le cas limite où $ A=1.0 $.
+La transposition du modèle au système solaire (déflexion des rayons lumineux) avec un indice de réfraction $n(r) = 1 + \frac{K}{r A(r)}$ reproduit la valeur d'Einstein ($ 1.7501''$) dans le cas limite où $A=1.0$.
 
 Cependant, l'application de ce formalisme linéaire à la base de données galactiques **SPARC** (175 galaxies) a révélé une limite structurelle stricte :
 
 | Modèle / Test | RMSE (RAR) | Pente BTFR | Amplification Max |
 | :--- | :--- | :--- | :--- |
-| **H2C Fixe ($ A_{\text{min}}=0.61 $)** | $ 0.4124 $ | $ 0.3015 $ | $ 1.63\times $ |
-| **H2C Scaling ($ M^{-0.055}$)** | $ 0.4281 $ | $ 0.3242 $ | $ 1.4\times $ à $ 2.1\times $ |
-| **Observations (SPARC)** | **$ 0.1927 $** | **$ 0.2500 $** | **jusqu'à $ 34\times $** |
+| **H2C Fixe ($A_{\text{min}}=0.61 $)** | $ 0.4124 $ | $ 0.3015 $ | $ 1.63\times$ |
+| **H2C Scaling ($M^{-0.055}$)** | $ 0.4281 $ | $ 0.3242 $ | $ 1.4\times $ à $ 2.1\times$ |
+| **Observations (SPARC)** | **$0.1927 $** | **$ 0.2500 $** | **jusqu'à $ 34\times$** |
 
 #### 3.2 Diagnostic
-L'intégration d'un indice linéaire sur une source ponctuelle ou un disque étendu retombe inévitablement en champ lointain sur une loi keplérienne en $ 1/r^2 $ (pente logarithmique de $-2.00 $). La géométrie étendue de la matière baryonique seule ne suffit pas à adoucir la décroissance du champ.
+L'intégration d'un indice linéaire sur une source ponctuelle ou un disque étendu retombe inévitablement en champ lointain sur une loi keplérienne en $1/r^2$ (pente logarithmique de $-2.00 $). La géométrie étendue de la matière baryonique seule ne suffit pas à adoucir la décroissance du champ.
 
 ---
 
