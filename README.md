@@ -595,7 +595,7 @@ $$
 
 ## 34. Une Distinction entre Trois Niveaux de Description
 
-Niveau microscopique ($\hat{\Phi}_i$) → niveau quantique des configurations/histoires ($H_i$) → niveau classique émergent ($g_{\mu\nu}, \tau_{\mathrm{eff}}, G_{\mathrm{eff}}, \Lambda_{\mathrm{eff}}$). Cette séparation évite de confondre degrés de liberté fondamentaux, configurations possibles et variables macroscopiques effectives.
+Niveau microscopique ($\Phî_i$) $\rightarrow$ niveau quantique des configurations/histoires ($H_i$) $\rightarrow$ niveau classique émergent ($g_{\mu\nu}, \tau_{\text{eff}}, G_{\text{eff}}, \Lambda_{\text{eff}}$). Cette séparation évite de confondre degrés de liberté fondamentaux, configurations possibles et variables macroscopiques effectives.
 
 ---
 
