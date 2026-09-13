@@ -607,7 +607,7 @@ $$
 Z=\frac{1}{N}\sum_{j=1}^{N}e^{i\theta_j},\qquad C=|Z|^2.
 $$
 
-Cette définition présente une propriété importante : $ C $est invariant sous une rotation globale des phases, contrairement à$ R=\mathrm{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $ C$ comme observable de cohérence robuste.
+Cette définition présente une propriété importante : $ C $est invariant sous une rotation globale des phases, contrairement à $R=\mathrm{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $C$ comme observable de cohérence robuste.
 
 Le cadre structurel reste fixé en **3+1 dimensions** :
 
@@ -637,7 +637,7 @@ $$
 C(0)=C_{\max},\qquad C'(0)=0.
 $$
 
-Mais il ne doit pas être identifié directement à une densité de masse : son comportement asymptotique en $ 1/r^2 $ rendrait la masse intégrée divergente. La reconstruction doit donc rester séparée :
+Mais il ne doit pas être identifié directement à une densité de masse : son comportement asymptotique en $1/r^2$ rendrait la masse intégrée divergente. La reconstruction doit donc rester séparée :
 
 $$
 C(r)\rightarrow\rho(r)\rightarrow m(r)\rightarrow g(r)\rightarrow g_{\mu\nu}^{\mathrm{eff}}.
@@ -665,7 +665,7 @@ $$
 C=|Z|^2,\qquad Z=\frac1N\sum_j e^{i\theta_j}.
 $$
 
-Cette dynamique permet de distinguer un état incohérent ($ C\sim1/N $) d'un état collectivement cohérent ($ C\gg1/N $).
+Cette dynamique permet de distinguer un état incohérent ($C\sim1/N$) d'un état collectivement cohérent ($C\gg1/N$).
 
 Pour des phases indépendantes uniformes :
 
@@ -675,31 +675,31 @@ $$
 
 ce qui fournit une référence indispensable pour interpréter les petits $ C $ à taille finie.
 
-### 47.4 Statut de $ R $Le signe de$ R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
+### 47.4 Statut de $ R $Le signe de $R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
 
 Les hypothèses spécifiques suivantes n'ont pas été confirmées sous leur forme initiale :
 
-- $ R<0 $ comme secteur nécessairement destructif ;
-- $ R $ comme code direct d'un cône causal futur/passé ;
+- $R<0$ comme secteur nécessairement destructif ;
+- $R$ comme code direct d'un cône causal futur/passé ;
 - corrélation entre le signe de $ R $ et un winding topologique.
 
-Un indicateur causal alternatif $ R_{\mathrm{causal}}$ reste une piste, mais sans plancher positif démontré.
+Un indicateur causal alternatif $R_{\mathrm{causal}}$ reste une piste, mais sans plancher positif démontré.
 
 ---
 
-### 47.5 Dérivation de $ K $ : d'un paramètre postulé à une constante de couplage dérivée
+### 47.5 Dérivation de $K$ : d'un paramètre postulé à une constante de couplage dérivée
 
-La dynamique décrite en 47.3 utilise une constante de couplage $ K $ qui, jusqu'ici, était un paramètre externe ajusté à la main. Deux résultats établissent qu'elle peut être reformulée, puis en partie dérivée.
+La dynamique décrite en 47.3 utilise une constante de couplage $K$ qui, jusqu'ici, était un paramètre externe ajusté à la main. Deux résultats établissent qu'elle peut être reformulée, puis en partie dérivée.
 
-**Étape 1 — $ K $est déjà, structurellement, une constante de couplage.** La dynamique$\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel :
+**Étape 1 — $K$ est déjà, structurellement, une constante de couplage.** La dynamique$\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel:
 
 $$
 V[\theta]=-\frac{K}{2N}\sum_{i,j}w_{ij}\cos(\theta_i-\theta_j)
 $$
 
-vérifié numériquement à la précision machine ($\sim10^{-11}$) —$ K $ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
+vérifié numériquement à la précision machine ($\sim10^{-11}$) —$K$ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
 
-**Étape 2 — dérivation par élimination adiabatique d'un champ médiateur.** En couplant chaque phase $\theta_i $à un champ médiateur complexe$\psi $ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
+**Étape 2 — dérivation par élimination adiabatique d'un champ médiateur.** En couplant chaque phase $\theta_i$ à un champ médiateur complexe $\psi$ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
 
 $$
 \dot\psi = \mathrm{taux}\cdot(-m^2\psi+g\,\bar Z),\qquad \bar Z=\frac{1}{N}\sum_j e^{i\theta_j}
