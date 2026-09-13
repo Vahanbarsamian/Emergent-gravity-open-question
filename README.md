@@ -233,16 +233,16 @@ Le modèle H2C démontre que la « matière noire » est l'expression asymptotiq
 
 # PARTIE II : APPROFONDISSEMENT THÉORIQUE & PROTOCOLE DE VALIDATION ASTROPHYSIQUE (SPARC)
 
-## 1. Formalisme du Champ de Phase H2C et Raccordement Cosmologique $ a_0 $
+## 1. Formalisme du Champ de Phase H2C et Raccordement Cosmologique $a_0$
 
 ### Section 1 : Dérivation de l'Action Effective et Raccordement Lagrangien
-L'émergence de la métrique et de la dynamique non-linéaire au sein du condensat $ S^2 $ est formalisée par une action effective incluant les termes d'auto-interaction du vide. Le Lagrangien effectif du condensat de phase $\psi $ couplé à la densité baryonique $\rho_b $ s'écrit :
+L'émergence de la métrique et de la dynamique non-linéaire au sein du condensat $S^2$ est formalisée par une action effective incluant les termes d'auto-interaction du vide. Le Lagrangien effectif du condensat de phase $\psi$ couplé à la densité baryonique $\rho_b$ s'écrit :
 
 $$
 \mathcal{L}_{\text{eff}} = \frac{1}{2} (\nabla \psi)^2 - \frac{\lambda}{4} |\psi|^4 - V(\psi) + g \psi \rho_b
 $$
 
-Où $\lambda $ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire $ a_\Lambda = c^2\sqrt{\Lambda/3}$, la réponse du champ face aux gradients de densité s'écarte du régime linéaire. La saturation du terme quartique $\lambda|\psi|^4 $ fait émerger la fonction d'interpolation $\mu(x)$ (type MOND/AQUAL) où $ x=|\nabla\psi|/a_0 $.
+Où $\lambda$ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire $a_\Lambda = c^2\sqrt{\Lambda/3}$, la réponse du champ face aux gradients de densité s'écarte du régime linéaire. La saturation du terme quartique $\lambda|\psi|^4$ fait émerger la fonction d'interpolation $\mu(x)$ (type MOND/AQUAL) où $x=|\nabla\psi|/a_0$.
 
 L'équation de champ généralisée, dérivée du principe variationnel $\delta S/\delta\psi=0 $, prend la forme d'une équation de Poisson modifiée conservative :
 
@@ -250,14 +250,14 @@ $$
 \nabla \cdot \left[ \mu\left(\frac{|\nabla \Phi|}{a_0}\right) \nabla \Phi \right] = 4 \pi G \rho_b
 $$
 
-### Section 2 : Analyse Asymptotique des Régimes ($ 1/r^2\to1/r $)
+### Section 2 : Analyse Asymptotique des Régimes ($1/r^2\to1/r$)
 La résolution analytique de cette équation révèle deux régimes physiques distincts pilotés par l'accélération scalaire :
 
-1. **Régime de champ fort ($ r\to0 $ ou $\nabla\Phi\gg a_0 $)** :
-  La fonction de réponse tend vers l'unité, $\mu(x)\to1 $. L'équation redevient celle de Poisson standard, restituant fidèlement la loi en $ 1/r^2 $ et la métrique de Schwarzschild. La Relativité Générale est donc récupérée comme la limite locale de haute courbure du modèle H2C.
+1. **Régime de champ fort ($r\to0 $ ou $\nabla\Phi\gg a_0$)** :
+  La fonction de réponse tend vers l'unité, $\mu(x)\to1$. L'équation redevient celle de Poisson standard, restituant fidèlement la loi en $1/r^2$ et la métrique de Schwarzschild. La Relativité Générale est donc récupérée comme la limite locale de haute courbure du modèle H2C.
 
-2. **Régime de champ faible ($ r\gg R_d $ ou $\nabla\Phi\ll a_0 $)** :
-  Le terme d'auto-interaction domine, $\mu(x)\to x $. Le gradient du potentiel s'auto-entretient, entraînant une décroissance asymptotique en $ 1/r $ (pente logarithmique verrouillée sur $-1{,}0000 $). La vitesse de rotation orbitale converge alors vers le plateau Tully-Fisher :
+2. **Régime de champ faible ($r\gg R_d$ ou $\nabla\Phi\ll a_0$)** :
+  Le terme d'auto-interaction domine, $\mu(x)\to x $. Le gradient du potentiel s'auto-entretient, entraînant une décroissance asymptotique en $1/r$ (pente logarithmique verrouillée sur $-1{,}0000$). La vitesse de rotation orbitale converge alors vers le plateau Tully-Fisher :
 
 $$
 V^4 = G M_{\text{bar}} a_0
@@ -271,8 +271,8 @@ L'audit prédictif du modèle H2C s'appuie sur le catalogue **SPARC** (Spitzer P
 
 ### 1. Variables d'Entrée et Paramètres Fixes
 - **Profils Baryoniques** : Utilisation des contributions mesurées (disque stellaire, bulbe, gaz neutre HI).
-- **Masse Sombre Postulée** : $ M_{\text{DM}}=0 $. Le modèle ne contient aucune particule de matière noire.
-- **Ancrage Cosmologique** : La constante $ a_0 $ n'est pas un paramètre libre, mais est dérivée du vide cosmologique $\Lambda $ :
+- **Masse Sombre Postulée** : $M_{\text{DM}}=0$. Le modèle ne contient aucune particule de matière noire.
+- **Ancrage Cosmologique** : La constante $a_0$ n'est pas un paramètre libre, mais est dérivée du vide cosmologique $\Lambda$ :
  
 
 $$
@@ -281,13 +281,13 @@ $$
 
 ### 2. Algorithme de Calcul et Traitement des Données
 - Intégration de l'équation de champ non-linéaire pour chaque profil de masse.
-- Calcul de l'accélération observée $ g_{\text{obs}}$ à partir des courbes de rotation.
-- Comparaison statistique via la Relation d'Accélération Radiale (RAR) : $ g_{\text{obs}}$ vs $ g_{\text{bar}}$.
+- Calcul de l'accélération observée $g_{\text{obs}}$ à partir des courbes de rotation.
+- Comparaison statistique via la Relation d'Accélération Radiale (RAR) : $g_{\text{obs}}$ vs $g_{\text{bar}}$.
 
 ### 3. Matrice de Validation et Critères de Falsifiabilité
-- **Pente BTFR** : Vérifier si la pente calculée converge vers $ 0{,}25 $ (en $\log V $ vs $\log M $).
-- **Scatter RAR** : Mesurer si le résidu statistique reste inférieur au seuil de $ 0{,}2 $ dex.
-- **Falsification** : Une dépendance résiduelle de $ G_{\text{eff}}$ à la morphologie galactique constituerait une réfutation du raccordement universel H2C.
+- **Pente BTFR** : Vérifier si la pente calculée converge vers $0{,}25$ (en $\log V$ vs $\log M$).
+- **Scatter RAR** : Mesurer si le résidu statistique reste inférieur au seuil de $ 0{,}2$ dex.
+- **Falsification** : Une dépendance résiduelle de $G_{\text{eff}}$ à la morphologie galactique constituerait une réfutation du raccordement universel H2C.
 
 ---
 
