@@ -79,7 +79,7 @@ $$
 S_{\mathrm{eff}}[g] = \int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]
 $$
 
-L'idée importante est que le coefficient du terme de courbure $ R $ peut recevoir une contribution provenant des degrés de liberté quantiques intégrés.
+L'idée importante est que le coefficient du terme de courbure $R$ peut recevoir une contribution provenant des degrés de liberté quantiques intégrés.
 
 ---
 
