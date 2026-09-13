@@ -737,17 +737,17 @@ $$
 
 ### 48.2 Test 41 — succès de la correction localisée
 
-Le Test 41 a corrigé une erreur de signe : $ g(r)$est négatif par convention, tandis que $ M_{\mathrm{tot}}>0$. La comparaison correcte porte donc sur les magnitudes $|g(r)|r^2$.
+Le Test 41 a corrigé une erreur de signe : $g(r)$ est négatif par convention, tandis que $M_{\mathrm{tot}}>0$. La comparaison correcte porte donc sur les magnitudes $|g(r)|r^2$.
 
 Valeurs rapportées :
 
-| $ r $(kpc) |$|g(r)|r^2 $ |
+| $r$ (kpc) |$|g(r)|r^2 $ |
 |---:|---:|
 | 15 | 1183,9 |
 | 20 | 1183,0 |
 | 30 | 1182,0 |
 
-La moyenne est d'environ $ 1183 $, avec un coefficient de variation d'environ$ 0,07\%$, et l'écart relatif à$ M_{\mathrm{tot}}=1196,7 $est d'environ$ 1,15\%$.
+La moyenne est d'environ $1183$, avec un coefficient de variation d'environ$ 0,07\%$, et l'écart relatif à$ M_{\mathrm{tot}}=1196,7 $est d'environ$ 1,15\%$.
 
 Le résultat établit dans ce modèle jouet une récupération très propre de la loi :
 
