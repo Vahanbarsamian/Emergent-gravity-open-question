@@ -83,7 +83,7 @@ L'idée importante est que le coefficient du terme de courbure $ R $ peut recevo
 
 ---
 
-## 5. Une Relation Schématique pour $ 1/G_{\mathrm{eff}}$
+## 5. Une Relation Schématique pour $1/G_{\mathrm{eff}}$
 
 $$
 \frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2
