@@ -183,9 +183,9 @@ Cependant, l'application de ce formalisme linéaire à la base de données galac
 
 | Modèle / Test | RMSE (RAR) | Pente BTFR | Amplification Max |
 | :--- | :--- | :--- | :--- |
-| **H2C Fixe ($A_{\text{min}}=0.61 $)** | $ 0.4124 $ | $ 0.3015 $ | $ 1.63\times$ |
-| **H2C Scaling ($M^{-0.055}$)** | $ 0.4281 $ | $ 0.3242 $ | $ 1.4\times $ à $ 2.1\times$ |
-| **Observations (SPARC)** | **$0.1927 $** | **$ 0.2500 $** | **jusqu'à $ 34\times$** |
+| **H2C Fixe ($A_{\text{min}}=0.61 $)** | $0.4124$ | $0.3015$ | $1.63\times$ |
+| **H2C Scaling ($M^{-0.055}$)** | $0.4281$ | $0.3242$ | $1.4\times$ à $2.1\times$ |
+| **Observations (SPARC)** | **$0.1927$** | **$0.2500$** | **jusqu'à $34\times$** |
 
 #### 3.2 Diagnostic
 L'intégration d'un indice linéaire sur une source ponctuelle ou un disque étendu retombe inévitablement en champ lointain sur une loi keplérienne en $1/r^2$ (pente logarithmique de $-2.00 $). La géométrie étendue de la matière baryonique seule ne suffit pas à adoucir la décroissance du champ.
