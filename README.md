@@ -244,7 +244,7 @@ $$
 
 Où $\lambda$ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire $a_\Lambda = c^2\sqrt{\Lambda/3}$, la réponse du champ face aux gradients de densité s'écarte du régime linéaire. La saturation du terme quartique $\lambda|\psi|^4$ fait émerger la fonction d'interpolation $\mu(x)$ (type MOND/AQUAL) où $x=|\nabla\psi|/a_0$.
 
-L'équation de champ généralisée, dérivée du principe variationnel $\delta S/\delta\psi=0 $, prend la forme d'une équation de Poisson modifiée conservative :
+L'équation de champ généralisée, dérivée du principe variationnel $\delta S/\delta\psi=0$, prend la forme d'une équation de Poisson modifiée conservative :
 
 $$
 \nabla \cdot \left[ \mu\left(\frac{|\nabla \Phi|}{a_0}\right) \nabla \Phi \right] = 4 \pi G \rho_b
@@ -257,7 +257,7 @@ La résolution analytique de cette équation révèle deux régimes physiques di
   La fonction de réponse tend vers l'unité, $\mu(x)\to1$. L'équation redevient celle de Poisson standard, restituant fidèlement la loi en $1/r^2$ et la métrique de Schwarzschild. La Relativité Générale est donc récupérée comme la limite locale de haute courbure du modèle H2C.
 
 2. **Régime de champ faible ($r\gg R_d$ ou $\nabla\Phi\ll a_0$)** :
-  Le terme d'auto-interaction domine, $\mu(x)\to x $. Le gradient du potentiel s'auto-entretient, entraînant une décroissance asymptotique en $1/r$ (pente logarithmique verrouillée sur $-1{,}0000$). La vitesse de rotation orbitale converge alors vers le plateau Tully-Fisher :
+  Le terme d'auto-interaction domine, $\mu(x)\to x$. Le gradient du potentiel s'auto-entretient, entraînant une décroissance asymptotique en $1/r$ (pente logarithmique verrouillée sur $-1{,}0000$). La vitesse de rotation orbitale converge alors vers le plateau Tully-Fisher :
 
 $$
 V^4 = G M_{\text{bar}} a_0
@@ -286,7 +286,7 @@ $$
 
 ### 3. Matrice de Validation et Critères de Falsifiabilité
 - **Pente BTFR** : Vérifier si la pente calculée converge vers $0{,}25$ (en $\log V$ vs $\log M$).
-- **Scatter RAR** : Mesurer si le résidu statistique reste inférieur au seuil de $ 0{,}2$ dex.
+- **Scatter RAR** : Mesurer si le résidu statistique reste inférieur au seuil de $0{,}2$ dex.
 - **Falsification** : Une dépendance résiduelle de $G_{\text{eff}}$ à la morphologie galactique constituerait une réfutation du raccordement universel H2C.
 
 ---
