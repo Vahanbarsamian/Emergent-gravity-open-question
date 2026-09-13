@@ -697,7 +697,7 @@ $$
 V[\theta]=-\frac{K}{2N}\sum_{i,j}w_{ij}\cos(\theta_i-\theta_j)
 $$
 
-vérifié numériquement à la précision machine ($\sim10^{-11}$) —$K$ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
+vérifié numériquement à la précision machine ($\sim10^{-11}$) — $K$ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
 
 **Étape 2 — dérivation par élimination adiabatique d'un champ médiateur.** En couplant chaque phase $\theta_i$ à un champ médiateur complexe $\psi$ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
 
@@ -705,7 +705,7 @@ $$
 \dot\psi = \mathrm{taux}\cdot(-m^2\psi+g\,\bar Z),\qquad \bar Z=\frac{1}{N}\sum_j e^{i\theta_j}
 $$
 
-l'élimination adiabatique de $\psi $(relaxation rapide vers son équilibre$\psi_{\mathrm{eq}}=(g/m^2)\bar Z $) reproduit la dynamique de Kuramoto réduite avec :
+l'élimination adiabatique de $\psi$ (relaxation rapide vers son équilibre$\psi_{\mathrm{eq}}=(g/m^2)\bar Z$) reproduit la dynamique de Kuramoto réduite avec :
 
 $$
 \boxed{K_{\mathrm{eff}}=\frac{g^2}{m^2}}
@@ -713,7 +713,7 @@ $$
 
 Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage $ g $testées (de$ g=0{,}05 $à$ g=1{,}0 $).
 
-**Portée et limite.** C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais $ g $(couplage au médiateur) et$ m $ (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
+**Portée et limite.** C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais $g$ (couplage au médiateur) et $m$ (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
 
 > ⚠️ **Point de vigilance sur la numérotation des tests.** Plusieurs fils de travail indépendants (celui-ci, et le journal numérique compagnon) ont chacun leur propre numérotation de « Test N », qui ne coïncident pas terme à terme — par exemple, le « Test 43 » de la section 48.4 ci-dessous (rayons $R_{\mathrm{trans}}$,$R_{\mathrm{gentle}}$) n'est pas le même calcul que le « Test 43 » du [journal d'expériences numériques](./Journal-experiences-numeriques.fr.md) (recherche d'exposants sur la solution radiale). Se référer au contenu de chaque test, pas seulement à son numéro, en cas de doute.
 
