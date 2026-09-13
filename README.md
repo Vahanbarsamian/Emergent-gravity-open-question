@@ -67,17 +67,13 @@ Cette question conduit notamment au concept de **gravité induite**, associé hi
 
 Dans l'idée de gravité induite, le terme gravitationnel de type Einstein-Hilbert peut apparaître comme un terme effectif résultant des fluctuations quantiques de champs couplés à une géométrie :
 
-$$
-S_{\mathrm{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R
-$$
+$$S_{\mathrm{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R$$
 
 Après intégration de degrés de liberté quantiques, on peut schématiquement obtenir :
 
-$$
-S_{\mathrm{eff}}[g] = \int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]
-$$
+$$S_{\mathrm{eff}}[g] = \int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]$$
 
-L'idée importante est que le coefficient du terme de courbure $ R $ peut recevoir une contribution provenant des degrés de liberté quantiques intégrés.
+L'idée importante est que le coefficient du terme de courbure $R$ peut recevoir une contribution provenant des degrés de liberté quantiques intégrés.
 
 ---
 
