@@ -226,10 +226,10 @@ $$
 
 # PARTIE II : APPROFONDISSEMENT THÉORIQUE & PROTOCOLE DE VALIDATION ASTROPHYSIQUE (SPARC)
 
-L'émergence de la métrique et de la dynamique non-linéaire au sein du condensat $S^2 $ est formalisée par une action effective incluant les termes d'auto-interaction du vide.
+L'émergence de la métrique et de la dynamique non-linéaire au sein du condensat $S^2$ est formalisée par une action effective incluant les termes d'auto-interaction du vide.
 
 ### 1. Raccordement Lagrangien & Équation du Champ
-Le Lagrangien effectif du condensat de phase $\psi $ couplé à la densité baryonique$\rho_b $ s'écrit :
+Le Lagrangien effectif du condensat de phase $\psi$ couplé à la densité baryonique $\rho_b$ s'écrit :
 
 $$
 \mathcal{L}_{\text{eff}} = \frac{1}{2} (\nabla \psi)^2 - \frac{\lambda}{4} |\psi|^4 - V(\psi) + g \psi \rho_b
@@ -246,7 +246,7 @@ $$
 ### 2. Protocole d'Essai Prédictif sur le Catalogue SPARC
 - **Zéro Paramètre Libre** : $a_0$ est ancré sur le vide cosmologique ($\Lambda$).
 - **Masse Sombre Nulle** : $M_{\text{DM}}=0$.
-- **Validation** : Confrontation directe aux 175 galaxies du catalogue SPARC pour vérifier la réduction du $\chi^2 $ et la conformité à la Relation d'Accélération Radiale (RAR).
+- **Validation** : Confrontation directe aux 175 galaxies du catalogue SPARC pour vérifier la réduction du $\chi^2$ et la conformité à la Relation d'Accélération Radiale (RAR).
 
 # PARTIE III : JOURNAL DES CAMPAGNES & ÉVOLUTION ANALYTIQUE
 
