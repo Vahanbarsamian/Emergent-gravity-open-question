@@ -142,7 +142,7 @@ $$
 ### Chapitre 1 : Le Substrat $S^2$ et la Catastrophe du Vide ($10^{120}$)
 
 #### 1.1 Le réservoir microscopique
-La gravité est modélisée non pas comme une interaction fondamentale primordiale, mais comme la manifestation réfractive d'un champ de cohérence de phase $ C(x)$. Le vide quantique est représenté par un réservoir d'oscillations stationnaires à très haute fréquence (échelle de Planck).
+La gravité est modélisée non pas comme une interaction fondamentale primordiale, mais comme la manifestation réfractive d'un champ de cohérence de phase $C(x)$. Le vide quantique est représenté par un réservoir d'oscillations stationnaires à très haute fréquence (échelle de Planck).
 
 #### 1.2 Annulation statistique et facteur $ 10^{120}$
 L'énergie de point zéro du vide quantique dépasse la valeur cosmologique observée d'un facteur $ 10^{120}$. Dans le modèle H2C, ce facteur traduit le taux d'interférence destructive massive au sein d'un réseau d'agents à phases libres orientées sur la sphère $ S^2 $. Le champ résiduel observable $\Lambda$ représente la composante non annulée issue de ce moyennage statistique :
