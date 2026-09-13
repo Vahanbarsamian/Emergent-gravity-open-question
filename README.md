@@ -177,7 +177,7 @@ Le cœur condensé possède une métrique lisse, continue et non singulière. La
 ### Chapitre 3 : Du Local au Global — Réfutation des Modèles Linéaires (SPARC / 61H-11/12)
 
 #### 3.1 Réfutation des modèles ponctuels et linéaires
-La transposition du modèle au système solaire (déflexion des rayons lumineux) avec un indice de réfraction $n(r) = 1 + \frac{K}{r A(r)}$ reproduit la valeur d'Einstein ($ 1.7501''$) dans le cas limite où $A=1.0$.
+La transposition du modèle au système solaire (déflexion des rayons lumineux) avec un indice de réfraction $n(r) = 1 + \frac{K}{r A(r)}$ reproduit la valeur d'Einstein ($1.7501''$) dans le cas limite où $A=1.0$.
 
 Cependant, l'application de ce formalisme linéaire à la base de données galactiques **SPARC** (175 galaxies) a révélé une limite structurelle stricte :
 
@@ -195,21 +195,17 @@ L'intégration d'un indice linéaire sur une source ponctuelle ou un disque éte
 ### Chapitre 4 : L'Auto-interaction du Vide (Émergence de MOND)
 
 #### 4.1 La non-linéarité du champ de phase (Campagne 61H-13)
-Pour affranchir le gradient de la décroissance en $ 1/r^2 $, un terme d'auto-interaction quartique est introduit dans l'équation d'état du condensat $ S^2 $. L'équation de Poisson généralisée prend la forme :
+Pour affranchir le gradient de la décroissance en $1/r^2$, un terme d'auto-interaction quartique est introduit dans l'équation d'état du condensat $S^2$. L'équation de Poisson généralisée prend la forme :
 
-$$
-\nabla \cdot \left[ \mu\left(\frac{|\nabla n|}{a_0}\right) \nabla n \right] = \frac{8\pi G}{c^2} \rho_{\text{baryon}}
-$$
+$$\nabla \cdot \left[ \mu\left(\frac{|\nabla n|}{a_0}\right) \nabla n \right] = \frac{8\pi G}{c^2} \rho_{\text{baryon}}$$
 
 Avec la constante d'accélération intrinsèque étalonnée sur le bruit du vide :
 
-$$
-a_0 = c^2 \sqrt{\frac{\Lambda}{3}} \approx 5.4546 \times 10^{-10} \text{ m/s}^2
-$$
+$$a_0 = c^2 \sqrt{\frac{\Lambda}{3}} \approx 5.4546 \times 10^{-10} \text{ m/s}^2$$
 
 #### 4.2 Résultats de la Campagne 61H-13
-- **Verrouillage de la pente** : En champ faible ($ g_{\text{bar}} \ll a_0 $), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000 $** ($\theta_{\text{périphérie}} = -0.9999 $).
-- **Rapport d'amplification** : Décrochement du champ vis-à-vis de la matière visible, permettant d'atteindre des facteurs d'amplification supérieurs à $ 30\times $ en bordure de disque.
+- **Verrouillage de la pente** : En champ faible ($g_{\text{bar}} \ll a_0$), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999 $).
+- **Rapport d'amplification** : Décrochement du champ vis-à-vis de la matière visible, permettant d'atteindre des facteurs d'amplification supérieurs à $30\times$ en bordure de disque.
 
 ---
 
@@ -219,9 +215,9 @@ $$
 
 | Échelle | Régime Physico-Mathématique | Manifestation Observationnelle |
 | :--- | :--- | :--- |
-| **Microscopique ($ r \to 0 $)** | Pression de dégénérescence $ S^2 $ ($ A_{\text{min}} = 0.6132 $) | Absence de singularité / Cœur lisse |
-| **Intermédiaire (Système Solaire)** | Champ Fort ($\nabla n \gg a_0 $), $\mu(x) \to 1 $ | Relativité Générale / Schwarzschild ($ 1/r^2 $) |
-| **Galactique ($ r \gg R_{\text{disque}}$)** | Champ Faible ($\nabla n \ll a_0 $), $\mu(x) \to x $ | Courbes de rotation plates ($ 1/r $) / MOND |
+| **Microscopique ($r \to 0 $)** | Pression de dégénérescence $S^2$ ($A_{\text{min}} = 0.6132$) | Absence de singularité / Cœur lisse |
+| **Intermédiaire (Système Solaire)** | Champ Fort ($\nabla n \gg a_0$), $\mu(x) \to 1$ | Relativité Générale / Schwarzschild ($1/r^2$) |
+| **Galactique ($r \gg R_{\text{disque}}$)** | Champ Faible ($\nabla n \ll a_0$), $\mu(x) \to x$ | Courbes de rotation plates ($1/r$) / MOND |
 
 #### 5.2 Relation de compliance du couplage
 La constante de gravitation effective $ G_{\text{eff}}$ mesurée à l'échelle macroscopique est liée à la cohérence moyenne du fond ambiant par :
