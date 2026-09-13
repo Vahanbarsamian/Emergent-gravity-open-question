@@ -116,17 +116,13 @@ $$\text{structure quantique microscopique} \to \text{corrélations} \to \text{g�
 
 ## 9. La Question Mathématique Centrale
 
-$$
-G_{\mu\nu}(x) = \mathcal{F}_{\mu\nu}\left[\langle\hat{\Phi}_i(x)\hat{\Phi}_j(x')\rangle\right]
-$$
+$$G_{\mu\nu}(x) = \mathcal{F}_{\mu\nu}\left[\langle\hat{\Phi}_i(x)\hat{\Phi}_j(x')\rangle\right]$$
 
 ---
 
 ## 10. Une Formulation plus Générale
 
-$$
-\mathcal{Q}\left[\langle\hat{\Phi}_i\hat{\Phi}_j\rangle, \langle\hat{\Phi}_i\hat{\Phi}_j\hat{\Phi}_k\rangle, \ldots\right] \to g_{\mu\nu} \to R_{\mu\nu}, R, G_{\mu\nu}
-$$
+$$\mathcal{Q}\left[\langle\hat{\Phi}_i\hat{\Phi}_j\rangle, \langle\hat{\Phi}_i\hat{\Phi}_j\hat{\Phi}_k\rangle, \ldots\right] \to g_{\mu\nu} \to R_{\mu\nu}, R, G_{\mu\nu}$$
 
 > **Quelle structure de corrélations quantiques pourrait produire une géométrie effective possédant les propriétés de l'espace-temps relativiste ?**
 
@@ -142,8 +138,8 @@ $$
 #### 1.1 Le réservoir microscopique
 La gravité est modélisée non pas comme une interaction fondamentale primordiale, mais comme la manifestation réfractive d'un champ de cohérence de phase $C(x)$. Le vide quantique est représenté par un réservoir d'oscillations stationnaires à très haute fréquence (échelle de Planck).
 
-#### 1.2 Annulation statistique et facteur $ 10^{120}$
-L'énergie de point zéro du vide quantique dépasse la valeur cosmologique observée d'un facteur $ 10^{120}$. Dans le modèle H2C, ce facteur traduit le taux d'interférence destructive massive au sein d'un réseau d'agents à phases libres orientées sur la sphère $ S^2 $. Le champ résiduel observable $\Lambda$ représente la composante non annulée issue de ce moyennage statistique :
+#### 1.2 Annulation statistique et facteur $10^{120}$
+L'énergie de point zéro du vide quantique dépasse la valeur cosmologique observée d'un facteur $10^{120}$. Dans le modèle H2C, ce facteur traduit le taux d'interférence destructive massive au sein d'un réseau d'agents à phases libres orientées sur la sphère $S^2$. Le champ résiduel observable $\Lambda$ représente la composante non annulée issue de ce moyennage statistique :
 
 ```
   [ Micro-fluctuations de Phase à l'Échelle de Planck ]
@@ -162,9 +158,7 @@ L'énergie de point zéro du vide quantique dépasse la valeur cosmologique obse
 G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}
 ```
 
-$$
-\langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i \phi_k} \sim \frac{1}{\sqrt{N}} \approx 10^{-60} \implies \rho_{\Lambda} \sim 10^{-120} \rho_{\text{Planck}}
-$$
+$$\langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i \phi_k} \sim \frac{1}{\sqrt{N}} \approx 10^{-60} \implies \rho_{\Lambda} \sim 10^{-120} \rho_{\text{Planck}}$$
 
 ---
 
@@ -174,8 +168,8 @@ $$
 Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'aligner. La campagne numérique **61H-10A** ($ N=2000 $ agents sur 500 pas) a testé cette dynamique sans bornage artificiel.
 
 #### 2.2 Résultat de la Campagne 61H-10A (Inversions de phase)
-- **Basculements de phase** : $ 55\ 706 $ inversions de signe ($\pm $) détectées sur les dérivées d'amplitude.
-- **Auto-régularisation** : Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($ A \to 0 $).
+- **Basculements de phase** : $55\ 706$ inversions de signe ($\pm $) détectées sur les dérivées d'amplitude.
+- **Auto-régularisation** : Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($A \to 0$).
 - **Plancher d'amplitude** : Stabilisation d'une valeur minimale finie :
 
 $$
