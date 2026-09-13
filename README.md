@@ -545,15 +545,15 @@ Sans ces étapes, l'idée reste une **hypothèse heuristique**.
 Question soumise aux chercheurs en gravité quantique, QFT en espace-temps courbe, gravité induite et émergente, holographie, information quantique et gravité, renormalisation, géométrie non commutative, espace-temps émergent, systèmes hors équilibre :
 
 > **Existe-t-il dans la littérature une construction mathématique où la géométrie gravitationnelle effective est explicitement dérivée d'une structure de corrélations quantiques, d'amplitudes et éventuellement d'une somme sur des histoires, dont la limite macroscopique reproduit les équations d'Einstein ?**
->
+
 > **Existe-t-il un mécanisme permettant de passer d'une multiplicité de configurations quantiques à un secteur quasi-classique cohérent dont les paramètres effectifs sont calculés plutôt que postulés ?**
 
-(19 sous-questions techniques détaillées — formulation mathématique exacte, degrés de liberté, corrélations, mesure, décohérence, émergence de la métrique, du temps, de la masse, de $G_{\text{eff}}$, de $\Lambda_{\text{eff}}$, hypothèses, limites, localité, covariance, cohérence énergie-impulsion, hiérarchie $10^{120}$, prédiction distinctive.) Si aucune construction satisfaisant ces critères n'existe : **quel obstacle structurel connu empêche une telle construction ?
+(19 sous-questions techniques détaillées — formulation mathématique exacte, degrés de liberté, corrélations, mesure, décohérence, émergence de la métrique, du temps, de la masse, de $G_{\text{eff}}$, de $\Lambda_{\text{eff}}$, hypothèses, limites, localité, covariance, cohérence énergie-impulsion, hiérarchie $10^{120}$, prédiction distinctive.) Si aucune construction satisfaisant ces critères n'existe : quel obstacle structurel connu empêche une telle construction ?
 ---
 
 ## 43. Ce que cette recherche ne prétend PAS démontrer
 
-Que l'espace-temps est fait de « points de vide quantique » ; que plusieurs espaces-temps classiques indépendants existent réellement ; que $ G $est nécessairement émergente ; que les$ 10^{120}$ ordres de grandeur représentent des étapes physiques de stabilisation ; que le coarse-graining explique déjà cette hiérarchie ; que Casimir est responsable de la constante cosmologique ; que plusieurs temps fondamentaux indépendants existent ; que le temps microscopique « s'écoule plus vite » ; que la phase stationnaire sélectionne à elle seule une unique réalité classique ; que la décohérence prouve une géométrie émergente ; que la masse est nécessairement émergente ; que le vide quantique permet de contrôler la gravité ; qu'une nouvelle théorie de gravité quantique a été découverte ; qu'une application d'antigravité ou de propulsion en découle.
+Que l'espace-temps est fait de « points de vide quantique » ; que plusieurs espaces-temps classiques indépendants existent réellement ; que $ G $est nécessairement émergente ; que les $10^{120}$ ordres de grandeur représentent des étapes physiques de stabilisation ; que le coarse-graining explique déjà cette hiérarchie ; que Casimir est responsable de la constante cosmologique ; que plusieurs temps fondamentaux indépendants existent ; que le temps microscopique « s'écoule plus vite » ; que la phase stationnaire sélectionne à elle seule une unique réalité classique ; que la décohérence prouve une géométrie émergente ; que la masse est nécessairement émergente ; que le vide quantique permet de contrôler la gravité ; qu'une nouvelle théorie de gravité quantique a été découverte ; qu'une application d'antigravité ou de propulsion en découle.
 
 Il s'agit uniquement d'une **question de recherche théorique**.
 
@@ -563,8 +563,8 @@ Il s'agit uniquement d'une **question de recherche théorique**.
 
 | Niveau | Question |
 |---|---|
-| **Géométrie** | Comment $ g_{\mu\nu}$ pourrait-il émerger ? |
-| **Gravitation** | Comment $ G_{\mathrm{eff}}$ pourrait-il apparaître ? |
+| **Géométrie** | Comment $g_{\mu\nu}$ pourrait-il émerger ? |
+| **Gravitation** | Comment $G_{\mathrm{eff}}$ pourrait-il apparaître ? |
 | **Cosmologie** | Pourquoi $\Lambda_{\mathrm{eff}}$ est-il si faible ? |
 | **Temps** | Le temps propre pourrait-il lui-même être émergent ? |
 | **Inertie** | Une masse effective pourrait-elle émerger du même substrat ? |
