@@ -139,7 +139,7 @@ $$
 
 ---
 
-### Chapitre 1 : Le Substrat $S^2$ et la Catastrophe du Vide ($ 10^{120}$)
+### Chapitre 1 : Le Substrat $S^2$ et la Catastrophe du Vide ($10^{120}$)
 
 #### 1.1 Le réservoir microscopique
 La gravité est modélisée non pas comme une interaction fondamentale primordiale, mais comme la manifestation réfractive d'un champ de cohérence de phase $ C(x)$. Le vide quantique est représenté par un réservoir d'oscillations stationnaires à très haute fréquence (échelle de Planck).
