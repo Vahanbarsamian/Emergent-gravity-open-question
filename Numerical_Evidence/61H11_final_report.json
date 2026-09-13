@@ -1,0 +1,14 @@
+{
+  "Campaign": "61H-11",
+  "Parameters": {
+    "A_min": 0.6132,
+    "a0": 3703.2
+  },
+  "Statistics": {
+    "RMSE_H2C": 0.4124371607765775,
+    "RMSE_MOND": 0.192679952504513,
+    "BTFR_Slope": 0.4057105079505786,
+    "G_eff_Max_Enhancement": 34.016196920453936
+  },
+  "Final_Verdict": "C"
+}
