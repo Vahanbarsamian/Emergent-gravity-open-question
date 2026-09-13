@@ -55,7 +55,7 @@ où $ g_{\mu\nu}$ est la métrique de l'espace-temps, $ G_{\mu\nu}=R_{\mu\nu}-\f
 
 ---
 
-## 3. Pourquoi s'Intéresser à l'Origine de $ G $ ?
+## 3. Pourquoi s'Intéresser à l'Origine de $G$ ?
 
 La relativité générale décrit remarquablement bien la gravité, mais elle ne fournit pas, à elle seule, une description microscopique de l'origine de la constante $ G $.
 
