@@ -715,7 +715,7 @@ Vérifié numériquement : le système complet avec médiateur explicite reprodu
 
 **Portée et limite.** C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais $ g $(couplage au médiateur) et$ m $ (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
 
-> ⚠️ **Point de vigilance sur la numérotation des tests.** Plusieurs fils de travail indépendants (celui-ci, et le journal numérique compagnon) ont chacun leur propre numérotation de « Test N », qui ne coïncident pas terme à terme — par exemple, le « Test 43 » de la section 48.4 ci-dessous (rayons $ R_{\mathrm{trans}}$,$ R_{\mathrm{gentle}}$) n'est pas le même calcul que le « Test 43 » du [journal d'expériences numériques](./Journal-experiences-numeriques.fr.md) (recherche d'exposants sur la solution radiale). Se référer au contenu de chaque test, pas seulement à son numéro, en cas de doute.
+> ⚠️ **Point de vigilance sur la numérotation des tests.** Plusieurs fils de travail indépendants (celui-ci, et le journal numérique compagnon) ont chacun leur propre numérotation de « Test N », qui ne coïncident pas terme à terme — par exemple, le « Test 43 » de la section 48.4 ci-dessous (rayons $R_{\mathrm{trans}}$,$R_{\mathrm{gentle}}$) n'est pas le même calcul que le « Test 43 » du [journal d'expériences numériques](./Journal-experiences-numeriques.fr.md) (recherche d'exposants sur la solution radiale). Se référer au contenu de chaque test, pas seulement à son numéro, en cas de doute.
 
 ---
 
