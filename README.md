@@ -89,7 +89,7 @@ $$
 \frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2
 $$
 
-où $N_i$ est le nombre de degrés de liberté d'un secteur, $\Lambda_i$ une échelle de coupure, $c_i$ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique** — elle ne démontre pas que$G $ est directement déterminé par le contenu quantique réel de l'Univers.
+où $N_i$ est le nombre de degrés de liberté d'un secteur, $\Lambda_i$ une échelle de coupure, $c_i$ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique** — elle ne démontre pas que $G$ est directement déterminé par le contenu quantique réel de l'Univers.
 
 ---
 
