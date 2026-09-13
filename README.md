@@ -151,7 +151,7 @@ L'énergie de point zéro du vide quantique dépasse la valeur cosmologique obse
               ▼
 
 [ Métrique Effective & Équation d'Einstein Cosmologique ]
-G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}
+$G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}$
 ```
 
 $$\langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i \phi_k} \sim \frac{1}{\sqrt{N}} \approx 10^{-60} \implies \rho_{\Lambda} \sim 10^{-120} \rho_{\text{Planck}}$$
