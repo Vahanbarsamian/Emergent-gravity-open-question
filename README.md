@@ -711,7 +711,7 @@ $$
 \boxed{K_{\mathrm{eff}}=\frac{g^2}{m^2}}
 $$
 
-Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage $g$ testées (de $g=0{,}05 $à$ g=1{,}0 $).
+Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage $g$ testées (de $g=0{,}05$ à $g=1{,}0$).
 
 **Portée et limite.** C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais $g$ (couplage au médiateur) et $m$ (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
 
