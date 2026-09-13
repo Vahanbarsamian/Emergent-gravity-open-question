@@ -484,7 +484,7 @@ $$
 \Psi[G] = \int_{\mathcal{C}(G)} \mathcal{D}\Phi\; e^{iS_{\mathrm{micro}}[\Phi]/\hbar}
 $$
 
-où $\Phi $ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et $S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
+où $\Phi$ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et $S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
 
 ---
 
@@ -513,7 +513,7 @@ Problème de la mesure ($\mathcal{D}[g_{\mu\nu}]$ covariante), convergence (poid
 
 ## 24. H6bis — Configurations Spatio-Temporelles Parallèles
 
-Au lieu de considérer plusieurs états intermédiaires d'un même espace-temps, on envisage une multiplicité de configurations ou histoires spatio-temporelles possibles : $\{H_1, H_2, \ldots, H_N\}$, chacune associée à sa propre géométrie effective $ g_{\mu\nu}^{(i)}$ et éventuellement à un temps propre effectif.
+Au lieu de considérer plusieurs états intermédiaires d'un même espace-temps, on envisage une multiplicité de configurations ou histoires spatio-temporelles possibles : $\{H_1, H_2, \ldots, H_N\}$, chacune associée à sa propre géométrie effective $g_{\mu\nu}^{(i)}$ et éventuellement à un temps propre effectif.
 
 > Une multiplicité de configurations spatio-temporelles dans une description quantique ne signifie pas automatiquement l'existence de plusieurs espaces-temps classiques indépendants au sens ordinaire.
 
