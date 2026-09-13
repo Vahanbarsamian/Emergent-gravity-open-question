@@ -675,8 +675,8 @@ Que l'espace-temps est fait de « points de vide quantique » ; que plusieurs es
 
 | Niveau | Question |
 |---|---|
-| **Géométrie** | Comment $ g_{\mu\nu}$ pourrait-il émerger ? |
-| **Gravitation** | Comment $ G_{\mathrm{eff}}$ pourrait-il apparaître ? |
+| **Géométrie** | Comment $g_{\mu\nu}$ pourrait-il émerger ? |
+| **Gravitation** | Comment $G_{\mathrm{eff}}$ pourrait-il apparaître ? |
 | **Cosmologie** | Pourquoi $\Lambda_{\mathrm{eff}}$ est-il si faible ? |
 | **Temps** | Le temps propre pourrait-il lui-même être émergent ? |
 | **Inertie** | Une masse effective pourrait-elle émerger du même substrat ? |
@@ -715,8 +715,8 @@ $$
 \dot\theta_i=\frac{K}{N}\sum_jw_{ij}\sin(\theta_j-\theta_i), \qquad w_{ij}=\exp\left[-\frac{(E_i-E_j)^2}{2\sigma^2}\right]
 $$
 
-### 47.5 Dérivation de $ K $ par élimination adiabatique
-En couplant chaque phase $\theta_i $ à un champ médiateur complexe $\psi $ :
+### 47.5 Dérivation de $K$ par élimination adiabatique
+En couplant chaque phase $\theta_i$ à un champ médiateur complexe $\psi$ :
 
 $$
 \dot\psi = \mathrm{taux} \cdot (-m^2\psi + g \bar{Z})
@@ -732,8 +732,8 @@ $$
 
 ## 48. Géométrie Régularisée et Récupération de la Limite Newtonienne
 
-### 48.1 Réfutation du $ 4/3 $ global
-Un scaling global $ r \sim N^{4/3}$ détruit l'asymptote newtonienne. La contrainte physique devient : $|g(r)| \propto \frac{1}{r^2}$ à grand $ r $.
+### 48.1 Réfutation du $4/3$ global
+Un scaling global $r \sim N^{4/3}$ détruit l'asymptote newtonienne. La contrainte physique devient : $|g(r)| \propto \frac{1}{r^2}$ à grand $r$.
 
 ### 48.2 Test 41 — Succès de la correction localisée
 
