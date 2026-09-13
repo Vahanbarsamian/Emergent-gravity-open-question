@@ -747,13 +747,13 @@ Le test numérique confirme la conservation de la masse totale intégrée et la 
 
 ## 49. Origine Dimensionnelle de $4/3$, $3/4$ et $1/4$
 
-Dans un espace à $ d=3 $ dimensions spatiales ($ 3+1 $) :
+Dans un espace à $d=3$ dimensions spatiales ($3+1$) :
 
 $$
 \alpha = \frac{d+1}{d} = \frac{4}{3}, \qquad \beta = \frac{d}{d+1} = \frac{3}{4}, \qquad \eta = \frac{1}{d+1} = \frac{1}{4}
 $$
 
-Avec $ C_c = \frac{1}{d+2} = \frac{1}{5}$, on retrouve exactement $\frac{C_c}{1-C_c} = \frac{1}{4}$.
+Avec $C_c = \frac{1}{d+2} = \frac{1}{5}$, on retrouve exactement $\frac{C_c}{1-C_c} = \frac{1}{4}$.
 
 ---
 
