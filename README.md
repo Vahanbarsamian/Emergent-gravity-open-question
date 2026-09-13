@@ -629,7 +629,7 @@ $$
 C(r)=C_c+\frac{r_g^2}{r^2+r_g^2}(C_{\max}-C_c),
 $$
 
-avec $ C_{\max}=1 $et$ r_g=2GM/c^2 $.
+avec $C_{\max}=1$ et $r_g=2GM/c^2$.
 
 Ce profil possède une propriété utile :
 
