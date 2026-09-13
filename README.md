@@ -49,7 +49,7 @@ $$
 G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
 $$
 
-où $g_{\mu\nu}$est la métrique de l'espace-temps,$G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$le tenseur d'Einstein,$\Lambda$ la constante cosmologique,$G $ la constante gravitationnelle,$T_{\mu\nu}$ le tenseur énergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $R^{\rho}{}_{\sigma\mu\nu}$.
+où $g_{\mu\nu}$ est la métrique de l'espace-temps,$G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ le tenseur d'Einstein, $\Lambda$ la constante cosmologique, $G$ la constante gravitationnelle, $T_{\mu\nu}$ le tenseur énergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $R^{\rho}{}_{\sigma\mu\nu}$.
 
 > **Précision importante :** $ G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les équations d'Einstein.
 
