@@ -942,6 +942,6 @@ class H2CSolverCoupledExperimental:
 
 ## 57. Conclusion & Perspectives
 
-Le cadre H2C démontre qu'il est possible d'améliorer de 19% le $\chi^2 $ global et d'atteindre 54,9% de victoires directes sur les modèles newtoniens classiques sans aucun ajustement paramétrique par galaxie.
+Le cadre H2C démontre qu'il est possible d'améliorer de 19% le $\chi^2$ global et d'atteindre 54,9% de victoires directes sur les modèles newtoniens classiques sans aucun ajustement paramétrique par galaxie.
 
 La géométrie du disque et la dynamique d'accélération s'auto-ajustent autour de l'invariance imposée par $\Lambda$, offrant un socle numérique solide, complet et transparent pour la révision par les pairs.
