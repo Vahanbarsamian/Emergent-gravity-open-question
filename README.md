@@ -721,9 +721,9 @@ Vérifié numériquement : le système complet avec médiateur explicite reprodu
 
 ## 48. Géométrie régularisée et récupération de la limite newtonienne
 
-### 48.1 Pourquoi le $ 4/3 $ global a été abandonné
+### 48.1 Pourquoi le $4/3$ global a été abandonné
 
-Les premières versions utilisaient un scaling global du type $ r\sim N^{4/3}$. Les Tests 39–40 ont montré que cette croissance non bornée ne peut pas être maintenue jusqu'à l'infini : elle détruit la limite newtonienne.
+Les premières versions utilisaient un scaling global du type $r\sim N^{4/3}$. Les Tests 39–40 ont montré que cette croissance non bornée ne peut pas être maintenue jusqu'à l'infini : elle détruit la limite newtonienne.
 
 La contrainte physique devient donc :
 
