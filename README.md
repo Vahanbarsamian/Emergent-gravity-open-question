@@ -204,7 +204,7 @@ Avec la constante d'accélération intrinsèque étalonnée sur le bruit du vide
 $$a_0 = c^2 \sqrt{\frac{\Lambda}{3}} \approx 5.4546 \times 10^{-10} \text{ m/s}^2$$
 
 #### 4.2 Résultats de la Campagne 61H-13
-- **Verrouillage de la pente** : En champ faible ($g_{\text{bar}} \ll a_0$), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999 $).
+- **Verrouillage de la pente** : En champ faible ($g_{\text{bar}} \ll a_0$), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999$).
 - **Rapport d'amplification** : Décrochement du champ vis-à-vis de la matière visible, permettant d'atteindre des facteurs d'amplification supérieurs à $30\times$ en bordure de disque.
 
 ---
@@ -386,13 +386,13 @@ Vérification que l'amplitude minimale $A_{\text{min}}$ est une propriété phys
 | 2000 | 0.0546 | **Régulier** |
 | 4000 | 0.0759 | **Convergent ($A > 0$)** |
 
-## 12. Pourquoi la Question Dépasse une Simple Théorie de $ G $ Variable
+## 12. Pourquoi la Question Dépasse une Simple Théorie de $G$ Variable
 
 $$
 \text{corrélations quantiques} \rightarrow \text{géométrie} \rightarrow G_{\mu\nu} \rightarrow \text{gravité}
 $$
 
-$ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt que le point de départ de la théorie.
+$G$ serait un **paramètre effectif de la géométrie émergente**, plutôt que le point de départ de la théorie.
 
 ---
 
@@ -400,11 +400,11 @@ $ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt qu
 
 | Obstacle | Description |
 |---|---|
-| **13.1 Covariance générale** | $ G_{\mu\nu}=\mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
-| **13.2 Identités de Bianchi** | $\nabla^\mu G_{\mu\nu}=0 $ doit apparaître au niveau macroscopique. |
-| **13.3 Conservation énergie-impulsion** | $\nabla^\mu T_{\mu\nu}=0 $ doit se généraliser si $ G_{\mathrm{eff}}$/$\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
-| **13.4 Émergence de la métrique** | Il faut expliquer comment $ g_{\mu\nu}$ elle-même émerge des degrés de liberté fondamentaux. |
-| **13.5 Dynamique de la géométrie** | Il faut expliquer l'apparition du terme $\sqrt{-g}R $ avec le bon coefficient. |
+| **13.1 Covariance générale** | $G_{\mu\nu}=\mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
+| **13.2 Identités de Bianchi** | $\nabla^\mu G_{\mu\nu}=0$ doit apparaître au niveau macroscopique. |
+| **13.3 Conservation énergie-impulsion** | $\nabla^\mu T_{\mu\nu}=0$ doit se généraliser si $G_{\mathrm{eff}}$/$\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
+| **13.4 Émergence de la métrique** | Il faut expliquer comment $g_{\mu\nu}$ elle-même émerge des degrés de liberté fondamentaux. |
+| **13.5 Dynamique de la géométrie** | Il faut expliquer l'apparition du terme $\sqrt{-g}R$ avec le bon coefficient. |
 | **13.6 Définition du vide quantique** | Préciser quel état quantique et quelles corrélations sont physiquement pertinents. |
 | **13.7 Localité / non-localité** | Comprendre comment une géométrie macroscopique locale émerge d'une description microscopique éventuellement non locale. |
 | **13.8 Universalité de la gravitation** | Expliquer pourquoi le couplage reste universel malgré la diversité des degrés de liberté microscopiques. |
@@ -415,13 +415,13 @@ $ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt qu
 
 L'intuition initiale considérait le « maillage » géométrique de l'espace-temps comme pouvant correspondre, par analogie, à une structure microscopique du vide quantique — une **métaphore heuristique**, non une affirmation qu'Einstein aurait proposé un espace-temps fait d'un réseau physique de points.
 
-> **La structure géométrique continue décrite par $ g_{\mu\nu}$ pourrait-elle être une description effective, à grande échelle, d'un substrat quantique discret, relationnel ou autrement structuré ?**
+> **La structure géométrique continue décrite par $g_{\mu\nu}$ pourrait-elle être une description effective, à grande échelle, d'un substrat quantique discret, relationnel ou autrement structuré ?**
 
 ---
 
 ## 15. La Question de la Constante Cosmologique
 
-La hiérarchie souvent résumée par un facteur de l'ordre de $ 10^{120}$ entre certaines estimations microscopiques de l'énergie du vide et la contribution cosmologique observée doit être traitée avec prudence.
+La hiérarchie souvent résumée par un facteur de l'ordre de $10^{120}$ entre certaines estimations microscopiques de l'énergie du vide et la contribution cosmologique observée doit être traitée avec prudence.
 
 > **Et si l'énorme hiérarchie révélait une différence entre deux niveaux de description physique ?**
 
@@ -456,7 +456,7 @@ $$
 \Psi \sim \int \mathcal{D}[\text{configurations}]\; e^{iS/\hbar}
 $$
 
-Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $ g_{\mu\nu}$.
+Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $g_{\mu\nu}$.
 
 ---
 
@@ -472,7 +472,7 @@ $$
 \delta S = 0
 $$
 
-Une intuition supplémentaire vient des conditions de fermeture de phase (Bohr-Sommerfeld, $ n\lambda=2\pi r $) : lorsque les phases se referment de manière cohérente, certaines contributions sont renforcées par interférence.
+Une intuition supplémentaire vient des conditions de fermeture de phase (Bohr-Sommerfeld, $n\lambda=2\pi r$) : lorsque les phases se referment de manière cohérente, certaines contributions sont renforcées par interférence.
 
 > **Existe-t-il, pour les configurations géométriques, une condition de cohérence analogue qui favorise certaines géométries comme configurations quasi-classiques stables ?**
 
@@ -484,7 +484,7 @@ $$
 \Psi[G] = \int_{\mathcal{C}(G)} \mathcal{D}\Phi\; e^{iS_{\mathrm{micro}}[\Phi]/\hbar}
 $$
 
-où $\Phi $ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $ G $, et $ S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
+où $\Phi $ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et $S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
 
 ---
 
@@ -498,13 +498,13 @@ Problème de la mesure ($\mathcal{D}[g_{\mu\nu}]$ covariante), convergence (poid
 
 | ID | Question |
 |---|---|
-| **H1** | Nature des degrés de liberté sommés — que sont concrètement les $\hat{\Phi}_i $ ? |
-| **H2** | Action microscopique $ S[\hat{\Phi}_i]$, sans présupposer $\sqrt{-g}R $. |
+| **H1** | Nature des degrés de liberté sommés — que sont concrètement les $\hat{\Phi}_i$ ? |
+| **H2** | Action microscopique $S[\hat{\Phi}_i]$, sans présupposer $\sqrt{-g}R$. |
 | **H3** | Mesure d'intégration — quelle classe de configurations, quelles symétries respectées. |
 | **H4** | Signature et convergence — euclidien vs lorentzien. |
 | **H5** | Critère de phase stationnaire, appliqué à l'action microscopique. |
 | **H6** | Mécanisme de décohérence séparé de la phase stationnaire elle-même. |
-| **H7** | Origine de $ G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ depuis les paramètres microscopiques. |
+| **H7** | Origine de $G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ depuis les paramètres microscopiques. |
 | **H8** | Conditions aux limites. |
 | **H9** | Domaine de validité. |
 | **H10** | Prédiction distinctive et testable. |
@@ -559,7 +559,7 @@ Il est plus rigoureux de parler d'une **configuration ou famille de configuratio
 
 ## 30. H6bis.6 — Les Temporalités Internes aux Histoires
 
-Si $ H_i \to g_{\mu\nu}^{(i)}$, alors le temps propre associé $\tau_i $ est déterminé par cette géométrie.
+Si $H_i \to g_{\mu\nu}^{(i)}$, alors le temps propre associé $\tau_i$ est déterminé par cette géométrie.
 
 > **Le temps que nous observons pourrait-il être le temps propre interne à l'histoire quasi-classique dans laquelle notre description macroscopique est définie ?**
 
@@ -589,19 +589,19 @@ $$
 
 ## 33. Le Lien Possible avec la Constante Cosmologique
 
-> **La valeur cosmologiquement observée de $\Lambda $ pourrait-elle être une propriété émergente d'un secteur collectif de configurations quantiques plutôt qu'une simple somme des énergies de point zéro de tous les champs ?**
+> **La valeur cosmologiquement observée de $\Lambda$ pourrait-elle être une propriété émergente d'un secteur collectif de configurations quantiques plutôt qu'une simple somme des énergies de point zéro de tous les champs ?**
 
 ---
 
 ## 34. Une Distinction entre Trois Niveaux de Description
 
-Niveau microscopique ($\hat{\Phi}_i $) → niveau quantique des configurations/histoires ($ H_i $) → niveau classique émergent ($ g_{\mu\nu}, \tau_{\mathrm{eff}}, G_{\mathrm{eff}}, \Lambda_{\mathrm{eff}}$). Cette séparation évite de confondre degrés de liberté fondamentaux, configurations possibles et variables macroscopiques effectives.
+Niveau microscopique ($\hat{\Phi}_i$) → niveau quantique des configurations/histoires ($H_i$) → niveau classique émergent ($g_{\mu\nu}, \tau_{\mathrm{eff}}, G_{\mathrm{eff}}, \Lambda_{\mathrm{eff}}$). Cette séparation évite de confondre degrés de liberté fondamentaux, configurations possibles et variables macroscopiques effectives.
 
 ---
 
 ## 35. Temps, Histoire et Géométrie
 
-Si $ H_i \to (g_{\mu\nu}^{(i)}, \tau_{\mathrm{eff}}^{(i)})$, géométrie et temps deviennent deux aspects liés de la même description effective.
+Si $H_i \to (g_{\mu\nu}^{(i)}, \tau_{\mathrm{eff}}^{(i)})$, géométrie et temps deviennent deux aspects liés de la même description effective.
 
 ---
 
@@ -653,7 +653,7 @@ $$
 
 ## 41. Ce qu'il Faudrait Démontrer pour Transformé l'Hypothèse en Théorie
 
-Définir les degrés de liberté fondamentaux ; définir leur dynamique ; définir la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $ g_{\mu\nu}$ et le temps effectif émergent ; dériver une action effective retrouvant $\sqrt{-g}R $ ; déterminer $ G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
+Définir les degrés de liberté fondamentaux ; définir leur dynamique ; définir la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $ g_{\mu\nu}$ et le temps effectif émergent ; dériver une action effective retrouvant $\sqrt{-g}R$ ; déterminer $G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
 
 ---
 
