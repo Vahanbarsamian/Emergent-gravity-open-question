@@ -197,7 +197,7 @@ Cependant, l'application de ce formalisme linéaire à la base de données galac
 | Modèle / Test | RMSE (RAR) | Pente BTFR | Amplification Max |
 | :--- | :--- | :--- | :--- |
 | **H2C Fixe ($A_{\text{min}}=0.61$)** |$0.4124 $|$0.3015$|$1.63\times$ |
-| **H2C Scaling ($ M^{-0.055}$)** |$0.4281$|$0.3242$|$1.4\times \text{ à } 2.1\times$ |
+| **H2C Scaling ($M^{-0.055}$)** |$0.4281$|$0.3242$|$1.4\times \text{ à } 2.1\times$ |
 | **Observations (SPARC)** | **$0.1927$** | **$0.2500$** | **jusqu'à $34\times$** |
 
 #### 3.2 Diagnostic
@@ -221,7 +221,7 @@ a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 1.20 \times 10^{-10} \text{ m/s}^2
 $$
 
 #### 4.2 Résultats de la Campagne 61H-13
-- **Verrouillage de la pente** : En champ faible ($g_{\text{bar}} \ll a_0$), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000 $** ($\theta_{\text{périphérie}} = -0.9999 $).
+- **Verrouillage de la pente** : En champ faible ($g_{\text{bar}} \ll a_0$), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999 $).
 - **Rapport d'amplification** : Décrochement du champ vis-à-vis de la matière visible, permettant d'atteindre des facteurs d'amplification supérieurs à $30\times$ en bordure de disque.
 
 # PARTIE II : APPROFONDISSEMENT THÉORIQUE & PROTOCOLE DE VALIDATION ASTROPHYSIQUE (SPARC)
