@@ -95,8 +95,8 @@ où $ N_i $ est le nombre de degrés de liberté d'un secteur, $\Lambda_i $ une 
 
 ## 6. Ce que cette Relation ne permet PAS d'Affirmer
 
-### 6.1 Le cutoff $\Lambda $ n'est pas nécessairement un paramètre physique manipulable
-### 6.2 Une variation de $ G $ serait fortement contrainte
+### 6.1 Le cutoff $\Lambda$ n'est pas nécessairement un paramètre physique manipulable
+### 6.2 Une variation de $G$ serait fortement contrainte
 
 ---
 
@@ -114,7 +114,7 @@ $$
 
 ## 8. Hypothèse de Travail
 
-> **La métrique classique $ g_{\mu\nu}$ pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i $.**
+> **La métrique classique $g_{\mu\nu}$ pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
 
 ---
 
