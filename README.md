@@ -675,13 +675,13 @@ $$
 
 ce qui fournit une référence indispensable pour interpréter les petits $ C $ à taille finie.
 
-### 47.4 Statut de $ R $Le signe de $R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
+### 47.4 Statut de $R$ Le signe de $R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
 
 Les hypothèses spécifiques suivantes n'ont pas été confirmées sous leur forme initiale :
 
 - $R<0$ comme secteur nécessairement destructif ;
 - $R$ comme code direct d'un cône causal futur/passé ;
-- corrélation entre le signe de $ R $ et un winding topologique.
+- corrélation entre le signe de $R$ et un winding topologique.
 
 Un indicateur causal alternatif $R_{\mathrm{causal}}$ reste une piste, mais sans plancher positif démontré.
 
@@ -691,7 +691,7 @@ Un indicateur causal alternatif $R_{\mathrm{causal}}$ reste une piste, mais sans
 
 La dynamique décrite en 47.3 utilise une constante de couplage $K$ qui, jusqu'ici, était un paramètre externe ajusté à la main. Deux résultats établissent qu'elle peut être reformulée, puis en partie dérivée.
 
-**Étape 1 — $K$ est déjà, structurellement, une constante de couplage.** La dynamique$\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel:
+**Étape 1 — $K$ est déjà, structurellement, une constante de couplage.** La dynamique $\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel:
 
 $$
 V[\theta]=-\frac{K}{2N}\sum_{i,j}w_{ij}\cos(\theta_i-\theta_j)
