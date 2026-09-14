@@ -1703,9 +1703,7 @@ Il faut donc obtenir les données brutes et le protocole exact avant toute concl
 
 Le rapport externe 70A–70B avait interprété :
 
-$$
-v\simeq0,86
-$$
+$v\simeq0,86$
 
 comme un seuil énergétique distinct, puis introduit une fenêtre de métastabilité entre $0,86$ et $2,0$.
 
@@ -1717,7 +1715,7 @@ $$
 \boxed{v_c=2u}.
 $$
 
-La valeur $ 0,86$ doit donc être conservée dans le journal uniquement comme **résultat historique erroné**, accompagné de la correction mathématique.
+La valeur $0,86$ doit donc être conservée dans le journal uniquement comme **résultat historique erroné**, accompagné de la correction mathématique.
 
 Cette distinction est importante pour éviter qu'une valeur fausse ne réapparaisse ultérieurement comme une « prédiction précédente ».
 
@@ -1778,30 +1776,12 @@ notamment :
 
 Le programme doit désormais distinguer explicitement :
 
-$$
-\boxed{
-\text{reproduction numérique}
-\neq
-\text{explication physique}
-}
-$$
+$\boxed{\text{reproduction numérique}\neq\text{explication physique}}$
 
 Une explication prédictive complète devrait idéalement suivre la chaîne :
 
 $$
-\boxed{
-S_{\rm micro}
-\rightarrow
-P(\psi)
-\rightarrow
-F_{\rm eff}
-\rightarrow
-v_{ab}^{\rm eff}
-\rightarrow
-v_c
-\rightarrow
-\gamma_2,\gamma_3
-}
+\boxed{S_{\rm micro} \to P(\psi) \to F_{\rm eff} \to v_{ab}^{\rm eff} \to v_c \to \gamma_2, \gamma_3}
 $$
 
 sans choisir les paramètres effectifs spécifiquement pour reproduire la dernière observable.
