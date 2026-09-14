@@ -1072,13 +1072,13 @@ reste une hypothèse de travail et non une mesure expérimentale de trois temps 
 
 Les prochaines étapes doivent rester séparées et falsifiables :
 
-1. **Auditer $ c_{\mathrm{eff}}$terme par terme**, en recherchant notamment toute racine carrée déjà présente dans sa définition avant d'interpréter un résultat proche de $\sqrt2$.
+1. **Auditer $c_{\mathrm{eff}}$ terme par terme**, en recherchant notamment toute racine carrée déjà présente dans sa définition avant d'interpréter un résultat proche de $\sqrt2$.
 2. **Poursuivre l'analyse des corrélations** $\tau_{ij}$ pour déterminer si des échelles de corrélation différenciées émergent réellement.
-3. Construire une distance $ d_{ij}$seulement si les corrélations produisent une structure non triviale qui n'est pas simplement héritée de $ E_i$.
-4. Chercher ensuite un rayon émergent $ r $et seulement alors tester$ N(r)$et $ D_{\mathrm{eff}}(r)$.
-5. Tester si l'exposant observé dans la zone de transition est réellement compatible avec $ 4/3 $ sans le fixer à l'avance.
+3. Construire une distance $d_{ij}$ seulement si les corrélations produisent une structure non triviale qui n'est pas simplement héritée de $E_i$.
+4. Chercher ensuite un rayon émergent $ r $et seulement alors tester $N(r)$ et $D_{\mathrm{eff}}(r)$.
+5. Tester si l'exposant observé dans la zone de transition est réellement compatible avec $4/3$ sans le fixer à l'avance.
 6. Confronter le profil gravitationnel corrigé à des données observationnelles réelles, notamment les courbes de rotation, sans recalibrage ad hoc par galaxie si l'objectif est la prédictivité.
-7. Conserver séparément la question de l'origine microscopique de $ C_c $: le Test 51 ferme la piste précise « pondération énergétique$ ightarrow C_c=1/5 $ » sous la famille testée, mais ne ferme pas toutes les possibilités théoriques.
+7. Conserver séparément la question de l'origine microscopique de $C_c$: le Test 51 ferme la piste précise « pondération énergétique $ightarrow C_c=1/5$ » sous la famille testée, mais ne ferme pas toutes les possibilités théoriques.
 
 ---
 
@@ -1086,7 +1086,7 @@ Les prochaines étapes doivent rester séparées et falsifiables :
 
 Le modèle a franchi une étape importante : certaines constructions qui divergeaient ont été abandonnées, tandis qu'une **correction localisée** a montré une récupération robuste de la limite newtonienne dans le modèle jouet.
 
-Le $ 4/3 $n'est plus utilisé comme loi globale. Il est maintenant traité comme un **scaling de transition potentiel**, avec une interpolation$\alpha(s)$ qui tend vers $4/3$ lorsque la densification normalisée tend vers la saturation $s\to1$.
+Le $4/3$ n'est plus utilisé comme loi globale. Il est maintenant traité comme un **scaling de transition potentiel**, avec une interpolation $\alpha(s)$ qui tend vers $4/3$ lorsque la densification normalisée tend vers la saturation $s\to1$.
 
 La structure :
 
@@ -1094,7 +1094,7 @@ $$
 \frac43,\qquad\frac34,\qquad\frac14
 $$
 
-est cohérente avec $ d=3 $, mais sa valeur scientifique dépend encore d'une dérivation indépendante de$ C_c=1/5 $. Les Tests 49–51 ont précisément empêché de présenter cette relation comme déjà dérivée : les dynamiques testées ne sélectionnent pas$ 1/5 $ spontanément.
+est cohérente avec $d=3$, mais sa valeur scientifique dépend encore d'une dérivation indépendante de $C_c=1/5$. Les Tests 49–51 ont précisément empêché de présenter cette relation comme déjà dérivée : les dynamiques testées ne sélectionnent pas $1/5$ spontanément.
 
 La position scientifique actuelle peut donc être résumée par :
 
@@ -1138,7 +1138,7 @@ Le programme reste donc ouvert, mais il est désormais plus falsifiable, plus pr
 
 Le problème scientifique central reste :
 
-> **Existe-t-il une dynamique microscopique suffisamment précise pour produire simultanément la cohérence $ C $, une structure métrique émergente, la limite newtonienne, les équations d'Einstein et les paramètres cosmologiques observés sans les imposer à l'avance ?**
+> **Existe-t-il une dynamique microscopique suffisamment précise pour produire simultanément la cohérence $C$, une structure métrique émergente, la limite newtonienne, les équations d'Einstein et les paramètres cosmologiques observés sans les imposer à l'avance ?**
 
 *Document de réflexion personnelle et d'open science — à confronter à la littérature scientifique et à des validations indépendantes.*
 
@@ -1149,7 +1149,7 @@ Le problème scientifique central reste :
 > **Statut : mise à jour méthodologique majeure.** 
 > Cette section conserve la trace des résultats, corrections et questions ouvertes apparus après les campagnes 68–69e. Elle doit être lue comme un audit du modèle jouet, et non comme une validation de la théorie d'émergence gravitationnelle.
 
-### 53.1 Point de départ : l'écart $ v_c(\alpha=0)\simeq2,92 $contre$ v_c^{\rm th}=2u=2,0 $
+### 53.1 Point de départ : l'écart $v_c(\alpha=0)\simeq2,92$ contre $v_c^{\rm th}=2u=2,0$
 
 Le rapport des campagnes 68–69e rapportait une extrapolation numérique :
 
@@ -1169,7 +1169,7 @@ $$
 v_c^{\rm th}=2.
 $$
 
-Cet écart de l'ordre de $ 46\%$ a été identifié comme une anomalie méthodologique à résoudre **avant toute nouvelle campagne interprétative**.
+Cet écart de l'ordre de $46\%$ a été identifié comme une anomalie méthodologique à résoudre **avant toute nouvelle campagne interprétative**.
 
 Le principe de travail est :
 
@@ -1241,13 +1241,13 @@ $$
 \boxed{F_1=-\frac{r^2}{4u}}.
 $$
 
-Pour $ r=u=1 $,
+Pour $r=u=1$,
 
 $$
 \boxed{F_1=-0,25}.
 $$
 
-> **Correction explicite :** $ F_1 $n'est pas égal à$ 0 $. Le terme quadratique et le terme quartique ne s'annulent pas au minimum ; ils donnent ensemble$-r^2/(4u)$.
+> **Correction explicite :** $F_1$ n'est pas égal à $0$. Le terme quadratique et le terme quartique ne s'annulent pas au minimum ; ils donnent ensemble $-r^2/(4u)$.
 
 #### Rang 3 symétrique
 
@@ -1281,17 +1281,17 @@ F_3=-\frac{3r^2}{4(u+v)}
 }.
 $$
 
-Pour $ r=u=1 $et$ v=0 $,
+Pour $r=u=1$ et $v=0$,
 
 $$
 \boxed{F_3=-0,75}.
 $$
 
-Le rapport 70A donnait $-0,5625 $, valeur compatible avec une mauvaise substitution de l'amplitude.
+Le rapport 70A donnait $-0,5625$, valeur compatible avec une mauvaise substitution de l'amplitude.
 
 ---
 
-### 53.3 Le croisement énergétique n'est pas à $ v\simeq0,86 $
+### 53.3 Le croisement énergétique n'est pas à $v\simeq0,86$
 
 Avec les expressions correctes :
 
@@ -1301,7 +1301,7 @@ F_1=-\frac{r^2}{4u},
 F_3=-\frac{3r^2}{4(u+v)}.
 $$
 
-La condition $ F_1=F_3 $ donne :
+La condition $F_1=F_3$ donne :
 
 $$
 \frac1u=\frac3{u+v},
@@ -1319,7 +1319,7 @@ $$
 \boxed{v=2u}.
 $$
 
-Pour $ u=1 $ :
+Pour $u=1$ :
 
 $$
 \boxed{v_c^{\rm énergie}=2}.
@@ -1345,13 +1345,13 @@ $$
 
 telle que le rang 1 serait globalement favorisé alors que le rang 3 resterait métastable.
 
-Le prétendu seuil $ v\simeq0,86 $ du rapport 70A doit être classé comme **artefact algébrique**, et non comme un second seuil physique.
+Le prétendu seuil $v\simeq0,86$ du rapport 70A doit être classé comme **artefact algébrique**, et non comme un second seuil physique.
 
 ---
 
-### 53.4 Formule générale pour $ k $ composantes actives
+### 53.4 Formule générale pour $k$ composantes actives
 
-Pour $ k $composantes de même amplitude$\rho $ :
+Pour $k$ composantes de même amplitude $\rho$ :
 
 $$
 F_k(\rho)
@@ -1395,19 +1395,19 @@ F_k^{\min}
 }.
 $$
 
-Pour $ k=1 $ :
+Pour $k=1$ :
 
 $$
 F_1^{\min}=-\frac{r^2}{4u}.
 $$
 
-Pour $ k=3 $ :
+Pour $k=3$ :
 
 $$
 F_3^{\min}=-\frac{3r^2}{4(u+v)}.
 $$
 
-La comparaison $ F_1^{\min}=F_3^{\min}$ redonne bien :
+La comparaison $F_1^{\min}=F_3^{\min}$ redonne bien :
 
 $$
 \boxed{v=2u}.
@@ -1428,7 +1428,7 @@ u\sum_a|\psi_a|^4
 v\sum_{a<b}|\psi_a|^2|\psi_b|^2
 $$
 
-possède donc, pour $ u>0 $et$ r>0 $, un seuil naturel :
+possède donc, pour $u>0$ et $r>0$, un seuil naturel :
 
 $$
 \boxed{v_c=2u}.
@@ -1436,7 +1436,7 @@ $$
 
 Ce résultat ne dépend pas d'un ajustement numérique du seuil.
 
-En revanche, il ne suffit pas à expliquer pourquoi une simulation donnée pourrait produire un seuil apparent autour de $ 2,9 $. Cette question reste distincte :
+En revanche, il ne suffit pas à expliquer pourquoi une simulation donnée pourrait produire un seuil apparent autour de $2,9$. Cette question reste distincte :
 
 $$
 \boxed{
@@ -1522,7 +1522,7 @@ $$
 \dot\rho_a=2\lambda_a(\rho)\rho_a,
 $$
 
-avec $\lambda_a $ réel, et :
+avec $\lambda_a$ réel, et :
 
 $$
 \boxed{\dot\theta_a=0}
@@ -1532,7 +1532,7 @@ pour cette **dynamique réduite précise**.
 
 Les amplitudes peuvent donc décroître jusqu'à zéro alors que les phases restent figées.
 
-> **Point méthodologique essentiel :** $\dot\theta_a=0 $ n'est pas une conséquence de$U(1)^3 $ seule. C'est une conséquence de la combinaison « potentiel invariant en phase + choix du flot de gradient ».
+> **Point méthodologique essentiel :** $\dot\theta_a=0$ n'est pas une conséquence de $U(1)^3$ seule. C'est une conséquence de la combinaison « potentiel invariant en phase + choix du flot de gradient ».
 
 ---
 
@@ -1573,7 +1573,7 @@ C'est désormais une question prioritaire de 70S :
 
 ### Hypothèse testée
 
-Le $ 2,92 $pourrait provenir d'une extrapolation linéaire inadéquate plutôt que d'un véritable seuil à$\alpha=0 $.
+Le $ 2,92 $pourrait provenir d'une extrapolation linéaire inadéquate plutôt que d'un véritable seuil à $\alpha=0$.
 
 On part des mesures :
 
@@ -1604,13 +1604,13 @@ $$
 ### Paramètres fixes
 
 - dynamique exacte ;
-- $ N $ ;
-- $ u,r $ ;
+- $N$ ;
+- $u,r$ ;
 - intégrateur ;
-- $ dt $ ;
-- définition opérationnelle de $ v_c $ ;
+- $dt$ ;
+- définition opérationnelle de $v_c$ ;
 - seeds ;
-- définition de $\alpha $.
+- définition de $\alpha$.
 
 ### Paramètre variable
 
@@ -1636,9 +1636,9 @@ $$
 v_c^{\rm lin}(0)\simeq v_c^{\rm quad}(0)\simeq2,92
 $$
 
-avec des incertitudes suffisamment faibles pour exclure $ 2 $.
+avec des incertitudes suffisamment faibles pour exclure $2$.
 
-> **Condition indispensable :** les points bruts $ v_c(\alpha)$ doivent être conservés. Une extrapolation ne doit pas être reconstruite à partir de sa seule formule finale.
+> **Condition indispensable :** les points bruts $v_c(\alpha)$ doivent être conservés. Une extrapolation ne doit pas être reconstruite à partir de sa seule formule finale.
 
 ---
 
@@ -1690,7 +1690,7 @@ le temps fini n'explique pas l'écart.
 
 ### 70B-2 — Taille
 
-Une fois $ T $ suffisamment convergé :
+Une fois $T$ suffisamment convergé :
 
 $$
 T=T_{\rm convergé},
@@ -1726,7 +1726,7 @@ Sinon, la taille finie n'explique pas l'écart.
 
 ### Règle non négociable
 
-Ne jamais faire varier simultanément $ T $et$ N $ dans un test destiné à attribuer causalement un déplacement du seuil.
+Ne jamais faire varier simultanément $T$ et $N$ dans un test destiné à attribuer causalement un déplacement du seuil.
 
 ---
 
@@ -1768,7 +1768,7 @@ Il n'est donc plus correct de présenter le terme cubique comme « le » terme m
 
 ### Candidat spatial
 
-Si les variables $\psi_a $ sont réellement des champs spatiaux, on peut tester :
+Si les variables $\psi_a$ sont réellement des champs spatiaux, on peut tester :
 
 $$
 F_\nabla
@@ -1787,7 +1787,7 @@ Un terme supplémentaire n'est explicatif que si :
 
 1. il est autorisé par les symétries ;
 2. son coefficient est mesurable ou dérivable microscopiquement ;
-3. il est introduit avant de connaître son effet sur $ v_c $ ;
+3. il est introduit avant de connaître son effet sur $v_c$ ;
 4. sa magnitude est physiquement plausible ;
 5. il améliore la prédiction sans réglage arbitraire.
 
@@ -1859,9 +1859,9 @@ v_{ab}^{\rm eff}|\psi_a|^2|\psi_b|^2
 +\cdots
 $$
 
-L'objectif est de déterminer si les $ v_{ab}$, les anisotropies et d'éventuels termes de phase ou de gradient apparaissent **dans les données**, plutôt que d'être introduits pour reproduire un résultat.
+L'objectif est de déterminer si les $v_{ab}$, les anisotropies et d'éventuels termes de phase ou de gradient apparaissent **dans les données**, plutôt que d'être introduits pour reproduire un résultat.
 
-> **Réserve :** l'inversion $ F_{\rm eff}=-\ln P $ n'est interprétable comme un potentiel thermodynamique standard que si les conditions statistiques et d'équilibre nécessaires sont satisfaites. Pour une dynamique hors équilibre, il s'agit d'abord d'un potentiel statistique effectif, pas automatiquement d'une énergie thermodynamique.
+> **Réserve :** l'inversion $F_{\rm eff}=-\ln P$ n'est interprétable comme un potentiel thermodynamique standard que si les conditions statistiques et d'équilibre nécessaires sont satisfaites. Pour une dynamique hors équilibre, il s'agit d'abord d'un potentiel statistique effectif, pas automatiquement d'une énergie thermodynamique.
 
 ---
 
@@ -1887,7 +1887,7 @@ $$
 
 Ce résultat est **indicatif seulement** : il ne reproduit pas encore le protocole exact des campagnes 68–69d faute d'accès aux points bruts et à leur définition opérationnelle complète du seuil.
 
-Il est néanmoins important car il montre qu'une reconstruction indépendante du modèle anisotrope peut produire une valeur beaucoup plus proche de $ 2 $que$ 2,92 $.
+Il est néanmoins important car il montre qu'une reconstruction indépendante du modèle anisotrope peut produire une valeur beaucoup plus proche de $2$ que $2,92$.
 
 Cela conduit à une règle stricte :
 
@@ -1897,7 +1897,7 @@ $$
 }
 $$
 
-Il faut donc obtenir les données brutes et le protocole exact avant toute conclusion sur l'origine du $ 2,92 $.
+Il faut donc obtenir les données brutes et le protocole exact avant toute conclusion sur l'origine du $2,92$.
 
 ---
 
@@ -1909,7 +1909,7 @@ $$
 v\simeq0,86
 $$
 
-comme un seuil énergétique distinct, puis introduit une fenêtre de métastabilité entre $ 0,86 $et$ 2,0 $.
+comme un seuil énergétique distinct, puis introduit une fenêtre de métastabilité entre $0,86$ et $2,0$.
 
 L'audit algébrique montre que cette interprétation est invalide pour le potentiel quartique symétrique défini ici.
 
@@ -2014,21 +2014,21 @@ $$
 \frac{\gamma_3}{\gamma_2}\approx1,37
 $$
 
-obtenu avec anisotropie, car l'ajustement de plusieurs $ v_{ab}$ sur une seule cible ne constitue pas à lui seul une démonstration causale.
+obtenu avec anisotropie, car l'ajustement de plusieurs $v_{ab}$ sur une seule cible ne constitue pas à lui seul une démonstration causale.
 
 ---
 
 # 59. Questions restant ouvertes après l'audit
 
-1. Quelle est exactement la définition opérationnelle de $ v_c $ dans les campagnes 68–69e ?
+1. Quelle est exactement la définition opérationnelle de $v_c$ dans les campagnes 68–69e ?
 2. Quels sont les points bruts $(\alpha_i,v_c(\alpha_i))$ ?
-3. Quelle est la sensibilité de $ v_c $à la durée$ T $ ?
-4. Quelle est sa convergence en $ N $une fois$ T $ convergé ?
-5. La réduction microscopique vers $\psi_a $ peut-elle être dérivée explicitement ?
-6. Le gel $\dot\theta_a=0 $ existe-t-il au niveau microscopique ou est-il créé par la réduction ?
+3. Quelle est la sensibilité de $v_c $ à la durée$ T$ ?
+4. Quelle est sa convergence en $N$ une fois $T$ convergé ?
+5. La réduction microscopique vers $\psi_a$ peut-elle être dérivée explicitement ?
+6. Le gel $\dot\theta_a=0$ existe-t-il au niveau microscopique ou est-il créé par la réduction ?
 7. Quels couplages de phase sont réellement permis par les symétries microscopiques ?
-8. Les coefficients $ v_{ab}$ peuvent-ils être reconstruits directement à partir des trajectoires ?
-9. Les anisotropies $ v_{12}<v_{13}<v_{23}$ sont-elles explicitement imposées ou émergent-elles ?
+8. Les coefficients $v_{ab}$ peuvent-ils être reconstruits directement à partir des trajectoires ?
+9. Les anisotropies $v_{12}<v_{13}<v_{23}$ sont-elles explicitement imposées ou émergent-elles ?
 10. Le modèle homogène 0D est-il suffisant, ou faut-il introduire une structure spatiale ?
 
 ---
@@ -2039,13 +2039,13 @@ obtenu avec anisotropie, car l'ajustement de plusieurs $ v_{ab}$ sur une seule c
 
 Le statut actuel doit être lu ainsi :
 
-- $ v_c=2u $ : **résultat analytique du potentiel quartique symétrique** ;
-- $ v\simeq0,86 $ : **artefact algébrique identifié** ;
-- $ v_c\simeq2,92 $ : **observation/extrapolation historique à reproduire et auditer**, pas une valeur théorique établie ;
-- $ v_c\simeq2,118 $ : **reconstruction indépendante partielle**, non concluante ;
-- $ U(1)^3 $ : **symétrie du potentiel et du flot réduit** dans le modèle considéré ;
-- $\dot\theta_a=0 $ : **propriété du flot de gradient réduit**, pas encore dérivée de la dynamique microscopique ;
-- $ v_{ab}$ : **paramètres effectifs non encore dérivés microscopiquement** ;
+- $v_c=2u$ : **résultat analytique du potentiel quartique symétrique** ;
+- $v\simeq0,86$ : **artefact algébrique identifié** ;
+- $v_c\simeq2,92$ : **observation/extrapolation historique à reproduire et auditer**, pas une valeur théorique établie ;
+- $v_c\simeq2,118$ : **reconstruction indépendante partielle**, non concluante ;
+- $U(1)^3$ : **symétrie du potentiel et du flot réduit** dans le modèle considéré ;
+- $\dot\theta_a=0$ : **propriété du flot de gradient réduit**, pas encore dérivée de la dynamique microscopique ;
+- $v_{ab}$ : **paramètres effectifs non encore dérivés microscopiquement** ;
 - 70A–70D : **protocole de falsification**, pas résultats définitifs ;
 - 70S : **audit de la classe de dynamique et du lien micro → modal**.
 
@@ -2100,10 +2100,10 @@ def compute_mond_emergence(a_0=1.2e-10, g_bar_scale=1e-8):
 
 Pour garantir une transparence totale, les fichiers de données brutes sont archivés dans [Numerical_Evidence/](./Numerical_Evidence).
 
-- **`61H8C_limit_audit.json`** : Preuve de la régularité du substrat ($A_{\text{min}} > 0 $).
-- **`61H9_convergence_report.json`** : Rapport de scaling haute résolution ($ N=4000 $).
+- **`61H8C_limit_audit.json`** : Preuve de la régularité du substrat ($A_{\text{min}} > 0$).
+- **`61H9_convergence_report.json`** : Rapport de scaling haute résolution ($N=4000$).
 - **`61H12_extended_results.csv`** : Documente l'effet de forme galactique.
-- **`61H11_final_report.json`** : Synthèse des performances sur 175 galaxies (Gain de $ 19\%$de $\chi^2$).
+- **`61H11_final_report.json`** : Synthèse des performances sur 175 galaxies (Gain de $19\%$ de $\chi^2$).
 
 ---
 
