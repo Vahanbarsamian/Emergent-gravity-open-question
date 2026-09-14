@@ -2,6 +2,12 @@
 - [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
 - [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
 
+> **💡 Comment générer l'exécutable Windows (.exe) :**
+> 1. Téléchargez les deux fichiers ci-dessus (`H2C_Universal_Cockpit.py` et `H2C_Windows_Builder.py`).
+> 2. Placez-les dans le même dossier sur votre ordinateur.
+> 3. Ouvrez un terminal et lancez le builder : `python H2C_Windows_Builder.py`.
+> 4. Votre application autonome sera créée dans le dossier `dist/`.
+
 ---
 
 # Émergence Géométrique, Auto-Correction et Dynamique Galactique (Cadre H2C)
