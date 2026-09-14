@@ -1621,7 +1621,9 @@ Un terme supplémentaire n'est explicatif que si :
 
 La condition forte recherchée est :
 
-$\boxed{\text{micro-dynamique}\rightarrow\text{coefficient effectif}\rightarrowv_c\simeq2,92}$
+$$
+\boxed{\text{micro-dynamique} \to \text{coefficient effectif} \to v_c \simeq 2,92}
+$$
 
 et non :
 
@@ -1649,34 +1651,16 @@ $$
 
 On peut alors reconstruire, sous les hypothèses appropriées :
 
-$$
-\boxed{
-F_{\rm eff}
-=
--k_BT_{\rm eff}\ln P
-}
-$$
+$\boxed{F_{\rm eff}=-k_BT_{\rm eff}\ln P}$
 
 ou, en unités réduites :
 
-$$
-\boxed{
-F_{\rm eff}=-\ln P+C.
-}
-$$
+$\boxed{F_{\rm eff}=-\ln P+C.}$
 
 Le potentiel reconstruit peut ensuite être comparé à :
 
 $$
-F_{\rm eff}
-=
--r_{\rm eff}\sum_a|\psi_a|^2
-+
-u_{\rm eff}\sum_a|\psi_a|^4
-+
-\sum_{a<b}
-v_{ab}^{\rm eff}|\psi_a|^2|\psi_b|^2
-+\cdots
+F_{\rm eff}=-r_{\rm eff}\sum_a|\psi_a|^2+u_{\rm eff}\sum_a|\psi_a|^4+\sum_{a<b}v_{ab}^{\rm eff}|\psi_a|^2|\psi_b|^2+\cdots
 $$
 
 L'objectif est de déterminer si les $v_{ab}$, les anisotropies et d'éventuels termes de phase ou de gradient apparaissent **dans les données**, plutôt que d'être introduits pour reproduire un résultat.
