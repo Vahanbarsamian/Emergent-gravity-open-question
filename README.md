@@ -1234,7 +1234,7 @@ La stationnarité donne :
 $$\boxed{
 \rho_3^2=\frac{r}{2(u+v)}}.$$
 Donc :
-$$\boxed{F_3=-\frac{3r^2}{4(u+v)}}.
+$\boxed{F_3=-\frac{3r^2}{4(u+v)}}.$
 Pour $r=u=1$ et $v=0$, $\boxed{F_3=-0,75}$.
 Le rapport 70A donnait $-0,5625$, valeur compatible avec une mauvaise substitution de l'amplitude.
 
@@ -1264,15 +1264,11 @@ $$
 
 et finalement :
 
-$$
-\boxed{v=2u}.
-$$
+$\boxed{v=2u}.$
 
 Pour $u=1$ :
 
-$$
-\boxed{v_c^{\rm énergie}=2}.
-$$
+$\boxed{v_c^{\rm énergie}=2}.$
 
 Le seuil énergétique et le seuil de stabilité locale coïncident donc dans ce modèle symétrique :
 
