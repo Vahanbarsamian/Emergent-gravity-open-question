@@ -1800,7 +1800,7 @@ obtenu avec anisotropie, car l'ajustement de plusieurs $v_{ab}$ sur une seule ci
 
 1. Quelle est exactement la définition opérationnelle de $v_c$ dans les campagnes 68–69e ?
 2. Quels sont les points bruts $(\alpha_i,v_c(\alpha_i))$ ?
-3. Quelle est la sensibilité de $v_c $ à la durée$ T$ ?
+3. Quelle est la sensibilité de $v_c$ à la durée $T$ ?
 4. Quelle est sa convergence en $N$ une fois $T$ convergé ?
 5. La réduction microscopique vers $\psi_a$ peut-elle être dérivée explicitement ?
 6. Le gel $\dot\theta_a=0$ existe-t-il au niveau microscopique ou est-il créé par la réduction ?
