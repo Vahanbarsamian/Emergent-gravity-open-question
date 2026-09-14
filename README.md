@@ -1315,8 +1315,7 @@ $$
 ### 53.5 Conséquence : le mécanisme de compétition modale reste plausible, mais l'interprétation doit être nettoyée
 
 Le modèle minimal :
-
-$$F=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2$$
+$F=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2$
 
 possède donc, pour $u>0$ et $r>0$, un seuil naturel :
 
@@ -1401,12 +1400,7 @@ Les amplitudes peuvent donc décroître jusqu'à zéro alors que les phases rest
 La dynamique microscopique d'origine, notamment les oscillateurs de type Kuramoto étudiés ailleurs dans le programme, possède une dynamique de phase active :
 
 $$
-\dot\theta_i
-=
-\frac KN
-\sum_j
-w_{ij}
-\sin(\theta_j-\theta_i).
+\dot\theta_i=\frac KN\sum_jw_{ij}\sin(\theta_j-\theta_i).
 $$
 
 Il existe donc deux niveaux distincts :
@@ -1429,11 +1423,11 @@ C'est désormais une question prioritaire de 70S :
 
 # 54. Protocole de diagnostic 70A–70D
 
-## 54.1 70A — tester l'extrapolation $\alpha\rightarrow0 $
+## 54.1 70A — tester l'extrapolation $\alpha\rightarrow0$
 
 ### Hypothèse testée
 
-Le $ 2,92 $pourrait provenir d'une extrapolation linéaire inadéquate plutôt que d'un véritable seuil à $\alpha=0$.
+Le $2,92$ pourrait provenir d'une extrapolation linéaire inadéquate plutôt que d'un véritable seuil à $\alpha=0$.
 
 On part des mesures :
 
