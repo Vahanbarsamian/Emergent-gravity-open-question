@@ -1405,15 +1405,9 @@ $$
 
 Il existe donc deux niveaux distincts :
 
-$$
-\boxed{
-\text{dynamique microscopique}
-\neq
-\text{dynamique modale réduite}
-}
-$$
+$\boxed{\text{dynamique microscopique}\neq\text{dynamique modale réduite}}$
 
-La propriété $\dot\theta_a=0 $ du modèle de Landau réduit ne doit pas être présentée comme une propriété démontrée de la dynamique microscopique tant qu'une réduction explicite n'a pas été dérivée.
+La propriété $\dot\theta_a=0$ du modèle de Landau réduit ne doit pas être présentée comme une propriété démontrée de la dynamique microscopique tant qu'une réduction explicite n'a pas été dérivée.
 
 C'est désormais une question prioritaire de 70S :
 
