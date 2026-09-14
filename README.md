@@ -1650,18 +1650,12 @@ P(\psi_1,\psi_2,\psi_3).
 $$
 
 On peut alors reconstruire, sous les hypothèses appropriées :
-
 $\boxed{F_{\rm eff}=-k_BT_{\rm eff}\ln P}$
-
 ou, en unités réduites :
-
 $\boxed{F_{\rm eff}=-\ln P+C.}$
 
 Le potentiel reconstruit peut ensuite être comparé à :
-
-$$
-F_{\rm eff}=-r_{\rm eff}\sum_a|\psi_a|^2+u_{\rm eff}\sum_a|\psi_a|^4+\sum_{a<b}v_{ab}^{\rm eff}|\psi_a|^2|\psi_b|^2+\cdots
-$$
+$F_{\rm eff}=-r_{\rm eff}\sum_a|\psi_a|^2+u_{\rm eff}\sum_a|\psi_a|^4+\sum_{a<b}v_{ab}^{\rm eff}|\psi_a|^2|\psi_b|^2+\cdots$
 
 L'objectif est de déterminer si les $v_{ab}$, les anisotropies et d'éventuels termes de phase ou de gradient apparaissent **dans les données**, plutôt que d'être introduits pour reproduire un résultat.
 
