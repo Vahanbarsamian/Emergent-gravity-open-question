@@ -1173,15 +1173,14 @@ Cet écart de l'ordre de $46\%$ a été identifié comme une anomalie méthodolo
 
 Le principe de travail est :
 
-$$
-\boxed{
+$\boxed{
 \text{artefact numérique}
 \;\rightarrow\;
 \text{limites }T,N
 \;\rightarrow\;
 \text{terme physique manquant}
 }
-$$
+$
 
 et non l'inverse.
 
@@ -1199,7 +1198,6 @@ v\sum_{a<b}|\psi_a|^2|\psi_b|^2,
 
 #### Rang 1
 Pour une seule composante active :
-
 $$
 F_1(\rho)=-r\rho^2+u\rho^4.
 $$
@@ -1208,21 +1206,15 @@ $$
 -2r\rho+4u\rho^3=0
 $$
 et donc, pour le minimum non trivial,
-$$
-\boxed{\rho_1^2=\frac{r}{2u}}.
-$$
+$\boxed{\rho_1^2=\frac{r}{2u}}.$
 L'énergie correspondante est :
 $$F_1=-r\frac{r}{2u}+
 u\frac{r^2}{4u^2}=-\frac{r^2}{4u}.
 $$
 Ainsi :
-$$
-\boxed{F_1=-\frac{r^2}{4u}}.
-$$
+$\boxed{F_1=-\frac{r^2}{4u}}.$
 Pour $r=u=1$,
-$$
-\boxed{F_1=-0,25}.
-$$
+$\boxed{F_1=-0,25}.$
 > **Correction explicite :** $F_1$ n'est pas égal à $0$. Le terme quadratique et le terme quartique ne s'annulent pas au minimum ; ils donnent ensemble $-r^2/(4u)$.
 
 #### Rang 3 symétrique
