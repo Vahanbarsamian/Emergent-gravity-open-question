@@ -1605,10 +1605,7 @@ Il n'est donc plus correct de présenter le terme cubique comme « le » terme m
 ### Candidat spatial
 
 Si les variables $\psi_a$ sont réellement des champs spatiaux, on peut tester :
-
-$$
-F_\nabla=\sum_a\kappa_a|\nabla\psi_a|^2+\sum_{a<b}\kappa_{ab}\nabla\psi_a\cdot\nabla\psi_b.
-$$
+$F_\nabla=\sum_a\kappa_a|\nabla\psi_a|^2+\sum_{a<b}\kappa_{ab}\nabla\psi_a\cdot\nabla\psi_b.$
 
 Mais cette extension change la nature du modèle : elle introduit des degrés de liberté spatiaux qui n'existent pas dans le modèle homogène 0D.
 
