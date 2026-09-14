@@ -1198,31 +1198,22 @@ v\sum_{a<b}|\psi_a|^2|\psi_b|^2,
 \qquad r>0,\;u>0,\;v>0.$$
 
 #### Rang 1
-
 Pour une seule composante active :
 
 $$
 F_1(\rho)=-r\rho^2+u\rho^4.
 $$
-
 La condition de stationnarité donne :
-
 $$
 -2r\rho+4u\rho^3=0
 $$
-
 et donc, pour le minimum non trivial,
-
 $$
 \boxed{\rho_1^2=\frac{r}{2u}}.
 $$
-
 L'énergie correspondante est :
-
-$$F_1=
--r\frac{r}{2u}+
-u\frac{r^2}{4u^2}=
--\frac{r^2}{4u}.
+$$F_1=-r\frac{r}{2u}+
+u\frac{r^2}{4u^2}=-\frac{r^2}{4u}.
 $$
 Ainsi :
 $$
@@ -1236,30 +1227,15 @@ $$
 
 #### Rang 3 symétrique
 Pour :
-$$
-\psi_1=\psi_2=\psi_3=\rho,
-$$
+$$\psi_1=\psi_2=\psi_3=\rho,$$
 on obtient :
-$$
-F_3(\rho)=-3r\rho^2+3(u+v)\rho^4.
-$$
-
+$$F_3(\rho)=-3r\rho^2+3(u+v)\rho^4.$$
 La stationnarité donne :
-$$
-\boxed{
-\rho_3^2=\frac{r}{2(u+v)}
-}.
-$$
+$$\boxed{
+\rho_3^2=\frac{r}{2(u+v)}}.$$
 Donc :
-$$
-\boxed{
-F_3=-\frac{3r^2}{4(u+v)}
-}.
-$$
-Pour $r=u=1$ et $v=0$,
-$$
-\boxed{F_3=-0,75}.
-$$
+$$\boxed{F_3=-\frac{3r^2}{4(u+v)}}.
+Pour $r=u=1$ et $v=0$, $\boxed{F_3=-0,75}$.
 Le rapport 70A donnait $-0,5625$, valeur compatible avec une mauvaise substitution de l'amplitude.
 
 ---
