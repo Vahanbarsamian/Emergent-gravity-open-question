@@ -741,7 +741,7 @@ Le Test 41 a corrigé une erreur de signe : $g(r)$ est négatif par convention, 
 
 Valeurs rapportées :
 
-| $r$ (kpc) |$|g(r)|r^2 $ |
+| $r$ (kpc) |$|g(r)|r^2$ |
 |---:|---:|
 | 15 | 1183,9 |
 | 20 | 1183,0 |
