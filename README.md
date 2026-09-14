@@ -534,7 +534,7 @@ Aucun mécanisme commun de cette forme n'est établi ici. *(Voir le document com
 
 ## 41. Ce qu'il faudrait démontrer pour transformer l'hypothèse en théorie
 
-Définir les degrés de liberté fondamentaux et leur espace d'états ; définir leur dynamique et les corrélations pertinentes ; définir l'objet sommé et la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $g_{\mu\nu}$ et le temps effectif émergent ; déterminer si une masse effective peut apparaître ; dériver une action effective retrouvant $\sqrt{-g}R$; déterminer $G_{\mathrm{eff}}$et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
+Définir les degrés de liberté fondamentaux et leur espace d'états ; définir leur dynamique et les corrélations pertinentes ; définir l'objet sommé et la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $g_{\mu\nu}$ et le temps effectif émergent ; déterminer si une masse effective peut apparaître ; dériver une action effective retrouvant $\sqrt{-g}R$; déterminer $G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
 
 Sans ces étapes, l'idée reste une **hypothèse heuristique**.
 
