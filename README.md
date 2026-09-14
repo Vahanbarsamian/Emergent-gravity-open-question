@@ -1163,7 +1163,7 @@ $$
 v_c^{\rm th}=2u.
 $$
 
-Pour $ u=1 $,
+Pour $u=1$,
 
 $$
 v_c^{\rm th}=2.
