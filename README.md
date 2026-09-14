@@ -1276,47 +1276,21 @@ Le prétendu seuil $v\simeq0,86$ du rapport 70A doit être classé comme **artef
 
 Pour $k$ composantes de même amplitude $\rho$ :
 
-$$
-F_k(\rho)
-=
--kr\rho^2
-+
-\left[
-ku+\frac{k(k-1)}2v
-\right]\rho^4.
-$$
+$$F_k(\rho)=-kr\rho^2+\left[ku+\frac{k(k-1)}2v\right]\rho^4.$$
 
 La condition de stationnarité donne :
 
-$$
-\rho_k^2
-=
-\frac{r}
-{2u+(k-1)v}.
-$$
+$$\rho_k^2=\frac{r}{2u+(k-1)v}.$$
 
 Ainsi :
 
-$$
-\boxed{
-\rho_k
-=
-\sqrt{\frac{r}{2u+(k-1)v}}
-}.
-$$
+$\boxed{\rho_k=\sqrt{\frac{r}{2u+(k-1)v}}}.$
 
 Cette formule corrige une ambiguïté importante présente dans les versions précédentes : l'amplitude elle-même porte une racine carrée.
 
 L'énergie minimale devient :
 
-$$
-\boxed{
-F_k^{\min}
-=
--\frac{k r^2}
-{2\,[2u+(k-1)v]}
-}.
-$$
+$\boxed{F_k^{\min}=-\frac{k r^2}{2\,[2u+(k-1)v]}}.$
 
 Pour $k=1$ :
 
@@ -1342,30 +1316,17 @@ $$
 
 Le modèle minimal :
 
-$$
-F=
--r\sum_a|\psi_a|^2
-+
-u\sum_a|\psi_a|^4
-+
-v\sum_{a<b}|\psi_a|^2|\psi_b|^2
-$$
+$$F=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2$$
 
 possède donc, pour $u>0$ et $r>0$, un seuil naturel :
 
-$$
-\boxed{v_c=2u}.
-$$
+$\boxed{v_c=2u}.$
 
 Ce résultat ne dépend pas d'un ajustement numérique du seuil.
 
 En revanche, il ne suffit pas à expliquer pourquoi une simulation donnée pourrait produire un seuil apparent autour de $2,9$. Cette question reste distincte :
 
-$$
-\boxed{
-v_c^{\rm apparent}\neq v_c^{\rm théorique}
-}
-$$
+$\boxed{v_c^{\rm apparent}\neq v_c^{\rm théorique}}$
 
 tant que les effets de temps fini, taille finie, définition opérationnelle du seuil et éventuelle réduction du modèle n'ont pas été séparés.
 
@@ -1375,29 +1336,11 @@ tant que les effets de temps fini, taille finie, définition opérationnelle du 
 
 La dynamique collective étudiée dans les Tests 9–46 est un flot de gradient :
 
-$$
-\boxed{
-\dot\psi_a
-=
--\frac{\partial F}{\partial\psi_a^*}
-}
-$$
+$\boxed{\dot\psi_a=-\frac{\partial F}{\partial\psi_a^*}}$
 
 soit, dans le cas général :
 
-$$
-\boxed{
-\dot\psi_a
-=
-r\psi_a
--
-2u|\psi_a|^2\psi_a
--
-\left(
-\sum_{b\neq a}v_{ab}|\psi_b|^2
-\right)\psi_a
-}.
-$$
+$\boxed{\dot\psi_a=r\psi_a-2u|\psi_a|^2\psi_a-\left(\sum_{b\neq a}v_{ab}|\psi_b|^2\right)\psi_a}.$
 
 ### Symétrie du potentiel
 
@@ -1417,17 +1360,13 @@ avec trois phases indépendantes.
 
 Donc :
 
-$$
-\boxed{G_F=U(1)^3}.
-$$
+$\boxed{G_F=U(1)^3}.$
 
 ### Symétrie du flot
 
 Le flot de gradient est alors équivariant sous la même action :
 
-$$
-\boxed{G_{\rm flot}=U(1)^3}.
-$$
+$\boxed{G_{\rm flot}=U(1)^3}.$
 
 La symétrie du potentiel et celle du flot ne doivent cependant pas être confondues avec une loi de conservation d'une charge de Noether.
 
@@ -1447,9 +1386,7 @@ $$
 
 avec $\lambda_a$ réel, et :
 
-$$
-\boxed{\dot\theta_a=0}
-$$
+$\boxed{\dot\theta_a=0}$
 
 pour cette **dynamique réduite précise**.
 
