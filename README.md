@@ -114,7 +114,7 @@ $$
 
 ## 8. Hypothèse de Travail
 
-> **La métrique classique $g_{\mu\nu}$pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
+> **La métrique classique $g_{\mu\nu}$ pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
 
 ---
 
