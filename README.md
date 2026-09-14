@@ -1975,3 +1975,25 @@ Pour évaluer la robustesse fondamentale du solveur H2C, un test en aveugle a é
 Le test confirme que le couplage auto-consistant H2C améliore significativement la précision cinématique dans la grande majorité des cas sans aucune intervention humaine. Les rares échecs (ex: CamB) concernent des galaxies où le modèle baryonique pur est déjà proche de la perfection, et où la correction universelle introduit une légère sur-accélération.
 
 Ce résultat valide la **capacité prédictive** du modèle : la "matière noire" émerge ici comme une conséquence mathématique de la dynamique de phase, et non comme un ajustement ad hoc.
+
+## 60. Audit Comparatif des Ancrages : Empirique ($1.2$) vs Théorique ($5.45$)
+
+L'un des tests de discrimination physique les plus critiques a été réalisé : comparer l'ancrage empirique (calibré sur les observations) à l'ancrage théorique dérivé directement de la constante cosmologique $\Lambda$ ($a_0 = c \sqrt{\Lambda/3}$).
+
+### Résultats du Duel d'Échelles (N=25)
+| Métrique | Ancrage Empirique ($1.2 \times 10^{-10}$) | Ancrage Théorique ($5.45 \times 10^{-10}$) |
+| :--- | :--- | :--- |
+| **RMSE Moyen** | **20.25 km/s** | 38.00 km/s (Dégradation) |
+| **Taux de Victoire vs Newton** | **84%** | 48% |
+| **Status Statistique** | Régime prédictif robuste | Effondrement de la moyenne globale |
+
+### Analyse de Falsification & "Pépites" Théoriques
+Le saut d'un facteur 4.5 vers l'échelle théorique provoque un effondrement de la performance statistique globale (le RMSE théorique est en moyenne pire que le baseline Newtonien). Cela confirme qu'il existe un **décalage d'échelle non résolu** entre le vide subquantique et la dynamique galactique.
+
+Cependant, le test a révélé des anomalies fascinantes. Pour certaines galaxies spécifiques, l'ancrage théorique a **écrasé** l'ancrage empirique :
+- **NGC2841** : RMSE Théorique **35.6** vs Empirique **79.5**
+- **ESO563-G021** : RMSE Théorique **39.0** vs Empirique **65.2**
+- **NGC0024** : RMSE Théorique **8.7** vs Empirique **25.9**
+
+### Conclusion de l'Audit 60
+Le modèle H2C est confronté à un paradoxe : l'ancrage théorique est "trop fort" pour la majorité des galaxies, mais semble "viser juste" pour un sous-groupe massif et compact. Cela suggère que $a_0$ ne soit pas une constante universelle stricte, mais le résultat d'un couplage dynamique dont la valeur de Planck est le plafond, et la valeur MOND le plancher effectif.
