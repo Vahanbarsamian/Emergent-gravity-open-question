@@ -1,3 +1,26 @@
+# 🛠️ H2C SOFTWARE DOWNLOADS
+- [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
+- [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
+
+---
+
+# Émergence Géométrique, Auto-Correction et Dynamique Galactique (Cadre H2C)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22068679.svg)](https://doi.org/10.5281/zenodo.22068679)
+
+---
+
+## Citation
+
+Si vous référencez ces travaux, merci d'utiliser la citation suivante :
+
+> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22068679
+
+---
+🇫🇷 Français | [🇬🇧 English version](README_en.md)
+
+# Question Ouverte & Manuscrit Théorique : La géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22068679.svg)](https://doi.org/10.5281/zenodo.22068679)
 ---
 ## Citation
@@ -262,7 +285,7 @@ $$
 \mathcal{L}_{\text{eff}} = \frac{1}{2} (\nabla \psi)^2 - \frac{\lambda}{4} |\psi|^4 - V(\psi) + g \psi \rho_b
 $$
 
-Où $\lambda $ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire $ a_0=c^2\sqrt{\Lambda/3}$, la saturation du terme quartique fait émerger la fonction d'interpolation $\mu(x)$ de type MOND/AQUAL.
+Où $\lambda $ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire $ a_0\propto\sqrt{\Lambda}$, la saturation du terme quartique fait émerger la fonction d'interpolation $\mu(x)$ de type MOND/AQUAL.
 
 L'équation de champ généralisée prend la forme d'une équation de Poisson modifiée conservative :
 
@@ -271,51 +294,9 @@ $$
 $$
 
 ### 2. Protocole d'Essai Prédictif sur le Catalogue SPARC
-L'audit prédictif du modèle H2C s'appuie sur le catalogue **SPARC** (175 galaxies) avec des profils baryoniques de haute précision.
 - **Zéro Paramètre Libre** : $ a_0 $ est ancré sur le vide cosmologique ($\Lambda $).
 - **Masse Sombre Nulle** : $ M_{\text{DM}}=0 $.
-- **Validation** : Confrontation directe pour vérifier la réduction du $\chi^2$ et la conformité à la Relation d'Accélération Radiale (RAR).
-
----
-
-## 55. Solveur Auto-Consistant H2C & Validation SPARC (175 Galaxies)
-
-### 55.1 Code source complet d'exécution (Backend Agg)
-
-```python
-import numpy as np
-import pandas as pd
-
-# CONSTANTES UNIVERSELLES & ANCRAGE COSMOLOGIQUE
-C_M_S = 299792458.0
-LAMBDA_M2 = 1.1056e-52
-A0_H2C = (C_M_S**2) * np.sqrt(LAMBDA_M2 / 3.0) # ~5.4546e-10 m/s^2
-
-class H2CSolverCoupledExperimental:
- def __init__(self, r_kpc, v_gas, v_disk, v_bul, max_iter=15, tol=1e-4):
-  self.r_m = np.array(r_kpc) * 3.086e19
-  self.v_gas, self.v_disk, self.v_bul = np.array(v_gas), np.array(v_disk), np.array(v_bul)
-
- def solve(self):
-  # Newton baseline
-  v_n2 = self.v_gas**2 + self.v_disk**2 + self.v_bul**2
-  a_n = (v_n2 * 1e6) / (self.r_m + 1e-10)
-  
-  # H2C Universal Transition Formula
-  y = a_n / A0_H2C
-  mu_inv = np.sqrt(0.5 + 0.5 * np.sqrt(1.0 + 4.0 / (y**2 + 1e-15)))
-  
-  a_h2c = a_n * mu_inv
-  v_h2c = np.sqrt(a_h2c * self.r_m) / 1000.0
-  return v_h2c
-```
-
-### 55.2 Performances Observationnelles
-| Métrique | Baseline Newton | H2C Auto-Consistant |
-| :--- | :--- | :--- |
-| **RMSE (SPARC)** | 55,38 km/s | **49,12 km/s** |
-| **Gain vs Newton** | Baseline | **-11,3%** |
-| **Réduction $\chi^2 $** | - | **-19,0%** |
+- **Validation** : Confrontation directe aux 175 galaxies du catalogue SPARC pour vérifier la réduction du $\chi^2 $ et la conformité à la Relation d'Accélération Radiale (RAR).
 
 # PARTIE III : JOURNAL DES CAMPAGNES & ÉVOLUTION ANALYTIQUE
 
@@ -2161,7 +2142,7 @@ def run_phase_inversion_audit(N=2000, max_steps=500, dt=0.01):
 ---
 
 ## 2. Moteur d'Émergence MOND (Audit 61H-13)
-Validation analytique de la pente $-1.0000$ en champ faible par auto-interaction.
+Validation analytique de la pente $-1.0000$ en champ faible.
 
 ```python
 import numpy as np
@@ -2175,9 +2156,44 @@ def compute_mond_emergence(a_0=1.2e-10, g_bar_scale=1e-8):
 ---
 
 ## 3. Guide de Lecture des Preuves (`Numerical_Evidence/`)
-Les fichiers de données brutes sont archivés dans [Numerical_Evidence/](./Numerical_Evidence).
+
+Pour garantir une transparence totale, les fichiers de données brutes sont archivés dans [Numerical_Evidence/](./Numerical_Evidence).
 
 - **`61H8C_limit_audit.json`** : Preuve de la régularité du substrat ($A_{\text{min}}>0 $).
-- **`61H9_convergence_report.json`** : Rapport de scaling haute résolution ($ N=4000$).
+- **`61H9_convergence_report.json`** : Rapport de scaling haute résolution ($ N=4000 $).
 - **`61H12_extended_results.csv`** : Documente l'effet de forme galactique.
-- **`61H11_final_report.json`** : Synthèse des performances sur 175 galaxies.
+- **`61H11_final_report.json`** : Synthèse des performances sur 175 galaxies (Gain de $ 19\%$ de $\chi^2$).
+
+---
+
+## 55. Solveur Auto-Consistant H2C & Validation SPARC (175 Galaxies)
+
+### 55.1 Code source complet d'exécution (Backend Agg)
+
+```python
+import numpy as np
+import pandas as pd
+
+# CONSTANTES UNIVERSELLES & ANCRAGE COSMOLOGIQUE
+C_M_S = 299792458.0
+LAMBDA_M2 = 1.1056e-52
+A0_H2C = (C_M_S**2) * np.sqrt(LAMBDA_M2 / 3.0) # ~5.4546e-10 m/s^2
+
+class H2CSolverCoupledExperimental:
+ def __init__(self, r_kpc, v_gas, v_disk, v_bul, max_iter=15, tol=1e-4):
+  self.r_m = np.array(r_kpc) * 3.086e19
+  self.v_gas, self.v_disk, self.v_bul = np.array(v_gas), np.array(v_disk), np.array(v_bul)
+
+ def solve(self):
+  # Newton baseline
+  v_n2 = self.v_gas**2 + self.v_disk**2 + self.v_bul**2
+  a_n = (v_n2 * 1e6) / (self.r_m + 1e-10)
+  
+  # H2C Universal Transition Formula
+  y = a_n / A0_H2C
+  mu_inv = np.sqrt(0.5 + 0.5 * np.sqrt(1.0 + 4.0 / (y**2 + 1e-15)))
+  
+  a_h2c = a_n * mu_inv
+  v_h2c = np.sqrt(a_h2c * self.r_m) / 1000.0
+  return v_h2c
+```
