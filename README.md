@@ -1198,19 +1198,13 @@ v\sum_{a<b}|\psi_a|^2|\psi_b|^2,
 
 #### Rang 1
 Pour une seule composante active :
-$$
-F_1(\rho)=-r\rho^2+u\rho^4.
-$$
+$F_1(\rho)=-r\rho^2+u\rho^4.$
 La condition de stationnarité donne :
-$$
--2r\rho+4u\rho^3=0
-$$
+$-2r\rho+4u\rho^3=0$
 et donc, pour le minimum non trivial,
 $\boxed{\rho_1^2=\frac{r}{2u}}.$
 L'énergie correspondante est :
-$$F_1=-r\frac{r}{2u}+
-u\frac{r^2}{4u^2}=-\frac{r^2}{4u}.
-$$
+$$F_1=-r\frac{r}{2u}+u\frac{r^2}{4u^2}=-\frac{r^2}{4u}.$$
 Ainsi :
 $\boxed{F_1=-\frac{r^2}{4u}}.$
 Pour $r=u=1$,
@@ -1264,15 +1258,7 @@ $\boxed{v_c^{\rm énergie}=2}.$
 
 Le seuil énergétique et le seuil de stabilité locale coïncident donc dans ce modèle symétrique :
 
-$$
-\boxed{
-v_c^{\rm énergie}
-=
-v_c^{\rm stabilité}
-=
-2u
-}.
-$$
+$\boxed{v_c^{\rm énergie}=v_c^{\rm stabilité}=2u}.$
 
 Il n'existe donc **pas**, dans ce potentiel quartique symétrique précis, de fenêtre thermodynamique distincte
 
