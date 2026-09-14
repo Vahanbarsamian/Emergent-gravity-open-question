@@ -11,10 +11,7 @@ class H2CAdaptiveSolver:
     1. Ancrage cosmologique sur Lambda.
     2. Rétroaction itérative sur le rapport Masse/Luminosité (M/L).
     3. Correction géométrique adaptative du disque.
-    4. Système de pré-positionnement multi-critères (Fil d'Ariane) basé sur :
-       - Masse baryonique relative (L36_tot).
-       - Accélération maximale (g_max).
-       - Compacité (R_max^-1).
+    4. Système de pré-positionnement multi-critères (Fil d'Ariane).
     """
     def __init__(self, a0=5.4546e-10):
         self.a0 = a0 
@@ -49,6 +46,7 @@ class H2CAdaptiveSolver:
         v_disk = df_galaxy['V_disk'].values
         v_bulge = df_galaxy['V_bulge'].values
         
+        # Initialisation Newtonienne
         v_n2_raw = np.sign(v_gas)*(v_gas**2) + 0.5*(v_disk**2) + 0.7*(v_bulge**2)
         a_n = (np.maximum(1e-15, v_n2_raw) * (self.KM_S_TO_M_S**2)) / (r_m + 1e-10)
         
@@ -75,12 +73,8 @@ class H2CCockpitExporter:
     @staticmethod
     def export_audit_report(results_dict, filename_prefix="h2c_audit_report"):
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        
-        # 1. Export JSON
         json_buffer = io.StringIO()
         json.dump(results_dict, json_buffer, indent=4, ensure_ascii=False)
-        
-        # 2. Export CSV
         csv_buffer = io.StringIO()
         if "galaxies" in results_dict and results_dict["galaxies"]:
             keys = results_dict["galaxies"][0].keys()
@@ -88,7 +82,6 @@ class H2CCockpitExporter:
             writer.writeheader()
             for gal in results_dict["galaxies"]:
                 writer.writerow(gal)
-        
         return json_buffer.getvalue(), csv_buffer.getvalue(), timestamp
 
 # --- INTERFACE UTILISATEUR ---
@@ -100,6 +93,12 @@ st.markdown("*Système intelligent de pré-positionnement (Fil d'Ariane) validé
 # Sidebar
 st.sidebar.header("📁 Source de Données")
 uploaded_zip = st.sidebar.file_uploader("Archive SPARC (.zip)", type="zip")
+
+# Paramètres Physiques
+st.sidebar.divider()
+st.sidebar.subheader("⚙️ Paramètres Physiques")
+anchor_mode = st.sidebar.selectbox("Ancrage Cosmologique (a0)", ["H2C Théorique (5.45e-10)", "Empirique MOND (1.20e-10)"])
+a0_val = 5.4546e-10 if "Théorique" in anchor_mode else 1.2e-10
 
 if not uploaded_zip:
     st.info("👋 Veuillez charger l'archive SPARC pour activer le solveur intelligent.")
@@ -135,7 +134,8 @@ if selected_target:
     st.sidebar.divider()
     mass_input = st.sidebar.number_input("Masse Baryonique (Optionnel)", value=1e10, format="%.1e")
     
-    solver = H2CAdaptiveSolver()
+    # CERTIFIÉ : Le solveur utilise désormais la valeur a0_val sélectionnée !
+    solver = H2CAdaptiveSolver(a0=a0_val)
     df_res, status, total_off = solver.solve(df_gal, 
                                             mass=mass_input if use_auto else None,
                                             manual_offset=manual_shift)
