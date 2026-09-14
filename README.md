@@ -748,7 +748,7 @@ Valeurs rapportées :
 | 20 | 1183,0 |
 | 30 | 1182,0 |
 
-La moyenne est d'environ $1183$, avec un coefficient de variation d'environ$ 0,07\%$, et l'écart relatif à$ M_{\mathrm{tot}}=1196,7 $est d'environ$ 1,15\%$.
+La moyenne est d'environ $1183$, avec un coefficient de variation d'environ $0,07\%$, et l'écart relatif à$ M_{\mathrm{tot}}=1196,7$ est d'environ $1,15\%$.
 
 Le résultat établit dans ce modèle jouet une récupération très propre de la loi :
 
@@ -760,9 +760,9 @@ $$
 
 ### 48.3 Test 42 — robustesse de la correction localisée
 
-Une grille $ 4\times4 $a été explorée en faisant varier indépendamment$\sigma $ et$k_0 $ entre$0,5 $ et$2 $ fois leurs valeurs nominales.
+Une grille $4\times4$ a été explorée en faisant varier indépendamment $\sigma$ et $k_0$ entre $0,5$ et $2$ fois leurs valeurs nominales.
 
-Résultat rapporté : **16/16 points robustes**, avec $|g|r^2 $ quasi constant et un écart relatif à$M_{\mathrm{tot}}$ de l'ordre de $0,1\%$ dans le jouet reproductible.
+Résultat rapporté : **16/16 points robustes**, avec $|g|r^2$ quasi constant et un écart relatif à $M_{\mathrm{tot}}$ de l'ordre de $0,1\%$ dans le jouet reproductible.
 
 La conclusion méthodologique est importante : la récupération de l'asymptote n'est pas uniquement liée à un réglage ponctuel des paramètres testés.
 
@@ -782,11 +782,11 @@ $$
 R_{\mathrm{trans}}=0,61\ \mathrm{kpc},\qquad R_{\mathrm{gentle}}=1,31\ \mathrm{kpc}.
 $$
 
-Le rapport $\simeq2,15 $ entre ces rayons reste une entrée géométrique et n'est pas encore dérivé.
+Le rapport $\simeq2,15$ entre ces rayons reste une entrée géométrique et n'est pas encore dérivé.
 
-Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ $ 0,005\%$et un écart relatif d'environ $-0,004\%$ dans le calcul rapporté.
+Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ $0,005\%$ et un écart relatif d'environ $-0,004\%$ dans le calcul rapporté.
 
-Pour rendre le $ 4/3 $ compatible avec cette contrainte, une interpolation dynamique a été testée :
+Pour rendre le $4/3$ compatible avec cette contrainte, une interpolation dynamique a été testée :
 
 $$
 s(r)=\frac{C(r)-C_c}{C_{\max}-C_c},
@@ -804,9 +804,9 @@ $$
 s\rightarrow1\Rightarrow\alpha\rightarrow\frac43.
 $$
 
-Dans le Test 44, la zone cône donnait approximativement $ 1,21\lesssim\alpha\lesssim1,28 $, avec une moyenne proche de$ 1,25 $. La valeur$ 4/3 $ n'était donc pas atteinte partout : elle apparaît comme **limite de saturation**, pas comme une constante globale imposée à tous les rayons.
+Dans le Test 44, la zone cône donnait approximativement $1,21\lesssim\alpha\lesssim1,28$, avec une moyenne proche de $1,25$. La valeur $4/3$ n'était donc pas atteinte partout : elle apparaît comme **limite de saturation**, pas comme une constante globale imposée à tous les rayons.
 
-**Statut : 🟢 cohérence numérique du raccordement testé ; 🟡 origine fondamentale du $ 4/3 $ encore ouverte.**
+**Statut : 🟢 cohérence numérique du raccordement testé ; 🟡 origine fondamentale du $4/3$ encore ouverte.**
 
 ### 48.5 Forme candidate de correction localisée
 
@@ -819,12 +819,12 @@ $$
 Cette expression n'est pas encore une loi fondamentale. Elle encode seulement les trois contraintes numériques :
 
 - correction faible hors de la zone de transition ;
-- scaling $ 4/3 $ dans la zone active ;
-- extinction de la correction à grand $ r $.
+- scaling $4/3$ dans la zone active ;
+- extinction de la correction à grand $r$.
 
 ---
 
-## 49. Recherche de l'origine dimensionnelle de $ 4/3 $,$ 3/4 $et$ 1/4 $Le modèle est désormais explicitement fixé en$ 3+1 $dimensions :$ d=3 $.
+## 49. Recherche de l'origine dimensionnelle de $4/3$, $3/4$ et $1/4$ Le modèle est désormais explicitement fixé en $3+1$ dimensions : $d=3$.
 
 Une famille dimensionnelle simple donne :
 
@@ -854,7 +854,7 @@ $$
 \theta=2\arcsin\left(\frac{C_c}{1-C_c}\right),
 $$
 
-la valeur $ C_c=0,2=1/5 $ entraîne exactement :
+la valeur $C_c=0,2=1/5$ entraîne exactement :
 
 $$
 \frac{C_c}{1-C_c}=\frac14,
@@ -872,7 +872,7 @@ $$
 C_c=\frac1{d+2}.
 $$
 
-Pour $ d=3 $ :
+Pour $d=3$ :
 
 $$
 C_c=\frac15,
@@ -902,7 +902,7 @@ $$
 
 ### 49.2 Ce qui n'est pas dérivé
 
-Les Tests 49–50 ont montré que la dynamique minimale de $ C $et les rétroactions simples testées ne sélectionnent pas spontanément$ C_c=1/5 $.
+Les Tests 49–50 ont montré que la dynamique minimale de $C$ et les rétroactions simples testées ne sélectionnent pas spontanément $C_c=1/5$.
 
 Avec :
 
@@ -910,13 +910,13 @@ $$
 Z\Box C-V'(C)=0,
 $$
 
-un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De même, les rétroactions testées du type $\sigma(C)$ ont produit des attracteurs nettement plus cohérents, environ $0,72$à$ 0,91 $, sans attracteur dans la fenêtre$[0,16;0,24]$.
+un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De même, les rétroactions testées du type $\sigma(C)$ ont produit des attracteurs nettement plus cohérents, environ $0,72$à$ 0,91$, sans attracteur dans la fenêtre $[0,16;0,24]$.
 
-**Conclusion :** $ C_c=1/5 $reste une **entrée du modèle gravitationnel**, tandis que$ 4/3 $,$ 3/4 $et$ 1/4 $forment une structure dimensionnelle élégante et cohérente **conditionnelle à cette entrée**. Aucune dérivation physique fondamentale de$ C_c=1/5 $ n'est actuellement établie.
+**Conclusion :** $C_c=1/5$ reste une **entrée du modèle gravitationnel**, tandis que $4/3$,$3/4$ et $1/4$ forment une structure dimensionnelle élégante et cohérente **conditionnelle à cette entrée**. Aucune dérivation physique fondamentale de $C_c=1/5$ n'est actuellement établie.
 
 ---
 
-## 50. Tests de dynamique collective : de $ Q_i $à$ C $
+## 50. Tests de dynamique collective : de $Q_i$ à $C$
 
 ### 50.1 Chaîne de calcul
 
@@ -936,9 +936,9 @@ $$
 w_{ij}=\exp\left[-\frac{(E_i-E_j)^2}{2\sigma^2}\right].
 $$
 
-L'objectif est de déterminer si une structure collective produit une valeur privilégiée de $ C $ ou uniquement une transition continue entre incohérence et synchronisation.
+L'objectif est de déterminer si une structure collective produit une valeur privilégiée de $C$ ou uniquement une transition continue entre incohérence et synchronisation.
 
-### 50.2 Test 50 — rétroactions aveugles de $ C $sur$\sigma $ Deux familles sans ciblage de$0,2 $ ont été testées :
+### 50.2 Test 50 — rétroactions aveugles de $C$ sur $\sigma$ Deux familles sans ciblage de $0,2$ ont été testées :
 
 $$
 \sigma(C)=\sigma_0(1-C),
@@ -954,17 +954,17 @@ Les attracteurs rapportés étaient environ :
 
 | Forme | Paramètres | $ C^*$ |
 |---|---|---:|
-| linéaire | $\sigma_0=0,5 $ | 0,778 |
-| linéaire | $\sigma_0=1,0 $ | 0,818 |
-| linéaire | $\sigma_0=1,5 $ | 0,913 |
-| inverse | $\sigma_0=0,8,\kappa=1 $ | 0,836 |
-| inverse | $\sigma_0=0,8,\kappa=2 $ | 0,893 |
-| inverse | $\sigma_0=1,2,\kappa=1,5 $ | 0,914 |
-| inverse | $\sigma_0=1,0,\kappa=3 $ | 0,722 |
+| linéaire | $\sigma_0=0,5$ | 0,778 |
+| linéaire | $\sigma_0=1,0$ | 0,818 |
+| linéaire | $\sigma_0=1,5$ | 0,913 |
+| inverse | $\sigma_0=0,8,\kappa=1$ | 0,836 |
+| inverse | $\sigma_0=0,8,\kappa=2$ | 0,893 |
+| inverse | $\sigma_0=1,2,\kappa=1,5$ | 0,914 |
+| inverse | $\sigma_0=1,0,\kappa=3$ | 0,722 |
 
 Aucun attracteur n'est apparu dans $[0,16;0,24]$.
 
-**Verdict : 🔴 ces rétroactions simples ne sélectionnent pas $ C_c\simeq0,2 $.**
+**Verdict : 🔴 ces rétroactions simples ne sélectionnent pas $C_c\simeq0,2$.**
 
 ### 50.3 Test 51 — recherche aveugle d'une transition collective
 
@@ -980,7 +980,7 @@ $$
 N\in\{200,400,800,1600\},
 $$
 
-un balayage de $ K $et$\sigma $, plusieurs graines indépendantes, et un temps d'intégration suffisamment long.
+un balayage de $K$ et $\sigma$, plusieurs graines indépendantes, et un temps d'intégration suffisamment long.
 
 Les observables prévues sont :
 
@@ -990,14 +990,14 @@ $$
 
 ainsi qu'un cumulant de Binder traité comme indicateur secondaire, et le temps de relaxation.
 
-Le premier scan 2D rapporté, avec $ N=200,400 $,$ K\in\{0,5,1,1,5,2\}$et $\sigma\in\{8,12,16,20\}$, montre :
+Le premier scan 2D rapporté, avec $N=200,400$, $K\in\{0,5,1,1,5,2\}$ et $\sigma\in\{8,12,16,20\}$, montre :
 
-- un régime incohérent à faible $ K $, avec$ C $proche de l'échelle$ 1/N $ ;
-- une montée continue de $ C $avec$ K $ ;
-- des valeurs ponctuelles proches de $ 0,2 $ ;
-- aucune ligne critique robuste qui fixe universellement $ C\simeq0,2 $.
+- un régime incohérent à faible $K$, avec $C$ proche de l'échelle $1/N$ ;
+- une montée continue de $C$ avec $K$ ;
+- des valeurs ponctuelles proches de $0,2$ ;
+- aucune ligne critique robuste qui fixe universellement $C\simeq0,2$.
 
-Par exemple, des valeurs proches de $ 0,2 $apparaissent autour de$ C\approx0,218 $et$ C\approx0,169 $pour certains couples$(K,\sigma)$, mais elles se déplacent lorsque les paramètres ou $ N$ changent.
+Par exemple, des valeurs proches de $0,2$ apparaissent autour de $C\approx0,218$ et $C\approx0,169$ pour certains couples $(K,\sigma)$, mais elles se déplacent lorsque les paramètres ou $N$ changent.
 
 **Verdict du Test 51 :**
 
@@ -1005,7 +1005,7 @@ $$
 \boxed{\text{le modèle pondéré possède une transition de synchronisation, mais ne sélectionne pas }C_{\mathrm{crit}}\approx0,2\text{ universellement}.}
 $$
 
-Ainsi, $ C=0,2 $ est actuellement mieux décrit comme un **point de passage paramétrique** du modèle que comme un attracteur ou point critique fondamental.
+Ainsi, $C=0,2$ est actuellement mieux décrit comme un **point de passage paramétrique** du modèle que comme un attracteur ou point critique fondamental.
 
 ---
 
@@ -1016,27 +1016,27 @@ Ainsi, $ C=0,2 $ est actuellement mieux décrit comme un **point de passage para
 | Élément | Statut |
 |---|---|
 | Structure dimensionnelle 3+1 | 🟢 Hypothèse structurelle fixée |
-| $ C=|Z|^2 $ comme invariant de phase | 🟢 Confirmé comme observable robuste du jouet |
-| État incohérent $ C\sim1/N $ | 🟢 Référence statistique confirmée |
+| $C=|Z|^2$ comme invariant de phase | 🟢 Confirmé comme observable robuste du jouet |
+| État incohérent $C\sim1/N$ | 🟢 Référence statistique confirmée |
 | Correction localisée | 🟢 Testée avec non-régression newtonienne |
-| Robustesse de l'asymptote sous variation $\sigma,k_0 $ | 🟢 Testée dans le jouet |
+| Robustesse de l'asymptote sous variation $\sigma,k_0$ | 🟢 Testée dans le jouet |
 | Intégration tore–cône | 🟢 Cohérente numériquement dans le cadre testé |
-| $\alpha(s)\to4/3 $ à saturation | 🟢 Formulation dynamique cohérente ; origine fondamentale ouverte |
-| $ 4/3 $global | 🔴 Abandonné : divergence à grand$ r $ |
-| $ 3/4 $| 🟡 Relation inverse cohérente avec$ 4/3 $, pas dérivation indépendante |
-| $ C_c=1/5 $ | 🟡 Paramètre d'entrée ; non sélectionné dynamiquement |
-| $ 1/4 $| 🟡 Identité conditionnelle à$ C_c=1/5 $ ; non dérivée indépendamment |
-| $\theta\approx28,955^\circ $| 🟢 Conséquence mathématique de$ C_c=0,2 $ dans la formule actuelle |
-| $ E=mc^2 $| 🔴 Pas de validation indépendante ; toute définition de$ m $via$ c^2 $ serait circulaire |
-| $ c_{\mathrm{eff}}\approx\sqrt2 $ | 🟡 À auditer séparément ; aucune origine fondamentale établie ici |
-| $ r $ spatial émergent | 🔴 Non dérivé à partir des corrélations |
-| $ D_{\mathrm{eff}}=3/4 $ou$ 4/3 $ comme dimension géométrique émergente | 🔴 Non établi |
-| résolution quantitative de $ 10^{120}$ | 🔴 Non obtenue ; les jouets testés donnent une suppression très inférieure |
+| $\alpha(s)\to4/3$ à saturation | 🟢 Formulation dynamique cohérente ; origine fondamentale ouverte |
+| $4/3$ global | 🔴 Abandonné : divergence à grand $r$ |
+| $3/4$| 🟡 Relation inverse cohérente avec $4/3$, pas dérivation indépendante |
+| $C_c=1/5$ | 🟡 Paramètre d'entrée ; non sélectionné dynamiquement |
+| $1/4$| 🟡 Identité conditionnelle à $C_c=1/5$ ; non dérivée indépendamment |
+| $\theta\approx28,955^\circ$| 🟢 Conséquence mathématique de $C_c=0,2$ dans la formule actuelle |
+| $E=mc^2$| 🔴 Pas de validation indépendante ; toute définition de $m$ via $c^2$ serait circulaire |
+| $c_{\mathrm{eff}}\approx\sqrt2$ | 🟡 À auditer séparément ; aucune origine fondamentale établie ici |
+| $r$ spatial émergent | 🔴 Non dérivé à partir des corrélations |
+| $D_{\mathrm{eff}}=3/4$ ou $4/3$ comme dimension géométrique émergente | 🔴 Non établi |
+| résolution quantitative de $10^{120}$ | 🔴 Non obtenue ; les jouets testés donnent une suppression très inférieure |
 | dérivation des équations d'Einstein | 🔴 Non obtenue |
 
 ### 51.2 Le point essentiel sur les singularités
 
-Le profil régularisé montre qu'il est mathématiquement possible de construire une source dont la densité reste finie au centre et dont la masse totale converge vers $ M $ à grande distance. Une métrique de référence de type Hayward possède par exemple :
+Le profil régularisé montre qu'il est mathématiquement possible de construire une source dont la densité reste finie au centre et dont la masse totale converge vers $M$ à grande distance. Une métrique de référence de type Hayward possède par exemple :
 
 $$
 m(r)=M\frac{r^3}{r^3+a^3},
@@ -1044,17 +1044,17 @@ $$
 
 et récupère asymptotiquement la forme de Schwarzschild.
 
-Cela démontre une **propriété de régularisation**, pas que le champ $ C $ engendre effectivement cette masse géométrique.
+Cela démontre une **propriété de régularisation**, pas que le champ $C$ engendre effectivement cette masse géométrique.
 
 ### 51.3 Le point essentiel sur l'antigravitation
 
-Dans la version actuelle, le tenseur candidat est quadratique en gradients de $ C $et la borne$ C\le1 $ empêche une extrapolation triviale au-delà de la saturation. Cela exclut certains comportements répulsifs **dans ce modèle particulier**, sous ses hypothèses.
+Dans la version actuelle, le tenseur candidat est quadratique en gradients de $C$ et la borne $C\le1$ empêche une extrapolation triviale au-delà de la saturation. Cela exclut certains comportements répulsifs **dans ce modèle particulier**, sous ses hypothèses.
 
 Il ne s'agit pas d'une preuve que l'antigravitation est impossible dans toute théorie physique.
 
 ### 51.4 Temps propre et temps émergent
 
-La question reste ouverte : si une histoire quasi-classique $ H_i $possède une métrique$ g_{\mu\nu}^{(i)}$, son temps propre pourrait être défini par :
+La question reste ouverte : si une histoire quasi-classique $H_i$ possède une métrique $g_{\mu\nu}^{(i)}$, son temps propre pourrait être défini par :
 
 $$
 \tau_i=\int\sqrt{-g_{\mu\nu}^{(i)}\frac{dx^\mu}{d\lambda}\frac{dx^\nu}{d\lambda}}\,d\lambda.
