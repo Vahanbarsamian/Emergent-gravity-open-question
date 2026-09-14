@@ -1192,16 +1192,10 @@ et non l'inverse.
 Une vérification algébrique supplémentaire a montré que le rapport 70A contenait une erreur dans l'évaluation des minima.
 
 Le potentiel est :
-
-$$
-F=
--r\sum_a|\psi_a|^2
-+
-u\sum_a|\psi_a|^4
-+
+$$F=-r\sum_a|\psi_a|^2+
+u\sum_a|\psi_a|^4+
 v\sum_{a<b}|\psi_a|^2|\psi_b|^2,
-\qquad r>0,\;u>0,\;v>0.
-$$
+\qquad r>0,\;u>0,\;v>0.$$
 
 #### Rang 1
 
@@ -1225,68 +1219,47 @@ $$
 
 L'énergie correspondante est :
 
-$$
-F_1
-=
--r\frac{r}{2u}
-+
-u\frac{r^2}{4u^2}
-=
+$$F_1=
+-r\frac{r}{2u}+
+u\frac{r^2}{4u^2}=
 -\frac{r^2}{4u}.
 $$
-
 Ainsi :
-
 $$
 \boxed{F_1=-\frac{r^2}{4u}}.
 $$
-
 Pour $r=u=1$,
-
 $$
 \boxed{F_1=-0,25}.
 $$
-
 > **Correction explicite :** $F_1$ n'est pas égal à $0$. Le terme quadratique et le terme quartique ne s'annulent pas au minimum ; ils donnent ensemble $-r^2/(4u)$.
 
 #### Rang 3 symétrique
-
 Pour :
-
 $$
 \psi_1=\psi_2=\psi_3=\rho,
 $$
-
 on obtient :
-
 $$
-F_3(\rho)
-=
--3r\rho^2+3(u+v)\rho^4.
+F_3(\rho)=-3r\rho^2+3(u+v)\rho^4.
 $$
 
 La stationnarité donne :
-
 $$
 \boxed{
 \rho_3^2=\frac{r}{2(u+v)}
 }.
 $$
-
 Donc :
-
 $$
 \boxed{
 F_3=-\frac{3r^2}{4(u+v)}
 }.
 $$
-
 Pour $r=u=1$ et $v=0$,
-
 $$
 \boxed{F_3=-0,75}.
 $$
-
 Le rapport 70A donnait $-0,5625$, valeur compatible avec une mauvaise substitution de l'amplitude.
 
 ---
