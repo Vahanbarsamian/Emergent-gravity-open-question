@@ -1589,12 +1589,7 @@ Ne jamais faire varier simultanément $T$ et $N$ dans un test destiné à attrib
 Le potentiel de départ reste :
 
 $$
-F_0=
--r\sum_a|\psi_a|^2
-+
-u\sum_a|\psi_a|^4
-+
-v\sum_{a<b}|\psi_a|^2|\psi_b|^2.
+F_0=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2.
 $$
 
 Un seul terme supplémentaire doit être introduit à la fois.
@@ -1604,8 +1599,7 @@ Un seul terme supplémentaire doit être introduit à la fois.
 Par exemple :
 
 $$
-F_3=
-w(\psi_1\psi_2\psi_3+\mathrm{c.c.}).
+F_3=w(\psi_1\psi_2\psi_3+\mathrm{c.c.}).
 $$
 
 Mais ce terme ne doit être retenu que si les symétries microscopiques l'autorisent.
@@ -1625,12 +1619,7 @@ Il n'est donc plus correct de présenter le terme cubique comme « le » terme m
 Si les variables $\psi_a$ sont réellement des champs spatiaux, on peut tester :
 
 $$
-F_\nabla
-=
-\sum_a\kappa_a|\nabla\psi_a|^2
-+
-\sum_{a<b}\kappa_{ab}
-\nabla\psi_a\cdot\nabla\psi_b.
+F_\nabla=\sum_a\kappa_a|\nabla\psi_a|^2+\sum_{a<b}\kappa_{ab}\nabla\psi_a\cdot\nabla\psi_b.
 $$
 
 Mais cette extension change la nature du modèle : elle introduit des degrés de liberté spatiaux qui n'existent pas dans le modèle homogène 0D.
@@ -1647,15 +1636,7 @@ Un terme supplémentaire n'est explicatif que si :
 
 La condition forte recherchée est :
 
-$$
-\boxed{
-\text{micro-dynamique}
-\rightarrow
-\text{coefficient effectif}
-\rightarrow
-v_c\simeq2,92
-}
-$$
+$\boxed{\text{micro-dynamique}\rightarrow\text{coefficient effectif}\rightarrowv_c\simeq2,92}$
 
 et non :
 
