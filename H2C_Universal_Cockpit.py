@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import os, glob, zipfile, io, datetime, tempfile
+import os, glob, zipfile, io, datetime, tempfile, json, csv
 
 # --- NOYAU SCIENTIFIQUE H2C (VERSION ADAPTATIVE V8.6-R AVEC FIL D'ARIANE) ---
 class H2CAdaptiveSolver:
@@ -27,11 +27,9 @@ class H2CAdaptiveSolver:
     def compute_auto_cursor(self, mass=None, g_max=None, compactness=None):
         available_scores = []
         if g_max is not None and g_max > 0:
-            # Scaled to MOND a0 (1.2e-10) for table compatibility
             score_g = np.log10(g_max / 1.2e-10)
             available_scores.append(score_g)
         if mass is not None and mass > 0:
-            # Typical galaxy mass log scale
             score_m = np.log10(mass / 1e10)
             available_scores.append(score_m)
         if compactness is not None and compactness > 0:
@@ -51,19 +49,16 @@ class H2CAdaptiveSolver:
         v_disk = df_galaxy['V_disk'].values
         v_bulge = df_galaxy['V_bulge'].values
         
-        # Initialisation Newtonienne avec Auto-Correction baryonique
         v_n2_raw = np.sign(v_gas)*(v_gas**2) + 0.5*(v_disk**2) + 0.7*(v_bulge**2)
         a_n = (np.maximum(1e-15, v_n2_raw) * (self.KM_S_TO_M_S**2)) / (r_m + 1e-10)
         
         auto_offset, status = self.compute_auto_cursor(mass, g_max, compactness)
         total_offset = auto_offset + manual_offset
         
-        # Transition Formula Anchored on Lambda
         y = a_n / self.a0
         mu_inv = np.sqrt(0.5 + 0.5 * np.sqrt(1.0 + 4.0 / (y**2 + 1e-15)))
         
-        # Applying Universal Law with Adaptive Contextual Shift
-        log_ratio = np.log10(a_n / (self.a0/4.54) + 1e-25) # Scale to MOND for table
+        log_ratio = np.log10(a_n / (self.a0/4.54) + 1e-25)
         adjusted_log_ratio = log_ratio + total_offset
         corr = np.interp(adjusted_log_ratio, self.x_nodes, self.y_nodes)
         
@@ -73,9 +68,30 @@ class H2CAdaptiveSolver:
         res = df_galaxy.copy()
         res['V_h2c'] = v_h2c
         res['V_newton'] = np.sqrt(np.maximum(0, v_gas**2 + v_disk**2 + v_bulge**2))
-        return res, status
+        return res, status, total_offset
 
-# --- INTERFACE UTILISATEUR (UX/UI) ---
+# --- GESTION DES EXPORTS ---
+class H2CCockpitExporter:
+    @staticmethod
+    def export_audit_report(results_dict, filename_prefix="h2c_audit_report"):
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+        # 1. Export JSON
+        json_buffer = io.StringIO()
+        json.dump(results_dict, json_buffer, indent=4, ensure_ascii=False)
+        
+        # 2. Export CSV
+        csv_buffer = io.StringIO()
+        if "galaxies" in results_dict and results_dict["galaxies"]:
+            keys = results_dict["galaxies"][0].keys()
+            writer = csv.DictWriter(csv_buffer, fieldnames=keys)
+            writer.writeheader()
+            for gal in results_dict["galaxies"]:
+                writer.writerow(gal)
+        
+        return json_buffer.getvalue(), csv_buffer.getvalue(), timestamp
+
+# --- INTERFACE UTILISATEUR ---
 st.set_page_config(page_title="H2C Cockpit V8.6-R", page_icon="🌌", layout="wide")
 
 st.title("🌌 Cockpit H2C : Solveur Adaptatif Multi-Critères")
@@ -89,7 +105,6 @@ if not uploaded_zip:
     st.info("👋 Veuillez charger l'archive SPARC pour activer le solveur intelligent.")
     st.stop()
 
-# Chargement Catalogue
 @st.cache_data
 def load_and_extract(zip_bytes):
     galaxies = {}
@@ -109,30 +124,24 @@ def load_and_extract(zip_bytes):
 galaxies_dict = load_and_extract(uploaded_zip.read())
 selected_target = st.sidebar.selectbox("Sélectionner la Galaxie", sorted(list(galaxies_dict.keys())))
 
-# Interface de pilotage
+# Pilotage
 st.sidebar.divider()
 st.sidebar.subheader("🎛️ Pilotage Contextuel")
 use_auto = st.sidebar.checkbox("Activer le Fil d'Ariane (Auto-Positionnement)", value=True)
 manual_shift = st.sidebar.slider("Ajustement Manuel du Curseur", -1.0, 1.0, 0.0, 0.05)
 
-# Exécution
 if selected_target:
     df_gal = galaxies_dict[selected_target]
-    
-    # Metadata gathering for auto-cursor (simulated or extracted if available)
-    # In a real scenario, this would be read from sparc_data.csv or a companion file.
-    # For the cockpit, we provide inputs for fine-tuning.
     st.sidebar.divider()
     mass_input = st.sidebar.number_input("Masse Baryonique (Optionnel)", value=1e10, format="%.1e")
     
     solver = H2CAdaptiveSolver()
-    df_res, status = solver.solve(df_gal, 
-                                 mass=mass_input if use_auto else None,
-                                 manual_offset=manual_shift)
+    df_res, status, total_off = solver.solve(df_gal, 
+                                            mass=mass_input if use_auto else None,
+                                            manual_offset=manual_shift)
     
     st.sidebar.info(status)
     
-    # Dashboard
     mask_valid = ~np.isnan(df_res['V_obs'])
     rmse_n = np.sqrt(np.mean((df_res['V_obs'][mask_valid] - df_res['V_newton'][mask_valid])**2))
     rmse_h = np.sqrt(np.mean((df_res['V_obs'][mask_valid] - df_res['V_h2c'][mask_valid])**2))
@@ -144,10 +153,27 @@ if selected_target:
     c3.metric("✨ Points Cinématiques", len(df_res))
     
     st.divider()
-    
     fig, ax = plt.subplots(figsize=(12, 6))
     ax.errorbar(df_res['Rad'], df_res['V_obs'], yerr=df_res['V_err'], fmt='ko', label='Observations SPARC', alpha=0.5)
     ax.plot(df_res['Rad'], df_res['V_newton'], color='red', linestyle='--', label='Newton (Baryons)')
     ax.plot(df_res['Rad'], df_res['V_h2c'], color='blue', linewidth=3, label='H2C Adaptive V8.6')
     ax.legend(); ax.grid(True, linestyle=':', alpha=0.6)
     st.pyplot(fig)
+
+    # Section Export
+    st.sidebar.divider()
+    st.sidebar.subheader("📤 Exportation Rapport")
+    if st.sidebar.button("Préparer l'exportation"):
+        report_data = {
+            "galaxy": selected_target,
+            "date": datetime.datetime.now().isoformat(),
+            "status": status,
+            "total_offset": total_off,
+            "rmse_newton": float(rmse_n),
+            "rmse_h2c": float(rmse_h),
+            "gain_pct": float(gain),
+            "galaxies": [{"Rad": r, "V_obs": vo, "V_h2c": vh} for r, vo, vh in zip(df_res['Rad'], df_res['V_obs'], df_res['V_h2c'])]
+        }
+        json_str, csv_str, ts = H2CCockpitExporter.export_audit_report(report_data, selected_target)
+        st.sidebar.download_button("💾 Télécharger JSON", json_str, f"H2C_{selected_target}_{ts}.json", "application/json")
+        st.sidebar.download_button("💾 Télécharger CSV", csv_str, f"H2C_{selected_target}_{ts}.csv", "text/csv")
