@@ -1582,9 +1582,7 @@ Ne jamais faire varier simultanément $T$ et $N$ dans un test destiné à attrib
 
 Le potentiel de départ reste :
 
-$$
-F_0=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2.
-$$
+$F_0=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2.$
 
 Un seul terme supplémentaire doit être introduit à la fois.
 
@@ -1592,17 +1590,13 @@ Un seul terme supplémentaire doit être introduit à la fois.
 
 Par exemple :
 
-$$
-F_3=w(\psi_1\psi_2\psi_3+\mathrm{c.c.}).
-$$
+$F_3=w(\psi_1\psi_2\psi_3+\mathrm{c.c.}).$
 
 Mais ce terme ne doit être retenu que si les symétries microscopiques l'autorisent.
 
 D'autres couplages sont possibles, par exemple :
 
-$$
-w_{12}(\psi_1^*\psi_2+\mathrm{c.c.}),
-$$
+$w_{12}(\psi_1^*\psi_2+\mathrm{c.c.}),$
 
 qui sélectionne une autre combinaison de phases.
 
