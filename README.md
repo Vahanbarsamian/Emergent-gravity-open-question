@@ -910,9 +910,9 @@ $$
 Z\Box C-V'(C)=0,
 $$
 
-un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De même, les rétroactions testées du type $\sigma(C)$ ont produit des attracteurs nettement plus cohérents, environ $0,72$à$ 0,91$, sans attracteur dans la fenêtre $[0,16;0,24]$.
+un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De même, les rétroactions testées du type $\sigma(C)$ ont produit des attracteurs nettement plus cohérents, environ $0,72$ à $0,91$, sans attracteur dans la fenêtre $[0,16;0,24]$.
 
-**Conclusion :** $C_c=1/5$ reste une **entrée du modèle gravitationnel**, tandis que $4/3$,$3/4$ et $1/4$ forment une structure dimensionnelle élégante et cohérente **conditionnelle à cette entrée**. Aucune dérivation physique fondamentale de $C_c=1/5$ n'est actuellement établie.
+**Conclusion :** $C_c=1/5$ reste une **entrée du modèle gravitationnel**, tandis que $4/3$, $3/4$ et $1/4$ forment une structure dimensionnelle élégante et cohérente **conditionnelle à cette entrée**. Aucune dérivation physique fondamentale de $C_c=1/5$ n'est actuellement établie.
 
 ---
 
