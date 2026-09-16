@@ -2002,6 +2002,33 @@ Le modèle H2C est confronté à un paradoxe : l'ancrage théorique est "trop fo
 
 Pour franchir le plafond de 88% de succès, le solveur H2C a été doté d'un système de **pré-positionnement intelligent** basé sur le contexte de la galaxie (Masse, Accélération Max, Compacité). Ce mécanisme, baptisé **Fil d'Ariane**, permet d'ajuster dynamiquement le décalage de phase universel sans intervention humaine.
 
+## 63. Clôture de la Branche Réfractive Scalaire & Bilan de Falsification
+
+### 63.1 Hypothèse Initiale et Formulation V9.1-R
+L'exploration de la branche réfractive reposait sur l'analogie optique :
+$$ C \rightarrow n_{\rm eff} \rightarrow \nabla n \rightarrow g_{\rm eff} $$
+Dans la version V9.1-R, l'indice $n(x)$ était piloté par un exposant $\gamma=0.38$ et une normalisation $C_{\rm REF}=205$ km/s, avec une échelle de disque $R_d$ calculée sur les données radiales.
+
+### 63.2 Détection de Circularité (Information Leakage)
+L'audit indépendant a révélé que les performances élevées des versions antérieures dépendaient de l'injection indirecte de la vitesse de plateau observée ($V_{\rm flat}$) dans la normalisation du champ. Pour restaurer l'intégrité scientifique, le modèle a été basculé en mode **BLIND** (aveugle strict).
+
+### 63.3 Résultats du Test SPARC BLIND (175 galaxies)
+Le passage en mode aveugle (suppression de toute connaissance de $V_{\rm obs}$ en entrée) a provoqué un effondrement des performances :
+- **Taux de Victoire (vs Newton)** : ~18%.
+- **RMSE Moyen** : Augmentation significative par rapport au modèle baryonique pur.
+- **Verdict** : La formulation $n(g_{\rm bar})$ testée n'est pas prédictive de manière autonome.
+
+### 63.4 Échec de la Dérivation d'Échelle Absolue
+Une tentative de dérivation "partant de zéro" a cherché à relier l'échelle de vitesse galactique ($200$ km/s) aux constantes fondamentales ($c, G, \Lambda, \ell_P$).
+- **Constat** : Aucune combinaison naturelle de ces constantes ne produit l'échelle nécessaire sans introduire un nouveau paramètre de couplage arbitraire ($\gamma \approx 10^{-7}$).
+- **Conclusion** : Le mécanisme de réfraction scalaire actuel ne fournit pas son propre mécanisme d'échelle.
+
+### ⚖️ Décision Technique : Fermeture de Branche
+La branche **"Réfraction Scalaire H2C"** ($C \to n_{\rm scalaire} \to \nabla n$) est officiellement fermée. Elle est classée comme une réalisation spécifique de l'hypothèse H2C ayant échoué au test de prédictivité en aveugle strict.
+
+### 🟢 Ouverture
+Cette conclusion ne constitue pas une réfutation de l'hypothèse fondamentale **$C(x) \to g_{\mu\nu}^{\rm eff}(x)$**. Elle indique que l'émergence géométrique doit être recherchée par une voie **tensorielle directe** (déformation de la métrique) et non par un simple gradient d'indice scalaire.
+
 ### Résultats du Blind Test V3 (Aveugle Strict, N=25)
 | Métrique | Ancrage $1.2$ + Fil d'Ariane (V8.6) | Baseline Newton |
 | :--- | :--- | :--- |
