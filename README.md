@@ -1,16 +1,16 @@
-# 🛠️ H2C SOFTWARE DOWNLOADS
-- [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
-- [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
+﻿# ðŸ› ï¸ H2C SOFTWARE DOWNLOADS
+- [ðŸš€ **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complÃ¨tes)
+- [ðŸªŸ **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (GÃ©nÃ¨re un .exe autonome)
 
-> **💡 Comment générer l'exécutable Windows (.exe) :**
-> 1. Téléchargez les deux fichiers ci-dessus (`H2C_Universal_Cockpit.py` et `H2C_Windows_Builder.py`).
-> 2. Placez-les dans le même dossier sur votre ordinateur.
+> **ðŸ’¡ Comment gÃ©nÃ©rer l'exÃ©cutable Windows (.exe) :**
+> 1. TÃ©lÃ©chargez les deux fichiers ci-dessus (`H2C_Universal_Cockpit.py` et `H2C_Windows_Builder.py`).
+> 2. Placez-les dans le mÃªme dossier sur votre ordinateur.
 > 3. Ouvrez un terminal et lancez le builder : `python H2C_Windows_Builder.py`.
-> 4. Votre application autonome sera créée dans le dossier `dist/`.
+> 4. Votre application autonome sera crÃ©Ã©e dans le dossier `dist/`.
 
 ---
 
-# Émergence Géométrique, Auto-Correction et Dynamique Galactique (Cadre H2C)
+# Ã‰mergence GÃ©omÃ©trique, Auto-Correction et Dynamique Galactique (Cadre H2C)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22068679.svg)](https://doi.org/10.5281/zenodo.22068679)
 
@@ -18,119 +18,119 @@
 
 ## Citation
 
-Si vous référencez ces travaux, merci d'utiliser la citation suivante :
+Si vous rÃ©fÃ©rencez ces travaux, merci d'utiliser la citation suivante :
 
 > Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22068679
 
 ---
-🇫🇷 Français | [🇬🇧 English version](README_en.md)
+ðŸ‡«ðŸ‡· FranÃ§ais | [ðŸ‡¬ðŸ‡§ English version](README_en.md)
 
-# Question Ouverte & Manuscrit Théorique : La géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
+# Question Ouverte & Manuscrit ThÃ©orique : La gÃ©omÃ©trie gravitationnelle peut-elle Ã©merger d'une structure quantique ?
 
-> ⚠️ **Note :** ce document évolue fréquemment. Pensez à rafraîchir la page pour consulter la dernière version. 
-> 📎 **Document compagnon :** [Cartographie des pistes de recherche](./Reflexion-ouverte-sur-la-gravite.fr.md) — contient les références précises à la littérature existante et le critère de validation quantitatif (section 11), à ne consulter et modifier qu'à cet endroit.
+> âš ï¸ **Note :** ce document Ã©volue frÃ©quemment. Pensez Ã  rafraÃ®chir la page pour consulter la derniÃ¨re version. 
+> ðŸ“Ž **Document compagnon :** [Cartographie des pistes de recherche](./Reflexion-ouverte-sur-la-gravite.fr.md) â€” contient les rÃ©fÃ©rences prÃ©cises Ã  la littÃ©rature existante et le critÃ¨re de validation quantitatif (section 11), Ã  ne consulter et modifier qu'Ã  cet endroit.
 
-**Statut du document :** Note de synthèse théorique, formalisation du solveur auto-consistant et rapport de validation sur le catalogue SPARC (175 galaxies). 
+**Statut du document :** Note de synthÃ¨se thÃ©orique, formalisation du solveur auto-consistant et rapport de validation sur le catalogue SPARC (175 galaxies). 
 **Auteur :** Vahan Barsamian 
-**Contexte :** Réflexion menée en parallèle du projet H2C V8.4-R (réacteur hydrogène open-source), sans lien technique entre les deux.
+**Contexte :** RÃ©flexion menÃ©e en parallÃ¨le du projet H2C V8.4-R (rÃ©acteur hydrogÃ¨ne open-source), sans lien technique entre les deux.
 
-> **Important :** Ce document présente un programme de recherche falsifiable et un solveur auto-consistant sans paramètre libre ajusté par galaxie. Il ne revendique pas l'achèvement d'une théorie finale de la gravité quantique, mais fournit un cadre numérique étanche confronté aux données observationnelles.
+> **Important :** Ce document prÃ©sente un programme de recherche falsifiable et un solveur auto-consistant sans paramÃ¨tre libre ajustÃ© par galaxie. Il ne revendique pas l'achÃ¨vement d'une thÃ©orie finale de la gravitÃ© quantique, mais fournit un cadre numÃ©rique Ã©tanche confrontÃ© aux donnÃ©es observationnelles.
 
 ---
 
-## 1. Point de Départ & Chronologie de la Réflexion
+## 1. Point de DÃ©part & Chronologie de la RÃ©flexion
 
 ### 1.1 La question initiale
-La question initiale était volontairement large :
+La question initiale Ã©tait volontairement large :
 
-> **Existe-t-il un mécanisme physique susceptible de compenser localement l'effet gravitationnel sur un objet ?**
+> **Existe-t-il un mÃ©canisme physique susceptible de compenser localement l'effet gravitationnel sur un objet ?**
 
-Plusieurs pistes classiques ont été explorées (ionisation de l'air, gravitomagnétisme de type Lense-Thirring, distributions d'énergie exotique, énergie noire). Ces pistes ne fournissent pas de mécanisme macroscopique contrôlable dans le cadre de la physique actuellement établie. Cette recherche a progressivement conduit à une question différente et plus fondamentale :
+Plusieurs pistes classiques ont Ã©tÃ© explorÃ©es (ionisation de l'air, gravitomagnÃ©tisme de type Lense-Thirring, distributions d'Ã©nergie exotique, Ã©nergie noire). Ces pistes ne fournissent pas de mÃ©canisme macroscopique contrÃ´lable dans le cadre de la physique actuellement Ã©tablie. Cette recherche a progressivement conduit Ã  une question diffÃ©rente et plus fondamentale :
 
-> **La gravité elle-même pourrait-elle être une propriété émergente d'une structure quantique plus fondamentale ?**
+> **La gravitÃ© elle-mÃªme pourrait-elle Ãªtre une propriÃ©tÃ© Ã©mergente d'une structure quantique plus fondamentale ?**
 
-Le problème n'est donc plus de chercher immédiatement une « force antigravitationnelle », mais de s'interroger sur l'origine effective de la géométrie gravitationnelle et de la constante $G$.
+Le problÃ¨me n'est donc plus de chercher immÃ©diatement une Â« force antigravitationnelle Â», mais de s'interroger sur l'origine effective de la gÃ©omÃ©trie gravitationnelle et de la constante $G $.
 
 ---
 
-## 2. Ce qui est Établi
+## 2. Ce qui est Ã‰tabli
 
-La relativité générale décrit la gravitation par les équations d'Einstein :
+La relativitÃ© gÃ©nÃ©rale dÃ©crit la gravitation par les Ã©quations d'Einstein :
 
 $$
 G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
 $$
 
-où $g_{\mu\nu}$ est la métrique de l'espace-temps, $G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ le tenseur d'Einstein, $\Lambda$ la constante cosmologique, $G$ la constante gravitationnelle, $T_{\mu\nu}$ le tenseur énergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $R^{\rho}{}_{\sigma\mu\nu}$.
+oÃ¹ $ g_{\mu\nu}$ est la mÃ©trique de l'espace-temps, $ G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ le tenseur d'Einstein, $\Lambda $ la constante cosmologique, $ G $ la constante gravitationnelle, $ T_{\mu\nu}$ le tenseur Ã©nergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $ R^{\rho}{}_{\sigma\mu\nu}$.
 
-> **Précision importante :** $G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les équations d'Einstein.
-
----
-
-## 3. Pourquoi s'Intéresser à l'Origine de $G$ ?
-
-La relativité générale décrit remarquablement bien la gravité, mais elle ne fournit pas, à elle seule, une description microscopique de l'origine de la constante $G$.
-
-> **La constante gravitationnelle est-elle fondamentale, ou pourrait-elle être un paramètre effectif résultant d'une dynamique plus profonde ?**
-
-Cette question conduit notamment au concept de **gravité induite**, associé historiquement aux travaux d'Andrei Sakharov.
+> **PrÃ©cision importante :** $ G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les Ã©quations d'Einstein.
 
 ---
 
-## 4. La Piste de la Gravité Induite
+## 3. Pourquoi s'IntÃ©resser Ã  l'Origine de $ G $ ?
 
-Dans l'idée de gravité induite, le terme gravitationnel de type Einstein-Hilbert peut apparaître comme un terme effectif résultant des fluctuations quantiques de champs couplés à une géométrie :
+La relativitÃ© gÃ©nÃ©rale dÃ©crit remarquablement bien la gravitÃ©, mais elle ne fournit pas, Ã  elle seule, une description microscopique de l'origine de la constante $ G $.
+
+> **La constante gravitationnelle est-elle fondamentale, ou pourrait-elle Ãªtre un paramÃ¨tre effectif rÃ©sultant d'une dynamique plus profonde ?**
+
+Cette question conduit notamment au concept de **gravitÃ© induite**, associÃ© historiquement aux travaux d'Andrei Sakharov.
+
+---
+
+## 4. La Piste de la GravitÃ© Induite
+
+Dans l'idÃ©e de gravitÃ© induite, le terme gravitationnel de type Einstein-Hilbert peut apparaÃ®tre comme un terme effectif rÃ©sultant des fluctuations quantiques de champs couplÃ©s Ã  une gÃ©omÃ©trie :
 
 $$
 S_{\mathrm{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R
 $$
 
-Après intégration de degrés de liberté quantiques, on peut schématiquement obtenir :
+AprÃ¨s intÃ©gration de degrÃ©s de libertÃ© quantiques, on peut schÃ©matiquement obtenir :
 
 $$
 S_{\mathrm{eff}}[g] = \int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]
 $$
 
-L'idée importante est que le coefficient du terme de courbure $R$ peut recevoir une contribution provenant des degrés de liberté quantiques intégrés.
+L'idÃ©e importante est que le coefficient du terme de courbure $ R $ peut recevoir une contribution provenant des degrÃ©s de libertÃ© quantiques intÃ©grÃ©s.
 
 ---
 
-## 5. Une Relation Schématique pour $1/G_{\mathrm{eff}}$
+## 5. Une Relation SchÃ©matique pour $ 1/G_{\mathrm{eff}}$
 
 $$
 \frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2
 $$
 
-où $N_i$ est le nombre de degrés de liberté d'un secteur, $\Lambda_i$ une échelle de coupure, $c_i$ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique** — elle ne démontre pas que $G$ est directement déterminé par le contenu quantique réel de l'Univers.
+oÃ¹ $ N_i $ est le nombre de degrÃ©s de libertÃ© d'un secteur, $\Lambda_i $ une Ã©chelle de coupure, $ c_i $ un coefficient dÃ©pendant de la thÃ©orie, du spin, des couplages et de la rÃ©gularisation. Cette relation est **schÃ©matique et dÃ©pendante du cadre thÃ©orique** â€” elle ne dÃ©montre pas que $ G $ est directement dÃ©terminÃ© par le contenu quantique rÃ©el de l'Univers.
 
 ---
 
 ## 6. Ce que cette Relation ne permet PAS d'Affirmer
 
-### 6.1 Le cutoff $\Lambda$ n'est pas nécessairement un paramètre physique manipulable
-### 6.2 Une variation de $G$ serait fortement contrainte
+### 6.1 Le cutoff $\Lambda $ n'est pas nÃ©cessairement un paramÃ¨tre physique manipulable
+### 6.2 Une variation de $ G $ serait fortement contrainte
 
 ---
 
 ## 7. Le Changement de Perspective
 
-Une modification de $G$ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
+Une modification de $ G $ ne suffit pas Ã  expliquer la gravitÃ©, qui est une thÃ©orie de la **gÃ©omÃ©trie dynamique de l'espace-temps**. La question plus profonde devient :
 
-> **La géométrie elle-même pourrait-elle émerger de degrés de liberté quantiques plus fondamentaux ?**
+> **La gÃ©omÃ©trie elle-mÃªme pourrait-elle Ã©merger de degrÃ©s de libertÃ© quantiques plus fondamentaux ?**
 
 $$
-\text{structure quantique microscopique} \to \text{corrélations} \to \text{géométrie effective} \to \text{gravité classique}
+\text{structure quantique microscopique} \to \text{corrÃ©lations} \to \text{gÃ©omÃ©trie effective} \to \text{gravitÃ© classique}
 $$
 
 ---
 
-## 8. Hypothèse de Travail
+## 8. HypothÃ¨se de Travail
 
-> **La métrique classique $g_{\mu\nu}$ pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
+> **La mÃ©trique classique $ g_{\mu\nu}$ pourrait Ãªtre une variable collective Ã©mergente rÃ©sultant de l'organisation ou des corrÃ©lations d'un ensemble de degrÃ©s de libertÃ© quantiques plus fondamentaux $\hat{\Phi}_i $.**
 
 ---
 
-## 9. La Question Mathématique Centrale
+## 9. La Question MathÃ©matique Centrale
 
 $$
 G_{\mu\nu}(x) = \mathcal{F}_{\mu\nu}\left[\langle\hat{\Phi}_i(x)\hat{\Phi}_j(x')\rangle\right]
@@ -138,41 +138,41 @@ $$
 
 ---
 
-## 10. Une Formulation plus Générale
+## 10. Une Formulation plus GÃ©nÃ©rale
 
 $$
 \mathcal{Q}\left[\langle\hat{\Phi}_i\hat{\Phi}_j\rangle, \langle\hat{\Phi}_i\hat{\Phi}_j\hat{\Phi}_k\rangle, \dots\right] \to g_{\mu\nu} \to R_{\mu\nu}, R, G_{\mu\nu}
 $$
 
-> **Quelle structure de corrélations quantiques pourrait produire une géométrie effective possédant les propriétés de l'espace-temps relativiste ?**
+> **Quelle structure de corrÃ©lations quantiques pourrait produire une gÃ©omÃ©trie effective possÃ©dant les propriÃ©tÃ©s de l'espace-temps relativiste ?**
 
-# MANUSCRIT DE SYNTHÈSE THÉORIQUE & NUMÉRIQUE (DRAFT V1)
-## Modèle H2C : Gravité Émergente par Condensation de Phase et Auto-Interaction du Vide
+# MANUSCRIT DE SYNTHÃˆSE THÃ‰ORIQUE & NUMÃ‰RIQUE (DRAFT V1)
+## ModÃ¨le H2C : GravitÃ© Ã‰mergente par Condensation de Phase et Auto-Interaction du Vide
 
 ---
 
-### Chapitre 1 : Le Substrat $S^2$ et la Catastrophe du Vide ($10^{120}$)
+### Chapitre 1 : Le Substrat $ S^2 $ et la Catastrophe du Vide ($ 10^{120}$)
 
-#### 1.1 Le réservoir microscopique
-La gravité est modélisée non pas comme une interaction fondamentale primordiale, mais comme la manifestation réfractive d'un champ de cohérence de phase $C(x)$. Le vide quantique est représenté par un réservoir d'oscillations stationnaires à très haute fréquence (échelle de Planck).
+#### 1.1 Le rÃ©servoir microscopique
+La gravitÃ© est modÃ©lisÃ©e non pas comme une interaction fondamentale primordiale, mais comme la manifestation rÃ©fractive d'un champ de cohÃ©rence de phase $ C(x)$. Le vide quantique est reprÃ©sentÃ© par un rÃ©servoir d'oscillations stationnaires Ã  trÃ¨s haute frÃ©quence (Ã©chelle de Planck).
 
-#### 1.2 Annulation statistique et facteur $10^{120}$ L'énergie de point zéro du vide quantique dépasse la valeur cosmologique observée d'un facteur $10^{120}$. Dans le modèle H2C, ce facteur traduit le taux d'interférence destructive massive au sein d'un réseau d'agents à phases libres orientées sur la sphère $S^2$. Le champ résiduel observable $\Lambda$ représente la composante non annulée issue de ce moyennage statistique :
+#### 1.2 Annulation statistique et facteur $ 10^{120}$ L'Ã©nergie de point zÃ©ro du vide quantique dÃ©passe la valeur cosmologique observÃ©e d'un facteur $ 10^{120}$. Dans le modÃ¨le H2C, ce facteur traduit le taux d'interfÃ©rence destructive massive au sein d'un rÃ©seau d'agents Ã  phases libres orientÃ©es sur la sphÃ¨re $ S^2 $. Le champ rÃ©siduel observable $\Lambda $ reprÃ©sente la composante non annulÃ©e issue de ce moyennage statistique :
 
 ```
-  [ Micro-fluctuations de Phase à l'Échelle de Planck ]
-         ρ_micro ~ ρ_Planck ~ 10^{114} J/m³
-              │
-              ▼ ( Moyennage d'ensemble sur N >> 1 modes )
-     [ Filtre de Phase Destructive (R < 0) ]
-              │
-              ▼ ( Condensation du fond critique C_c )
-      [ Densité Macro Émergente ρ_vac = V(C_c) ]
-         ρ_macro ~ 10^{-6} J/m³ (Facteur 10^{-120})
-              │
-              ▼
+ [ Micro-fluctuations de Phase Ã  l'Ã‰chelle de Planck ]
+     Ï_micro ~ Ï_Planck ~ 10^{114} J/mÂ³
+       â”‚
+       â–¼ ( Moyennage d'ensemble sur N >> 1 modes )
+   [ Filtre de Phase Destructive (R < 0) ]
+       â”‚
+       â–¼ ( Condensation du fond critique C_c )
+   [ DensitÃ© Macro Ã‰mergente Ï_vac = V(C_c) ]
+     Ï_macro ~ 10^{-6} J/mÂ³ (Facteur 10^{-120})
+       â”‚
+       â–¼
 
-[ Métrique Effective & Équation d'Einstein Cosmologique ]
-G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}
+[ MÃ©trique Effective & Ã‰quation d'Einstein Cosmologique ]
+G_Î¼Î½[g^{eff}] + Î›(C_c) g_Î¼Î½^{eff} = (8Ï€ G_{eff}(C) / c_loc^4) T_Î¼Î½^{eff}
 ```
 
 $$
@@ -181,316 +181,322 @@ $$
 
 ---
 
-### Chapitre 2 : La Gouttelette de Cohérence & Campagne 61H-10A ($A_{\text{min}} = 0.6132$)
+### Chapitre 2 : La Gouttelette de CohÃ©rence & Campagne 61H-10A ($ A_{\text{min}} = 0.6132 $)
 
-#### 2.1 Dynamique de phase et suppression des singularités
-Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'aligner. La campagne numérique **61H-10A** ($N=2000$ agents sur 500 pas) a testé cette dynamique sans bornage artificiel.
+#### 2.1 Dynamique de phase et suppression des singularitÃ©s
+Lors de la nuclÃ©ation d'un flux d'Ã©nergie, les phases locales tendent Ã  s'aligner. La campagne numÃ©rique **61H-10A** ($ N=2000 $ agents sur 500 pas) a testÃ© cette dynamique sans bornage artificiel.
 
-#### 2.2 Résultat de la Campagne 61H-10A (Inversions de phase)
-- **Basculements de phase** : $55\ 706$ inversions de signe ($\pm$) détectées sur les dérivées d'amplitude.
-- **Auto-régularisation** : Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($A \to 0$).
+#### 2.2 RÃ©sultat de la Campagne 61H-10A (Inversions de phase)
+- **Basculements de phase** : $ 55\ 706 $ inversions de signe ($\pm $) dÃ©tectÃ©es sur les dÃ©rivÃ©es d'amplitude.
+- **Auto-rÃ©gularisation** : Ces contre-poussÃ©es dynamiques agissent comme une soupape de sÃ©curitÃ© empÃªchant l'amplitude d'atteindre zÃ©ro ($ A \to 0 $).
 - **Plancher d'amplitude** : Stabilisation d'une valeur minimale finie :
 
 $$
 A_{\text{min}} \approx 0.6132
 $$
 
-Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($n \to \infty$) est éliminée par la réponse propre du substrat.
+Le cÅ“ur condensÃ© possÃ¨de une mÃ©trique lisse, continue et non singuliÃ¨re. La division par zÃ©ro ($ n \to \infty $) est Ã©liminÃ©e par la rÃ©ponse propre du substrat.
 
 ---
 
-### Chapitre 3 : Du Local au Global — Réfutation des Modèles Linéaires (SPARC / 61H-11/12)
+### Chapitre 3 : Du Local au Global â€” RÃ©futation des ModÃ¨les LinÃ©aires (SPARC / 61H-11/12)
 
-#### 3.1 Réfutation des modèles ponctuels et linéaires
-La transposition du modèle au système solaire (déflexion des rayons lumineux) avec un indice de réfraction $n(r) = 1 + \frac{K}{r A(r)}$ reproduit la valeur d'Einstein ($1.7501''$) dans le cas limite où $A = 1.0$.
+#### 3.1 RÃ©futation des modÃ¨les ponctuels et linÃ©aires
+La transposition du modÃ¨le au systÃ¨me solaire (dÃ©flexion des rayons lumineux) avec un indice de rÃ©fraction $ n(r) = 1 + \frac{K}{r A(r)}$ reproduit la valeur d'Einstein ($ 1.7501''$) dans le cas limite oÃ¹ $ A = 1.0 $.
 
-Cependant, l'application de ce formalisme linéaire à la base de données galactiques **SPARC** (175 galaxies) a révélé une limite structurelle stricte :
+Cependant, l'application de ce formalisme linÃ©aire Ã  la base de donnÃ©es galactiques **SPARC** (175 galaxies) a rÃ©vÃ©lÃ© une limite structurelle stricte :
 
-| Modèle / Test | RMSE (RAR) | Pente BTFR | Amplification Max |
+| ModÃ¨le / Test | RMSE (RAR) | Pente BTFR | Amplification Max |
 | :--- | :--- | :--- | :--- |
-| **H2C Fixe ($A_{\text{min}}=0.61$)** |$0.4124$|$0.3015$|$1.63\times$ |
-| **H2C Scaling ($M^{-0.055}$)** |$0.4281$|$0.3242$|$1.4\times \text{ à } 2.1\times$ |
-| **Observations (SPARC)** | **$0.1927$** | **$0.2500$** | **jusqu'à $34\times$** |
+| **H2C Fixe ($ A_{\text{min}}=0.61 $)** |$ 0.4124 $|$ 0.3015 $|$ 1.63\times $ |
+| **H2C Scaling ($ M^{-0.055}$)** |$ 0.4281 $|$ 0.3242 $|$ 1.4\times \text{ Ã  } 2.1\times $ |
+| **Observations (SPARC)** | **$ 0.1927 $** | **$ 0.2500 $** | **jusqu'Ã  $ 34\times $** |
 
 #### 3.2 Diagnostic
-L'intégration d'un indice linéaire sur une source ponctuelle ou un disque étendu retombe inévitablement en champ lointain sur une loi keplérienne en $1/r^2$ (pente logarithmique de $-2.00$). La géométrie étendue de la matière baryonique seule ne suffit pas à adoucir la décroissance du champ.
+L'intÃ©gration d'un indice linÃ©aire sur une source ponctuelle ou un disque Ã©tendu retombe inÃ©vitablement en champ lointain sur une loi keplÃ©rienne en $ 1/r^2 $ (pente logarithmique de $-2.00 $). La gÃ©omÃ©trie Ã©tendue de la matiÃ¨re baryonique seule ne suffit pas Ã  adoucir la dÃ©croissance du champ.
 
 ---
 
-### Chapitre 4 : L'Auto-interaction du Vide & Campagne 61H-13 (Plateau MOND à $-1.0000 $)
+### Chapitre 4 : L'Auto-interaction du Vide & Campagne 61H-13 (Plateau MOND Ã  $-1.0000 $)
 
-#### 4.1 La non-linéarité du champ de phase
-Pour affranchir le gradient de la décroissance en $1/r^2$, un terme d'auto-interaction quartique est introduit dans l'équation d'état du condensat $S^2$. L'équation de Poisson généralisée prend la forme :
+#### 4.1 La non-linÃ©aritÃ© du champ de phase
+Pour affranchir le gradient de la dÃ©croissance en $ 1/r^2 $, un terme d'auto-interaction quartique est introduit dans l'Ã©quation d'Ã©tat du condensat $ S^2 $. L'Ã©quation de Poisson gÃ©nÃ©ralisÃ©e prend la forme :
 
 $$
 \nabla \cdot \left[ \mu\left(\frac{|\nabla n|}{a_0}\right) \nabla n \right] = \frac{8\pi G}{c^2} \rho_{\text{baryon}}
 $$
 
-Avec la constante d'accélération intrinsèque étalonnée sur le bruit du vide :
+Avec la constante d'accÃ©lÃ©ration intrinsÃ¨que Ã©talonnÃ©e sur le bruit du vide :
 
 $$
 a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 1.20 \times 10^{-10} \text{ m/s}^2
 $$
 
-#### 4.2 Résultats de la Campagne 61H-13
-- **Verrouillage de la pente** : En champ faible ($g_{\text{bar}} \ll a_0$), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999 $).
-- **Rapport d'amplification** : Décrochement du champ vis-à-vis de la matière visible, permettant d'atteindre des facteurs d'amplification supérieurs à $30\times$ en bordure de disque.
+#### 4.2 RÃ©sultats de la Campagne 61H-13
+- **Verrouillage de la pente** : En champ faible ($ g_{\text{bar}} \ll a_0 $), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000 $** ($\theta_{\text{pÃ©riphÃ©rie}} = -0.9999 $).
+- **Rapport d'amplification** : DÃ©crochement du champ vis-Ã -vis de la matiÃ¨re visible, permettant d'atteindre des facteurs d'amplification supÃ©rieurs Ã  $ 30\times $ en bordure de disque.
 
-# PARTIE II : APPROFONDISSEMENT THÉORIQUE & PROTOCOLE DE VALIDATION ASTROPHYSIQUE (SPARC)
+# PARTIE II : APPROFONDISSEMENT THÃ‰ORIQUE & PROTOCOLE DE VALIDATION ASTROPHYSIQUE (SPARC)
 
-L'émergence de la métrique et de la dynamique non-linéaire au sein du condensat $S^2$ est formalisée par une action effective incluant les termes d'auto-interaction du vide.
+L'Ã©mergence de la mÃ©trique et de la dynamique non-linÃ©aire au sein du condensat $ S^2 $ est formalisÃ©e par une action effective incluant les termes d'auto-interaction du vide.
 
-### 1. Raccordement Lagrangien & Équation du Champ
-Le Lagrangien effectif du condensat de phase $\psi$ couplé à la densité baryonique $\rho_b$ s'écrit :
+### 1. Raccordement Lagrangien & Ã‰quation du Champ
+Le Lagrangien effectif du condensat de phase $\psi $ couplÃ© Ã  la densitÃ© baryonique $\rho_b $ s'Ã©crit :
 
 $$
 \mathcal{L}_{\text{eff}} = \frac{1}{2} (\nabla \psi)^2 - \frac{\lambda}{4} |\psi|^4 - V(\psi) + g \psi \rho_b
 $$
 
-Où $\lambda$ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire $a_0 \propto \sqrt{\Lambda}$, la saturation du terme quartique fait émerger la fonction d'interpolation $\mu(x)$ de type MOND/AQUAL.
+OÃ¹ $\lambda $ est la constante d'auto-interaction microscopique. Sous l'effet du bruit de fond cosmologique stationnaire $ a_0 \propto \sqrt{\Lambda}$, la saturation du terme quartique fait Ã©merger la fonction d'interpolation $\mu(x)$ de type MOND/AQUAL.
 
-L'équation de champ généralisée prend la forme d'une équation de Poisson modifiée conservative :
+L'Ã©quation de champ gÃ©nÃ©ralisÃ©e prend la forme d'une Ã©quation de Poisson modifiÃ©e conservative :
 
 $$
 \nabla \cdot \left[ \mu\left(\frac{|\nabla \Phi|}{a_0}\right) \nabla \Phi \right] = 4 \pi G \rho_b
 $$
 
-### 2. Protocole d'Essai Prédictif sur le Catalogue SPARC
-- **Zéro Paramètre Libre** : $a_0$ est ancré sur le vide cosmologique ($\Lambda$).
-- **Masse Sombre Nulle** : $M_{\text{DM}}=0$.
-- **Validation** : Confrontation directe aux 175 galaxies du catalogue SPARC pour vérifier la réduction du $\chi^2$ et la conformité à la Relation d'Accélération Radiale (RAR).
+### 2. Protocole d'Essai PrÃ©dictif sur le Catalogue SPARC
+- **ZÃ©ro ParamÃ¨tre Libre** : $ a_0 $ est ancrÃ© sur le vide cosmologique ($\Lambda $).
+- **Masse Sombre Nulle** : $ M_{\text{DM}}=0 $.
+- **Validation** : Confrontation directe aux 175 galaxies du catalogue SPARC pour vÃ©rifier la rÃ©duction du $\chi^2 $ et la conformitÃ© Ã  la Relation d'AccÃ©lÃ©ration Radiale (RAR).
 
-# PARTIE III : JOURNAL DES CAMPAGNES & ÉVOLUTION ANALYTIQUE
+# PARTIE III : JOURNAL DES CAMPAGNES & Ã‰VOLUTION ANALYTIQUE
 
-## 12. Pourquoi la question dépasse une simple théorie de $G$ variable
+## 12. Pourquoi la question dÃ©passe une simple thÃ©orie de $ G $ variable
 
 $$
-\text{corrélations quantiques} \rightarrow \text{géométrie} \rightarrow G_{\mu\nu} \rightarrow \text{gravité}
+\text{corrÃ©lations quantiques} \rightarrow \text{gÃ©omÃ©trie} \rightarrow G_{\mu\nu} \rightarrow \text{gravitÃ©}
 $$
 
-$ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt que le point de départ de la théorie.
+$ G $ serait un **paramÃ¨tre effectif de la gÃ©omÃ©trie Ã©mergente**, plutÃ´t que le point de dÃ©part de la thÃ©orie.
 
 ---
 
-## 13. Obstacles théoriques à examiner
+## 13. Obstacles thÃ©oriques Ã  examiner
 
 | Obstacle | Description |
 |---|---|
-| **13.1 Covariance générale** | $G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
-| **13.2 Identités de Bianchi** | $\nabla^\mu G_{\mu\nu} = 0$ doit apparaître au niveau macroscopique. |
-| **13.3 Conservation énergie-impulsion** | $\nabla^\mu T_{\mu\nu} = 0$ doit se généraliser si $G_{\mathrm{eff}}$ / $\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
-| **13.4 Émergence de la métrique** | Il faut expliquer comment $g_{\mu\nu}$ elle-même émerge des degrés de liberté fondamentaux. |
-| **13.5 Dynamique de la géométrie** | Il faut expliquer l'apparition du terme $\sqrt{-g}R$ avec le bon coefficient. |
-| **13.6 Définition du vide quantique** | Préciser quel état quantique et quelles corrélations sont physiquement pertinents. |
-| **13.7 Localité / non-localité** | Comprendre comment une géométrie macroscopique locale émerge d'une description microscopique éventuellement non locale. |
-| **13.8 Universalité de la gravitation** | Expliquer pourquoi le couplage reste universel malgré la diversité des degrés de liberté microscopiques. |
+| **13.1 Covariance gÃ©nÃ©rale** | $ G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\text{corrÃ©lations}]$ doit respecter la covariance gÃ©nÃ©rale. |
+| **13.2 IdentitÃ©s de Bianchi** | $\nabla^\mu G_{\mu\nu} = 0 $ doit apparaÃ®tre au niveau macroscopique. |
+| **13.3 Conservation Ã©nergie-impulsion** | $\nabla^\mu T_{\mu\nu} = 0 $ doit se gÃ©nÃ©raliser si $ G_{\mathrm{eff}}$ / $\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
+| **13.4 Ã‰mergence de la mÃ©trique** | Il faut expliquer comment $ g_{\mu\nu}$ elle-mÃªme Ã©merge des degrÃ©s de libertÃ© fondamentaux. |
+| **13.5 Dynamique de la gÃ©omÃ©trie** | Il faut expliquer l'apparition du terme $\sqrt{-g}R $ avec le bon coefficient. |
+| **13.6 DÃ©finition du vide quantique** | PrÃ©ciser quel Ã©tat quantique et quelles corrÃ©lations sont physiquement pertinents. |
+| **13.7 LocalitÃ© / non-localitÃ©** | Comprendre comment une gÃ©omÃ©trie macroscopique locale Ã©merge d'une description microscopique Ã©ventuellement non locale. |
+| **13.8 UniversalitÃ© de la gravitation** | Expliquer pourquoi le couplage reste universel malgrÃ© la diversitÃ© des degrÃ©s de libertÃ© microscopiques. |
 
 ---
 
-## 14. Le problème du « maillage » de l'espace-temps
+## 14. Le problÃ¨me du Â« maillage Â» de l'espace-temps
 
-L'intuition initiale considérait le « maillage » géométrique de l'espace-temps comme pouvant correspondre, par analogie, à une structure microscopique du vide quantique — une **métaphore heuristique**, non une affirmation qu'Einstein aurait proposé un espace-temps fait d'un réseau physique de points.
+L'intuition initiale considÃ©rait le Â« maillage Â» gÃ©omÃ©trique de l'espace-temps comme pouvant correspondre, par analogie, Ã  une structure microscopique du vide quantique â€” une **mÃ©taphore heuristique**, non une affirmation qu'Einstein aurait proposÃ© un espace-temps fait d'un rÃ©seau physique de points.
 
-> **La structure géométrique continue décrite par $g_{\mu\nu}$ pourrait-elle être une description effective, à grande échelle, d'un substrat quantique discret, relationnel ou autrement structuré ?**
+> **La structure gÃ©omÃ©trique continue dÃ©crite par $ g_{\mu\nu}$ pourrait-elle Ãªtre une description effective, Ã  grande Ã©chelle, d'un substrat quantique discret, relationnel ou autrement structurÃ© ?**
 
 ---
 
 ## 15. La question de la constante cosmologique
 
-La hiérarchie souvent résumée par un facteur de l'ordre de $10^{120}$ entre certaines estimations microscopiques de l'énergie du vide et la contribution cosmologique observée doit être traitée avec prudence — voir le document compagnon pour le traitement rigoureux de ce facteur.
+La hiÃ©rarchie souvent rÃ©sumÃ©e par un facteur de l'ordre de $ 10^{120}$ entre certaines estimations microscopiques de l'Ã©nergie du vide et la contribution cosmologique observÃ©e doit Ãªtre traitÃ©e avec prudence â€” voir le document compagnon pour le traitement rigoureux de ce facteur.
 
-> **Et si l'énorme hiérarchie révélait une différence entre deux niveaux de description physique ?**
+> **Et si l'Ã©norme hiÃ©rarchie rÃ©vÃ©lait une diffÃ©rence entre deux niveaux de description physique ?**
 
 ---
 
-## 16. Et si les états quantiques intermédiaires étaient masqués par la description macroscopique ?
+## 16. Et si les Ã©tats quantiques intermÃ©diaires Ã©taient masquÃ©s par la description macroscopique ?
 
-> **Et si les calculs microscopiques décrivaient une multiplicité de degrés de liberté, d'états et de configurations, alors que la gravitation cosmologique effective ne nous donnait accès qu'à une description collective macroscopique ?**
+> **Et si les calculs microscopiques dÃ©crivaient une multiplicitÃ© de degrÃ©s de libertÃ©, d'Ã©tats et de configurations, alors que la gravitation cosmologique effective ne nous donnait accÃ¨s qu'Ã  une description collective macroscopique ?**
 
-Une première formulation représentait cette transition comme une relaxation **Q_0 → Q_1 → ⋯ → Q_stable** — **Logique A**.
-Cette représentation reste pertinente pour comparer différents mécanismes physiques, mais elle n'est plus le mécanisme privilégié pour l'émergence fondamentale de la géométrie étudiée ici (voir **section 18**).
+Une premiÃ¨re formulation reprÃ©sentait cette transition comme une relaxation **Q_0 â†’ Q_1 â†’ â‹¯ â†’ Q_stable** â€” **Logique A**.
+Cette reprÃ©sentation reste pertinente pour comparer diffÃ©rents mÃ©canismes physiques, mais elle n'est plus le mÃ©canisme privilÃ©giÃ© pour l'Ã©mergence fondamentale de la gÃ©omÃ©trie Ã©tudiÃ©e ici (voir **section 18**).
 
 ---
 
 ## 17. L'analogie avec un programme informatique
 
 $$
-\text{micro-états quantiques} \rightarrow \text{interactions} \rightarrow \text{corrélations} \rightarrow \text{contraintes collectives} \rightarrow \text{état macroscopique cohérent}
+\text{micro-Ã©tats quantiques} \rightarrow \text{interactions} \rightarrow \text{corrÃ©lations} \rightarrow \text{contraintes collectives} \rightarrow \text{Ã©tat macroscopique cohÃ©rent}
 $$
 
-Cette analogie ne doit pas être considérée comme une équivalence physique — elle sert uniquement à distinguer dynamique microscopique, états intermédiaires, interactions, contraintes de cohérence, et description macroscopique.
+Cette analogie ne doit pas Ãªtre considÃ©rÃ©e comme une Ã©quivalence physique â€” elle sert uniquement Ã  distinguer dynamique microscopique, Ã©tats intermÃ©diaires, interactions, contraintes de cohÃ©rence, et description macroscopique.
 
 ---
 
-## 18. Deux logiques possibles pour l'émergence
+## 18. Deux logiques possibles pour l'Ã©mergence
 
-**Logique A — Relaxation temporelle :** le système évolue réellement dans le temps et atteint progressivement une configuration stable : **Q_0 → Q_1 → ⋯ → Q_stable**
+**Logique A â€” Relaxation temporelle :** le systÃ¨me Ã©volue rÃ©ellement dans le temps et atteint progressivement une configuration stable : **Q_0 â†’ Q_1 â†’ â‹¯ â†’ Q_stable**
 
-**Logique B — Somme sur les configurations et phase stationnaire :** toutes les configurations contribuent à une amplitude globale sans succession temporelle :
+**Logique B â€” Somme sur les configurations et phase stationnaire :** toutes les configurations contribuent Ã  une amplitude globale sans succession temporelle :
 
 $$
 \Psi \sim \int \mathcal{D}[\text{configurations}]\; e^{iS/\hbar}
 $$
 
-Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $g_{\mu\nu}$.
+Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les rÃ©gions oÃ¹ l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathÃ©matique de travail pour l'Ã©mergence de $ g_{\mu\nu}$.
 
 ---
 
-## 19. Pourquoi la logique B est désormais privilégiée
+## 19. Pourquoi la logique B est dÃ©sormais privilÃ©giÃ©e
 
-L'exemple du photon réfléchi par un miroir illustre cette logique : toutes les trajectoires contribuent à l'amplitude ; les chemins éloignés du chemin classique interfèrent destructivement ; le voisinage du chemin classique ($\delta S = 0 $) interfère constructivement. Le point observé n'est donc pas la trace d'un unique chemin réellement emprunté, mais le résultat macroscopique dominant d'une somme sur toutes les possibilités.
+L'exemple du photon rÃ©flÃ©chi par un miroir illustre cette logique : toutes les trajectoires contribuent Ã  l'amplitude ; les chemins Ã©loignÃ©s du chemin classique interfÃ¨rent destructivement ; le voisinage du chemin classique ($\delta S = 0 $) interfÃ¨re constructivement. Le point observÃ© n'est donc pas la trace d'un unique chemin rÃ©ellement empruntÃ©, mais le rÃ©sultat macroscopique dominant d'une somme sur toutes les possibilitÃ©s.
 
 ---
 
-## 20. Phase stationnaire et critère de cohérence
+## 20. Phase stationnaire et critÃ¨re de cohÃ©rence
 
 $$
 \delta S = 0
 $$
 
-Une intuition supplémentaire vient des conditions de fermeture de phase (Bohr-Sommerfeld, $n\lambda = 2\pi r$) : lorsque les phases se referment de manière cohérente, certaines contributions sont renforcées par interférence.
+Une intuition supplÃ©mentaire vient des conditions de fermeture de phase (Bohr-Sommerfeld, $ n\lambda = 2\pi r $) : lorsque les phases se referment de maniÃ¨re cohÃ©rente, certaines contributions sont renforcÃ©es par interfÃ©rence.
 
-> **Existe-t-il, pour les configurations géométriques, une condition de cohérence analogue qui favorise certaines géométries comme configurations quasi-classiques stables ?**
+> **Existe-t-il, pour les configurations gÃ©omÃ©triques, une condition de cohÃ©rence analogue qui favorise certaines gÃ©omÃ©tries comme configurations quasi-classiques stables ?**
 
-Cette formulation reste une analogie heuristique — elle ne signifie pas que la gravité quantique est un phénomène de résonance mécanique classique.
+Cette formulation reste une analogie heuristique â€” elle ne signifie pas que la gravitÃ© quantique est un phÃ©nomÃ¨ne de rÃ©sonance mÃ©canique classique.
 
 ---
 
-## 21. Une formulation de type intégrale de chemin
+## 21. Une formulation de type intÃ©grale de chemin
 
 $$
 \Psi[G] = \int_{\mathcal{C}(G)} \mathcal{D}\Phi\; e^{iS_{\mathrm{micro}}[\Phi]/\hbar}
 $$
 
-où $\Phi$ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et $S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
+oÃ¹ $\Phi $ reprÃ©sente les degrÃ©s de libertÃ© fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une gÃ©omÃ©trie effective candidate $ G $, et $ S_{\mathrm{micro}}$ une action microscopique encore Ã  dÃ©finir. Cette Ã©criture est un objectif de formalisation, pas une Ã©quation dÃ©jÃ  dÃ©rivÃ©e.
 
 ---
 
-## 22. Problèmes techniques associés à la logique B
+## 22. ProblÃ¨mes techniques associÃ©s Ã  la logique B
 
-Problème de la mesure ($\mathcal{D}[g_{\mu\nu}]$ covariante), convergence (poids lorentzien oscillant), facteur conforme (directions problématiques de l'action gravitationnelle), renormalisation (non-renormalisabilité perturbative de la RG quantifiée). L'intégrale de chemin gravitationnelle est un cadre formel puissant, pas encore une théorie microscopique complète et calculable.
+ProblÃ¨me de la mesure ($\mathcal{D}[g_{\mu\nu}]$ covariante), convergence (poids lorentzien oscillant), facteur conforme (directions problÃ©matiques de l'action gravitationnelle), renormalisation (non-renormalisabilitÃ© perturbative de la RG quantifiÃ©e). L'intÃ©grale de chemin gravitationnelle est un cadre formel puissant, pas encore une thÃ©orie microscopique complÃ¨te et calculable.
 
 ---
 
-## 23. Hypothèses de travail H1–H10
+## 23. HypothÃ¨ses de travail H1â€“H10
 
 | ID | Question |
 |---|---|
-| **H1** | Nature des degrés de liberté sommés — que sont concrètement les $\hat{\Phi}_i$ ? |
-| **H2** | Action microscopique $S[\hat{\Phi}_i]$, sans présupposer $\sqrt{-g}R$. |
-| **H3** | Mesure d'intégration — quelle classe de configurations, quelles symétries respectées. |
-| **H4** | Signature et convergence — euclidien vs lorentzien. |
-| **H5** | Critère de phase stationnaire, appliqué à l'action microscopique. |
-| **H6** | Mécanisme de décohérence séparé de la phase stationnaire elle-même. |
-| **H7** | Origine de $G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ depuis les paramètres microscopiques. |
+| **H1** | Nature des degrÃ©s de libertÃ© sommÃ©s â€” que sont concrÃ¨tement les $\hat{\Phi}_i $ ? |
+| **H2** | Action microscopique $ S[\hat{\Phi}_i]$, sans prÃ©supposer $\sqrt{-g}R $. |
+| **H3** | Mesure d'intÃ©gration â€” quelle classe de configurations, quelles symÃ©tries respectÃ©es. |
+| **H4** | Signature et convergence â€” euclidien vs lorentzien. |
+| **H5** | CritÃ¨re de phase stationnaire, appliquÃ© Ã  l'action microscopique. |
+| **H6** | MÃ©canisme de dÃ©cohÃ©rence sÃ©parÃ© de la phase stationnaire elle-mÃªme. |
+| **H7** | Origine de $ G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ depuis les paramÃ¨tres microscopiques. |
 | **H8** | Conditions aux limites. |
-| **H9** | Domaine de validité. |
-| **H10** | Prédiction distinctive et testable. |
+| **H9** | Domaine de validitÃ©. |
+| **H10** | PrÃ©diction distinctive et testable. |
 
 ---
 
-## 24. H6bis — Configurations spatio-temporelles parallèles
+## 24. H6bis â€” Configurations spatio-temporelles parallÃ¨les
 
-Au lieu de considérer plusieurs états intermédiaires d'un même espace-temps, on envisage une multiplicité de configurations ou histoires spatio-temporelles possibles : $\{H_1, H_2, \ldots, H_N\}$, chacune associée à sa propre géométrie effective $g_{\mu\nu}^{(i)}$ et éventuellement à un temps propre effectif.
+Au lieu de considÃ©rer plusieurs Ã©tats intermÃ©diaires d'un mÃªme espace-temps, on envisage une multiplicitÃ© de configurations ou histoires spatio-temporelles possibles : $\{H_1, H_2, \ldots, H_N\}$, chacune associÃ©e Ã  sa propre gÃ©omÃ©trie effective $ g_{\mu\nu}^{(i)}$ et Ã©ventuellement Ã  un temps propre effectif.
 
-> Une multiplicité de configurations spatio-temporelles dans une description quantique ne signifie pas automatiquement l'existence de plusieurs espaces-temps classiques indépendants au sens ordinaire.
+> Une multiplicitÃ© de configurations spatio-temporelles dans une description quantique ne signifie pas automatiquement l'existence de plusieurs espaces-temps classiques indÃ©pendants au sens ordinaire.
 
 ---
 
-## 25. H6bis.1 — La décohérence des histoires
+## 25. H6bis.1 â€” La dÃ©cohÃ©rence des histoires
 
 $$
-\{H_i\} \xrightarrow{\text{interférences}} \text{décohérence} \rightarrow \{H_k^{\mathrm{qc}}\}
+\{H_i\} \xrightarrow{\text{interfÃ©rences}} \text{dÃ©cohÃ©rence} \rightarrow \{H_k^{\mathrm{qc}}\}
 $$
 
-Une famille d'histoires peut devenir suffisamment décohérente des autres pour être décrite comme un secteur quasi-classique — pas nécessairement une seule histoire qui « gagne ».
+Une famille d'histoires peut devenir suffisamment dÃ©cohÃ©rente des autres pour Ãªtre dÃ©crite comme un secteur quasi-classique â€” pas nÃ©cessairement une seule histoire qui Â« gagne Â».
 
 ---
 
-## 26. H6bis.2 — L'analogie des bulles de savon
+## 26. H6bis.2 â€” L'analogie des bulles de savon
 
 $$
 \{B_1, B_2, \ldots\} \xrightarrow{\text{interactions}} \text{coalescence} \rightarrow B_{\mathrm{collective}}
 $$
 
-Pour les bulles, le mécanisme (tension de surface) est physique et connu. Pour le problème quantique, le mécanisme recherché est différent (interférences → phase stationnaire → décohérence). L'analogie porte uniquement sur la transition conceptuelle : multiplicité → organisation collective → description macroscopique.
+Pour les bulles, le mÃ©canisme (tension de surface) est physique et connu. Pour le problÃ¨me quantique, le mÃ©canisme recherchÃ© est diffÃ©rent (interfÃ©rences â†’ phase stationnaire â†’ dÃ©cohÃ©rence). L'analogie porte uniquement sur la transition conceptuelle : multiplicitÃ© â†’ organisation collective â†’ description macroscopique.
 
 ---
 
-## 27. H6bis.3 — Les bulles comme représentation heuristique de configurations spatio-temporelles
+## 27. H6bis.3 â€” Les bulles comme reprÃ©sentation heuristique de configurations spatio-temporelles
 
-> **La géométrie de l'espace-temps que nous observons pourrait-elle être le secteur quasi-classique dominant issu d'une multiplicité de configurations spatio-temporelles quantiques possibles ?**
+> **La gÃ©omÃ©trie de l'espace-temps que nous observons pourrait-elle Ãªtre le secteur quasi-classique dominant issu d'une multiplicitÃ© de configurations spatio-temporelles quantiques possibles ?**
 
-Cette formulation ne prétend pas démontrer que plusieurs espaces-temps classiques existent réellement — elle propose de déterminer si une théorie quantique de la gravitation peut donner un sens mathématique à cette multiplicité.
-
----
-
-## 28. H6bis.4 — Le parallèle avec le photon et le miroir
-
-Toutes les trajectoires contribuent à l'amplitude ; les contributions à phase rapidement variable s'annulent ; près du chemin classique ($\delta S = 0$), les contributions se renforcent. Le point macroscopiquement observé n'est pas la manifestation d'un seul chemin microscopique réellement emprunté, mais de la région où les contributions interfèrent constructivement. Le parallèle avec les bulles et avec les histoires est structurel, pas littéral.
+Cette formulation ne prÃ©tend pas dÃ©montrer que plusieurs espaces-temps classiques existent rÃ©ellement â€” elle propose de dÃ©terminer si une thÃ©orie quantique de la gravitation peut donner un sens mathÃ©matique Ã  cette multiplicitÃ©.
 
 ---
 
-## 29. H6bis.5 — Une formulation plus précise de la « réalité construite »
+## 28. H6bis.4 â€” Le parallÃ¨le avec le photon et le miroir
 
-Il est plus rigoureux de parler d'une **configuration ou famille de configurations dont la contribution constructive et la cohérence collective dominent dans la limite macroscopique considérée**, plutôt que d'une configuration qui « absorberait » les autres.
-
----
-
-## 30. H6bis.6 — Les temporalités internes aux histoires
-
-Si $H_i \to g_{\mu\nu}^{(i)}$, alors le temps propre associé $\tau_i$ est déterminé par cette géométrie.
-
-> **Le temps que nous observons pourrait-il être le temps propre interne à l'histoire quasi-classique dans laquelle notre description macroscopique est définie ?**
-
-Ce lien reste à construire mathématiquement.
+Toutes les trajectoires contribuent Ã  l'amplitude ; les contributions Ã  phase rapidement variable s'annulent ; prÃ¨s du chemin classique ($\delta S = 0 $), les contributions se renforcent. Le point macroscopiquement observÃ© n'est pas la manifestation d'un seul chemin microscopique rÃ©ellement empruntÃ©, mais de la rÃ©gion oÃ¹ les contributions interfÃ¨rent constructivement. Le parallÃ¨le avec les bulles et avec les histoires est structurel, pas littÃ©ral.
 
 ---
 
-## 31. H6bis.7 — Formulation unifiée de H6
+## 29. H6bis.5 â€” Une formulation plus prÃ©cise de la Â« rÃ©alitÃ© construite Â»
+
+Il est plus rigoureux de parler d'une **configuration ou famille de configurations dont la contribution constructive et la cohÃ©rence collective dominent dans la limite macroscopique considÃ©rÃ©e**, plutÃ´t que d'une configuration qui Â« absorberait Â» les autres.
+
+---
+
+## 30. H6bis.6 â€” Les temporalitÃ©s internes aux histoires
+
+Si $ H_i \to g_{\mu\nu}^{(i)}$, alors le temps propre associÃ© $\tau_i $ est dÃ©terminÃ© par cette gÃ©omÃ©trie.
+
+> **Le temps que nous observons pourrait-il Ãªtre le temps propre interne Ã  l'histoire quasi-classique dans laquelle notre description macroscopique est dÃ©finie ?**
+
+Ce lien reste Ã  construire mathÃ©matiquement.
+
+---
+
+## 31. H6bis.7 â€” Formulation unifiÃ©e de H6
 
 $$
-\text{configurations spatio-temporelles quantiques} \rightarrow \text{interférences} \rightarrow \text{phase stationnaire} \rightarrow \text{décohérence} \rightarrow \text{histoires quasi-classiques} \rightarrow (g_{\mu\nu}, \tau_{\mathrm{eff}})
+\text{configurations spatio-temporelles quantiques} \rightarrow \text{interfÃ©rences} \rightarrow \text{phase stationnaire} \rightarrow \text{dÃ©cohÃ©rence} \rightarrow \text{histoires quasi-classiques} \rightarrow (g_{\mu\nu}, \tau_{\mathrm{eff}})
 $$
 
-> **Et si la réalité macroscopique que nous observons n'était pas une description fondamentale unique, mais le secteur quasi-classique cohérent d'une multiplicité de configurations spatio-temporelles quantiques simultanément contributives dans l'amplitude ?**
+> **Et si la rÃ©alitÃ© macroscopique que nous observons n'Ã©tait pas une description fondamentale unique, mais le secteur quasi-classique cohÃ©rent d'une multiplicitÃ© de configurations spatio-temporelles quantiques simultanÃ©ment contributives dans l'amplitude ?**
 
-Cette formulation constitue une hypothèse de recherche, pas une interprétation établie.
+Cette formulation constitue une hypothÃ¨se de recherche, pas une interprÃ©tation Ã©tablie.
 
 ---
 
-## 32. Énergie microscopique et gravitation effective
+## 32. Ã‰nergie microscopique et gravitation effective
 
 $$
 \rho_{\mathrm{micro}} \gg \rho_{\mathrm{eff}}
 $$
 
-sans supposer que l'énergie microscopique « disparaît ». 
+sans supposer que l'Ã©nergie microscopique Â« disparaÃ®t Â». 
 
 $$
-\{\text{états quantiques}, \text{corrélations}, \text{histoires}\} \to T_{\mu\nu}^{\mathrm{eff}} \to g_{\mu\nu}
+\{\text{Ã©tats quantiques}, \text{corrÃ©lations}, \text{histoires}\} \to T_{\mu\nu}^{\mathrm{eff}} \to g_{\mu\nu}
 $$
 
 ---
 
 ## 33. Le lien possible avec la constante cosmologique
 
-> **La valeur cosmologiquement observée de $\Lambda$ pourrait-elle être une propriété émergente d'un secteur collectif de configurations quantiques plutôt qu'une simple somme des énergies de point zéro de tous les champs ?**
+> **La valeur cosmologiquement observÃ©e de $\Lambda $ pourrait-elle Ãªtre une propriÃ©tÃ© Ã©mergente d'un secteur collectif de configurations quantiques plutÃ´t qu'une simple somme des Ã©nergies de point zÃ©ro de tous les champs ?**
 
 ---
 
 ## 34. Une distinction entre trois niveaux de description
-Niveau microscopique $$(Φ̂ᵢ) → niveau quantique des configurations/histoires (Hᵢ) → niveau classique émergent (g_μν, τ_eff, G_eff, Λ_eff)$$. Cette séparation évite de confondre degrés de liberté fondamentaux, configurations possibles et variables macroscopiques effectives.
+Niveau microscopique 
+
+$$
+(Î¦Ì‚áµ¢) â†’ niveau quantique des configurations/histoires (Háµ¢) â†’ niveau classique Ã©mergent (g_Î¼Î½, Ï„_eff, G_eff, Î›_eff)
+$$
+
+. Cette sÃ©paration Ã©vite de confondre degrÃ©s de libertÃ© fondamentaux, configurations possibles et variables macroscopiques effectives.
 
 ---
 
-## 35. Temps, histoire et géométrie
+## 35. Temps, histoire et gÃ©omÃ©trie
 
-Si $H_i \to (g_{\mu\nu}^{(i)}, \tau_{\mathrm{eff}}^{(i)})$, géométrie et temps deviennent deux aspects liés de la même description effective. La possibilité d'un mécanisme commun reste une question ouverte.
+Si $ H_i \to (g_{\mu\nu}^{(i)}, \tau_{\mathrm{eff}}^{(i)})$, gÃ©omÃ©trie et temps deviennent deux aspects liÃ©s de la mÃªme description effective. La possibilitÃ© d'un mÃ©canisme commun reste une question ouverte.
 
 ---
 
-## 36. Une hypothèse de séparation des échelles temporelles
+## 36. Une hypothÃ¨se de sÃ©paration des Ã©chelles temporelles
 
 $$
 \tau_{\mathrm{micro}} \ll \tau_{\mathrm{corr}} \ll \tau_{\mathrm{macro}}
@@ -500,33 +506,33 @@ Relation heuristique, qui ne signifie pas l'existence de plusieurs temps fondame
 
 ---
 
-## 37. Le rôle possible de l'effet Casimir
+## 37. Le rÃ´le possible de l'effet Casimir
 
 $$
-\Delta E_{\mathrm{Casimir}} = E_{\text{contrainte}} - E_{\text{référence}}
+\Delta E_{\mathrm{Casimir}} = E_{\text{contrainte}} - E_{\text{rÃ©fÃ©rence}}
 $$
 
-L'effet Casimir ne doit pas être interprété comme une mesure directe de l'énergie absolue du vide. Il ne s'agit pas de proposer une « constante cosmologique Casimir », mais de demander : **la gravitation couple-t-elle à une énergie absolue, ou pourrait-elle répondre à une grandeur effective issue de différences entre états ou configurations ?**
+L'effet Casimir ne doit pas Ãªtre interprÃ©tÃ© comme une mesure directe de l'Ã©nergie absolue du vide. Il ne s'agit pas de proposer une Â« constante cosmologique Casimir Â», mais de demander : **la gravitation couple-t-elle Ã  une Ã©nergie absolue, ou pourrait-elle rÃ©pondre Ã  une grandeur effective issue de diffÃ©rences entre Ã©tats ou configurations ?**
 
 ---
 
-## 38. Une contrainte de cohérence géométrique
+## 38. Une contrainte de cohÃ©rence gÃ©omÃ©trique
 
 $$
-\nabla^\mu G_{\mu\nu} = 0 \quad (\text{identités de Bianchi})
+\nabla^\mu G_{\mu\nu} = 0 \quad (\text{identitÃ©s de Bianchi})
 $$
 
-Une théorie émergente doit expliquer comment cette cohérence géométrique apparaît à l'échelle macroscopique. L'analogie avec un « compilateur cosmique » est uniquement heuristique.
+Une thÃ©orie Ã©mergente doit expliquer comment cette cohÃ©rence gÃ©omÃ©trique apparaÃ®t Ã  l'Ã©chelle macroscopique. L'analogie avec un Â« compilateur cosmique Â» est uniquement heuristique.
 
 ---
 
-## 39. Une formulation générale de la dynamique recherchée
+## 39. Une formulation gÃ©nÃ©rale de la dynamique recherchÃ©e
 
 $$
-\text{degrés de liberté quantiques} \rightarrow \text{configurations/histoires} \rightarrow \text{corrélations} \rightarrow \text{interférences} \rightarrow \text{phase stationnaire} \rightarrow \text{décohérence} \rightarrow \text{secteur quasi-classique} \rightarrow (g_{\mu\nu}, \tau_{\mathrm{eff}}, G_{\mathrm{eff}}, \Lambda_{\mathrm{eff}})
+\text{degrÃ©s de libertÃ© quantiques} \rightarrow \text{configurations/histoires} \rightarrow \text{corrÃ©lations} \rightarrow \text{interfÃ©rences} \rightarrow \text{phase stationnaire} \rightarrow \text{dÃ©cohÃ©rence} \rightarrow \text{secteur quasi-classique} \rightarrow (g_{\mu\nu}, \tau_{\mathrm{eff}}, G_{\mathrm{eff}}, \Lambda_{\mathrm{eff}})
 $$
 
-Cette chaîne constitue une architecture conceptuelle, pas une théorie établie.
+Cette chaÃ®ne constitue une architecture conceptuelle, pas une thÃ©orie Ã©tablie.
 
 ---
 
@@ -536,128 +542,128 @@ $$
 m_{\mathrm{eff}} = \frac{E}{c_{\mathrm{loc}}^2}
 $$
 
-Relation dimensionnellement cohérente, physiquement non triviale seulement si $ c_{\mathrm{loc}}$ est une vitesse de propagation effective dérivée d'une dynamique microscopique.
+Relation dimensionnellement cohÃ©rente, physiquement non triviale seulement si $ c_{\mathrm{loc}}$ est une vitesse de propagation effective dÃ©rivÃ©e d'une dynamique microscopique.
 
-> **Le même substrat quantique qui produirait éventuellement la géométrie pourrait-il également produire l'inertie ou la masse effective ?**
+> **Le mÃªme substrat quantique qui produirait Ã©ventuellement la gÃ©omÃ©trie pourrait-il Ã©galement produire l'inertie ou la masse effective ?**
 
-Aucun mécanisme commun de cette forme n'est établi ici. *(Voir le document compagnon pour la mise en garde historique — Wheeler, géométrodynamique, 1955 — associée à cette ambition.)*
-
----
-
-## 41. Ce qu'il faudrait démontrer pour transformer l'hypothèse en théorie
-
-Définir les degrés de liberté fondamentaux et leur espace d'états ; définir leur dynamique et les corrélations pertinentes ; définir l'objet sommé et la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $g_{\mu\nu}$ et le temps effectif émergent ; déterminer si une masse effective peut apparaître ; dériver une action effective retrouvant $\sqrt{-g}R$; déterminer $G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
-
-Sans ces étapes, l'idée reste une **hypothèse heuristique**.
+Aucun mÃ©canisme commun de cette forme n'est Ã©tabli ici. *(Voir le document compagnon pour la mise en garde historique â€” Wheeler, gÃ©omÃ©trodynamique, 1955 â€” associÃ©e Ã  cette ambition.)*
 
 ---
 
-## 42. Question ouverte à la communauté scientifique
+## 41. Ce qu'il faudrait dÃ©montrer pour transformer l'hypothÃ¨se en thÃ©orie
 
-Question soumise aux chercheurs en gravité quantique, QFT en espace-temps courbe, gravité induite et émergente, holographie, information quantique et gravité, renormalisation, géométrie non commutative, espace-temps émergent, systèmes hors équilibre :
+DÃ©finir les degrÃ©s de libertÃ© fondamentaux et leur espace d'Ã©tats ; dÃ©finir leur dynamique et les corrÃ©lations pertinentes ; dÃ©finir l'objet sommÃ© et la mesure d'intÃ©gration ; Ã©tablir un critÃ¨re de phase stationnaire ; montrer comment la dÃ©cohÃ©rence produit des histoires quasi-classiques ; montrer comment $ g_{\mu\nu}$ et le temps effectif Ã©mergent ; dÃ©terminer si une masse effective peut apparaÃ®tre ; dÃ©river une action effective retrouvant $\sqrt{-g}R $; dÃ©terminer $ G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ ; retrouver les Ã©quations d'Einstein ; reproduire les observations connues ; produire une prÃ©diction falsifiable.
 
-> **Existe-t-il dans la littérature une construction mathématique où la géométrie gravitationnelle effective est explicitement dérivée d'une structure de corrélations quantiques, d'amplitudes et éventuellement d'une somme sur des histoires, dont la limite macroscopique reproduit les équations d'Einstein ?**
+Sans ces Ã©tapes, l'idÃ©e reste une **hypothÃ¨se heuristique**.
 
-> **Existe-t-il un mécanisme permettant de passer d'une multiplicité de configurations quantiques à un secteur quasi-classique cohérent dont les paramètres effectifs sont calculés plutôt que postulés ?**
+---
+
+## 42. Question ouverte Ã  la communautÃ© scientifique
+
+Question soumise aux chercheurs en gravitÃ© quantique, QFT en espace-temps courbe, gravitÃ© induite et Ã©mergente, holographie, information quantique et gravitÃ©, renormalisation, gÃ©omÃ©trie non commutative, espace-temps Ã©mergent, systÃ¨mes hors Ã©quilibre :
+
+> **Existe-t-il dans la littÃ©rature une construction mathÃ©matique oÃ¹ la gÃ©omÃ©trie gravitationnelle effective est explicitement dÃ©rivÃ©e d'une structure de corrÃ©lations quantiques, d'amplitudes et Ã©ventuellement d'une somme sur des histoires, dont la limite macroscopique reproduit les Ã©quations d'Einstein ?**
+
+> **Existe-t-il un mÃ©canisme permettant de passer d'une multiplicitÃ© de configurations quantiques Ã  un secteur quasi-classique cohÃ©rent dont les paramÃ¨tres effectifs sont calculÃ©s plutÃ´t que postulÃ©s ?**
 --
-(19 sous-questions techniques détaillées — formulation mathématique exacte, degrés de liberté, corrélations, mesure, décohérence, émergence de la métrique, du temps, de la masse, de $G_{\text{eff}}$, de $\Lambda_{\text{eff}}$, hypothèses, limites, localité, covariance, cohérence énergie-impulsion, hiérarchie $10^{120}$, prédiction distinctive.) Si aucune construction satisfaisant ces critères n'existe : quel obstacle structurel connu empêche une telle construction ?
+(19 sous-questions techniques dÃ©taillÃ©es â€” formulation mathÃ©matique exacte, degrÃ©s de libertÃ©, corrÃ©lations, mesure, dÃ©cohÃ©rence, Ã©mergence de la mÃ©trique, du temps, de la masse, de $ G_{\text{eff}}$, de $\Lambda_{\text{eff}}$, hypothÃ¨ses, limites, localitÃ©, covariance, cohÃ©rence Ã©nergie-impulsion, hiÃ©rarchie $ 10^{120}$, prÃ©diction distinctive.) Si aucune construction satisfaisant ces critÃ¨res n'existe : quel obstacle structurel connu empÃªche une telle construction ?
 ---
 
-## 43. Ce que cette recherche ne prétend PAS démontrer
+## 43. Ce que cette recherche ne prÃ©tend PAS dÃ©montrer
 
-Que l'espace-temps est fait de « points de vide quantique » ; que plusieurs espaces-temps classiques indépendants existent réellement ; que $G$ est nécessairement émergente ; que les $10^{120}$ ordres de grandeur représentent des étapes physiques de stabilisation ; que le coarse-graining explique déjà cette hiérarchie ; que Casimir est responsable de la constante cosmologique ; que plusieurs temps fondamentaux indépendants existent ; que le temps microscopique « s'écoule plus vite » ; que la phase stationnaire sélectionne à elle seule une unique réalité classique ; que la décohérence prouve une géométrie émergente ; que la masse est nécessairement émergente ; que le vide quantique permet de contrôler la gravité ; qu'une nouvelle théorie de gravité quantique a été découverte ; qu'une application d'antigravité ou de propulsion en découle.
+Que l'espace-temps est fait de Â« points de vide quantique Â» ; que plusieurs espaces-temps classiques indÃ©pendants existent rÃ©ellement ; que $ G $ est nÃ©cessairement Ã©mergente ; que les $ 10^{120}$ ordres de grandeur reprÃ©sentent des Ã©tapes physiques de stabilisation ; que le coarse-graining explique dÃ©jÃ  cette hiÃ©rarchie ; que Casimir est responsable de la constante cosmologique ; que plusieurs temps fondamentaux indÃ©pendants existent ; que le temps microscopique Â« s'Ã©coule plus vite Â» ; que la phase stationnaire sÃ©lectionne Ã  elle seule une unique rÃ©alitÃ© classique ; que la dÃ©cohÃ©rence prouve une gÃ©omÃ©trie Ã©mergente ; que la masse est nÃ©cessairement Ã©mergente ; que le vide quantique permet de contrÃ´ler la gravitÃ© ; qu'une nouvelle thÃ©orie de gravitÃ© quantique a Ã©tÃ© dÃ©couverte ; qu'une application d'antigravitÃ© ou de propulsion en dÃ©coule.
 
-Il s'agit uniquement d'une **question de recherche théorique**.
+Il s'agit uniquement d'une **question de recherche thÃ©orique**.
 
 ---
 
-## 44. Cinq problèmes liés mais distincts
+## 44. Cinq problÃ¨mes liÃ©s mais distincts
 
 | Niveau | Question |
 |---|---|
-| **Géométrie** | Comment $g_{\mu\nu}$ pourrait-il émerger ? |
-| **Gravitation** | Comment $G_{\mathrm{eff}}$ pourrait-il apparaître ? |
+| **GÃ©omÃ©trie** | Comment $ g_{\mu\nu}$ pourrait-il Ã©merger ? |
+| **Gravitation** | Comment $ G_{\mathrm{eff}}$ pourrait-il apparaÃ®tre ? |
 | **Cosmologie** | Pourquoi $\Lambda_{\mathrm{eff}}$ est-il si faible ? |
-| **Temps** | Le temps propre pourrait-il lui-même être émergent ? |
-| **Inertie** | Une masse effective pourrait-elle émerger du même substrat ? |
+| **Temps** | Le temps propre pourrait-il lui-mÃªme Ãªtre Ã©mergent ? |
+| **Inertie** | Une masse effective pourrait-elle Ã©merger du mÃªme substrat ? |
 
-Ces problèmes peuvent être liés dans une théorie plus profonde, mais aucune implication automatique n'est supposée.
-
----
-
-## 45. Objectif de ce dépôt
-
-Documenter le cheminement de la réflexion ; distinguer résultats établis et hypothèses spéculatives ; identifier les travaux existants ; éviter de redécouvrir une construction déjà publiée ; recueillir les critiques permettant de falsifier ou reformuler l'hypothèse ; déterminer si le problème est déjà résolu, partiellement traité, ou réellement ouvert.
+Ces problÃ¨mes peuvent Ãªtre liÃ©s dans une thÃ©orie plus profonde, mais aucune implication automatique n'est supposÃ©e.
 
 ---
 
-## 46. Position méthodologique
+## 45. Objectif de ce dÃ©pÃ´t
 
-> **Hypothèse ≠ interprétation ≠ résultat ≠ théorie établie.**
+Documenter le cheminement de la rÃ©flexion ; distinguer rÃ©sultats Ã©tablis et hypothÃ¨ses spÃ©culatives ; identifier les travaux existants ; Ã©viter de redÃ©couvrir une construction dÃ©jÃ  publiÃ©e ; recueillir les critiques permettant de falsifier ou reformuler l'hypothÃ¨se ; dÃ©terminer si le problÃ¨me est dÃ©jÃ  rÃ©solu, partiellement traitÃ©, ou rÃ©ellement ouvert.
 
-L'assistance de modèles de langage a servi à explorer la littérature, reformuler les hypothèses et identifier des pistes mathématiques. Elle ne constitue pas une validation scientifique. Toute affirmation importante doit être confrontée aux publications originales et à l'avis de chercheurs compétents.
+---
+
+## 46. Position mÃ©thodologique
+
+> **HypothÃ¨se â‰  interprÃ©tation â‰  rÃ©sultat â‰  thÃ©orie Ã©tablie.**
+
+L'assistance de modÃ¨les de langage a servi Ã  explorer la littÃ©rature, reformuler les hypothÃ¨ses et identifier des pistes mathÃ©matiques. Elle ne constitue pas une validation scientifique. Toute affirmation importante doit Ãªtre confrontÃ©e aux publications originales et Ã  l'avis de chercheurs compÃ©tents.
 
 ---
 
 ---
 
-## 47. Formalisation mathématique et modèle jouet : état consolidé
+## 47. Formalisation mathÃ©matique et modÃ¨le jouet : Ã©tat consolidÃ©
 
-Cette section rassemble le formalisme phénoménologique et les résultats numériques obtenus après les campagnes successives. Elle doit être lue comme un **programme de recherche falsifiable**, et non comme une dérivation établie de la relativité générale.
+Cette section rassemble le formalisme phÃ©nomÃ©nologique et les rÃ©sultats numÃ©riques obtenus aprÃ¨s les campagnes successives. Elle doit Ãªtre lue comme un **programme de recherche falsifiable**, et non comme une dÃ©rivation Ã©tablie de la relativitÃ© gÃ©nÃ©rale.
 
-### 47.1 Champ de cohérence et variables fondamentales
+### 47.1 Champ de cohÃ©rence et variables fondamentales
 
-On considère un champ scalaire de cohérence de phase :
+On considÃ¨re un champ scalaire de cohÃ©rence de phase :
 
 $$
 C(\mathbf{x})\in[0,1].
 $$
 
-Dans les modèles de dynamique collective, il est représenté par le paramètre d'ordre :
+Dans les modÃ¨les de dynamique collective, il est reprÃ©sentÃ© par le paramÃ¨tre d'ordre :
 
 $$
 Z=\frac{1}{N}\sum_{j=1}^{N}e^{i\theta_j},\qquad C=|Z|^2.
 $$
 
-Cette définition présente une propriété importante : $ C $est invariant sous une rotation globale des phases, contrairement à $R=\mathrm{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $C$ comme observable de cohérence robuste.
+Cette dÃ©finition prÃ©sente une propriÃ©tÃ© importante : $ C $est invariant sous une rotation globale des phases, contrairement Ã  $ R=\mathrm{Re}(Z)$. Les campagnes antÃ©rieures ont donc conduit Ã  retenir $ C $ comme observable de cohÃ©rence robuste.
 
-Le cadre structurel reste fixé en **3+1 dimensions** :
+Le cadre structurel reste fixÃ© en **3+1 dimensions** :
 
 $$
 d=3\quad\text{dimensions spatiales},\qquad D=d+1=4.
 $$
 
-### 47.2 Équation de potentiel et profil régularisé
+### 47.2 Ã‰quation de potentiel et profil rÃ©gularisÃ©
 
-Le modèle de travail conserve une équation de type Poisson modifiée :
+Le modÃ¨le de travail conserve une Ã©quation de type Poisson modifiÃ©e :
 
 $$
 \nabla^2\Phi(\mathbf{x})=\frac{4\pi c^2}{L_0^2}\left[C(\mathbf{x})-C_c\right].
 $$
 
-Le profil régularisé utilisé comme référence est :
+Le profil rÃ©gularisÃ© utilisÃ© comme rÃ©fÃ©rence est :
 
 $$
 C(r)=C_c+\frac{r_g^2}{r^2+r_g^2}(C_{\max}-C_c),
 $$
 
-avec $C_{\max}=1$ et $r_g=2GM/c^2$.
+avec $ C_{\max}=1 $ et $ r_g=2GM/c^2 $.
 
-Ce profil possède une propriété utile :
+Ce profil possÃ¨de une propriÃ©tÃ© utile :
 
 $$
 C(0)=C_{\max},\qquad C'(0)=0.
 $$
 
-Mais il ne doit pas être identifié directement à une densité de masse : son comportement asymptotique en $1/r^2$ rendrait la masse intégrée divergente. La reconstruction doit donc rester séparée :
+Mais il ne doit pas Ãªtre identifiÃ© directement Ã  une densitÃ© de masse : son comportement asymptotique en $ 1/r^2 $ rendrait la masse intÃ©grÃ©e divergente. La reconstruction doit donc rester sÃ©parÃ©e :
 
 $$
 C(r)\rightarrow\rho(r)\rightarrow m(r)\rightarrow g(r)\rightarrow g_{\mu\nu}^{\mathrm{eff}}.
 $$
 
-### 47.3 Dynamique collective testée
+### 47.3 Dynamique collective testÃ©e
 
-La dynamique de Kuramoto pondérée utilisée dans les Tests 12–13 et la campagne du Test 51 est :
+La dynamique de Kuramoto pondÃ©rÃ©e utilisÃ©e dans les Tests 12â€“13 et la campagne du Test 51 est :
 
 $$
 E_i=Q_i^2,
@@ -671,134 +677,134 @@ $$
 \dot\theta_i=\frac{K}{N}\sum_jw_{ij}\sin(\theta_j-\theta_i).
 $$
 
-Le paramètre d'ordre est ensuite :
+Le paramÃ¨tre d'ordre est ensuite :
 
 $$
 C=|Z|^2,\qquad Z=\frac1N\sum_j e^{i\theta_j}.
 $$
 
-Cette dynamique permet de distinguer un état incohérent ($C\sim1/N$) d'un état collectivement cohérent ($C\gg1/N$).
+Cette dynamique permet de distinguer un Ã©tat incohÃ©rent ($ C\sim1/N $) d'un Ã©tat collectivement cohÃ©rent ($ C\gg1/N $).
 
-Pour des phases indépendantes uniformes :
+Pour des phases indÃ©pendantes uniformes :
 
 $$
 \mathbb E[C]=\frac1N,
 $$
 
-ce qui fournit une référence indispensable pour interpréter les petits $C$ à taille finie.
+ce qui fournit une rÃ©fÃ©rence indispensable pour interprÃ©ter les petits $ C $ Ã  taille finie.
 
-### 47.4 Statut de $R$ Le signe de $R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
+### 47.4 Statut de $ R $ Le signe de $ R=\mathrm{Re}(Z)$ n'est pas invariant sous rotation globale de phase. Les tests antÃ©rieurs ont donc Ã©cartÃ© son emploi comme critÃ¨re absolu de cohÃ©rence ou comme preuve d'une orientation causale.
 
-Les hypothèses spécifiques suivantes n'ont pas été confirmées sous leur forme initiale :
+Les hypothÃ¨ses spÃ©cifiques suivantes n'ont pas Ã©tÃ© confirmÃ©es sous leur forme initiale :
 
-- $R<0$ comme secteur nécessairement destructif ;
-- $R$ comme code direct d'un cône causal futur/passé ;
-- corrélation entre le signe de $R$ et un winding topologique.
+- $ R<0 $ comme secteur nÃ©cessairement destructif ;
+- $ R $ comme code direct d'un cÃ´ne causal futur/passÃ© ;
+- corrÃ©lation entre le signe de $ R $ et un winding topologique.
 
-Un indicateur causal alternatif $R_{\mathrm{causal}}$ reste une piste, mais sans plancher positif démontré.
+Un indicateur causal alternatif $ R_{\mathrm{causal}}$ reste une piste, mais sans plancher positif dÃ©montrÃ©.
 
 ---
 
-### 47.5 Dérivation de $K$ : d'un paramètre postulé à une constante de couplage dérivée
+### 47.5 DÃ©rivation de $ K $ : d'un paramÃ¨tre postulÃ© Ã  une constante de couplage dÃ©rivÃ©e
 
-La dynamique décrite en 47.3 utilise une constante de couplage $K$ qui, jusqu'ici, était un paramètre externe ajusté à la main. Deux résultats établissent qu'elle peut être reformulée, puis en partie dérivée.
+La dynamique dÃ©crite en 47.3 utilise une constante de couplage $ K $ qui, jusqu'ici, Ã©tait un paramÃ¨tre externe ajustÃ© Ã  la main. Deux rÃ©sultats Ã©tablissent qu'elle peut Ãªtre reformulÃ©e, puis en partie dÃ©rivÃ©e.
 
-**Étape 1 — $K$ est déjà, structurellement, une constante de couplage.** La dynamique $\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel:
+**Ã‰tape 1 â€” $ K $ est dÃ©jÃ , structurellement, une constante de couplage.** La dynamique $\dot\theta_i=\frac{K}{N}\sum_j w_{ij}\sin(\theta_j-\theta_i)$ est exactement le flot de gradient descendant du potentiel:
 
 $$
 V[\theta]=-\frac{K}{2N}\sum_{i,j}w_{ij}\cos(\theta_i-\theta_j)
 $$
 
-vérifié numériquement à la précision machine ($\sim10^{-11}$) — $K$ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
+vÃ©rifiÃ© numÃ©riquement Ã  la prÃ©cision machine ($\sim10^{-11}$) â€” $ K $ n'est donc pas une force ajoutÃ©e arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
 
-**Étape 2 — dérivation par élimination adiabatique d'un champ médiateur.** En couplant chaque phase $\theta_i$ à un champ médiateur complexe $\psi$ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
+**Ã‰tape 2 â€” dÃ©rivation par Ã©limination adiabatique d'un champ mÃ©diateur.** En couplant chaque phase $\theta_i $ Ã  un champ mÃ©diateur complexe $\psi $ (technique de type Hubbard-Stratonovich, analogue formel Ã  la gravitÃ© induite de Sakharov, Â§4-5) :
 
 $$
 \dot\psi = \mathrm{taux}\cdot(-m^2\psi+g\,\bar Z),\qquad \bar Z=\frac{1}{N}\sum_j e^{i\theta_j}
 $$
 
-l'élimination adiabatique de $\psi$ (relaxation rapide vers son équilibre$\psi_{\mathrm{eq}}=(g/m^2)\bar Z$) reproduit la dynamique de Kuramoto réduite avec :
+l'Ã©limination adiabatique de $\psi $ (relaxation rapide vers son Ã©quilibre$\psi_{\mathrm{eq}}=(g/m^2)\bar Z $) reproduit la dynamique de Kuramoto rÃ©duite avec :
 
 $$
 \boxed{K_{\mathrm{eff}}=\frac{g^2}{m^2}}
 $$
 
-Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage $g$ testées (de $g=0{,}05$ à $g=1{,}0$).
+VÃ©rifiÃ© numÃ©riquement : le systÃ¨me complet avec mÃ©diateur explicite reproduit la dynamique rÃ©duite Ã  la 3e-4e dÃ©cimale prÃ¨s, sur cinq valeurs de couplage $ g $ testÃ©es (de $ g=0{,}05 $ Ã  $ g=1{,}0 $).
 
-**Portée et limite.** C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais $g$ (couplage au médiateur) et $m$ (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
+**PortÃ©e et limite.** C'est la premiÃ¨re dÃ©rivation non circulaire d'un paramÃ¨tre de ce modÃ¨le, plutÃ´t qu'un ajustement â€” mais $ g $ (couplage au mÃ©diateur) et $ m $ (masse du mÃ©diateur) restent eux-mÃªmes des paramÃ¨tres externes non dÃ©rivÃ©s. Le problÃ¨me est repoussÃ© d'un cran, pas rÃ©solu.
 
-> ⚠️ **Point de vigilance sur la numérotation des tests.** Plusieurs fils de travail indépendants (celui-ci, et le journal numérique compagnon) ont chacun leur propre numérotation de « Test N », qui ne coïncident pas terme à terme — par exemple, le « Test 43 » de la section 48.4 ci-dessous (rayons $R_{\mathrm{trans}}$, $R_{\mathrm{gentle}}$) n'est pas le même calcul que le « Test 43 » du [journal d'expériences numériques](./Journal-experiences-numeriques.fr.md) (recherche d'exposants sur la solution radiale). Se référer au contenu de chaque test, pas seulement à son numéro, en cas de doute.
+> âš ï¸ **Point de vigilance sur la numÃ©rotation des tests.** Plusieurs fils de travail indÃ©pendants (celui-ci, et le journal numÃ©rique compagnon) ont chacun leur propre numÃ©rotation de Â« Test N Â», qui ne coÃ¯ncident pas terme Ã  terme â€” par exemple, le Â« Test 43 Â» de la section 48.4 ci-dessous (rayons $ R_{\mathrm{trans}}$, $ R_{\mathrm{gentle}}$) n'est pas le mÃªme calcul que le Â« Test 43 Â» du [journal d'expÃ©riences numÃ©riques](./Journal-experiences-numeriques.fr.md) (recherche d'exposants sur la solution radiale). Se rÃ©fÃ©rer au contenu de chaque test, pas seulement Ã  son numÃ©ro, en cas de doute.
 
 ---
 
-## 48. Géométrie régularisée et récupération de la limite newtonienne
+## 48. GÃ©omÃ©trie rÃ©gularisÃ©e et rÃ©cupÃ©ration de la limite newtonienne
 
-### 48.1 Pourquoi le $4/3$ global a été abandonné
+### 48.1 Pourquoi le $ 4/3 $ global a Ã©tÃ© abandonnÃ©
 
-Les premières versions utilisaient un scaling global du type $r\sim N^{4/3}$. Les Tests 39–40 ont montré que cette croissance non bornée ne peut pas être maintenue jusqu'à l'infini : elle détruit la limite newtonienne.
+Les premiÃ¨res versions utilisaient un scaling global du type $ r\sim N^{4/3}$. Les Tests 39â€“40 ont montrÃ© que cette croissance non bornÃ©e ne peut pas Ãªtre maintenue jusqu'Ã  l'infini : elle dÃ©truit la limite newtonienne.
 
 La contrainte physique devient donc :
 
 $$
-\text{régime central/intermédiaire : correction possible}
+\text{rÃ©gime central/intermÃ©diaire : correction possible}
 $$
 
 $$
 \text{Grand } r :\qquad |g(r)| \propto \frac{1}{r^2}.
 $$
 
-### 48.2 Test 41 — succès de la correction localisée
+### 48.2 Test 41 â€” succÃ¨s de la correction localisÃ©e
 
-Le Test 41 a corrigé une erreur de signe : $g(r)$ est négatif par convention, tandis que $M_{\mathrm{tot}}>0$. La comparaison correcte porte donc sur les magnitudes $|g(r)|r^2$.
+Le Test 41 a corrigÃ© une erreur de signe : $ g(r)$ est nÃ©gatif par convention, tandis que $ M_{\mathrm{tot}}>0 $. La comparaison correcte porte donc sur les magnitudes $|g(r)|r^2 $.
 
-Valeurs rapportées :
+Valeurs rapportÃ©es :
 
-| $r$ (kpc) |
-|$g(r)$|$r^2$ |
+| $ r $ (kpc) |
+|$ g(r)$|$ r^2 $ |
 |---:|---:|
 | 15 | 1183,9 |
 | 20 | 1183,0 |
 | 30 | 1182,0 |
 
-La moyenne est d'environ $1183$, avec un coefficient de variation d'environ $0,07\%$, et l'écart relatif à$ M_{\mathrm{tot}}=1196,7$ est d'environ $1,15\%$.
+La moyenne est d'environ $ 1183 $, avec un coefficient de variation d'environ $ 0,07\%$, et l'Ã©cart relatif Ã $ M_{\mathrm{tot}}=1196,7 $ est d'environ $ 1,15\%$.
 
-Le résultat établit dans ce modèle jouet une récupération très propre de la loi :
+Le rÃ©sultat Ã©tablit dans ce modÃ¨le jouet une rÃ©cupÃ©ration trÃ¨s propre de la loi :
 
 $$
 |g(r)|r^2\rightarrow\mathrm{constante}.
 $$
 
-**Statut : 🟢 résultat numérique de non-régression dans le modèle jouet.** Il ne constitue pas une validation observationnelle de la gravité émergente.
+**Statut : ðŸŸ¢ rÃ©sultat numÃ©rique de non-rÃ©gression dans le modÃ¨le jouet.** Il ne constitue pas une validation observationnelle de la gravitÃ© Ã©mergente.
 
-### 48.3 Test 42 — robustesse de la correction localisée
+### 48.3 Test 42 â€” robustesse de la correction localisÃ©e
 
-Une grille $4\times4$ a été explorée en faisant varier indépendamment $\sigma$ et $k_0$ entre $0,5$ et $2$ fois leurs valeurs nominales.
+Une grille $ 4\times4 $ a Ã©tÃ© explorÃ©e en faisant varier indÃ©pendamment $\sigma $ et $ k_0 $ entre $ 0,5 $ et $ 2 $ fois leurs valeurs nominales.
 
-Résultat rapporté : **16/16 points robustes**, avec $|g|r^2$ quasi constant et un écart relatif à $M_{\mathrm{tot}}$ de l'ordre de $0,1\%$ dans le jouet reproductible.
+RÃ©sultat rapportÃ© : **16/16 points robustes**, avec $|g|r^2 $ quasi constant et un Ã©cart relatif Ã  $ M_{\mathrm{tot}}$ de l'ordre de $ 0,1\%$ dans le jouet reproductible.
 
-La conclusion méthodologique est importante : la récupération de l'asymptote n'est pas uniquement liée à un réglage ponctuel des paramètres testés.
+La conclusion mÃ©thodologique est importante : la rÃ©cupÃ©ration de l'asymptote n'est pas uniquement liÃ©e Ã  un rÃ©glage ponctuel des paramÃ¨tres testÃ©s.
 
-**Statut : 🟢 robustesse numérique du mécanisme de localisation dans le modèle testé.**
+**Statut : ðŸŸ¢ robustesse numÃ©rique du mÃ©canisme de localisation dans le modÃ¨le testÃ©.**
 
-### 48.4 Tests 43–44 — intégration tore–cône et exposant dynamique
+### 48.4 Tests 43â€“44 â€” intÃ©gration toreâ€“cÃ´ne et exposant dynamique
 
-La géométrie de travail a ensuite été organisée en trois régimes :
+La gÃ©omÃ©trie de travail a ensuite Ã©tÃ© organisÃ©e en trois rÃ©gimes :
 
-1. région centrale/tore ;
-2. région de transition/cône ;
+1. rÃ©gion centrale/tore ;
+2. rÃ©gion de transition/cÃ´ne ;
 3. pente douce et retour asymptotique.
 
-Les rayons utilisés dans le Test 43 étaient :
+Les rayons utilisÃ©s dans le Test 43 Ã©taient :
 
 $$
 R_{\mathrm{trans}}=0,61\ \mathrm{kpc},\qquad R_{\mathrm{gentle}}=1,31\ \mathrm{kpc}.
 $$
 
-Le rapport $\simeq2,15$ entre ces rayons reste une entrée géométrique et n'est pas encore dérivé.
+Le rapport $\simeq2,15 $ entre ces rayons reste une entrÃ©e gÃ©omÃ©trique et n'est pas encore dÃ©rivÃ©.
 
-Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ $0,005\%$ et un écart relatif d'environ $-0,004\%$ dans le calcul rapporté.
+Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ $ 0,005\%$ et un Ã©cart relatif d'environ $-0,004\%$ dans le calcul rapportÃ©.
 
-Pour rendre le $4/3$ compatible avec cette contrainte, une interpolation dynamique a été testée :
+Pour rendre le $ 4/3 $ compatible avec cette contrainte, une interpolation dynamique a Ã©tÃ© testÃ©e :
 
 $$
 s(r)=\frac{C(r)-C_c}{C_{\max}-C_c},
@@ -816,27 +822,27 @@ $$
 s\rightarrow1\Rightarrow\alpha\rightarrow\frac43.
 $$
 
-Dans le Test 44, la zone cône donnait approximativement $1,21\lesssim\alpha\lesssim1,28$, avec une moyenne proche de $1,25$. La valeur $4/3$ n'était donc pas atteinte partout : elle apparaît comme **limite de saturation**, pas comme une constante globale imposée à tous les rayons.
+Dans le Test 44, la zone cÃ´ne donnait approximativement $ 1,21\lesssim\alpha\lesssim1,28 $, avec une moyenne proche de $ 1,25 $. La valeur $ 4/3 $ n'Ã©tait donc pas atteinte partout : elle apparaÃ®t comme **limite de saturation**, pas comme une constante globale imposÃ©e Ã  tous les rayons.
 
-**Statut : 🟢 cohérence numérique du raccordement testé ; 🟡 origine fondamentale du $4/3$ encore ouverte.**
+**Statut : ðŸŸ¢ cohÃ©rence numÃ©rique du raccordement testÃ© ; ðŸŸ¡ origine fondamentale du $ 4/3 $ encore ouverte.**
 
-### 48.5 Forme candidate de correction localisée
+### 48.5 Forme candidate de correction localisÃ©e
 
-Une écriture de travail compatible avec les résultats précédents est :
+Une Ã©criture de travail compatible avec les rÃ©sultats prÃ©cÃ©dents est :
 
 $$
 \rho_{\mathrm{eff}}(r)=\rho_b(r)\left[1+k_0\left(\frac{r}{r_t}\right)^{4/3}\mathrm{sech}^2\left(\frac{r-r_t}{\sigma}\right)\right].
 $$
 
-Cette expression n'est pas encore une loi fondamentale. Elle encode seulement les trois contraintes numériques :
+Cette expression n'est pas encore une loi fondamentale. Elle encode seulement les trois contraintes numÃ©riques :
 
 - correction faible hors de la zone de transition ;
-- scaling $4/3$ dans la zone active ;
-- extinction de la correction à grand $r$.
+- scaling $ 4/3 $ dans la zone active ;
+- extinction de la correction Ã  grand $ r $.
 
 ---
 
-## 49. Recherche de l'origine dimensionnelle de $4/3$, $3/4$ et $1/4$ Le modèle est désormais explicitement fixé en $3+1$ dimensions : $d=3$.
+## 49. Recherche de l'origine dimensionnelle de $ 4/3 $, $ 3/4 $ et $ 1/4 $ Le modÃ¨le est dÃ©sormais explicitement fixÃ© en $ 3+1 $ dimensions : $ d=3 $.
 
 Une famille dimensionnelle simple donne :
 
@@ -860,13 +866,13 @@ $$
 \eta=\frac1{d+1}=\frac14.
 $$
 
-Avec la définition utilisée pour l'angle :
+Avec la dÃ©finition utilisÃ©e pour l'angle :
 
 $$
 \theta=2\arcsin\left(\frac{C_c}{1-C_c}\right),
 $$
 
-la valeur $C_c=0,2=1/5$ entraîne exactement :
+la valeur $ C_c=0,2=1/5 $ entraÃ®ne exactement :
 
 $$
 \frac{C_c}{1-C_c}=\frac14,
@@ -878,13 +884,13 @@ $$
 \theta=2\arcsin\left(\frac14\right)\approx28,955^\circ.
 $$
 
-On peut également écrire la relation candidate :
+On peut Ã©galement Ã©crire la relation candidate :
 
 $$
 C_c=\frac1{d+2}.
 $$
 
-Pour $d=3$ :
+Pour $ d=3 $ :
 
 $$
 C_c=\frac15,
@@ -896,9 +902,9 @@ $$
 \frac{C_c}{1-C_c}=\frac1{d+1}=\frac14.
 $$
 
-### 49.1 Ce qui est réellement démontré
+### 49.1 Ce qui est rÃ©ellement dÃ©montrÃ©
 
-Les identités numériques sont exactes :
+Les identitÃ©s numÃ©riques sont exactes :
 
 $$
 0,2=\frac15,\qquad\frac{0,2}{0,8}=\frac14,
@@ -912,9 +918,9 @@ $$
 \frac{d+1}{d}=\frac43,\qquad\frac d{d+1}=\frac34\quad(d=3).
 $$
 
-### 49.2 Ce qui n'est pas dérivé
+### 49.2 Ce qui n'est pas dÃ©rivÃ©
 
-Les Tests 49–50 ont montré que la dynamique minimale de $C$ et les rétroactions simples testées ne sélectionnent pas spontanément $C_c=1/5$.
+Les Tests 49â€“50 ont montrÃ© que la dynamique minimale de $ C $ et les rÃ©troactions simples testÃ©es ne sÃ©lectionnent pas spontanÃ©ment $ C_c=1/5 $.
 
 Avec :
 
@@ -922,17 +928,17 @@ $$
 Z\Box C-V'(C)=0,
 $$
 
-un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De même, les rétroactions testées du type $\sigma(C)$ ont produit des attracteurs nettement plus cohérents, environ $0,72$ à $0,91$, sans attracteur dans la fenêtre $[0,16;0,24]$.
+un potentiel quadratique relaxe vers la valeur placÃ©e dans le potentiel. De mÃªme, les rÃ©troactions testÃ©es du type $\sigma(C)$ ont produit des attracteurs nettement plus cohÃ©rents, environ $ 0,72 $ Ã  $ 0,91 $, sans attracteur dans la fenÃªtre $[0,16;0,24]$.
 
-**Conclusion :** $C_c=1/5$ reste une **entrée du modèle gravitationnel**, tandis que $4/3$, $3/4$ et $1/4$ forment une structure dimensionnelle élégante et cohérente **conditionnelle à cette entrée**. Aucune dérivation physique fondamentale de $C_c=1/5$ n'est actuellement établie.
+**Conclusion :** $ C_c=1/5 $ reste une **entrÃ©e du modÃ¨le gravitationnel**, tandis que $ 4/3 $, $ 3/4 $ et $ 1/4 $ forment une structure dimensionnelle Ã©lÃ©gante et cohÃ©rente **conditionnelle Ã  cette entrÃ©e**. Aucune dÃ©rivation physique fondamentale de $ C_c=1/5 $ n'est actuellement Ã©tablie.
 
 ---
 
-## 50. Tests de dynamique collective : de $Q_i$ à $C$
+## 50. Tests de dynamique collective : de $ Q_i $ Ã  $ C $
 
-### 50.1 Chaîne de calcul
+### 50.1 ChaÃ®ne de calcul
 
-Le programme numérique est organisé selon la chaîne :
+Le programme numÃ©rique est organisÃ© selon la chaÃ®ne :
 
 $$
 Q_i\rightarrow E_i\rightarrow\theta_i\rightarrow C,
@@ -948,9 +954,9 @@ $$
 w_{ij}=\exp\left[-\frac{(E_i-E_j)^2}{2\sigma^2}\right].
 $$
 
-L'objectif est de déterminer si une structure collective produit une valeur privilégiée de $C$ ou uniquement une transition continue entre incohérence et synchronisation.
+L'objectif est de dÃ©terminer si une structure collective produit une valeur privilÃ©giÃ©e de $ C $ ou uniquement une transition continue entre incohÃ©rence et synchronisation.
 
-### 50.2 Test 50 — rétroactions aveugles de $C$ sur $\sigma$ Deux familles sans ciblage de $0,2$ ont été testées :
+### 50.2 Test 50 â€” rÃ©troactions aveugles de $ C $ sur $\sigma $ Deux familles sans ciblage de $ 0,2 $ ont Ã©tÃ© testÃ©es :
 
 $$
 \sigma(C)=\sigma_0(1-C),
@@ -962,25 +968,25 @@ $$
 \sigma(C)=\frac{\sigma_0}{1+\kappa C}.
 $$
 
-Les attracteurs rapportés étaient environ :
+Les attracteurs rapportÃ©s Ã©taient environ :
 
-| Forme | Paramètres | $ C^*$ |
+| Forme | ParamÃ¨tres | $ C^*$ |
 |---|---|---:|
-| linéaire | $\sigma_0=0,5$ | 0,778 |
-| linéaire | $\sigma_0=1,0$ | 0,818 |
-| linéaire | $\sigma_0=1,5$ | 0,913 |
-| inverse | $\sigma_0=0,8,\kappa=1$ | 0,836 |
-| inverse | $\sigma_0=0,8,\kappa=2$ | 0,893 |
-| inverse | $\sigma_0=1,2,\kappa=1,5$ | 0,914 |
-| inverse | $\sigma_0=1,0,\kappa=3$ | 0,722 |
+| linÃ©aire | $\sigma_0=0,5 $ | 0,778 |
+| linÃ©aire | $\sigma_0=1,0 $ | 0,818 |
+| linÃ©aire | $\sigma_0=1,5 $ | 0,913 |
+| inverse | $\sigma_0=0,8,\kappa=1 $ | 0,836 |
+| inverse | $\sigma_0=0,8,\kappa=2 $ | 0,893 |
+| inverse | $\sigma_0=1,2,\kappa=1,5 $ | 0,914 |
+| inverse | $\sigma_0=1,0,\kappa=3 $ | 0,722 |
 
 Aucun attracteur n'est apparu dans $[0,16;0,24]$.
 
-**Verdict : 🔴 ces rétroactions simples ne sélectionnent pas $C_c\simeq0,2$.**
+**Verdict : ðŸ”´ ces rÃ©troactions simples ne sÃ©lectionnent pas $ C_c\simeq0,2 $.**
 
-### 50.3 Test 51 — recherche aveugle d'une transition collective
+### 50.3 Test 51 â€” recherche aveugle d'une transition collective
 
-Le Test 51 a ensuite abandonné toute rétroaction artificielle et recherché directement une transition dans le système pondéré :
+Le Test 51 a ensuite abandonnÃ© toute rÃ©troaction artificielle et recherchÃ© directement une transition dans le systÃ¨me pondÃ©rÃ© :
 
 $$
 \dot\theta_i=\frac KN\sum_jw_{ij}\sin(\theta_j-\theta_i).
@@ -992,113 +998,113 @@ $$
 N\in\{200,400,800,1600\},
 $$
 
-un balayage de $K$ et $\sigma$, plusieurs graines indépendantes, et un temps d'intégration suffisamment long.
+un balayage de $ K $ et $\sigma $, plusieurs graines indÃ©pendantes, et un temps d'intÃ©gration suffisamment long.
 
-Les observables prévues sont :
+Les observables prÃ©vues sont :
 
 $$
 \chi_C=N\left(\langle C^2\rangle-\langle C\rangle^2\right),
 $$
 
-ainsi qu'un cumulant de Binder traité comme indicateur secondaire, et le temps de relaxation.
+ainsi qu'un cumulant de Binder traitÃ© comme indicateur secondaire, et le temps de relaxation.
 
-Le premier scan 2D rapporté, avec $N=200,400$, $K\in\{0,5,1,1,5,2\}$ et $\sigma\in\{8,12,16,20\}$, montre :
+Le premier scan 2D rapportÃ©, avec $ N=200,400 $, $ K\in\{0,5,1,1,5,2\}$ et $\sigma\in\{8,12,16,20\}$, montre :
 
-- un régime incohérent à faible $K$, avec $C$ proche de l'échelle $1/N$ ;
-- une montée continue de $C$ avec $K$ ;
-- des valeurs ponctuelles proches de $0,2$ ;
-- aucune ligne critique robuste qui fixe universellement $C\simeq0,2$.
+- un rÃ©gime incohÃ©rent Ã  faible $ K $, avec $ C $ proche de l'Ã©chelle $ 1/N $ ;
+- une montÃ©e continue de $ C $ avec $ K $ ;
+- des valeurs ponctuelles proches de $ 0,2 $ ;
+- aucune ligne critique robuste qui fixe universellement $ C\simeq0,2 $.
 
-Par exemple, des valeurs proches de $0,2$ apparaissent autour de $C\approx0,218$ et $C\approx0,169$ pour certains couples $(K,\sigma)$, mais elles se déplacent lorsque les paramètres ou $N$ changent.
+Par exemple, des valeurs proches de $ 0,2 $ apparaissent autour de $ C\approx0,218 $ et $ C\approx0,169 $ pour certains couples $(K,\sigma)$, mais elles se dÃ©placent lorsque les paramÃ¨tres ou $ N $ changent.
 
 **Verdict du Test 51 :**
 
 $$
-\boxed{\text{le modèle pondéré possède une transition de synchronisation, mais ne sélectionne pas }C_{\mathrm{crit}}\approx0,2\text{ universellement}.}
+\boxed{\text{le modÃ¨le pondÃ©rÃ© possÃ¨de une transition de synchronisation, mais ne sÃ©lectionne pas }C_{\mathrm{crit}}\approx0,2\text{ universellement}.}
 $$
 
-Ainsi, $C=0,2$ est actuellement mieux décrit comme un **point de passage paramétrique** du modèle que comme un attracteur ou point critique fondamental.
+Ainsi, $ C=0,2 $ est actuellement mieux dÃ©crit comme un **point de passage paramÃ©trique** du modÃ¨le que comme un attracteur ou point critique fondamental.
 
 ---
 
-## 51. Conséquences physiques et limites actuelles
+## 51. ConsÃ©quences physiques et limites actuelles
 
-### 51.1 Ce que les campagnes numériques établissent réellement
+### 51.1 Ce que les campagnes numÃ©riques Ã©tablissent rÃ©ellement
 
-| Élément | Statut |
+| Ã‰lÃ©ment | Statut |
 |---|---|
-| Structure dimensionnelle 3+1 | 🟢 Hypothèse structurelle fixée |
-| $C=|Z|^2$ comme invariant de phase | 🟢 Confirmé comme observable robuste du jouet |
-| État incohérent $C\sim1/N$ | 🟢 Référence statistique confirmée |
-| Correction localisée | 🟢 Testée avec non-régression newtonienne |
-| Robustesse de l'asymptote sous variation $\sigma,k_0$ | 🟢 Testée dans le jouet |
-| Intégration tore–cône | 🟢 Cohérente numériquement dans le cadre testé |
-| $\alpha(s)\to4/3$ à saturation | 🟢 Formulation dynamique cohérente ; origine fondamentale ouverte |
-| $4/3$ global | 🔴 Abandonné : divergence à grand $r$ |
-| $3/4$| 🟡 Relation inverse cohérente avec $4/3$, pas dérivation indépendante |
-| $C_c=1/5$ | 🟡 Paramètre d'entrée ; non sélectionné dynamiquement |
-| $1/4$| 🟡 Identité conditionnelle à $C_c=1/5$ ; non dérivée indépendamment |
-| $\theta\approx28,955^\circ$| 🟢 Conséquence mathématique de $C_c=0,2$ dans la formule actuelle |
-| $E=mc^2$| 🔴 Pas de validation indépendante ; toute définition de $m$ via $c^2$ serait circulaire |
-| $c_{\mathrm{eff}}\approx\sqrt2$ | 🟡 À auditer séparément ; aucune origine fondamentale établie ici |
-| $r$ spatial émergent | 🔴 Non dérivé à partir des corrélations |
-| $D_{\mathrm{eff}}=3/4$ ou $4/3$ comme dimension géométrique émergente | 🔴 Non établi |
-| résolution quantitative de $10^{120}$ | 🔴 Non obtenue ; les jouets testés donnent une suppression très inférieure |
-| dérivation des équations d'Einstein | 🔴 Non obtenue |
+| Structure dimensionnelle 3+1 | ðŸŸ¢ HypothÃ¨se structurelle fixÃ©e |
+| $ C=|Z|^2 $ comme invariant de phase | ðŸŸ¢ ConfirmÃ© comme observable robuste du jouet |
+| Ã‰tat incohÃ©rent $ C\sim1/N $ | ðŸŸ¢ RÃ©fÃ©rence statistique confirmÃ©e |
+| Correction localisÃ©e | ðŸŸ¢ TestÃ©e avec non-rÃ©gression newtonienne |
+| Robustesse de l'asymptote sous variation $\sigma,k_0 $ | ðŸŸ¢ TestÃ©e dans le jouet |
+| IntÃ©gration toreâ€“cÃ´ne | ðŸŸ¢ CohÃ©rente numÃ©riquement dans le cadre testÃ© |
+| $\alpha(s)\to4/3 $ Ã  saturation | ðŸŸ¢ Formulation dynamique cohÃ©rente ; origine fondamentale ouverte |
+| $ 4/3 $ global | ðŸ”´ AbandonnÃ© : divergence Ã  grand $ r $ |
+| $ 3/4 $| ðŸŸ¡ Relation inverse cohÃ©rente avec $ 4/3 $, pas dÃ©rivation indÃ©pendante |
+| $ C_c=1/5 $ | ðŸŸ¡ ParamÃ¨tre d'entrÃ©e ; non sÃ©lectionnÃ© dynamiquement |
+| $ 1/4 $| ðŸŸ¡ IdentitÃ© conditionnelle Ã  $ C_c=1/5 $ ; non dÃ©rivÃ©e indÃ©pendamment |
+| $\theta\approx28,955^\circ $| ðŸŸ¢ ConsÃ©quence mathÃ©matique de $ C_c=0,2 $ dans la formule actuelle |
+| $ E=mc^2 $| ðŸ”´ Pas de validation indÃ©pendante ; toute dÃ©finition de $ m $ via $ c^2 $ serait circulaire |
+| $ c_{\mathrm{eff}}\approx\sqrt2 $ | ðŸŸ¡ Ã€ auditer sÃ©parÃ©ment ; aucune origine fondamentale Ã©tablie ici |
+| $ r $ spatial Ã©mergent | ðŸ”´ Non dÃ©rivÃ© Ã  partir des corrÃ©lations |
+| $ D_{\mathrm{eff}}=3/4 $ ou $ 4/3 $ comme dimension gÃ©omÃ©trique Ã©mergente | ðŸ”´ Non Ã©tabli |
+| rÃ©solution quantitative de $ 10^{120}$ | ðŸ”´ Non obtenue ; les jouets testÃ©s donnent une suppression trÃ¨s infÃ©rieure |
+| dÃ©rivation des Ã©quations d'Einstein | ðŸ”´ Non obtenue |
 
-### 51.2 Le point essentiel sur les singularités
+### 51.2 Le point essentiel sur les singularitÃ©s
 
-Le profil régularisé montre qu'il est mathématiquement possible de construire une source dont la densité reste finie au centre et dont la masse totale converge vers $M$ à grande distance. Une métrique de référence de type Hayward possède par exemple :
+Le profil rÃ©gularisÃ© montre qu'il est mathÃ©matiquement possible de construire une source dont la densitÃ© reste finie au centre et dont la masse totale converge vers $ M $ Ã  grande distance. Une mÃ©trique de rÃ©fÃ©rence de type Hayward possÃ¨de par exemple :
 
 $$
 m(r)=M\frac{r^3}{r^3+a^3},
 $$
 
-et récupère asymptotiquement la forme de Schwarzschild.
+et rÃ©cupÃ¨re asymptotiquement la forme de Schwarzschild.
 
-Cela démontre une **propriété de régularisation**, pas que le champ $C$ engendre effectivement cette masse géométrique.
+Cela dÃ©montre une **propriÃ©tÃ© de rÃ©gularisation**, pas que le champ $ C $ engendre effectivement cette masse gÃ©omÃ©trique.
 
 ### 51.3 Le point essentiel sur l'antigravitation
 
-Dans la version actuelle, le tenseur candidat est quadratique en gradients de $C$ et la borne $C\le1$ empêche une extrapolation triviale au-delà de la saturation. Cela exclut certains comportements répulsifs **dans ce modèle particulier**, sous ses hypothèses.
+Dans la version actuelle, le tenseur candidat est quadratique en gradients de $ C $ et la borne $ C\le1 $ empÃªche une extrapolation triviale au-delÃ  de la saturation. Cela exclut certains comportements rÃ©pulsifs **dans ce modÃ¨le particulier**, sous ses hypothÃ¨ses.
 
-Il ne s'agit pas d'une preuve que l'antigravitation est impossible dans toute théorie physique.
+Il ne s'agit pas d'une preuve que l'antigravitation est impossible dans toute thÃ©orie physique.
 
-### 51.4 Temps propre et temps émergent
+### 51.4 Temps propre et temps Ã©mergent
 
-La question reste ouverte : si une histoire quasi-classique $H_i$ possède une métrique $g_{\mu\nu}^{(i)}$, son temps propre pourrait être défini par :
+La question reste ouverte : si une histoire quasi-classique $ H_i $ possÃ¨de une mÃ©trique $ g_{\mu\nu}^{(i)}$, son temps propre pourrait Ãªtre dÃ©fini par :
 
 $$
 \tau_i=\int\sqrt{-g_{\mu\nu}^{(i)}\frac{dx^\mu}{d\lambda}\frac{dx^\nu}{d\lambda}}\,d\lambda.
 $$
 
-La hiérarchie heuristique :
+La hiÃ©rarchie heuristique :
 
 $$
 \tau_{\mathrm{micro}}\ll\tau_{\mathrm{corr}}\ll\tau_{\mathrm{macro}}
 $$
 
-reste une hypothèse de travail et non une mesure expérimentale de trois temps fondamentaux.
+reste une hypothÃ¨se de travail et non une mesure expÃ©rimentale de trois temps fondamentaux.
 
 ### 51.5 Feuille de route suivante
 
-Les prochaines étapes doivent rester séparées et falsifiables :
+Les prochaines Ã©tapes doivent rester sÃ©parÃ©es et falsifiables :
 
-1. **Auditer $c_{\mathrm{eff}}$ terme par terme**, en recherchant notamment toute racine carrée déjà présente dans sa définition avant d'interpréter un résultat proche de $\sqrt2$.
-2. **Poursuivre l'analyse des corrélations** $\tau_{ij}$ pour déterminer si des échelles de corrélation différenciées émergent réellement.
-3. Construire une distance $d_{ij}$ seulement si les corrélations produisent une structure non triviale qui n'est pas simplement héritée de $E_i$.
-4. Chercher ensuite un rayon émergent $ r $et seulement alors tester $N(r)$ et $D_{\mathrm{eff}}(r)$.
-5. Tester si l'exposant observé dans la zone de transition est réellement compatible avec $4/3$ sans le fixer à l'avance.
-6. Confronter le profil gravitationnel corrigé à des données observationnelles réelles, notamment les courbes de rotation, sans recalibrage ad hoc par galaxie si l'objectif est la prédictivité.
-7. Conserver séparément la question de l'origine microscopique de $C_c$: le Test 51 ferme la piste précise « pondération énergétique $ightarrow C_c=1/5$ » sous la famille testée, mais ne ferme pas toutes les possibilités théoriques.
+1. **Auditer $ c_{\mathrm{eff}}$ terme par terme**, en recherchant notamment toute racine carrÃ©e dÃ©jÃ  prÃ©sente dans sa dÃ©finition avant d'interprÃ©ter un rÃ©sultat proche de $\sqrt2 $.
+2. **Poursuivre l'analyse des corrÃ©lations** $\tau_{ij}$ pour dÃ©terminer si des Ã©chelles de corrÃ©lation diffÃ©renciÃ©es Ã©mergent rÃ©ellement.
+3. Construire une distance $ d_{ij}$ seulement si les corrÃ©lations produisent une structure non triviale qui n'est pas simplement hÃ©ritÃ©e de $ E_i $.
+4. Chercher ensuite un rayon Ã©mergent $ r $et seulement alors tester $ N(r)$ et $ D_{\mathrm{eff}}(r)$.
+5. Tester si l'exposant observÃ© dans la zone de transition est rÃ©ellement compatible avec $ 4/3 $ sans le fixer Ã  l'avance.
+6. Confronter le profil gravitationnel corrigÃ© Ã  des donnÃ©es observationnelles rÃ©elles, notamment les courbes de rotation, sans recalibrage ad hoc par galaxie si l'objectif est la prÃ©dictivitÃ©.
+7. Conserver sÃ©parÃ©ment la question de l'origine microscopique de $ C_c $: le Test 51 ferme la piste prÃ©cise Â« pondÃ©ration Ã©nergÃ©tique $ ightarrow C_c=1/5 $ Â» sous la famille testÃ©e, mais ne ferme pas toutes les possibilitÃ©s thÃ©oriques.
 
 ---
 
-## 52. Conclusion générale — état du programme de recherche
+## 52. Conclusion gÃ©nÃ©rale â€” Ã©tat du programme de recherche
 
-Le modèle a franchi une étape importante : certaines constructions qui divergeaient ont été abandonnées, tandis qu'une **correction localisée** a montré une récupération robuste de la limite newtonienne dans le modèle jouet.
+Le modÃ¨le a franchi une Ã©tape importante : certaines constructions qui divergeaient ont Ã©tÃ© abandonnÃ©es, tandis qu'une **correction localisÃ©e** a montrÃ© une rÃ©cupÃ©ration robuste de la limite newtonienne dans le modÃ¨le jouet.
 
-Le $4/3$ n'est plus utilisé comme loi globale. Il est maintenant traité comme un **scaling de transition potentiel**, avec une interpolation $\alpha(s)$ qui tend vers $4/3$ lorsque la densification normalisée tend vers la saturation $s\to1$.
+Le $ 4/3 $ n'est plus utilisÃ© comme loi globale. Il est maintenant traitÃ© comme un **scaling de transition potentiel**, avec une interpolation $\alpha(s)$ qui tend vers $ 4/3 $ lorsque la densification normalisÃ©e tend vers la saturation $ s\to1 $.
 
 La structure :
 
@@ -1106,24 +1112,24 @@ $$
 \frac43,\qquad\frac34,\qquad\frac14
 $$
 
-est cohérente avec $d=3$, mais sa valeur scientifique dépend encore d'une dérivation indépendante de $C_c=1/5$. Les Tests 49–51 ont précisément empêché de présenter cette relation comme déjà dérivée : les dynamiques testées ne sélectionnent pas $1/5$ spontanément.
+est cohÃ©rente avec $ d=3 $, mais sa valeur scientifique dÃ©pend encore d'une dÃ©rivation indÃ©pendante de $ C_c=1/5 $. Les Tests 49â€“51 ont prÃ©cisÃ©ment empÃªchÃ© de prÃ©senter cette relation comme dÃ©jÃ  dÃ©rivÃ©e : les dynamiques testÃ©es ne sÃ©lectionnent pas $ 1/5 $ spontanÃ©ment.
 
-La position scientifique actuelle peut donc être résumée par :
+La position scientifique actuelle peut donc Ãªtre rÃ©sumÃ©e par :
 
 $$
 \boxed{
-\text{modèle jouet numériquement contraint}
+\text{modÃ¨le jouet numÃ©riquement contraint}
 \neq
-\text{théorie de gravité émergente démontrée}
+\text{thÃ©orie de gravitÃ© Ã©mergente dÃ©montrÃ©e}
 }
 $$
 
-et par la chaîne de recherche :
+et par la chaÃ®ne de recherche :
 
 $$
 \{Q_i,\theta_i\}
 \rightarrow C
-\rightarrow\text{corrélations}
+\rightarrow\text{corrÃ©lations}
 \rightarrow d_{ij}\ ?
 \rightarrow r\ ?
 \rightarrow N(r)
@@ -1131,62 +1137,62 @@ $$
 \rightarrow g_{\mu\nu}^{\mathrm{eff}}
 $$
 
-avec une contrainte non négociable :
+avec une contrainte non nÃ©gociable :
 
 $$
 |g(r)|r^2\rightarrow\mathrm{constante}
 \qquad(r\rightarrow\infty).
 $$
 
-> **Principe de travail : on ne choisit plus le résultat recherché ; on cherche d'abord si la dynamique le produit, puis on conserve aussi bien les succès que les échecs.**
+> **Principe de travail : on ne choisit plus le rÃ©sultat recherchÃ© ; on cherche d'abord si la dynamique le produit, puis on conserve aussi bien les succÃ¨s que les Ã©checs.**
 
-Le programme reste donc ouvert, mais il est désormais plus falsifiable, plus propre mathématiquement et mieux séparé entre **entrées**, **conséquences**, **résultats numériques** et **hypothèses fondamentales**.
+Le programme reste donc ouvert, mais il est dÃ©sormais plus falsifiable, plus propre mathÃ©matiquement et mieux sÃ©parÃ© entre **entrÃ©es**, **consÃ©quences**, **rÃ©sultats numÃ©riques** et **hypothÃ¨ses fondamentales**.
 
 ---
 
 ## Conclusion
 
-> **La géométrie gravitationnelle décrite par la relativité générale est ici étudiée comme une éventuelle description macroscopique émergente d'une structure quantique collective. Les résultats numériques actuels ne démontrent pas cette émergence, mais ils permettent déjà d'éliminer certaines constructions instables et d'identifier des contraintes précises pour la suite.**
+> **La gÃ©omÃ©trie gravitationnelle dÃ©crite par la relativitÃ© gÃ©nÃ©rale est ici Ã©tudiÃ©e comme une Ã©ventuelle description macroscopique Ã©mergente d'une structure quantique collective. Les rÃ©sultats numÃ©riques actuels ne dÃ©montrent pas cette Ã©mergence, mais ils permettent dÃ©jÃ  d'Ã©liminer certaines constructions instables et d'identifier des contraintes prÃ©cises pour la suite.**
 
-Le problème scientifique central reste :
+Le problÃ¨me scientifique central reste :
 
-> **Existe-t-il une dynamique microscopique suffisamment précise pour produire simultanément la cohérence $C$, une structure métrique émergente, la limite newtonienne, les équations d'Einstein et les paramètres cosmologiques observés sans les imposer à l'avance ?**
+> **Existe-t-il une dynamique microscopique suffisamment prÃ©cise pour produire simultanÃ©ment la cohÃ©rence $ C $, une structure mÃ©trique Ã©mergente, la limite newtonienne, les Ã©quations d'Einstein et les paramÃ¨tres cosmologiques observÃ©s sans les imposer Ã  l'avance ?**
 
-*Document de réflexion personnelle et d'open science — à confronter à la littérature scientifique et à des validations indépendantes.*
+*Document de rÃ©flexion personnelle et d'open science â€” Ã  confronter Ã  la littÃ©rature scientifique et Ã  des validations indÃ©pendantes.*
 
 ---
 
-## 53. Mise à jour critique — campagnes 68–70 : audit du seuil, symétries et protocole de falsification
+## 53. Mise Ã  jour critique â€” campagnes 68â€“70 : audit du seuil, symÃ©tries et protocole de falsification
 
-> **Statut : mise à jour méthodologique majeure.** 
-> Cette section conserve la trace des résultats, corrections et questions ouvertes apparus après les campagnes 68–69e. Elle doit être lue comme un audit du modèle jouet, et non comme une validation de la théorie d'émergence gravitationnelle.
+> **Statut : mise Ã  jour mÃ©thodologique majeure.** 
+> Cette section conserve la trace des rÃ©sultats, corrections et questions ouvertes apparus aprÃ¨s les campagnes 68â€“69e. Elle doit Ãªtre lue comme un audit du modÃ¨le jouet, et non comme une validation de la thÃ©orie d'Ã©mergence gravitationnelle.
 
-### 53.1 Point de départ : l'écart $v_c(\alpha=0)\simeq2,92$ contre $v_c^{\rm th}=2u=2,0$
+### 53.1 Point de dÃ©part : l'Ã©cart $ v_c(\alpha=0)\simeq2,92 $ contre $ v_c^{\rm th}=2u=2,0 $
 
-Le rapport des campagnes 68–69e rapportait une extrapolation numérique :
+Le rapport des campagnes 68â€“69e rapportait une extrapolation numÃ©rique :
 
 $$
 v_c(\alpha=0)\simeq2,92
 $$
 
-alors que l'analyse du modèle symétrique donnait :
+alors que l'analyse du modÃ¨le symÃ©trique donnait :
 
 $$
 v_c^{\rm th}=2u.
 $$
 
-Pour $u=1$,
+Pour $ u=1 $,
 
 $$
 v_c^{\rm th}=2.
 $$
 
-Cet écart de l'ordre de $46\%$ a été identifié comme une anomalie méthodologique à résoudre **avant toute nouvelle campagne interprétative**.
+Cet Ã©cart de l'ordre de $ 46\%$ a Ã©tÃ© identifiÃ© comme une anomalie mÃ©thodologique Ã  rÃ©soudre **avant toute nouvelle campagne interprÃ©tative**.
 
 Le principe de travail est :
 
 $\boxed{
-\text{artefact numérique}
+\text{artefact numÃ©rique}
 \;\rightarrow\;
 \text{limites }T,N
 \;\rightarrow\;
@@ -1198,47 +1204,66 @@ et non l'inverse.
 
 ---
 
-### 53.2 Correction importante de l'audit énergétique du rapport 70A
+### 53.2 Correction importante de l'audit Ã©nergÃ©tique du rapport 70A
 
-Une vérification algébrique supplémentaire a montré que le rapport 70A contenait une erreur dans l'évaluation des minima.
+Une vÃ©rification algÃ©brique supplÃ©mentaire a montrÃ© que le rapport 70A contenait une erreur dans l'Ã©valuation des minima.
 
 Le potentiel est :
-$$F=-r\sum_a|\psi_a|^2+
+
+$$
+F=-r\sum_a|\psi_a|^2+
 u\sum_a|\psi_a|^4+
 v\sum_{a<b}|\psi_a|^2|\psi_b|^2,
-\qquad r>0,\;u>0,\;v>0.$$
+\qquad r>0,\;u>0,\;v>0.
+$$
 
 #### Rang 1
 Pour une seule composante active :
-$F_1(\rho)=-r\rho^2+u\rho^4.$
-La condition de stationnarité donne :
-$-2r\rho+4u\rho^3=0$
+$ F_1(\rho)=-r\rho^2+u\rho^4.$
+La condition de stationnaritÃ© donne :
+$-2r\rho+4u\rho^3=0 $
 et donc, pour le minimum non trivial,
 $\boxed{\rho_1^2=\frac{r}{2u}}.$
-L'énergie correspondante est :
-$$F_1=-r\frac{r}{2u}+u\frac{r^2}{4u^2}=-\frac{r^2}{4u}.$$
+L'Ã©nergie correspondante est :
+
+$$
+F_1=-r\frac{r}{2u}+u\frac{r^2}{4u^2}=-\frac{r^2}{4u}.
+$$
+
 Ainsi :
 $\boxed{F_1=-\frac{r^2}{4u}}.$
-Pour $r=u=1$,
+Pour $ r=u=1 $,
 $\boxed{F_1=-0,25}.$
-> **Correction explicite :** $F_1$ n'est pas égal à $0$. Le terme quadratique et le terme quartique ne s'annulent pas au minimum ; ils donnent ensemble $-r^2/(4u)$.
+> **Correction explicite :** $ F_1 $ n'est pas Ã©gal Ã  $ 0 $. Le terme quadratique et le terme quartique ne s'annulent pas au minimum ; ils donnent ensemble $-r^2/(4u)$.
 
-#### Rang 3 symétrique
+#### Rang 3 symÃ©trique
 Pour :
-$$\psi_1=\psi_2=\psi_3=\rho,$$
+
+$$
+\psi_1=\psi_2=\psi_3=\rho,
+$$
+
 on obtient :
-$$F_3(\rho)=-3r\rho^2+3(u+v)\rho^4.$$
-La stationnarité donne :
-$$\boxed{
-\rho_3^2=\frac{r}{2(u+v)}}.$$
+
+$$
+F_3(\rho)=-3r\rho^2+3(u+v)\rho^4.
+$$
+
+La stationnaritÃ© donne :
+
+$$
+\boxed{
+\rho_3^2=\frac{r}{2(u+v)}}.
+$$
+
 Donc :
 $\boxed{F_3=-\frac{3r^2}{4(u+v)}}.$
-Pour $r=u=1$ et $v=0$, $\boxed{F_3=-0,75}$.
-Le rapport 70A donnait $-0,5625$, valeur compatible avec une mauvaise substitution de l'amplitude.
+Pour $ r=u=1 $ et $ v=0 $, $\boxed{F_3=-0,75}$.
+Le rapport 70A donnait $-0,5625 $, valeur compatible avec une mauvaise substitution de l'amplitude.
 
 ---
 
-### 53.3 Le croisement énergétique n'est pas à $v\simeq0,86$
+### 53.3 Le croisement Ã©nergÃ©tique n'est pas Ã  $ v\simeq0,86 $
 
 Avec les expressions correctes :
 
@@ -1248,7 +1273,7 @@ F_1=-\frac{r^2}{4u},
 F_3=-\frac{3r^2}{4(u+v)}.
 $$
 
-La condition $F_1=F_3$ donne :
+La condition $ F_1=F_3 $ donne :
 
 $$
 \frac1u=\frac3{u+v},
@@ -1264,59 +1289,63 @@ et finalement :
 
 $\boxed{v=2u}.$
 
-Pour $u=1$ :
+Pour $ u=1 $ :
 
-$\boxed{v_c^{\rm énergie}=2}.$
+$\boxed{v_c^{\rm Ã©nergie}=2}.$
 
-Le seuil énergétique et le seuil de stabilité locale coïncident donc dans ce modèle symétrique :
+Le seuil Ã©nergÃ©tique et le seuil de stabilitÃ© locale coÃ¯ncident donc dans ce modÃ¨le symÃ©trique :
 
-$\boxed{v_c^{\rm énergie}=v_c^{\rm stabilité}=2u}.$
+$\boxed{v_c^{\rm Ã©nergie}=v_c^{\rm stabilitÃ©}=2u}.$
 
-Il n'existe donc **pas**, dans ce potentiel quartique symétrique précis, de fenêtre thermodynamique distincte
+Il n'existe donc **pas**, dans ce potentiel quartique symÃ©trique prÃ©cis, de fenÃªtre thermodynamique distincte
 
 $$
 0,86<v<2
 $$
 
-telle que le rang 1 serait globalement favorisé alors que le rang 3 resterait métastable.
+telle que le rang 1 serait globalement favorisÃ© alors que le rang 3 resterait mÃ©tastable.
 
-Le prétendu seuil $v\simeq0,86$ du rapport 70A doit être classé comme **artefact algébrique**, et non comme un second seuil physique.
+Le prÃ©tendu seuil $ v\simeq0,86 $ du rapport 70A doit Ãªtre classÃ© comme **artefact algÃ©brique**, et non comme un second seuil physique.
 
 ---
 
-### 53.4 Formule générale pour $k$ composantes actives
+### 53.4 Formule gÃ©nÃ©rale pour $ k $ composantes actives
 
-Pour $k$ composantes de même amplitude $\rho$ :
+Pour $ k $ composantes de mÃªme amplitude $\rho $ :
 
-$$F_k(\rho)=-kr\rho^2+\left[ku+\frac{k(k-1)}2v\right]\rho^4.$$
+$$
+F_k(\rho)=-kr\rho^2+\left[ku+\frac{k(k-1)}2v\right]\rho^4.
+$$
 
-La condition de stationnarité donne :
+La condition de stationnaritÃ© donne :
 
-$$\rho_k^2=\frac{r}{2u+(k-1)v}.$$
+$$
+\rho_k^2=\frac{r}{2u+(k-1)v}.
+$$
 
 Ainsi :
 
 $\boxed{\rho_k=\sqrt{\frac{r}{2u+(k-1)v}}}.$
 
-Cette formule corrige une ambiguïté importante présente dans les versions précédentes : l'amplitude elle-même porte une racine carrée.
+Cette formule corrige une ambiguÃ¯tÃ© importante prÃ©sente dans les versions prÃ©cÃ©dentes : l'amplitude elle-mÃªme porte une racine carrÃ©e.
 
-L'énergie minimale devient :
+L'Ã©nergie minimale devient :
 
 $\boxed{F_k^{\min}=-\frac{k r^2}{2\,[2u+(k-1)v]}}.$
 
-Pour $k=1$ :
+Pour $ k=1 $ :
 
 $$
 F_1^{\min}=-\frac{r^2}{4u}.
 $$
 
-Pour $k=3$ :
+Pour $ k=3 $ :
 
 $$
 F_3^{\min}=-\frac{3r^2}{4(u+v)}.
 $$
 
-La comparaison $F_1^{\min}=F_3^{\min}$ redonne bien :
+La comparaison $ F_1^{\min}=F_3^{\min}$ redonne bien :
 
 $$
 \boxed{v=2u}.
@@ -1324,38 +1353,38 @@ $$
 
 ---
 
-### 53.5 Conséquence : le mécanisme de compétition modale reste plausible, mais l'interprétation doit être nettoyée
+### 53.5 ConsÃ©quence : le mÃ©canisme de compÃ©tition modale reste plausible, mais l'interprÃ©tation doit Ãªtre nettoyÃ©e
 
-Le modèle minimal :
-$F=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2$
+Le modÃ¨le minimal :
+$ F=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2 $
 
-possède donc, pour $u>0$ et $r>0$, un seuil naturel :
+possÃ¨de donc, pour $ u>0 $ et $ r>0 $, un seuil naturel :
 
 $\boxed{v_c=2u}.$
 
-Ce résultat ne dépend pas d'un ajustement numérique du seuil.
+Ce rÃ©sultat ne dÃ©pend pas d'un ajustement numÃ©rique du seuil.
 
-En revanche, il ne suffit pas à expliquer pourquoi une simulation donnée pourrait produire un seuil apparent autour de $2,9$. Cette question reste distincte :
+En revanche, il ne suffit pas Ã  expliquer pourquoi une simulation donnÃ©e pourrait produire un seuil apparent autour de $ 2,9 $. Cette question reste distincte :
 
-$\boxed{v_c^{\rm apparent}\neq v_c^{\rm théorique}}$
+$\boxed{v_c^{\rm apparent}\neq v_c^{\rm thÃ©orique}}$
 
-tant que les effets de temps fini, taille finie, définition opérationnelle du seuil et éventuelle réduction du modèle n'ont pas été séparés.
+tant que les effets de temps fini, taille finie, dÃ©finition opÃ©rationnelle du seuil et Ã©ventuelle rÃ©duction du modÃ¨le n'ont pas Ã©tÃ© sÃ©parÃ©s.
 
 ---
 
-## 53.6 Formalisation 70S — nature exacte de la dynamique
+## 53.6 Formalisation 70S â€” nature exacte de la dynamique
 
-La dynamique collective étudiée dans les Tests 9–46 est un flot de gradient :
+La dynamique collective Ã©tudiÃ©e dans les Tests 9â€“46 est un flot de gradient :
 
 $\boxed{\dot\psi_a=-\frac{\partial F}{\partial\psi_a^*}}$
 
-soit, dans le cas général :
+soit, dans le cas gÃ©nÃ©ral :
 
 $\boxed{\dot\psi_a=r\psi_a-2u|\psi_a|^2\psi_a-\left(\sum_{b\neq a}v_{ab}|\psi_b|^2\right)\psi_a}.$
 
-### Symétrie du potentiel
+### SymÃ©trie du potentiel
 
-Lorsque le potentiel ne dépend que des modules :
+Lorsque le potentiel ne dÃ©pend que des modules :
 
 $$
 F=F(|\psi_1|^2,|\psi_2|^2,|\psi_3|^2),
@@ -1367,49 +1396,49 @@ $$
 \psi_a\rightarrow e^{i\varphi_a}\psi_a,
 $$
 
-avec trois phases indépendantes.
+avec trois phases indÃ©pendantes.
 
 Donc :
 
 $\boxed{G_F=U(1)^3}.$
 
-### Symétrie du flot
+### SymÃ©trie du flot
 
-Le flot de gradient est alors équivariant sous la même action :
+Le flot de gradient est alors Ã©quivariant sous la mÃªme action :
 
 $\boxed{G_{\rm flot}=U(1)^3}.$
 
-La symétrie du potentiel et celle du flot ne doivent cependant pas être confondues avec une loi de conservation d'une charge de Noether.
+La symÃ©trie du potentiel et celle du flot ne doivent cependant pas Ãªtre confondues avec une loi de conservation d'une charge de Noether.
 
 ### Variables polaires
 
-En écrivant :
+En Ã©crivant :
 
 $$
 \psi_a=\sqrt{\rho_a}\,e^{i\theta_a},
 $$
 
-le flot considéré ici donne :
+le flot considÃ©rÃ© ici donne :
 
 $$
 \dot\rho_a=2\lambda_a(\rho)\rho_a,
 $$
 
-avec $\lambda_a$ réel, et :
+avec $\lambda_a $ rÃ©el, et :
 
 $\boxed{\dot\theta_a=0}$
 
-pour cette **dynamique réduite précise**.
+pour cette **dynamique rÃ©duite prÃ©cise**.
 
-Les amplitudes peuvent donc décroître jusqu'à zéro alors que les phases restent figées.
+Les amplitudes peuvent donc dÃ©croÃ®tre jusqu'Ã  zÃ©ro alors que les phases restent figÃ©es.
 
-> **Point méthodologique essentiel :** $\dot\theta_a=0$ n'est pas une conséquence de $U(1)^3$ seule. C'est une conséquence de la combinaison « potentiel invariant en phase + choix du flot de gradient ».
+> **Point mÃ©thodologique essentiel :** $\dot\theta_a=0 $ n'est pas une consÃ©quence de $ U(1)^3 $ seule. C'est une consÃ©quence de la combinaison Â« potentiel invariant en phase + choix du flot de gradient Â».
 
 ---
 
-## 53.7 Ne pas extrapoler automatiquement cette propriété au niveau microscopique
+## 53.7 Ne pas extrapoler automatiquement cette propriÃ©tÃ© au niveau microscopique
 
-La dynamique microscopique d'origine, notamment les oscillateurs de type Kuramoto étudiés ailleurs dans le programme, possède une dynamique de phase active :
+La dynamique microscopique d'origine, notamment les oscillateurs de type Kuramoto Ã©tudiÃ©s ailleurs dans le programme, possÃ¨de une dynamique de phase active :
 
 $$
 \dot\theta_i=\frac KN\sum_jw_{ij}\sin(\theta_j-\theta_i).
@@ -1417,23 +1446,23 @@ $$
 
 Il existe donc deux niveaux distincts :
 
-$\boxed{\text{dynamique microscopique}\neq\text{dynamique modale réduite}}$
+$\boxed{\text{dynamique microscopique}\neq\text{dynamique modale rÃ©duite}}$
 
-La propriété $\dot\theta_a=0$ du modèle de Landau réduit ne doit pas être présentée comme une propriété démontrée de la dynamique microscopique tant qu'une réduction explicite n'a pas été dérivée.
+La propriÃ©tÃ© $\dot\theta_a=0 $ du modÃ¨le de Landau rÃ©duit ne doit pas Ãªtre prÃ©sentÃ©e comme une propriÃ©tÃ© dÃ©montrÃ©e de la dynamique microscopique tant qu'une rÃ©duction explicite n'a pas Ã©tÃ© dÃ©rivÃ©e.
 
-C'est désormais une question prioritaire de 70S :
+C'est dÃ©sormais une question prioritaire de 70S :
 
-> **La dynamique de phase gelée des variables modales est-elle dérivée de la dynamique microscopique, ou introduite par la réduction phénoménologique ?**
+> **La dynamique de phase gelÃ©e des variables modales est-elle dÃ©rivÃ©e de la dynamique microscopique, ou introduite par la rÃ©duction phÃ©nomÃ©nologique ?**
 
 ---
 
-# 54. Protocole de diagnostic 70A–70D
+# 54. Protocole de diagnostic 70Aâ€“70D
 
-## 54.1 70A — tester l'extrapolation $\alpha\rightarrow0$
+## 54.1 70A â€” tester l'extrapolation $\alpha\rightarrow0 $
 
-### Hypothèse testée
+### HypothÃ¨se testÃ©e
 
-Le $2,92$ pourrait provenir d'une extrapolation linéaire inadéquate plutôt que d'un véritable seuil à $\alpha=0$.
+Le $ 2,92 $ pourrait provenir d'une extrapolation linÃ©aire inadÃ©quate plutÃ´t que d'un vÃ©ritable seuil Ã  $\alpha=0 $.
 
 On part des mesures :
 
@@ -1453,7 +1482,7 @@ $$
 v_c(\alpha)=b_0+b_1\alpha+b_2\alpha^2.
 $$
 
-Le résultat à comparer est respectivement :
+Le rÃ©sultat Ã  comparer est respectivement :
 
 $$
 v_c^{\rm lin}(0)=a_0,
@@ -1461,18 +1490,18 @@ v_c^{\rm lin}(0)=a_0,
 v_c^{\rm quad}(0)=b_0.
 $$
 
-### Paramètres fixes
+### ParamÃ¨tres fixes
 
 - dynamique exacte ;
-- $N$ ;
-- $u,r$ ;
-- intégrateur ;
-- $dt$ ;
-- définition opérationnelle de $v_c$ ;
+- $ N $ ;
+- $ u,r $ ;
+- intÃ©grateur ;
+- $ dt $ ;
+- dÃ©finition opÃ©rationnelle de $ v_c $ ;
 - seeds ;
-- définition de $\alpha$.
+- dÃ©finition de $\alpha $.
 
-### Paramètre variable
+### ParamÃ¨tre variable
 
 Uniquement :
 
@@ -1480,33 +1509,33 @@ $$
 \alpha.
 $$
 
-### Critère défini avant le résultat
+### CritÃ¨re dÃ©fini avant le rÃ©sultat
 
-**Succès :**
+**SuccÃ¨s :**
 
 $$
 |v_c^{\rm extrap}-2|
 $$
 
-diminue substantiellement avec un modèle non linéaire.
+diminue substantiellement avec un modÃ¨le non linÃ©aire.
 
-**Échec :**
+**Ã‰chec :**
 
 $$
 v_c^{\rm lin}(0)\simeq v_c^{\rm quad}(0)\simeq2,92
 $$
 
-avec des incertitudes suffisamment faibles pour exclure $2$.
+avec des incertitudes suffisamment faibles pour exclure $ 2 $.
 
-> **Condition indispensable :** les points bruts $v_c(\alpha)$ doivent être conservés. Une extrapolation ne doit pas être reconstruite à partir de sa seule formule finale.
+> **Condition indispensable :** les points bruts $ v_c(\alpha)$ doivent Ãªtre conservÃ©s. Une extrapolation ne doit pas Ãªtre reconstruite Ã  partir de sa seule formule finale.
 
 ---
 
-## 54.2 70B — convergence temporelle puis convergence en taille
+## 54.2 70B â€” convergence temporelle puis convergence en taille
 
-Les deux effets doivent être séparés.
+Les deux effets doivent Ãªtre sÃ©parÃ©s.
 
-### 70B-1 — Temps
+### 70B-1 â€” Temps
 
 Fixer :
 
@@ -1532,7 +1561,7 @@ $$
 \tau_{\rm rel}(v).
 $$
 
-**Critère :**
+**CritÃ¨re :**
 
 $$
 v_c(T)\rightarrow2
@@ -1546,14 +1575,14 @@ $$
 v_c(T)\rightarrow2,92,
 $$
 
-le temps fini n'explique pas l'écart.
+le temps fini n'explique pas l'Ã©cart.
 
-### 70B-2 — Taille
+### 70B-2 â€” Taille
 
-Une fois $T$ suffisamment convergé :
+Une fois $ T $ suffisamment convergÃ© :
 
 $$
-T=T_{\rm convergé},
+T=T_{\rm convergÃ©},
 $$
 
 faire varier :
@@ -1574,7 +1603,7 @@ $$
 v_c(N)=v_c(\infty)+AN^{-\beta}.
 $$
 
-**Critère :**
+**CritÃ¨re :**
 
 $$
 v_c(N)\rightarrow2
@@ -1582,56 +1611,56 @@ $$
 
 indique un effet de taille finie.
 
-Sinon, la taille finie n'explique pas l'écart.
+Sinon, la taille finie n'explique pas l'Ã©cart.
 
-### Règle non négociable
+### RÃ¨gle non nÃ©gociable
 
-Ne jamais faire varier simultanément $T$ et $N$ dans un test destiné à attribuer causalement un déplacement du seuil.
+Ne jamais faire varier simultanÃ©ment $ T $ et $ N $ dans un test destinÃ© Ã  attribuer causalement un dÃ©placement du seuil.
 
 ---
 
-## 54.3 70C — terme manquant, seulement si 70A et 70B échouent
+## 54.3 70C â€” terme manquant, seulement si 70A et 70B Ã©chouent
 
-Le potentiel de départ reste :
+Le potentiel de dÃ©part reste :
 
-$F_0=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2.$
+$ F_0=-r\sum_a|\psi_a|^2+u\sum_a|\psi_a|^4+v\sum_{a<b}|\psi_a|^2|\psi_b|^2.$
 
-Un seul terme supplémentaire doit être introduit à la fois.
+Un seul terme supplÃ©mentaire doit Ãªtre introduit Ã  la fois.
 
-### Candidat phase-couplé
+### Candidat phase-couplÃ©
 
 Par exemple :
 
-$F_3=w(\psi_1\psi_2\psi_3+\mathrm{c.c.}).$
+$ F_3=w(\psi_1\psi_2\psi_3+\mathrm{c.c.}).$
 
-Mais ce terme ne doit être retenu que si les symétries microscopiques l'autorisent.
+Mais ce terme ne doit Ãªtre retenu que si les symÃ©tries microscopiques l'autorisent.
 
 D'autres couplages sont possibles, par exemple :
 
-$w_{12}(\psi_1^*\psi_2+\mathrm{c.c.}),$
+$ w_{12}(\psi_1^*\psi_2+\mathrm{c.c.}),$
 
-qui sélectionne une autre combinaison de phases.
+qui sÃ©lectionne une autre combinaison de phases.
 
-Il n'est donc plus correct de présenter le terme cubique comme « le » terme manquant privilégié a priori.
+Il n'est donc plus correct de prÃ©senter le terme cubique comme Â« le Â» terme manquant privilÃ©giÃ© a priori.
 
 ### Candidat spatial
 
-Si les variables $\psi_a$ sont réellement des champs spatiaux, on peut tester :
-$F_\nabla=\sum_a\kappa_a|\nabla\psi_a|^2+\sum_{a<b}\kappa_{ab}\nabla\psi_a\cdot\nabla\psi_b.$
+Si les variables $\psi_a $ sont rÃ©ellement des champs spatiaux, on peut tester :
+$ F_\nabla=\sum_a\kappa_a|\nabla\psi_a|^2+\sum_{a<b}\kappa_{ab}\nabla\psi_a\cdot\nabla\psi_b.$
 
-Mais cette extension change la nature du modèle : elle introduit des degrés de liberté spatiaux qui n'existent pas dans le modèle homogène 0D.
+Mais cette extension change la nature du modÃ¨le : elle introduit des degrÃ©s de libertÃ© spatiaux qui n'existent pas dans le modÃ¨le homogÃ¨ne 0D.
 
-### Critère de causalité
+### CritÃ¨re de causalitÃ©
 
-Un terme supplémentaire n'est explicatif que si :
+Un terme supplÃ©mentaire n'est explicatif que si :
 
-1. il est autorisé par les symétries ;
-2. son coefficient est mesurable ou dérivable microscopiquement ;
-3. il est introduit avant de connaître son effet sur $v_c$ ;
+1. il est autorisÃ© par les symÃ©tries ;
+2. son coefficient est mesurable ou dÃ©rivable microscopiquement ;
+3. il est introduit avant de connaÃ®tre son effet sur $ v_c $ ;
 4. sa magnitude est physiquement plausible ;
-5. il améliore la prédiction sans réglage arbitraire.
+5. il amÃ©liore la prÃ©diction sans rÃ©glage arbitraire.
 
-La condition forte recherchée est :
+La condition forte recherchÃ©e est :
 
 $$
 \boxed{\text{micro-dynamique} \to \text{coefficient effectif} \to v_c \simeq 2,92}
@@ -1647,43 +1676,43 @@ $$
 
 ---
 
-## 54.4 70D — reconstruction directe du potentiel effectif
+## 54.4 70D â€” reconstruction directe du potentiel effectif
 
-À partir des trajectoires microscopiques :
+Ã€ partir des trajectoires microscopiques :
 
 $$
 Q_i(t),
 $$
 
-définir les variables modales $\psi_a(t)$, puis estimer leur distribution stationnaire :
+dÃ©finir les variables modales $\psi_a(t)$, puis estimer leur distribution stationnaire :
 
 $$
 P(\psi_1,\psi_2,\psi_3).
 $$
 
-On peut alors reconstruire, sous les hypothèses appropriées :
+On peut alors reconstruire, sous les hypothÃ¨ses appropriÃ©es :
 $\boxed{F_{\rm eff}=-k_BT_{\rm eff}\ln P}$
-ou, en unités réduites :
+ou, en unitÃ©s rÃ©duites :
 $\boxed{F_{\rm eff}=-\ln P+C.}$
 
-Le potentiel reconstruit peut ensuite être comparé à :
-$F_{\rm eff}=-r_{\rm eff}\sum_a|\psi_a|^2+u_{\rm eff}\sum_a|\psi_a|^4+\sum_{a<b}v_{ab}^{\rm eff}|\psi_a|^2|\psi_b|^2+\cdots$
+Le potentiel reconstruit peut ensuite Ãªtre comparÃ© Ã  :
+$ F_{\rm eff}=-r_{\rm eff}\sum_a|\psi_a|^2+u_{\rm eff}\sum_a|\psi_a|^4+\sum_{a<b}v_{ab}^{\rm eff}|\psi_a|^2|\psi_b|^2+\cdots $
 
-L'objectif est de déterminer si les $v_{ab}$, les anisotropies et d'éventuels termes de phase ou de gradient apparaissent **dans les données**, plutôt que d'être introduits pour reproduire un résultat.
+L'objectif est de dÃ©terminer si les $ v_{ab}$, les anisotropies et d'Ã©ventuels termes de phase ou de gradient apparaissent **dans les donnÃ©es**, plutÃ´t que d'Ãªtre introduits pour reproduire un rÃ©sultat.
 
-> **Réserve :** l'inversion $F_{\rm eff}=-\ln P$ n'est interprétable comme un potentiel thermodynamique standard que si les conditions statistiques et d'équilibre nécessaires sont satisfaites. Pour une dynamique hors équilibre, il s'agit d'abord d'un potentiel statistique effectif, pas automatiquement d'une énergie thermodynamique.
+> **RÃ©serve :** l'inversion $ F_{\rm eff}=-\ln P $ n'est interprÃ©table comme un potentiel thermodynamique standard que si les conditions statistiques et d'Ã©quilibre nÃ©cessaires sont satisfaites. Pour une dynamique hors Ã©quilibre, il s'agit d'abord d'un potentiel statistique effectif, pas automatiquement d'une Ã©nergie thermodynamique.
 
 ---
 
-# 55. Résultat intermédiaire de reconstruction indépendante
+# 55. RÃ©sultat intermÃ©diaire de reconstruction indÃ©pendante
 
-Une reconstruction indépendante réalisée à partir de la formule disponible :
+Une reconstruction indÃ©pendante rÃ©alisÃ©e Ã  partir de la formule disponible :
 
 $$
 v_c(\alpha)\approx2,92-1,5\alpha
 $$
 
-a produit, avec une paramétrisation explicitement reconstruite et non les données brutes originales, un premier résultat :
+a produit, avec une paramÃ©trisation explicitement reconstruite et non les donnÃ©es brutes originales, un premier rÃ©sultat :
 
 $$
 v_c(0)\approx2,118,
@@ -1695,31 +1724,31 @@ $$
 v_c(0,2)\approx1,750.
 $$
 
-Ce résultat est **indicatif seulement** : il ne reproduit pas encore le protocole exact des campagnes 68–69d faute d'accès aux points bruts et à leur définition opérationnelle complète du seuil.
+Ce rÃ©sultat est **indicatif seulement** : il ne reproduit pas encore le protocole exact des campagnes 68â€“69d faute d'accÃ¨s aux points bruts et Ã  leur dÃ©finition opÃ©rationnelle complÃ¨te du seuil.
 
-Il est néanmoins important car il montre qu'une reconstruction indépendante du modèle anisotrope peut produire une valeur beaucoup plus proche de $2$ que $2,92$.
+Il est nÃ©anmoins important car il montre qu'une reconstruction indÃ©pendante du modÃ¨le anisotrope peut produire une valeur beaucoup plus proche de $ 2 $ que $ 2,92 $.
 
-Cela conduit à une règle stricte :
+Cela conduit Ã  une rÃ¨gle stricte :
 
 $$
 \boxed{
-2,118\ \text{n'est pas une validation ; c'est un signal de non-reproductibilité à investiguer.}
+2,118\ \text{n'est pas une validation ; c'est un signal de non-reproductibilitÃ© Ã  investiguer.}
 }
 $$
 
-Il faut donc obtenir les données brutes et le protocole exact avant toute conclusion sur l'origine du $2,92$.
+Il faut donc obtenir les donnÃ©es brutes et le protocole exact avant toute conclusion sur l'origine du $ 2,92 $.
 
 ---
 
-# 56. Correction du rapport 70A–70B externe
+# 56. Correction du rapport 70Aâ€“70B externe
 
-Le rapport externe 70A–70B avait interprété :
+Le rapport externe 70Aâ€“70B avait interprÃ©tÃ© :
 
-$v\simeq0,86$
+$ v\simeq0,86 $
 
-comme un seuil énergétique distinct, puis introduit une fenêtre de métastabilité entre $0,86$ et $2,0$.
+comme un seuil Ã©nergÃ©tique distinct, puis introduit une fenÃªtre de mÃ©tastabilitÃ© entre $ 0,86 $ et $ 2,0 $.
 
-L'audit algébrique montre que cette interprétation est invalide pour le potentiel quartique symétrique défini ici.
+L'audit algÃ©brique montre que cette interprÃ©tation est invalide pour le potentiel quartique symÃ©trique dÃ©fini ici.
 
 Le seuil correct est :
 
@@ -1727,50 +1756,50 @@ $$
 \boxed{v_c=2u}.
 $$
 
-La valeur $0,86$ doit donc être conservée dans le journal uniquement comme **résultat historique erroné**, accompagné de la correction mathématique.
+La valeur $ 0,86 $ doit donc Ãªtre conservÃ©e dans le journal uniquement comme **rÃ©sultat historique erronÃ©**, accompagnÃ© de la correction mathÃ©matique.
 
-Cette distinction est importante pour éviter qu'une valeur fausse ne réapparaisse ultérieurement comme une « prédiction précédente ».
+Cette distinction est importante pour Ã©viter qu'une valeur fausse ne rÃ©apparaisse ultÃ©rieurement comme une Â« prÃ©diction prÃ©cÃ©dente Â».
 
 ---
 
-# 57. Arbre décisionnel consolidé
+# 57. Arbre dÃ©cisionnel consolidÃ©
 
 ```text
-         v_c apparent ≈ 2,92
-              │
-              ▼
-       70A — extrapolation α → 0
-              │
-         ┌─────────┴─────────┐
-         ▼          ▼
-       → 2,0       reste ≈ 2,92
-         │          │
-     artefact α         ▼
-               70B — convergence
-                T puis N séparément
-                   │
-              ┌──────────┴──────────┐
-              ▼           ▼
-            → 2,0       reste ≈ 2,92
-              │           │
-           effet fini         ▼
-                      70C — terme
-                      supplémentaire
-                         │
-                         ▼
-                   validation microscopique
-                         │
-                         ▼
-                      70D — F_eff
-                   reconstruction directe
+     v_c apparent â‰ˆ 2,92
+       â”‚
+       â–¼
+    70A â€” extrapolation Î± â†’ 0
+       â”‚
+     â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+     â–¼     â–¼
+    â†’ 2,0    reste â‰ˆ 2,92
+     â”‚     â”‚
+   artefact Î±     â–¼
+        70B â€” convergence
+        T puis N sÃ©parÃ©ment
+          â”‚
+       â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+       â–¼      â–¼
+      â†’ 2,0    reste â‰ˆ 2,92
+       â”‚      â”‚
+      effet fini     â–¼
+           70C â€” terme
+           supplÃ©mentaire
+             â”‚
+             â–¼
+          validation microscopique
+             â”‚
+             â–¼
+           70D â€” F_eff
+          reconstruction directe
 ```
 
-Une étape 70S doit être considérée comme **transversale et préalable** à l'interprétation physique :
+Une Ã©tape 70S doit Ãªtre considÃ©rÃ©e comme **transversale et prÃ©alable** Ã  l'interprÃ©tation physique :
 
 $$
 \boxed{
 70S:\quad
-\text{identifier précisément la classe de dynamique}
+\text{identifier prÃ©cisÃ©ment la classe de dynamique}
 }
 $$
 
@@ -1778,128 +1807,128 @@ notamment :
 
 - dynamique de gradient ;
 - dynamique hamiltonienne/conservative ;
-- dynamique dissipative hors équilibre ;
+- dynamique dissipative hors Ã©quilibre ;
 - dynamique microscopique de type Kuramoto ;
-- réduction modale reliant explicitement ces niveaux.
+- rÃ©duction modale reliant explicitement ces niveaux.
 
 ---
 
-# 58. Critère scientifique final
+# 58. CritÃ¨re scientifique final
 
-Le programme doit désormais distinguer explicitement :
+Le programme doit dÃ©sormais distinguer explicitement :
 
-$\boxed{\text{reproduction numérique}\neq\text{explication physique}}$
+$\boxed{\text{reproduction numÃ©rique}\neq\text{explication physique}}$
 
-Une explication prédictive complète devrait idéalement suivre la chaîne :
+Une explication prÃ©dictive complÃ¨te devrait idÃ©alement suivre la chaÃ®ne :
 
 $$
 \boxed{S_{\rm micro} \to P(\psi) \to F_{\rm eff} \to v_{ab}^{\rm eff} \to v_c \to \gamma_2, \gamma_3}
 $$
 
-sans choisir les paramètres effectifs spécifiquement pour reproduire la dernière observable.
+sans choisir les paramÃ¨tres effectifs spÃ©cifiquement pour reproduire la derniÃ¨re observable.
 
-Cette exigence est particulièrement importante pour le ratio :
+Cette exigence est particuliÃ¨rement importante pour le ratio :
 
 $$
 \frac{\gamma_3}{\gamma_2}\approx1,37
 $$
 
-obtenu avec anisotropie, car l'ajustement de plusieurs $v_{ab}$ sur une seule cible ne constitue pas à lui seul une démonstration causale.
+obtenu avec anisotropie, car l'ajustement de plusieurs $ v_{ab}$ sur une seule cible ne constitue pas Ã  lui seul une dÃ©monstration causale.
 
 ---
 
-# 59. Questions restant ouvertes après l'audit
+# 59. Questions restant ouvertes aprÃ¨s l'audit
 
-1. Quelle est exactement la définition opérationnelle de $v_c$ dans les campagnes 68–69e ?
+1. Quelle est exactement la dÃ©finition opÃ©rationnelle de $ v_c $ dans les campagnes 68â€“69e ?
 2. Quels sont les points bruts $(\alpha_i,v_c(\alpha_i))$ ?
-3. Quelle est la sensibilité de $v_c$ à la durée $T$ ?
-4. Quelle est sa convergence en $N$ une fois $T$ convergé ?
-5. La réduction microscopique vers $\psi_a$ peut-elle être dérivée explicitement ?
-6. Le gel $\dot\theta_a=0$ existe-t-il au niveau microscopique ou est-il créé par la réduction ?
-7. Quels couplages de phase sont réellement permis par les symétries microscopiques ?
-8. Les coefficients $v_{ab}$ peuvent-ils être reconstruits directement à partir des trajectoires ?
-9. Les anisotropies $v_{12}<v_{13}<v_{23}$ sont-elles explicitement imposées ou émergent-elles ?
-10. Le modèle homogène 0D est-il suffisant, ou faut-il introduire une structure spatiale ?
+3. Quelle est la sensibilitÃ© de $ v_c $ Ã  la durÃ©e $ T $ ?
+4. Quelle est sa convergence en $ N $ une fois $ T $ convergÃ© ?
+5. La rÃ©duction microscopique vers $\psi_a $ peut-elle Ãªtre dÃ©rivÃ©e explicitement ?
+6. Le gel $\dot\theta_a=0 $ existe-t-il au niveau microscopique ou est-il crÃ©Ã© par la rÃ©duction ?
+7. Quels couplages de phase sont rÃ©ellement permis par les symÃ©tries microscopiques ?
+8. Les coefficients $ v_{ab}$ peuvent-ils Ãªtre reconstruits directement Ã  partir des trajectoires ?
+9. Les anisotropies $ v_{12}<v_{13}<v_{23}$ sont-elles explicitement imposÃ©es ou Ã©mergent-elles ?
+10. Le modÃ¨le homogÃ¨ne 0D est-il suffisant, ou faut-il introduire une structure spatiale ?
 
 ---
 
 # 60. Principe de conservation du fil de recherche
 
-> **Ne pas effacer les erreurs historiques : les conserver, les étiqueter et les corriger.**
+> **Ne pas effacer les erreurs historiques : les conserver, les Ã©tiqueter et les corriger.**
 
-Le statut actuel doit être lu ainsi :
+Le statut actuel doit Ãªtre lu ainsi :
 
-- $v_c=2u$ : **résultat analytique du potentiel quartique symétrique** ;
-- $v\simeq0,86$ : **artefact algébrique identifié** ;
-- $v_c\simeq2,92$ : **observation/extrapolation historique à reproduire et auditer**, pas une valeur théorique établie ;
-- $v_c\simeq2,118$ : **reconstruction indépendante partielle**, non concluante ;
-- $U(1)^3$ : **symétrie du potentiel et du flot réduit** dans le modèle considéré ;
-- $\dot\theta_a=0$ : **propriété du flot de gradient réduit**, pas encore dérivée de la dynamique microscopique ;
-- $v_{ab}$ : **paramètres effectifs non encore dérivés microscopiquement** ;
-- 70A–70D : **protocole de falsification**, pas résultats définitifs ;
-- 70S : **audit de la classe de dynamique et du lien micro → modal**.
+- $ v_c=2u $ : **rÃ©sultat analytique du potentiel quartique symÃ©trique** ;
+- $ v\simeq0,86 $ : **artefact algÃ©brique identifiÃ©** ;
+- $ v_c\simeq2,92 $ : **observation/extrapolation historique Ã  reproduire et auditer**, pas une valeur thÃ©orique Ã©tablie ;
+- $ v_c\simeq2,118 $ : **reconstruction indÃ©pendante partielle**, non concluante ;
+- $ U(1)^3 $ : **symÃ©trie du potentiel et du flot rÃ©duit** dans le modÃ¨le considÃ©rÃ© ;
+- $\dot\theta_a=0 $ : **propriÃ©tÃ© du flot de gradient rÃ©duit**, pas encore dÃ©rivÃ©e de la dynamique microscopique ;
+- $ v_{ab}$ : **paramÃ¨tres effectifs non encore dÃ©rivÃ©s microscopiquement** ;
+- 70Aâ€“70D : **protocole de falsification**, pas rÃ©sultats dÃ©finitifs ;
+- 70S : **audit de la classe de dynamique et du lien micro â†’ modal**.
 
-La règle directrice reste :
+La rÃ¨gle directrice reste :
 
 $$
 \boxed{
-\text{on ne choisit plus le résultat recherché ; on cherche d'abord si la dynamique le produit.}
+\text{on ne choisit plus le rÃ©sultat recherchÃ© ; on cherche d'abord si la dynamique le produit.}
 }
 $$
 
-# PARTIE IV : ANNEXES NUMÉRIQUES & GUIDE DES PREUVES
+# PARTIE IV : ANNEXES NUMÃ‰RIQUES & GUIDE DES PREUVES
 
-Cette section archive les briques logicielles critiques et le guide de lecture des données brutes validant le modèle.
+Cette section archive les briques logicielles critiques et le guide de lecture des donnÃ©es brutes validant le modÃ¨le.
 
 ---
 
 ## 1. Moteur d'Inversion de Phase (Audit 61H-10A)
-Preuve de la suppression des singularités par dynamique libre des phases.
+Preuve de la suppression des singularitÃ©s par dynamique libre des phases.
 
 ```python
 import numpy as np
 def run_phase_inversion_audit(N=2000, max_steps=500, dt=0.01):
-  phases = np.random.uniform(0, 2*np.pi, size=N)
-  amplitudes = np.random.uniform(0.1, 1.0, size=N)
-  for step in range(max_steps):
-    interaction = np.mean(np.exp(1j * phases))
-    d_phase = np.angle(interaction) - phases
-    d_amplitude = np.cos(d_phase) * (1.0 - amplitudes)
-    amplitudes += d_amplitude * dt
-    phases += np.sin(d_phase) * dt
-  return np.min(np.abs(amplitudes)) # ~0.61
+ phases = np.random.uniform(0, 2*np.pi, size=N)
+ amplitudes = np.random.uniform(0.1, 1.0, size=N)
+ for step in range(max_steps):
+  interaction = np.mean(np.exp(1j * phases))
+  d_phase = np.angle(interaction) - phases
+  d_amplitude = np.cos(d_phase) * (1.0 - amplitudes)
+  amplitudes += d_amplitude * dt
+  phases += np.sin(d_phase) * dt
+ return np.min(np.abs(amplitudes)) # ~0.61
 ```
 
 ---
 
-## 2. Moteur d'Émergence MOND (Audit 61H-13)
-Validation analytique de la pente $-1.0000$ en champ faible.
+## 2. Moteur d'Ã‰mergence MOND (Audit 61H-13)
+Validation analytique de la pente $-1.0000 $ en champ faible.
 
 ```python
 import numpy as np
 def compute_mond_emergence(a_0=1.2e-10, g_bar_scale=1e-8):
-  r = np.linspace(5.0, 50.0, 50)
-  g_bar = g_bar_scale / (r**2)
-  g_h2c = np.sqrt(g_bar * a_0 + np.sqrt((g_bar * a_0)**2 + 4 * g_bar**2)) / np.sqrt(2)
-  return np.polyfit(np.log(r[-15:]), np.log(g_h2c[-15:]), 1)[0] # -0.9999
+ r = np.linspace(5.0, 50.0, 50)
+ g_bar = g_bar_scale / (r**2)
+ g_h2c = np.sqrt(g_bar * a_0 + np.sqrt((g_bar * a_0)**2 + 4 * g_bar**2)) / np.sqrt(2)
+ return np.polyfit(np.log(r[-15:]), np.log(g_h2c[-15:]), 1)[0] # -0.9999
 ```
 
 ---
 
 ## 3. Guide de Lecture des Preuves (`Numerical_Evidence/`)
 
-Pour garantir une transparence totale, les fichiers de données brutes sont archivés dans [Numerical_Evidence/](./Numerical_Evidence).
+Pour garantir une transparence totale, les fichiers de donnÃ©es brutes sont archivÃ©s dans [Numerical_Evidence/](./Numerical_Evidence).
 
-- **`61H8C_limit_audit.json`** : Preuve de la régularité du substrat ($A_{\text{min}} > 0$).
-- **`61H9_convergence_report.json`** : Rapport de scaling haute résolution ($N=4000$).
+- **`61H8C_limit_audit.json`** : Preuve de la rÃ©gularitÃ© du substrat ($ A_{\text{min}} > 0 $).
+- **`61H9_convergence_report.json`** : Rapport de scaling haute rÃ©solution ($ N=4000 $).
 - **`61H12_extended_results.csv`** : Documente l'effet de forme galactique.
-- **`61H11_final_report.json`** : Synthèse des performances sur 175 galaxies (Gain de $19\%$ de $\chi^2$).
+- **`61H11_final_report.json`** : SynthÃ¨se des performances sur 175 galaxies (Gain de $ 19\%$ de $\chi^2 $).
 
 ---
 
 ## 55. Solveur Auto-Consistant H2C & Validation SPARC (175 Galaxies)
 
-### 55.1 Code source complet d'exécution (Backend Agg)
+### 55.1 Code source complet d'exÃ©cution (Backend Agg)
 
 ```python
 import os
@@ -1923,123 +1952,149 @@ A0_H2C = (C_M_S**2) * np.sqrt(LAMBDA_M2 / 3.0) # ~5.4546e-10 m/s^2
 
 class H2CSolverCoupledExperimental:
  def __init__(self, r_kpc, v_gas, v_disk, v_bul, max_iter=15, tol=1e-4):
-  self.r_kpc = np.array(r_kpc, dtype=float)
-  self.r_m = self.r_kpc * KPC_TO_M
-  self.v_gas, self.v_disk, self.v_bul = np.array(v_gas), np.array(v_disk), np.array(v_bul)
-  self.max_iter = max_iter
-  self.tol = tol
+ self.r_kpc = np.array(r_kpc, dtype=float)
+ self.r_m = self.r_kpc * KPC_TO_M
+ self.v_gas, self.v_disk, self.v_bul = np.array(v_gas), np.array(v_disk), np.array(v_bul)
+ self.max_iter = max_iter
+ self.tol = tol
 
  def solve(self):
-  v_bar_sq_raw = np.sign(self.v_gas)*(self.v_gas**2) + 0.5*(self.v_disk**2) + 0.7*(self.v_bul**2)
-  a_n = (np.maximum(0.0, v_bar_sq_raw) * (KM_S_TO_M_S**2)) / np.maximum(self.r_m, 1.0)
-  y_curr = a_n / A0_H2C
+ v_bar_sq_raw = np.sign(self.v_gas)*(self.v_gas**2) + 0.5*(self.v_disk**2) + 0.7*(self.v_bul**2)
+ a_n = (np.maximum(0.0, v_bar_sq_raw) * (KM_S_TO_M_S**2)) / np.maximum(self.r_m, 1.0)
+ y_curr = a_n / A0_H2C
+ eta_curr = 1.0 - np.exp(-np.sqrt(np.maximum(1e-12, y_curr)))
+
+ for iteration in range(self.max_iter):
+  eta_old = eta_curr.copy()
+  ml_d = 0.50 * (1.0 + 0.15 * np.exp(-y_curr))
+  ml_b = 0.70 * (1.0 + 0.10 * np.exp(-y_curr))
+  gamma_geom = 1.0 - 0.15 * eta_curr
+
+  v_bar_sq = (np.sign(self.v_gas)*(self.v_gas**2) + ml_d*(self.v_disk**2) + ml_b*(self.v_bul**2)) * gamma_geom
+  a_n_new = (np.maximum(0.0, v_bar_sq) * (KM_S_TO_M_S**2)) / np.maximum(self.r_m, 1.0)
+  y_curr = a_n_new / A0_H2C
   eta_curr = 1.0 - np.exp(-np.sqrt(np.maximum(1e-12, y_curr)))
 
-  for iteration in range(self.max_iter):
-   eta_old = eta_curr.copy()
-   ml_d = 0.50 * (1.0 + 0.15 * np.exp(-y_curr))
-   ml_b = 0.70 * (1.0 + 0.10 * np.exp(-y_curr))
-   gamma_geom = 1.0 - 0.15 * eta_curr
+  if np.max(np.abs(eta_curr - eta_old)) < self.tol:
+  break
 
-   v_bar_sq = (np.sign(self.v_gas)*(self.v_gas**2) + ml_d*(self.v_disk**2) + ml_b*(self.v_bul**2)) * gamma_geom
-   a_n_new = (np.maximum(0.0, v_bar_sq) * (KM_S_TO_M_S**2)) / np.maximum(self.r_m, 1.0)
-   y_curr = a_n_new / A0_H2C
-   eta_curr = 1.0 - np.exp(-np.sqrt(np.maximum(1e-12, y_curr)))
+ a_h2c = a_n_new * np.sqrt(0.5 + 0.5 * np.sqrt(1.0 + 4.0 / (y_curr**2 + 1e-12)))
+ v_h2c = np.sqrt(a_h2c * self.r_m) / KM_S_TO_M_S
 
-   if np.max(np.abs(eta_curr - eta_old)) < self.tol:
-    break
-
-  a_h2c = a_n_new * np.sqrt(0.5 + 0.5 * np.sqrt(1.0 + 4.0 / (y_curr**2 + 1e-12)))
-  v_h2c = np.sqrt(a_h2c * self.r_m) / KM_S_TO_M_S
-
-  return {
-   "v_bar": np.sqrt(np.maximum(0.0, v_bar_sq)),
-   "v_h2c": v_h2c,
-   "eta": eta_curr,
-   "iterations": iteration + 1
-  }
+ return {
+  "v_bar": np.sqrt(np.maximum(0.0, v_bar_sq)),
+  "v_h2c": v_h2c,
+  "eta": eta_curr,
+  "iterations": iteration + 1
+ }
 ```
 
-## 59. Audit de Prédictivité : Test en Aveugle Strict (Zéro Ajustement)
+## 59. Audit de PrÃ©dictivitÃ© : Test en Aveugle Strict (ZÃ©ro Ajustement)
 
-Pour évaluer la robustesse fondamentale du solveur H2C, un test en aveugle a été réalisé sur un sous-ensemble de 25 galaxies du catalogue SPARC. Contrairement aux approches de "fitting", tous les paramètres physiques ont été figés **en amont** (Ancrage empirique $a_0 = 1.2 \times 10^{-10}$ m/s², rapports M/L fixes).
+Pour Ã©valuer la robustesse fondamentale du solveur H2C, un test en aveugle a Ã©tÃ© rÃ©alisÃ© sur un sous-ensemble de 25 galaxies du catalogue SPARC. Contrairement aux approches de "fitting", tous les paramÃ¨tres physiques ont Ã©tÃ© figÃ©s **en amont** (Ancrage empirique $ a_0 = 1.2 \times 10^{-10}$ m/sÂ², rapports M/L fixes).
 
-### Résumé des Performances (N=25)
-| Métrique | Résultat du Test |
+### RÃ©sumÃ© des Performances (N=25)
+| MÃ©trique | RÃ©sultat du Test |
 | :--- | :--- |
 | **Taux de Victoire (H2C > Newton)** | **84%** (21/25) |
 | **Gain moyen de RMSE** | **+33.1%** |
 | **Meilleure performance** | **NGC0247 (+88.2%)** |
 
 ### Analyse de Robustesse
-Le test confirme que le couplage auto-consistant H2C améliore significativement la précision cinématique dans la grande majorité des cas sans aucune intervention humaine. Les rares échecs (ex: CamB) concernent des galaxies où le modèle baryonique pur est déjà proche de la perfection, et où la correction universelle introduit une légère sur-accélération.
+Le test confirme que le couplage auto-consistant H2C amÃ©liore significativement la prÃ©cision cinÃ©matique dans la grande majoritÃ© des cas sans aucune intervention humaine. Les rares Ã©checs (ex: CamB) concernent des galaxies oÃ¹ le modÃ¨le baryonique pur est dÃ©jÃ  proche de la perfection, et oÃ¹ la correction universelle introduit une lÃ©gÃ¨re sur-accÃ©lÃ©ration.
 
-Ce résultat valide la **capacité prédictive** du modèle : la "matière noire" émerge ici comme une conséquence mathématique de la dynamique de phase, et non comme un ajustement ad hoc.
+Ce rÃ©sultat valide la **capacitÃ© prÃ©dictive** du modÃ¨le : la "matiÃ¨re noire" Ã©merge ici comme une consÃ©quence mathÃ©matique de la dynamique de phase, et non comme un ajustement ad hoc.
 
-## 60. Audit Comparatif des Ancrages : Empirique ($1.2$) vs Théorique ($5.45$)
+## 60. Audit Comparatif des Ancrages : Empirique ($ 1.2 $) vs ThÃ©orique ($ 5.45 $)
 
-L'un des tests de discrimination physique les plus critiques a été réalisé : comparer l'ancrage empirique (calibré sur les observations) à l'ancrage théorique dérivé directement de la constante cosmologique $\Lambda$ ($a_0 = c \sqrt{\Lambda/3}$).
+L'un des tests de discrimination physique les plus critiques a Ã©tÃ© rÃ©alisÃ© : comparer l'ancrage empirique (calibrÃ© sur les observations) Ã  l'ancrage thÃ©orique dÃ©rivÃ© directement de la constante cosmologique $\Lambda $ ($ a_0 = c \sqrt{\Lambda/3}$).
 
-### Résultats du Duel d'Échelles (N=25)
-| Métrique | Ancrage Empirique ($1.2 \times 10^{-10}$) | Ancrage Théorique ($5.45 \times 10^{-10}$) |
+### RÃ©sultats du Duel d'Ã‰chelles (N=25)
+| MÃ©trique | Ancrage Empirique ($ 1.2 \times 10^{-10}$) | Ancrage ThÃ©orique ($ 5.45 \times 10^{-10}$) |
 | :--- | :--- | :--- |
-| **RMSE Moyen** | **20.25 km/s** | 38.00 km/s (Dégradation) |
+| **RMSE Moyen** | **20.25 km/s** | 38.00 km/s (DÃ©gradation) |
 | **Taux de Victoire vs Newton** | **84%** | 48% |
-| **Status Statistique** | Régime prédictif robuste | Effondrement de la moyenne globale |
+| **Status Statistique** | RÃ©gime prÃ©dictif robuste | Effondrement de la moyenne globale |
 
-### Analyse de Falsification & "Pépites" Théoriques
-Le saut d'un facteur 4.5 vers l'échelle théorique provoque un effondrement de la performance statistique globale (le RMSE théorique est en moyenne pire que le baseline Newtonien). Cela confirme qu'il existe un **décalage d'échelle non résolu** entre le vide subquantique et la dynamique galactique.
+### Analyse de Falsification & "PÃ©pites" ThÃ©oriques
+Le saut d'un facteur 4.5 vers l'Ã©chelle thÃ©orique provoque un effondrement de la performance statistique globale (le RMSE thÃ©orique est en moyenne pire que le baseline Newtonien). Cela confirme qu'il existe un **dÃ©calage d'Ã©chelle non rÃ©solu** entre le vide subquantique et la dynamique galactique.
 
-Cependant, le test a révélé des anomalies fascinantes. Pour certaines galaxies spécifiques, l'ancrage théorique a **écrasé** l'ancrage empirique :
-- **NGC2841** : RMSE Théorique **35.6** vs Empirique **79.5**
-- **ESO563-G021** : RMSE Théorique **39.0** vs Empirique **65.2**
-- **NGC0024** : RMSE Théorique **8.7** vs Empirique **25.9**
+Cependant, le test a rÃ©vÃ©lÃ© des anomalies fascinantes. Pour certaines galaxies spÃ©cifiques, l'ancrage thÃ©orique a **Ã©crasÃ©** l'ancrage empirique :
+- **NGC2841** : RMSE ThÃ©orique **35.6** vs Empirique **79.5**
+- **ESO563-G021** : RMSE ThÃ©orique **39.0** vs Empirique **65.2**
+- **NGC0024** : RMSE ThÃ©orique **8.7** vs Empirique **25.9**
 
 ### Conclusion de l'Audit 60
-Le modèle H2C est confronté à un paradoxe : l'ancrage théorique est "trop fort" pour la majorité des galaxies, mais semble "viser juste" pour un sous-groupe massif et compact. Cela suggère que $a_0$ ne soit pas une constante universelle stricte, mais le résultat d'un couplage dynamique dont la valeur de Planck est le plafond, et la valeur MOND le plancher effectif.
+Le modÃ¨le H2C est confrontÃ© Ã  un paradoxe : l'ancrage thÃ©orique est "trop fort" pour la majoritÃ© des galaxies, mais semble "viser juste" pour un sous-groupe massif et compact. Cela suggÃ¨re que $ a_0 $ ne soit pas une constante universelle stricte, mais le rÃ©sultat d'un couplage dynamique dont la valeur de Planck est le plafond, et la valeur MOND le plancher effectif.
 
-## 62. Percée Finale : Le Fil d'Ariane (Auto-Positionnement Multi-Critères)
+## 62. PercÃ©e Finale : Le Fil d'Ariane (Auto-Positionnement Multi-CritÃ¨res)
 
-Pour franchir le plafond de 88% de succès, le solveur H2C a été doté d'un système de **pré-positionnement intelligent** basé sur le contexte de la galaxie (Masse, Accélération Max, Compacité). Ce mécanisme, baptisé **Fil d'Ariane**, permet d'ajuster dynamiquement le décalage de phase universel sans intervention humaine.
+Pour franchir le plafond de 88% de succÃ¨s, le solveur H2C a Ã©tÃ© dotÃ© d'un systÃ¨me de **prÃ©-positionnement intelligent** basÃ© sur le contexte de la galaxie (Masse, AccÃ©lÃ©ration Max, CompacitÃ©). Ce mÃ©canisme, baptisÃ© **Fil d'Ariane**, permet d'ajuster dynamiquement le dÃ©calage de phase universel sans intervention humaine.
 
-## 63. Clôture de la Branche Réfractive Scalaire & Bilan de Falsification
+## 63. ClÃ´ture de la Branche RÃ©fractive Scalaire & Bilan de Falsification
 
-### 63.1 Hypothèse Initiale et Formulation V9.1-R
-L'exploration de la branche réfractive reposait sur l'analogie optique :
-$$ C \rightarrow n_{\rm eff} \rightarrow \nabla n \rightarrow g_{\rm eff} $$
-Dans la version V9.1-R, l'indice $n(x)$ était piloté par un exposant $\gamma=0.38$ et une normalisation $C_{\rm REF}=205$ km/s, avec une échelle de disque $R_d$ calculée sur les données radiales.
+### 63.1 HypothÃ¨se Initiale et Formulation V9.1-R
+L'exploration de la branche rÃ©fractive reposait sur l'analogie optique :
 
-### 63.2 Détection de Circularité (Information Leakage)
-L'audit indépendant a révélé que les performances élevées des versions antérieures dépendaient de l'injection indirecte de la vitesse de plateau observée ($V_{\rm flat}$) dans la normalisation du champ. Pour restaurer l'intégrité scientifique, le modèle a été basculé en mode **BLIND** (aveugle strict).
+$$
+C \rightarrow n_{\rm eff} \rightarrow \nabla n \rightarrow g_{\rm eff}
+$$
 
-### 63.3 Résultats du Test SPARC BLIND (175 galaxies)
-Le passage en mode aveugle (suppression de toute connaissance de $V_{\rm obs}$ en entrée) a provoqué un effondrement des performances :
+Dans la version V9.1-R, l'indice $ n(x)$ Ã©tait pilotÃ© par un exposant $\gamma=0.38 $ et une normalisation $ C_{\rm REF}=205 $ km/s, avec une Ã©chelle de disque $ R_d $ calculÃ©e sur les donnÃ©es radiales.
+
+### 63.2 DÃ©tection de CircularitÃ© (Information Leakage)
+L'audit indÃ©pendant a rÃ©vÃ©lÃ© que les performances Ã©levÃ©es des versions antÃ©rieures dÃ©pendaient de l'injection indirecte de la vitesse de plateau observÃ©e ($ V_{\rm flat}$) dans la normalisation du champ. Pour restaurer l'intÃ©gritÃ© scientifique, le modÃ¨le a Ã©tÃ© basculÃ© en mode **BLIND** (aveugle strict).
+
+### 63.3 RÃ©sultats du Test SPARC BLIND (175 galaxies)
+Le passage en mode aveugle (suppression de toute connaissance de $ V_{\rm obs}$ en entrÃ©e) a provoquÃ© un effondrement des performances :
 - **Taux de Victoire (vs Newton)** : ~18%.
-- **RMSE Moyen** : Augmentation significative par rapport au modèle baryonique pur.
-- **Verdict** : La formulation $n(g_{\rm bar})$ testée n'est pas prédictive de manière autonome.
+- **RMSE Moyen** : Augmentation significative par rapport au modÃ¨le baryonique pur.
+- **Verdict** : La formulation $ n(g_{\rm bar})$ testÃ©e n'est pas prÃ©dictive de maniÃ¨re autonome.
 
-### 63.4 Échec de la Dérivation d'Échelle Absolue
-Une tentative de dérivation "partant de zéro" a cherché à relier l'échelle de vitesse galactique ($200$ km/s) aux constantes fondamentales ($c, G, \Lambda, \ell_P$).
-- **Constat** : Aucune combinaison naturelle de ces constantes ne produit l'échelle nécessaire sans introduire un nouveau paramètre de couplage arbitraire ($\gamma \approx 10^{-7}$).
-- **Conclusion** : Le mécanisme de réfraction scalaire actuel ne fournit pas son propre mécanisme d'échelle.
+### 63.4 Ã‰chec de la DÃ©rivation d'Ã‰chelle Absolue
+Une tentative de dÃ©rivation "partant de zÃ©ro" a cherchÃ© Ã  relier l'Ã©chelle de vitesse galactique ($ 200 $ km/s) aux constantes fondamentales ($ c, G, \Lambda, \ell_P $).
+- **Constat** : Aucune combinaison naturelle de ces constantes ne produit l'Ã©chelle nÃ©cessaire sans introduire un nouveau paramÃ¨tre de couplage arbitraire ($\gamma \approx 10^{-7}$).
+- **Conclusion** : Le mÃ©canisme de rÃ©fraction scalaire actuel ne fournit pas son propre mÃ©canisme d'Ã©chelle.
 
-### ⚖️ Décision Technique : Fermeture de Branche
-La branche **"Réfraction Scalaire H2C"** ($C \to n_{\rm scalaire} \to \nabla n$) est officiellement fermée. Elle est classée comme une réalisation spécifique de l'hypothèse H2C ayant échoué au test de prédictivité en aveugle strict.
+### âš–ï¸ DÃ©cision Technique : Fermeture de Branche
+La branche **"RÃ©fraction Scalaire H2C"** ($ C \to n_{\rm scalaire} \to \nabla n $) est officiellement fermÃ©e. Elle est classÃ©e comme une rÃ©alisation spÃ©cifique de l'hypothÃ¨se H2C ayant Ã©chouÃ© au test de prÃ©dictivitÃ© en aveugle strict.
 
-### 🟢 Ouverture
-Cette conclusion ne constitue pas une réfutation de l'hypothèse fondamentale **$C(x) \to g_{\mu\nu}^{\rm eff}(x)$**. Elle indique que l'émergence géométrique doit être recherchée par une voie **tensorielle directe** (déformation de la métrique) et non par un simple gradient d'indice scalaire.
+### ðŸŸ¢ Ouverture
+Cette conclusion ne constitue pas une rÃ©futation de l'hypothÃ¨se fondamentale **$ C(x) \to g_{\mu\nu}^{\rm eff}(x)$**. Elle indique que l'Ã©mergence gÃ©omÃ©trique doit Ãªtre recherchÃ©e par une voie **tensorielle directe** (dÃ©formation de la mÃ©trique) et non par un simple gradient d'indice scalaire.
 
-### Résultats du Blind Test V3 (Aveugle Strict, N=25)
-| Métrique | Ancrage $1.2$ + Fil d'Ariane (V8.6) | Baseline Newton |
+### RÃ©sultats du Blind Test V3 (Aveugle Strict, N=25)
+| MÃ©trique | Ancrage $ 1.2 $ + Fil d'Ariane (V8.6) | Baseline Newton |
 | :--- | :--- | :--- |
-| **Taux de Victoire** | **92%** (23/25) | — |
+| **Taux de Victoire** | **92%** (23/25) | â€” |
 | **Gain moyen de RMSE** | **+34.1%** | Baseline |
-| **Victoire majeure** | **ESO563-G021 (Win)** | Auparavant en échec |
+| **Victoire majeure** | **ESO563-G021 (Win)** | Auparavant en Ã©chec |
 
-### Analyse de la Transition Critère
-Le Fil d'Ariane résout le problème des galaxies massives et compactes qui étaient auparavant mal interprétées par la loi universelle "plate". En intégrant la compacité et la masse dans le calcul du décalage de phase, le solveur H2C atteint une précision cinématique sans précédent pour un modèle non-paramétrique.
+### Analyse de la Transition CritÃ¨re
+Le Fil d'Ariane rÃ©sout le problÃ¨me des galaxies massives et compactes qui Ã©taient auparavant mal interprÃ©tÃ©es par la loi universelle "plate". En intÃ©grant la compacitÃ© et la masse dans le calcul du dÃ©calage de phase, le solveur H2C atteint une prÃ©cision cinÃ©matique sans prÃ©cÃ©dent pour un modÃ¨le non-paramÃ©trique.
 
-Les 2 échecs restants (CamB, NGC2976) sont des cas limites où le signal baryonique est déjà parfait, et où toute correction, même optimisée, est superflue.
+Les 2 Ã©checs restants (CamB, NGC2976) sont des cas limites oÃ¹ le signal baryonique est dÃ©jÃ  parfait, et oÃ¹ toute correction, mÃªme optimisÃ©e, est superflue.
 
 ### Conclusion de l'Audit 62
-Le passage à 92% de succès en aveugle strict démontre que la gravitation galactique n'est pas une loi fixe et rigide, mais un **processus adaptatif** lié à la distribution de la matière. Le solveur H2C V8.6-R est désormais l'outil le plus précis du dépôt pour la validation cinématique.
+Le passage Ã  92% de succÃ¨s en aveugle strict dÃ©montre que la gravitation galactique n'est pas une loi fixe et rigide, mais un **processus adaptatif** liÃ© Ã  la distribution de la matiÃ¨re. Le solveur H2C V8.6-R est dÃ©sormais l'outil le plus prÃ©cis du dÃ©pÃ´t pour la validation cinÃ©matique.
+
+---
+
+## 65. Validation du Solveur H2C V1.4-2D.2 : Conservation Noether et Précision Machine
+
+Une étape majeure de consolidation a été franchie avec la version **V1.4-2D.2**. Après la résolution d'une anomalie sur la dérive de la charge $, le modèle démontre désormais une invariance parfaite sous boost.
+
+### 65.1 Correction du Courant de Noether (1)$ Le couplage ^{0i}$ induit par le boost modifie la structure du courant conservé. La composante temporelle ^0 $ a été ré-établie analytiquement :
+\boxed{j^0 = K^{00}\operatorname{Im}(\Phi^*\dot\Phi) + K^{01}\operatorname{Im}(\Phi^*\partial_x\Phi) + K^{02}\operatorname{Im}(\Phi^*\partial_y\Phi)}
+Cette correction a réduit la dérive de $ de **5,76%** à **^{-14}$** (précision machine).
+
+### 65.2 Bilan Métrologique (RK4 sur grille ^2 $)
+| Boost $|v|$ | $\Delta H/H_0 $ | $\Delta Q/Q_0 $ | Statut |
+| :--- | :--- | :--- | :--- |
+| 0.00 | .39 \times 10^{-14}$| .47 \times 10^{-15}$ | 🟢 Validé |
+| 0.50 | .78 \times 10^{-14}$| .79 \times 10^{-14}$ | 🟢 Validé |
+| 0.71 | .20 \times 10^{-13}$| .61 \times 10^{-13}$ | 🟢 Validé |
+
+### 65.3 Convergence RK4
+L'intégrateur montre un ordre de convergence de **4.00**, validant la propreté du schéma numérique jusqu'au plancher de précision des flottants 64 bits.
+
+> **Note technique :** Le code source validé est disponible dans [H2C_Solver_V1.4-2D.2.py](./H2C_Solver_V1.4-2D.2.py).
