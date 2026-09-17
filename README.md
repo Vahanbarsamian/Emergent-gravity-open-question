@@ -1087,7 +1087,7 @@ Les prochaines étapes doivent rester séparées et falsifiables :
 1. **Auditer $c_{\mathrm{eff}}$ terme par terme**, en recherchant notamment toute racine carrée déjà présente dans sa définition avant d'interpréter un résultat proche de $\sqrt2$.
 2. **Poursuivre l'analyse des corrélations** $\tau_{ij}$ pour déterminer si des échelles de corrélation différenciées émergent réellement.
 3. Construire une distance $d_{ij}$ seulement si les corrélations produisent une structure non triviale qui n'est pas simplement héritée de $E_i$.
-4. Chercher ensuite un rayon émergent $ r $et seulement alors tester $N(r)$ et $D_{\mathrm{eff}}(r)$.
+4. Chercher ensuite un rayon émergent $r$ et seulement alors tester $N(r)$ et $D_{\mathrm{eff}}(r)$.
 5. Tester si l'exposant observé dans la zone de transition est réellement compatible avec $4/3$ sans le fixer à l'avance.
 6. Confronter le profil gravitationnel corrigé à des données observationnelles réelles, notamment les courbes de rotation, sans recalibrage ad hoc par galaxie si l'objectif est la prédictivité.
 7. Conserver séparément la question de l'origine microscopique de $C_c$: le Test 51 ferme la piste précise « pondération énergétique $ightarrow C_c=1/5$ » sous la famille testée, mais ne ferme pas toutes les possibilités théoriques.
