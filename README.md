@@ -536,7 +536,7 @@ $$
 m_{\mathrm{eff}} = \frac{E}{c_{\mathrm{loc}}^2}
 $$
 
-Relation dimensionnellement cohérente, physiquement non triviale seulement si $ c_{\mathrm{loc}}$ est une vitesse de propagation effective dérivée d'une dynamique microscopique.
+Relation dimensionnellement cohérente, physiquement non triviale seulement si $c_{\mathrm{loc}}$ est une vitesse de propagation effective dérivée d'une dynamique microscopique.
 
 > **Le même substrat quantique qui produirait éventuellement la géométrie pourrait-il également produire l'inertie ou la masse effective ?**
 
