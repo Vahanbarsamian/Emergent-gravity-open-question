@@ -1028,7 +1028,7 @@ Ainsi, $C=0,2$ est actuellement mieux décrit comme un **point de passage param�
 | Élément | Statut |
 |---|---|
 | Structure dimensionnelle 3+1 | 🟢 Hypothèse structurelle fixée |
-| $C=|Z|^2$ comme invariant de phase | 🟢 Confirmé comme observable robuste du jouet |
+| $C=\|Z\|^2$ comme invariant de phase | 🟢 Confirmé comme observable robuste du jouet |
 | État incohérent $C\sim1/N$ | 🟢 Référence statistique confirmée |
 | Correction localisée | 🟢 Testée avec non-régression newtonienne |
 | Robustesse de l'asymptote sous variation $\sigma,k_0$ | 🟢 Testée dans le jouet |
