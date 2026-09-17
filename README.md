@@ -964,7 +964,7 @@ $$
 
 Les attracteurs rapportés étaient environ :
 
-| Forme | Paramètres | $ C^*$ |
+| Forme | Paramètres | $C^*$ |
 |---|---|---:|
 | linéaire | $\sigma_0=0,5$ | 0,778 |
 | linéaire | $\sigma_0=1,0$ | 0,818 |
