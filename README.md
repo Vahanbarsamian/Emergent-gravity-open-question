@@ -111,7 +111,7 @@ Une échelle de coupure peut dépendre de la régularisation ou de la limite de 
 
 ## 7. Le changement de perspective
 
-Une modification de$ G $ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
+Une modification de $G$ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
 
 > **La géométrie elle-même pourrait-elle émerger de degrés de liberté quantiques plus fondamentaux ?**
 
@@ -123,7 +123,7 @@ $$
 
 ## 8. Hypothèse de travail
 
-> **La métrique classique$ g_{\mu\nu} $pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux**$ \hat{\Phi}_i $.
+> **La métrique classique $g_{\mu\nu}$ pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux** $\hat{\Phi}_i$.
 
 Cette proposition constitue une **hypothèse de recherche**, et non une théorie établie.
 
