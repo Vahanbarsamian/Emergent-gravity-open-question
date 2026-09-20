@@ -1,9 +1,3 @@
-Voici le fichier README.md entièrement corrigé, structuré et mis à jour.
-
-Les erreurs de formatage (chapeau parasite, chapitres collés) ont été rectifiées, et les ajouts ont été intégrés pour refléter l'ensemble des travaux et projets (évolutions MOND/SPARC, audits 70A–70D, réacteur fluidique e-Soleau, applications Flutter et Android).   
-MD+ 1
-Markdown
-
 # 🛠️ H2C SOFTWARE DOWNLOADS & ECOSYSTEM
 
 - [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
