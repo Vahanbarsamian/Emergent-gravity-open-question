@@ -105,7 +105,7 @@ où $N_i$ est le nombre de degrés de liberté d'un secteur, $\Lambda_i$ une éc
 ### 6.1 Le cutoff $\Lambda$ n'est pas nécessairement un paramètre physique manipulable
 Une échelle de coupure peut dépendre de la régularisation ou de la limite de validité du modèle — ce n'est pas une énergie physique modifiable expérimentalement pour changer $G$.
 
-### 6.2 Une variation de$ G $serait fortement contrainte $G\rightarrow G(x)$ devrait rester compatible avec la covariance générale, les lois de conservation, et les nombreuses observations qui bornent les variations éventuelles de $G$.
+### 6.2 Une variation de $G$ serait fortement contrainte $G\rightarrow G(x)$ devrait rester compatible avec la covariance générale, les lois de conservation, et les nombreuses observations qui bornent les variations éventuelles de $G$.
 
 ---
 
