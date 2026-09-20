@@ -90,7 +90,7 @@ L'idée importante est que le coefficient du terme de courbure $R$ peut recevoir
 
 ---
 
-## 5. Une relation schématique pour $1/G_{\mathrm{eff}}
+## 5. Une relation schématique pour $1/G_{\mathrm{eff}}$
 
 $$
 \frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2
