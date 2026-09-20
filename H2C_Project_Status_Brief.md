@@ -1,6 +1,6 @@
 # 📑 H2C PROJECT STATUS & HANDOVER BRIEF (V9.1-R to TENSOR BRANCH)
-**Audience**: Gemini AS / Independent Audit  
-**Date**: September 2026  
+**Audience**: Gemini AS / Independent Audit 
+**Date**: September 2026 
 **Context**: Handover from ChatGPT (Out of Tokens) to Gemini for the next phase.
 
 ---
@@ -15,9 +15,9 @@ $$ a_{\text{eff}} = c^2 \frac{\nabla n}{n} $$
 with $n(x) \propto x^\gamma$ where $x = g_{\text{bar}}/a_0$.
 
 ### Findings:
-1.  **Information Leakage Identified**: Previous high-performance scores (84-92% success) were found to be "guided" by $V_{\text{obs}}$ through the use of $V_{\text{flat}}$ for field normalization and $R_d$ derived from observed radial data.
-2.  **Blind Test Failure**: When all knowledge of $V_{\text{obs}}$ was removed, the model's performance collapsed. On the 175 SPARC galaxies, the win rate fell to **~18%**.
-3.  **Dimensional Impasse**: A derivation from first principles revealed that linking the galactic scale ($200$ km/s) to Planck/Cosmological constants ($\ell_P, \Lambda, G, c$) via scalar refraction requires an arbitrary coupling constant $\gamma \approx 10^{-7}$ with no physical anchor in the H2C framework.
+1. **Information Leakage Identified**: Previous high-performance scores (84-92% success) were found to be "guided" by $V_{\text{obs}}$ through the use of $V_{\text{flat}}$ for field normalization and $R_d$ derived from observed radial data.
+2. **Blind Test Failure**: When all knowledge of $V_{\text{obs}}$ was removed, the model's performance collapsed. On the 175 SPARC galaxies, the win rate fell to **~18%**.
+3. **Dimensional Impasse**: A derivation from first principles revealed that linking the galactic scale ($200$ km/s) to Planck/Cosmological constants ($\ell_P, \Lambda, G, c$) via scalar refraction requires an arbitrary coupling constant $\gamma \approx 10^{-7}$ with no physical anchor in the H2C framework.
 
 ### Decision:
 The Scalar Refraction branch is **formally closed** as non-predictive.
@@ -38,9 +38,9 @@ Transition from a scalar refractive index to a **direct metric deformation**.
 $$ \boxed{ C(x) \to g_{\mu\nu}^{\text{eff}}(x) \to \Gamma^\mu_{\alpha\beta} \to \text{geodesics} } $$
 
 ### Key Objectives for the next phase:
-1.  **Metric Derivation**: Define how the coherence field $C(x)$ (where $C = |Z|^2$) modifies the metric components $g_{00}$ and $g_{rr}$.
-2.  **Scale Problem**: Find a tensor-based mechanism that naturally generates the $1/r$ acceleration (MOND-like) in the weak-field limit without manual scale injection.
-3.  **Newtonian Limit**: Ensure the model recovers the Schwarzschild metric as $C \to 1$ (high coherence limit).
+1. **Metric Derivation**: Define how the coherence field $C(x)$ (where $C = |Z|^2$) modifies the metric components $g_{00}$ and $g_{rr}$.
+2. **Scale Problem**: Find a tensor-based mechanism that naturally generates the $1/r$ acceleration (MOND-like) in the weak-field limit without manual scale injection.
+3. **Newtonian Limit**: Ensure the model recovers the Schwarzschild metric as $C \to 1$ (high coherence limit).
 
 ---
 

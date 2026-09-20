@@ -1,6 +1,6 @@
 # 📑 BILAN D'ÉTAT DU PROJET H2C & DOSSIER DE PASSATION (V9.1-R vers BRANCHE TENSORIELLE)
-**Audience**: Gemini AS / Audit Indépendant  
-**Date**: Septembre 2026  
+**Audience**: Gemini AS / Audit Indépendant 
+**Date**: Septembre 2026 
 **Contexte**: Passation de ChatGPT (Plus de jetons) à Gemini pour la phase suivante.
 
 ---
@@ -15,9 +15,9 @@ $$ a_{\text{eff}} = c^2 \frac{\nabla n}{n} $$
 avec $n(x) \propto x^\gamma$ où $x = g_{\text{bar}}/a_0$.
 
 ### Résultats :
-1.  **Fuite d'Information Identifiée** : Les scores de performance élevés précédents (84-92% de succès) étaient "guidés" par $V_{\text{obs}}$ via l'utilisation de $V_{\text{flat}}$ pour la normalisation du champ et de $R_d$ dérivé des données radiales observées.
-2.  **Échec du Blind Test** : Lorsque toute connaissance de $V_{\text{obs}}$ a été supprimée, les performances du modèle se sont effondrées. Sur les 175 galaxies SPARC, le taux de victoire est tombé à **~18%**.
-3.  **Impasse Dimensionnelle** : Une dérivation à partir de premiers principes a révélé que relier l'échelle galactique ($200$ km/s) aux constantes de Planck/Cosmologiques ($\ell_P, \Lambda, G, c$) via la réfraction scalaire nécessite une constante de couplage arbitraire $\gamma \approx 10^{-7}$ sans ancrage physique dans le cadre H2C.
+1. **Fuite d'Information Identifiée** : Les scores de performance élevés précédents (84-92% de succès) étaient "guidés" par $V_{\text{obs}}$ via l'utilisation de $V_{\text{flat}}$ pour la normalisation du champ et de $R_d$ dérivé des données radiales observées.
+2. **Échec du Blind Test** : Lorsque toute connaissance de $V_{\text{obs}}$ a été supprimée, les performances du modèle se sont effondrées. Sur les 175 galaxies SPARC, le taux de victoire est tombé à **~18%**.
+3. **Impasse Dimensionnelle** : Une dérivation à partir de premiers principes a révélé que relier l'échelle galactique ($200$ km/s) aux constantes de Planck/Cosmologiques ($\ell_P, \Lambda, G, c$) via la réfraction scalaire nécessite une constante de couplage arbitraire $\gamma \approx 10^{-7}$ sans ancrage physique dans le cadre H2C.
 
 ### Décision :
 La branche de réfraction scalaire est **formellement clôturée** car non prédictive.
@@ -38,9 +38,9 @@ Passer d'un indice de réfraction scalaire à une **déformation métrique direc
 $$ \boxed{ C(x) \to g_{\mu\nu}^{\text{eff}}(x) \to \Gamma^\mu_{\alpha\beta} \to \text{géodésiques} } $$
 
 ### Objectifs Clés pour la phase suivante :
-1.  **Dérivation Métrique** : Définir comment le champ de cohérence $C(x)$ (où $C = |Z|^2$) modifie les composantes de la métrique $g_{00}$ et $g_{rr}$.
-2.  **Problème d'Échelle** : Trouver un mécanisme tensoriel qui génère naturellement l'accélération en $1/r$ (type MOND) dans la limite de champ faible sans injection d'échelle manuelle.
-3.  **Limite Newtonienne** : S'assurer que le modèle retrouve la métrique de Schwarzschild lorsque $C \to 1$ (limite de haute cohérence).
+1. **Dérivation Métrique** : Définir comment le champ de cohérence $C(x)$ (où $C = |Z|^2$) modifie les composantes de la métrique $g_{00}$ et $g_{rr}$.
+2. **Problème d'Échelle** : Trouver un mécanisme tensoriel qui génère naturellement l'accélération en $1/r$ (type MOND) dans la limite de champ faible sans injection d'échelle manuelle.
+3. **Limite Newtonienne** : S'assurer que le modèle retrouve la métrique de Schwarzschild lorsque $C \to 1$ (limite de haute cohérence).
 
 ---
 

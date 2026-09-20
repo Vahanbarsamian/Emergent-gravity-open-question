@@ -28,11 +28,11 @@ $$\boxed{j^0 = K^{00}\operatorname{Im}(\Phi^*\dot\Phi) + K^{01}\operatorname{Im}
 
 ## 3. FEUILLE DE ROUTE V1.4-2D.3 (Gemini AS)
 
-1.  **Signature et Géométrie (3+1)** : 
-    - Vérifier l'invariance de $\det(K)$ sous boost.
-    - Étudier la transition $\beta < 1$, $\beta = 1$, $\beta > 1$ (rupture de causalité).
-2.  **Anisotropie de dispersion** : Valider $\omega(\mathbf{k})$ par rapport à $\mathbf{u}$.
-3.  **Objectif V1.5 (Le Saut Décisif)** : Faire émerger la métrique $g_{\mu\nu}^{\text{eff}}$ de façon **dynamique** à partir des variations du champ $\Phi$.
+1. **Signature et Géométrie (3+1)** : 
+ - Vérifier l'invariance de $\det(K)$ sous boost.
+ - Étudier la transition $\beta < 1$, $\beta = 1$, $\beta > 1$ (rupture de causalité).
+2. **Anisotropie de dispersion** : Valider $\omega(\mathbf{k})$ par rapport à $\mathbf{u}$.
+3. **Objectif V1.5 (Le Saut Décisif)** : Faire émerger la métrique $g_{\mu\nu}^{\text{eff}}$ de façon **dynamique** à partir des variations du champ $\Phi$.
 
 ---
 *Ce document sert de base de connaissance pour la poursuite des travaux sur la branche Tensorielle.*
