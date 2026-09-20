@@ -2033,3 +2033,46 @@ if __name__ == "__main__":
     landau = audit_landau_potential()
     print(f"Audit Landau: F1={landau['F1']:.4f}, F3={landau['F3']:.4f} (v=2u: {np.isclose(landau['F1'], landau['F3'])})")
 ```
+
+---
+
+## 66. Solver Qualification Status (B1–D4)
+
+The numerical discretization and the integrator of the tested covariant formulation are qualified for configurations B1–D4. The conservation identities and the corresponding continuous energy balance are numerically verified to the precision achieved by these tests ($1.58 \times 10^{-13}$).
+
+> **Explicit Note:** This result validates the stability, precision, and conservation of the numerical instrument. It does not constitute proof of the physical validity of the $H2C$ gravitational model, the verification of which is the subject of tests on observables (SPARC campaign).
+
+---
+
+## 67. The Theoretical Lock: Definition of $g_{\mu\nu}^{\text{eff}}$
+
+To close the causality chain of the model:
+$$\text{baryonic matter} \rightarrow \text{source} \rightarrow \Phi \rightarrow C=|\Phi|^2 \rightarrow g_{\mu\nu}^{\text{eff}} \rightarrow V_c(r)$$
+
+The effective gravitational acceleration experienced by a test mass in circular orbit directly follows from the gradient of the coherence field $C(x)$. In the weak field / quasi-flat metric limit:
+$$g_{00}^{\text{eff}}(r) \approx -\left(1 + \frac{2\Phi_{\text{eff}}(r)}{c^2}\right)$$
+
+Where the effective potential $\Phi_{\text{eff}}$ derives from the coupling relation $C(r) = |\Phi(r)|^2$ without any adjustable degrees of freedom:
+$$\nabla \Phi_{\text{eff}}(r) = \mathbf{a}_{\text{H2C}}(r) = \mathbf{a}_{\text{bar}}(r) \cdot \nu\!\left(\frac{|\mathbf{a}_{\text{bar}}|}{a_0}\right)$$
+
+Here, $V_{\text{obs}}$ never enters the field system resolution or the geodesic projection.
+
+---
+
+## 68. SPARC-A Protocol (Single Benchmark Galaxy)
+
+Before any global execution, a mandatory stop is performed on a reference galaxy (e.g., NGC 3198 or NGC 6503):
+- **Strict Input**: $R$ (kpc), $V_{\text{gas}}$, $V_{\text{disk}}$, $V_{\text{bul}}$ directly from the official .rotmod file.
+- **M/L Factors**: Fixed a priori (e.g., $M/L_{\text{disk}} = 0.5$, $M/L_{\text{bul}} = 0.7$), strict and constant.
+- **Field Resolution**: Injection of baryonic masses into the qualified $H2C$ solver.
+- **Output**: Extraction of the theoretical $V_c(r)$ profile.
+- **Verification**: Final comparison against $V_{\text{obs}}$ and explicit display of metrics (RMSE, MAE). No feedback loop to the solver.
+
+---
+
+## 69. SPARC-B Protocol (Campaign 175/175)
+
+Once SPARC-A is validated without data leakage:
+- **Strict 1:1 Matching**: Master_List.dat file $\leftrightarrow$ associated .rotmod files. End of any synthetic fallback.
+- **Same Global Constants**: $a_0 = c\sqrt{\Lambda/3} \approx 5.45 \times 10^{-10}\text{ m/s}^2$ anchored on the vacuum, without adjustment per galaxy.
+- **Extracted Metrics**: Global RMSE, residuals $V_c(r) - V_{\text{obs}}(r)$ by normalized radius $R/R_d$, and systematic comparison with the pure Newtonian baryonic profile.

@@ -156,7 +156,9 @@ Ce document certifie l'état actuel du programme de recherche H2C. Il distingue 
 
 ### 1.1 Condensat de Phase $S^2$
 La gravité est modélisée comme une propriété émergente de la cohérence de phase d'un vide quantique discret :
-$$C(x)=|Z|^2, \quad Z=\frac{1}{N} \sum_{j=1}^{N} e^{i\theta_j}$$
+$$
+C(x) = |Z|^2, \qquad Z = \frac{1}{N} \sum_{j=1}^{N} e^{i\theta_j}
+$$
 
 ### 1.2 Élimination des Singularités (Audit 61H-10A)
 Les inversions de phase d'amplitude agissent comme une régulation dynamique empêchant l'effondrement à zéro ($A \to 0$).
@@ -165,7 +167,9 @@ Les inversions de phase d'amplitude agissent comme une régulation dynamique emp
 
 ### 1.3 Ancrage de $a_0$ via le Vide
 L'accélération critique MOND $a_0$ n'est pas un paramètre libre ; elle est dérivée du bruit de fond cosmologique :
-$$a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 5{,}45 \times 10^{-10} \text{m}\cdot\text{s}^{-2}$$
+$$
+a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 5.45 \times 10^{-10} \text{ m/s}^2
+$$
 
 ### 1.4 Émergence MOND (Audit 61H-13)
 En champ faible, l'auto-interaction quartique verrouille le gradient de phase sur la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999$). Cela permet d'expliquer les courbes de rotation galactiques sans recours à la matière noire ($M_{\text{DM}} = 0$).
@@ -198,11 +202,14 @@ $$
 
 ### 3.2 Seuil Théorique de Stabilité
 Pour le potentiel quartique symétrique :
-$$F = -r\sum_a|\psi_a|^2 + u\sum_a|\psi_a|^4 + v\sum_{a<b}|\psi_a|^2|\psi_b|^2$$
-
+$$
+F = -r\sum_a|\psi_a|^2 + u\sum_a|\psi_a|^4 + v\sum_{a<b}|\psi_a|^2|\psi_b|^2
+$$
 Le croisement d'énergie et le seuil de stabilité coïncident exactement à :
-$$v_c = 2u$$
-Le prétendu seuil à $v \approx 0{,}86$ est invalidé et classé comme artefact algébrique historique.
+$$
+\boxed{v_c = 2u}
+$$
+Le prétendu seuil à $v \approx 0.86$ est invalidé et classé comme **artefact algébrique historique**.
 
 ### 3.3 Écart $v_c^{\text{apparent}} \approx 2.92$
 L'écart observé en simulation fait l'objet du protocole de diagnostic **70A–70D** (effets de taille/temps finis vs terme de couplage de phase manquant).
@@ -1932,6 +1939,49 @@ class H2CSolverCoupledExperimental:
    "iterations": iteration + 1
   }
 ```
+
+---
+
+## 66. Statut de Qualification du Solveur (B1–D4)
+
+La discrétisation numérique et l'intégrateur de la formulation covariante testée sont qualifiés pour les configurations B1–D4. Les identités de conservation et le bilan énergétique continu correspondant sont vérifiés numériquement à la précision atteinte par ces tests ($1,58 \times 10^{-13}$).
+
+> **Note explicite :** Ce résultat valide la stabilité, la précision et la conservation de l'instrument numérique. Il ne constitue pas une preuve de la validité physique du modèle gravitationnel $H2C$, dont la vérification fait l'objet des tests sur observables (campagne SPARC).
+
+---
+
+## 67. Le Verrou Théorique : Définition de $g_{\mu\nu}^{\text{eff}}$
+
+Pour fermer la chaîne de causalité du modèle :
+$$\text{matière baryonique} \rightarrow \text{source} \rightarrow \Phi \rightarrow C=|\Phi|^2 \rightarrow g_{\mu\nu}^{\text{eff}} \rightarrow V_c(r)$$
+
+L'accélération gravitationnelle effective subie par une masse test en orbite circulaire découle directement du gradient du champ de cohérence $C(x)$. Dans la limite faible champ / métrique quasi-flatte :
+$$g_{00}^{\text{eff}}(r) \approx -\left(1 + \frac{2\Phi_{\text{eff}}(r)}{c^2}\right)$$
+
+Où le potentiel effectif $\Phi_{\text{eff}}$ dérive de la relation de couplage $C(r) = |\Phi(r)|^2$ sans aucun degré de liberté ajustable :
+$$\nabla \Phi_{\text{eff}}(r) = \mathbf{a}_{\text{H2C}}(r) = \mathbf{a}_{\text{bar}}(r) \cdot \nu\!\left(\frac{|\mathbf{a}_{\text{bar}}|}{a_0}\right)$$
+
+Ici, $V_{\text{obs}}$ n'entre à aucun moment dans la résolution du système de champ ni dans la projection géodésique.
+
+---
+
+## 68. Protocole SPARC-A (Galaxie étalon unique)
+
+Avant toute exécution globale, un arrêt obligatoire est effectué sur une galaxie de référence (ex. NGC 3198 ou NGC 6503) :
+- **Input strict** : $R$ (kpc), $V_{\text{gas}}$, $V_{\text{disk}}$, $V_{\text{bul}}$ issus directement du fichier .rotmod officiel.
+- **Facteurs M/L** : Fixés a priori (ex. $M/L_{\text{disk}} = 0,5$, $M/L_{\text{bul}} = 0,7$), stricts et constants.
+- **Résolution du champ** : Injection des masses baryoniques dans le solveur $H2C$ qualifié.
+- **Output** : Extraction du profil $V_c(r)$ théorique.
+- **Vérification** : Comparaison finale contre $V_{\text{obs}}$ et affichage explicite des métriques (RMSE, MAE). Aucune boucle de rétroaction vers le solveur.
+
+---
+
+## 69. Protocole SPARC-B (Campagne 175/175)
+
+Une fois SPARC-A validé sans fuite de données :
+- **Appariement strict 1:1** : Fichier Master_List.dat $\leftrightarrow$ Fichiers .rotmod associés. Fin de tout fallback synthétique.
+- **Mêmes constantes globales** : $a_0 = c\sqrt{\Lambda/3} \approx 5,45 \times 10^{-10}\text{ m/s}^2$ ancré sur le vide, sans ajustement par galaxie.
+- **Métriques extraites** : RMSE globale, résidus $V_c(r) - V_{\text{obs}}(r)$ par rayon normalisé $R/R_d$, et comparaison systématique avec le profil pur Newtonien baryonique.
 
 # 📜 Script de Synthèse & Validation (H2C Master Engine)
 
