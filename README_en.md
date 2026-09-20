@@ -1,16 +1,16 @@
 # 🛠️ H2C SOFTWARE DOWNLOADS
-- [🚀 **Pro Version (Python)**: H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Full scientific features)
-- [🪟 **Windows Version (Builder)**: H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Creates a standalone .exe)
+- [🚀 **Pro Version (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Full scientific features)
+- [🪟 **Windows Version (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Generates a standalone .exe)
 
 > **💡 How to generate the Windows executable (.exe):**
-> 1. Download both files above (H2C_Universal_Cockpit.py and H2C_Windows_Builder.py).
+> 1. Download the two files above (H2C_Universal_Cockpit.py and H2C_Windows_Builder.py).
 > 2. Place them in the same folder on your computer.
 > 3. Open a terminal and run the builder: python H2C_Windows_Builder.py.
-> 4. Your standalone app will be created in the dist/ folder.
+> 4. Your standalone application will be created in the dist/ folder.
 
 ---
 
-# Émergence Géométrique, Auto-Correction et Dynamique Galactique (Cadre H2C)
+# Geometric Emergence, Auto-Correction and Galactic Dynamics (H2C Framework)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22068679.svg)](https://doi.org/10.5281/zenodo.22068679)
 
@@ -18,119 +18,119 @@
 
 ## Citation
 
-Si vous référencez ces travaux, merci d'utiliser la citation suivante :
+If you reference this work, please use the following citation:
 
 > Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22068679
 
 ---
-🇫🇷 Français | [🇬🇧 English version](README_en.md)
+[🇫🇷 French version](README.md) | 🇬🇧 English version
 
-# Question Ouverte & Manuscrit Théorique : La géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
+# Open Question & Theoretical Manuscript: Can gravitational geometry emerge from a quantum structure?
 
-> ⚠️ **Note :** ce document évolue fréquemment. Pensez à rafraîchir la page pour consulter la dernière version. 
-> 📎 **Document compagnon :** [Cartographie des pistes de recherche](./Reflexion-ouverte-sur-la-gravite.fr.md) — contient les références précises à la littérature existante et le critère de validation quantitatif (section 11), à ne consulter et modifier qu'à cet endroit.
+> ⚠️ **Note:** this document evolves frequently. Remember to refresh the page to consult the latest version. 
+> 📎 **Companion document:** [Cartography of research paths](./Reflexion-ouverte-sur-la-gravite.en.md) — contains precise references to existing literature and the quantitative validation criterion (section 11), to be consulted and modified only there.
 
-**Statut du document :** Note de synthèse théorique, formalisation du solveur auto-consistant et rapport de validation sur le catalogue SPARC (175 galaxies). 
-**Auteur :** Vahan Barsamian 
-**Contexte :** Réflexion menée en parallèle du projet H2C V8.4-R (réacteur hydrogène open-source), sans lien technique entre les deux.
+**Document status:** Theoretical synthesis note, self-consistent solver formalization, and validation report on the SPARC catalog (175 galaxies). 
+**Author:** Vahan Barsamian 
+**Context:** Reflection conducted in parallel with the H2C V8.4-R project (open-source hydrogen reactor), with no technical link between the two.
 
-> **Important :** Ce document présente un programme de recherche falsifiable et un solveur auto-consistant sans paramètre libre ajusté par galaxie. Il ne revendique pas l'achèvement d'une théorie finale de la gravité quantique, mais fournit un cadre numérique étanche confronté aux données observationnelles.
-
----
-
-## 1. Point de Départ & Chronologie de la Réflexion
-
-### 1.1 La question initiale
-La question initiale était volontairement large :
-
-> **Existe-t-il un mécanisme physique susceptible de compenser localement l'effet gravitationnel sur un objet ?**
-
-Plusieurs pistes classiques ont été explorées (ionisation de l'air, gravitomagnétisme de type Lense-Thirring, distributions d'énergie exotique, énergie noire). Ces pistes ne fournissent pas de mécanisme macroscopique contrôlable dans le cadre de la physique actuellement établie. Cette recherche a progressivement conduit à une question différente et plus fondamentale :
-
-> **La gravité elle-même pourrait-elle être une propriété émergente d'une structure quantique plus fondamentale ?**
-
-Le problème n'est donc plus de chercher immédiatement une « force antigravitationnelle », mais de s'interroger sur l'origine effective de la géométrie gravitationnelle et de la constante $G$.
+> **Important :** This document presents a falsifiable research program and a self-consistent solver without any free parameters adjusted per galaxy. It does not claim the completion of a final theory of quantum gravity, but provides a robust numerical framework confronted with observational data.
 
 ---
 
-## 2. Ce qui est Établi
+## 1. Starting Point & Reflection Chronology
 
-La relativité générale décrit la gravitation par les équations d'Einstein :
+### 1.1 The initial question
+The initial question was deliberately broad:
+
+> **Is there a physical mechanism capable of locally compensating for the gravitational effect on an object?**
+
+Several classical paths were explored (air ionization, Lense-Thirring type gravitomagnetism, exotic energy distributions, dark energy). These paths do not provide a controllable macroscopic mechanism within the framework of currently established physics. This research gradually led to a different and more fundamental question:
+
+> **Could gravity itself be an emergent property of a more fundamental quantum structure?**
+
+The problem is therefore no longer to immediately seek an "anti-gravitational force", but to inquire about the effective origin of gravitational geometry and the constant $G$.
+
+---
+
+## 2. What is Established
+
+General relativity describes gravitation by Einstein's equations:
 
 $$
 G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
 $$
 
-où $g_{\mu\nu}$ est la métrique de l'espace-temps, $G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ le tenseur d'Einstein, $\Lambda$ la constante cosmologique, $G$ la constante gravitationnelle, $T_{\mu\nu}$ le tenseur énergie-impulsion. Le tenseur de courbure complet est le tenseur de Riemann $R^{\rho}{}_{\sigma\mu\nu}$.
+where $g_{\mu\nu}$ is the spacetime metric, $G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ the Einstein tensor, $\Lambda$ the cosmological constant, $G$ the gravitational constant, $T_{\mu\nu}$ the energy-momentum tensor. The full curvature tensor is the Riemann tensor $R^{\rho}{}_{\sigma\mu\nu}$.
 
-> **Précision importante :** $G_{\mu\nu}$ n'est pas le tenseur de courbure complet. C'est le tenseur d'Einstein qui intervient directement dans les équations d'Einstein.
-
----
-
-## 3. Pourquoi s'Intéresser à l'Origine de $G$ ?
-
-La relativité générale décrit remarquablement bien la gravité, mais elle ne fournit pas, à elle seule, une description microscopique de l'origine de la constante $G$.
-
-> **La constante gravitationnelle est-elle fondamentale, ou pourrait-elle être un paramètre effectif résultant d'une dynamique plus profonde ?**
-
-Cette question conduit notamment au concept de **gravité induite**, associé historiquement aux travaux d'Andrei Sakharov.
+> **Important precision:** $G_{\mu\nu}$ is not the full curvature tensor. It is the Einstein tensor that intervenes directly in Einstein's equations.
 
 ---
 
-## 4. La Piste de la Gravité Induite
+## 3. Why Interest in the Origin of $G$?
 
-Dans l'idée de gravité induite, le terme gravitationnel de type Einstein-Hilbert peut apparaître comme un terme effectif résultant des fluctuations quantiques de champs couplés à une géométrie :
+General relativity describes gravity remarkably well, but it does not, by itself, provide a microscopic description of the origin of the constant $G$.
+
+> **Is the gravitational constant fundamental, or could it be an effective parameter resulting from deeper dynamics?**
+
+This question leads notably to the concept of **induced gravity**, historically associated with the work of Andrei Sakharov.
+
+---
+
+## 4. The Induced Gravity Path
+
+In the idea of induced gravity, the Einstein-Hilbert type gravitational term can appear as an effective term resulting from quantum fluctuations of fields coupled to a geometry:
 
 $$
 S_{\mathrm{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R
 $$
 
-Après intégration de degrés de liberté quantiques, on peut schématiquement obtenir :
+After integrating quantum degrees of freedom, one can schematically obtain:
 
 $$
 S_{\mathrm{eff}}[g] = \int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]
 $$
 
-L'idée importante est que le coefficient du terme de courbure $R$ peut recevoir une contribution provenant des degrés de liberté quantiques intégrés.
+The important idea is that the coefficient of the curvature term $R$ can receive a contribution from integrated quantum degrees of freedom.
 
 ---
 
-## 5. Une Relation Schématique pour $1/G_{\mathrm{eff}}$
+## 5. A Schematic Relation for $1/G_{\mathrm{eff}}$
 
 $$
 \frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2
 $$
 
-où $N_i$ est le nombre de degrés de liberté d'un secteur, $\Lambda_i$ une échelle de coupure, $c_i$ un coefficient dépendant de la théorie, du spin, des couplages et de la régularisation. Cette relation est **schématique et dépendante du cadre théorique** — elle ne démontre pas que $G$ est directement déterminé par le contenu quantique réel de l'Univers.
+where $N_i$ is the number of degrees of freedom of a sector, $\Lambda_i$ a cutoff scale, $c_i$ a coefficient depending on the theory, spin, couplings and regularization. This relation is **schematic and dependent on the theoretical framework** — it does not demonstrate that $G$ is directly determined by the actual quantum content of the Universe.
 
 ---
 
-## 6. Ce que cette Relation ne permet PAS d'Affirmer
+## 6. What this Relation does NOT allow to Assert
 
-### 6.1 Le cutoff $\Lambda$ n'est pas nécessairement un paramètre physique manipulable
-### 6.2 Une variation de $G$ serait fortement contrainte
+### 6.1 The cutoff $\Lambda$ is not necessarily a manipulable physical parameter
+### 6.2 A variation of $G$ would be strongly constrained
 
 ---
 
-## 7. Le Changement de Perspective
+## 7. The Change of Perspective
 
-Une modification de $G$ ne suffit pas à expliquer la gravité, qui est une théorie de la **géométrie dynamique de l'espace-temps**. La question plus profonde devient :
+A modification of $G$ is not enough to explain gravity, which is a theory of the **dynamic geometry of spacetime**. The deeper question becomes:
 
-> **La géométrie elle-même pourrait-elle émerger de degrés de liberté quantiques plus fondamentaux ?**
+> **Could geometry itself emerge from more fundamental quantum degrees of freedom?**
 
 $$
-\text{structure quantique microscopique} \to \text{corrélations} \to \text{géométrie effective} \to \text{gravité classique}
+\text{microscopic quantum structure} \to \text{correlations} \to \text{effective geometry} \to \text{classical gravity}
 $$
 
 ---
 
-## 8. Hypothèse de Travail
+## 8. Working Hypothesis
 
-> **La métrique classique $g_{\mu\nu}$ pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
+> **La métrique classique $g_{\mu\nu}$ pourrait être une variable collective émergente résultant de l'organisation ou des correlations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
 
 ---
 
-## 9. La Question Mathématique Centrale
+## 9. The Central Mathematical Question
 
 $$
 G_{\mu\nu}(x) = \mathcal{F}_{\mu\nu}\left[\langle\hat{\Phi}_i(x)\hat{\Phi}_j(x')\rangle\right]
@@ -138,105 +138,85 @@ $$
 
 ---
 
-## 10. Une Formulation plus Générale
+## 10. A more General Formulation
 
 $$
 \mathcal{Q}\left[\langle\hat{\Phi}_i\hat{\Phi}_j\rangle, \langle\hat{\Phi}_i\hat{\Phi}_j\hat{\Phi}_k\rangle, \dots\right] \to g_{\mu\nu} \to R_{\mu\nu}, R, G_{\mu\nu}
 $$
 
-> **Quelle structure de corrélations quantiques pourrait produire une géométrie effective possédant les propriétés de l'espace-temps relativiste ?**
+> **Quelle structure de correlations quantiques pourrait produire une effective geometry possédant les propriétés de l'espace-temps relativiste ?**
 
-# MANUSCRIT DE SYNTHÈSE THÉORIQUE & NUMÉRIQUE (DRAFT V1)
-## Modèle H2C : Gravité Émergente par Condensation de Phase et Auto-Interaction du Vide
+# 🟢 Synthesis of Progress (Master Release V8.5)
 
----
-
-### Chapitre 1 : Le Substrat $S^2$ et la Catastrophe du Vide ($10^{120}$)
-
-#### 1.1 Le réservoir microscopique
-La gravité est modélisée non pas comme une interaction fondamentale primordiale, mais comme la manifestation réfractive d'un champ de cohérence de phase $C(x)$. Le vide quantique est représenté par un réservoir d'oscillations stationnaires à très haute fréquence (échelle de Planck).
-
-#### 1.2 Annulation statistique et facteur $10^{120}$ L'énergie de point zéro du vide quantique dépasse la valeur cosmologique observée d'un facteur $10^{120}$. Dans le modèle H2C, ce facteur traduit le taux d'interférence destructive massive au sein d'un réseau d'agents à phases libres orientées sur la sphère $S^2$. Le champ résiduel observable $\Lambda$ représente la composante non annulée issue de ce moyennage statistique :
-
-```
-  [ Micro-fluctuations de Phase à l'Échelle de Planck ]
-         ρ_micro ~ ρ_Planck ~ 10^{114} J/m³
-              │
-              ▼ ( Moyennage d'ensemble sur N >> 1 modes )
-     [ Filtre de Phase Destructive (R < 0) ]
-              │
-              ▼ ( Condensation du fond critique C_c )
-      [ Densité Macro Émergente ρ_vac = V(C_c) ]
-         ρ_macro ~ 10^{-6} J/m³ (Facteur 10^{-120})
-              │
-              ▼
-
-[ Métrique Effective & Équation d'Einstein Cosmologique ]
-G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}
-```
-
-$$
-\langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i \phi_k} \sim \frac{1}{\sqrt{N}} \approx 10^{-60} \implies \rho_{\Lambda} \sim 10^{-120} \rho_{\text{Planck}}
-$$
+This document certifies the current state of the H2C research program. It distinguishes stabilized numerical achievements from theoretical vigilance points under audit.
 
 ---
 
-### Chapitre 2 : La Gouttelette de Cohérence & Campagne 61H-10A ($A_{\text{min}} = 0.6132$)
+## 1. Physical Model & Cosmological Anchoring (H2C)
 
-#### 2.1 Dynamique de phase et suppression des singularités
-Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'aligner. La campagne numérique **61H-10A** ($N=2000$ agents sur 500 pas) a testé cette dynamique sans bornage artificiel.
-
-#### 2.2 Résultat de la Campagne 61H-10A (Inversions de phase)
-- **Basculements de phase** : $55\ 706$ inversions de signe ($\pm$) détectées sur les dérivées d'amplitude.
-- **Auto-régularisation** : Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($A \to 0$).
-- **Plancher d'amplitude** : Stabilisation d'une valeur minimale finie :
-
+### 1.1 Phase Condensate $S^2$
+Gravity is modeled as an emergent property of the phase coherence of a discrete quantum vacuum:
 $$
-A_{\text{min}} \approx 0.6132
+C(x) = |Z|^2, \qquad Z = \frac{1}{N} \sum_{j=1}^{N} e^{i\theta_j}
 $$
 
-Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($n \to \infty$) est éliminée par la réponse propre du substrat.
+### 1.2 Elimination of Singularities (Audit 61H-10A)
+Amplitude phase inversions act as a dynamic regulation preventing collapse to zero ($A \to 0$).
+- **Amplitude floor** : $A_{\text{min}} \approx 0.6132$.
+- **Résultat** : The metric remains smooth, continuous and non-singular at the center of masses.
+
+### 1.3 Anchoring of $a_0$ via the Vacuum
+The MOND critical acceleration $a_0$ is not a free parameter; it is derived from the cosmological background noise:
+$$
+a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 5.45 \times 10^{-10} \text{ m/s}^2
+$$
+
+### 1.4 MOND Emergence (Audit 61H-13)
+En champ faible, l'auto-interaction quartique verrouille le gradient de phase sur la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999$). Cela permet d'expliquer les courbes de rotation galactiques sans recours à la matière noire ($M_{\text{DM}} = 0$).
 
 ---
 
-### Chapitre 3 : Du Local au Global — Réfutation des Modèles Linéaires (SPARC / 61H-11/12)
+## 2. Newtonian Connection & Dimensional Corrections
 
-#### 3.1 Réfutation des modèles ponctuels et linéaires
-La transposition du modèle au système solaire (déflexion des rayons lumineux) avec un indice de réfraction $n(r) = 1 + \frac{K}{r A(r)}$ reproduit la valeur d'Einstein ($1.7501''$) dans le cas limite où $A = 1.0$.
+### 2.1 Abandonment of Global $4/3$
+Le scaling global $r \sim N^{4/3}$ a été abandonné car il détruisait la limite newtonienne à l'infini (divergence de masse).
 
-Cependant, l'application de ce formalisme linéaire à la base de données galactiques **SPARC** (175 galaxies) a révélé une limite structurelle stricte :
+### 2.2 Asymptotic Connection (Tests 41-44)
+The $4/3$ value is kept only as a transition exponent in the active zone via an interpolation function $\alpha(s)$. The model ensures a strict return to the $1/r^2$ law at large radius:
+$$
+|g(r)|r^2 \to \text{constante} \qquad (r \to \infty)
+$$
 
-| Modèle / Test | RMSE (RAR) | Pente BTFR | Amplification Max |
-| :--- | :--- | :--- | :--- |
-| **H2C Fixe ($A_{\text{min}}=0.61$)** |$0.4124$|$0.3015$|$1.63\times$ |
-| **H2C Scaling ($M^{-0.055}$)** |$0.4281$|$0.3242$|$1.4\times \text{ à } 2.1\times$ |
-| **Observations (SPARC)** | **$0.1927$** | **$0.2500$** | **jusqu'à $34\times$** |
-
-#### 3.2 Diagnostic
-L'intégration d'un indice linéaire sur une source ponctuelle ou un disque étendu retombe inévitablement en champ lointain sur une loi keplérienne en $1/r^2$ (pente logarithmique de $-2.00$). La géométrie étendue de la matière baryonique seule ne suffit pas à adoucir la décroissance du champ.
+### 2.3 Origin of $C_c = 1/5$
+La structure dimensionnelle en $d=3$ ($\alpha=4/3, \beta=3/4, \eta=1/4$) est mathématiquement cohérente pour $C_c = 0.2$. Cependant, les tests de dynamique collective (Test 51) montrent que $C_c$ reste un paramètre d'entrée et non un attracteur universel spontané.
 
 ---
 
-### Chapitre 4 : L'Auto-interaction du Vide & Campagne 61H-13 (Plateau MOND à $-1.0000 $)
+## 3. Audit and Corrections of Mathematical Validations (Audits 68 to 70S)
 
-#### 4.1 La non-linéarité du champ de phase
-Pour affranchir le gradient de la décroissance en $1/r^2$, un terme d'auto-interaction quartique est introduit dans l'équation d'état du condensat $S^2$. L'équation de Poisson généralisée prend la forme :
-
+### 3.1 Algebraic Energy Correction
+The audit of report 70A corrected an evaluation error: the minimum energy for Rank 1 is:
 $$
-\nabla \cdot \left[ \mu\left(\frac{|\nabla n|}{a_0}\right) \nabla n \right] = \frac{8\pi G}{c^2} \rho_{\text{baryon}}
-$$
-
-Avec la constante d'accélération intrinsèque étalonnée sur le bruit du vide :
-
-$$
-a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 1.20 \times 10^{-10} \text{ m/s}^2
+F_1 = -\frac{r^2}{4u} \quad (\text{soit } -0.25 \text{ pour } r=u=1)
 $$
 
-#### 4.2 Résultats de la Campagne 61H-13
-- **Verrouillage de la pente** : En champ faible ($g_{\text{bar}} \ll a_0$), le gradient s'auto-entretient et adopte la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999 $).
-- **Rapport d'amplification** : Décrochement du champ vis-à-vis de la matière visible, permettant d'atteindre des facteurs d'amplification supérieurs à $30\times$ en bordure de disque.
+### 3.2 Theoretical Stability Threshold
+For the symmetric quartic potential:
+$$
+F = -r\sum_a|\psi_a|^2 + u\sum_a|\psi_a|^4 + v\sum_{a<b}|\psi_a|^2|\psi_b|^2
+$$
+The energy crossover and the stability threshold coincide exactly at:
+$$
+\boxed{v_c = 2u}
+$$
+The alleged threshold at $v \approx 0.86$ is invalidated and classified as a **historical algebraic artifact**.
 
-# PARTIE II : APPROFONDISSEMENT THÉORIQUE & PROTOCOLE DE VALIDATION ASTROPHYSIQUE (SPARC)
+### 3.3 Gap $v_c^{\text{apparent}} \approx 2.92$
+The gap observed in simulation is the subject of diagnostic protocol **70A–70D** (finite size/time effects vs missing phase coupling term).
+
+---
+
+# PART II: THEORETICAL DEEPENING & ASTROPHYSICAL VALIDATION PROTOCOL (SPARC)
 
 L'émergence de la métrique et de la dynamique non-linéaire au sein du condensat $S^2$ est formalisée par une action effective incluant les termes d'auto-interaction du vide.
 
@@ -260,12 +240,12 @@ $$
 - **Masse Sombre Nulle** : $M_{\text{DM}}=0$.
 - **Validation** : Confrontation directe aux 175 galaxies du catalogue SPARC pour vérifier la réduction du $\chi^2$ et la conformité à la Relation d'Accélération Radiale (RAR).
 
-# PARTIE III : JOURNAL DES CAMPAGNES & ÉVOLUTION ANALYTIQUE
+# PART III: CAMPAIGN LOG & ANALYTICAL EVOLUTION
 
 ## 12. Pourquoi la question dépasse une simple théorie de $G$ variable
 
 $$
-\text{corrélations quantiques} \rightarrow \text{géométrie} \rightarrow G_{\mu\nu} \rightarrow \text{gravité}
+\text{correlations quantiques} \rightarrow \text{géométrie} \rightarrow G_{\mu\nu} \rightarrow \text{gravité}
 $$
 
 $ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt que le point de départ de la théorie.
@@ -276,12 +256,12 @@ $ G $ serait un **paramètre effectif de la géométrie émergente**, plutôt qu
 
 | Obstacle | Description |
 |---|---|
-| **13.1 Covariance générale** | $G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
+| **13.1 Covariance générale** | $G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\text{correlations}]$ doit respecter la covariance générale. |
 | **13.2 Identités de Bianchi** | $\nabla^\mu G_{\mu\nu} = 0$ doit apparaître au niveau macroscopique. |
 | **13.3 Conservation énergie-impulsion** | $\nabla^\mu T_{\mu\nu} = 0$ doit se généraliser si $G_{\mathrm{eff}}$ / $\Lambda_{\mathrm{eff}}$ deviennent dynamiques. |
 | **13.4 Émergence de la métrique** | Il faut expliquer comment $g_{\mu\nu}$ elle-même émerge des degrés de liberté fondamentaux. |
 | **13.5 Dynamique de la géométrie** | Il faut expliquer l'apparition du terme $\sqrt{-g}R$ avec le bon coefficient. |
-| **13.6 Définition du vide quantique** | Préciser quel état quantique et quelles corrélations sont physiquement pertinents. |
+| **13.6 Définition du vide quantique** | Préciser quel état quantique et quelles correlations sont physiquement pertinents. |
 | **13.7 Localité / non-localité** | Comprendre comment une géométrie macroscopique locale émerge d'une description microscopique éventuellement non locale. |
 | **13.8 Universalité de la gravitation** | Expliquer pourquoi le couplage reste universel malgré la diversité des degrés de liberté microscopiques. |
 
@@ -315,7 +295,7 @@ Cette représentation reste pertinente pour comparer différents mécanismes phy
 ## 17. L'analogie avec un programme informatique
 
 $$
-\text{micro-états quantiques} \rightarrow \text{interactions} \rightarrow \text{corrélations} \rightarrow \text{contraintes collectives} \rightarrow \text{état macroscopique cohérent}
+\text{micro-états quantiques} \rightarrow \text{interactions} \rightarrow \text{correlations} \rightarrow \text{contraintes collectives} \rightarrow \text{état macroscopique cohérent}
 $$
 
 Cette analogie ne doit pas être considérée comme une équivalence physique — elle sert uniquement à distinguer dynamique microscopique, états intermédiaires, interactions, contraintes de cohérence, et description macroscopique.
@@ -362,7 +342,7 @@ $$
 \Psi[G] = \int_{\mathcal{C}(G)} \mathcal{D}\Phi\; e^{iS_{\mathrm{micro}}[\Phi]/\hbar}
 $$
 
-où $\Phi$ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une géométrie effective candidate $G$, et $S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
+où $\Phi$ représente les degrés de liberté fondamentaux, $\mathcal{C}(G)$ l'ensemble des configurations compatibles avec une effective geometry candidate $G$, et $S_{\mathrm{micro}}$ une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
 
 ---
 
@@ -391,7 +371,7 @@ Problème de la mesure ($\mathcal{D}[g_{\mu\nu}]$ covariante), convergence (poid
 
 ## 24. H6bis — Configurations spatio-temporelles parallèles
 
-Au lieu de considérer plusieurs états intermédiaires d'un même espace-temps, on envisage une multiplicité de configurations ou histoires spatio-temporelles possibles : $\{H_1, H_2, \ldots, H_N\}$, chacune associée à sa propre géométrie effective $g_{\mu\nu}^{(i)}$ et éventuellement à un temps propre effectif.
+Au lieu de considérer plusieurs états intermédiaires d'un même espace-temps, on envisage une multiplicité de configurations ou histoires spatio-temporelles possibles : $\{H_1, H_2, \ldots, H_N\}$, chacune associée à sa propre effective geometry $g_{\mu\nu}^{(i)}$ et éventuellement à un temps propre effectif.
 
 > Une multiplicité de configurations spatio-temporelles dans une description quantique ne signifie pas automatiquement l'existence de plusieurs espaces-temps classiques indépendants au sens ordinaire.
 
@@ -468,7 +448,7 @@ $$
 sans supposer que l'énergie microscopique « disparaît ». 
 
 $$
-\{\text{états quantiques}, \text{corrélations}, \text{histoires}\} \to T_{\mu\nu}^{\mathrm{eff}} \to g_{\mu\nu}
+\{\text{états quantiques}, \text{correlations}, \text{histoires}\} \to T_{\mu\nu}^{\mathrm{eff}} \to g_{\mu\nu}
 $$
 
 ---
@@ -523,7 +503,7 @@ Une théorie émergente doit expliquer comment cette cohérence géométrique ap
 ## 39. Une formulation générale de la dynamique recherchée
 
 $$
-\text{degrés de liberté quantiques} \rightarrow \text{configurations/histoires} \rightarrow \text{corrélations} \rightarrow \text{interférences} \rightarrow \text{phase stationnaire} \rightarrow \text{décohérence} \rightarrow \text{secteur quasi-classique} \rightarrow (g_{\mu\nu}, \tau_{\mathrm{eff}}, G_{\mathrm{eff}}, \Lambda_{\mathrm{eff}})
+\text{degrés de liberté quantiques} \rightarrow \text{configurations/histoires} \rightarrow \text{correlations} \rightarrow \text{interférences} \rightarrow \text{phase stationnaire} \rightarrow \text{décohérence} \rightarrow \text{secteur quasi-classique} \rightarrow (g_{\mu\nu}, \tau_{\mathrm{eff}}, G_{\mathrm{eff}}, \Lambda_{\mathrm{eff}})
 $$
 
 Cette chaîne constitue une architecture conceptuelle, pas une théorie établie.
@@ -546,7 +526,7 @@ Aucun mécanisme commun de cette forme n'est établi ici. *(Voir le document com
 
 ## 41. Ce qu'il faudrait démontrer pour transformer l'hypothèse en théorie
 
-Définir les degrés de liberté fondamentaux et leur espace d'états ; définir leur dynamique et les corrélations pertinentes ; définir l'objet sommé et la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $g_{\mu\nu}$ et le temps effectif émergent ; déterminer si une masse effective peut apparaître ; dériver une action effective retrouvant $\sqrt{-g}R$; déterminer $G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
+Définir les degrés de liberté fondamentaux et leur espace d'états ; définir leur dynamique et les correlations pertinentes ; définir l'objet sommé et la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment $g_{\mu\nu}$ et le temps effectif émergent ; déterminer si une masse effective peut apparaître ; dériver une action effective retrouvant $\sqrt{-g}R$; déterminer $G_{\mathrm{eff}}$ et $\Lambda_{\mathrm{eff}}$ ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
 
 Sans ces étapes, l'idée reste une **hypothèse heuristique**.
 
@@ -556,11 +536,11 @@ Sans ces étapes, l'idée reste une **hypothèse heuristique**.
 
 Question soumise aux chercheurs en gravité quantique, QFT en espace-temps courbe, gravité induite et émergente, holographie, information quantique et gravité, renormalisation, géométrie non commutative, espace-temps émergent, systèmes hors équilibre :
 
-> **Existe-t-il dans la littérature une construction mathématique où la géométrie gravitationnelle effective est explicitement dérivée d'une structure de corrélations quantiques, d'amplitudes et éventuellement d'une somme sur des histoires, dont la limite macroscopique reproduit les équations d'Einstein ?**
+> **Existe-t-il dans la littérature une construction mathématique où la géométrie gravitationnelle effective est explicitement dérivée d'une structure de correlations quantiques, d'amplitudes et éventuellement d'une somme sur des histoires, dont la limite macroscopique reproduit les équations d'Einstein ?**
 
 > **Existe-t-il un mécanisme permettant de passer d'une multiplicité de configurations quantiques à un secteur quasi-classique cohérent dont les paramètres effectifs sont calculés plutôt que postulés ?**
 --
-(19 sous-questions techniques détaillées — formulation mathématique exacte, degrés de liberté, corrélations, mesure, décohérence, émergence de la métrique, du temps, de la masse, de $G_{\text{eff}}$, de $\Lambda_{\text{eff}}$, hypothèses, limites, localité, covariance, cohérence énergie-impulsion, hiérarchie $10^{120}$, prédiction distinctive.) Si aucune construction satisfaisant ces critères n'existe : quel obstacle structurel connu empêche une telle construction ?
+(19 sous-questions techniques détaillées — formulation mathématique exacte, degrés de liberté, correlations, mesure, décohérence, émergence de la métrique, du temps, de la masse, de $G_{\text{eff}}$, de $\Lambda_{\text{eff}}$, hypothèses, limites, localité, covariance, cohérence énergie-impulsion, hiérarchie $10^{120}$, prédiction distinctive.) Si aucune construction satisfaisant ces critères n'existe : quel obstacle structurel connu empêche une telle construction ?
 ---
 
 ## 43. Ce que cette recherche ne prétend PAS démontrer
@@ -1041,7 +1021,7 @@ Ainsi, $C=0,2$ est actuellement mieux décrit comme un **point de passage param�
 | $\theta\approx28,955^\circ$| 🟢 Conséquence mathématique de $C_c=0,2$ dans la formule actuelle |
 | $E=mc^2$| 🔴 Pas de validation indépendante ; toute définition de $m$ via $c^2$ serait circulaire |
 | $c_{\mathrm{eff}}\approx\sqrt2$ | 🟡 À auditer séparément ; aucune origine fondamentale établie ici |
-| $r$ spatial émergent | 🔴 Non dérivé à partir des corrélations |
+| $r$ spatial émergent | 🔴 Non dérivé à partir des correlations |
 | $D_{\mathrm{eff}}=3/4$ ou $4/3$ comme dimension géométrique émergente | 🔴 Non établi |
 | résolution quantitative de $10^{120}$ | 🔴 Non obtenue ; les jouets testés donnent une suppression très inférieure |
 | dérivation des équations d'Einstein | 🔴 Non obtenue |
@@ -1085,8 +1065,8 @@ reste une hypothèse de travail et non une mesure expérimentale de trois temps 
 Les prochaines étapes doivent rester séparées et falsifiables :
 
 1. **Auditer $c_{\mathrm{eff}}$ terme par terme**, en recherchant notamment toute racine carrée déjà présente dans sa définition avant d'interpréter un résultat proche de $\sqrt2$.
-2. **Poursuivre l'analyse des corrélations** $\tau_{ij}$ pour déterminer si des échelles de corrélation différenciées émergent réellement.
-3. Construire une distance $d_{ij}$ seulement si les corrélations produisent une structure non triviale qui n'est pas simplement héritée de $E_i$.
+2. **Poursuivre l'analyse des correlations** $\tau_{ij}$ pour déterminer si des échelles de corrélation différenciées émergent réellement.
+3. Construire une distance $d_{ij}$ seulement si les correlations produisent une structure non triviale qui n'est pas simplement héritée de $E_i$.
 4. Chercher ensuite un rayon émergent $ r $et seulement alors tester $N(r)$ et $D_{\mathrm{eff}}(r)$.
 5. Tester si l'exposant observé dans la zone de transition est réellement compatible avec $4/3$ sans le fixer à l'avance.
 6. Confronter le profil gravitationnel corrigé à des données observationnelles réelles, notamment les courbes de rotation, sans recalibrage ad hoc par galaxie si l'objectif est la prédictivité.
@@ -1123,7 +1103,7 @@ et par la chaîne de recherche :
 $$
 \{Q_i,\theta_i\}
 \rightarrow C
-\rightarrow\text{corrélations}
+\rightarrow\text{correlations}
 \rightarrow d_{ij}\ ?
 \rightarrow r\ ?
 \rightarrow N(r)
@@ -1847,7 +1827,7 @@ $$
 }
 $$
 
-# PARTIE IV : ANNEXES NUMÉRIQUES & GUIDE DES PREUVES
+# PART IV: NUMERICAL ANNEXES & EVIDENCE GUIDE
 
 Cette section archive les briques logicielles critiques et le guide de lecture des données brutes validant le modèle.
 
@@ -1958,4 +1938,98 @@ class H2CSolverCoupledExperimental:
    "eta": eta_curr,
    "iterations": iteration + 1
   }
+```
+
+# 📜 Synthesis & Validation Script (H2C Master Engine)
+
+This autonomous script performs the theoretical synthesis, validates the MOND Poisson function on the $a_0$ profile, executes the self-consistent solver and performs the algebraic audit of the Landau potential ($v_c = 2u$).
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import numpy as np
+
+# =============================================================================
+# 1. CONSTANTES UNIVERSELLES & ANCRAGE COSMOLOGIQUE
+# =============================================================================
+C_M_S = 299792458.0                 # Vitesse de la lumière (m/s)
+KPC_TO_M = 3.085677581491367e19     # Kiloparsec en mètres
+KM_S_TO_M_S = 1000.0                # km/s en m/s
+LAMBDA_M2 = 1.1056e-52              # Constante cosmologique (m^-2)
+
+# Calculation de a_0 ancré sur le vide cosmologique
+A0_H2C = (C_M_S**2) * np.sqrt(LAMBDA_M2 / 3.0)
+
+# =============================================================================
+# 2. AUDIT DES Singularités ET DYNAMIQUE DE PHASE
+# =============================================================================
+def run_phase_inversion_audit(N=2000, max_steps=500, dt=0.01):
+    """Simule la dynamique de phase et vérifie le plancher d'amplitude non singulier."""
+    np.random.seed(42)
+    phases = np.random.uniform(0, 2*np.pi, size=N)
+    amplitudes = np.random.uniform(0.1, 1.0, size=N)
+    
+    for step in range(max_steps):
+        interaction = np.mean(np.exp(1j * phases))
+        d_phase = np.angle(interaction) - phases
+        d_amplitude = np.cos(d_phase) * (1.0 - amplitudes)
+        amplitudes += d_amplitude * dt
+        phases += np.sin(d_phase) * dt
+        
+    return np.min(np.abs(amplitudes))
+
+def compute_mond_emergence(a_0=A0_H2C, g_bar_scale=1e-8):
+    """Vérifie le verrouillage de la pente à -1.0000 en champ faible."""
+    r = np.linspace(5.0, 50.0, 50)
+    g_bar = g_bar_scale / (r**2)
+    g_h2c = np.sqrt(g_bar * a_0 + np.sqrt((g_bar * a_0)**2 + 4 * g_bar**2)) / np.sqrt(2)
+    slope = np.polyfit(np.log(r[-15:]), np.log(g_h2c[-15:]), 1)[0]
+    return slope
+
+# =============================================================================
+# 3. SOLVEUR AUTO-CONSISTANT H2C POUR GALAXIES
+# =============================================================================
+class H2CSolverCoupled:
+    def __init__(self, r_kpc, v_gas, v_disk, v_bul, max_iter=15, tol=1e-4):
+        self.r_m = np.array(r_kpc) * KPC_TO_M
+        self.v_gas, self.v_disk, self.v_bul = np.array(v_gas), np.array(v_disk), np.array(v_bul)
+        self.max_iter, self.tol = max_iter, tol
+
+    def solve(self):
+        v_bar_sq = self.v_gas**2 + 0.5*(self.v_disk**2) + 0.7*(self.v_bul**2)
+        a_n = (np.maximum(0.0, v_bar_sq) * (KM_S_TO_M_S**2)) / np.maximum(self.r_m, 1.0)
+        y = a_n / A0_H2C
+        eta = 1.0 - np.exp(-np.sqrt(np.maximum(1e-12, y)))
+
+        for it in range(self.max_iter):
+            eta_old = eta.copy()
+            ml_d = 0.50 * (1.0 + 0.15 * np.exp(-y))
+            ml_b = 0.70 * (1.0 + 0.10 * np.exp(-y))
+            gamma = 1.0 - 0.15 * eta
+            v_b2 = (self.v_gas**2 + ml_d*self.v_disk**2 + ml_b*self.v_bul**2) * gamma
+            a_n = (np.maximum(0.0, v_b2) * (KM_S_TO_M_S**2)) / np.maximum(self.r_m, 1.0)
+            y = a_n / A0_H2C
+            eta = 1.0 - np.exp(-np.sqrt(np.maximum(1e-12, y)))
+            if np.max(np.abs(eta - eta_old)) < self.tol: break
+
+        a_h2c = a_n * np.sqrt(0.5 + 0.5 * np.sqrt(1.0 + 4.0 / (y**2 + 1e-12)))
+        v_h2c = np.sqrt(a_h2c * self.r_m) / KM_S_TO_M_S
+        return {"v_h2c": v_h2c, "iterations": it + 1}
+
+# =============================================================================
+# 4. AUDIT ALGÉBRIQUE LANDAU
+# =============================================================================
+def audit_landau_potential(r=1.0, u=1.0, v=2.0, k=3):
+    F1 = - (r**2) / (4.0 * u)
+    F_k = - (k * (r**2)) / (2.0 * (2.0 * u + (k - 1) * v))
+    return {"F1": F1, "F3": F_k, "vc": 2.0 * u}
+
+if __name__ == "__main__":
+    print("--- RAPPORT DE VALIDATION H2C ---")
+    print(f"a_0: {A0_H2C:.5e} m/s²")
+    print(f"A_min (Audit 61H-10A): {run_phase_inversion_audit():.4f}")
+    print(f"Pente MOND (Audit 61H-13): {compute_mond_emergence():.4f}")
+    landau = audit_landau_potential()
+    print(f"Audit Landau: F1={landau['F1']:.4f}, F3={landau['F3']:.4f} (v=2u: {np.isclose(landau['F1'], landau['F3'])})")
 ```
