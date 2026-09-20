@@ -156,9 +156,7 @@ Ce document certifie l'état actuel du programme de recherche H2C. Il distingue 
 
 ### 1.1 Condensat de Phase $S^2$
 La gravité est modélisée comme une propriété émergente de la cohérence de phase d'un vide quantique discret :
-$$
-C(x) = |Z|^2, \qquad Z = \frac{1}{N} \sum_{j=1}^{N} e^{i\theta_j}
-$$
+$$C(x)=|Z|^2, \quad Z=\frac{1}{N} \sum_{j=1}^{N} e^{i\theta_j}$$
 
 ### 1.2 Élimination des Singularités (Audit 61H-10A)
 Les inversions de phase d'amplitude agissent comme une régulation dynamique empêchant l'effondrement à zéro ($A \to 0$).
@@ -167,9 +165,7 @@ Les inversions de phase d'amplitude agissent comme une régulation dynamique emp
 
 ### 1.3 Ancrage de $a_0$ via le Vide
 L'accélération critique MOND $a_0$ n'est pas un paramètre libre ; elle est dérivée du bruit de fond cosmologique :
-$$
-a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 5.45 \times 10^{-10} \text{ m/s}^2
-$$
+$$a_0 = c \sqrt{\frac{\Lambda}{3}} \approx 5{,}45 \times 10^{-10} \text{m}\cdot\text{s}^{-2}$$
 
 ### 1.4 Émergence MOND (Audit 61H-13)
 En champ faible, l'auto-interaction quartique verrouille le gradient de phase sur la pente exacte **$-1.0000$** ($\theta_{\text{périphérie}} = -0.9999$). Cela permet d'expliquer les courbes de rotation galactiques sans recours à la matière noire ($M_{\text{DM}} = 0$).
@@ -202,14 +198,11 @@ $$
 
 ### 3.2 Seuil Théorique de Stabilité
 Pour le potentiel quartique symétrique :
-$$
-F = -r\sum_a|\psi_a|^2 + u\sum_a|\psi_a|^4 + v\sum_{a<b}|\psi_a|^2|\psi_b|^2
-$$
+$$F = -r\sum_a|\psi_a|^2 + u\sum_a|\psi_a|^4 + v\sum_{a<b}|\psi_a|^2|\psi_b|^2$$
+
 Le croisement d'énergie et le seuil de stabilité coïncident exactement à :
-$$
-\boxed{v_c = 2u}
-$$
-Le prétendu seuil à $v \approx 0.86$ est invalidé et classé comme **artefact algébrique historique**.
+$$v_c = 2u$$
+Le prétendu seuil à $v \approx 0{,}86$ est invalidé et classé comme artefact algébrique historique.
 
 ### 3.3 Écart $v_c^{\text{apparent}} \approx 2.92$
 L'écart observé en simulation fait l'objet du protocole de diagnostic **70A–70D** (effets de taille/temps finis vs terme de couplage de phase manquant).
