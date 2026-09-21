@@ -173,6 +173,7 @@ Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'ali
 * **Basculements de phase :** 55 706 inversions de signe ($\pm$) détectées sur les dérivées d'amplitude.
 * **Auto-régularisation :** Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($A \to 0$).
 * **Plancher d'amplitude :** Stabilisation d'une valeur minimale finie :
+
   $$ A_{\text{min}} \approx 0.6132 $$
 
 Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($n \to \infty$) est éliminée par la réponse propre du substrat.
@@ -296,9 +297,11 @@ Cette analogie ne doit pas être considérée comme une équivalence physique �
 ### 18. Deux logiques possibles pour l'émergence
 
 * **Logique A — Relaxation temporelle :** le système évolue réellement dans le temps et atteint progressivement une configuration stable :
+
   $$ Q_0 \to Q_1 \to \dots \to Q_{\text{stable}} $$
 
 * **Logique B — Somme sur les configurations et phase stationnaire :** toutes les configurations contribuent à une amplitude globale sans succession temporelle :
+
   $$ \Psi \sim \int \mathcal{D}[\text{configurations}] \, e^{iS/\hbar} $$
 
 Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $g_{\mu\nu}$.
@@ -508,9 +511,11 @@ Cette section rassemble le formalisme phénoménologique et les résultats numé
 #### 47.1 Champ de cohérence et variables fondamentales
 
 On considère un champ scalaire de cohérence de phase :
+
 $$ C(x) \in [0,1] $$
 
 Dans les modèles de dynamique collective, il est représenté par le paramètre d'ordre :
+
 $$ Z = \frac{1}{N} \sum_{j=1}^N e^{i\theta_j}, \quad C = |Z|^2 $$
 
 Cette définition présente une propriété importante : $C$ est invariant sous une rotation globale des phases, contrairement à $R = \mathrm{Re}(Z)$. Les campagnes antérieures ont donc conduit à retenir $C$ comme observable de cohérence robuste.
@@ -520,9 +525,11 @@ Le cadre structurel reste fixé en 3+1 dimensions : $d=3$ dimensions spatiales, 
 #### 47.2 Équation de potentiel et profil régularisé
 
 Le modèle de travail conserve une équation de type Poisson modifiée :
+
 $$ \nabla^2 \Phi(x) = \frac{4\pi c^2}{L_0^2} [C(x) - C_c] $$
 
 Le profil régularisé utilisé comme référence est :
+
 $$ C(r) = C_c + \frac{r_g^2}{r^2 + r_g^2} (C_{\text{max}} - C_c) $$
 
 avec $C_{\text{max}} = 1$ et $r_g = 2GM/c^2$.
@@ -530,21 +537,27 @@ avec $C_{\text{max}} = 1$ et $r_g = 2GM/c^2$.
 Ce profil possède une propriété utile : $C(0) = C_{\text{max}}$, $C'(0) = 0$.
 
 Mais il ne doit pas être identifié directement à une densité de masse : son comportement asymptotique en $1/r^2$ rendrait la masse intégrée divergente. La reconstruction doit donc rester séparée :
+
 $$ C(r) \to \rho(r) \to m(r) \to g(r) \to g_{\mu\nu}^{\text{eff}} $$
 
 #### 47.3 Dynamique collective testée
 
 La dynamique de Kuramoto pondérée utilisée dans les Tests 12–13 et la campagne du Test 51 est :
+
 $$ E_i = Q_i^2 $$
+
 $$ w_{ij} = \exp\left[-\frac{(E_i - E_j)^2}{2\sigma^2}\right] $$
+
 $$ \dot{\theta}_i = \frac{K}{N} \sum_j w_{ij} \sin(\theta_j - \theta_i) $$
 
 Le paramètre d'ordre est ensuite :
+
 $$ C = |Z|^2, \quad Z = \frac{1}{N} \sum_j e^{i\theta_j} $$
 
 Cette dynamique permet de distinguer un état incohérent ($C \sim 1/N$) d'un état collectivement cohérent ($C \gg 1/N$).
 
 Pour des phases indépendantes uniformes :
+
 $$ \mathbb{E}[C] = \frac{1}{N} $$
 
 ce qui fournit une référence indispensable pour interpréter les petits $C$ à taille finie.
@@ -566,14 +579,17 @@ Un indicateur causal alternatif $R_{\text{causal}}$ reste une piste, mais sans p
 La dynamique décrite en 47.3 utilise une constante de couplage $K$ qui, jusqu'ici, était un paramètre externe ajusté à la main. Deux résultats établissent qu'elle peut être reformulée, puis en partie dérivée.
 
 **Étape 1 —** $K$ est déjà, structurellement, une constante de couplage. La dynamique $\dot{\theta}_i = \frac{K}{N} \sum_j w_{ij} \sin(\theta_j - \theta_i)$ est exactement le flot de gradient descendant du potentiel :
+
 $$ V[\theta] = -\frac{K}{2N} \sum_{i,j} w_{ij} \cos(\theta_i - \theta_j) $$
 
 vérifié numériquement à la précision machine ($\sim 10^{-11}$) — $K$ n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
 
 **Étape 2 —** Dérivation par élimination adiabatique d'un champ médiateur. En couplant chaque phase $\theta_i$ à un champ médiateur complexe $\psi$ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
+
 $$ \dot{\psi} = \text{taux} \cdot (-m^2 \psi + g \bar{Z}), \quad \bar{Z} = \frac{1}{N} \sum_j e^{i\theta_j} $$
 
 l'élimination adiabatique de $\psi$ (relaxation rapide vers son équilibre $\psi_{\text{eq}} = (g/m^2)\bar{Z}$) reproduit la dynamique de Kuramoto réduite avec :
+
 $$ K_{\text{eff}} = \frac{g^2}{m^2} $$
 
 Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage $g$ testées (de $g=0.05$ à $g=1.0$).
@@ -608,6 +624,7 @@ Valeurs rapportées :
 La moyenne est d'environ 1183, avec un coefficient de variation d'environ 0,07%, et l'écart relatif à $M_{\text{tot}} = 1196.7$ est d'environ 1,15%.
 
 Le résultat établit dans ce modèle jouet une récupération très propre de la loi :
+
 $$ |g(r)|r^2 \to \text{constante} $$
 
 **Statut :** 🟢 résultat numérique de non-régression dans le modèle jouet. Il ne constitue pas une validation observationnelle de la gravité émergente.
@@ -631,6 +648,7 @@ La géométrie de travail a ensuite été organisée en trois régimes :
 3. Pente douce et retour asymptotique.
 
 Les rayons utilisés dans le Test 43 étaient :
+
 $$ R_{\text{trans}} = 0.61 \text{ kpc}, \quad R_{\text{gentle}} = 1.31 \text{ kpc} $$
 
 Le rapport $\simeq 2.15$ entre ces rayons reste une entrée géométrique et n'est pas encore dérivé.
@@ -638,10 +656,13 @@ Le rapport $\simeq 2.15$ entre ces rayons reste une entrée géométrique et n'e
 Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ 0,005% et un écart relatif d'environ $-0,004\%$ dans le calcul rapporté.
 
 Pour rendre le $4/3$ compatible avec cette contrainte, une interpolation dynamique a été testée :
+
 $$ s(r) = \frac{C(r) - C_c}{C_{\text{max}} - C_c}, \quad \alpha(s) = 1 + \frac{s}{3} $$
 
 Ainsi :
+
 $$ s \to 0 \implies \alpha \to 1 $$
+
 $$ s \to 1 \implies \alpha \to \frac{4}{3} $$
 
 Dans le Test 44, la zone cône donnait approximativement $1.21 \lesssim \alpha \lesssim 1.28$, avec une moyenne proche de 1,25. La valeur $4/3$ n'était donc pas atteinte partout : elle apparaît comme limite de saturation, pas comme une constante globale imposée à tous les rayons.
@@ -667,37 +688,49 @@ Cette expression n'est pas encore une loi fondamentale. Elle encode seulement le
 Le modèle est désormais explicitement fixé en 3+1 dimensions : $d=3$.
 
 Une famille dimensionnelle simple donne :
+
 $$ \alpha = \frac{d+1}{d} = \frac{4}{3}, \quad \beta = \frac{d}{d+1} = \frac{3}{4} $$
 
 avec :
+
 $$ \alpha\beta = 1 $$
 
 Une autre relation candidate donne :
+
 $$ \eta = \frac{1}{d+1} = \frac{1}{4} $$
 
 Avec la définition utilisée pour l'angle :
+
 $$ \theta = 2 \arcsin\left(\frac{C_c}{1 - C_c}\right) $$
 
 la valeur $C_c = 0.2 = 1/5$ entraîne exactement :
+
 $$ \frac{C_c}{1 - C_c} = \frac{1}{4} $$
 
 puis :
+
 $$ \theta = 2 \arcsin\left(\frac{1}{4}\right) \approx 28.955^\circ $$
 
 On peut également écrire la relation candidate :
+
 $$ C_c = \frac{1}{d+2} $$
 
 Pour $d=3$ :
+
 $$ C_c = \frac{1}{5} $$
 
 et donc :
+
 $$ \frac{C_c}{1 - C_c} = \frac{1}{d+1} = \frac{1}{4} $$
 
 #### 49.1 Ce qui est réellement démontré
 
 Les identités numériques sont exactes :
+
 $$ 0.2 = \frac{1}{5}, \quad \frac{0.2}{0.8} = \frac{1}{4} $$
+
 $$ 2 \arcsin\left(\frac{1}{4}\right) \approx 28.955^\circ $$
+
 $$ \frac{d+1}{d} = \frac{4}{3}, \quad \frac{d}{d+1} = \frac{3}{4} \quad (d=3) $$
 
 #### 49.2 Ce qui n'est pas dérivé
@@ -705,6 +738,7 @@ $$ \frac{d+1}{d} = \frac{4}{3}, \quad \frac{d}{d+1} = \frac{3}{4} \quad (d=3) $$
 Les Tests 49–50 ont montré que la dynamique minimale de $C$ et les rétroactions simples testées ne sélectionnent pas spontanément $C_c = 1/5$.
 
 Avec :
+
 $$ Z \square C - V'(C) = 0 $$
 
 un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De même, les rétroactions testées du type $\sigma(C)$ ont produit des attracteurs nettement plus cohérents, environ 0,72 à 0,91, sans attracteur dans la fenêtre $[0.16, 0.24]$.
@@ -716,10 +750,13 @@ un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De mê
 #### 50.1 Chaîne de calcul
 
 Le programme numérique est organisé selon la chaîne :
+
 $$ Q_i \to E_i \to \theta_i \to C $$
 
 avec :
+
 $$ E_i = Q_i^2 $$
+
 $$ w_{ij} = \exp\left[-\frac{(E_i - E_j)^2}{2\sigma^2}\right] $$
 
 L'objectif est de déterminer si une structure collective produit une valeur privilégiée de $C$ ou uniquement une transition continue entre incohérence et synchronisation.
@@ -727,9 +764,11 @@ L'objectif est de déterminer si une structure collective produit une valeur pri
 #### 50.2 Test 50 — rétroactions aveugles de $C$ sur $\sigma$
 
 Deux familles sans ciblage de $0.2$ ont été testées :
+
 $$ \sigma(C) = \sigma_0 (1 - C) $$
 
 et
+
 $$ \sigma(C) = \frac{\sigma_0}{1 + \kappa C} $$
 
 Les attracteurs rapportés étaient environ :
@@ -751,14 +790,17 @@ Aucun attracteur n'est apparu dans $[0.16, 0.24]$.
 #### 50.3 Test 51 — recherche aveugle d'une transition collective
 
 Le Test 51 a ensuite abandonné toute rétroaction artificielle et recherché directement une transition dans le système pondéré :
+
 $$ \dot{\theta}_i = \frac{K}{N} \sum_j w_{ij} \sin(\theta_j - \theta_i) $$
 
 Le protocole utilise notamment :
+
 $$ N \in \{200, 400, 800, 1600\} $$
 
 un balayage de $K$ et $\sigma$, plusieurs graines indépendantes, et un temps d'intégration suffisamment long.
 
 Les observables prévues sont :
+
 $$ \chi_C = N(\langle C^2 \rangle - \langle C \rangle^2) $$
 
 ainsi qu'un cumulant de Binder traité comme indicateur secondaire, et le temps de relaxation.
@@ -804,6 +846,7 @@ Ainsi, $C=0.2$ est actuellement mieux décrit comme un point de passage paramét
 #### 51.2 Le point essentiel sur les singularités
 
 Le profil régularisé montre qu'il est mathématiquement possible de construire une source dont la densité reste finie au centre et dont la masse totale converge vers $M$ à grande distance. Une métrique de référence de type Hayward possède par exemple :
+
 $$ m(r) = M \frac{r^3}{r^3 + a^3} $$
 
 et récupère asymptotiquement la forme de Schwarzschild.
@@ -819,9 +862,11 @@ Il ne s'agit pas d'une preuve que l'antigravitation est impossible dans toute th
 #### 51.4 Temps propre et temps émergent
 
 La question reste ouverte : si une histoire quasi-classique $H_i$ possède une métrique $g_{\mu\nu}^{(i)}$, son temps propre pourrait être défini par :
+
 $$ \tau_i = \int \sqrt{-g_{\mu\nu}^{(i)} \frac{dx^\mu}{d\lambda} \frac{dx^\nu}{d\lambda}} \, d\lambda $$
 
 La hiérarchie heuristique :
+
 $$ \tau_{\text{micro}} \ll \tau_{\text{corr}} \ll \tau_{\text{macro}} $$
 
 reste une hypothèse de travail et non une mesure expérimentale de trois temps fondamentaux.
