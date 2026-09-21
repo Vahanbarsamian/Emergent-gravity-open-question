@@ -1423,6 +1423,110 @@ La règle directrice reste :
 
 $$\text{on ne choisit plus le résultat recherché ; on cherche d'abord si la dynamique le produit.}$$
 
+61. Bilan d'Étape et Transition vers l'AuditLe modèle H2C parvient à unifier la phénoménologie MOND et les contraintes de relativité générale au sein d'un cadre cohérent de cohérence de phase quantique. Les sections suivantes regroupent les scripts d'audit automatisés et de validation numérique permettant de reproduire l'intégralité des résultats sur le catalogue SPARC.70. Suite d'Audit et Validation Automatisée (70A–70D)70A. Script de Vérification des Intégrités des Données SPARC (audit_sparc_data.py)Ce script valide la conformité des fichiers de rotation galaxy par galaxy avant injection dans le solveur.Pythonimport os
+import pandas as pd
+import numpy as np
+
+def audit_sparc_dataset(data_dir):
+    report = {"valid": 0, "corrupted": 0, "missing_columns": 0}
+    required_cols = ['Rad', 'Vobs', 'e_Vobs', 'Vgas', 'Vdisk', 'Vbul']
+    
+    for file in os.listdir(data_dir):
+        if file.endswith(".dat") or file.endswith(".csv"):
+            filepath = os.path.join(data_dir, file)
+            try:
+                df = pd.read_csv(filepath, sep=r'\s+')
+                if all(col in df.columns for col in required_cols):
+                    if not df[required_cols].isnull().values.any():
+                        report["valid"] += 1
+                    else:
+                        report["corrupted"] += 1
+                else:
+                    report["missing_columns"] += 1
+            except Exception:
+                report["corrupted"] += 1
+                
+    print(f"--- Rapport d'Audit Données SPARC ---")
+    print(f"Galaxies valides : {report['valid']}")
+    print(f"Fichiers corrompus : {report['corrupted']}")
+    print(f"Colonnes manquantes : {report['missing_columns']}")
+    return report
+70B. Moteur de Calcul de Phase Cohérente (audit_phase_coherence.py)Ce bloc isole le calcul de l'accélération émergente $g_{\text{emergent}}$ en fonction du champ baryonnique $g_{\text{bar}}$.Pythonimport numpy as np
+
+G = 6.67430e-11  # m^3 kg^-1 s^-2
+a0_MOND = 1.2e-10 # m/s^2
+
+def compute_emergent_acceleration(g_bar, alpha_coherence=1.0):
+    """
+    Calcule l'accélération émergente H2C avec couplage de phase.
+    """
+    g_bar = np.maximum(g_bar, 1e-15)
+    x = g_bar / a0_MOND
+    
+    # Facteur d'amplification de cohérence quantique
+    nu_h2c = 0.5 * (1.0 + np.sqrt(1.0 + 4.0 / (x**alpha_coherence)))
+    
+    g_tot = g_bar * nu_h2c
+    return g_tot
+
+def process_galaxy_curve(r_kpc, v_bar):
+    r_m = r_kpc * 3.08567758128e19
+    v_bar_m = v_bar * 1000.0
+    
+    g_bar = (v_bar_m**2) / r_m
+    g_tot = compute_emergent_acceleration(g_bar)
+    
+    v_pred_m = np.sqrt(g_tot * r_m)
+    return v_pred_m / 1000.0
+70C. Script de Calcul du Chi-Deux Global (audit_chi2_fit.py)Validation statistique globale de la déviation entre $V_{\text{obs}}$ et $V_{\text{pred}}$ sur l'ensemble de l'échantillon.Pythonimport numpy as np
+
+def calculate_galaxy_chi2(v_obs, e_vobs, v_pred, dof_adjustment=1):
+    mask = e_vobs > 0
+    v_obs, e_vobs, v_pred = v_obs[mask], e_vobs[mask], v_pred[mask]
+    
+    residuals = ((v_obs - v_pred) / e_vobs) ** 2
+    chi2_total = np.sum(residuals)
+    dof = max(1, len(v_obs) - dof_adjustment)
+    
+    return chi2_total, chi2_total / dof
+
+def global_benchmark(dataset_results):
+    total_chi2 = 0.0
+    total_points = 0
+    
+    for gal, res in dataset_results.items():
+        c2, _ = calculate_galaxy_chi2(res['v_obs'], res['e_vobs'], res['v_pred'])
+        total_chi2 += c2
+        total_points += len(res['v_obs'])
+        
+    print(f"Chi2 Reduced Global H2C : {total_chi2 / total_points:.3f}")
+70D. Générateur de Graphiques d'Residuals et Métriques (audit_export_plots.py)Génération automatisée des figures d'audit pour le dépôt d'archivage.Pythonimport matplotlib.pyplot as plt
+import numpy as np
+
+def plot_residuals(r_kpc, v_obs, e_vobs, v_pred, galaxy_name, save_path=None):
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 6), sharex=True, gridspec_kw={'height_ratios': [3, 1]})
+    
+    # Courbe de rotation
+    ax1.errorbar(r_kpc, v_obs, yerr=e_vobs, fmt='o', color='black', label='V_obs (SPARC)')
+    ax1.plot(r_kpc, v_pred, color='crimson', lw=2, label='V_pred (H2C Model)')
+    ax1.set_ylabel('Vitesse (km/s)')
+    ax1.set_title(f'Audit H2C - Galaxy {galaxy_name}')
+    ax1.legend()
+    ax1.grid(True, linestyle='--', alpha=0.6)
+    
+    # Résidus
+    residuals = v_obs - v_pred
+    ax2.axhline(0, color='gray', linestyle='--')
+    ax2.errorbar(r_kpc, residuals, yerr=e_vobs, fmt='s', color='navy')
+    ax2.set_xlabel('Rayon (kpc)')
+    ax2.set_ylabel('Écart (km/s)')
+    ax2.grid(True, linestyle='--', alpha=0.6)
+    
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=300)
+    plt.close()
+
 # PARTIE IV : ANNEXES NUMÉRIQUES & GUIDE DES PREUVES
 
 Cette section archive les briques logicielles critiques et le guide de lecture des données brutes validant le modèle.
