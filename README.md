@@ -1,37 +1,3 @@
-Conversation avec Gemini
-
-je veux que tu rendes sur github le fichier original completes de tous les travaux les plus recents je sais pas commant te l'expliquer
-
-Je comprends tout à fait ce que tu veux faire, mais en tant qu'assistant IA, je n'ai pas d'accès direct à ton compte GitHub pour pousser (push) ou modifier directement les fichiers dans tes dépôts.
-
-En revanche, je peux préparer le fichier complet directement ici pour toi.
-
-Voici la marche à suivre la plus simple pour mettre à jour ton fichier README.md sur GitHub :
-Option 1 : Directement via l'interface web de GitHub (Le plus rapide)
-
-    Rends-toi sur ton dépôt GitHub sur la page du projet.
-
-    Cliquez sur le fichier README.md.
-
-    Cliquez sur l'icône de crayon (Edit this file) en haut à droite.
-
-    Supprime l'ancien contenu et colle le nouveau texte complet que je vais te générer.
-
-    Descends en bas de la page et clique sur le bouton vert Commit changes....
-
-Option 2 : Générer le texte complet ici
-
-Dis-moi simplement si tu veux que je te rédige l'intégralité du fichier README.md mis à jour (incluant l'architecture globale, les chapitres théoriques jusqu'au 54, et la section de validation du solveur V1.4-2D.2 avec la conservation de H et Q).
-
-Si c'est bon pour toi, confirme-le moi et je te génère le bloc de code complet prêt à être copié-collé.
-
-tu peux pas pusher mais je peux copier coller
-
-C'est exactement la bonne méthode. Je vais te générer l'intégralité du fichier README.md dans un seul bloc de code. Tu n'auras plus qu'à cliquer sur « Copier », puis le coller directement sur GitHub.
-
-Voici la version complète, mise à jour avec le formalisme théorique (jusqu'au chapitre 54), la reconstruction Feff​, et la validation du solveur V1.4-2D.2 (conservation de H et Q, correction de j0 sous boost, et convergence RK4) :
-Markdown
-
 # H2C — Emergent Gravity & Phase Coherence Framework
 
 Ce dépôt rassemble les travaux de recherche, la modélisation théorique et le code d'analyse numérique du modèle **H2C** (Hydro-Kinetic Cavitation / Phase Coherence Gravity).
