@@ -2,9 +2,7 @@
 
 - [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
 - [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
-- [📱 **Sunny Reminder (Android)**](https://github.com/vahanbarsamian) : Application native Android de rappels avec animations et effets sonores sur-mesure.
-- [🍕 **Pizza App Ecosystem**](https://github.com/vahanbarsamian) : Plateforme PWA/Flutter interactive (gestion des commandes, suivi fidélité et facturation automatique pour micro-entreprise).
-
+  
 > **💡 Comment générer l'exécutable Windows (.exe) :**
 > 1. Téléchargez les deux fichiers ci-dessus (`H2C_Universal_Cockpit.py` et `H2C_Windows_Builder.py`).
 > 2. Placez-les dans le même dossier sur votre ordinateur.
