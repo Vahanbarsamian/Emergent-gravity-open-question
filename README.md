@@ -298,11 +298,11 @@ Cette analogie ne doit pas être considérée comme une équivalence physique �
 
 * **Logique A — Relaxation temporelle :** le système évolue réellement dans le temps et atteint progressivement une configuration stable :
 
-  $$ Q_0 \to Q_1 \to \dots \to Q_{\text{stable}} $$
+  $$Q_0\to Q_1\to \dots\to Q_{\text{stable}}$$
 
 * **Logique B — Somme sur les configurations et phase stationnaire :** toutes les configurations contribuent à une amplitude globale sans succession temporelle :
 
-  $$ \Psi \sim \int \mathcal{D}[\text{configurations}] \, e^{iS/\hbar} $$
+  $$\Psi\sim\int\mathcal{D}[\text{configurations}]\, e^{iS/\hbar}$$
 
 Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de $g_{\mu\nu}$.
 
@@ -967,9 +967,7 @@ Une vérification algébrique supplémentaire a montré que le rapport 70A conte
 
 Le potentiel est :
 
-$$
-F = -r \sum_a \vert{}\psi_a\vert{}^2 + u \sum_a \vert{}\psi_a\vert{}^4 + v \sum_{a<b} \vert{}\psi_a\vert{}^2 \vert{}\psi_b\vert{}^2, \quad r>0, \, u>0, \, v>0
-$$
+$$F = -r \sum_a |\psi_a|^2 + u \sum_a |\psi_a|^4 + v \sum_{a < b} |\psi_a|^2 |\psi_b|^2, \quad r > 0, \, u > 0, \, v > 0$$
 
 **Rang 1**
 
@@ -1111,9 +1109,7 @@ $$
 
 Le modèle minimal :
 
-$$
-F = -r \sum_a \vert{}\psi_a\vert{}^2 + u \sum_a \vert{}\psi_a\vert{}^4 + v \sum_{a<b} \vert{}\psi_a\vert{}^2 \vert{}\psi_b\vert{}^2
-$$
+$$F = -r \sum_a |\psi_a|^2 + u \sum_a |\psi_a|^4 + v \sum_{a < b} |\psi_a|^2 |\psi_b|^2$$
 
 possède donc, pour $u>0$ et $r>0$, un seuil naturel :
 
@@ -1278,9 +1274,7 @@ Critère : $v_c(N) \to 2$ indique un effet de taille finie. Sinon, la taille fin
 
 Le potentiel de départ reste :
 
-$$
-F_0 = -r \sum_a \vert{}\psi_a\vert{}^2 + u \sum_a \vert{}\psi_a\vert{}^4 + v \sum_{a<b} \vert{}\psi_a\vert{}^2 \vert{}\psi_b\vert{}^2
-$$
+$$F_0 = -r \sum_a |\psi_a|^2 + u \sum_a |\psi_a|^4 + v \sum_{a < b} |\psi_a|^2 |\psi_b|^2$$
 
 Un seul terme supplémentaire doit être introduit à la fois.
 
@@ -1325,9 +1319,7 @@ $$
 
 Le potentiel reconstruit peut ensuite être comparé à :
 
-$$
-F_{\text{eff}} = -r_{\text{eff}} \sum_a \vert{}\psi_a\vert{}^2 + u_{\text{eff}} \sum_a \vert{}\psi_a\vert{}^4 + \sum_{a<b} v_{ab,\text{eff}} \vert{}\psi_a\vert{}^2 \vert{}\psi_b\vert{}^2 + \dots
-$$
+$$F_{\text{eff}} = -r_{\text{eff}} \sum_a |\psi_a|^2 + u_{\text{eff}} \sum_a |\psi_a|^4 + \sum_{a < b} v_{ab,\text{eff}} |\psi_a|^2 |\psi_b|^2 + \dots$$
 
 L'objectif est de déterminer si les $v_{ab}$, les anisotropies et d'éventuels termes de phase ou de gradient apparaissent dans les données, plutôt que d'être introduits pour reproduire un résultat.
 
