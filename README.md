@@ -160,7 +160,7 @@ Lors de la nucléation d'un flux d'énergie, les phases locales tendent à s'ali
 * **Auto-régularisation :** Ces contre-poussées dynamiques agissent comme une soupape de sécurité empêchant l'amplitude d'atteindre zéro ($A \to 0$).
 * **Plancher d'amplitude :** Stabilisation d'une valeur minimale finie :
 
-  $$ A_{\text{min}} \approx 0.6132 $$
+  $$A_{\text{min}} \approx 0.6132$$
 
 Le cœur condensé possède une métrique lisse, continue et non singulière. La division par zéro ($n \to \infty$) est éliminée par la réponse propre du substrat.
 
