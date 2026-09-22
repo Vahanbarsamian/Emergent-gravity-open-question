@@ -954,31 +954,31 @@ $$ \boxed{\alpha_M\simeq1} $$
 
 et :
 
-$$ \boxed{\gamma_\Sigma\simeq0.28}. $$
+$$\boxed{\gamma_\Sigma\simeq0.28}.$$
 26. Statut scientifique complet à inscrire dans notre suivi
 Élément	Statut actuel
 175 galaxies analysées	établi pour cette campagne
-Relation \(V^4\)-\(M_{\rm bar}\)	établie empiriquement
-Pente \(1.1475\pm0.0320\)	mesurée
+Relation $$\(V^4\)-\(M_{\rm bar}\)$$	établie empiriquement
+Pente $$\(1.1475\pm0.0320\)$$	mesurée
 Écart à 1 de 4,60 σ	mesuré dans OLS
-Introduction de \(\Sigma_0\)	testée
-Pente \(1.0032\pm0.0410\)	mesurée
-Compatibilité avec \(\alpha_M=1\)	très forte
-\(\gamma_\Sigma=0.2787\pm0.0542\)	mesuré
-Significativité de \(\Sigma_0\)	~5,1 σ dans OLS
-Bootstrap \(\alpha_M\)	compatible avec 1
-Bootstrap \(\gamma_\Sigma\)	positif et stable
+Introduction de $$\(\Sigma_0\)$$	testée
+Pente $$\(1.0032\pm0.0410\)$$	mesurée
+Compatibilité avec $$\(\alpha_M=1\)$$	très forte
+$$\(\gamma_\Sigma=0.2787\pm0.0542\)$$	mesuré
+Significativité de $$\(\Sigma_0\)$$	~5,1 σ dans OLS
+Bootstrap $$\(\alpha_M\)$$	compatible avec 1
+Bootstrap $$\(\gamma_\Sigma\)$$	positif et stable
 VIF ≈ 1.88	pas de colinéarité sévère
 AIC/BIC	fortement en faveur du modèle B
-Résidu H2C corrélé à \(\Sigma_0\)	oui
-Effet indépendant de \(M_{\rm bar}\) dans le résidu	compatible avec zéro
+Résidu H2C corrélé à $$\(\Sigma_0\)$$	oui
+Effet indépendant de $$\(M_{\rm bar}\)$$ dans le résidu	compatible avec zéro
 \(\Sigma_0\) cause physique	non démontré
 \(\gamma=0.28\) constante fondamentale	non démontré
 Dépendance à \(R_d\) contrôlée	pas encore
 Dépendance à la fraction gazeuse contrôlée	pas encore
 Dépendance morphologique contrôlée	pas encore
 Nouvelle loi gravitationnelle H2C	pas encore dérivée
-Lien \(\Sigma_0\rightarrow C\)	pas encore dérivé
+Lien $$\(\Sigma_0\rightarrow C\)$$	pas encore dérivé
 Équations d'Einstein émergentes	toujours non dérivées
 27. Et je pense qu'il faut conserver précisément cette formulation dans le README
 
@@ -986,7 +986,7 @@ Je proposerais d'ajouter une section historique du type :
 
 Résultat majeur — Juge de paix 2 : décomposition du résidu \(M_{\rm bar}/\Sigma_0\)
 
-Sur 175 galaxies SPARC, la régression de \(\log V^4\) sur \(\log M_{\rm bar}\) seul donne une pente \(1.1475\pm0.0320\), s'écartant de 1 à 4,60 σ. L'introduction de la densité de surface baryonique \(\Sigma_0\) dans une régression multivariée donne \(1.0032\pm0.0410\) pour le coefficient de \(\log M_{\rm bar}\), compatible avec la pente théorique 1, tandis que le coefficient de \(\log\Sigma_0\) vaut \(0.2787\pm0.0542\). Les critères AIC/BIC favorisent nettement le modèle à deux variables et les VIF (~1,88) n'indiquent pas de colinéarité sévère. La régression directe du résidu H2C sur \(\Sigma_0\) conserve un coefficient positif significatif, tandis que l'effet indépendant de \(M_{\rm bar}\) devient compatible avec zéro. Ce résultat constitue une contrainte observationnelle/statistique nouvelle pour le projet, mais ne constitue pas une validation de la théorie H2C ni une dérivation physique du coefficient \(0.28\). Des contrôles supplémentaires sur le rayon de disque, la fraction gazeuse, la morphologie et les choix de masse stellaire sont nécessaires avant toute interprétation physique.
+Sur 175 galaxies SPARC, la régression de $$\(\log V^4\)$$ sur $$\(\log M_{\rm bar}\)$$ seul donne une pente $$\(1.1475\pm0.0320\)$$, s'écartant de 1 à 4,60 σ. L'introduction de la densité de surface baryonique $$\(\Sigma_0\)$$ dans une régression multivariée donne $$\(1.0032\pm0.0410\)$$ pour le coefficient de $$\(\log M_{\rm bar}\)$$, compatible avec la pente théorique 1, tandis que le coefficient de $$\(\log\Sigma_0\)$$ vaut $$\(0.2787\pm0.0542\)$$. Les critères AIC/BIC favorisent nettement le modèle à deux variables et les VIF (~1,88) n'indiquent pas de colinéarité sévère. La régression directe du résidu H2C sur $$\(\Sigma_0\)$$ conserve un coefficient positif significatif, tandis que l'effet indépendant de $$\(M_{\rm bar}\)$$ devient compatible avec zéro. Ce résultat constitue une contrainte observationnelle/statistique nouvelle pour le projet, mais ne constitue pas une validation de la théorie H2C ni une dérivation physique du coefficient $$\(0.28\)$$. Des contrôles supplémentaires sur le rayon de disque, la fraction gazeuse, la morphologie et les choix de masse stellaire sont nécessaires avant toute interprétation physique.
 
 C'est, à mon avis, la formulation la plus défendable scientifiquement à ce stade.
 
