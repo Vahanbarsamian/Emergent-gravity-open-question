@@ -1,1989 +1,2292 @@
-
-    Emergent-gravity-open-question
-
-/README.md
-tT
-Vahanbarsamian
-Vahanbarsamian
-Update README.md
-761465e
- · 
-8 minutes ago
-
-    Emergent-gravity-open-question
-
-/README.md
-
-    Preview
-    Code
-    Blame
-
-2345 lines (1389 loc) · 105 KB
-
 🛠️ H2C SOFTWARE DOWNLOADS
 
-    🚀 Pro version (Python) : H2C_Universal_Cockpit.py (Full Scientific Functions)
+* [🚀 **Pro Version (Python)**: H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Full scientific functions)
 
-    🪟 Windows version (Builder): H2C_Windows_Builder.py (Generates a standalone .exe)
+* [🪟 **Windows Version (Builder)**: H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Generates a standalone .exe)
 
-    💡 How to generate the Windows executable (.exe):
+> **💡 How to generate the Windows executable (.exe):**
+>
+> 1. Download both files above (`H2C_Universal_Cockpit.py` and `H2C_Windows_Builder.py`).
+>
+> 2. Place them in the same folder on your computer.
+>
+> 3. Open a terminal and run the builder: `python H2C_Windows_Builder.py`.
+>
+> 4. Your standalone application will be created in the `dist/` folder.
 
-        Download the two files above ( H2C_Universal_Cockpit.pyand H2C_Windows_Builder.py).
+# Geometric Emergence, Self-Correction and Galactic Dynamics (H2C Framework)
 
-        Place them in the same folder on your computer.
+## Citation
 
-        Open a terminal and launch the builder: python H2C_Windows_Builder.py.
+If you reference this work, please use the following citation:
 
-        Your standalone application will be created in the folder dist/.
+> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field* $C(x)$*: An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22068679
 
-Geometric Emergence, Self-Correction and Galactic Dynamics (H2C Framework)
-Quote
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22068679.svg)](https://doi.org/10.5281/zenodo.22068679)
 
-If you reference these work, please use the following quote:
+[🇫🇷 Version française](README.md) | 🇬🇧 English
 
-    Barsamian, V. (2026). Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C ( x ) : An Explorer Framework and Numerical Test Program. Zenodo. https://doi.org/10.5281/zenodo.22068679
+# Open Question & Theoretical Manuscript: Can Gravitational Geometry Emerge from a Quantum Structure?
 
-DOI
+> ⚠️ **Note:** this document is updated frequently. Please refresh the page to view the latest version.
+> 📎 **Companion document:** [Mapping of research directions](./Reflexion-ouverte-sur-la-gravite.fr.md) — contains precise references to the existing literature and the quantitative validation criterion (section 11); consult and edit only there.
 
-🇫🇷 English | 🇬🇧 English version
-Open Question & Theoretical Manuscript: Can gravitational geometry emerge from a quantum structure?
+**Document status:** Theoretical synthesis note, formalization of the self-consistent solver, and validation report on the SPARC catalogue (175 galaxies).
+**Author:** Vahan Barsamian
+**Context:** Work carried out in parallel with the H2C V8.4-R project (open-source hydrogen reactor), with no technical link between the two.
 
-    ⚠️ Note : This document evolves frequently. Remember to refresh the page to see the latest version. 📎 Companion document : Mapping of research trails — contains the precise references to the existing literature and the quantitative validation criterion (section 11), to be consulted and modified only at that location.
+> **Important:** This document presents a falsifiable research program and a self-consistent solver with no parameter fitted per galaxy. It does not claim to complete a final theory of quantum gravity, but provides a watertight numerical framework confronted with observational data.
 
-Document status: Theoretical summary note, formalization of the self-consistent solver and validation report on the SPARC catalog (175 galaxies).
-Author : Vahan Barsamian
-Context : Reflection conducted in parallel with the H2C V8.4-R project (open-source hydrogen reactor), without technical link between the two.
+## 1. Starting Point & Timeline of the Inquiry
 
-    Important: This document presents a falsifiable search program and a self-consistent solver without a free parameter adjusted by galaxy. It does not claim the completion of a final theory of quantum gravity, but provides a tight numerical framework confronted with observational data.
-
-1. Starting Point & Chronology of Reflection
-1.1 The initial question
+### 1.1 The initial question
 
 The initial question was deliberately broad:
 
-    Is there a physical mechanism that can locally compensate for the gravitational effect on an object?
+> **Does a physical mechanism exist that could locally offset the gravitational effect on an object?**
 
-Several classical avenues have been explored (air ionization, Lense-Thirring type gravitomagnetism, exotic energy distributions, dark energy). These tracks do not provide a controllable macroscopic mechanism in the context of the currently established physics. This research has gradually led to a different and more fundamental question:
+Several classical avenues were explored (air ionization, Lense-Thirring–type gravitomagnetism, exotic energy distributions, dark energy). These avenues do not provide a controllable macroscopic mechanism within currently established physics. This inquiry gradually led to a different, more fundamental question:
 
-    Could gravity itself be an emerging property of a more fundamental quantum structure?
+> **Could gravity itself be an emergent property of a more fundamental quantum structure?**
 
-The problem is therefore no longer to immediately seek an “antigravitational force”, but to question the effective origin of the gravitational geometry and the constant G .
-2. What is Established
+The problem is thus no longer to immediately look for an "antigravity force," but to question the effective origin of gravitational geometry and of the constant $G$.
 
-General relativity describes gravity by Einstein equations:
+## 2. What Is Established
 
-G μ ν + Λ g μ ν = 8 π G c 4 T μ ν
+General relativity describes gravitation through Einstein's equations:
 
-where g μ ν is the metric of space-time, G μ ν = R μ ν − 1 2 R g μ ν Einstein's tensor, Λ the cosmological constant, G the gravitational constant, T μ ν the energy-pulse tensor. The complete curvature tensor is the Riemann tensor R ρ σ μ ν .
+$$
+G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
+$$
 
-    Important clarification : G μ ν is not the complete curvature tensor. It is Einstein's tensor that intervenes directly in Einstein's equations.
+where $g_{\mu\nu}$ is the spacetime metric, $G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}$ the Einstein tensor, $\Lambda$ the cosmological constant, $G$ the gravitational constant, $T_{\mu\nu}$ the stress-energy tensor. The full curvature tensor is the Riemann tensor $R^{\rho}{}_{\sigma\mu\nu}$.
 
-3. Why take an interest in the Origin of G ?
+> **Important clarification:** $G_{\mu\nu}$ is not the full curvature tensor. It is the Einstein tensor that appears directly in Einstein's equations.
 
-General relativity describes gravity remarkably well, but it does not alone provide a microscopic description of the origin of the constant G .
+## 3. Why Investigate the Origin of $G$?
 
-    Is the gravitational constant fundamental, or could it be an effective parameter resulting from a deeper dynamic?
+General relativity describes gravity remarkably well, but on its own it does not provide a microscopic description of the origin of the constant $G$.
 
-This question leads in particular to the concept of induced gravity, historically associated with the work of Andrei Sakharov.
-4. The Track of Induced Gravity
+> **Is the gravitational constant fundamental, or could it be an effective parameter resulting from deeper dynamics?**
 
-In the idea of induced gravity, the Einstein-Hilbert gravitational term may appear as an effective term resulting from quantum field fluctuations coupled to a geometry:
+This question leads in particular to the concept of **induced gravity**, historically associated with the work of Andrei Sakharov.
 
-S EH = c 3 16 π G ∫ d 4 x − g , R
+## 4. The Induced Gravity Avenue
 
-After integration of quantum degrees of freedom, it is possible to schematically obtain:
+In the idea of induced gravity, the Einstein-Hilbert–type gravitational term can appear as an effective term resulting from quantum fluctuations of fields coupled to a geometry:
 
-S eff [ g ] = ∫ d 4 x − g [ c 3 16 π G eff ( R − 2 Λ eff ) + a R 2 + b R μ ν R μ ν + ⋯ ]
+$$
+S_{\mathrm{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R
+$$
 
-The important idea is that the coefficient of the term curvature R can receive a contribution from integrated quantum degrees of freedom.
-5. A Schematic Relationship for 1 / G eff
+After integrating out quantum degrees of freedom, one can schematically obtain:
 
-1 G eff ∼ ∑ i c i N i Λ i 2
+$$
+S_{\mathrm{eff}}[g] = \int d^4x \sqrt{-g} \left[ \frac{c^3}{16\pi G_{\mathrm{eff}}} (R - 2\Lambda_{\mathrm{eff}}) + aR^2 + bR_{\mu\nu}R^{\mu\nu} + \cdots \right]
+$$
 
-where N i is the number of degrees of freedom of a sector, Λ i a cut-off scale, c i a coefficient dependent on theory, spin, couplings and regularization. This relationship is schematic and dependent on the theoretical framework — it does not show that G is directly determined by the real quantum content of the Universe.
-6. What this Relationship does NOT allow to affirm
-6.1 The cutoff Λ is not necessarily a manipulable physical parameter
-6.2 A variation of G would be heavily constrained
-7. The Change of Perspective
+The key idea is that the coefficient of the curvature term $R$ can receive a contribution from the integrated-out quantum degrees of freedom.
 
-A modification of G is not enough to explain gravity, which is a theory of the Dynamic geometry of space-time. The deeper question becomes:
+## 5. A Schematic Relation for $1/G_{\mathrm{eff}}$
 
-    Could geometry itself emerge from more fundamental degrees of quantum freedom?
+$$
+\frac{1}{G_{\mathrm{eff}}} \sim \sum_i c_i N_i \Lambda_i^2
+$$
 
-structure quantique microscopique → corrélations → géométrie effective → gravité classique
-8. Work hypothesis
+where $N_i$ is the number of degrees of freedom of a sector, $\Lambda_i$ a cutoff scale, $c_i$ a coefficient depending on the theory, spin, couplings and regularization. This relation is **schematic and framework-dependent** — it does not demonstrate that $G$ is directly determined by the actual quantum content of the Universe.
 
-    The Classic Metric g μ ν could be an emerging collective variable resulting from the organization or correlations of a more fundamental set of quantum degrees of freedom Φ ^ i .
+## 6. What This Relation Does NOT Allow Us to Claim
 
-9. The Central Mathematical Question
+### 6.1 The cutoff $\Lambda$ is not necessarily a physically manipulable parameter
 
-G μ ν ( x ) = F μ ν [ ⟨ Φ ^ i ( x ) Φ ^ j ( x ′ ) ⟩ ]
-10. A more general formulation
+### 6.2 A variation of $G$ would be strongly constrained
 
-Q [ ⟨ Φ ^ i Φ ^ j ⟩ , ⟨ Φ ^ i Φ ^ j Φ ^ k ⟩ , … ] → g μ ν → R μ ν , R , G μ ν
+## 7. The Shift in Perspective
 
-    What structure of quantum correlations could produce an effective geometry possessing the properties of relativistic space-time?
+A modification of $G$ is not enough to explain gravity, which is a theory of the **dynamical geometry of spacetime**. The deeper question becomes:
 
-THEORETICAL & DIGITAL SYNTHESIS MANUSCRIPT (DRAFT V1)
-Model H2C : Emerging Gravity by Phase Condensation and Vacuum Self-Interaction
-Chapter 1: The Substrate S 2 and the Vacuum Disaster ( 10 120 )
-1.1 The microscopic reservoir
+> **Could geometry itself emerge from more fundamental quantum degrees of freedom?**
 
-Gravity is modeled not as a primary fundamental interaction, but as the refractive manifestation of a phase coherence field C ( x ) . The quantum vacuum is represented by a reservoir of very high frequency stationary oscillations (Planck scale).
-1.2 Statistical cancellation and factor 10 120
+$$
+\text{microscopic quantum structure} \to \text{correlations} \to \text{effective geometry} \to \text{classical gravity}
+$$
 
-The zero-point energy of the quantum vacuum exceeds the observed cosmological value by a factor 10 120 . In the H2C model, this factor translates the massive destructive interference rate within a network of free phase agents oriented on the sphere S 2 . The observable residual field Λ represents the uncancelled component resulting from this statistical averaging:
+## 8. Working Hypothesis
 
-[ Phase Microfluctuations on the Planck Scale ]ρ_micro ~ ρ_Planck ~ 10^{114} J/m3│▼ ( Overall Meanagement on N >> 1 modes )[ Destructive Phase Filter (R < 0) │▼ ( Critical Background Condensation C_c )[ Macro Emergent Density ρ_vac = V(C_c) ]ρ_macro ~ 10^{-6} J/m3 (Factor 10^ $$ \langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i\phi_k} \sim \frac{1}{\sqrt{N}} \approx 10^{-60} \implies \rho_\Lambda \sim 10^{-120} $$
-Chapter 2 : The Droplet of Coherence & Campaign 61H-10A ( A min = 0.6132 )
-2.1 Phase dynamics and removal of singularities
+> **The classical metric** $g_{\mu\nu}$ **could be an emergent collective variable resulting from the organization or correlations of a set of more fundamental quantum degrees of freedom** $\hat{\Phi}_i$**.**
 
-When nucleating an energy flow, the local phases tend to align. The 61H-10A Digital Campaign ( N = 2000 agents out of 500 steps) tested this dynamic without artificial bounding.
-2.2 Result of the 61H-10A (Phase Inversions) Campaign
+## 9. The Central Mathematical Question
 
-    Phase tilts : 55 706 sign inversions ( ± ) detected on amplitude derivatives.
+$$
+G_{\mu\nu}(x) = \mathcal{F}_{\mu\nu}\left[\langle\hat{\Phi}_i(x)\hat{\Phi}_j(x')\rangle\right]
+$$
 
-    Self-regulation : These dynamic counter-thrusts act as a safety valve preventing the amplitude from reaching zero ( A → 0 ).
+## 10. A More General Formulation
 
-    Amplitude floor : Stabilization of a minimum finite value :
+$$
+\mathcal{Q}\left[\langle\hat{\Phi}_i\hat{\Phi}_j\rangle, \langle\hat{\Phi}_i\hat{\Phi}_j\hat{\Phi}_k\rangle, \dots\right] \to g_{\mu\nu} \to R_{\mu\nu}, R, G_{\mu\nu}
+$$
 
-    A min ≈ 0.6132
+> **What structure of quantum correlations could produce an effective geometry possessing the properties of relativistic spacetime?**
 
-The condensed heart has a smooth, continuous and non-singular metric. Division by Zero ( n → ∞ ) is eliminated by the proper response of the substrate.
-Chapter 3 : From Local to Global — Refutation of Linear Models (SPARC / 61H-11/12)
-3.1 Rebuttal of point and linear models
+# THEORETICAL & NUMERICAL SYNTHESIS MANUSCRIPT (DRAFT V1)
 
-The transposition of the model to the solar system (deflection of light rays) with a refractive index n ( r ) = 1 + K r A ( r ) reproduces the value of Einstein ( 1.7501 ″ ) in the case limit where A = 1.0 .
+## H2C Model: Emergent Gravity through Phase Condensation and Vacuum Self-Interaction
 
-However, the application of this linear formalism to the SPARC galactic database (175 galaxies) revealed a strict structural limit:
-Model / Test 	RMSE (RAR) 	BTFR slope 	Amplification Max
-H2C Fixed ( A min = 0.61 ) 	0.4124 	0.3015 	1.63 ×
-H2C Scaling ( M − 0.055 ) 	0.4281 	0.3242 	1.4 × to 2.1 ×
-Observations (SPARC) 	0.1927 	0.2500 	Up to 34 ×
-3.2 Diagnosis
+### Chapter 1: The $S^2$ Substrate and the Vacuum Catastrophe ($10^{120}$)
 
-The integration of a linear index on a point source or an extended disk inevitably falls back into the far field on a keplerian law in 1 / r 2 (logarithmic slope of − 2.00 ). The extended geometry of baryonic matter alone is not sufficient to soften the decay of the field.
-Chapter 4 : The Self-Interaction of the Void & Campaign 61H-13 (PLateau MOND à − 1.0000 )
-4.1 Non-linearity of the phase field
+#### 1.1 The microscopic reservoir
 
-To overcome the gradient of the decrease in 1 / r 2 , a quartic self-interaction term is introduced into the state equation of the condensate S 2 . The generalized Poisson equation takes the form:
+Gravity is modeled not as a primordial fundamental interaction, but as the refractive manifestation of a phase coherence field $C(x)$. The quantum vacuum is represented by a reservoir of very-high-frequency stationary oscillations (Planck scale).
 
-∇ ⋅ [ μ ( | ∇ n | a 0 ) ∇ n ] = 8 π G c 2 ρ baryon
+#### 1.2 Statistical cancellation and the $10^{120}$ factor
 
-With the intrinsic acceleration constant calibrated on the noise of the vacuum:
+The zero-point energy of the quantum vacuum exceeds the observed cosmological value by a factor of $10^{120}$. In the H2C model, this factor reflects the rate of massive destructive interference within a network of agents with free phases oriented on the sphere $S^2$. The observable residual field $\Lambda$ represents the non-cancelled component arising from this statistical averaging:
 
-a 0 = c 2 Λ 3 ≈ 1.20 × 10 − 10  m/s 2
-4.2 Campaign Results 61H-13
+[ Phase Micro-fluctuations at the Planck Scale ]ρ_micro ~ ρ_Planck ~ 10^{114} J/m³│▼ ( Ensemble averaging over N >> 1 modes )[ Destructive Phase Filter (R < 0) ]│▼ ( Condensation of the critical background C_c )[ Emergent Macro Density ρ_vac = V(C_c) ]ρ_macro ~ 10^{-6} J/m³ (Factor 10^{-120})│▼[ Effective Metric & Cosmological Einstein Equation ]G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}
+$$
+\langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i\phi_k} \sim \frac{1}{\sqrt{N}} \approx 10^{-60} \implies \rho_\Lambda \sim 10^{-120} \rho_{\text{Planck}}
+$$
 
-    Locking of the slope : In weak field ( g bar ≪ a 0 ), the gradient self-maintains and adopts the exact slope − 1.0000 ( θ périphérie = − 0.9999 ).
-    Amplification ratio : Field decay with respect to visible matter, making it possible to achieve amplification factors greater than 30 × on the edge of the disk.
+### Chapter 2: The Coherence Droplet & Campaign 61H-10A ($A_{\text{min}} = 0.6132$)
 
-PART II : THEORETICAL DEEPENING & ASTROPHYSICAL VALIDATION PROTOCOL (SPARC)
-5. Formal Synthesis Note: Validation of the H2C Model on the SPARC Sample Q=1
+#### 2.1 Phase dynamics and singularity suppression
 
-Author : Vahan Barsamian
-Date : 21 September 2026
-Subject : Statistical analysis, phase screening s ( r ) and cross-sequent validation of the law r g ( Σ 0 ) on the SPARC catalogue ( Q = 1 , N = 122 ).
-Theoretical Framework and Cosmological Anchorage
+During the nucleation of an energy flux, local phases tend to align. Numerical campaign 61H-10A ($N=2000$ agents over 500 steps) tested this dynamics with no artificial bounding.
 
-Model H2C (Emergent Gravity / Phase Coherence) postulates a universal critical cosmological acceleration scale: a 0 , H 2 C = c 2 Λ 3 ≈ 5 , 456 × 10 − 10  m/s 2
+#### 2.2 Results of Campaign 61H-10A (Phase Inversions)
 
-From this constant directly derives the characteristic surface density of the H2C frame, without any adjusted or imported parameter of empirical MOND: Σ ⋆ , H 2 C = a 0 , H 2 C 2 π G ≈ 623 , 1 M ⊙ / pc 2
-Connection to Literature and Surface Density Dependence
+* **Phase flips:** 55,706 sign inversions ($\pm$) detected in the amplitude derivatives.
+* **Self-regularization:** These dynamical counter-thrusts act as a safety valve preventing the amplitude from reaching zero ($A \to 0$).
+* **Amplitude floor:** Stabilization at a finite minimum value:
 
-Nonparametric Rank (Spearman) correlation analysis conducted on the 122 galaxies in the SPARC sample Q = 1 Demonstrates a strong anticorrelation between the effective acceleration amplitude ξ i and the central surface density Σ 0 :
+  $$A_{\text{min}} \approx 0.6132$$
 
-    Overall correlation : ρ ( ξ i , Σ 0 ) = − 0 , 682 ( p = 1 , 4 × 10 − 17 < 0 , 0167 , Bonferroni)
-    Partial insulating correlation M bar : ρ partiel ( ξ i , Σ 0 ∣ M bar ) = − 0 , 521 ( p = 3 , 1 × 10 − 9 )
-    Partial insulating correlation Σ 0 : ρ partiel ( ξ i , M bar ∣ Σ 0 ) = − 0 , 084 ( p = 0 , 361 , not significant)
+The condensed core has a smooth, continuous, non-singular metric. Division by zero ($n \to \infty$) is eliminated by the substrate's own response.
 
-Theoretical Framing
-This result is not presented as an ex-nihilo discovery, but as the mechanistic reproduction, within the formalism H2C, of the Radial Acceleration Relation (RAR — McGaugh, Lelli & Schombert 2016) and the field/environment effects documented in the literature (Chae et al. 2020). The H2C model provides an underlying physical explanation (phase screening at the heart of dense systems) to this empirical transition.
-Radial Screening Mechanism s ( r ) and Geometric Discrimination
+### Chapter 3: From Local to Global — Refutation of Linear Models (SPARC / 61H-11/12)
 
-In order to incorporate the spatial modulation of the phase coherence of the core towards the halo, a screening profile s ( r ) is introduced : a 0 ( r ) = a 0 , H 2 C ⋅ [ 1 − s ( r ) ] 2 , avec  s ( r ) = ( 1 + r / r g ) − n ( n = 2 , C c = 0 , 2  fixé a priori )
+#### 3.1 Refutation of point-like and linear models
 
-The comparative test between a simple constant scale factor ξ fit (Test A) and the radial profile s ( r ) (Test B) demonstrates on the diffuse dwarf DDO 154 that the radial shape provides a real geometric information (RMSE passing from 11 , 10  km/s for Test A to 7 , 10  km/s for Test B), suggesting that the screening is not reduced to an overall amplitude re-normalization.
-Dynamic Formulation r g ( Σ 0 ) and Sealed Cross Validation (10-Fold)
+Transposing the model to the Solar System (light-ray deflection) with a refractive index $n(r) = 1 + \frac{K}{r A(r)}$ reproduces Einstein's value ($1.7501''$) in the limiting case where $A = 1.0$.
 
-To model the dependency of the screening radius r g to the local baryonic environment, a single functional shape with strict dimensional anchoring has been retained: r g ( Σ 0 ) = r g , 0 ⋅ ( Σ 0 Σ ⋆ , H 2 C ) 1 / 2
+However, applying this linear formalism to the SPARC galactic database (175 galaxies) revealed a strict structural limitation:
 
-Blind Validation Protocol
+| Model / Test | RMSE (RAR) | BTFR Slope | Max Amplification |
+| ----- | ----- | ----- | ----- |
+| Fixed H2C ($A_{\text{min}} = 0.61$) | 0.4124 | 0.3015 | $1.63\times$ |
+| Scaling H2C ($M^{-0.055}$) | 0.4281 | 0.3242 | $1.4\times$ to $2.1\times$ |
+| Observations (SPARC) | 0.1927 | 0.2500 | up to $34\times$ |
 
-    Single functional shape: Zero alternative family tested to avoid any second-order over-adjustment (p-hackingp-hacking).
-    Single degree of freedom adjusted : r g , 0 (characteristic length in kpc).
-    Monte Carlo 10-Fold Cross-Validation Procedure : 10 Stratified 50/50 Random Draws (Calibration Train N = 61 / Evaluation Test N = 61 ).
+#### 3.2 Diagnosis
 
-Results of the cross-validation 10-Fold :
-Sample 	r g , 0 Calibrated 	RMSE Average (km/s) 	Median χ 2 / N
-Train ( N = 61 ) 	2 , 74 ± 0 , 18  kpc 	8 , 95 ± 0 , 42 	12 , 15 ± 0 , 85
-Test ( N = 61 , blind) 	— 	9 , 21 ± 0 , 51 	12 , 74 ± 0 , 92
+Integrating a linear index over a point source or an extended disk inevitably falls back, in the far field, onto a Keplerian $1/r^2$ law (logarithmic slope of $-2.00$). The extended geometry of baryonic matter alone is not enough to soften the field's decay.
 
-    Average degradation on Test : + 4 , 86 (maximum out of 10 prints : + 8 , 3 ), very largely below the critical threshold of + 15 .
-    Conclusion : No over-adjustment. Generalization in the blind is demonstrated.
-    Physical interpretation : The value r g , 0 ≈ 2 , 74  kpc is physically consistent with the typical length scales of the central galactic regions.
+### Chapter 4: Vacuum Self-Interaction & Campaign 61H-13 (MOND Plateau at $-1.0000$)
 
-Overall Synthesis of Performance of the SPARC Catalogue Q=1
-Model / Reference 	Number of local adjustment parameters by galaxy 	Median χ 2 / N ( N = 122 ) 	RMSE Average (km/s)
-Newton pur (Baryons seuls) 	0 	412,5 	48,30
-H2C Solveur A ( a 0 , H 2 C fixe) 	0 	74,2 	19,45
-H2C Test B ( r g = 2 R d fixe) 	0 	19,6 	10,82
-H2C Modèle Couplé r g ( Σ 0 ) 	0 (1 constante globale r g , 0 calibrée sur Train) 	12,45 	9,08
-Portée et Limites Diagnostiquées
+#### 4.1 Nonlinearity of the phase field
 
-    Acquis : L'intégration de r g ( Σ 0 ) fait chuter le χ 2 / N médian global de 74 , 2 à 12 , 45 par rapport au Solveur A sans ajouter aucun degré de liberté ajusté localement au niveau de chaque galaxie.
-    Limites explicites : Le résidu médian χ 2 / N ≈ 12 , 5 reste supérieur d'un facteur 2 à 4 aux ajustements MOND empiriques ( χ 2 / N ≈ 2 -- 5 ). Cette distance impose de présenter H2C non pas comme un modèle opérationnel achevé, mais comme une étape théorique prometteuse démontrant la viabilité d'un mécanisme d'écrantage émergent.
+To free the gradient from the $1/r^2$ decay, a quartic self-interaction term is introduced into the equation of state of the $S^2$ condensate. The generalized Poisson equation takes the form:
 
-    La note de synthèse est stabilisée et prête pour diffusion ou archivage.
+$$
+\nabla \cdot \left[ \mu\left(\frac{|\nabla n|}{a_0}\right) \nabla n \right] = \frac{8\pi G}{c^2} \rho_{\text{baryon}}
+$$
 
-PARTIE III : JOURNAL DES CAMPAGNES & ÉVOLUTION ANALYTIQUE
-12. Pourquoi la question dépasse une simple théorie de G variable
+With the intrinsic acceleration constant calibrated on the vacuum noise floor:
 
-corrélations quantiques → géométrie → G μ ν → gravité
-G serait un paramètre effective de la géométrie émergente, plutôt que le point de départ de la théorie.
-5. Validation Empirique et Origine Théorique du Facteur de Couplage Universel ( S gal )
-A. Analyse de la Dispersion et Indépendance de Masse
+$$
+a_0 = c^2 \sqrt{\frac{\Lambda}{3}} \approx 1.20 \times 10^{-10} \text{ m/s}^2
+$$
 
-L'analyse statistique menée sur l'ensemble du catalogue de galaxies SPARC démontre que le décalage d'échelle Z i (ou facteur d'accélération effectif) est rigoureusement indépendant de la masse baryonique ( M bar ) sur plus de quatre décades.
+#### 4.2 Results of Campaign 61H-13
 
-    Pente de la tendance : ≈ 0 , 078 (comportement plat, écartant définitivement tout artéfact de troncature radiale).
-    Facteur d'échelle global identifié : Z 0 ≈ 8 , 76 , ce qui correspond à un facteur de couplage effectif adimensionnel : S gal = 1 Z 0 ≈ 0 , 114
-    H2C — SYNTHÈSE MAJEURE DE LA CAMPAGNE « JUGE DE PAIX 2 »
+* **Slope lock-in:** In the weak-field regime ($g_{\text{bar}} \ll a_0$), the gradient becomes self-sustaining and adopts the exact slope $-1.0000$ ($\theta_{\text{periphery}} = -0.9999$).
+* **Amplification ratio:** Decoupling of the field from visible matter, reaching amplification factors above $30\times$ at the disk edge.
 
-0. Le point de départ
+# PART II: THEORETICAL DEEPENING & ASTROPHYSICAL VALIDATION PROTOCOL (SPARC)
 
-L'objectif de cette campagne était de répondre à une question précise :
+## 5. Formal Synthesis Note: Validation of the H2C Model on the SPARC Q=1 Sample
 
-Pourquoi la relation observée entre la vitesse asymptotique et la masse baryonique donne-t-elle une pente différente de celle attendue par la relation H2C ?
+**Author:** Vahan Barsamian
+**Date:** September 21, 2026
+**Subject:** Statistical analysis, phase screening $s(r)$, and watertight cross-validation of the law $r_g(\Sigma_0)$ on the SPARC catalogue ($Q=1$, $N=122$).
 
-La relation H2C testée dans la branche « juge de paix » est de type :
+### Theoretical Framework and Cosmological Anchoring
+The H2C model (*Emergent Gravity / Phase Coherence*) posits a universal cosmological critical acceleration scale:
+$$a_{0\,\mathrm{H2C}} = c^2 \sqrt{\frac{\Lambda}{3}} \approx 5.456 \times 10^{-10} \text{ m/s}^2$$
 
-V ∞ 4 = G , M b a r , a 0 H 2 C .
+From this constant follows directly the characteristic surface density of the H2C framework, with no parameter fitted or imported from empirical MOND:
+$$\Sigma_{\star\,\mathrm{H2C}} = \frac{a_{0\,\mathrm{H2C}}}{2\pi G} \approx 623.1\ M_\odot/\text{pc}^2$$
 
-C'est-à-dire :
+### Connection to the Literature and Surface Density Dependence
+Non-parametric rank correlation analysis (Spearman) carried out on the 122 galaxies of the SPARC $Q=1$ sample reveals a strong anticorrelation between the effective acceleration amplitude $\xi_i$ and the central surface density $\Sigma_0$:
+* **Global correlation:** $\rho(\xi_i, \Sigma_0) = -0.682$ ($p = 1.4\times10^{-17} < 0.0167$, Bonferroni)
+* **Partial correlation isolating $M_{\mathrm{bar}}$:** $\rho_{\mathrm{partial}}(\xi_i, \Sigma_0 \mid M_{\mathrm{bar}}) = -0.521$ ($p = 3.1\times10^{-9}$)
+* **Partial correlation isolating $\Sigma_0$:** $\rho_{\mathrm{partial}}(\xi_i, M_{\mathrm{bar}} \mid \Sigma_0) = -0.084$ ($p = 0.361$, not significant)
 
-log 10 ⁡ V ∞ 4 = log 10 ⁡ M b a r + log 10 ⁡ ( G a 0 ) .
+**Theoretical framing**
+This result is not presented as a discovery ex nihilo, but as the mechanistic reproduction, within the H2C formalism, of the *Radial Acceleration Relation* (RAR — McGaugh, Lelli & Schombert 2016) and of the field/environment effects documented in the literature (Chae et al. 2020). The H2C model provides an underlying physical explanation (phase screening at the core of dense systems) for this empirical transition.
 
-La prédiction structurelle est donc :
+### Radial Screening Mechanism $s(r)$ and Geometric Discrimination
+To incorporate the spatial modulation of phase coherence from core to halo, a screening profile $s(r)$ is introduced:
+$$a_0(r) = a_{0\,\mathrm{H2C}} \cdot [1 - s(r)]^2, \quad \text{with } s(r) = (1 + r / r_g)^{-n} \quad (n=2, C_c=0.2 \text{ fixed a priori})$$
 
-α M = 1
+The comparative test between a simple constant scale factor $\xi_{\mathrm{fit}}$ (Test A) and the radial profile $s(r)$ (Test B) demonstrates, on the diffuse dwarf DDO 154, that the radial form carries genuine geometric information (RMSE dropping from $11.10 \text{ km/s}$ for Test A to $7.10 \text{ km/s}$ for Test B), suggesting that screening is not reducible to a global amplitude renormalization.
 
-La pente de log ⁡ V 4 en fonction de log ⁡ M b a r .
+### Dynamic Formulation $r_g(\Sigma_0)$ and Watertight Cross-Validation (10-Fold)
+To model the dependence of the screening radius $r_g$ on the local baryonic environment, a single functional form with strict dimensional anchoring was retained:
+$$r_g(\Sigma_0) = r_{g,0} \cdot \left(\frac{\Sigma_0}{\Sigma_{\star\,\mathrm{H2C}}}\right)^{1/2}$$
 
-Le problème initial était que les données SPARC semblaient donner une pente sensiblement supérieure à 1.
-1. Première observation : la loi M b a r seule donne une pente trop forte
+**Blind validation protocol**
+* **Single functional form:** Zero alternative families tested, to avoid any second-order overfitting (*p-hacking*).
+* **Single fitted degree of freedom:** $r_{g,0}$ (characteristic length in kpc).
+* **10-Fold Monte Carlo Cross-Validation procedure:** 10 stratified random 50/50 draws (Calibration Train $N=61$ / Evaluation Test $N=61$).
 
-Sur les 175 galaxies utilisées dans cette campagne, le modèle :
+**10-Fold cross-validation results:**
 
-log ⁡ V 4 = A + α M log ⁡ M b a r
+| Sample | Calibrated $r_{g,0}$ | Mean RMSE (km/s) | Median $\chi^2/N$ |
+| :--- | :--- | :--- | :--- |
+| **Train ($N=61$)** | $2.74 \pm 0.18 \text{ kpc}$ | $8.95 \pm 0.42$ | $12.15 \pm 0.85$ |
+| **Test ($N=61$, blind)** | — | $9.21 \pm 0.51$ | $12.74 \pm 0.92$ |
 
-donne :
+* **Mean degradation on Test:** $+4.86\%$ (maximum over 10 draws: $+8.3\%$), well below the critical threshold of $+15\%$.
+* **Conclusion:** No overfitting. Blind generalization is demonstrated.
+* **Physical interpretation:** The value $r_{g,0} \approx 2.74 \text{ kpc}$ is found to be physically consistent with the typical length scales of galactic central regions.
 
-α M = 1.147502 ± 0.032045
+### Overall Performance Summary on the SPARC Q=1 Catalogue
 
-avec :
+| Model / Reference | Number of locally fitted parameters per galaxy | Median $\chi^2/N$ ($N=122$) | Mean RMSE (km/s) |
+| :--- | :--- | :--- | :--- |
+| **Pure Newton (Baryons only)** | 0 | 412.5 | 48.30 |
+| **H2C Solver A (fixed $a_{0\,\mathrm{H2C}}$)** | 0 | 74.2 | 19.45 |
+| **H2C Test B (fixed $r_g=2R_d$)** | 0 | 19.6 | 10.82 |
+| **H2C Coupled Model $r_g(\Sigma_0)$** | **0** (1 global constant $r_{g,0}$ calibrated on Train) | **12.45** | **9.08** |
 
-R 2 = 0.8811 .
+### Scope and Diagnosed Limitations
+* **Achievement:** Incorporating $r_g(\Sigma_0)$ drops the global median $\chi^2/N$ from $74.2$ to $12.45$ relative to Solver A, without adding any degree of freedom fitted locally at the level of each galaxy.
+* **Explicit limitations:** The median residual $\chi^2/N \approx 12.5$ remains a factor of 2 to 4 above empirical MOND fits ($\chi^2/N \approx 2\text{--}5$). This gap requires presenting H2C not as a finished operational model, but as a promising theoretical step demonstrating the viability of an emergent screening mechanism.
 
-Le test de la valeur théorique (\alpha_M=1) donne :
+> The synthesis note is stabilized and ready for distribution or archiving.
 
-z = 4.603 σ .
+---
 
-Donc l'écart à 1 est statistiquement très net dans ce modèle à une variable.
+# PART III: CAMPAIGN LOG & ANALYTICAL EVOLUTION
 
-Ce que cela signifie
+### 12. Why the Question Goes Beyond a Simple Variable-$G$ Theory
 
-Il ne faut pas conclure :
+$$
+\text{quantum correlations} \to \text{geometry} \to G_{\mu\nu} \to \text{gravity}
+$$
 
-« H2C est faux. »
+$G$ would be an effective parameter of the emergent geometry, rather than the starting point of the theory.
+---
+## 5. Empirical Validation and Theoretical Origin of the Universal Coupling Factor ($S_{\text{gal}}$)
 
-La conclusion correcte est :
+### A. Dispersion Analysis and Mass Independence
+Statistical analysis carried out on the full SPARC galaxy catalogue demonstrates that the scale offset $Z_i$ (or effective acceleration factor) is rigorously independent of baryonic mass ($M_{\text{bar}}$) over more than four decades.
 
-La masse baryonique seule ne suffit pas à décrire la structure de la relation observée dans cet échantillon.
+* **Trend slope:** $\approx 0.078$ (flat behaviour, definitively ruling out any radial-truncation artifact).
+* **Identified global scale factor:** $Z_0 \approx 8.76$, corresponding to a dimensionless effective coupling factor:
+  $$S_{\text{gal}} = \frac{1}{Z_0} \approx 0.114$$
+  ---
+  ## H2C — MAJOR SYNTHESIS OF THE "JUDGE OF PEACE 2" CAMPAIGN
 
-C'était justement la question à résoudre.
-2. Le graphique que tu viens de fournir permet de voir cette anomalie directement
+### 0. The starting point
 
-Le graphique représente :
+The goal of this campaign was to answer a precise question:
 
-δ H 2 C = log 10 ⁡ ( V o b s 4 V H 2 C 4 )
+Why does the observed relation between asymptotic velocity and baryonic mass give a slope different from the one expected from the H2C relation?
 
-en fonction de :
+The H2C relation tested in the "judge of peace" branch is of the form:
 
-log 10 ⁡ ( M b a r / M ⊙ ) .
+$$ V_\infty^4 = G\,M_{\rm bar}\,a_0^{\rm H2C}. $$
 
-La ligne horizontale (\delta=0) correspond à :
+That is:
 
-V o b s = V H 2 C .
+$$ \log_{10}V_\infty^4 = \log_{10}M_{\rm bar} + \log_{10}(G a_0). $$
 
-Or le nuage n'est pas centré uniformément autour de zéro.
+The structural prediction is therefore:
 
-On observe notamment :
+$$ \boxed{\alpha_M=1} $$
 
-beaucoup de résidus négatifs ; des résidus très négatifs chez certaines galaxies ; une tendance globale des résidus à devenir moins négatifs lorsque la masse augmente ; mais une dispersion encore importante à masse donnée.
+The slope of $\log V^4$ as a function of $\log M_{\rm bar}$.
 
-Donc le premier graphique montre bien que :
+The initial problem was that the SPARC data seemed to give a slope noticeably above 1.
 
-δ H 2 C   n’est pas indépendant de la structure galactique .
+### 1. First observation: the $M_{\rm bar}$-only law gives too steep a slope
 
-Il confirme visuellement pourquoi une régression simple en masse produit une pente effective différente de 1.
-3. Le changement majeur : introduction de Σ 0
+On the 175 galaxies used in this campaign, the model:
 
-Nous avons alors testé une hypothèse très précise :
+$$ \log V^4=A+\alpha_M\log M_{\rm bar} $$
 
-La masse baryonique ne décrit peut-être pas entièrement la géométrie/structure baryonique pertinente. Une variable de concentration ou de densité de surface centrale pourrait être nécessaire.
+gives:
 
-On introduit donc :
+$$ \boxed{\alpha_M=1.147502\pm0.032045} $$
 
-Σ 0 .
+with:
 
-Le modèle devient :
+$$ R^2=0.8811. $$
 
-log ⁡ V 4 = A + α M log ⁡ M bar + γ log ⁡ Σ 0
+Testing the theoretical value $\alpha_M=1$ gives:
 
-et là, le résultat change radicalement.
-4. Résultat central : la pente massique revient à 1
+$$ \boxed{z=4.603\sigma}. $$
 
-Le modèle à deux variables donne :
+So the deviation from 1 is very clear-cut in this single-variable model.
 
-α M = 1.003158 ± 0.041012
+What this means
 
-avec :
+The conclusion should not be:
 
-R 2 = 0.896983 .
+"H2C is wrong."
 
-Le test :
+The correct conclusion is:
 
-H 0 : α M = 1
+Baryonic mass alone is not sufficient to describe the structure of the relation observed in this sample.
 
-donne :
+That was precisely the question to be resolved.
 
-z = 0.077 σ .
+### 2. The plot you just provided lets us see this anomaly directly
 
-Autrement dit, dans ce modèle, la pente observée est pratiquement exactement compatible avec :
+The plot shows:
 
-α M = 1 .
+$$ \boxed{ \delta_{\rm H2C} = \log_{10} \left( \frac{V_{\rm obs}^4} {V_{\rm H2C}^4} \right) } $$
 
-C'est le résultat le plus important de toute la campagne.
-5. Ce n'est pas seulement une amélioration de pente : ( Σ 0 ) devient significative
+as a function of:
 
-Le coefficient obtenu pour la densité de surface est :
+$$ \log_{10}(M_{\rm bar}/M_\odot). $$
 
-γ = 0.278734 ± 0.054169
+The horizontal line \(\delta=0\) corresponds to:
 
-avec : z = 5.146 .
+$$ V_{\rm obs}=V_{\rm H2C}. $$
 
-Le bootstrap donne : γ median = 0.279935
+But the point cloud is not uniformly centred around zero.
 
-et : IC 95 % = [ 0.171844 , , 0.386952 ]
+In particular, we observe:
 
-Donc le modèle empirique trouvé est approximativement :
+many negative residuals;
+very negative residuals for certain galaxies;
+an overall tendency for residuals to become less negative as mass increases;
+but still substantial dispersion at fixed mass.
 
-V 4 ∝ M b a r , Σ 0 0.28
+So the first plot clearly shows that:
 
-ou encore :
+$$ \boxed{\delta_{\rm H2C}\ \text{is not independent of galactic structure}.} $$
 
-V 4 = A , M b a r Σ 0 0.28 .
+It visually confirms why a simple mass-only regression produces an effective slope different from 1.
 
-Attention : cette équation est une relation statistique obtenue sur le catalogue. Ce n'est pas encore une nouvelle équation fondamentale H2C.
-6. Pourquoi ce résultat est beaucoup plus intéressant qu'une simple corrélation
+### 3. The major shift: introducing $\Sigma_0$
 
-Il y avait une objection évidente :
+We then tested a very specific hypothesis:
 
-( M b a r ) et ( Σ 0 ) pourraient simplement être fortement corrélés.
+Baryonic mass alone may not fully describe the relevant baryonic geometry/structure. A concentration or central surface-density variable might be needed.
 
-C'est effectivement le cas :
+We therefore introduce:
 
-r P e a r s o n = 0.684
+$$ \Sigma_0. $$
 
-et :
+The model becomes:
 
-ρ S p e a r m a n = 0.706 .
+$$\boxed{\log V^4 = A + \alpha_M \log M_{\mathrm{bar}} + \gamma \log \Sigma_0}$$
 
-Les deux corrélations sont extrêmement significatives.
+and here the result changes radically.
 
-Mais la colinéarité n'est pas suffisamment forte pour rendre le modèle inutilisable.
+### 4. Central result: the mass slope returns to 1
 
-On obtient :
+The two-variable model gives:
 
-V I F ( M ) = 1.879
-V I F ( Σ 0 ) = 1.879 .
+$$ \boxed{ \alpha_M=1.003158\pm0.041012 } $$
 
-C'est un point important.
+with:
+
+$$ R^2=0.896983. $$
+
+The test:
+
+$$ H_0:\alpha_M=1 $$
+
+gives:
+
+$$ \boxed{z=0.077\sigma}. $$
+
+In other words, in this model, the observed slope is practically exactly compatible with:
+
+$$ \boxed{\alpha_M=1}. $$
+
+This is the most important result of the entire campaign.
+
+### 5. This is not just an improvement in slope: $\Sigma_0$ becomes significant
+
+The coefficient obtained for the surface density is:
+
+$$ \boxed{ \gamma=0.278734\pm0.054169 } $$
+
+with:
+$$z=5.146.$$
+
+The bootstrap gives:
+$$\boxed{\gamma_{\mathrm{median}} = 0.279935}$$
+
+and:
+$$\boxed{\mathrm{CI}_{95\%} = [0.171844,\, 0.386952]}$$
+
+So the empirical model found is approximately:
+
+$$\boxed{V^4\propto M_{\rm bar}\,\Sigma_0^{0.28} }$$
+
+or equivalently:
+
+$$ V^4 = A\,M_{\rm bar}\Sigma_0^{0.28}. $$
+
+Caution: this equation is a statistical relation obtained on the catalogue. It is not yet a new fundamental H2C equation.
+
+### 6. Why this result is much more interesting than a mere correlation
+
+There was an obvious objection:
+
+$M_{\rm bar}$ and $\Sigma_0$ could simply be strongly correlated.
+
+This is indeed the case:
+
+$$ r_{\rm Pearson}=0.684 $$
+
+and:
+
+$$ \rho_{\rm Spearman}=0.706. $$
+
+Both correlations are extremely significant.
+
+But the collinearity is not strong enough to make the model unusable.
+
+We obtain:
+
+$$ \boxed{VIF(M)=1.879} $$ $$ \boxed{VIF(\Sigma_0)=1.879}. $$
+
+This is an important point.
 
 Conclusion
 
-Nous avons :
+We have:
 
-M b a r ↔ Σ 0
+$$ M_{\rm bar}\leftrightarrow\Sigma_0 $$
 
-corrélés, mais pas suffisamment pour expliquer mécaniquement le résultat par une dégénérescence numérique évidente.
+correlated, but not strongly enough to mechanically explain the result through an obvious numerical degeneracy.
 
-Les deux coefficients restent identifiables dans la régression multivariée.
-7. Les critères AIC/BIC renforcent le résultat
+Both coefficients remain identifiable in the multivariate regression.
 
-Le modèle A :
+### 7. AIC/BIC criteria reinforce the result
 
-M b a r
+Model A:
 
-donne :
+$$ M_{\rm bar} $$
 
-A I C = 170.057
-B I C = 176.386 .
+gives:
 
-Le modèle B :
+$$ AIC=170.057 $$ $$ BIC=176.386. $$
 
-M b a r + Σ 0
+Model B:
 
-donne :
+$$ M_{\rm bar}+\Sigma_0 $$
 
-A I C = 147.000
-B I C = 156.495 .
+gives:
 
-Donc :
+$$ AIC=147.000 $$ $$ BIC=156.495. $$
 
-Δ A I C = 23.057
+So:
 
-et :
+$$ \boxed{\Delta AIC=23.057} $$
 
-Δ B I C = 19.892 .
+and:
 
-L'ajout de ( Σ 0 ) améliore donc fortement le compromis ajustement/complexité.
+$$ \boxed{\Delta BIC=19.892}. $$
 
-Ce n'est pas simplement :
+Adding $\Sigma_0$ therefore strongly improves the fit/complexity trade-off.
 
-« ajouter une variable fait toujours monter ( R 2 ) ».
+This is not simply a case of
 
-Ici, même les critères pénalisant l'ajout d'une variable sont nettement améliorés.
-8. Le résultat encore plus fort : on peut regarder directement le résidu H2C
+"adding a variable always increases $R^2$".
 
-C'est ici que la campagne devient particulièrement intéressante.
+Here, even the criteria that penalize adding a variable are markedly improved.
 
-On définit :
+### 8. An even stronger result: we can look directly at the H2C residual
 
-δ H 2 C = log 10 ⁡ ( V o b s 4 V H 2 C 4 ) .
+This is where the campaign becomes especially interesting.
 
-Nous pouvons alors demander directement :
+We define:
 
-Le résidu H2C dépend-il de ( Σ 0 ) ?
+$$\delta_{\rm H2C}=\log_{10}\left(\frac{V_{\rm obs}^4} {V_{\rm H2C}^4}\right).$$
 
-La réponse statistique est oui.
+We can then ask directly:
 
-La régression :
+Does the H2C residual depend on $\Sigma_0$?
 
-δ H 2 C = A + γ log ⁡ Σ 0
+The statistical answer is yes.
 
-donne :
+The regression:
 
-γ = 0.281587 ± 0.039402
+$$\delta_{\rm H2C}=A+\gamma\log\Sigma_0$$
 
-avec :
+gives:
 
-R 2 = 0.228 .
+$$\boxed{\gamma=0.281587\pm0.039402}$$
 
-Cela signifie que la densité de surface explique environ :
+with:
 
-22.8 %
+$$R^2=0.228.$$
 
-de la variance du résidu dans cette régression simple.
-9. Et lorsque la masse est contrôlée, l'effet de la masse disparaît
+This means that surface density explains about:
 
-C'est peut-être le résultat statistique le plus propre de la campagne.
+$$\boxed{22.8\%}$$
 
-On fait :
+of the residual variance in this simple regression.
 
-δ H 2 C = A + η log ⁡ M b a r + γ log ⁡ Σ 0
+### 9. And once mass is controlled for, the mass effect disappears
 
-On trouve :
+This is perhaps the cleanest statistical result of the campaign.
 
-η = 0.003158 ± 0.041012
+We run:
 
-avec :
+$$\boxed{\delta_{\rm H2C}=A+\eta\log M_{\rm bar}+\gamma\log\Sigma_0 }$$
 
-p = 0.939 .
+We find:
 
-Donc l'effet résiduel indépendant de la masse est statistiquement nul dans ce modèle.
+$$\boxed{\eta=0.003158\pm0.041012 }$$
 
-En revanche :
+with:
 
-γ = 0.278734 ± 0.054169
+$$ p=0.939. $$
 
-reste significatif.
+So the mass-independent residual effect is statistically null in this model.
 
-Cela donne la structure suivante :
+By contrast:
 
-Avant contrôle de (\Sigma_0) :
+$$ \boxed{ \gamma=0.278734\pm0.054169 } $$
 
-δ H 2 C semble dépendre de M b a r .
+remains significant.
 
-Après contrôle de (\Sigma_0) :
+This gives the following structure:
 
-δ H 2 C ≁ M b a r
+Before controlling for $\Sigma_0$:
 
-mais :
+$$ \delta_{\rm H2C} \quad\text{appears to depend on}\quad M_{\rm bar}. $$
 
-δ H 2 C ∼ Σ 0 0.28 .
+After controlling for $\Sigma_0$:
 
-C'est une différence conceptuelle importante.
-10. Comment comprendre le passage de 1.147 à 1.003
+$$ \boxed{ \delta_{\rm H2C} \not\sim M_{\rm bar} } $$
 
-C'est probablement la meilleure manière de résumer toute la découverte statistique.
+but:
 
-Modèle incomplet V 4 ∼ M b a r 1.1475 .
+$$ \boxed{ \delta_{\rm H2C}\sim\Sigma_0^{0.28}. } $$
 
-La pente semble trop forte.
+This is an important conceptual difference.
 
-Modèle enrichi V 4 ∼ M b a r 1.0032 Σ 0 0.2787 .
+### 10. How to understand the shift from 1.147 to 1.003
 
-La pente massique devient :
+This is probably the best way to summarize the whole statistical discovery.
 
-1.0032 ≃ 1.
+Incomplete model
+$$V^4\sim M_{\rm bar}^{1.1475}.$$
 
-Donc ce qui ressemblait initialement à une anomalie de la loi massique peut être en grande partie expliqué par une variable structurelle omise.
-11. Cela change la question physique
+The slope appears too steep.
 
-Avant cette campagne, la question pouvait être formulée ainsi :
+Enriched model
+$$V^4\sim M_{\rm bar}^{1.0032}\Sigma_0^{0.2787}.$$
 
-Pourquoi H2C ne donne-t-il pas exactement la pente observée ?
+The mass slope becomes:
 
-Après cette campagne, une formulation plus intéressante est :
+$$1.0032\simeq1.$$
 
-La réponse gravitationnelle effective pourrait-elle dépendre non seulement de la quantité totale de matière baryonique, mais également de sa concentration spatiale ?
+So what initially looked like an anomaly in the mass law can largely be explained by an omitted structural variable.
 
-Mathématiquement, le résultat empirique suggère :
+### 11. This changes the physical question
 
-V 4 ∝ M b a r Σ 0 γ , γ ≃ 0.28 .
+Before this campaign, the question could be phrased as:
 
-Ce n'est encore qu'une hypothèse de travail.
+Why doesn't H2C give exactly the observed slope?
 
-Mais elle est désormais motivée par les données du catalogue, et non simplement inventée pour sauver le modèle.
-12. Cela rejoint une idée déjà présente dans la branche fondamentale
+After this campaign, a more interesting formulation is:
 
-C'est particulièrement intéressant au regard de la philosophie générale H2C.
+Could the effective gravitational response depend not only on the total amount of baryonic matter, but also on its spatial concentration?
 
-Depuis le début, le projet ne cherche pas seulement à utiliser une masse scalaire :
+Mathematically, the empirical result suggests:
 
-M b a r .
+$$V^4\propto M_{\rm bar}\Sigma_0^\gamma,\qquad \gamma\simeq0.28.$$
 
-Il cherche à faire émerger une réponse effective à partir d'une structure locale/collective.
+This is still only a working hypothesis.
 
-Dans la branche fondamentale, nous avons justement :
+But it is now motivated by the catalogue data, rather than simply invented to save the model.
 
-C = | Φ | 2
+### 12. This connects to an idea already present in the foundational branch
 
-et une dépendance potentielle aux gradients :
+This is particularly interesting in light of the overall H2C philosophy.
 
-∇ C .
+From the outset, the project has not only sought to use a scalar mass:
 
-Or ( Σ 0 ) est une mesure macroscopique de la manière dont la matière baryonique est spatialement distribuée, et non simplement de sa quantité totale.
+$$M_{\rm bar}.$$
 
-Il serait donc tentant de voir ici un pont conceptuel :
+It seeks to make an effective response emerge from a local/collective structure.
 
-M b a r ⟶ contenu baryonique global
+In the foundational branch, we indeed have:
 
-tandis que :
+$$ C=|\Phi|^2 $$
 
-Σ 0 ⟶ structure/concentration spatiale .
+and a potential dependence on gradients:
 
-Mais il faut être très clair :
+$$\nabla C.$$
 
-Σ 0 ≠ C
+Now, $\Sigma_0$ is a macroscopic measure of how baryonic matter is spatially distributed, not merely of its total quantity.
 
-et :
+It is therefore tempting to see here a conceptual bridge:
 
-Σ 0 ≠ | ∇ C | 2
+$$M_{\rm bar} \quad\longrightarrow\quad \text{global baryonic content}$$
 
-à ce stade.
+while:
 
-Nous n'avons aucune dérivation permettant de les identifier.
-13. Il faut également revenir au déficit global H2C
+$$\Sigma_0\quad\longrightarrow\quad\text{spatial structure/concentration}.$$
 
-La campagne donne :
+But it must be made very clear:
 
-médiane ( δ ) = − 0.611130 d e x
-moyenne ( δ ) = − 0.657223 d e x
-σ δ = 0.413185 d e x .
+$$\boxed{\Sigma_0\neq C }$$
 
-La médiane correspond à un facteur :
+and:
 
-10 − 0.61113 ≈ 0.245 .
+$$\boxed{\Sigma_0\neq|\nabla C|^2}$$
 
-C'est pourquoi le programme trouve :
+at this stage.
 
-a 0 e f f ≈ 1.336 × 10 − 10   m / s 2
+We have no derivation allowing us to identify them.
 
-alors que le (a_0) H2C utilisé est :
+### 13. We must also return to the global H2C deficit
 
-5.456 × 10 − 10   m / s 2 .
+The campaign gives:
 
-C'est un point essentiel :
+$$\text{median}(\delta)=-0.611130\ \text{dex}$$ $$\text{mean}(\delta)=-0.657223\ \text{dex}$$ $$\sigma_\delta=0.413185\ \text{dex}.$$
 
-H2C n'est pas actuellement correctement normalisé avec son (a_0) imposé.
+The median corresponds to a factor of:
 
-Et :
+$$ 10^{-0.61113}\approx0.245. $$
 
-1.336 × 10 − 10
+That is why the program finds:
 
-est remarquablement proche de l'échelle souvent utilisée dans les formulations MOND, mais cela ne constitue pas une validation de MOND ni une dérivation de cette valeur par H2C.
+$$ a_0^{\rm eff}\approx1.336\times10^{-10}\ {\rm m/s^2} $$
 
-Cela signifie simplement que l'échelle d'accélération effectivement requise par cette relation empirique est beaucoup plus basse que le (a_0^{H2C}) choisi.
-14. Cela permet de séparer deux problèmes qui étaient mélangés
+whereas the H2C $a_0$ used is:
 
-C'est une avancée méthodologique importante.
+$$ 5.456\times10^{-10}\ {\rm m/s^2}. $$
 
-Il y a maintenant deux problèmes distincts :
+This is a key point:
 
-Problème A — la normalisation
+H2C is not currently correctly normalized against its imposed $a_0$.
 
-Pourquoi :
+And:
 
-a 0 H 2 C = 5.456 × 10 − 10
+$$ 1.336\times10^{-10} $$
 
-alors que les données semblent demander environ :
+is remarkably close to the scale often used in MOND formulations, but this does not constitute a validation of MOND, nor a derivation of this value by H2C.
 
-a 0 e f f ∼ 1.34 × 10 − 10 ?
+It simply means that the acceleration scale actually required by this empirical relation is much lower than the chosen $a_0^{H2C}$.
 
-Problème B — la structure
+### 14. This allows us to separate two problems that had been mixed together
 
-Pourquoi le résidu dépend-il de :
+This is an important methodological advance.
 
-Σ 0 0.28 ?
+There are now two distinct problems:
 
-Ce sont deux questions différentes.
+Problem A — normalization
 
-Il ne faut surtout pas modifier simultanément les deux paramètres, sinon on ne saura plus ce qui améliore réellement le modèle.
-15. Le graphique masse–résidu permet également d'identifier la population problématique
+Why:
 
-Le nuage que tu viens d'envoyer montre une dispersion particulièrement importante dans la région :
+$$ a_0^{H2C}=5.456\times10^{-10} $$
 
-log 10 ⁡ ( M b a r / M ⊙ ) ∼ 8.5 − 10.
+while the data seem to require about:
 
-On trouve plusieurs résidus très négatifs :
+$$a_0^{eff}\sim1.34\times10^{-10}?$$
 
-δ < − 1.5
+Problem B — structure
 
-et même :
+Why does the residual depend on:
 
-δ < − 2.
+$$ \Sigma_0^{0.28}? $$
 
-Ces objets sont très loin de la ligne H2C ( δ = 0 ) .
+These are two different questions.
 
-Mais il faut éviter de les appeler immédiatement « anomalies physiques ».
+Above all, the two parameters must not be modified simultaneously, otherwise it will no longer be possible to tell what is actually improving the model.
 
-Ils peuvent correspondre à :
+### 15. The mass–residual plot also lets us identify the problematic population
 
-galaxies à faible surface brightness ; différences de structure radiale ; incertitudes sur la masse baryonique ; incertitudes de distance ; incertitudes de vitesse ; différences dans les modèles de masse ; galaxies dont (V_\infty) est mal représenté par l'estimation utilisée ; effets de sélection du catalogue.
+The cloud you just sent shows a particularly large dispersion in the region:
 
-C'est précisément pour cela que ( Σ 0 ) , ( R d ) , fraction gazeuse et morphologie doivent maintenant être testés.
-16. Une autre observation importante : les résidus ne sont pas gaussiens
+$$\log_{10}(M_{\rm bar}/M_\odot)\sim8.5-10.$$
 
-Les tests OLS donnent des statistiques Omnibus/Jarque-Bera très significatives.
+Several very negative residuals are found:
 
-Par exemple, pour le modèle B :
+$$\delta<-1.5$$
 
-J B = 66.178 , p = 4.26 × 10 − 15 .
+and even:
 
-Donc la distribution des résidus n'est pas compatible avec une simple distribution normale.
+$$\delta<-2.$$
 
-Cela implique que les erreurs standards OLS classiques doivent être considérées avec prudence.
+These objects are very far from the H2C line $\delta=0$.
 
-Le résultat principal reste intéressant, mais la prochaine étape doit utiliser également :
+But we must avoid immediately calling them "physical anomalies."
 
-erreurs robustes HC3 ; régression robuste ; bootstrap ; éventuellement régression quantile.
+They may correspond to:
 
-Le bootstrap que nous avons déjà effectué est donc particulièrement utile.
-17. Le bootstrap confirme que ce n'est pas un accident d'un petit nombre de galaxies
+low surface brightness galaxies;
+differences in radial structure;
+uncertainties in baryonic mass;
+distance uncertainties;
+velocity uncertainties;
+differences in mass models;
+galaxies whose $V_\infty$ is poorly represented by the estimate used;
+catalogue selection effects.
 
-Pour le modèle multivarié :
+This is precisely why $\Sigma_0$, $R_d$, gas fraction and morphology must now be tested.
 
-α M : IC 95 % = [ 0.915956 , 1.090684 ]
+### 16. Another important observation: the residuals are not Gaussian
 
-et :
+The OLS tests give highly significant Omnibus/Jarque-Bera statistics.
 
-IC 95 % = [ 0.171844 , 0.386952 ]
+For example, for Model B:
 
-Donc le coefficient massique reste compatible avec 1 et le coefficient ( Σ 0 ) reste positif dans tout l'intervalle bootstrap.
+$${\rm JB}=66.178,\qquad p=4.26\times10^{-15}.$$
 
-C'est une confirmation importante de la stabilité statistique du résultat.
-18. Ce que nous pouvons maintenant dire avec confiance
+So the distribution of residuals is not compatible with a simple normal distribution.
 
-Je formulerais le résultat scientifique actuel ainsi :
+This implies that classical OLS standard errors must be treated with caution.
 
-Sur les 175 galaxies SPARC analysées dans cette campagne, la relation ( log ⁡ V 4 ) − ( log ⁡ M b a r ) donne une pente ( 1.1475 ± 0.0320 ) , incompatible avec 1 à 4,6 σ dans le modèle à une variable. L'introduction d'une seconde variable structurelle ( log ⁡ Σ 0 ) ramène la pente massique à ( 1.0032 ± 0.0410 ) , compatible avec 1 à 0,08 σ, tandis que le coefficient de ( log ⁡ Σ 0 ) est ( 0.2787 ± 0.0542 ) $, significatif à environ 5,1 σ. Le VIF ≈1,88 ne suggère pas de colinéarité sévère, et les critères AIC/BIC favorisent nettement le modèle à deux variables. Le résidu par rapport à la relation H2C présente lui-même une dépendance à ( Σ 0 ) , tandis que sa dépendance indépendante à ( M b a r ) devient compatible avec zéro.
+The main result remains interesting, but the next step should also use:
 
-C'est une formulation que je considère défendable.
-19. Ce que nous ne devons surtout pas écrire
+HC3 robust errors;
+robust regression;
+bootstrap;
+possibly quantile regression.
 
-Il serait prématuré d'écrire :
+The bootstrap we have already carried out is therefore particularly useful.
 
-« Nous avons découvert que la gravité H2C dépend de la densité de surface. »
+### 17. The bootstrap confirms this is not a fluke of a small number of galaxies
 
-Non.
+For the multivariate model:
 
-Nous pouvons écrire :
+$$\alpha_M :\quad \boxed{\mathrm{CI}_{95\%} = [0.915956, 1.090684]}$$
 
-« Les données SPARC analysées présentent une dépendance résiduelle significative à la densité de surface baryonique (\Sigma_0), qui restaure une pente massique compatible avec la prédiction ( V 4 ∝ M b a r ) . »
+and:
 
-C'est beaucoup plus solide.
-20. Et surtout : ne pas transformer ( 0.28 ) en constante fondamentale H2C
+$$\boxed{\mathrm{CI}_{95\%} = [0.171844, 0.386952]}$$
 
-Nous avons maintenant :
+So the mass coefficient remains compatible with 1, and the $\Sigma_0$ coefficient remains positive across the entire bootstrap interval.
 
-γ Σ ≈ 0.28
+This is an important confirmation of the statistical stability of the result.
 
-Mais :
+### 18. What we can now say with confidence
 
-0.28
+I would formulate the current scientific result as follows:
 
-n'est pas encore une constante fondamentale.
+On the 175 SPARC galaxies analysed in this campaign, the $\log V^4$–$\log M_{\rm bar}$ relation gives a slope of $1.1475\pm0.0320$, incompatible with 1 at 4.6 σ in the single-variable model. Introducing a second structural variable $\log\Sigma_0$ brings the mass slope back to $1.0032\pm0.0410$, compatible with 1 at 0.08 σ, while the coefficient of $\log\Sigma_0$ is $0.2787\pm0.0542$, significant at about 5.1 σ. The VIF ≈1.88 does not suggest severe collinearity, and the AIC/BIC criteria clearly favour the two-variable model. The residual with respect to the H2C relation itself shows a dependence on $\Sigma_0$, while its independent dependence on $M_{\rm bar}$ becomes compatible with zero.
 
-Il faut vérifier si elle survit à l'introduction d'autres variables.
+This is a formulation I consider defensible.
 
-Le danger serait de faire immédiatement :
+### 19. What we must absolutely avoid writing
 
-γ = 0.28
+It would be premature to write:
 
-puis de construire une nouvelle équation H2C autour de cette valeur.
+"We have discovered that H2C gravity depends on surface density."
 
-Je déconseille absolument cette étape pour l'instant.
-21. La campagne suivante doit donc être un « test de robustesse structurelle »
+No.
 
-Je proposerais maintenant cette hiérarchie.
+We can write:
 
-Étape 1 — ajouter le rayon du disque
+"The SPARC data analysed show a significant residual dependence on baryonic surface density $\Sigma_0$, which restores a mass slope compatible with the prediction $V^4\propto M_{\rm bar}$."
 
-Tester :
+This is much more solid.
 
-log ⁡ V 4 = A + α M log ⁡ M b a r + γ Σ log ⁡ Σ 0 + η R log ⁡ R d
+### 20. And above all: do not turn $0.28$ into a fundamental H2C constant
 
-C'est probablement le contrôle le plus important.
+We now have:
 
-Pourquoi ?
+$$\gamma_{\Sigma}\approx0.28$$
 
-Parce que ( Σ 0 ) peut elle-même être liée à la taille du système.
+But:
 
-Étape 2 — tester la fraction gazeuse
+$$0.28$$
 
-Par exemple :
+is not yet a fundamental constant.
 
-f g a s = M g a s M b a r .
+It must be checked whether it survives the introduction of other variables.
 
-Puis :
+The danger would be to immediately set:
 
-log ⁡ V 4 = A + α M log ⁡ M b a r + γ Σ log ⁡ Σ 0 + η g log ⁡ f g a s . Étape 3 — tester la morphologie
+$$\gamma=0.28$$
 
-Séparer au minimum :
+and then build a new H2C equation around this value.
 
-galaxies avec bulbe ; galaxies sans bulbe ; galaxies très concentrées ; galaxies diffuses.
+I strongly advise against this step for now.
 
-Le coefficient ( γ Σ ) doit être comparé entre populations.
+### 21. The next campaign must therefore be a "structural robustness test"
 
-Étape 4 — vérifier l'effet du modèle de masse
+I would now propose the following hierarchy.
 
-Le catalogue SPARC utilise les composantes :
+Step 1 — add the disk radius
 
-V b a r 2 = V g a s 2 + Υ d i s k V d i s k 2 + Υ b u l g e V b u l g e 2 .
+Test:
 
-Notre analyse doit vérifier que le résultat ne dépend pas excessivement du choix :
+$$\boxed{\log V^4=A+\alpha_M\log M_{\rm bar}+\gamma_\Sigma\log\Sigma_0 +\eta_R\log R_d }$$
 
-Υ d i s k = 0.5 , Υ b u l g e = 0.7 .
-22. Puis seulement une question beaucoup plus profonde
+This is probably the most important control.
 
-Si le coefficient :
+Why?
 
-γ Σ ≈ 0.28
+Because $\Sigma_0$ may itself be linked to the size of the system.
 
-survit à toutes ces vérifications, alors nous pourrons poser une question physique beaucoup plus intéressante :
+Step 2 — test the gas fraction
 
-Existe-t-il dans la formulation covariante H2C une combinaison naturelle de ( C ) , ( ∇ C ) , ( M b a r ) ou d'un tenseur de contrainte capable de produire une réponse dépendant de la concentration spatiale de la matière ?
+For example:
 
-C'est là que les deux branches de ton projet pourraient éventuellement commencer à se rejoindre :
+$$f_{\rm gas}=\frac{M_{\rm gas}}{M_{\rm bar}}.$$
 
-structure baryonique → réponse du champ  C → g μ ν e f f
+Then:
 
-Mais cette flèche reste à dériver.
-23. La relation avec la formulation covariante V1.2/V1.4
+$$\log V^4=A+\alpha_M\log M_{\rm bar}+\gamma_\Sigma\log\Sigma_0 +\eta_g\log f_{\rm gas}.$$
+Step 3 — test morphology
 
-C'est justement ici que cette campagne devient conceptuellement intéressante.
+Separate at minimum:
 
-La formulation fondamentale actuelle travaille avec :
+galaxies with a bulge;
+galaxies without a bulge;
+highly concentrated galaxies;
+diffuse galaxies.
 
-Φ = R e i θ , C = | Φ | 2 = R 2
+The coefficient $\gamma_\Sigma$ must be compared across populations.
 
-et des termes de gradient :
+Step 4 — check the effect of the mass model
 
-K μ ν ∇ μ Φ ∗ ∇ ν Φ .
+The SPARC catalogue uses the components:
 
-Nous savons déjà que la branche covariante a passé les tests numériques B1–D4 pour les configurations testées : opérateur, MMS, conservation de charge, conservation dans les cas stationnaires et bilan énergétique pour le cas dépendant du temps.
+$$V_{\rm bar}^2=V_{\rm gas}^2 +\Upsilon_{\rm disk}V_{\rm disk}^2 +\Upsilon_{\rm bulge}V_{\rm bulge}^2.$$
 
-Mais nous n'avons toujours pas de dérivation de :
+Our analysis must check that the result does not depend excessively on the choice:
 
-g μ ν e f f = F ( C , ∇ C , … ) .
+$$\Upsilon_{\rm disk}=0.5, \qquad \Upsilon_{\rm bulge}=0.7.$$
+### 22. Then, only, a much deeper question
 
-Donc le résultat SPARC ne doit pas être injecté artificiellement dans V1.2.
+If the coefficient:
 
-Au contraire :
+$$\gamma_\Sigma\approx0.28$$
 
-le résultat observationnel fournit désormais une contrainte empirique que la future théorie devra éventuellement expliquer.
+survives all these checks, we will then be able to ask a much more interesting physical question:
 
-C'est beaucoup plus propre.
-24. Le changement de statut du projet
+Does there exist, within the covariant H2C formulation, a natural combination of $C$, $\nabla C$, $M_{\rm bar}$ or a stress tensor capable of producing a response that depends on the spatial concentration of matter?
 
-Avant cette campagne, nous avions essentiellement :
+This is where the two branches of your project might eventually begin to converge:
 
-V 4 ∝ M b a r 1.147
+$$\boxed{ \text{baryonic structure}\rightarrow\text{response of field }C\rightarrow g_{\mu\nu}^{\rm eff} }$$
 
-contre une construction H2C voulant :
+But this arrow still remains to be derived.
 
-V 4 ∝ M b a r .
+### 23. The relation to the covariant V1.2/V1.4 formulation
 
-Cela pouvait être interprété comme une difficulté du modèle.
+This is precisely where this campaign becomes conceptually interesting.
 
-Maintenant nous avons :
+The current fundamental formulation works with:
 
-V 4 ∝ M b a r 1.003 Σ 0 0.279
+$$\Phi=R e^{i\theta},\qquad C=|\Phi|^2=R^2$$
 
-et :
+and gradient terms:
 
-δ H 2 C ∼ Σ 0 0.279 , δ H 2 C ≁ M b a r après contrôle de  Σ 0 .
+$$K^{\mu\nu}\nabla_\mu\Phi^*\nabla_\nu\Phi.$$
 
-Cela transforme le problème.
-25. Ce que je considère comme le véritable résultat de cette campagne
+We already know that the covariant branch has passed numerical tests B1–D4 for the configurations tested: operator, MMS, charge conservation, conservation in stationary cases, and energy balance for the time-dependent case.
 
-Ce n'est pas :
+But we still have no derivation of:
 
-« H2C est validé. »
+$$g_{\mu\nu}^{\rm eff}=F(C,\nabla C,\ldots).$$
 
-Ce n'est pas non plus :
+So the SPARC result must not be artificially injected into V1.2.
 
-« Nous avons trouvé la nouvelle loi gravitationnelle. »
+On the contrary:
 
-Le résultat important est :
+the observational result now provides an empirical constraint that the future theory will eventually need to explain.
 
-La masse baryonique seule semble être une description incomplète de la relation.
+This is much cleaner.
 
-et :
+### 24. The change in the project's status
 
-Une variable de densité de surface  Σ 0  absorbe une grande partie de la déviation apparente de la pente massique.
+Before this campaign, we essentially had:
 
-avec, dans les données actuelles :
+$$V^4\propto M_{\rm bar}^{1.147}$$
 
-α M ≃ 1
+against an H2C construction that wanted:
 
-et :
+$$V^4\propto M_{\rm bar}.$$
 
-γ Σ ≃ 0.28 .
-26. Statut scientifique complet à inscrire dans notre suivi
+This could be interpreted as a difficulty for the model.
 
-Élément Statut actuel 175 galaxies analysées établi pour cette campagne Relation ( V 4 ) − ( M b a r ) établie empiriquement Pente ( 1.1475 ± 0.0320 ) mesurée Écart à 1 de 4,60 σ mesuré dans OLS Introduction de ( Σ 0 ) testée Pente ( 1.0032 ± 0.0410 ) mesurée Compatibilité avec ( α M = 1 ) très forte ( γ Σ = 0.2787 ± 0.0542 ) mesuré Significativité de ( Σ 0 ) ~5,1 σ dans OLS Bootstrap ( α M ) compatible avec 1 Bootstrap ( γ Σ ) positif et stable VIF ≈ 1.88 pas de colinéarité sévère AIC/BIC fortement en faveur du modèle B Résidu H2C corrélé à ( Σ 0 ) oui Effet indépendant de ( M b a r ) dans le résidu compatible avec zéro (\Sigma_0) cause physique non démontré (\gamma=0.28) constante fondamentale non démontré Dépendance à (R_d) contrôlée pas encore Dépendance à la fraction gazeuse contrôlée pas encore Dépendance morphologique contrôlée pas encore Nouvelle loi gravitationnelle H2C pas encore dérivée Lien ( Σ 0 → C ) pas encore dérivé Équations d'Einstein émergentes toujours non dérivées
-27. Résultat majeur — Juge de paix 2 : décomposition du résidu (M_{\rm bar}/\Sigma_0)
+We now have:
 
-Sur 175 galaxies SPARC, la régression de ( log ⁡ V 4 ) sur ( log ⁡ M b a r ) seul donne une pente ( 1.1475 ± 0.0320 ) , s'écartant de 1 à 4,60 σ. L'introduction de la densité de surface baryonique ( Σ 0 ) dans une régression multivariée donne ( 1.0032 ± 0.0410 ) pour le coefficient de ( log ⁡ M b a r ) , compatible avec la pente théorique 1, tandis que le coefficient de ( log ⁡ Σ 0 ) vaut ( 0.2787 ± 0.0542 ) . Les critères AIC/BIC favorisent nettement le modèle à deux variables et les VIF (~1,88) n'indiquent pas de colinéarité sévère. La régression directe du résidu H2C sur ( Σ 0 ) conserve un coefficient positif significatif, tandis que l'effet indépendant de ( M b a r ) devient compatible avec zéro. Ce résultat constitue une contrainte observationnelle/statistique nouvelle pour le projet, mais ne constitue pas une validation de la théorie H2C ni une dérivation physique du coefficient ( 0.28 ) . Des contrôles supplémentaires sur le rayon de disque, la fraction gazeuse, la morphologie et les choix de masse stellaire sont nécessaires avant toute interprétation physique.
+$$\boxed{ V^4\propto M_{\rm bar}^{1.003} \Sigma_0^{0.279} }$$
 
-C'est, à mon avis, la formulation la plus défendable scientifiquement à ce stade.
+and:
 
-Et surtout, je garderais séparées les trois couches :
+$$\boxed{ \delta_{\rm H2C}\sim\Sigma_0^{0.279},\qquad\delta_{\rm H2C}\not\sim M_{\rm bar}\quad\text{after controlling for }\Sigma_0. }$$
 
-DONNÉES → RELATION STATISTIQUE → INTERPRÉTATION PHYSIQUE
+This transforms the problem.
 
-Nous avons maintenant un résultat solide dans les deux premières couches. La troisième est précisément ce que les prochaines campagnes devront essayer de construire ou, éventuellement, de réfuter.
-B. Dérivation Variationnelle et Origine Géométrique
+### 25. What I consider to be the true result of this campaign
 
-Pour rendre compte de cette constante universelle, l'action effective du champ de phase Φ couplé à la densité baryonique ρ bar est formulée en régime stationnaire :
+It is not:
 
-S tot = ∫ [ 1 2 g μ ν ∂ μ Φ ∂ ν Φ − V ( Φ ) − 8 π G c 2 ρ bar Φ ] − g , d 4 x
+"H2C is validated."
 
-En appliquant le théorème de flux d'Ostrogradsky sur le volume limite du halo galactique et en intégrant les fluctuations de phase de type Ginzburg-Landau, le facteur de couplage géométrique pur émerge naturellement de l'angle solide 4 π et de la métrique d'interférence 2 :
+Nor is it:
 
-S gal, théo = 2 4 π ≈ 0 , 1125
-C. Bilan et Comparaison
+"We have found the new law of gravitation."
 
-La confrontation entre la prédiction analytique pure et les données empiriques du catalogue SPARC met en évidence un accord remarquable :
+The important result is:
 
-    Valeur théorique : ≈ 0 , 1125
-    Valeur empirique (SPARC) : ≈ 0 , 1143
-    Écart relatif : < 1 , 5 ,
+$$\boxed{ \textbf{Baryonic mass alone appears to be an incomplete description of the relation.} }$$
 
-Cette convergence valide la robustesse du modèle de gravité à cohérence de phase (H2C) et ancre l'accélération effective sur une base topologique et géométrique rigoureuse.
-13. Obstacles théoriques à examiner
-Obstacle 	Description
-13.1 Covariance générale 	G μ ν = F μ ν [ corrélations ] doit respecter la covariance générale.
-13.2 Identités de Bianchi 	∇ μ G μ ν = 0 doit apparaître au niveau macroscopique.
-13.3 Conservation énergie-impulsion 	∇ μ T μ ν = 0 doit se généraliser si G eff / Λ eff deviennent dynamiques.
-13.4 Émergence de la métrique 	Il faut expliquer comment g μ ν elle-même émerge des degrés de liberté fondamentaux.
-13.5 Dynamique de la géométrie 	Il faut expliquer l'apparition du terme − g R avec le bon coefficient.
-13.6 Définition du vide quantique 	Préciser quel état quantique et quelles corrélations sont physiquement pertinents.
-13.7 Localité / non-localité 	Comprendre comment une géométrie macroscopique locale émerge d'une description microscopique éventuellement non locale.
-13.8 Universalité de la gravitation 	Expliquer pourquoi le couplage reste universel malgré la diversité des degrés de liberté microscopiques.
-14. Le problème du « maillage » de l'espace-temps
+and:
 
-L'intuition initiale considérait le « maillage » géométrique de l'espace-temps comme pouvant correspondre, par analogie, à une structure microscopique du vide quantique — une métaphore heuristique, non une affirmation qu'Einstein aurait proposé un espace-temps fait d'un réseau physique de points.
+$$\boxed{\textbf{A surface-density variable }\Sigma_0\textbf{ absorbs much of the apparent deviation of the mass slope.} }$$
 
-La structure géométrique continue décrite par g μ ν pourrait-elle être une description effective, à grande échelle, d'un substrat quantique discret, relationnel ou autrement structuré ?
-15. La question de la constante cosmologique
+with, in the current data:
 
-La hiérarchie souvent résumée par un facteur de l'ordre de 10 120 entre certaines estimations microscopiques de l'énergie du vide et la contribution cosmologique observée doit être traitée avec prudence — voir le document compagnon pour le traitement rigoureux de ce facteur.
+$$\boxed{\alpha_M\simeq1}$$
 
-Et si l'énorme hiérarchie révélait une différence entre deux niveaux de description physique ?
-16. Et si les états quantiques intermédiaires étaient masqués par la description macroscopique ?
+and:
 
-Et si les calculs microscopiques décrivaient une multiplicité de degrés de liberté, d'états et de configurations, alors que la gravitation cosmologique effective ne nous donnait accès qu'à une description collective macroscopique ?
+$$\boxed{\gamma_\Sigma\simeq0.28}.$$
+### 26. Complete scientific status to record in our tracker
+Item	Current status
+175 galaxies analysed	established for this campaign
+$V^4$–$M_{\rm bar}$ relation	established empirically
+Slope $1.1475\pm0.0320$	measured
+Deviation from 1 of 4.60 σ	measured in OLS
+Introduction of $\Sigma_0$	tested
+Slope $1.0032\pm0.0410$	measured
+Compatibility with $\alpha_M=1$	very strong
+$\gamma_\Sigma=0.2787\pm0.0542$	measured
+Significance of $\Sigma_0$	~5.1 σ in OLS
+Bootstrap $\alpha_M$	compatible with 1
+Bootstrap $\gamma_\Sigma$	positive and stable
+VIF ≈ 1.88	no severe collinearity
+AIC/BIC	strongly favour Model B
+H2C residual correlated with $\Sigma_0$	yes
+Independent effect of $M_{\rm bar}$ on the residual	compatible with zero
+$\Sigma_0$ physical cause	not demonstrated
+$\gamma=0.28$ fundamental constant	not demonstrated
+Dependence on $R_d$ controlled for	not yet
+Dependence on gas fraction controlled for	not yet
+Morphological dependence controlled for	not yet
+New H2C gravitational law	not yet derived
+$\Sigma_0\rightarrow C$ link	not yet derived
+Emergent Einstein equations	still not derived
 
-Une première formulation représentait cette transition comme une relaxation Q 0 → Q 1 → ⋯ → Q stable — Logique A.
+### 27. Major Result — Judge of Peace 2: Decomposition of the $M_{\rm bar}/\Sigma_0$ Residual
 
-Cette représentation reste pertinente pour comparer différents mécanismes physiques, mais elle n'est plus le mécanisme privilégié pour l'émergence fondamentale de la géométrie étudiée ici (voir section 18).
-17. L'analogie avec un programme informatique
+On 175 SPARC galaxies, the regression of $\log V^4$ on $\log M_{\rm bar}$ alone gives a slope of $1.1475\pm0.0320$, deviating from 1 at 4.60 σ. Introducing baryonic surface density $\Sigma_0$ in a multivariate regression gives $1.0032\pm0.0410$ for the $\log M_{\rm bar}$ coefficient, compatible with the theoretical slope of 1, while the $\log\Sigma_0$ coefficient is $0.2787\pm0.0542$. The AIC/BIC criteria clearly favour the two-variable model, and the VIFs (~1.88) do not indicate severe collinearity. The direct regression of the H2C residual on $\Sigma_0$ retains a significant positive coefficient, while the independent effect of $M_{\rm bar}$ becomes compatible with zero. This result constitutes a new observational/statistical constraint for the project, but does not constitute a validation of H2C theory nor a physical derivation of the $0.28$ coefficient. Further checks on disk radius, gas fraction, morphology and stellar-mass choices are required before any physical interpretation.
 
-micro-états quantiques → interactions → corrélations → contraintes collectives → état macroscopique cohérent
+This is, in my view, the most scientifically defensible formulation at this stage.
 
-Cette analogie ne doit pas être considérée comme une équivalence physique — elle sert uniquement à distinguer dynamique microscopique, états intermédiaires, interactions, contraintes de cohérence, et description macroscopique.
-18. Deux logiques possibles pour l'émergence
+And above all, I would keep the three layers separate:
 
-    Logique A — Relaxation temporelle : le système évolue réellement dans le temps et atteint progressivement une configuration stable :
+$$\boxed{\text{DATA}}\rightarrow \boxed{\text{STATISTICAL RELATION}}\rightarrow\boxed{\text{PHYSICAL INTERPRETATION}}$$
 
-    Q 0 → Q 1 → ⋯ → Q stable
+We now have a solid result in the first two layers. The third is precisely what the next campaigns will need to try to build — or, possibly, to refute.
 
-    Logique B — Somme sur les configurations et phase stationnaire : toutes les configurations contribuent à une amplitude globale sans succession temporelle :
+  ---
+### B. Variational Derivation and Geometric Origin
+To account for this universal constant, the effective action of the phase field $\Phi$ coupled to the baryonic density $\rho_{\text{bar}}$ is formulated in the stationary regime:
 
-    Ψ ∼ ∫ D [ configurations ] , e i S / ℏ
+$$S_{\text{gal, theo}}=\frac{\sqrt{2}}{4\pi}\approx 0.1125$$
 
-Dans la limite semi-classique, les contributions dont la phase varie rapidement s'annulent, tandis que les régions où l'action est stationnaire contribuent constructivement. C'est cette structure qui est retenue ici comme analogie mathématique de travail pour l'émergence de g μ ν .
-19. Pourquoi la logique B est désormais privilégiée
+### C. Summary and Comparison
+Comparing the pure analytical prediction with the empirical data from the SPARC catalogue reveals a remarkable agreement:
 
-L'exemple du photon réfléchi par un miroir illustre cette logique : toutes les trajectoires contribuent à l'amplitude ; les chemins éloignés du chemin classique interfèrent destructivement ; le voisinage du chemin classique ( δ S = 0 ) interfère constructivement. Le point observé n'est donc pas la trace d'un unique chemin réellement emprunté, mais le résultat macroscopique dominant d'une somme sur toutes les possibilités.
-20. Phase stationnaire et critère de cohérence
+* **Theoretical value:** $\approx 0.1125$
+* **Empirical value (SPARC):** $\approx 0.1143$
+* **Relative deviation:** $< 1.5\%$
 
-δ S = 0
+This convergence supports the robustness of the phase-coherence gravity model (H2C) and anchors the effective acceleration on a rigorous topological and geometric basis.
+---
+### 13. Theoretical Obstacles to Examine
 
-Une intuition supplémentaire vient des conditions de fermeture de phase (Bohr-Sommerfeld, n λ = 2 π r ) : lorsque les phases se referment de manière cohérente, certaines contributions sont renforcées par interférence.
+| Obstacle | Description |
+| ----- | ----- |
+| **13.1 General covariance** | $G_{\mu\nu}=\mathcal{F}_{\mu\nu}[\text{correlations}]$ must respect general covariance. |
+| **13.2 Bianchi identities** | $\nabla_\mu G^{\mu\nu} = 0$ must appear at the macroscopic level. |
+| **13.3 Energy-momentum conservation** | $\nabla_\mu T^{\mu\nu} = 0$ must generalize if $G_{\text{eff}} / \Lambda_{\text{eff}}$ become dynamical. |
+| **13.4 Emergence of the metric** | It must be explained how $g_{\mu\nu}$ itself emerges from the fundamental degrees of freedom. |
+| **13.5 Dynamics of geometry** | The appearance of the $\sqrt{-g} R$ term with the correct coefficient must be explained. |
+| **13.6 Definition of the quantum vacuum** | Specify which quantum state and which correlations are physically relevant. |
+| **13.7 Locality / non-locality** | Understand how a local macroscopic geometry emerges from a possibly non-local microscopic description. |
+| **13.8 Universality of gravitation** | Explain why the coupling remains universal despite the diversity of microscopic degrees of freedom. |
 
-Existe-t-il, pour les configurations géométriques, une condition de cohérence analogue qui favorise certaines géométries comme configurations quasi-classiques stables ?
+### 14. The Problem of Spacetime "Meshing"
 
-Cette formulation reste une analogie heuristique — elle ne signifie pas que la gravité quantique est un phénomène de résonance mécanique classique.
-21. Une formulation de type intégrale de chemin
+The initial intuition considered the geometric "mesh" of spacetime as possibly corresponding, by analogy, to a microscopic structure of the quantum vacuum — a heuristic metaphor, not a claim that Einstein proposed a spacetime made of a physical lattice of points.
 
-Ψ [ G ] = ∫ C ( G ) D Φ , e i S micro [ Φ ] / ℏ
+Could the continuous geometric structure described by $g_{\mu\nu}$ be a large-scale effective description of a discrete, relational, or otherwise structured quantum substrate?
 
-où Φ représente les degrés de liberté fondamentaux, C ( G ) l'ensemble des configurations compatibles avec une géométrie effective candidate G , et S micro une action microscopique encore à définir. Cette écriture est un objectif de formalisation, pas une équation déjà dérivée.
-22. Problèmes techniques associés à la logique B
+### 15. The Question of the Cosmological Constant
 
-Problème de la mesure ( D [ g μ ν ] covariante), convergence (poids lorentzien oscillant), facteur conforme (directions problématiques de l'action gravitationnelle), renormalisation (non-renormalisabilité perturbative de la RG quantifiée). L'intégrale de chemin gravitationnelle est un cadre formel puissant, pas encore une théorie microscopique complète et calculable.
-23. Hypothèses de travail H1–H10
-ID 	Question
-H1 	Nature des degrés de liberté sommés — que sont concrètement les Φ ^ i ?
-H2 	Action microscopique S [ Φ ^ i ] , sans présupposer − − g R .
-H3 	Mesure d'intégration — quelle classe de configurations, quelles symétries respectées.
-H4 	Signature et convergence — euclidien vs lorentzien.
-H5 	Critère de phase stationnaire, appliqué à l'action microscopique.
-H6 	Mécanisme de décohérence séparé de la phase stationnaire elle-même.
-H7 	Origine de G eff et Λ eff depuis les paramètres microscopiques.
-H8 	Conditions aux limites.
-H9 	Domaine de validité.
-H10 	Prédiction distinctive et testable.
-24. H6bis — Configurations spatio-temporelles parallèles
+The hierarchy often summarized by a factor on the order of $10^{120}$ between certain microscopic estimates of vacuum energy and the observed cosmological contribution must be treated with caution — see the companion document for the rigorous treatment of this factor.
 
-Au lieu de considérer plusieurs états intermédiaires d'un même espace-temps, on envisage une multiplicité de configurations ou histoires spatio-temporelles possibles : H 1 , H 2 , … , H N , chacune associée à sa propre géométrie effective g μ ν ( i ) et éventuellement à un temps propre effectif.
+What if this enormous hierarchy revealed a difference between two levels of physical description?
 
-Une multiplicité de configurations spatio-temporelles dans une description quantique ne signifie pas automatiquement l'existence de plusieurs espaces-temps classiques indépendants au sens ordinaire.
-25. H6bis.1 — La décohérence des histoires
+### 16. What if the Intermediate Quantum States Were Hidden by the Macroscopic Description?
 
-H i interférences → décohérence H k , qc
+What if microscopic calculations described a multiplicity of degrees of freedom, states and configurations, while effective cosmological gravitation only gave us access to a collective macroscopic description?
 
-Une famille d'histoires peut devenir suffisamment décohérente des autres pour être décrite comme un secteur quasi-classique — pas nécessairement une seule histoire qui « gagne ».
-26. H6bis.2 — L'analogie des bulles de savon
+An initial formulation represented this transition as a relaxation $Q_0 \to Q_1 \to \dots \to Q_{\text{stable}}$ — Logic A.
 
-B 1 , B 2 , … interactions → coalescence B collective
+This representation remains relevant for comparing different physical mechanisms, but it is no longer the preferred mechanism for the fundamental emergence of geometry studied here (see section 18).
 
-Pour les bulles, le mécanisme (tension de surface) est physique et connu. Pour le problème quantique, le mécanisme recherché est différent (interférences → phase stationnaire → décohérence). L'analogie porte uniquement sur la transition conceptuelle : multiplicité → organisation collective → description macroscopique.
-27. H6bis.3 — Les bulles comme représentation heuristique de configurations spatio-temporelles
+### 17. The Analogy with a Computer Program
 
-La géométrie de l'espace-temps que nous observons pourrait-elle être le secteur quasi-classique dominant issu d'une multiplicité de configurations spatio-temporelles quantiques possibles ?
+$$
+\text{quantum micro-states} \to \text{interactions} \to \text{correlations} \to \text{collective constraints} \to \text{coherent macroscopic state}
+$$
 
-Cette formulation ne prétend pas démontrer que plusieurs espaces-temps classiques existent réellement — elle propose de déterminer si une théorie quantique de la gravitation peut donner un sens mathématique à cette multiplicité.
-28. H6bis.4 — Le parallèle avec le photon et le miroir
+This analogy should not be taken as a physical equivalence — it serves only to distinguish microscopic dynamics, intermediate states, interactions, coherence constraints, and macroscopic description.
 
-Toutes les trajectoires contribuent à l'amplitude ; les contributions à phase rapidement variable s'annulent ; près du chemin classique ( δ S = 0 ), les contributions se renforcent. Le point macroscopiquement observé n'est pas la manifestation d'un seul chemin microscopique réellement emprunté, mais de la région où les contributions interfèrent constructivement. Le parallèle avec les bulles et avec les histoires est structurel, pas littéral.
-29. H6bis.5 — Une formulation plus précise de la « réalité construite »
+### 18. Two Possible Logics for Emergence
 
-Il est plus rigoureux de parler d'une configuration ou famille de configurations dont la contribution constructive et la cohérence collective dominent dans la limite macroscopique considérée, plutôt que d'une configuration qui « absorberait » les autres.
-30. H6bis.6 — Les temporalités internes aux histoires
+* **Logic A — Temporal relaxation:** the system genuinely evolves in time and progressively reaches a stable configuration:
 
-Si H i → g μ ν ( i ) , alors le temps propre associé τ i est déterminé par cette géométrie.
+  $$Q_0\to Q_1\to \dots\to Q_{\text{stable}}$$
 
-Le temps que nous observons pourrait-il être le temps propre interne à l'histoire quasi-classique dans laquelle notre description macroscopique est définie ?
+* **Logic B — Sum over configurations and stationary phase:** all configurations contribute to a global amplitude with no temporal succession:
 
-Ce lien reste à construire mathématiquement.
-31. H6bis.7 — Formulation unifiée de H6
+  $$\Psi\sim\int\mathcal{D}[\text{configurations}]\, e^{iS/\hbar}$$
 
-configurations spatio-temporelles quantiques → interférences → phase stationnaire → décohérence → histoires quasi-classiques → ( g μ ν , τ eff )
+In the semi-classical limit, contributions whose phase varies rapidly cancel out, while regions where the action is stationary contribute constructively. It is this structure that is retained here as a working mathematical analogy for the emergence of $g_{\mu\nu}$.
 
-Et si la réalité macroscopique que nous observons n'était pas une description fondamentale unique, mais le secteur quasi-classique cohérent d'une multiplicité de configurations spatio-temporelles quantiques simultanément contributives dans l'amplitude ?
+### 19. Why Logic B Is Now Preferred
 
-Cette formulation constitue une hypothèse de recherche, pas une interprétation établie.
-32. Énergie microscopique et gravitation effective
+The example of a photon reflected by a mirror illustrates this logic: all trajectories contribute to the amplitude; paths far from the classical path interfere destructively; the neighbourhood of the classical path ($\delta S = 0$) interferes constructively. The observed point is therefore not the trace of a single path actually taken, but the dominant macroscopic outcome of a sum over all possibilities.
 
-ρ micro ≫ ρ eff
+### 20. Stationary Phase and Coherence Criterion
 
-sans supposer que l'énergie microscopique « disparaît ».
+$$ \delta S = 0 $$
 
-états quantiques , corrélations , histoires → T μ ν eff → g μ ν
-33. Le lien possible avec la constante cosmologique
+A further intuition comes from phase-closure conditions (Bohr-Sommerfeld, $n\lambda = 2\pi r$): when phases close coherently, certain contributions are reinforced by interference.
 
-La valeur cosmologiquement observée de Λ pourrait-elle être une propriété émergente d'un secteur collectif de configurations quantiques plutôt qu'une simple somme des énergies de point zéro de tous les champs ?
-34. Une distinction entre trois niveaux de description
+Does there exist, for geometric configurations, an analogous coherence condition that favours certain geometries as stable quasi-classical configurations?
 
-Niveau microscopique ($\hat{\Phi}i$) $\to$ niveau quantique des configurations/histoires ($H_i$) $\to$ niveau classique émergent ($g{\mu\nu}, \tau_{\text{eff}}, G_{\text{eff}}, \Lambda_{\text{eff}}$). Cette séparation évite de confondre degrés de liberté fondamentaux, configurations possibles et variables macroscopiques effectives.
-35. Temps, histoire et géométrie
+This formulation remains a heuristic analogy — it does not mean that quantum gravity is a classical mechanical resonance phenomenon.
 
-Si H i → ( g μ ν ( i ) , τ eff ( i ) ) , géométrie et temps deviennent deux aspects liés de la même description effective. La possibilité d'un mécanisme commun reste une question ouverte.
-36. Une hypothèse de séparation des échelles temporelles
+### 21. A Path-Integral–Type Formulation
 
-τ micro ≪ τ corr ≪ τ macro
+$$
+\Psi[G] = \int_{\mathcal{C}(G)} \mathcal{D}\Phi \, e^{iS_{\text{micro}}[\Phi]/\hbar}
+$$
 
-Relation heuristique, qui ne signifie pas l'existence de plusieurs temps fondamentaux.
-37. Le rôle possible de l'effet Casimir
+where $\Phi$ represents the fundamental degrees of freedom, $\mathcal{C}(G)$ the set of configurations compatible with a candidate effective geometry $G$, and $S_{\text{micro}}$ a microscopic action still to be defined. This expression is a formalization goal, not an already-derived equation.
 
-Δ E Casimir = E contrainte − E référence
+### 22. Technical Problems Associated with Logic B
 
-L'effet Casimir ne doit pas être interprété comme une mesure directe de l'énergie absolue du vide. Il ne s'agit pas de proposer une « constante cosmologique Casimir », mais de demander : la gravitation couple-t-elle à une énergie absolue, ou pourrait-elle répondre à une grandeur effective issue de différences entre états ou configurations ?
-38. Une contrainte de cohérence géométrique
+The measure problem (covariant $\mathcal{D}[g_{\mu\nu}]$), convergence (oscillating Lorentzian weight), the conformal factor (problematic directions of the gravitational action), renormalization (perturbative non-renormalizability of quantized GR). The gravitational path integral is a powerful formal framework, not yet a complete, computable microscopic theory.
 
-∇ μ G μ ν = 0 ( identités de Bianchi )
+### 23. Working Hypotheses H1–H10
 
-Une théorie émergente doit expliquer comment cette cohérence géométrique apparaît à l'échelle macroscopique. L'analogie avec un « compilateur cosmique » est uniquement heuristique.
-39. Une formulation générale de la dynamique recherchée
+| ID | Question |
+| ----- | ----- |
+| **H1** | Nature of the summed degrees of freedom — what concretely are the $\hat{\Phi}_i$? |
+| **H2** | Microscopic action $S[\hat{\Phi}_i]$, without presupposing $-\sqrt{-g}R$. |
+| **H3** | Integration measure — which class of configurations, which symmetries are respected. |
+| **H4** | Signature and convergence — Euclidean vs. Lorentzian. |
+| **H5** | Stationary-phase criterion, applied to the microscopic action. |
+| **H6** | Decoherence mechanism separate from stationary phase itself. |
+| **H7** | Origin of $G_{\text{eff}}$ and $\Lambda_{\text{eff}}$ from microscopic parameters. |
+| **H8** | Boundary conditions. |
+| **H9** | Domain of validity. |
+| **H10** | Distinctive, testable prediction. |
 
-degrés de liberté quantiques → configurations/histoires → corrélations → interférences → phase stationnaire → décohérence → secteur quasi-classique → ( g μ ν , τ eff , G eff , Λ eff )
+### 24. H6bis — Parallel Spacetime Configurations
 
-Cette chaîne constitue une architecture conceptuelle, pas une théorie établie.
-40. Question ouverte sur la masse effective
+Instead of considering several intermediate states of a single spacetime, we consider a multiplicity of possible spacetime configurations or histories: $\{H_1, H_2, \dots, H_N\}$, each associated with its own effective geometry $g_{\mu\nu}^{(i)}$ and possibly an effective proper time.
 
-m eff = E c loc 2
+A multiplicity of spacetime configurations within a quantum description does not automatically imply the existence of several independent classical spacetimes in the ordinary sense.
 
-Relation dimensionnellement cohérente, physiquement non triviale seulement si c loc est une vitesse de propagation effective dérivée d'une dynamique microscopique.
+### 25. H6bis.1 — Decoherence of Histories
 
-Le même substrat quantique qui produirait éventuellement la géométrie pourrait-il également produire l'inertie ou la masse effective ?
+$$
+\{H_i\}_{\text{interferences}} \xrightarrow{\text{decoherence}} \{H_{k,\text{qc}}\}
+$$
 
-Aucun mécanisme commun de cette forme n'est établi ici. (Voir le document compagnon pour la mise en garde historique — Wheeler, géométrodynamique, 1955 — associée à cette ambition.)
-41. Ce qu'il faudrait démontrer pour transformer l'hypothèse en théorie
+A family of histories may become sufficiently decoherent from the others to be described as a quasi-classical sector — not necessarily a single history that "wins."
 
-Définir les degrés de liberté fondamentaux et leur espace d'états ; définir leur dynamique et les corrélations pertinentes ; définir l'objet sommé et la mesure d'intégration ; établir un critère de phase stationnaire ; montrer comment la décohérence produit des histoires quasi-classiques ; montrer comment g μ ν et le temps effectif émergent ; déterminer si une masse effective peut apparaître ; dériver une action effective retrouvant − − g R ; déterminer G eff et Λ eff ; retrouver les équations d'Einstein ; reproduire les observations connues ; produire une prédiction falsifiable.
+### 26. H6bis.2 — The Soap-Bubble Analogy
 
-Sans ces étapes, l'idée reste une hypothèse heuristique.
-42. Question ouverte à la communauté scientifique
+$$
+\{B_1, B_2, \dots\}_{\text{interactions}} \xrightarrow{\text{coalescence}} B_{\text{collective}}
+$$
 
-Question soumise aux chercheurs en gravité quantique, QFT en espace-temps courbe, gravité induite et émergente, holographie, information quantique et gravité, renormalisation, géométrie non commutative, espace-temps émergent, systèmes hors équilibre :
+For bubbles, the mechanism (surface tension) is physical and known. For the quantum problem, the sought mechanism is different (interference $\to$ stationary phase $\to$ decoherence). The analogy applies only to the conceptual transition: multiplicity $\to$ collective organization $\to$ macroscopic description.
 
-    Existe-t-il dans la littérature une construction mathématique où la géométrie gravitationnelle effective est explicitement dérivée d'une structure de corrélations quantiques, d'amplitudes et éventuellement d'une somme sur des histoires, dont la limite macroscopique reproduit les équations d'Einstein ?
-    Existe-t-il un mécanisme permettant de passer d'une multiplicité de configurations quantiques à un secteur quasi-classique cohérent dont les paramètres effectifs sont calculés plutôt que postulés ?
+### 27. H6bis.3 — Bubbles as a Heuristic Representation of Spacetime Configurations
 
-(19 sous-questions techniques détaillées — formulation mathématique exacte, degrés de liberté, corrélations, mesure, décohérence, émergence de la métrique, du temps, de la masse, de G eff , de Λ eff , hypothèses, limites, localité, covariance, cohérence énergie-impulsion, hiérarchie 10 120 , prédiction distinctive.)
+Could the spacetime geometry we observe be the dominant quasi-classical sector arising from a multiplicity of possible quantum spacetime configurations?
 
-Si aucune construction satisfaisant ces critères n'existe : quel obstacle structurel connu empêche une telle construction ?
-43. Ce que cette recherche ne prétend PAS démontrer
+This formulation does not claim to demonstrate that several classical spacetimes actually exist — it proposes to determine whether a quantum theory of gravitation can give mathematical meaning to this multiplicity.
 
-Que l'espace-temps est fait de « points de vide quantique » ; que plusieurs espaces-temps classiques indépendants existent réellement ; que G est nécessairement émergente ; que les 10 120 ordres de grandeur représentent des étapes physiques de stabilisation ; que le coarse-graining explique déjà cette hiérarchie ; que Casimir est responsable de la constante cosmologique ; que plusieurs temps fondamentaux indépendants existent ; que le temps microscopique « s'écoule plus vite » ; que la phase stationnaire sélectionne à elle seule une unique réalité classique ; que la décohérence prouve une géométrie émergente ; que la masse est nécessairement émergente ; que le vide quantique permet de contrôler la gravité ; qu'une nouvelle théorie de gravité quantique a été découverte ; qu'une application d'antigravité ou de propulsion en découle.
+### 28. H6bis.4 — The Parallel with the Photon and the Mirror
 
-Il s'agit uniquement d'une question de recherche théorique.
-44. Cinq problèmes liés mais distincts
-Niveau 	Question
-Géométrie 	Comment g μ ν pourrait-il émerger ?
-Gravitation 	Comment G eff pourrait-il apparaître ?
-Cosmologie 	Pourquoi Λ eff est-il si faible ?
-Temps 	Le temps propre pourrait-il lui-même être émergent ?
-Inertie 	Une masse effective pourrait-elle émerger du même substrat ?
+All trajectories contribute to the amplitude; contributions with rapidly varying phase cancel out; near the classical path ($\delta S = 0$), contributions reinforce one another. The macroscopically observed point is not the manifestation of a single microscopic path actually taken, but of the region where contributions interfere constructively. The parallel with bubbles and with histories is structural, not literal.
 
-Ces problèmes peuvent être liés dans une théorie plus profonde, mais aucune implication automatique n'est supposée.
-45. Objectif de ce dépôt
+### 29. H6bis.5 — A More Precise Formulation of "Constructed Reality"
 
-Documenter le cheminement de la réflexion ; distinguer résultats établis et hypothèses spéculatives ; identifier les travaux existants ; éviter de redécouvrir une construction déjà publiée ; recueillir les critiques permettant de falsifier ou reformuler l'hypothèse ; déterminer si le problème est déjà résolu, partiellement traité, ou réellement ouvert.
-46. Position méthodologique
+It is more rigorous to speak of a configuration or family of configurations whose constructive contribution and collective coherence dominate in the macroscopic limit considered, rather than a configuration that would "absorb" the others.
 
-Hypothèse ≠ interprétation ≠ résultat ≠ théorie établie.
+### 30. H6bis.6 — Internal Timelines of Histories
 
-L'assistance de modèles de langage a servi à explorer la littérature, reformuler les hypothèses et identifier des pistes mathématiques. Elle ne constitue pas une validation scientifique. Toute affirmation importante doit être confrontée aux publications originales et à l'avis de chercheurs compétents.
-47. Formalisation mathématique et modèle jouet : état consolidé
+If $H_i \to g_{\mu\nu}^{(i)}$, then the associated proper time $\tau_i$ is determined by this geometry.
 
-Cette section rassemble le formalisme phénoménologique et les résultats numériques obtenus après les campagnes successives. Elle doit être lue comme un programme de recherche falsifiable, et non comme une dérivation établie de la relativité générale.
-47.1 Champ de cohérence et variables fondamentales
+Could the time we observe be the proper time internal to the quasi-classical history within which our macroscopic description is defined?
 
-On considers un champ scalaire de cohérence de phase :
+This link remains to be constructed mathematically.
 
-C ( x ) ∈ [ 0 , 1 ]
+### 31. H6bis.7 — Unified Formulation of H6
 
-Dans les modèles de dynamique collective, il est représenté par le paramètre d'ordre :
+$$
+\text{quantum spacetime configurations} \to \text{interferences} \to \text{stationary phase} \to \text{decoherence} \to \text{quasi-classical histories} \to (g_{\mu\nu}, \tau_{\text{eff}})
+$$
 
-Z = 1 N ∑ j = 1 N e i θ j , C = | Z | 2
+And what if the macroscopic reality we observe were not a single fundamental description, but the coherent quasi-classical sector of a multiplicity of quantum spacetime configurations simultaneously contributing to the amplitude?
 
-Cette définition présente une propriété importante : C est invariant sous une rotation globale des phases, contrairement à R = Re ( Z ) . Les campagnes antérieures ont donc conduit à retenir C comme observable de cohérence robuste.
+This formulation constitutes a research hypothesis, not an established interpretation.
 
-Le cadre structurel reste fixé en 3+1 dimensions : d = 3 dimensions spatiales, D = d + 1 = 4 .
-47.2 Équation de potentiel et profil régularisé
+### 32. Microscopic Energy and Effective Gravitation
 
-Le modèle de travail conserve une équation de type Poisson modifiée :
+$$ \rho_{\text{micro}} \gg \rho_{\text{eff}} $$
 
-∇ 2 Φ ( x ) = 4 π c 2 L 0 2 [ C ( x ) − C c ]
+without assuming that the microscopic energy "disappears."
 
-Le profil régularisé utilisé comme référence est :
+$$
+\{\text{quantum states}, \text{correlations}, \text{histories}\} \to T_{\mu\nu}^{\text{eff}} \to g_{\mu\nu}
+$$
 
-C ( r ) = C c + r g 2 r 2 + r g 2 ( C max − C c )
+### 33. The Possible Link to the Cosmological Constant
 
-avec C max = 1 et r g = 2 G M / c 2 .
+Could the cosmologically observed value of $\Lambda$ be an emergent property of a collective sector of quantum configurations rather than a simple sum of the zero-point energies of all fields?
 
-Ce profil possède une propriété utile : C ( 0 ) = C max , C ′ ( 0 ) = 0 .
+### 34. A Distinction Between Three Levels of Description
 
-Mais il ne doit pas être identifié directement à une densité de masse : son comportement asymptotique en 1 / r 2 rendrait la masse intégrée divergente. La reconstruction doit donc rester séparée :
+Microscopic level ($\hat{\Phi}_i$) $\to$ quantum level of configurations/histories ($H_i$) $\to$ emergent classical level ($g_{\mu\nu}, \tau_{\text{eff}}, G_{\text{eff}}, \Lambda_{\text{eff}}$). This separation avoids conflating fundamental degrees of freedom, possible configurations, and effective macroscopic variables.
 
-C ( r ) → ρ ( r ) → m ( r ) → g ( r ) → g μ ν eff
-47.3 Dynamique collective testée
+### 35. Time, History and Geometry
 
-La dynamique de Kuramoto pondérée utilisée dans les Tests 12–13 et la campagne du Test 51 est :
+If $H_i \to (g_{\mu\nu}^{(i)}, \tau_{\text{eff}}^{(i)})$, geometry and time become two linked aspects of the same effective description. Whether a common mechanism exists remains an open question.
 
-E i = Q i 2
+### 36. A Hypothesis of Timescale Separation
 
-w i j = exp ⁡ [ − ( E i − E j ) 2 2 σ 2 ]
+$$ \tau_{\text{micro}} \ll \tau_{\text{corr}} \ll \tau_{\text{macro}} $$
 
-θ ˙ i = K N ∑ j w i j sin ⁡ ( θ j − θ i )
+A heuristic relation, which does not imply the existence of several fundamental times.
 
-Le paramètre d'ordre est ensuite :
+### 37. The Possible Role of the Casimir Effect
 
-C = | Z | 2 , Z = 1 N ∑ j e i θ j
+$$ \Delta E_{\text{Casimir}} = E_{\text{constrained}} - E_{\text{reference}} $$
 
-Cette dynamique permet de distinguer un état incohérent ( C ∼ 1 / N ) d'un état collectivement cohérent ( C ≫ 1 / N ).
+The Casimir effect should not be interpreted as a direct measure of the absolute vacuum energy. The point is not to propose a "Casimir cosmological constant," but to ask: does gravitation couple to an absolute energy, or could it respond to an effective quantity arising from differences between states or configurations?
 
-Pour des phases indépendantes uniformes :
+### 38. A Geometric Consistency Constraint
 
-E [ C ] = 1 N
+$$ \nabla_\mu G^{\mu\nu} = 0 \quad (\text{Bianchi identities}) $$
 
-ce qui fournit une référence indispensable pour interpréter les petits C à taille finie.
-47.4 Statut de R
+An emergent theory must explain how this geometric consistency appears at the macroscopic scale. The analogy with a "cosmic compiler" is purely heuristic.
 
-Le signe de R = Re ( Z ) n'est pas invariant sous rotation globale de phase. Les tests antérieurs ont donc écarté son emploi comme critère absolu de cohérence ou comme preuve d'une orientation causale.
+### 39. A General Formulation of the Sought Dynamics
 
-Les hypothèses spécifiques suivantes n'ont pas été confirmées sous leur forme initiale :
+$$
+\text{quantum degrees of freedom} \to \text{configurations/histories} \to \text{correlations} \to \text{interferences} \to \text{stationary phase} \to \text{decoherence} \to \text{quasi-classical sector} \to (g_{\mu\nu}, \tau_{\text{eff}}, G_{\text{eff}}, \Lambda_{\text{eff}})
+$$
 
-    R < 0 comme secteur nécessairement destructif ;
-    R comme code direct d'un cône causal futur/passé ;
-    Corrélation entre le signe de R et un winding topologique.
+This chain constitutes a conceptual architecture, not an established theory.
 
-Un indicateur causal alternatif R causal reste une piste, mais sans plancher positif démontré.
-47.5 Dérivation de K : d'un paramètre postulé à une constante de couplage dérivée
+### 40. Open Question on Effective Mass
 
-La dynamique décrite en 47.3 utilise une constante de couplage K qui, jusqu'ici, était un paramètre externe ajusté à la main. Deux résultats établissent qu'elle peut être reformulée, puis en partie dérivée.
+$$ m_{\text{eff}} = \frac{E}{c_{\text{loc}}^2} $$
 
-Étape 1 — K est déjà, structurellement, une constante de couplage. La dynamique $\dot{\theta}i = \frac{K}{N} \sum_j w{ij} \sin(\theta_j - \theta_i)$ est exactement le flot de gradient descendant du potentiel :
+A dimensionally consistent relation, physically non-trivial only if $c_{\text{loc}}$ is an effective propagation speed derived from a microscopic dynamics.
 
-V [ θ ] = − K 2 N ∑ i , j w i j cos ⁡ ( θ i − θ j )
+Could the same quantum substrate that would eventually produce geometry also produce inertia or effective mass?
 
-vérifié numériquement à la précision machine ( ∼ 10 − 11 ) — K n'est donc pas une force ajoutée arbitrairement, mais la constante de couplage d'un terme d'interaction de type XY.
+No common mechanism of this kind is established here. (See the companion document for the historical cautionary note — Wheeler, geometrodynamics, 1955 — associated with this ambition.)
 
-Étape 2 — Dérivation par élimination adiabatique d'un champ médiateur. En couplant chaque phase θ i à un champ médiateur complexe ψ (technique de type Hubbard-Stratonovich, analogue formel à la gravité induite de Sakharov, §4-5) :
+### 41. What Would Need to Be Demonstrated to Turn the Hypothesis into a Theory
 
-ψ ˙ = taux ⋅ ( − m 2 ψ + g Z ¯ ) , Z ¯ = 1 N ∑ j e i θ j
+Define the fundamental degrees of freedom and their state space; define their dynamics and the relevant correlations; define the summed object and the integration measure; establish a stationary-phase criterion; show how decoherence produces quasi-classical histories; show how $g_{\mu\nu}$ and effective time emerge; determine whether an effective mass can appear; derive an effective action recovering $-\sqrt{-g}R$; determine $G_{\text{eff}}$ and $\Lambda_{\text{eff}}$; recover Einstein's equations; reproduce known observations; produce a falsifiable prediction.
 
-l'élimination adiabatique de ψ (relaxation rapide vers son équilibre ψ eq = ( g / m 2 ) Z ¯ ) reproduit la dynamique de Kuramoto réduite avec :
+Without these steps, the idea remains a heuristic hypothesis.
 
-K eff = g 2 m 2
+### 42. Open Question to the Scientific Community
 
-Vérifié numériquement : le système complet avec médiateur explicite reproduit la dynamique réduite à la 3e-4e décimale près, sur cinq valeurs de couplage g testées (de g = 0.05 à g = 1.0 ).
+Question submitted to researchers in quantum gravity, QFT in curved spacetime, induced and emergent gravity, holography, quantum information and gravity, renormalization, non-commutative geometry, emergent spacetime, and non-equilibrium systems:
 
-Portée et limite : C'est la première dérivation non circulaire d'un paramètre de ce modèle, plutôt qu'un ajustement — mais g (couplage au médiateur) et m (masse du médiateur) restent eux-mêmes des paramètres externes non dérivés. Le problème est repoussé d'un cran, pas résolu.
+* Does there exist in the literature a mathematical construction where effective gravitational geometry is explicitly derived from a structure of quantum correlations, amplitudes, and possibly a sum over histories, whose macroscopic limit reproduces Einstein's equations?
+* Does there exist a mechanism allowing a transition from a multiplicity of quantum configurations to a coherent quasi-classical sector whose effective parameters are computed rather than postulated?
 
-    ⚠️ Point de vigilance sur la numérotation des tests : Plusieurs fils de travail indépendants (celui-ci, et le journal numérique compagnon) ont chacun leur propre numérotation de « Test N », qui ne coïncident pas terme à terme — par exemple, le « Test 43 » de la section 48.4 ci-dessous (rayons R trans , R gentle ) n'est pas le même calcul que le « Test 43 » du journal d'expériences numériques (recherche d'exposants sur la solution radiale). Se référer au contenu de chaque test, pas seulement à son numéro, en cas de doute.
+(19 detailed technical sub-questions — exact mathematical formulation, degrees of freedom, correlations, measure, decoherence, emergence of the metric, of time, of mass, of $G_{\text{eff}}$, of $\Lambda_{\text{eff}}$, assumptions, limitations, locality, covariance, energy-momentum consistency, the $10^{120}$ hierarchy, distinctive prediction.)
 
-48. Géométrie régularisée et récupération de la limite newtonienne
-48.1 Pourquoi le 4/3 global a été abandonné
+If no construction satisfying these criteria exists: what known structural obstacle prevents such a construction?
 
-Les premières versions utilisaient un scaling global du type r ∼ N 4 / 3 . Les Tests 39–40 ont montré que cette croissance non bornée ne peut pas être maintenue jusqu'à l'infini : elle détruit la limite newtonienne.
+### 43. What This Research Does NOT Claim to Demonstrate
 
-La contrainte physique devient donc :
+That spacetime is made of "quantum vacuum points"; that several independent classical spacetimes actually exist; that $G$ is necessarily emergent; that the $10^{120}$ orders of magnitude represent physical stabilization steps; that coarse-graining already explains this hierarchy; that the Casimir effect is responsible for the cosmological constant; that several independent fundamental times exist; that microscopic time "flows faster"; that stationary phase alone selects a unique classical reality; that decoherence proves an emergent geometry; that mass is necessarily emergent; that the quantum vacuum allows gravity to be controlled; that a new theory of quantum gravity has been discovered; that an antigravity or propulsion application follows from it.
 
-    Régime central/intermédiaire : correction possible
-    Grand r : | g ( r ) | ∝ 1 r 2
+This is purely a theoretical research question.
 
-48.2 Test 41 — succès de la correction localisée
+### 44. Five Related but Distinct Problems
 
-Le Test 41 a corrigé une erreur de signe : g ( r ) est négatif par convention, tandis que M tot > 0 . La comparaison correcte porte donc sur les magnitudes | g ( r ) | r 2 .
+| Level | Question |
+| ----- | ----- |
+| **Geometry** | How could $g_{\mu\nu}$ emerge? |
+| **Gravitation** | How could $G_{\text{eff}}$ appear? |
+| **Cosmology** | Why is $\Lambda_{\text{eff}}$ so small? |
+| **Time** | Could proper time itself be emergent? |
+| **Inertia** | Could an effective mass emerge from the same substrate? |
 
-Valeurs rapportées :
-r (kpc) 	| g ( r ) | r 2
-15 	1183,9
-20 	1183,0
-30 	1182,0
+These problems may be linked within a deeper theory, but no automatic implication is assumed.
 
-La moyenne est d'environ 1183, avec un coefficient de variation d'environ 0,07%, et l'écart relatif à M tot = 1196.7 est d'environ 1,15%.
+### 45. Purpose of This Repository
 
-Le résultat établit dans ce modèle jouet une récupération très propre de la loi :
+Document the path of the inquiry; distinguish established results from speculative hypotheses; identify existing work; avoid rediscovering an already-published construction; gather criticism allowing the hypothesis to be falsified or reformulated; determine whether the problem is already solved, partially addressed, or genuinely open.
 
-| g ( r ) | r 2 → constante
+### 46. Methodological Position
 
-Statut : 🟢 résultat numérique de non-régression dans le modèle jouet. Il ne constitue pas une validation observationnelle de la gravité émergente.
-48.3 Test 42 — robustesse de la correction localisée
+Hypothesis $\neq$ interpretation $\neq$ result $\neq$ established theory.
 
-Une grille 4 × 4 a été explorée en faisant varier indépendamment σ et k 0 entre 0,5 et 2 fois leurs valeurs nominales.
+Assistance from language models was used to explore the literature, reformulate hypotheses, and identify mathematical directions. It does not constitute scientific validation. Any important claim must be checked against the original publications and the opinion of competent researchers.
 
-Résultat rapporté : 16/16 points robustes, avec | g | r 2 quasi constant et un écart relatif à M tot de l'ordre de 0,1% dans le jouet reproductible.
+### 47. Mathematical Formalization and Toy Model: Consolidated State
 
-La conclusion méthodologique est importante : la récupération de l'asymptote n'est pas uniquement liée à un réglage ponctuel des paramètres testés.
+This section brings together the phenomenological formalism and the numerical results obtained after successive campaigns. It should be read as a falsifiable research program, not as an established derivation of general relativity.
 
-Statut : 🟢 robustesse numérique du mécanisme de localisation dans le modèle testé.
-48.4 Tests 43–44 — intégration tore–cône et exposant dynamique
+#### 47.1 Coherence Field and Fundamental Variables
 
-La géométrie de travail a ensuite été organisée en trois régimes :
+We consider a scalar phase-coherence field:
 
-    Région centrale/tore ;
-    Région de transition/cône ;
-    Pente douce et retour asymptotique.
+$$ C(x) \in [0,1] $$
 
-Les rayons utilisés dans le Test 43 étaient :
+In collective-dynamics models, it is represented by the order parameter:
 
-R trans = 0.61  kpc , R gentle = 1.31  kpc
+$$ Z = \frac{1}{N} \sum_{j=1}^N e^{i\theta_j}, \quad C = |Z|^2 $$
 
-Le rapport ≃ 2.15 entre ces rayons reste une entrée géométrique et n'est pas encore dérivé.
+This definition has an important property: $C$ is invariant under a global rotation of the phases, unlike $R = \mathrm{Re}(Z)$. Earlier campaigns therefore led to $C$ being retained as a robust coherence observable.
 
-Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ 0,005% et un écart relatif d'environ − 0 , 004 dans le calcul rapporté.
+The structural framework remains fixed at 3+1 dimensions: $d=3$ spatial dimensions, $D = d+1 = 4$.
 
-Pour rendre le 4 / 3 compatible avec cette contrainte, une interpolation dynamique a été testée :
+#### 47.2 Potential Equation and Regularized Profile
 
-s ( r ) = C ( r ) − C c C max − C c , α ( s ) = 1 + s 3
+The working model retains a modified Poisson-type equation:
 
-Ainsi :
+$$ \nabla^2 \Phi(x) = \frac{4\pi c^2}{L_0^2} [C(x) - C_c] $$
 
-s → 0 ⟹ α → 1
+The regularized profile used as a reference is:
 
-s → 1 ⟹ α → 4 3
+$$ C(r) = C_c + \frac{r_g^2}{r^2 + r_g^2} (C_{\text{max}} - C_c) $$
 
-Dans le Test 44, la zone cône donnait approximativement 1.21 ≲ α ≲ 1.28 , avec une moyenne proche de 1,25. La valeur 4 / 3 n'était donc pas atteinte partout : elle apparaît comme limite de saturation, pas comme une constante globale imposée à tous les rayons.
+with $C_{\text{max}} = 1$ and $r_g = 2GM/c^2$.
 
-Statut : 🟢 cohérence numérique du raccordement testé ; 🟡 origine fondamentale du 4 / 3 encore ouverte.
-48.5 Forme candidate de correction localisée
+This profile has a useful property: $C(0) = C_{\text{max}}$, $C'(0) = 0$.
 
-Une écriture de travail compatible avec les résultats précédents est :
+But it must not be directly identified with a mass density: its asymptotic $1/r^2$ behaviour would make the integrated mass divergent. The reconstruction must therefore remain separate:
 
-ρ eff ( r ) = ρ b ( r ) [ 1 + k 0 ( r r t ) 4 / 3 sech 2 ( r − r t σ ) ]
+$$ C(r) \to \rho(r) \to m(r) \to g(r) \to g_{\mu\nu}^{\text{eff}} $$
 
-Cette expression n'est pas encore une loi fondamentale. Elle encode seulement les trois contraintes numériques :
+#### 47.3 Collective Dynamics Tested
 
-    Correction faible hors de la zone de transition ;
-    Scaling 4 / 3 dans la zone active ;
-    Extinction de la correction à grand r .
+The weighted Kuramoto dynamics used in Tests 12–13 and the Test 51 campaign is:
 
-49. Recherche de l'origine dimensionnelle de 4 / 3 , 3 / 4 et 1 / 4
+$$ E_i = Q_i^2 $$
 
-Le modèle est désormais explicitement fixé en 3+1 dimensions : d = 3 .
+$$ w_{ij} = \exp\left[-\frac{(E_i - E_j)^2}{2\sigma^2}\right] $$
 
-Une famille dimensionnelle simple donne :
+$$ \dot{\theta}_i = \frac{K}{N} \sum_j w_{ij} \sin(\theta_j - \theta_i) $$
 
-α = d + 1 d = 4 3 , β = d d + 1 = 3 4
+The order parameter is then:
 
-avec :
+$$ C = |Z|^2, \quad Z = \frac{1}{N} \sum_j e^{i\theta_j} $$
 
-α β = 1
+This dynamics makes it possible to distinguish an incoherent state ($C \sim 1/N$) from a collectively coherent state ($C \gg 1/N$).
 
-Une autre relation candidate donne :
+For independent uniform phases:
 
-η = 1 d + 1 = 1 4
+$$ \mathbb{E}[C] = \frac{1}{N} $$
 
-Avec la définition utilisée pour l'angle :
+which provides an indispensable reference for interpreting small finite-size $C$ values.
 
-θ = 2 arcsin ⁡ ( C c 1 − C c )
+#### 47.4 Status of $R$
 
-la valeur C c = 0.2 = 1 / 5 entraîne exactement :
+The sign of $R = \mathrm{Re}(Z)$ is not invariant under a global phase rotation. Earlier tests therefore ruled out its use as an absolute criterion of coherence or as evidence of a causal orientation.
 
-C c 1 − C c = 1 4
+The following specific hypotheses have not been confirmed in their initial form:
 
-puis :
+* $R < 0$ as a necessarily destructive sector;
+* $R$ as a direct code for a future/past causal cone;
+* Correlation between the sign of $R$ and a topological winding.
 
-θ = 2 arcsin ⁡ ( 1 4 ) ≈ 28.955 ∘
+An alternative causal indicator $R_{\text{causal}}$ remains a possible direction, but with no demonstrated positive floor.
 
-On peut également écrire la relation candidate :
+#### 47.5 Derivation of $K$: From a Postulated Parameter to a Derived Coupling Constant
 
-C c = 1 d + 2
+The dynamics described in 47.3 uses a coupling constant $K$ which, until now, was an external parameter fitted by hand. Two results establish that it can be reformulated, and then partly derived.
 
-Pour d = 3 :
+**Step 1 —** $K$ is already, structurally, a coupling constant. The dynamics $\dot{\theta}_i = \frac{K}{N} \sum_j w_{ij} \sin(\theta_j - \theta_i)$ is exactly the gradient-descent flow of the potential:
 
-C c = 1 5
+$$ V[\theta] = -\frac{K}{2N} \sum_{i,j} w_{ij} \cos(\theta_i - \theta_j) $$
 
-et donc :
+verified numerically to machine precision ($\sim 10^{-11}$) — $K$ is therefore not an arbitrarily added force, but the coupling constant of an XY-type interaction term.
 
-C c 1 − C c = 1 d + 1 = 1 4
-49.1 Ce qui est réellement démontré
+**Step 2 —** Derivation via adiabatic elimination of a mediator field. By coupling each phase $\theta_i$ to a complex mediator field $\psi$ (Hubbard-Stratonovich–type technique, formally analogous to Sakharov's induced gravity, §4–5):
 
-Les identités numériques sont exactes :
+$$ \dot{\psi} = \text{rate} \cdot (-m^2 \psi + g \bar{Z}), \quad \bar{Z} = \frac{1}{N} \sum_j e^{i\theta_j} $$
 
-0.2 = 1 5 , 0.2 0.8 = 1 4
+the adiabatic elimination of $\psi$ (fast relaxation toward its equilibrium $\psi_{\text{eq}} = (g/m^2)\bar{Z}$) reproduces the reduced Kuramoto dynamics with:
 
-2 arcsin ⁡ ( 1 4 ) ≈ 28.955 ∘
+$$ K_{\text{eff}} = \frac{g^2}{m^2} $$
 
-d + 1 d = 4 3 , d d + 1 = 3 4 ( d = 3 )
-49.2 Ce qui n'est pas dérivé
+Verified numerically: the full system with an explicit mediator reproduces the reduced dynamics to within the 3rd–4th decimal place, across five tested values of coupling $g$ (from $g=0.05$ to $g=1.0$).
 
-Les Tests 49–50 ont montré que la dynamique minimale de C et les rétroactions simples testées ne sélectionnent pas spontanément C c = 1 / 5 .
+**Scope and limitation:** This is the first non-circular derivation of a parameter of this model, rather than a fit — but $g$ (mediator coupling) and $m$ (mediator mass) themselves remain external, non-derived parameters. The problem is pushed back one level, not solved.
 
-Avec :
+> ⚠️ **Note on test numbering:** Several independent work threads (this one, and the companion numerical log) each have their own "Test N" numbering, which do not coincide term for term — for example, "Test 43" in section 48.4 below (radii $R_{\text{trans}}$, $R_{\text{gentle}}$) is not the same calculation as "Test 43" in the numerical experiment log (search for exponents on the radial solution). When in doubt, refer to the content of each test, not just its number.
 
-Z ◻ C − V ′ ( C ) = 0
+### 48. Regularized Geometry and Recovery of the Newtonian Limit
 
-un potentiel quadratique relaxe vers la valeur placée dans le potentiel. De même, les rétroactions testées du type σ ( C ) ont produit des attracteurs nettement plus cohérents, environ 0,72 à 0,91, sans attracteur dans la fenêtre [ 0.16 , 0.24 ] .
+#### 48.1 Why the Global 4/3 Was Abandoned
 
-Conclusion : C c = 1 / 5 reste une entrée du modèle gravitationnel, tandis que 4 / 3 , 3 / 4 et 1 / 4 forment une structure dimensionnelle élégante et cohérente conditionnelle à cette entrée. Aucune dérivation physique fondamentale de C c = 1 / 5 n'est actuellement établie.
-50. Tests de dynamique collective : de Q i à C
-50.1 Chaîne de calcul
+Early versions used a global scaling of the type $r \sim N^{4/3}$. Tests 39–40 showed that this unbounded growth cannot be sustained to infinity: it destroys the Newtonian limit.
 
-Le programme numérique est organisé selon la chaîne :
+The physical constraint therefore becomes:
 
-Q i → E i → θ i → C
+* Central/intermediate regime: correction possible
+* Large $r$: $|g(r)| \propto \frac{1}{r^2}$
 
-avec :
+#### 48.2 Test 41 — Success of the Localized Correction
 
-E i = Q i 2
+Test 41 corrected a sign error: $g(r)$ is negative by convention, while $M_{\text{tot}} > 0$. The correct comparison is therefore on the magnitudes $|g(r)|r^2$.
 
-w i j = exp ⁡ [ − ( E i − E j ) 2 2 σ 2 ]
+Reported values:
 
-L'objectif est de déterminer si une structure collective produit une valeur privilégiée de C ou uniquement une transition continue entre incohérence et synchronisation.
-50.2 Test 50 — rétroactions aveugles de C sur σ
+| $r$ (kpc) | $|g(r)|r^2$ |
+| ----- | ----- |
+| 15 | 1183.9 |
+| 20 | 1183.0 |
+| 30 | 1182.0 |
 
-Deux familles sans ciblage de 0.2 ont été testées :
+The average is about 1183, with a coefficient of variation of about 0.07%, and the relative deviation from $M_{\text{tot}} = 1196.7$ is about 1.15%.
 
-σ ( C ) = σ 0 ( 1 − C )
+The result establishes, in this toy model, a very clean recovery of the law:
 
-et
+$$ |g(r)|r^2 \to \text{constant} $$
 
-σ ( C ) = σ 0 1 + κ C
+**Status:** 🟢 non-regression numerical result in the toy model. It does not constitute an observational validation of emergent gravity.
 
-Les attracteurs rapportés étaient environ :
-Forme 	Paramètres 	C ∗
-Linéaire 	σ 0 = 0.5 	0,778
-Linéaire 	σ 0 = 1.0 	0,818
-Linéaire 	σ 0 = 1.5 	0,913
-Inverse 	σ 0 = 0.8 , κ = 1 	0,836
-Inverse 	σ 0 = 0.8 , κ = 2 	0,893
-Inverse 	σ 0 = 1.2 , κ = 1.5 	0,914
-Inverse 	σ 0 = 1.0 , κ = 3 	0,722
+#### 48.3 Test 42 — Robustness of the Localized Correction
 
-Aucun attracteur n'est apparu dans [ 0.16 , 0.24 ] .
+A $4 \times 4$ grid was explored by independently varying $\sigma$ and $k_0$ between 0.5 and 2 times their nominal values.
 
-Verdict : 🔴 ces rétroactions simples ne sélectionnent pas C c ≃ 0.2 .
-50.3 Test 51 — recherche aveugle d'une transition collective
+Reported result: 16/16 robust points, with $|g|r^2$ nearly constant and a relative deviation from $M_{\text{tot}}$ on the order of 0.1% in the reproducible toy model.
 
-Le Test 51 a ensuite abandonné toute rétroaction artificielle et recherché directement une transition dans le système pondéré :
+The methodological conclusion is important: the recovery of the asymptote is not tied solely to a specific tuning of the parameters tested.
 
-θ ˙ i = K N ∑ j w i j sin ⁡ ( θ j − θ i )
+**Status:** 🟢 numerical robustness of the localization mechanism in the tested model.
 
-Le protocole utilise notamment :
+#### 48.4 Tests 43–44 — Torus–Cone Integration and Dynamic Exponent
 
-N ∈ 200 , 400 , 800 , 1600
+The working geometry was then organized into three regimes:
 
-un balayage de K et σ , plusieurs graines indépendantes, et un temps d'intégration suffisamment long.
+1. Central/torus region;
+2. Transition/cone region;
+3. Gentle slope and asymptotic return.
 
-Les observables prévues sont :
+The radii used in Test 43 were:
 
-χ C = N ( ⟨ C 2 ⟩ − ⟨ C ⟩ 2 )
+$$ R_{\text{trans}} = 0.61 \text{ kpc}, \quad R_{\text{gentle}} = 1.31 \text{ kpc} $$
 
-ainsi qu'un cumulant de Binder traité comme indicateur secondaire, et le temps de relaxation.
+The ratio $\simeq 2.15$ between these radii remains a geometric input and has not yet been derived.
 
-Le premier scan 2D rapporté, avec N = 200 , 400 , K ∈ 0.5 , 1 , 1.5 , 2 et σ ∈ 8 , 12 , 16 , 20 , montre :
+Test 43 preserves the Newtonian asymptote with a coefficient of variation of about 0.005% and a relative deviation of about $-0.004\%$ in the reported calculation.
 
-    Un régime incohérent à faible K , avec C proche de l'échelle 1 / N ;
-    Une montée continue de C avec K ;
-    Des valeurs ponctuelles proches de 0.2 ;
-    Aucune ligne critique robuste qui fixe universellement C ≃ 0.2 .
+To make the $4/3$ compatible with this constraint, a dynamic interpolation was tested:
 
-Par exemple, des valeurs proches de 0.2 apparaissent autour de C ≈ 0.218 et C ≈ 0.169 pour certains couples ( K , σ ) , mais elles se déplacent lorsque les paramètres ou N changent.
+$$ s(r) = \frac{C(r) - C_c}{C_{\text{max}} - C_c}, \quad \alpha(s) = 1 + \frac{s}{3} $$
 
-Verdict du Test 51 : Le modèle pondéré possède une transition de synchronisation, mais ne sélectionne pas C crit ≈ 0.2 universellement.
+Thus:
 
-Ainsi, C = 0.2 est actuellement mieux décrit comme un point de passage paramétrique du modèle que comme un attracteur ou point critique fondamental.
-51. Conséquences physiques et limites actuelles
-51.1 Ce que les campagnes numériques établissent réellement
-Élément 	Statut
-Structure dimensionnelle 3 + 1 	🟢 Hypothèse structurelle fixée
-C = ‖ Z ‖ 2 comme invariant de phase 	🟢 Confirmé comme observable robuste du jouet
-État incohérent C ∼ 1 / N 	🟢 Référence statistique confirmée
-Correction localisée 	🟢 Testée avec non-régression newtonienne
-Robustesse de l'asymptote sous variation σ , k 0 	🟢 Testée dans le jouet
-Intégration tore–cône 	🟢 Cohérente numériquement dans le cadre testé
-α ( s ) → 4 / 3 à saturation 	🟢 Formulation dynamique cohérente ; origine fondamentale ouverte
-4 / 3 global 	🔴 Abandonné : divergence à grand r
-3 / 4 	🟡 Relation inverse cohérente avec 4 / 3 , pas dérivation indépendante
-C c = 1 / 5 	🟡 Paramètre d'entrée ; non sélectionné dynamiquement
-1 / 4 	🟡 Identité conditionnelle à C c = 1 / 5 ; non dérivée indépendamment
-θ ≈ 28.955 ∘ 	🟢 Conséquence mathématique de C c = 0.2 dans la formule actuelle
-E = m c 2 	🔴 Pas de validation indépendante ; toute définition de m via c 2 serait circulaire
-c eff ≈ 2 	🟡 À auditer séparément ; aucune origine fondamentale établie ici
-r spatial émergent 	🔴 Non dérivé à partir des corrélations
-D eff = 3 / 4 ou 4 / 3 comme dimension géométrique émergente 	🔴 Non établie
-Résolution quantitative de 10 120 	🔴 Non obtenue ; les jouets testés donnent une suppression très inférieure
-Dérivation des équations d'Einstein 	🔴 Non obtenue
-51.2 Le point essentiel sur les singularités
+$$ s \to 0 \implies \alpha \to 1 $$
 
-Le profil régularisé montre qu'il est mathématiquement possible de construire une source dont la densité reste finie au centre et dont la masse totale converge vers M à grande distance. Une métrique de référence de type Hayward possède par exemple :
+$$ s \to 1 \implies \alpha \to \frac{4}{3} $$
 
-m ( r ) = M r 3 r 3 + a 3
+In Test 44, the cone zone gave approximately $1.21 \lesssim \alpha \lesssim 1.28$, with an average close to 1.25. The value $4/3$ was therefore not reached everywhere: it appears as a saturation limit, not as a global constant imposed at all radii.
 
-et récupère asymptotiquement la forme de Schwarzschild.
+**Status:** 🟢 numerical consistency of the tested matching; 🟡 fundamental origin of $4/3$ still open.
 
-Cela démontre une propriété de régularisation, pas que le champ C engendre effectivement cette masse géométrique.
-51.3 Le point essentiel sur l'antigravitation
+#### 48.5 Candidate Form of the Localized Correction
 
-Dans la version actuelle, le tenseur candidat est quadratique en gradients de C et la borne C ≤ 1 empêche une extrapolation triviale au-delà de la saturation. Cela exclut certains comportements répulsifs dans ce modèle particulier, sous ses hypothèses.
+A working expression consistent with the previous results is:
 
-Il ne s'agit pas d'une preuve que l'antigravitation est impossible dans toute théorie physique.
-51.4 Temps propre et temps émergent
+$$
+\rho_{\text{eff}}(r) = \rho_b(r) \left[ 1 + k_0 \left(\frac{r}{r_t}\right)^{4/3} \mathrm{sech}^2\left(\frac{r - r_t}{\sigma}\right) \right]
+$$
 
-La question reste ouverte : si une histoire quasi-classique H i possède une métrique g μ ν ( i ) , son temps propre pourrait être défini par :
+This expression is not yet a fundamental law. It only encodes the three numerical constraints:
 
-τ i = ∫ − g μ ν ( i ) d x μ d λ d x ν d λ , d λ
+* Weak correction outside the transition zone;
+* $4/3$ scaling within the active zone;
+* Extinction of the correction at large $r$.
 
-La hiérarchie heuristique :
+### 49. Search for the Dimensional Origin of $4/3$, $3/4$ and $1/4$
 
-τ micro ≪ τ corr ≪ τ macro
+The model is now explicitly fixed at 3+1 dimensions: $d=3$.
 
-reste une hypothèse de travail et non une mesure expérimentale de trois temps fondamentaux.
-51.5 Feuille de route suivante
+A simple dimensional family gives:
 
-Les prochaines étapes doivent rester séparées et falsifiables :
+$$ \alpha = \frac{d+1}{d} = \frac{4}{3}, \quad \beta = \frac{d}{d+1} = \frac{3}{4} $$
 
-    Auditer c eff terme par terme, en recherchant notamment toute racine carrée déjà présente dans sa définition avant d'interpréter un résultat proche de 2 .
-    Poursuivre l'analyse des corrélations τ i j pour déterminer si des échelles de corrélation différenciées émergent réellement.
-    Construire une distance d i j seulement si les corrélations produisent une structure non triviale qui n'est pas simplement héritée de E i .
-    Chercher ensuite un rayon émergent r et seulement alors tester N ( r ) et D eff ( r ) .
-    Tester si l'exposant observé dans la zone de transition est réellement compatible avec 4 / 3 sans le fixer à l'avance.
-    Confronter le profil gravitationnel corrigé à des données observationnelles réelles, notamment les courbes de rotation, sans recalibrage ad hoc par galaxie si l'objectif est la prédictivité.
-    Conserver séparément la question de l'origine microscopique de C c : le Test 51 ferme la piste précise « pondération énergétique → C c = 1 / 5 » sous la famille testée, mais ne ferme pas toutes les possibilités théoriques.
+with:
 
-52. Conclusion générale — état du programme de recherche
+$$ \alpha\beta = 1 $$
 
-Le modèle a franchi une étape importante : certaines constructions qui divergeaient ont été abandonnées, tandis qu'une correction localisée a montré une récupération robuste de la limite newtonienne dans le modèle jouet.
+Another candidate relation gives:
 
-Le 4 / 3 n'est plus utilisé comme loi globale. Il est maintenant traité comme un scaling de transition potentiel, avec une interpolation α ( s ) qui tend vers 4 / 3 lorsque la densification normalisée tend vers la saturation s → 1 .
+$$ \eta = \frac{1}{d+1} = \frac{1}{4} $$
 
-La structure :
+With the definition used for the angle:
 
-3 4 , , 4 3 , , 1 4
+$$ \theta = 2 \arcsin\left(\frac{C_c}{1 - C_c}\right) $$
 
-est cohérente avec d = 3 , mais sa valeur scientifique dépend encore d'une dérivation indépendante de C c = 1 / 5 . Les Tests 49–51 ont précisément empêché de présenter cette relation comme déjà dérivée : les dynamiques testées ne sélectionnent pas 1 / 5 spontanément.
+the value $C_c = 0.2 = 1/5$ yields exactly:
 
-La position scientifique actuelle peut donc être résumée par :
+$$ \frac{C_c}{1 - C_c} = \frac{1}{4} $$
 
-modèle jouet numériquement contraint ≠ théorie de gravité émergente démontrée
+then:
 
-et par la chaîne de recherche :
+$$ \theta = 2 \arcsin\left(\frac{1}{4}\right) \approx 28.955^\circ $$
 
-Q i , θ i → C → corrélations → d i j , ? → r , ? → N ( r ) → D eff ( r ) → g μ ν eff
+We can also write the candidate relation:
 
-avec une contrainte non négociable :
+$$ C_c = \frac{1}{d+2} $$
 
-| g ( r ) | r 2 → constante ( r → ∞ )
+For $d=3$:
 
-Principe de travail : on ne choisit plus le résultat recherché ; on cherche d'abord si la dynamique le produit, puis on conserve aussi bien les succès que les échecs.
+$$ C_c = \frac{1}{5} $$
 
-Le programme reste donc ouvert, mais il est désormais plus falsifiable, plus propre mathématiquement et mieux séparé entre entrées, conséquences, résultats numériques et hypothèses fondamentales.
-Conclusion
+and thus:
 
-La géométrie gravitationnelle décrite par la relativité générale est ici étudiée comme une éventuelle description macroscopique émergente d'une structure quantique collective. Les résultats numériques actuels ne démontrent pas cette émergence, mais ils permettent déjà d'éliminer certaines constructions instables et d'identifier des contraintes précises pour la suite.
+$$ \frac{C_c}{1 - C_c} = \frac{1}{d+1} = \frac{1}{4} $$
 
-Le problème scientifique central reste :
+#### 49.1 What Is Actually Demonstrated
 
-    Existe-t-il une dynamique microscopique suffisamment précise pour produire simultanément la cohérence C , une structure métrique émergente, la limite newtonienne, les équations d'Einstein et les paramètres cosmologiques observés sans les imposer à l'avance ?
+The numerical identities are exact:
 
-Document de réflexion personnelle et d'open science — à confronter à la littérature scientifique et à des validations indépendantes.
-53. Mise à jour critique — campagnes 68–70 : audit du seuil, symétries et protocole de falsification
+$$ 0.2 = \frac{1}{5}, \quad \frac{0.2}{0.8} = \frac{1}{4} $$
 
-Statut : mise à jour méthodologique majeure.
+$$ 2 \arcsin\left(\frac{1}{4}\right) \approx 28.955^\circ $$
 
-Cette section conserve la trace des résultats, corrections et questions ouvertes apparus après les campagnes 68–69e. Elle doit être lue comme un audit du modèle jouet, et non comme une validation de la théorie d'émergence gravitationnelle.
-53.1 Point de départ : l'écart v c ( α = 0 ) ≃ 2.92 contre v c th = 2 u = 2.0
+$$ \frac{d+1}{d} = \frac{4}{3}, \quad \frac{d}{d+1} = \frac{3}{4} \quad (d=3) $$
 
-Le rapport des campagnes 68–69e rapportait une extrapolation numérique :
+#### 49.2 What Is Not Derived
 
-v c ( α = 0 ) ≃ 2.92
+Tests 49–50 showed that the minimal dynamics of $C$ and the simple feedbacks tested do not spontaneously select $C_c = 1/5$.
 
-alors que l'analyse du modèle symétrique donnait :
+With:
 
-v c th = 2 u
+$$ Z \square C - V'(C) = 0 $$
 
-Pour u = 1 , v c th = 2 .
+a quadratic potential relaxes toward the value placed in the potential. Similarly, the tested feedbacks of the $\sigma(C)$ type produced much more coherent attractors, around 0.72 to 0.91, with no attractor in the window $[0.16, 0.24]$.
 
-Cet écart de l'ordre de 46% a été identifié comme une anomalie méthodologique à résoudre avant toute nouvelle campagne interprétative.
+**Conclusion:** $C_c = 1/5$ remains an input of the gravitational model, while $4/3$, $3/4$ and $1/4$ form an elegant, consistent dimensional structure conditional on this input. No fundamental physical derivation of $C_c = 1/5$ is currently established.
 
-Le principe de travail est :
+### 50. Collective-Dynamics Tests: From $Q_i$ to $C$
 
-artefact numérique → limites  T , N → terme physique manquant
+#### 50.1 Computation Chain
 
-et non l'inverse.
-53.2 Correction importante de l'audit énergétique du rapport 70A
+The numerical program is organized along the chain:
 
-Une vérification algébrique supplémentaire a montré que le rapport 70A contenait une erreur dans l'évaluation des minima.
+$$ Q_i \to E_i \to \theta_i \to C $$
 
-Le potentiel est :
+with:
 
-F = − r ∑ a | ψ a | 2 + u ∑ a | ψ a | 4 + v ∑ a < b | ψ a | 2 | ψ b | 2 , r > 0 , , u > 0 , , v > 0
+$$ E_i = Q_i^2 $$
 
-Rang 1
+$$ w_{ij} = \exp\left[-\frac{(E_i - E_j)^2}{2\sigma^2}\right] $$
 
-Pour une seule composante active :
+The goal is to determine whether a collective structure produces a preferred value of $C$, or only a continuous transition between incoherence and synchronization.
 
-F 1 ( ρ ) = − r ρ 2 + u ρ 4
+#### 50.2 Test 50 — Blind Feedback of $C$ on $\sigma$
 
-La condition de stationnarité donne :
+Two families with no targeting of $0.2$ were tested:
 
-− 2 r ρ + 4 u ρ 3 = 0
+$$ \sigma(C) = \sigma_0 (1 - C) $$
 
-et donc, pour le minimum non trivial,
+and
 
-ρ 1 2 = r 2 u
+$$ \sigma(C) = \frac{\sigma_0}{1 + \kappa C} $$
 
-L'énergie correspondante est :
+The reported attractors were approximately:
 
-F 1 = − r r 2 u + u r 2 4 u 2 = − r 2 4 u
+| Form | Parameters | $C^*$ |
+| ----- | ----- | ----- |
+| Linear | $\sigma_0 = 0.5$ | 0.778 |
+| Linear | $\sigma_0 = 1.0$ | 0.818 |
+| Linear | $\sigma_0 = 1.5$ | 0.913 |
+| Inverse | $\sigma_0 = 0.8, \kappa = 1$ | 0.836 |
+| Inverse | $\sigma_0 = 0.8, \kappa = 2$ | 0.893 |
+| Inverse | $\sigma_0 = 1.2, \kappa = 1.5$ | 0.914 |
+| Inverse | $\sigma_0 = 1.0, \kappa = 3$ | 0.722 |
 
-Ainsi :
+No attractor appeared in $[0.16, 0.24]$.
 
-F 1 = − r 2 4 u
+**Verdict:** 🔴 these simple feedbacks do not select $C_c \simeq 0.2$.
 
-Pour r = u = 1 , F 1 = − 0.25 .
+#### 50.3 Test 51 — Blind Search for a Collective Transition
 
-Correction explicite : F 1 n'est pas égal à 0. Le terme quadratique et le terme quartique ne s'annulent pas au minimum ; ils donnent ensemble − r 2 / ( 4 u ) .
+Test 51 then dropped any artificial feedback and searched directly for a transition in the weighted system:
 
-Rang 3 symétrique
+$$ \dot{\theta}_i = \frac{K}{N} \sum_j w_{ij} \sin(\theta_j - \theta_i) $$
 
-Pour ψ 1 = ψ 2 = ψ 3 = ρ , on obtient :
+The protocol notably uses:
 
-F 3 ( ρ ) = − 3 r ρ 2 + 3 ( u + v ) ρ 4
+$$ N \in \{200, 400, 800, 1600\} $$
 
-La stationnarité donne :
+a scan over $K$ and $\sigma$, several independent seeds, and a sufficiently long integration time.
 
-ρ 3 2 = r 2 ( u + v )
+The predicted observables are:
 
-Donc :
+$$ \chi_C = N(\langle C^2 \rangle - \langle C \rangle^2) $$
 
-F 3 = − 3 r 2 4 ( u + v )
+as well as a Binder cumulant treated as a secondary indicator, and the relaxation time.
 
-Pour r = u = 1 et v = 0 , F 3 = − 0.75 .
+The first reported 2D scan, with $N=200, 400$, $K \in \{0.5, 1, 1.5, 2\}$ and $\sigma \in \{8, 12, 16, 20\}$, shows:
 
-Le rapport 70A donnait − 0.5625 , valeur compatible avec une mauvaise substitution de l'amplitude.
-53.3 Le croisement énergétique n'est pas à v ≃ 0.86
+* An incoherent regime at low $K$, with $C$ close to the $1/N$ scale;
+* A continuous rise of $C$ with $K$;
+* Isolated values close to $0.2$;
+* No robust critical line that universally fixes $C \simeq 0.2$.
 
-Avec les expressions correctes :
+For example, values close to $0.2$ appear around $C \approx 0.218$ and $C \approx 0.169$ for certain $(K,\sigma)$ pairs, but they shift when the parameters or $N$ change.
 
-F 1 = − r 2 4 u , F 3 = − 3 r 2 4 ( u + v )
+**Verdict of Test 51:** The weighted model has a synchronization transition, but does not universally select $C_{\text{crit}} \approx 0.2$.
 
-La condition F 1 = F 3 donne :
+Thus, $C=0.2$ is currently better described as a parametric passage point of the model than as a fundamental attractor or critical point.
 
-1 u = 3 u + v ⟹ u + v = 3 u ⟹ v = 2 u
+### 51. Physical Consequences and Current Limitations
 
-Pour u = 1 :
+#### 51.1 What the Numerical Campaigns Actually Establish
 
-v c énergie = 2
+| Item | Status |
+| ----- | ----- |
+| $3+1$ **dimensional structure** | 🟢 Fixed structural hypothesis |
+| $C=\Vert{}Z\Vert{}^2$ **as a phase invariant** | 🟢 Confirmed as a robust toy-model observable |
+| **Incoherent state** $C \sim 1/N$ | 🟢 Confirmed statistical reference |
+| **Localized correction** | 🟢 Tested with Newtonian non-regression |
+| **Robustness of the asymptote under variation of** $\sigma, k_0$ | 🟢 Tested in the toy model |
+| **Torus–cone integration** | 🟢 Numerically consistent within the tested framework |
+| $\alpha(s) \to 4/3$ **at saturation** | 🟢 Consistent dynamic formulation; fundamental origin open |
+| $4/3$ **global** | 🔴 Abandoned: divergence at large $r$ |
+| $3/4$ | 🟡 Inverse relation consistent with $4/3$, not an independent derivation |
+| $C_c = 1/5$ | 🟡 Input parameter; not dynamically selected |
+| $1/4$ | 🟡 Identity conditional on $C_c = 1/5$; not independently derived |
+| $\theta \approx 28.955^\circ$ | 🟢 Mathematical consequence of $C_c = 0.2$ in the current formula |
+| $E = mc^2$ | 🔴 No independent validation; any definition of $m$ via $c^2$ would be circular |
+| $c_{\text{eff}} \approx \sqrt{2}$ | 🟡 To be audited separately; no fundamental origin established here |
+| **Emergent spatial** $r$ | 🔴 Not derived from correlations |
+| $D_{\text{eff}} = 3/4$ **or** $4/3$ **as an emergent geometric dimension** | 🔴 Not established |
+| **Quantitative resolution of** $10^{120}$ | 🔴 Not obtained; the tested toy models give much weaker suppression |
+| **Derivation of Einstein's equations** | 🔴 Not obtained |
 
-Le seuil énergétique et le seuil de stabilité locale coïncident donc dans ce modèle symétrique :
+#### 51.2 The Essential Point on Singularities
 
-v c énergie = v c stabilité = 2 u
+The regularized profile shows that it is mathematically possible to construct a source whose density remains finite at the centre and whose total mass converges to $M$ at large distance. A reference metric of the Hayward type, for example, has:
 
-Il n'existe donc pas, dans ce potentiel quartique symétrique précis, de fenêtre thermodynamique distincte 0.86 < v < 2 telle que le rang 1 serait globalement favorisé alors que le rang 3 resterait métastable.
+$$ m(r) = M \frac{r^3}{r^3 + a^3} $$
 
-Le prétendu seuil v ≃ 0.86 du rapport 70A doit être classé comme artefact algébrique, et non comme un second seuil physique.
-53.4 Formule générale pour k composantes actives
+and asymptotically recovers the Schwarzschild form.
 
-Pour k composantes de même amplitude ρ :
+This demonstrates a regularization property, not that the field $C$ actually generates this geometric mass.
 
-F k ( ρ ) = − k r ρ 2 + k ( u + k − 1 2 v ) ρ 4
+#### 51.3 The Essential Point on Antigravity
 
-La condition de stationnarité donne :
+In the current version, the candidate tensor is quadratic in the gradients of $C$, and the bound $C \le 1$ prevents a trivial extrapolation beyond saturation. This rules out certain repulsive behaviours in this particular model, under its assumptions.
 
-ρ k 2 = r 2 ( u + k − 1 2 v )
+This is not proof that antigravity is impossible in any physical theory.
 
-Ainsi :
+#### 51.4 Proper Time and Emergent Time
 
-ρ k = r 2 ( u + k − 1 2 v )
+The question remains open: if a quasi-classical history $H_i$ has a metric $g_{\mu\nu}^{(i)}$, its proper time could be defined by:
 
-Cette formule corrige une ambiguïté importante présente dans les versions précédentes : l'amplitude elle-même porte une racine carrée.
+$$ \tau_i = \int \sqrt{-g_{\mu\nu}^{(i)} \frac{dx^\mu}{d\lambda} \frac{dx^\nu}{d\lambda}} \, d\lambda $$
 
-L'énergie minimale devient :
+The heuristic hierarchy:
 
-F k min = − k r 2 4 ( u + k − 1 2 v )
+$$ \tau_{\text{micro}} \ll \tau_{\text{corr}} \ll \tau_{\text{macro}} $$
 
-Pour k = 1 :
+remains a working hypothesis, not an experimental measurement of three fundamental times.
 
-F 1 min = − r 2 4 u
+#### 51.5 Next Roadmap
 
-Pour k = 3 :
+The next steps must remain separate and falsifiable:
 
-F 3 min = − 3 r 2 4 ( u + v )
+1. Audit $c_{\text{eff}}$ term by term, specifically looking for any square root already present in its definition before interpreting a result close to $\sqrt{2}$.
+2. Continue analysing the $\tau_{ij}$ correlations to determine whether differentiated correlation scales genuinely emerge.
+3. Construct a distance $d_{ij}$ only if the correlations produce a non-trivial structure that is not simply inherited from $E_i$.
+4. Then look for an emergent radius $r$, and only then test $N(r)$ and $D_{\text{eff}}(r)$.
+5. Test whether the exponent observed in the transition zone is genuinely compatible with $4/3$ without fixing it in advance.
+6. Confront the corrected gravitational profile with real observational data, in particular rotation curves, without ad hoc per-galaxy recalibration if the goal is predictivity.
+7. Keep the question of the microscopic origin of $C_c$ separate: Test 51 closes the specific "energy weighting $\to C_c = 1/5$" avenue under the tested family, but does not close all theoretical possibilities.
 
-La comparaison F 1 min = F 3 min redonne bien :
+### 52. General Conclusion — State of the Research Program
 
-v = 2 u
-53.5 Conséquence : le mécanisme de compétition modale reste plausible, mais l'interprétation doit être nettoyée
+The model has crossed an important milestone: some constructions that were diverging have been abandoned, while a localized correction has shown a robust recovery of the Newtonian limit in the toy model.
 
-Le modèle minimal :
+The $4/3$ is no longer used as a global law. It is now treated as a potential transition scaling, with an interpolation $\alpha(s)$ that tends toward $4/3$ as the normalized densification tends toward saturation $s \to 1$.
 
-F = − r ∑ a | ψ a | 2 + u ∑ a | ψ a | 4 + v ∑ a < b | ψ a | 2 | ψ b | 2
+The structure:
 
-possède donc, pour u > 0 et r > 0 , un seuil naturel :
+$$
+\frac{3}{4}, \, \frac{4}{3}, \, \frac{1}{4}
+$$
 
-v c = 2 u
+is consistent with $d=3$, but its scientific value still depends on an independent derivation of $C_c = 1/5$. Tests 49–51 specifically prevented this relation from being presented as already derived: the tested dynamics do not spontaneously select $1/5$.
 
-Ce résultat ne dépend pas d'un ajustement numérique du seuil.
+The current scientific position can therefore be summarized as:
 
-En revanche, il ne suffit pas à expliquer pourquoi une simulation donnée pourrait produire un seuil apparent autour de 2.9. Cette question reste distincte :
+$$
+\text{numerically constrained toy model} \neq \text{demonstrated theory of emergent gravity}
+$$
 
-v c apparent ≠ v c théorique
+and by the research chain:
 
-tant que les effets de temps fini, taille finie, définition opérationnelle du seuil et éventuelle réduction du modèle n'ont pas été séparés.
-53.6 Formalisation 70S — nature exacte de la dynamique
+$$
+\{Q_i, \theta_i\} \to C \to \text{correlations} \to d_{ij} \,? \to r \,? \to N(r) \to D_{\text{eff}}(r) \to g_{\mu\nu}^{\text{eff}}
+$$
 
-La dynamique collective étudiée dans les Tests 9–46 est un flot de gradient :
+with a non-negotiable constraint:
 
-ψ ˙ a = − ∂ F ∂ ψ a ∗
+$$
+|g(r)|r^2 \to \text{constant} \quad (r \to \infty)
+$$
 
-soit, dans le cas général :
+**Working principle:** we no longer choose the desired result; we first look for whether the dynamics produces it, then keep both the successes and the failures.
 
-ψ ˙ a = r ψ a − 2 u | ψ a | 2 ψ a − ∑ b ≠ a v a b | ψ b | 2 ψ a
+The program therefore remains open, but is now more falsifiable, mathematically cleaner, and better separated between inputs, consequences, numerical results and fundamental hypotheses.
 
-Symétrie du potentiel
-Lorsque le potentiel ne dépend que des modules :
+### Conclusion
 
-F = F ( | ψ 1 | 2 , | ψ 2 | 2 , | ψ 3 | 2 )
+The gravitational geometry described by general relativity is here studied as a possible emergent macroscopic description of a collective quantum structure. The current numerical results do not demonstrate this emergence, but they already make it possible to rule out certain unstable constructions and to identify precise constraints for what follows.
 
-il est invariant sous :
+The central scientific problem remains:
 
-ψ a → e i φ a ψ a
+> **Does a microscopic dynamics exist that is precise enough to simultaneously produce coherence** $C$**, an emergent metric structure, the Newtonian limit, Einstein's equations, and the observed cosmological parameters, without imposing them in advance?**
 
-avec trois phases indépendantes. Donc :
+A document of personal reflection and open science — to be checked against the scientific literature and independent validation.
 
-G F = U ( 1 ) 3
+### 53. Critical Update — Campaigns 68–70: Threshold Audit, Symmetries and Falsification Protocol
 
-Symétrie du flot
-Le flot de gradient est alors équivariant sous la même action :
+**Status:** major methodological update.
 
-G flot = U ( 1 ) 3
+This section keeps a record of the results, corrections and open questions that arose after campaigns 68–69e. It should be read as an audit of the toy model, not as a validation of the theory of emergent gravity.
 
-La symétrie du potentiel et celle du flot ne doivent cependant pas être confondues avec une loi de conservation d'une charge de Noether.
+#### 53.1 Starting Point: The Discrepancy $v_c(\alpha=0) \simeq 2.92$ vs. $v_c^{\text{th}} = 2u = 2.0$
 
-Variables polaires
-En écrivant :
+The report from campaigns 68–69e recorded a numerical extrapolation:
 
-ψ a = ρ a e i θ a
+$$
+v_c(\alpha=0) \simeq 2.92
+$$
 
-le flot considéré ici donne :
+whereas the analysis of the symmetric model gave:
 
-ρ ˙ a = 2 λ a ( ρ ) ρ a
+$$
+v_c^{\text{th}} = 2u
+$$
 
-avec λ a réel, et :
+For $u=1$, $v_c^{\text{th}} = 2$.
 
-θ ˙ a = 0
+This discrepancy of about 46% was flagged as a methodological anomaly to be resolved before any further interpretive campaign.
 
-pour cette dynamique réduite précise.
+The working principle is:
 
-Les amplitudes peuvent donc décroître jusqu'à zéro alors que les phases restent figées.
+$$
+\text{numerical artifact} \to \text{finite } T, N \text{ limits} \to \text{missing physical term}
+$$
 
-Point méthodologique essentiel : θ ˙ a = 0 n'est pas une conséquence de U ( 1 ) 3 seule. C'est une conséquence de la combinaison « potentiel invariant en phase + choix du flot de gradient ».
-53.7 Ne pas extrapoler automatiquement cette propriété au niveau microscopique
+and not the reverse.
 
-La dynamique microscopique d'origine, notamment les oscillateurs de type Kuramoto étudiés ailleurs dans le programme, possède une dynamique de phase active :
+#### 53.2 Important Correction to the Energy Audit of Report 70A
 
-θ ˙ i = K N ∑ j w i j sin ⁡ ( θ j − θ i )
+An additional algebraic check showed that report 70A contained an error in the evaluation of the minima.
 
-Il existe donc deux niveaux distincts :
+The potential is:
 
-dynamique microscopique ≠ dynamique modale réduite
+$$F = -r \sum_a |\psi_a|^2 + u \sum_a |\psi_a|^4 + v \sum_{a < b} |\psi_a|^2 |\psi_b|^2, \quad r > 0, \, u > 0, \, v > 0$$
 
-La propriété θ ˙ a = 0 du modèle de Landau réduit ne doit pas être présentée comme une propriété démontrée de la dynamique microscopique tant qu'une réduction explicite n'a pas été dérivée.
+**Rank 1**
 
-C'est désormais une question prioritaire de 70S : La dynamique de phase gelée des variables modales est-elle dérivée de la dynamique microscopique, ou introduite par la réduction phénoménologique ?
-54. Protocole de diagnostic 70A–70D
-54.1 70A — tester l'extrapolation α → 0
+For a single active component:
 
-Hypothèse testée : Le 2.92 pourrait provenir d'une extrapolation linéaire inadéquate plutôt que d'un véritable seuil à α = 0 .
+$$
+F_1(\rho) = -r \rho^2 + u \rho^4
+$$
 
-On part des mesures :
+The stationarity condition gives:
 
-( α i , v c ( α i ) ) i = 1 M
+$$
+-2r\rho + 4u\rho^3 = 0
+$$
 
-Comparer au minimum :
+and thus, for the non-trivial minimum,
 
-v c ( α ) = a 0 + a 1 α
+$$
+\rho_1^2 = \frac{r}{2u}
+$$
 
-et :
+The corresponding energy is:
 
-v c ( α ) = b 0 + b 1 α + b 2 α 2
+$$
+F_1 = -r \frac{r}{2u} + u \frac{r^2}{4u^2} = -\frac{r^2}{4u}
+$$
 
-Le résultat à comparer est respectivement :
+Thus:
 
-v c , lin ( 0 ) = a 0 , v c , quad ( 0 ) = b 0
+$$
+F_1 = -\frac{r^2}{4u}
+$$
 
-    Paramètres fixes : dynamique exacte ; N ; u , r ; intégrateur ; d t ; définition opérationnelle de v c ; seeds ; définition de α .
-    Paramètre variable : uniquement α .
+For $r=u=1$, $F_1 = -0.25$.
 
-Critère défini avant le résultat :
+**Explicit correction:** $F_1$ is not equal to 0. The quadratic and quartic terms do not cancel at the minimum; together they give $-r^2/(4u)$.
 
-    Succès : | v c , extrap − 2 | diminue substantiellement avec un modèle non linéaire.
-    Échec : v c , lin ( 0 ) ≃ v c , quad ( 0 ) ≃ 2.92 avec des incertitudes suffisamment faibles pour exclure 2.
+**Symmetric Rank 3**
 
-Condition indispensable : les points bruts v c ( α ) doivent être conservés. Une extrapolation ne doit pas être reconstruite à partir de sa seule formule finale.
-54.2 70B — convergence temporelle puis convergence en taille
+For $\psi_1 = \psi_2 = \psi_3 = \rho$, we obtain:
 
-Les deux effets doivent être séparés.
+$$
+F_3(\rho) = -3r\rho^2 + 3(u+v)\rho^4
+$$
 
-70B-1 — Temps
-Fixer N = N 0 et faire varier uniquement T 1 < T 2 < T 3 < T 4 . Mesurer v c ( T ) et, lorsque possible, le temps de relaxation τ rel ( v ) .
+Stationarity gives:
 
-Critère : v c ( T ) → 2 indique un effet de temps fini. Si v c ( T ) → 2.92 , le temps fini n'explique pas l'écart.
+$$
+\rho_3^2 = \frac{r}{2(u+v)}
+$$
 
-70B-2 — Taille
-Une fois T suffisamment convergé ( T = T convergé ), faire varier N = N 1 , N 2 , N 3 , N 4 . Mesurer v c ( N ) .
+Hence:
 
-Une extrapolation possible est v c ( N ) = v c ( ∞ ) + A N − β .
+$$
+F_3 = -\frac{3r^2}{4(u+v)}
+$$
 
-Critère : v c ( N ) → 2 indique un effet de taille finie. Sinon, la taille finie n'explique pas l'écart.
+For $r=u=1$ and $v=0$, $F_3 = -0.75$.
 
-    Règle non négociable : Ne jamais faire varier simultanément T et N dans un test destiné à attribuer causalement un déplacement du seuil.
+Report 70A gave $-0.5625$, a value consistent with an incorrect amplitude substitution.
 
-54.3 70C — terme manquant, seulement si 70A et 70B échouent
+#### 53.3 The Energy Crossing Is Not at $v \simeq 0.86$
 
-Le potentiel de départ reste :
+With the correct expressions:
 
-F 0 = − r ∑ a | ψ a | 2 + u ∑ a | ψ a | 4 + v ∑ a < b | ψ a | 2 | ψ b | 2
+$$
+F_1 = -\frac{r^2}{4u}, \quad F_3 = -\frac{3r^2}{4(u+v)}
+$$
 
-Un seul terme supplémentaire doit être introduit à la fois.
+The condition $F_1 = F_3$ gives:
 
-    Candidat phase-couplé : Par exemple F 3 = w ( ψ 1 ψ 2 ψ 3 + c.c. ) . Mais ce terme ne doit être retenu que si les symétries microscopiques l'autorisent. D'autres couplages sont possibles, par exemple w 12 ( ψ 1 ∗ ψ 2 + c.c. ) , qui sélectionne une autre combinaison de phases. Il n'est donc plus correct de présenter le terme cubique comme « le » terme manquant privilégié a priori.
-    Candidat spatial : Si les variables ψ a sont réellement des champs spatiaux, on peut tester F ∇ = ∑ a κ a | ∇ ψ a | 2 + ∑ a < b κ a b ∇ ψ a ⋅ ∇ ψ b . Mais cette extension change la nature du modèle : elle introduit des degrés de liberté spatiaux qui n'existent pas dans le modèle homogène 0D.
+$$
+\frac{1}{u} = \frac{3}{u+v} \implies u+v = 3u \implies v = 2u
+$$
 
-Critère de causalité : Un terme supplémentaire n'est explicatif que si :
+For $u=1$:
 
-    Il est autorisé par les symétries ;
-    Son coefficient est mesurable ou dérivable microscopiquement ;
-    Il est introduit avant de connaître son effet sur v c ;
-    Sa magnitude est physiquement plausible ;
-    Il améliore la prédiction sans réglage arbitraire.
+$$
+v_c^{\text{energy}} = 2
+$$
 
-La condition forte recherchée est :
+The energy threshold and the local-stability threshold therefore coincide in this symmetric model:
 
-micro-dynamique → coefficient effectif → v c ≃ 2.92
+$$
+v_c^{\text{energy}} = v_c^{\text{stability}} = 2u
+$$
 
-et non :
+So, in this specific symmetric quartic potential, there is no distinct thermodynamic window $0.86 < v < 2$ in which rank 1 would be globally favoured while rank 3 remained metastable.
 
-choix de  w → v c ≃ 2.92
-54.4 70D — reconstruction directe du potentiel effectif
+The supposed threshold $v \simeq 0.86$ from report 70A must be classified as an algebraic artifact, not as a second physical threshold.
 
-À partir des trajectoires microscopiques Q i ( t ) , définir les variables modales ψ a ( t ) , puis estimer leur distribution stationnaire P ( ψ 1 , ψ 2 , ψ 3 ) .
+#### 53.4 General Formula for $k$ Active Components
 
-On peut alors reconstruire, sous les hypothèses appropriées :
+For $k$ components of equal amplitude $\rho$:
 
-F eff = − k B T eff ln ⁡ P
+$$F_k(\rho) = -k r \rho^2 + k \left(u + \frac{k-1}{2} v\right) \rho^4$$
 
-ou, en unités réduites :
+The stationarity condition gives:
 
-F eff = − ln ⁡ P + C
+$$\rho_k^2 = \frac{r}{2\left(u + \frac{k-1}{2} v\right)}$$
 
-Le potentiel reconstruit peut ensuite être comparé à :
+Thus:
 
-F eff = − r eff ∑ a | ψ a | 2 + u eff ∑ a | ψ a | 4 + ∑ a < b v a b , eff | ψ a | 2 | ψ b | 2 + …
+$$\rho_k = \sqrt{\frac{r}{2\left(u + \frac{k-1}{2} v\right)}}$$
 
-L'objectif est de déterminer si les v a b , les anisotropies et d'éventuels termes de phase ou de gradient apparaissent dans les données, plutôt que d'être introduits pour reproduire un résultat.
+This formula corrects an important ambiguity present in earlier versions: the amplitude itself carries a square root.
 
-Réserve : L'inversion F eff = − ln ⁡ P n'est interprétable comme un potentiel thermodynamique standard que si les conditions statistiques et d'équilibre nécessaires sont remplies. Pour une dynamique hors équilibre, il s'agit d'abord d'un potentiel statistique effectif, pas automatiquement d'une énergie thermodynamique.
-55. Résultat intermédiaire de reconstruction indépendante
+The minimum energy becomes:
 
-Une reconstruction indépendante réalisée à partir de la formule disponible :
+$$F_k^{\text{min}} = -\frac{k r^2}{4\left(u + \frac{k-1}{2} v\right)}$$
 
-v c ( α ) ≈ 2.92 − 1.5 α
+For $k=1$:
 
-a produit, avec une paramétrisation explicitement reconstruite et non les données brutes originales, un premier résultat :
+$$F_1^{\text{min}} = -\frac{r^2}{4u}$$
 
-v c ( 0 ) ≈ 2.118
+For $k=3$:
 
-et environ :
+$$F_3^{\text{min}} = -\frac{3r^2}{4(u+v)}$$
 
-v c ( 0.2 ) ≈ 1.750
+Comparing $F_1^{\text{min}} = F_3^{\text{min}}$ indeed gives back:
 
-Ce résultat est indicatif seulement : il ne reproduit pas encore le protocole exact des campagnes 68–69d faute d'accès aux points bruts et à leur définition opérationnelle complète du seuil.
+$$v = 2u$$
 
-Il est néanmoins important car il montre qu'une reconstruction indépendante du modèle anisotrope peut produire une valeur beaucoup plus proche de 2 que 2.92.
+#### 53.5 Consequence: The Modal-Competition Mechanism Remains Plausible, but the Interpretation Must Be Cleaned Up
 
-Cela conduit à une règle stricte :
+The minimal model:
 
-2.118  n’est pas une validation ; c’est un signal de non-reproductibilité à investiguer.
+$$F = -r \sum_a |\psi_a|^2 + u \sum_a |\psi_a|^4 + v \sum_{a < b} |\psi_a|^2 |\psi_b|^2$$
 
-Il faut donc obtenir les données brutes et le protocole exact avant toute conclusion sur l'origine du 2.92.
-56. Correction du rapport 70A–70B externe
+therefore has, for $u>0$ and $r>0$, a natural threshold:
 
-Le rapport externe 70A–70B avait interprété v ≃ 0.86 comme un seuil énergétique distinct, puis introduit une fenêtre de métastabilité entre 0.86 et 2.0.
+$$v_c = 2u$$
 
-L'audit algébrique montre que cette interprétation est invalide pour le potentiel quartique symétrique défini ici. Le seuil correct est :
+This result does not depend on a numerical tuning of the threshold.
 
-v c = 2 u
+However, it is not sufficient to explain why a given simulation might produce an apparent threshold around 2.9. This question remains distinct:
 
-La valeur 0.86 doit donc être conservée dans le journal uniquement comme résultat historique erroné, accompagné de la correction mathématique. Cette distinction est importante pour éviter qu'une valeur fausse ne réapparaisse ultérieurement comme une « prédiction précédente ».
-57. Arbre décisionnel consolidé
+$$v_c^{\text{apparent}} \neq v_c^{\text{theoretical}}$$
 
- v_c apparent ≈ 2,92
-      │
-      ▼
+as long as finite-time effects, finite-size effects, the operational definition of the threshold, and any model reduction have not been disentangled.
 
-70A — extrapolation α → 0 │ ┌─────────┴─────────┐ ▼ ▼ → 2,0 reste ≈ 2,92 │ │ artefact α ▼ 70B — convergence T puis N séparément │ ┌──────────┴──────────┐ ▼ ▼ → 2,0 reste ≈ 2,92 │ │ effet fini ▼ 70C — terme supplémentaire │ ▼ validation microscopique │ ▼ 70D — F_eff reconstruction directe
+#### 53.6 Formalization 70S — Exact Nature of the Dynamics
 
-Une étape 70S doit être considérée comme transversale et préalable à l'interprétation physique :
+The collective dynamics studied in Tests 9–46 is a gradient flow:
 
-70S : identifier précisément la classe de dynamique
+$$\dot{\psi}_a = -\frac{\partial F}{\partial \psi_a^*}$$
 
-notamment :
+that is, in the general case:
 
-    Dynamique de gradient ;
-    Dynamique hamiltonienne/conservative ;
-    Dynamique dissipative hors équilibre ;
-    Dynamique microscopique de type Kuramoto ;
-    Réduction modale reliant explicitement ces niveaux.
+$$\dot{\psi}_a = r\psi_a - 2u |\psi_a|^2 \psi_a - \sum_{b \neq a} v_{ab} |\psi_b|^2 \psi_a$$
 
-58. Critère scientifique final
+**Symmetry of the potential**
+When the potential depends only on the moduli:
 
-Le programme doit désormais distinguer explicitement :
+$$F = F(|\psi_1|^2, |\psi_2|^2, |\psi_3|^2)$$
 
-reproduction numérique ≠ explication physique
+it is invariant under:
 
-Une explication prédictive complète devrait idéalement suivre la chaîne :
+$$\psi_a \to e^{i\varphi_a} \psi_a$$
 
-S micro → P ( ψ ) → F eff → v a b , eff → v c → γ 2 γ 3
+with three independent phases. Thus:
 
-sans choisir les paramètres effectifs spécifiquement pour reproduire la dernière observable.
+$$G_F = U(1)^3$$
 
-Cette exigence est particulièrement importante pour le ratio :
+**Symmetry of the flow**
+The gradient flow is then equivariant under the same action:
 
-γ 2 γ 3 ≈ 1.37
+$$G_{\text{flow}} = U(1)^3$$
 
-obtenu avec anisotropie, car l'ajustement de plusieurs v a b sur une seule cible ne constitue pas à lui seul une démonstration causale.
-59. Questions restant ouvertes après l'audit
+The symmetry of the potential and that of the flow must not, however, be confused with a Noether-charge conservation law.
 
-    Quelle est exactement la définition opérationnelle de v c dans les campagnes 68–69e ?
-    Quels sont les points bruts ( α i , v c ( α i ) ) ?
-    Quelle est la sensibilité de v c à la durée T ?
-    Quelle est sa convergence en N une fois T convergé ?
-    La réduction microscopique vers ψ a peut-elle être dérivée explicitement ?
-    Le gel θ ˙ a = 0 existe-t-il au niveau microscopique ou est-il créé par la réduction ?
-    Quels couplages de phase sont réellement permis par les symétries microscopiques ?
-    Les coefficients v a b peuvent-ils être reconstruits directement à partir des trajectoires ?
-    Les anisotropies v 12 < v 13 < v 23 sont-elles explicitement imposées ou émergent-elles ?
-    Le modèle homogène 0D est-il suffisant, ou faut-il introduire une structure spatiale ?
+**Polar variables**
+Writing:
 
-60. Principe de conservation du fil de recherche
+$$\psi_a = \sqrt{\rho_a} e^{i\theta_a}$$
 
-Ne pas effacer les erreurs historiques : les conserver, les étiqueter et les corriger.
+the flow considered here gives:
 
-Le statut actuel doit être lu ainsi :
+$$\dot{\rho}_a = 2\lambda_a(\rho)\rho_a$$
 
-    v c = 2 u : résultat analytique du potentiel quartique symétrique ;
-    v ≃ 0.86 : artefact algébrique identifié ;
-    v c ≃ 2.92 : observation/extrapolation historique à reproduire et auditer, pas une valeur théorique établie ;
-    v c ≃ 2.118 : reconstruction indépendante partielle, non concluante ;
-    U ( 1 ) 3 : symétrie du potentiel et du flot réduit dans le modèle considéré ;
-    θ ˙ a = 0 : propriété du flot de gradient réduit, pas encore dérivée de la dynamique microscopique ;
-    v a b : paramètres effectifs non encore dérivés microscopiquement ;
-    70A–70D : protocole de falsification, pas résultats définitifs ;
-    70S : audit de la classe de dynamique et du lien micro → modal.
+with $\lambda_a$ real, and:
 
-La règle directrice reste :
+$$\dot{\theta}_a = 0$$
 
-on ne choisit plus le résultat recherché ; on cherche d’abord si la dynamique le produit.
+for this specific reduced dynamics.
 
-    Bilan d'Étape et Transition vers l'AuditLe modèle H2C parvient à unifier la phénoménologie MOND et les contraintes de relativité générale au sein d'un cadre cohérent de cohérence de phase quantique. Les sections suivantes regroupent les scripts d'audit automatisés et de validation numérique permettant de reproduire l'intégralité des résultats sur le catalogue SPARC.70. Suite d'Audit et Validation Automatisée (70A–70D)70A. Script de Vérification des Intégrités des Données SPARC (audit_sparc_data.py)Ce script valide la conformité des fichiers de rotation galaxy par galaxy avant injection dans le solveur.Pythonimport os import pandas as pd import numpy as np
+Amplitudes can therefore decay to zero while the phases remain frozen.
 
-def audit_sparc_dataset(data_dir): report = {"valid": 0, "corrupted": 0, "missing_columns": 0} required_cols = ['Rad', 'Vobs', 'e_Vobs', 'Vgas', 'Vdisk', 'Vbul']
+**Key methodological point:** $\dot{\theta}_a = 0$ is not a consequence of $U(1)^3$ alone. It is a consequence of the combination "phase-invariant potential + choice of gradient flow."
 
-for file in os.listdir(data_dir):
-    if file.endswith(".dat") or file.endswith(".csv"):
-        filepath = os.path.join(data_dir, file)
-        try:
-            df = pd.read_csv(filepath, sep=r'\s+')
-            if all(col in df.columns for col in required_cols):
-                if not df[required_cols].isnull().values.any():
-                    report["valid"] += 1
+#### 53.7 Do Not Automatically Extrapolate This Property to the Microscopic Level
+
+The original microscopic dynamics, notably the Kuramoto-type oscillators studied elsewhere in the program, has an active phase dynamics:
+
+$$\dot{\theta}_i = \frac{K}{N} \sum_j w_{ij} \sin(\theta_j - \theta_i)$$
+
+There are thus two distinct levels:
+
+$$\text{microscopic dynamics} \neq \text{reduced modal dynamics}$$
+
+The property $\dot{\theta}_a = 0$ of the reduced Landau model must not be presented as a demonstrated property of the microscopic dynamics until an explicit reduction has been derived.
+
+This is now a priority question for 70S: Is the frozen phase dynamics of the modal variables derived from the microscopic dynamics, or introduced by the phenomenological reduction?
+
+### 54. 70A–70D Diagnostic Protocol
+
+#### 54.1 70A — Testing the $\alpha \to 0$ Extrapolation
+
+Hypothesis tested: The $2.92$ value could come from an inadequate linear extrapolation rather than a genuine threshold at $\alpha=0$.
+
+We start from the measurements:
+
+$$\{(\alpha_i, v_c(\alpha_i))\}_{i=1}^M$$
+
+Compare, at minimum:
+
+$$v_c(\alpha) = a_0 + a_1 \alpha$$
+
+and:
+
+$$v_c(\alpha) = b_0 + b_1 \alpha + b_2 \alpha^2$$
+
+The result to compare is respectively:
+
+$$v_{c,\text{lin}}(0) = a_0, \quad v_{c,\text{quad}}(0) = b_0$$
+
+* **Fixed parameters:** exact dynamics; $N$; $u,r$; integrator; $dt$; operational definition of $v_c$; seeds; definition of $\alpha$.
+* **Variable parameter:** only $\alpha$.
+
+Criterion defined before the result:
+
+* **Success:** $|v_{c,\text{extrap}} - 2|$ decreases substantially with a non-linear model.
+* **Failure:** $v_{c,\text{lin}}(0) \simeq v_{c,\text{quad}}(0) \simeq 2.92$ with uncertainties small enough to rule out 2.
+
+**Essential condition:** the raw $v_c(\alpha)$ data points must be kept. An extrapolation must not be reconstructed from its final formula alone.
+
+#### 54.2 70B — Time Convergence, Then Size Convergence
+
+The two effects must be separated.
+
+**70B-1 — Time**
+Fix $N=N_0$ and vary only $T_1 < T_2 < T_3 < T_4$. Measure $v_c(T)$ and, where possible, the relaxation time $\tau_{\text{rel}}(v)$.
+
+Criterion: $v_c(T) \to 2$ indicates a finite-time effect. If $v_c(T) \to 2.92$, finite time does not explain the discrepancy.
+
+**70B-2 — Size**
+Once $T$ has sufficiently converged ($T=T_{\text{converged}}$), vary $N=N_1, N_2, N_3, N_4$. Measure $v_c(N)$.
+
+A possible extrapolation is $v_c(N) = v_c(\infty) + A N^{-\beta}$.
+
+Criterion: $v_c(N) \to 2$ indicates a finite-size effect. Otherwise, finite size does not explain the discrepancy.
+
+> **Non-negotiable rule:** Never vary $T$ and $N$ simultaneously in a test intended to causally attribute a shift of the threshold.
+
+#### 54.3 70C — Missing Term, Only If 70A and 70B Fail
+
+The starting potential remains:
+
+$$F_0 = -r \sum_a |\psi_a|^2 + u \sum_a |\psi_a|^4 + v \sum_{a < b} |\psi_a|^2 |\psi_b|^2$$
+
+Only one additional term should be introduced at a time.
+
+* **Phase-coupled candidate:** For example $F_3 = w(\psi_1 \psi_2 \psi_3 + \text{c.c.})$. But this term should only be retained if the microscopic symmetries allow it. Other couplings are possible, for example $w_{12}(\psi_1^* \psi_2 + \text{c.c.})$, which selects a different combination of phases. It is therefore no longer correct to present the cubic term as "the" a priori preferred missing term.
+* **Spatial candidate:** If the $\psi_a$ variables are genuinely spatial fields, one can test $F_\nabla = \sum_a \kappa_a |\nabla\psi_a|^2 + \sum_{a<b} \kappa_{ab} \nabla\psi_a \cdot \nabla\psi_b$. But this extension changes the nature of the model: it introduces spatial degrees of freedom that do not exist in the homogeneous 0D model.
+
+Causality criterion: An additional term is only explanatory if:
+
+1. It is allowed by the symmetries;
+2. Its coefficient is measurable or microscopically derivable;
+3. It is introduced before knowing its effect on $v_c$;
+4. Its magnitude is physically plausible;
+5. It improves the prediction without arbitrary tuning.
+
+The strong condition sought is:
+
+$$\text{micro-dynamics} \to \text{effective coefficient} \to v_c \simeq 2.92$$
+
+and not:
+
+$$\text{choice of } w \to v_c \simeq 2.92$$
+
+#### 54.4 70D — Direct Reconstruction of the Effective Potential
+
+Starting from the microscopic trajectories $Q_i(t)$, define the modal variables $\psi_a(t)$, then estimate their stationary distribution $P(\psi_1, \psi_2, \psi_3)$.
+
+Under appropriate assumptions, one can then reconstruct:
+
+$$F_{\text{eff}} = -k_B T_{\text{eff}} \ln P$$
+
+or, in reduced units:
+
+$$F_{\text{eff}} = -\ln P + C$$
+
+The reconstructed potential can then be compared to:
+
+$$F_{\text{eff}} = -r_{\text{eff}} \sum_a |\psi_a|^2 + u_{\text{eff}} \sum_a |\psi_a|^4 + \sum_{a < b} v_{ab,\text{eff}} |\psi_a|^2 |\psi_b|^2 + \dots$$
+
+The goal is to determine whether the $v_{ab}$, anisotropies, and any phase or gradient terms appear in the data, rather than being introduced to reproduce a result.
+
+**Caveat:** The inversion $F_{\text{eff}} = -\ln P$ is only interpretable as a standard thermodynamic potential if the necessary statistical and equilibrium conditions are met. For an out-of-equilibrium dynamics, it is first an effective statistical potential, not automatically a thermodynamic energy.
+
+### 55. Intermediate Independent-Reconstruction Result
+
+An independent reconstruction carried out from the available formula:
+
+$$v_c(\alpha) \approx 2.92 - 1.5\alpha$$
+
+produced, using an explicitly reconstructed parametrization rather than the original raw data, a first result:
+
+$$v_c(0) \approx 2.118$$
+
+and about:
+
+$$v_c(0.2) \approx 1.750$$
+
+This result is indicative only: it does not yet reproduce the exact protocol of campaigns 68–69d, for lack of access to the raw points and their full operational definition of the threshold.
+
+It is nonetheless important, because it shows that an independent reconstruction of the anisotropic model can produce a value much closer to 2 than to 2.92.
+
+This leads to a strict rule:
+
+$$2.118 \text{ is not a validation; it is a signal of non-reproducibility to be investigated.}$$
+
+The raw data and the exact protocol must therefore be obtained before drawing any conclusion about the origin of the 2.92.
+
+### 56. Correction to the External 70A–70B Report
+
+The external 70A–70B report had interpreted $v \simeq 0.86$ as a distinct energy threshold, then introduced a metastability window between 0.86 and 2.0.
+
+The algebraic audit shows that this interpretation is invalid for the symmetric quartic potential defined here. The correct threshold is:
+
+$$v_c = 2u$$
+
+The value 0.86 should therefore be kept in the log only as an erroneous historical result, accompanied by the mathematical correction. This distinction is important to prevent a false value from later reappearing as a "previous prediction."
+
+### 57. Consolidated Decision Tree
+
+     apparent v_c ≈ 2.92
+          │
+          ▼
+   70A — extrapolation α → 0
+          │
+     ┌─────────┴─────────┐
+     ▼          ▼
+   → 2.0       stays ≈ 2.92
+     │          │
+ α artifact         ▼
+           70B — convergence
+            T then N separately
+               │
+          ┌──────────┴──────────┐
+          ▼           ▼
+        → 2.0       stays ≈ 2.92
+          │           │
+       finite-size effect         ▼
+                  70C — additional
+                  term
+                     │
+                     ▼
+               microscopic validation
+                     │
+                     ▼
+                  70D — F_eff
+               direct reconstruction
+
+A 70S step should be considered transverse and prior to physical interpretation:
+
+$$\text{70S: precisely identify the class of dynamics}$$
+
+in particular:
+
+* Gradient dynamics;
+* Hamiltonian/conservative dynamics;
+* Out-of-equilibrium dissipative dynamics;
+* Kuramoto-type microscopic dynamics;
+* Modal reduction explicitly linking these levels.
+
+### 58. Final Scientific Criterion
+
+The program must now explicitly distinguish:
+
+$$\text{numerical reproduction} \neq \text{physical explanation}$$
+
+A complete predictive explanation should ideally follow the chain:
+
+$$S_{\text{micro}} \to P(\psi) \to F_{\text{eff}} \to v_{ab,\text{eff}} \to v_c \to \frac{\gamma_2}{\gamma_3}$$
+
+without choosing the effective parameters specifically to reproduce the final observable.
+
+This requirement is particularly important for the ratio:
+
+$$\frac{\gamma_2}{\gamma_3} \approx 1.37$$
+
+obtained with anisotropy, since fitting several $v_{ab}$ to a single target does not by itself constitute a causal demonstration.
+
+### 59. Questions Still Open After the Audit
+
+ 1. What exactly is the operational definition of $v_c$ in campaigns 68–69e?
+ 2. What are the raw points $(\alpha_i, v_c(\alpha_i))$?
+ 3. What is the sensitivity of $v_c$ to duration $T$?
+ 4. What is its convergence in $N$ once $T$ has converged?
+ 5. Can the microscopic reduction toward $\psi_a$ be explicitly derived?
+ 6. Does the freezing $\dot{\theta}_a = 0$ exist at the microscopic level, or is it created by the reduction?
+ 7. Which phase couplings are actually allowed by the microscopic symmetries?
+ 8. Can the $v_{ab}$ coefficients be reconstructed directly from the trajectories?
+ 9. Are the anisotropies $v_{12} < v_{13} < v_{23}$ explicitly imposed, or do they emerge?
+10. Is the homogeneous 0D model sufficient, or is a spatial structure needed?
+
+### 60. Principle of Preserving the Research Thread
+
+Do not erase historical errors: keep them, label them, and correct them.
+
+The current status should be read as follows:
+
+* $v_c = 2u$: analytical result of the symmetric quartic potential;
+* $v \simeq 0.86$: identified algebraic artifact;
+* $v_c \simeq 2.92$: historical observation/extrapolation to be reproduced and audited, not an established theoretical value;
+* $v_c \simeq 2.118$: partial independent reconstruction, inconclusive;
+* $U(1)^3$: symmetry of the potential and of the reduced flow in the model considered;
+* $\dot{\theta}_a = 0$: property of the reduced gradient flow, not yet derived from the microscopic dynamics;
+* $v_{ab}$: effective parameters not yet microscopically derived;
+* 70A–70D: falsification protocol, not final results;
+* 70S: audit of the dynamics class and of the micro $\to$ modal link.
+
+The guiding rule remains:
+
+$$\text{we no longer choose the desired result; we first look for whether the dynamics produces it.}$$
+
+61. Progress Summary and Transition to the Audit
+The H2C model succeeds in unifying MOND phenomenology and general-relativity constraints within a coherent quantum phase-coherence framework. The following sections gather the automated audit and numerical validation scripts allowing the full reproduction of the results on the SPARC catalogue.
+70. Audit and Automated Validation Suite (70A–70D)
+70A. SPARC Data Integrity Verification Script (audit_sparc_data.py)
+This script validates the compliance of rotation files galaxy by galaxy before injection into the solver.
+Python
+```python
+import os
+import pandas as pd
+import numpy as np
+
+def audit_sparc_dataset(data_dir):
+    report = {"valid": 0, "corrupted": 0, "missing_columns": 0}
+    required_cols = ['Rad', 'Vobs', 'e_Vobs', 'Vgas', 'Vdisk', 'Vbul']
+
+    for file in os.listdir(data_dir):
+        if file.endswith(".dat") or file.endswith(".csv"):
+            filepath = os.path.join(data_dir, file)
+            try:
+                df = pd.read_csv(filepath, sep=r'\s+')
+                if all(col in df.columns for col in required_cols):
+                    if not df[required_cols].isnull().values.any():
+                        report["valid"] += 1
+                    else:
+                        report["corrupted"] += 1
                 else:
-                    report["corrupted"] += 1
-            else:
-                report["missing_columns"] += 1
-        except Exception:
-            report["corrupted"] += 1
-            
-print(f"--- Rapport d'Audit Données SPARC ---")
-print(f"Galaxies valides : {report['valid']}")
-print(f"Fichiers corrompus : {report['corrupted']}")
-print(f"Colonnes manquantes : {report['missing_columns']}")
-return report
+                    report["missing_columns"] += 1
+            except Exception:
+                report["corrupted"] += 1
 
-70B. Moteur de Calcul de Phase Cohérente (audit_phase_coherence.py)Ce bloc isole le calcul de l'accélération émergente g emergent en fonction du champ baryonnique g bar .Pythonimport numpy as np
+    print(f"--- SPARC Data Audit Report ---")
+    print(f"Valid galaxies: {report['valid']}")
+    print(f"Corrupted files: {report['corrupted']}")
+    print(f"Missing columns: {report['missing_columns']}")
+    return report
+```
+70B. Coherent Phase Computation Engine (audit_phase_coherence.py)
+This block isolates the computation of the emergent acceleration $g_{\text{emergent}}$ as a function of the baryonic field $g_{\text{bar}}$.
+Python
 
-G = 6.67430e-11 # m^3 kg^-1 s^-2 a0_MOND = 1.2e-10 # m/s^2
+```python
+G = 6.67430e-11  # m^3 kg^-1 s^-2
+a0_MOND = 1.2e-10 # m/s^2
 
-def compute_emergent_acceleration(g_bar, alpha_coherence=1.0): """ Calcule l'accélération émergente H2C avec couplage de phase. """ g_bar = np.maximum(g_bar, 1e-15) x = g_bar / a0_MOND
-
-# Facteur d'amplification de cohérence quantique
-nu_h2c = 0.5 * (1.0 + np.sqrt(1.0 + 4.0 / (x**alpha_coherence)))
-
-g_tot = g_bar * nu_h2c
-return g_tot
-
-def process_galaxy_curve(r_kpc, v_bar): r_m = r_kpc * 3.08567758128e19 v_bar_m = v_bar * 1000.0
-
-g_bar = (v_bar_m**2) / r_m
-g_tot = compute_emergent_acceleration(g_bar)
-
-v_pred_m = np.sqrt(g_tot * r_m)
-return v_pred_m / 1000.0
-
-70C. Script de Calcul du Chi-Deux Global (audit_chi2_fit.py)Validation statistique globale de la déviation entre V obs et V pred sur l'ensemble de l'échantillon.Pythonimport numpy as np
-
-def calculate_galaxy_chi2(v_obs, e_vobs, v_pred, dof_adjustment=1): mask = e_vobs > 0 v_obs, e_vobs, v_pred = v_obs[mask], e_vobs[mask], v_pred[mask]
-
-residuals = ((v_obs - v_pred) / e_vobs) ** 2
-chi2_total = np.sum(residuals)
-dof = max(1, len(v_obs) - dof_adjustment)
-
-return chi2_total, chi2_total / dof
-
-def global_benchmark(dataset_results): total_chi2 = 0.0 total_points = 0
-
-for gal, res in dataset_results.items():
-    c2, _ = calculate_galaxy_chi2(res['v_obs'], res['e_vobs'], res['v_pred'])
-    total_chi2 += c2
-    total_points += len(res['v_obs'])
+def compute_emergent_acceleration(g_bar, alpha_coherence=1.0):
+    """
+    Computes the H2C emergent acceleration with phase coupling.
+    """
+    g_bar = np.maximum(g_bar, 1e-15)
+    x = g_bar / a0_MOND
     
-print(f"Chi2 Reduced Global H2C : {total_chi2 / total_points:.3f}")
+    # Quantum coherence amplification factor
+    nu_h2c = 0.5 * (1.0 + np.sqrt(1.0 + 4.0 / (x**alpha_coherence)))
+    
+    g_tot = g_bar * nu_h2c
+    return g_tot
 
-70D. Générateur de Graphiques d'Residuals et Métriques (audit_export_plots.py)Génération automatisée des figures d'audit pour le dépôt d'archivage.Pythonimport matplotlib.pyplot as plt import numpy as np
+def process_galaxy_curve(r_kpc, v_bar):
+    r_m = r_kpc * 3.08567758128e19
+    v_bar_m = v_bar * 1000.0
+    
+    g_bar = (v_bar_m**2) / r_m
+    g_tot = compute_emergent_acceleration(g_bar)
+    
+    v_pred_m = np.sqrt(g_tot * r_m)
+    return v_pred_m / 1000.0
+```
 
-def plot_residuals(r_kpc, v_obs, e_vobs, v_pred, galaxy_name, save_path=None): fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 6), sharex=True, gridspec_kw={'height_ratios': [3, 1]})
+70C. Global Chi-Squared Computation Script (audit_chi2_fit.py)
+Global statistical validation of the deviation between $V_{\text{obs}}$ and $V_{\text{pred}}$ over the whole sample.
+Python
+```python
+import numpy as np
 
-# Courbe de rotation
-ax1.errorbar(r_kpc, v_obs, yerr=e_vobs, fmt='o', color='black', label='V_obs (SPARC)')
-ax1.plot(r_kpc, v_pred, color='crimson', lw=2, label='V_pred (H2C Model)')
-ax1.set_ylabel('Vitesse (km/s)')
-ax1.set_title(f'Audit H2C - Galaxy {galaxy_name}')
-ax1.legend()
-ax1.grid(True, linestyle='--', alpha=0.6)
+def calculate_galaxy_chi2(v_obs, e_vobs, v_pred, dof_adjustment=1):
+    mask = e_vobs > 0
+    v_obs, e_vobs, v_pred = v_obs[mask], e_vobs[mask], v_pred[mask]
+    
+    residuals = ((v_obs - v_pred) / e_vobs) ** 2
+    chi2_total = np.sum(residuals)
+    dof = max(1, len(v_obs) - dof_adjustment)
+    
+    return chi2_total, chi2_total / dof
 
-# Résidus
-residuals = v_obs - v_pred
-ax2.axhline(0, color='gray', linestyle='--')
-ax2.errorbar(r_kpc, residuals, yerr=e_vobs, fmt='s', color='navy')
-ax2.set_xlabel('Rayon (kpc)')
-ax2.set_ylabel('Écart (km/s)')
-ax2.grid(True, linestyle='--', alpha=0.6)
+def global_benchmark(dataset_results):
+    total_chi2 = 0.0
+    total_points = 0
+    
+    for gal, res in dataset_results.items():
+        c2, _ = calculate_galaxy_chi2(res['v_obs'], res['e_vobs'], res['v_pred'])
+        total_chi2 += c2
+        total_points += len(res['v_obs'])
+        
+    print(f"Chi2 Reduced Global H2C : {total_chi2 / total_points:.3f}")
+```
+70D. Residual and Metrics Plot Generator (audit_export_plots.py)
+Automated generation of audit figures for the archive repository.
+Python
+```python
+import matplotlib.pyplot as plt
+import numpy as np
 
-plt.tight_layout()
-if save_path:
-    plt.savefig(save_path, dpi=300)
-plt.close()
+def plot_residuals(r_kpc, v_obs, e_vobs, v_pred, galaxy_name, save_path=None):
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 6), sharex=True, gridspec_kw={'height_ratios': [3, 1]})
+    
+    # Rotation curve
+    ax1.errorbar(r_kpc, v_obs, yerr=e_vobs, fmt='o', color='black', label='V_obs (SPARC)')
+    ax1.plot(r_kpc, v_pred, color='crimson', lw=2, label='V_pred (H2C Model)')
+    ax1.set_ylabel('Velocity (km/s)')
+    ax1.set_title(f'H2C Audit - Galaxy {galaxy_name}')
+    ax1.legend()
+    ax1.grid(True, linestyle='--', alpha=0.6)
+    
+    # Residuals
+    residuals = v_obs - v_pred
+    ax2.axhline(0, color='gray', linestyle='--')
+    ax2.errorbar(r_kpc, residuals, yerr=e_vobs, fmt='s', color='navy')
+    ax2.set_xlabel('Radius (kpc)')
+    ax2.set_ylabel('Deviation (km/s)')
+    ax2.grid(True, linestyle='--', alpha=0.6)
+    
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=300)
+    plt.close()
+```
 
-PARTIE IV : ANNEXES NUMÉRIQUES & GUIDE DES PREUVES
+# PART IV: NUMERICAL APPENDICES & EVIDENCE GUIDE
 
-Cette section archive les briques logicielles critiques et le guide de lecture des données brutes validant le modèle.
-1. Moteur d'Inversion de Phase (Audit 61H-10A)
+This section archives the critical software components and the guide for reading the raw data underlying the model.
 
-Preuve de la suppression des singularités par dynamique libre des phases ( A min > 0 ).
+### 1. Phase Inversion Engine (Audit 61H-10A)
 
+Proof of singularity suppression through free phase dynamics ($A_{\text{min}} > 0$).
+
+```python
 import numpy as np
 
 def run_phase_inversion_audit(N=2000, max_steps=500, dt=0.01):
@@ -1996,14 +2299,30 @@ def run_phase_inversion_audit(N=2000, max_steps=500, dt=0.01):
         amplitudes += d_amplitude * dt
         phases += np.sin(d_phase) * dt
     return np.min(np.abs(amplitudes))  # ~0.6132
-2. Moteur d'Émergence MOND (Audit 61H-13)Validation analytique de la pente $-1.0000$ en champ faible.Pythonimport numpy as np
+```
+2. MOND Emergence Engine (Audit 61H-13)
+Analytical validation of the $-1.0000$ slope in the weak-field regime.
+Python
+```python
+import numpy as np
 
 def compute_mond_emergence(a_0=1.2e-10, g_bar_scale=1e-8):
     r = np.linspace(5.0, 50.0, 50)
     g_bar = g_bar_scale / (r**2)
     g_h2c = np.sqrt(g_bar * a_0 + np.sqrt((g_bar * a_0)**2 + 4 * g_bar**2)) / np.sqrt(2)
     return np.polyfit(np.log(r[-15:]), np.log(g_h2c[-15:]), 1)[0]  # -0.9999
-3. Guide de Lecture des Preuves (Numerical_Evidence/)Pour garantir une transparence totale, les fichiers de données brutes sont archivés dans Numerical_Evidence/.61H8C_limit_audit.json : Preuve de la régularité du substrat ($A_{\text{min}} > 0$).61H9_convergence_report.json : Rapport de scaling haute résolution ($N=4000$).61H12_extended_results.csv : Documente l'effet de forme galactique.61H11_final_report.json : Synthèse des performances sur 175 galaxies (Gain de 19% de $\chi^2$).55. Solveur Auto-Consistant H2C & Validation SPARC (175 Galaxies)55.1 Code source complet d'exécution (Backend Agg)Pythonimport os
+```
+3. Evidence Reading Guide (Numerical_Evidence/)
+To ensure full transparency, the raw data files are archived in Numerical_Evidence/.
+61H8C_limit_audit.json: Proof of substrate regularity ($A_{\text{min}} > 0$).
+61H9_convergence_report.json: High-resolution scaling report ($N=4000$).
+61H12_extended_results.csv: Documents the galactic-shape effect.
+61H11_final_report.json: Performance summary on 175 galaxies ($\chi^2$ gain of 19%).
+55. H2C Self-Consistent Solver & SPARC Validation (175 Galaxies)
+55.1 Complete Execution Source Code (Agg Backend)
+Python
+```python
+import os
 import re
 import zipfile
 import requests
@@ -2014,7 +2333,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-# CONSTANTES UNIVERSELLES & ANCRAGE COSMOLOGIQUE
+# UNIVERSAL CONSTANTS & COSMOLOGICAL ANCHORING
 C_M_S = 299792458.0
 KPC_TO_M = 3.085677581491367e19
 KM_S_TO_M_S = 1000.0
@@ -2059,5 +2378,4 @@ class H2CSolverCoupledExperimental:
             "eta": eta_curr,
             "iterations": iteration + 1
         }
-
- 
+```
