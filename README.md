@@ -874,7 +874,7 @@ $$\gamma_\Sigma\approx0.28$$
 
 survit à toutes ces vérifications, alors nous pourrons poser une question physique beaucoup plus intéressante :
 
-Existe-t-il dans la formulation covariante H2C une combinaison naturelle de \(C\), \(\nabla C\), \(M_{\rm bar}\) ou d'un tenseur de contrainte capable de produire une réponse dépendant de la concentration spatiale de la matière ?
+Existe-t-il dans la formulation covariante H2C une combinaison naturelle de $$\(C\)$$, $$\(\nabla C\)$$, $$\(M_{\rm bar}\)$$ ou d'un tenseur de contrainte capable de produire une réponse dépendant de la concentration spatiale de la matière ?
 
 C'est là que les deux branches de ton projet pourraient éventuellement commencer à se rejoindre :
 
@@ -942,20 +942,20 @@ Ce n'est pas non plus :
 
 Le résultat important est :
 
-$$ \boxed{ \textbf{La masse baryonique seule semble être une description incomplète de la relation.} } $$
+$$\boxed{ \textbf{La masse baryonique seule semble être une description incomplète de la relation.} }$$
 
 et :
 
-$$ \boxed{ \textbf{Une variable de densité de surface }\Sigma_0 \textbf{ absorbe une grande partie de la déviation apparente de la pente massique.} } $$
+$$\boxed{\textbf{Une variable de densité de surface }\Sigma_0\textbf{ absorbe une grande partie de la déviation apparente de la pente massique.} }$$
 
 avec, dans les données actuelles :
 
-$$ \boxed{\alpha_M\simeq1} $$
+$$\boxed{\alpha_M\simeq1}$$
 
 et :
 
 $$\boxed{\gamma_\Sigma\simeq0.28}.$$
-26. Statut scientifique complet à inscrire dans notre suivi
+### 26. Statut scientifique complet à inscrire dans notre suivi
 Élément	Statut actuel
 175 galaxies analysées	établi pour cette campagne
 Relation $$\(V^4\)-\(M_{\rm bar}\)$$	établie empiriquement
@@ -980,11 +980,8 @@ Dépendance morphologique contrôlée	pas encore
 Nouvelle loi gravitationnelle H2C	pas encore dérivée
 Lien $$\(\Sigma_0\rightarrow C\)$$	pas encore dérivé
 Équations d'Einstein émergentes	toujours non dérivées
-27. Et je pense qu'il faut conserver précisément cette formulation dans le README
 
-Je proposerais d'ajouter une section historique du type :
-
-Résultat majeur — Juge de paix 2 : décomposition du résidu \(M_{\rm bar}/\Sigma_0\)
+### 27. Résultat majeur — Juge de paix 2 : décomposition du résidu \(M_{\rm bar}/\Sigma_0\)
 
 Sur 175 galaxies SPARC, la régression de $$\(\log V^4\)$$ sur $$\(\log M_{\rm bar}\)$$ seul donne une pente $$\(1.1475\pm0.0320\)$$, s'écartant de 1 à 4,60 σ. L'introduction de la densité de surface baryonique $$\(\Sigma_0\)$$ dans une régression multivariée donne $$\(1.0032\pm0.0410\)$$ pour le coefficient de $$\(\log M_{\rm bar}\)$$, compatible avec la pente théorique 1, tandis que le coefficient de $$\(\log\Sigma_0\)$$ vaut $$\(0.2787\pm0.0542\)$$. Les critères AIC/BIC favorisent nettement le modèle à deux variables et les VIF (~1,88) n'indiquent pas de colinéarité sévère. La régression directe du résidu H2C sur $$\(\Sigma_0\)$$ conserve un coefficient positif significatif, tandis que l'effet indépendant de $$\(M_{\rm bar}\)$$ devient compatible avec zéro. Ce résultat constitue une contrainte observationnelle/statistique nouvelle pour le projet, mais ne constitue pas une validation de la théorie H2C ni une dérivation physique du coefficient $$\(0.28\)$$. Des contrôles supplémentaires sur le rayon de disque, la fraction gazeuse, la morphologie et les choix de masse stellaire sont nécessaires avant toute interprétation physique.
 
@@ -992,7 +989,7 @@ C'est, à mon avis, la formulation la plus défendable scientifiquement à ce st
 
 Et surtout, je garderais séparées les trois couches :
 
-$$ \boxed{\text{DONNÉES}} \rightarrow \boxed{\text{RELATION STATISTIQUE}} \rightarrow \boxed{\text{INTERPRÉTATION PHYSIQUE}} $$
+$$\boxed{\text{DONNÉES}}\rightarrow \boxed{\text{RELATION STATISTIQUE}}\rightarrow\boxed{\text{INTERPRÉTATION PHYSIQUE}}$$
 
 Nous avons maintenant un résultat solide dans les deux premières couches. La troisième est précisément ce que les prochaines campagnes devront essayer de construire ou, éventuellement, de réfuter.
 
@@ -1000,11 +997,11 @@ Nous avons maintenant un résultat solide dans les deux premières couches. La t
 ### B. Dérivation Variationnelle et Origine Géométrique
 Pour rendre compte de cette constante universelle, l'action effective du champ de phase $\Phi$ couplé à la densité baryonique $\rho_{\text{bar}}$ est formulée en régime stationnaire :
 
-$$S_{\text{tot}} = \int \left[ \frac{1}{2} g^{\mu\nu} \partial_\mu \Phi \partial_\nu \Phi - V(\Phi) - \frac{8\pi G}{c^2} \rho_{\text{bar}} \Phi \right] \sqrt{-g} \, d^4x$$
+$$S_{\text{tot}}=\int\left[\frac{1}{2} g^{\mu\nu}\partial_\mu\Phi\partial\nu\Phi - V(\Phi) - \frac{8\pi G}{c^2} \rho_{\text{bar}}\Phi\right] \sqrt{-g}\,d^4x$$
 
 En appliquant le théorème de flux d'Ostrogradsky sur le volume limite du halo galactique et en intégrant les fluctuations de phase de type Ginzburg-Landau, le facteur de couplage géométrique pur émerge naturellement de l'angle solide $4\pi$ et de la métrique d'interférence $\sqrt{2}$ :
 
-$$S_{\text{gal, théo}} = \frac{\sqrt{2}}{4\pi} \approx 0,1125$$
+$$S_{\text{gal, théo}}=\frac{\sqrt{2}}{4\pi}\approx 0,1125$$
 
 ### C. Bilan et Comparaison
 La confrontation entre la prédiction analytique pure et les données empiriques du catalogue SPARC met en évidence un accord remarquable :
@@ -1019,7 +1016,7 @@ Cette convergence valide la robustesse du modèle de gravité à cohérence de p
 
 | Obstacle | Description |
 | ----- | ----- |
-| **13.1 Covariance générale** | $G_{\mu\nu} = \mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
+| **13.1 Covariance générale** | $G_{\mu\nu}=\mathcal{F}_{\mu\nu}[\text{corrélations}]$ doit respecter la covariance générale. |
 | **13.2 Identités de Bianchi** | $\nabla_\mu G^{\mu\nu} = 0$ doit apparaître au niveau macroscopique. |
 | **13.3 Conservation énergie-impulsion** | $\nabla_\mu T^{\mu\nu} = 0$ doit se généraliser si $G_{\text{eff}} / \Lambda_{\text{eff}}$ deviennent dynamiques. |
 | **13.4 Émergence de la métrique** | Il faut expliquer comment $g_{\mu\nu}$ elle-même émerge des degrés de liberté fondamentaux. |
