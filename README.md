@@ -781,7 +781,7 @@ C'est une confirmation importante de la stabilité statistique du résultat.
 
 Je formulerais le résultat scientifique actuel ainsi :
 
-Sur les 175 galaxies SPARC analysées dans cette campagne, la relation \(\log V^4\)-\(\log M_{\rm bar}\) donne une pente \(1.1475\pm0.0320\), incompatible avec 1 à 4,6 σ dans le modèle à une variable. L'introduction d'une seconde variable structurelle \(\log\Sigma_0\) ramène la pente massique à \(1.0032\pm0.0410\), compatible avec 1 à 0,08 σ, tandis que le coefficient de \(\log\Sigma_0\) est \(0.2787\pm0.0542\), significatif à environ 5,1 σ. Le VIF ≈1,88 ne suggère pas de colinéarité sévère, et les critères AIC/BIC favorisent nettement le modèle à deux variables. Le résidu par rapport à la relation H2C présente lui-même une dépendance à \(\Sigma_0\), tandis que sa dépendance indépendante à \(M_{\rm bar}\) devient compatible avec zéro.
+Sur les 175 galaxies SPARC analysées dans cette campagne, la relation $$\(\log V^4\)-\(\log M_{\rm bar}\)$$ donne une pente $$\(1.1475\pm0.0320\)$$, incompatible avec 1 à 4,6 σ dans le modèle à une variable. L'introduction d'une seconde variable structurelle $$\(\log\Sigma_0\)$$ ramène la pente massique à $$\(1.0032\pm0.0410\)$$, compatible avec 1 à 0,08 σ, tandis que le coefficient de $$\(\log\Sigma_0\)$$ est $$\(0.2787\pm0.0542\)$$$, significatif à environ 5,1 σ. Le VIF ≈1,88 ne suggère pas de colinéarité sévère, et les critères AIC/BIC favorisent nettement le modèle à deux variables. Le résidu par rapport à la relation H2C présente lui-même une dépendance à $$\(\Sigma_0\)$$, tandis que sa dépendance indépendante à $$\(M_{\rm bar}\)$$ devient compatible avec zéro.
 
 C'est une formulation que je considère défendable.
 
@@ -799,7 +799,7 @@ Nous pouvons écrire :
 
 C'est beaucoup plus solide.
 
-### 20. Et surtout : ne pas transformer \(0.28\) en constante fondamentale H2C
+### 20. Et surtout : ne pas transformer $$\(0.28\)$$ en constante fondamentale H2C
 
 Nous avons maintenant :
 
