@@ -767,13 +767,13 @@ Le bootstrap que nous avons déjà effectué est donc particulièrement utile.
 
 Pour le modèle multivarié :
 
-$$\alpha_M:$$ $$\boxed{ IC_{95\%}=[0.915956,1.090684] }$$
+\alpha_M : \quad \boxed{\mathrm{IC}_{95\%} = [0.915956, 1.090684]}
 
 et :
 
 $$\gamma_{\Sigma}:$$ $$\boxed{ IC_{95\%}=[0.171844,0.386952]. }$$
 
-Donc le coefficient massique reste compatible avec 1 et le coefficient \(\Sigma_0\) reste positif dans tout l'intervalle bootstrap.
+Donc le coefficient massique reste compatible avec 1 et le coefficient $$\(\Sigma_0\)$$ reste positif dans tout l'intervalle bootstrap.
 
 C'est une confirmation importante de la stabilité statistique du résultat.
 
