@@ -771,7 +771,7 @@ $$\alpha_M :\quad \boxed{\mathrm{IC}_{95\\%} = [0.915956, 1.090684]}$$
 
 et :
 
-$$\gamma_{\Sigma}:$$ $$\boxed{IC_{95\%}=[0.171844,0.386952].}$$
+$$\boxed{\mathrm{IC}_{95\\%} = [0.171844, 0.386952]}$$
 
 Donc le coefficient massique reste compatible avec 1 et le coefficient $$\(\Sigma_0\)$$ reste positif dans tout l'intervalle bootstrap.
 
@@ -795,7 +795,7 @@ Non.
 
 Nous pouvons écrire :
 
-« Les données SPARC analysées présentent une dépendance résiduelle significative à la densité de surface baryonique \(\Sigma_0\), qui restaure une pente massique compatible avec la prédiction \(V^4\propto M_{\rm bar}\). »
+« Les données SPARC analysées présentent une dépendance résiduelle significative à la densité de surface baryonique \(\Sigma_0\), qui restaure une pente massique compatible avec la prédiction $$\(V^4\propto M_{\rm bar}\).$$ »
 
 C'est beaucoup plus solide.
 
@@ -803,11 +803,11 @@ C'est beaucoup plus solide.
 
 Nous avons maintenant :
 
-$$ \gamma_{\Sigma}\approx0.28. $$
+$$\gamma_{\Sigma}\approx0.28$$
 
 Mais :
 
-$$ 0.28 $$
+$$0.28$$
 
 n'est pas encore une constante fondamentale.
 
@@ -815,7 +815,7 @@ Il faut vérifier si elle survit à l'introduction d'autres variables.
 
 Le danger serait de faire immédiatement :
 
-$$ \gamma=0.28 $$
+$$\gamma=0.28$$
 
 puis de construire une nouvelle équation H2C autour de cette valeur.
 
@@ -829,23 +829,23 @@ Je proposerais maintenant cette hiérarchie.
 
 Tester :
 
-$$ \boxed{ \log V^4 = A+ \alpha_M\log M_{\rm bar} + \gamma_\Sigma\log\Sigma_0 + \eta_R\log R_d } $$
+$$\boxed{\log V^4=A+\alpha_M\log M_{\rm bar}+\gamma_\Sigma\log\Sigma_0 +\eta_R\log R_d }$$
 
 C'est probablement le contrôle le plus important.
 
 Pourquoi ?
 
-Parce que \(\Sigma_0\) peut elle-même être liée à la taille du système.
+Parce que $$\(\Sigma_0\)$$ peut elle-même être liée à la taille du système.
 
 Étape 2 — tester la fraction gazeuse
 
 Par exemple :
 
-$$ f_{\rm gas} = \frac{M_{\rm gas}} {M_{\rm bar}}. $$
+$$f_{\rm gas}=\frac{M_{\rm gas}}{M_{\rm bar}}.$$
 
 Puis :
 
-$$ \log V^4 = A+ \alpha_M\log M_{\rm bar} + \gamma_\Sigma\log\Sigma_0 + \eta_g\log f_{\rm gas}. $$
+$$\log V^4=A+\alpha_M\log M_{\rm bar}+\gamma_\Sigma\log\Sigma_0 +\eta_g\log f_{\rm gas}.$$
 Étape 3 — tester la morphologie
 
 Séparer au minimum :
@@ -855,22 +855,22 @@ galaxies sans bulbe ;
 galaxies très concentrées ;
 galaxies diffuses.
 
-Le coefficient \(\gamma_\Sigma\) doit être comparé entre populations.
+Le coefficient $$\(\gamma_\Sigma\)$$ doit être comparé entre populations.
 
 Étape 4 — vérifier l'effet du modèle de masse
 
 Le catalogue SPARC utilise les composantes :
 
-$$ V_{\rm bar}^2 = V_{\rm gas}^2 + \Upsilon_{\rm disk}V_{\rm disk}^2 + \Upsilon_{\rm bulge}V_{\rm bulge}^2. $$
+$$V_{\rm bar}^2=V_{\rm gas}^2 +\Upsilon_{\rm disk}V_{\rm disk}^2 +\Upsilon_{\rm bulge}V_{\rm bulge}^2.$$
 
 Notre analyse doit vérifier que le résultat ne dépend pas excessivement du choix :
 
-$$ \Upsilon_{\rm disk}=0.5, \qquad \Upsilon_{\rm bulge}=0.7. $$
+$$\Upsilon_{\rm disk}=0.5, \qquad \Upsilon_{\rm bulge}=0.7.$$
 22. Puis seulement une question beaucoup plus profonde
 
 Si le coefficient :
 
-$$ \gamma_\Sigma\approx0.28 $$
+$$\gamma_\Sigma\approx0.28$$
 
 survit à toutes ces vérifications, alors nous pourrons poser une question physique beaucoup plus intéressante :
 
@@ -878,7 +878,7 @@ Existe-t-il dans la formulation covariante H2C une combinaison naturelle de \(C\
 
 C'est là que les deux branches de ton projet pourraient éventuellement commencer à se rejoindre :
 
-$$ \boxed{ \text{structure baryonique} \rightarrow \text{réponse du champ }C \rightarrow g_{\mu\nu}^{\rm eff} } $$
+$$\boxed{ \text{structure baryonique}\rightarrow\text{réponse du champ }C\rightarrow g_{\mu\nu}^{\rm eff} }$$
 
 Mais cette flèche reste à dériver.
 
@@ -888,17 +888,17 @@ C'est justement ici que cette campagne devient conceptuellement intéressante.
 
 La formulation fondamentale actuelle travaille avec :
 
-$$ \Phi=R e^{i\theta}, \qquad C=|\Phi|^2=R^2 $$
+$$\Phi=R e^{i\theta},\qquad C=|\Phi|^2=R^2$$
 
 et des termes de gradient :
 
-$$ K^{\mu\nu}\nabla_\mu\Phi^*\nabla_\nu\Phi. $$
+$$K^{\mu\nu}\nabla_\mu\Phi^*\nabla_\nu\Phi.$$
 
 Nous savons déjà que la branche covariante a passé les tests numériques B1–D4 pour les configurations testées : opérateur, MMS, conservation de charge, conservation dans les cas stationnaires et bilan énergétique pour le cas dépendant du temps.
 
 Mais nous n'avons toujours pas de dérivation de :
 
-$$ g_{\mu\nu}^{\rm eff}=F(C,\nabla C,\ldots). $$
+$$g_{\mu\nu}^{\rm eff}=F(C,\nabla C,\ldots).$$
 
 Donc le résultat SPARC ne doit pas être injecté artificiellement dans V1.2.
 
@@ -912,21 +912,21 @@ C'est beaucoup plus propre.
 
 Avant cette campagne, nous avions essentiellement :
 
-$$ V^4\propto M_{\rm bar}^{1.147} $$
+$$V^4\propto M_{\rm bar}^{1.147}$$
 
 contre une construction H2C voulant :
 
-$$ V^4\propto M_{\rm bar}. $$
+$$V^4\propto M_{\rm bar}.$$
 
 Cela pouvait être interprété comme une difficulté du modèle.
 
 Maintenant nous avons :
 
-$$ \boxed{ V^4 \propto M_{\rm bar}^{1.003} \Sigma_0^{0.279} } $$
+$$\boxed{ V^4\propto M_{\rm bar}^{1.003} \Sigma_0^{0.279} }$$
 
 et :
 
-$$ \boxed{ \delta_{\rm H2C} \sim \Sigma_0^{0.279}, \qquad \delta_{\rm H2C}\not\sim M_{\rm bar} \quad\text{après contrôle de }\Sigma_0. } $$
+$$\boxed{ \delta_{\rm H2C}\sim\Sigma_0^{0.279},\qquad\delta_{\rm H2C}\not\sim M_{\rm bar}\quad\text{après contrôle de }\Sigma_0. }$$
 
 Cela transforme le problème.
 
