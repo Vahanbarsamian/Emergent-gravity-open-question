@@ -439,7 +439,7 @@ $$ V^4 = A\,M_{\rm bar}\Sigma_0^{0.28}. $$
 
 Attention : cette équation est une relation statistique obtenue sur le catalogue. Ce n'est pas encore une nouvelle équation fondamentale H2C.
 
-# 6. Pourquoi ce résultat est beaucoup plus intéressant qu'une simple corrélation
+### 6. Pourquoi ce résultat est beaucoup plus intéressant qu'une simple corrélation
 
 Il y avait une objection évidente :
 
@@ -473,7 +473,7 @@ corrélés, mais pas suffisamment pour expliquer mécaniquement le résultat par
 
 Les deux coefficients restent identifiables dans la régression multivariée.
 
-7. Les critères AIC/BIC renforcent le résultat
+### 7. Les critères AIC/BIC renforcent le résultat
 
 Le modèle A :
 
@@ -507,7 +507,7 @@ Ce n'est pas simplement :
 
 Ici, même les critères pénalisant l'ajout d'une variable sont nettement améliorés.
 
-8. Le résultat encore plus fort : on peut regarder directement le résidu H2C
+### 8. Le résultat encore plus fort : on peut regarder directement le résidu H2C
 
 C'est ici que la campagne devient particulièrement intéressante.
 
@@ -539,7 +539,7 @@ $$\boxed{22.8\\\%}$$
 
 de la variance du résidu dans cette régression simple.
 
-9. Et lorsque la masse est contrôlée, l'effet de la masse disparaît
+### 9. Et lorsque la masse est contrôlée, l'effet de la masse disparaît
 
 C'est peut-être le résultat statistique le plus propre de la campagne.
 
@@ -549,7 +549,7 @@ $$\boxed{\delta_{\rm H2C}=A+\eta\log M_{\rm bar}+\gamma\log\Sigma_0 }$$
 
 On trouve :
 
-$$ \boxed{ \eta=0.003158\pm0.041012 } $$
+$$\boxed{\eta=0.003158\pm0.041012 }$$
 
 avec :
 
@@ -579,7 +579,7 @@ $$ \boxed{ \delta_{\rm H2C}\sim\Sigma_0^{0.28}. } $$
 
 C'est une différence conceptuelle importante.
 
-10. Comment comprendre le passage de 1.147 à 1.003
+### 10. Comment comprendre le passage de 1.147 à 1.003
 
 C'est probablement la meilleure manière de résumer toute la découverte statistique.
 
@@ -597,7 +597,7 @@ $$1.0032\simeq1.$$
 
 Donc ce qui ressemblait initialement à une anomalie de la loi massique peut être en grande partie expliqué par une variable structurelle omise.
 
-11. Cela change la question physique
+### 11. Cela change la question physique
 
 Avant cette campagne, la question pouvait être formulée ainsi :
 
@@ -615,7 +615,7 @@ Ce n'est encore qu'une hypothèse de travail.
 
 Mais elle est désormais motivée par les données du catalogue, et non simplement inventée pour sauver le modèle.
 
-12. Cela rejoint une idée déjà présente dans la branche fondamentale
+### 12. Cela rejoint une idée déjà présente dans la branche fondamentale
 
 C'est particulièrement intéressant au regard de la philosophie générale H2C.
 
@@ -655,7 +655,7 @@ $$\boxed{\Sigma_0\neq|\nabla C|^2}$$
 
 Nous n'avons aucune dérivation permettant de les identifier.
 
-13. Il faut également revenir au déficit global H2C
+### 13. Il faut également revenir au déficit global H2C
 
 La campagne donne :
 
@@ -685,7 +685,7 @@ est remarquablement proche de l'échelle souvent utilisée dans les formulations
 
 Cela signifie simplement que l'échelle d'accélération effectivement requise par cette relation empirique est beaucoup plus basse que le \(a_0^{H2C}\) choisi.
 
-14. Cela permet de séparer deux problèmes qui étaient mélangés
+### 14. Cela permet de séparer deux problèmes qui étaient mélangés
 
 C'est une avancée méthodologique importante.
 
@@ -711,7 +711,7 @@ Ce sont deux questions différentes.
 
 Il ne faut surtout pas modifier simultanément les deux paramètres, sinon on ne saura plus ce qui améliore réellement le modèle.
 
-15. Le graphique masse–résidu permet également d'identifier la population problématique
+### 15. Le graphique masse–résidu permet également d'identifier la population problématique
 
 Le nuage que tu viens d'envoyer montre une dispersion particulièrement importante dans la région :
 
@@ -742,7 +742,7 @@ effets de sélection du catalogue.
 
 C'est précisément pour cela que $$\(\Sigma_0\)$$, $$\(R_d\)$$, fraction gazeuse et morphologie doivent maintenant être testés.
 
-16. Une autre observation importante : les résidus ne sont pas gaussiens
+### 16. Une autre observation importante : les résidus ne sont pas gaussiens
 
 Les tests OLS donnent des statistiques Omnibus/Jarque-Bera très significatives.
 
@@ -763,7 +763,7 @@ bootstrap ;
 
 Le bootstrap que nous avons déjà effectué est donc particulièrement utile.
 
-17. Le bootstrap confirme que ce n'est pas un accident d'un petit nombre de galaxies
+### 17. Le bootstrap confirme que ce n'est pas un accident d'un petit nombre de galaxies
 
 Pour le modèle multivarié :
 
@@ -777,7 +777,7 @@ Donc le coefficient massique reste compatible avec 1 et le coefficient $$\(\Sigm
 
 C'est une confirmation importante de la stabilité statistique du résultat.
 
-18. Ce que nous pouvons maintenant dire avec confiance
+### 18. Ce que nous pouvons maintenant dire avec confiance
 
 Je formulerais le résultat scientifique actuel ainsi :
 
@@ -785,7 +785,7 @@ Sur les 175 galaxies SPARC analysées dans cette campagne, la relation \(\log V^
 
 C'est une formulation que je considère défendable.
 
-19. Ce que nous ne devons surtout pas écrire
+### 19. Ce que nous ne devons surtout pas écrire
 
 Il serait prématuré d'écrire :
 
@@ -799,7 +799,7 @@ Nous pouvons écrire :
 
 C'est beaucoup plus solide.
 
-20. Et surtout : ne pas transformer \(0.28\) en constante fondamentale H2C
+### 20. Et surtout : ne pas transformer \(0.28\) en constante fondamentale H2C
 
 Nous avons maintenant :
 
@@ -821,7 +821,7 @@ puis de construire une nouvelle équation H2C autour de cette valeur.
 
 Je déconseille absolument cette étape pour l'instant.
 
-21. La campagne suivante doit donc être un « test de robustesse structurelle »
+### 21. La campagne suivante doit donc être un « test de robustesse structurelle »
 
 Je proposerais maintenant cette hiérarchie.
 
@@ -866,7 +866,7 @@ $$V_{\rm bar}^2=V_{\rm gas}^2 +\Upsilon_{\rm disk}V_{\rm disk}^2 +\Upsilon_{\rm 
 Notre analyse doit vérifier que le résultat ne dépend pas excessivement du choix :
 
 $$\Upsilon_{\rm disk}=0.5, \qquad \Upsilon_{\rm bulge}=0.7.$$
-22. Puis seulement une question beaucoup plus profonde
+### 22. Puis seulement une question beaucoup plus profonde
 
 Si le coefficient :
 
@@ -882,7 +882,7 @@ $$\boxed{ \text{structure baryonique}\rightarrow\text{réponse du champ }C\right
 
 Mais cette flèche reste à dériver.
 
-23. La relation avec la formulation covariante V1.2/V1.4
+### 23. La relation avec la formulation covariante V1.2/V1.4
 
 C'est justement ici que cette campagne devient conceptuellement intéressante.
 
@@ -908,7 +908,7 @@ le résultat observationnel fournit désormais une contrainte empirique que la f
 
 C'est beaucoup plus propre.
 
-24. Le changement de statut du projet
+### 24. Le changement de statut du projet
 
 Avant cette campagne, nous avions essentiellement :
 
@@ -930,7 +930,7 @@ $$\boxed{ \delta_{\rm H2C}\sim\Sigma_0^{0.279},\qquad\delta_{\rm H2C}\not\sim M_
 
 Cela transforme le problème.
 
-25. Ce que je considère comme le véritable résultat de cette campagne
+### 25. Ce que je considère comme le véritable résultat de cette campagne
 
 Ce n'est pas :
 
