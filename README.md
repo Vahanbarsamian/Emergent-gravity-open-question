@@ -289,8 +289,9 @@ L'analyse statistique menée sur l'ensemble du catalogue de galaxies SPARC démo
 * **Facteur d'échelle global identifié :** $Z_0 \approx 8,76$, ce qui correspond à un facteur de couplage effectif adimensionnel :
   $$S_{\text{gal}} = \frac{1}{Z_0} \approx 0,114$$
   ---
-  H2C — SYNTHÈSE MAJEURE DE LA CAMPAGNE « JUGE DE PAIX 2 »
-0. Le point de départ
+  ## H2C — SYNTHÈSE MAJEURE DE LA CAMPAGNE « JUGE DE PAIX 2 »
+  
+### 0. Le point de départ
 
 L'objectif de cette campagne était de répondre à une question précise :
 
@@ -308,11 +309,11 @@ La prédiction structurelle est donc :
 
 $$ \boxed{\alpha_M=1} $$
 
-pour la pente de \(\log V^4\) en fonction de \(\log M_{\rm bar}\).
+La pente de $\log V^4$ en fonction de $\log M_{\rm bar}$.
 
 Le problème initial était que les données SPARC semblaient donner une pente sensiblement supérieure à 1.
 
-1. Première observation : la loi \(M_{\rm bar}\) seule donne une pente trop forte
+### 1. Première observation : la loi $M_{\rm bar}$ seule donne une pente trop forte
 
 Sur les 175 galaxies utilisées dans cette campagne, le modèle :
 
@@ -344,7 +345,7 @@ La masse baryonique seule ne suffit pas à décrire la structure de la relation 
 
 C'était justement la question à résoudre.
 
-2. Le graphique que tu viens de fournir permet de voir cette anomalie directement
+### 2. Le graphique que tu viens de fournir permet de voir cette anomalie directement
 
 Le graphique représente :
 
@@ -373,7 +374,7 @@ $$ \boxed{\delta_{\rm H2C}\ \text{n'est pas indépendant de la structure galacti
 
 Il confirme visuellement pourquoi une régression simple en masse produit une pente effective différente de 1.
 
-3. Le changement majeur : introduction de \(\Sigma_0\)
+### 3. Le changement majeur : introduction de $\Sigma_0$
 
 Nous avons alors testé une hypothèse très précise :
 
@@ -385,11 +386,11 @@ $$ \Sigma_0. $$
 
 Le modèle devient :
 
-$$ \boxed{ \log V^4 = A+ \alpha_M\log M_{\rm bar} + \gamma\log\Sigma_0 } $$
+$$\boxed{\log V^4 = A + \alpha_M \log M_{\mathrm{bar}} + \gamma \log \Sigma_0}$$
 
 et là, le résultat change radicalement.
 
-4. Résultat central : la pente massique revient à 1
+### 4. Résultat central : la pente massique revient à 1
 
 Le modèle à deux variables donne :
 
@@ -413,27 +414,24 @@ $$ \boxed{\alpha_M=1}. $$
 
 C'est le résultat le plus important de toute la campagne.
 
-5. Ce n'est pas seulement une amélioration de pente : \(\Sigma_0\) devient significative
+### 5. Ce n'est pas seulement une amélioration de pente : $$(\Sigma_0\)$$ devient significative
 
 Le coefficient obtenu pour la densité de surface est :
 
 $$ \boxed{ \gamma=0.278734\pm0.054169 } $$
 
 avec :
-
-$$ z=5.146. $$
+$$z=5.146.$$
 
 Le bootstrap donne :
-
-$$ \boxed{ \gamma_{\rm median}=0.279935 } $$
+$$\boxed{\gamma_{\mathrm{median}} = 0.279935}$$
 
 et :
-
-$$ \boxed{ IC_{95\%}=[0.171844,\;0.386952]. } $$
+$$\boxed{\mathrm{IC}_{95\\%} = [0.171844,\, 0.386952]}$$
 
 Donc le modèle empirique trouvé est approximativement :
 
-$$ \boxed{ V^4 \propto M_{\rm bar}\, \Sigma_0^{0.28} } $$
+$$\boxed{V^4\propto M_{\rm bar}\,\Sigma_0^{0.28} }$$
 
 ou encore :
 
@@ -441,11 +439,11 @@ $$ V^4 = A\,M_{\rm bar}\Sigma_0^{0.28}. $$
 
 Attention : cette équation est une relation statistique obtenue sur le catalogue. Ce n'est pas encore une nouvelle équation fondamentale H2C.
 
-6. Pourquoi ce résultat est beaucoup plus intéressant qu'une simple corrélation
+# 6. Pourquoi ce résultat est beaucoup plus intéressant qu'une simple corrélation
 
 Il y avait une objection évidente :
 
-\(M_{\rm bar}\) et \(\Sigma_0\) pourraient simplement être fortement corrélés.
+$$\(M_{\rm bar}\)$$ et $$\(\Sigma_0\)$$ pourraient simplement être fortement corrélés.
 
 C'est effectivement le cas :
 
@@ -501,11 +499,11 @@ et :
 
 $$ \boxed{\Delta BIC=19.892}. $$
 
-L'ajout de \(\Sigma_0\) améliore donc fortement le compromis ajustement/complexité.
+L'ajout de $$\(\Sigma_0\)$$ améliore donc fortement le compromis ajustement/complexité.
 
 Ce n'est pas simplement :
 
-« ajouter une variable fait toujours monter \(R^2\) ».
+« ajouter une variable fait toujours monter $$\(R^2\)$$ ».
 
 Ici, même les critères pénalisant l'ajout d'une variable sont nettement améliorés.
 
@@ -515,29 +513,29 @@ C'est ici que la campagne devient particulièrement intéressante.
 
 On définit :
 
-$$ \delta_{\rm H2C} = \log_{10} \left( \frac{V_{\rm obs}^4} {V_{\rm H2C}^4} \right). $$
+$$\delta_{\rm H2C}=\log_{10}\left(\frac{V_{\rm obs}^4} {V_{\rm H2C}^4}\right).$$
 
 Nous pouvons alors demander directement :
 
-Le résidu H2C dépend-il de \(\Sigma_0\) ?
+Le résidu H2C dépend-il de $$\(\Sigma_0\)$$ ?
 
 La réponse statistique est oui.
 
 La régression :
 
-$$ \delta_{\rm H2C} = A+\gamma\log\Sigma_0 $$
+$$\delta_{\rm H2C}=A+\gamma\log\Sigma_0$$
 
 donne :
 
-$$ \boxed{\gamma=0.281587\pm0.039402} $$
+$$\boxed{\gamma=0.281587\pm0.039402}$$
 
 avec :
 
-$$ R^2=0.228. $$
+$$R^2=0.228.$$
 
 Cela signifie que la densité de surface explique environ :
 
-$$ \boxed{22.8\%} $$
+$$\boxed{22.8\\\%}$$
 
 de la variance du résidu dans cette régression simple.
 
@@ -547,7 +545,7 @@ C'est peut-être le résultat statistique le plus propre de la campagne.
 
 On fait :
 
-$$ \boxed{ \delta_{\rm H2C} = A+ \eta\log M_{\rm bar} + \gamma\log\Sigma_0 } $$
+$$\boxed{\delta_{\rm H2C}=A+\eta\log M_{\rm bar}+\gamma\log\Sigma_0 }$$
 
 On trouve :
 
@@ -586,16 +584,16 @@ C'est une différence conceptuelle importante.
 C'est probablement la meilleure manière de résumer toute la découverte statistique.
 
 Modèle incomplet
-$$ V^4\sim M_{\rm bar}^{1.1475}. $$
+$$V^4\sim M_{\rm bar}^{1.1475}.$$
 
 La pente semble trop forte.
 
 Modèle enrichi
-$$ V^4 \sim M_{\rm bar}^{1.0032} \Sigma_0^{0.2787}. $$
+$$V^4\sim M_{\rm bar}^{1.0032}\Sigma_0^{0.2787}.$$
 
 La pente massique devient :
 
-$$ 1.0032\simeq1. $$
+$$1.0032\simeq1.$$
 
 Donc ce qui ressemblait initialement à une anomalie de la loi massique peut être en grande partie expliqué par une variable structurelle omise.
 
@@ -611,7 +609,7 @@ La réponse gravitationnelle effective pourrait-elle dépendre non seulement de 
 
 Mathématiquement, le résultat empirique suggère :
 
-$$ V^4 \propto M_{\rm bar}\Sigma_0^\gamma, \qquad \gamma\simeq0.28. $$
+$$V^4\propto M_{\rm bar}\Sigma_0^\gamma,\qquad \gamma\simeq0.28.$$
 
 Ce n'est encore qu'une hypothèse de travail.
 
@@ -623,7 +621,7 @@ C'est particulièrement intéressant au regard de la philosophie générale H2C.
 
 Depuis le début, le projet ne cherche pas seulement à utiliser une masse scalaire :
 
-$$ M_{\rm bar}. $$
+$$M_{\rm bar}.$$
 
 Il cherche à faire émerger une réponse effective à partir d'une structure locale/collective.
 
@@ -633,25 +631,25 @@ $$ C=|\Phi|^2 $$
 
 et une dépendance potentielle aux gradients :
 
-$$ \nabla C. $$
+$$\nabla C.$$
 
-Or \(\Sigma_0\) est une mesure macroscopique de la manière dont la matière baryonique est spatialement distribuée, et non simplement de sa quantité totale.
+Or $$\(\Sigma_0\)$$ est une mesure macroscopique de la manière dont la matière baryonique est spatialement distribuée, et non simplement de sa quantité totale.
 
 Il serait donc tentant de voir ici un pont conceptuel :
 
-$$ M_{\rm bar} \quad\longrightarrow\quad \text{contenu baryonique global} $$
+$$M_{\rm bar} \quad\longrightarrow\quad \text{contenu baryonique global}$$
 
 tandis que :
 
-$$ \Sigma_0 \quad\longrightarrow\quad \text{structure/concentration spatiale}. $$
+$$\Sigma_0\quad\longrightarrow\quad\text{structure/concentration spatiale}.$$
 
 Mais il faut être très clair :
 
-$$ \boxed{ \Sigma_0\neq C } $$
+$$\boxed{\Sigma_0\neq C }$$
 
 et :
 
-$$ \boxed{ \Sigma_0\neq |\nabla C|^2 } $$
+$$\boxed{\Sigma_0\neq|\nabla C|^2}$$
 
 à ce stade.
 
@@ -661,7 +659,7 @@ Nous n'avons aucune dérivation permettant de les identifier.
 
 La campagne donne :
 
-$$ \text{médiane}(\delta)=-0.611130\ {\rm dex} $$ $$ \text{moyenne}(\delta)=-0.657223\ {\rm dex} $$ $$ \sigma_\delta=0.413185\ {\rm dex}. $$
+$$\text{médiane}(\delta)=-0.611130\{\rm dex}$$ $$\text{moyenne}(\delta)=-0.657223\{\rm dex}$$ $$\sigma_\delta=0.413185\{\rm dex}.$$
 
 La médiane correspond à un facteur :
 
@@ -701,7 +699,8 @@ $$ a_0^{H2C}=5.456\times10^{-10} $$
 
 alors que les données semblent demander environ :
 
-$$ a_0^{eff}\sim1.34\times10^{-10}? $$
+$$a_0^{eff}\sim1.34\times10^{-10}?$$
+
 Problème B — la structure
 
 Pourquoi le résidu dépend-il de :
@@ -716,17 +715,17 @@ Il ne faut surtout pas modifier simultanément les deux paramètres, sinon on ne
 
 Le nuage que tu viens d'envoyer montre une dispersion particulièrement importante dans la région :
 
-$$ \log_{10}(M_{\rm bar}/M_\odot) \sim8.5-10. $$
+$$\log_{10}(M_{\rm bar}/M_\odot)\sim8.5-10.$$
 
 On trouve plusieurs résidus très négatifs :
 
-$$ \delta<-1.5 $$
+$$\delta<-1.5$$
 
 et même :
 
-$$ \delta<-2. $$
+$$\delta<-2.$$
 
-Ces objets sont très loin de la ligne H2C \(\delta=0\).
+Ces objets sont très loin de la ligne H2C $$\(\delta=0\)$$.
 
 Mais il faut éviter de les appeler immédiatement « anomalies physiques ».
 
@@ -741,7 +740,7 @@ différences dans les modèles de masse ;
 galaxies dont \(V_\infty\) est mal représenté par l'estimation utilisée ;
 effets de sélection du catalogue.
 
-C'est précisément pour cela que \(\Sigma_0\), \(R_d\), fraction gazeuse et morphologie doivent maintenant être testés.
+C'est précisément pour cela que $$\(\Sigma_0\)$$, $$\(R_d\)$$, fraction gazeuse et morphologie doivent maintenant être testés.
 
 16. Une autre observation importante : les résidus ne sont pas gaussiens
 
@@ -749,7 +748,7 @@ Les tests OLS donnent des statistiques Omnibus/Jarque-Bera très significatives.
 
 Par exemple, pour le modèle B :
 
-$$ {\rm JB}=66.178, \qquad p=4.26\times10^{-15}. $$
+$${\rm JB}=66.178,\qquad p=4.26\times10^{-15}.$$
 
 Donc la distribution des résidus n'est pas compatible avec une simple distribution normale.
 
@@ -768,11 +767,11 @@ Le bootstrap que nous avons déjà effectué est donc particulièrement utile.
 
 Pour le modèle multivarié :
 
-$$ \alpha_M: $$ $$ \boxed{ IC_{95\%}=[0.915956,1.090684] } $$
+$$\alpha_M:$$ $$\boxed{ IC_{95\%}=[0.915956,1.090684] }$$
 
 et :
 
-$$ \gamma_{\Sigma}: $$ $$ \boxed{ IC_{95\%}=[0.171844,0.386952]. } $$
+$$\gamma_{\Sigma}:$$ $$\boxed{ IC_{95\%}=[0.171844,0.386952]. }$$
 
 Donc le coefficient massique reste compatible avec 1 et le coefficient \(\Sigma_0\) reste positif dans tout l'intervalle bootstrap.
 
