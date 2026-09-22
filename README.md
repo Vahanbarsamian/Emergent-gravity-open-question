@@ -288,7 +288,716 @@ L'analyse statistique menée sur l'ensemble du catalogue de galaxies SPARC démo
 * **Pente de la tendance :** $\approx 0,078$ (comportement plat, écartant définitivement tout artéfact de troncature radiale).
 * **Facteur d'échelle global identifié :** $Z_0 \approx 8,76$, ce qui correspond à un facteur de couplage effectif adimensionnel :
   $$S_{\text{gal}} = \frac{1}{Z_0} \approx 0,114$$
+  ---
+  H2C — SYNTHÈSE MAJEURE DE LA CAMPAGNE « JUGE DE PAIX 2 »
+0. Le point de départ
 
+L'objectif de cette campagne était de répondre à une question précise :
+
+Pourquoi la relation observée entre la vitesse asymptotique et la masse baryonique donne-t-elle une pente différente de celle attendue par la relation H2C ?
+
+La relation H2C testée dans la branche « juge de paix » est de type :
+
+$$ V_\infty^4 = G\,M_{\rm bar}\,a_0^{\rm H2C}. $$
+
+C'est-à-dire :
+
+$$ \log_{10}V_\infty^4 = \log_{10}M_{\rm bar} + \log_{10}(G a_0). $$
+
+La prédiction structurelle est donc :
+
+$$ \boxed{\alpha_M=1} $$
+
+pour la pente de \(\log V^4\) en fonction de \(\log M_{\rm bar}\).
+
+Le problème initial était que les données SPARC semblaient donner une pente sensiblement supérieure à 1.
+
+1. Première observation : la loi \(M_{\rm bar}\) seule donne une pente trop forte
+
+Sur les 175 galaxies utilisées dans cette campagne, le modèle :
+
+$$ \log V^4=A+\alpha_M\log M_{\rm bar} $$
+
+donne :
+
+$$ \boxed{\alpha_M=1.147502\pm0.032045} $$
+
+avec :
+
+$$ R^2=0.8811. $$
+
+Le test de la valeur théorique \(\alpha_M=1\) donne :
+
+$$ \boxed{z=4.603\sigma}. $$
+
+Donc l'écart à 1 est statistiquement très net dans ce modèle à une variable.
+
+Ce que cela signifie
+
+Il ne faut pas conclure :
+
+« H2C est faux. »
+
+La conclusion correcte est :
+
+La masse baryonique seule ne suffit pas à décrire la structure de la relation observée dans cet échantillon.
+
+C'était justement la question à résoudre.
+
+2. Le graphique que tu viens de fournir permet de voir cette anomalie directement
+
+Le graphique représente :
+
+$$ \boxed{ \delta_{\rm H2C} = \log_{10} \left( \frac{V_{\rm obs}^4} {V_{\rm H2C}^4} \right) } $$
+
+en fonction de :
+
+$$ \log_{10}(M_{\rm bar}/M_\odot). $$
+
+La ligne horizontale \(\delta=0\) correspond à :
+
+$$ V_{\rm obs}=V_{\rm H2C}. $$
+
+Or le nuage n'est pas centré uniformément autour de zéro.
+
+On observe notamment :
+
+beaucoup de résidus négatifs ;
+des résidus très négatifs chez certaines galaxies ;
+une tendance globale des résidus à devenir moins négatifs lorsque la masse augmente ;
+mais une dispersion encore importante à masse donnée.
+
+Donc le premier graphique montre bien que :
+
+$$ \boxed{\delta_{\rm H2C}\ \text{n'est pas indépendant de la structure galactique}.} $$
+
+Il confirme visuellement pourquoi une régression simple en masse produit une pente effective différente de 1.
+
+3. Le changement majeur : introduction de \(\Sigma_0\)
+
+Nous avons alors testé une hypothèse très précise :
+
+La masse baryonique ne décrit peut-être pas entièrement la géométrie/structure baryonique pertinente. Une variable de concentration ou de densité de surface centrale pourrait être nécessaire.
+
+On introduit donc :
+
+$$ \Sigma_0. $$
+
+Le modèle devient :
+
+$$ \boxed{ \log V^4 = A+ \alpha_M\log M_{\rm bar} + \gamma\log\Sigma_0 } $$
+
+et là, le résultat change radicalement.
+
+4. Résultat central : la pente massique revient à 1
+
+Le modèle à deux variables donne :
+
+$$ \boxed{ \alpha_M=1.003158\pm0.041012 } $$
+
+avec :
+
+$$ R^2=0.896983. $$
+
+Le test :
+
+$$ H_0:\alpha_M=1 $$
+
+donne :
+
+$$ \boxed{z=0.077\sigma}. $$
+
+Autrement dit, dans ce modèle, la pente observée est pratiquement exactement compatible avec :
+
+$$ \boxed{\alpha_M=1}. $$
+
+C'est le résultat le plus important de toute la campagne.
+
+5. Ce n'est pas seulement une amélioration de pente : \(\Sigma_0\) devient significative
+
+Le coefficient obtenu pour la densité de surface est :
+
+$$ \boxed{ \gamma=0.278734\pm0.054169 } $$
+
+avec :
+
+$$ z=5.146. $$
+
+Le bootstrap donne :
+
+$$ \boxed{ \gamma_{\rm median}=0.279935 } $$
+
+et :
+
+$$ \boxed{ IC_{95\%}=[0.171844,\;0.386952]. } $$
+
+Donc le modèle empirique trouvé est approximativement :
+
+$$ \boxed{ V^4 \propto M_{\rm bar}\, \Sigma_0^{0.28} } $$
+
+ou encore :
+
+$$ V^4 = A\,M_{\rm bar}\Sigma_0^{0.28}. $$
+
+Attention : cette équation est une relation statistique obtenue sur le catalogue. Ce n'est pas encore une nouvelle équation fondamentale H2C.
+
+6. Pourquoi ce résultat est beaucoup plus intéressant qu'une simple corrélation
+
+Il y avait une objection évidente :
+
+\(M_{\rm bar}\) et \(\Sigma_0\) pourraient simplement être fortement corrélés.
+
+C'est effectivement le cas :
+
+$$ r_{\rm Pearson}=0.684 $$
+
+et :
+
+$$ \rho_{\rm Spearman}=0.706. $$
+
+Les deux corrélations sont extrêmement significatives.
+
+Mais la colinéarité n'est pas suffisamment forte pour rendre le modèle inutilisable.
+
+On obtient :
+
+$$ \boxed{VIF(M)=1.879} $$ $$ \boxed{VIF(\Sigma_0)=1.879}. $$
+
+C'est un point important.
+
+Conclusion
+
+Nous avons :
+
+$$ M_{\rm bar}\leftrightarrow\Sigma_0 $$
+
+corrélés, mais pas suffisamment pour expliquer mécaniquement le résultat par une dégénérescence numérique évidente.
+
+Les deux coefficients restent identifiables dans la régression multivariée.
+
+7. Les critères AIC/BIC renforcent le résultat
+
+Le modèle A :
+
+$$ M_{\rm bar} $$
+
+donne :
+
+$$ AIC=170.057 $$ $$ BIC=176.386. $$
+
+Le modèle B :
+
+$$ M_{\rm bar}+\Sigma_0 $$
+
+donne :
+
+$$ AIC=147.000 $$ $$ BIC=156.495. $$
+
+Donc :
+
+$$ \boxed{\Delta AIC=23.057} $$
+
+et :
+
+$$ \boxed{\Delta BIC=19.892}. $$
+
+L'ajout de \(\Sigma_0\) améliore donc fortement le compromis ajustement/complexité.
+
+Ce n'est pas simplement :
+
+« ajouter une variable fait toujours monter \(R^2\) ».
+
+Ici, même les critères pénalisant l'ajout d'une variable sont nettement améliorés.
+
+8. Le résultat encore plus fort : on peut regarder directement le résidu H2C
+
+C'est ici que la campagne devient particulièrement intéressante.
+
+On définit :
+
+$$ \delta_{\rm H2C} = \log_{10} \left( \frac{V_{\rm obs}^4} {V_{\rm H2C}^4} \right). $$
+
+Nous pouvons alors demander directement :
+
+Le résidu H2C dépend-il de \(\Sigma_0\) ?
+
+La réponse statistique est oui.
+
+La régression :
+
+$$ \delta_{\rm H2C} = A+\gamma\log\Sigma_0 $$
+
+donne :
+
+$$ \boxed{\gamma=0.281587\pm0.039402} $$
+
+avec :
+
+$$ R^2=0.228. $$
+
+Cela signifie que la densité de surface explique environ :
+
+$$ \boxed{22.8\%} $$
+
+de la variance du résidu dans cette régression simple.
+
+9. Et lorsque la masse est contrôlée, l'effet de la masse disparaît
+
+C'est peut-être le résultat statistique le plus propre de la campagne.
+
+On fait :
+
+$$ \boxed{ \delta_{\rm H2C} = A+ \eta\log M_{\rm bar} + \gamma\log\Sigma_0 } $$
+
+On trouve :
+
+$$ \boxed{ \eta=0.003158\pm0.041012 } $$
+
+avec :
+
+$$ p=0.939. $$
+
+Donc l'effet résiduel indépendant de la masse est statistiquement nul dans ce modèle.
+
+En revanche :
+
+$$ \boxed{ \gamma=0.278734\pm0.054169 } $$
+
+reste significatif.
+
+Cela donne la structure suivante :
+
+Avant contrôle de \(\Sigma_0\) :
+
+$$ \delta_{\rm H2C} \quad\text{semble dépendre de}\quad M_{\rm bar}. $$
+
+Après contrôle de \(\Sigma_0\) :
+
+$$ \boxed{ \delta_{\rm H2C} \not\sim M_{\rm bar} } $$
+
+mais :
+
+$$ \boxed{ \delta_{\rm H2C}\sim\Sigma_0^{0.28}. } $$
+
+C'est une différence conceptuelle importante.
+
+10. Comment comprendre le passage de 1.147 à 1.003
+
+C'est probablement la meilleure manière de résumer toute la découverte statistique.
+
+Modèle incomplet
+$$ V^4\sim M_{\rm bar}^{1.1475}. $$
+
+La pente semble trop forte.
+
+Modèle enrichi
+$$ V^4 \sim M_{\rm bar}^{1.0032} \Sigma_0^{0.2787}. $$
+
+La pente massique devient :
+
+$$ 1.0032\simeq1. $$
+
+Donc ce qui ressemblait initialement à une anomalie de la loi massique peut être en grande partie expliqué par une variable structurelle omise.
+
+11. Cela change la question physique
+
+Avant cette campagne, la question pouvait être formulée ainsi :
+
+Pourquoi H2C ne donne-t-il pas exactement la pente observée ?
+
+Après cette campagne, une formulation plus intéressante est :
+
+La réponse gravitationnelle effective pourrait-elle dépendre non seulement de la quantité totale de matière baryonique, mais également de sa concentration spatiale ?
+
+Mathématiquement, le résultat empirique suggère :
+
+$$ V^4 \propto M_{\rm bar}\Sigma_0^\gamma, \qquad \gamma\simeq0.28. $$
+
+Ce n'est encore qu'une hypothèse de travail.
+
+Mais elle est désormais motivée par les données du catalogue, et non simplement inventée pour sauver le modèle.
+
+12. Cela rejoint une idée déjà présente dans la branche fondamentale
+
+C'est particulièrement intéressant au regard de la philosophie générale H2C.
+
+Depuis le début, le projet ne cherche pas seulement à utiliser une masse scalaire :
+
+$$ M_{\rm bar}. $$
+
+Il cherche à faire émerger une réponse effective à partir d'une structure locale/collective.
+
+Dans la branche fondamentale, nous avons justement :
+
+$$ C=|\Phi|^2 $$
+
+et une dépendance potentielle aux gradients :
+
+$$ \nabla C. $$
+
+Or \(\Sigma_0\) est une mesure macroscopique de la manière dont la matière baryonique est spatialement distribuée, et non simplement de sa quantité totale.
+
+Il serait donc tentant de voir ici un pont conceptuel :
+
+$$ M_{\rm bar} \quad\longrightarrow\quad \text{contenu baryonique global} $$
+
+tandis que :
+
+$$ \Sigma_0 \quad\longrightarrow\quad \text{structure/concentration spatiale}. $$
+
+Mais il faut être très clair :
+
+$$ \boxed{ \Sigma_0\neq C } $$
+
+et :
+
+$$ \boxed{ \Sigma_0\neq |\nabla C|^2 } $$
+
+à ce stade.
+
+Nous n'avons aucune dérivation permettant de les identifier.
+
+13. Il faut également revenir au déficit global H2C
+
+La campagne donne :
+
+$$ \text{médiane}(\delta)=-0.611130\ {\rm dex} $$ $$ \text{moyenne}(\delta)=-0.657223\ {\rm dex} $$ $$ \sigma_\delta=0.413185\ {\rm dex}. $$
+
+La médiane correspond à un facteur :
+
+$$ 10^{-0.61113}\approx0.245. $$
+
+C'est pourquoi le programme trouve :
+
+$$ a_0^{\rm eff}\approx1.336\times10^{-10}\ {\rm m/s^2} $$
+
+alors que le \(a_0\) H2C utilisé est :
+
+$$ 5.456\times10^{-10}\ {\rm m/s^2}. $$
+
+C'est un point essentiel :
+
+H2C n'est pas actuellement correctement normalisé avec son \(a_0\) imposé.
+
+Et :
+
+$$ 1.336\times10^{-10} $$
+
+est remarquablement proche de l'échelle souvent utilisée dans les formulations MOND, mais cela ne constitue pas une validation de MOND ni une dérivation de cette valeur par H2C.
+
+Cela signifie simplement que l'échelle d'accélération effectivement requise par cette relation empirique est beaucoup plus basse que le \(a_0^{H2C}\) choisi.
+
+14. Cela permet de séparer deux problèmes qui étaient mélangés
+
+C'est une avancée méthodologique importante.
+
+Il y a maintenant deux problèmes distincts :
+
+Problème A — la normalisation
+
+Pourquoi :
+
+$$ a_0^{H2C}=5.456\times10^{-10} $$
+
+alors que les données semblent demander environ :
+
+$$ a_0^{eff}\sim1.34\times10^{-10}? $$
+Problème B — la structure
+
+Pourquoi le résidu dépend-il de :
+
+$$ \Sigma_0^{0.28}? $$
+
+Ce sont deux questions différentes.
+
+Il ne faut surtout pas modifier simultanément les deux paramètres, sinon on ne saura plus ce qui améliore réellement le modèle.
+
+15. Le graphique masse–résidu permet également d'identifier la population problématique
+
+Le nuage que tu viens d'envoyer montre une dispersion particulièrement importante dans la région :
+
+$$ \log_{10}(M_{\rm bar}/M_\odot) \sim8.5-10. $$
+
+On trouve plusieurs résidus très négatifs :
+
+$$ \delta<-1.5 $$
+
+et même :
+
+$$ \delta<-2. $$
+
+Ces objets sont très loin de la ligne H2C \(\delta=0\).
+
+Mais il faut éviter de les appeler immédiatement « anomalies physiques ».
+
+Ils peuvent correspondre à :
+
+galaxies à faible surface brightness ;
+différences de structure radiale ;
+incertitudes sur la masse baryonique ;
+incertitudes de distance ;
+incertitudes de vitesse ;
+différences dans les modèles de masse ;
+galaxies dont \(V_\infty\) est mal représenté par l'estimation utilisée ;
+effets de sélection du catalogue.
+
+C'est précisément pour cela que \(\Sigma_0\), \(R_d\), fraction gazeuse et morphologie doivent maintenant être testés.
+
+16. Une autre observation importante : les résidus ne sont pas gaussiens
+
+Les tests OLS donnent des statistiques Omnibus/Jarque-Bera très significatives.
+
+Par exemple, pour le modèle B :
+
+$$ {\rm JB}=66.178, \qquad p=4.26\times10^{-15}. $$
+
+Donc la distribution des résidus n'est pas compatible avec une simple distribution normale.
+
+Cela implique que les erreurs standards OLS classiques doivent être considérées avec prudence.
+
+Le résultat principal reste intéressant, mais la prochaine étape doit utiliser également :
+
+erreurs robustes HC3 ;
+régression robuste ;
+bootstrap ;
+éventuellement régression quantile.
+
+Le bootstrap que nous avons déjà effectué est donc particulièrement utile.
+
+17. Le bootstrap confirme que ce n'est pas un accident d'un petit nombre de galaxies
+
+Pour le modèle multivarié :
+
+$$ \alpha_M: $$ $$ \boxed{ IC_{95\%}=[0.915956,1.090684] } $$
+
+et :
+
+$$ \gamma_{\Sigma}: $$ $$ \boxed{ IC_{95\%}=[0.171844,0.386952]. } $$
+
+Donc le coefficient massique reste compatible avec 1 et le coefficient \(\Sigma_0\) reste positif dans tout l'intervalle bootstrap.
+
+C'est une confirmation importante de la stabilité statistique du résultat.
+
+18. Ce que nous pouvons maintenant dire avec confiance
+
+Je formulerais le résultat scientifique actuel ainsi :
+
+Sur les 175 galaxies SPARC analysées dans cette campagne, la relation \(\log V^4\)-\(\log M_{\rm bar}\) donne une pente \(1.1475\pm0.0320\), incompatible avec 1 à 4,6 σ dans le modèle à une variable. L'introduction d'une seconde variable structurelle \(\log\Sigma_0\) ramène la pente massique à \(1.0032\pm0.0410\), compatible avec 1 à 0,08 σ, tandis que le coefficient de \(\log\Sigma_0\) est \(0.2787\pm0.0542\), significatif à environ 5,1 σ. Le VIF ≈1,88 ne suggère pas de colinéarité sévère, et les critères AIC/BIC favorisent nettement le modèle à deux variables. Le résidu par rapport à la relation H2C présente lui-même une dépendance à \(\Sigma_0\), tandis que sa dépendance indépendante à \(M_{\rm bar}\) devient compatible avec zéro.
+
+C'est une formulation que je considère défendable.
+
+19. Ce que nous ne devons surtout pas écrire
+
+Il serait prématuré d'écrire :
+
+« Nous avons découvert que la gravité H2C dépend de la densité de surface. »
+
+Non.
+
+Nous pouvons écrire :
+
+« Les données SPARC analysées présentent une dépendance résiduelle significative à la densité de surface baryonique \(\Sigma_0\), qui restaure une pente massique compatible avec la prédiction \(V^4\propto M_{\rm bar}\). »
+
+C'est beaucoup plus solide.
+
+20. Et surtout : ne pas transformer \(0.28\) en constante fondamentale H2C
+
+Nous avons maintenant :
+
+$$ \gamma_{\Sigma}\approx0.28. $$
+
+Mais :
+
+$$ 0.28 $$
+
+n'est pas encore une constante fondamentale.
+
+Il faut vérifier si elle survit à l'introduction d'autres variables.
+
+Le danger serait de faire immédiatement :
+
+$$ \gamma=0.28 $$
+
+puis de construire une nouvelle équation H2C autour de cette valeur.
+
+Je déconseille absolument cette étape pour l'instant.
+
+21. La campagne suivante doit donc être un « test de robustesse structurelle »
+
+Je proposerais maintenant cette hiérarchie.
+
+Étape 1 — ajouter le rayon du disque
+
+Tester :
+
+$$ \boxed{ \log V^4 = A+ \alpha_M\log M_{\rm bar} + \gamma_\Sigma\log\Sigma_0 + \eta_R\log R_d } $$
+
+C'est probablement le contrôle le plus important.
+
+Pourquoi ?
+
+Parce que \(\Sigma_0\) peut elle-même être liée à la taille du système.
+
+Étape 2 — tester la fraction gazeuse
+
+Par exemple :
+
+$$ f_{\rm gas} = \frac{M_{\rm gas}} {M_{\rm bar}}. $$
+
+Puis :
+
+$$ \log V^4 = A+ \alpha_M\log M_{\rm bar} + \gamma_\Sigma\log\Sigma_0 + \eta_g\log f_{\rm gas}. $$
+Étape 3 — tester la morphologie
+
+Séparer au minimum :
+
+galaxies avec bulbe ;
+galaxies sans bulbe ;
+galaxies très concentrées ;
+galaxies diffuses.
+
+Le coefficient \(\gamma_\Sigma\) doit être comparé entre populations.
+
+Étape 4 — vérifier l'effet du modèle de masse
+
+Le catalogue SPARC utilise les composantes :
+
+$$ V_{\rm bar}^2 = V_{\rm gas}^2 + \Upsilon_{\rm disk}V_{\rm disk}^2 + \Upsilon_{\rm bulge}V_{\rm bulge}^2. $$
+
+Notre analyse doit vérifier que le résultat ne dépend pas excessivement du choix :
+
+$$ \Upsilon_{\rm disk}=0.5, \qquad \Upsilon_{\rm bulge}=0.7. $$
+22. Puis seulement une question beaucoup plus profonde
+
+Si le coefficient :
+
+$$ \gamma_\Sigma\approx0.28 $$
+
+survit à toutes ces vérifications, alors nous pourrons poser une question physique beaucoup plus intéressante :
+
+Existe-t-il dans la formulation covariante H2C une combinaison naturelle de \(C\), \(\nabla C\), \(M_{\rm bar}\) ou d'un tenseur de contrainte capable de produire une réponse dépendant de la concentration spatiale de la matière ?
+
+C'est là que les deux branches de ton projet pourraient éventuellement commencer à se rejoindre :
+
+$$ \boxed{ \text{structure baryonique} \rightarrow \text{réponse du champ }C \rightarrow g_{\mu\nu}^{\rm eff} } $$
+
+Mais cette flèche reste à dériver.
+
+23. La relation avec la formulation covariante V1.2/V1.4
+
+C'est justement ici que cette campagne devient conceptuellement intéressante.
+
+La formulation fondamentale actuelle travaille avec :
+
+$$ \Phi=R e^{i\theta}, \qquad C=|\Phi|^2=R^2 $$
+
+et des termes de gradient :
+
+$$ K^{\mu\nu}\nabla_\mu\Phi^*\nabla_\nu\Phi. $$
+
+Nous savons déjà que la branche covariante a passé les tests numériques B1–D4 pour les configurations testées : opérateur, MMS, conservation de charge, conservation dans les cas stationnaires et bilan énergétique pour le cas dépendant du temps.
+
+Mais nous n'avons toujours pas de dérivation de :
+
+$$ g_{\mu\nu}^{\rm eff}=F(C,\nabla C,\ldots). $$
+
+Donc le résultat SPARC ne doit pas être injecté artificiellement dans V1.2.
+
+Au contraire :
+
+le résultat observationnel fournit désormais une contrainte empirique que la future théorie devra éventuellement expliquer.
+
+C'est beaucoup plus propre.
+
+24. Le changement de statut du projet
+
+Avant cette campagne, nous avions essentiellement :
+
+$$ V^4\propto M_{\rm bar}^{1.147} $$
+
+contre une construction H2C voulant :
+
+$$ V^4\propto M_{\rm bar}. $$
+
+Cela pouvait être interprété comme une difficulté du modèle.
+
+Maintenant nous avons :
+
+$$ \boxed{ V^4 \propto M_{\rm bar}^{1.003} \Sigma_0^{0.279} } $$
+
+et :
+
+$$ \boxed{ \delta_{\rm H2C} \sim \Sigma_0^{0.279}, \qquad \delta_{\rm H2C}\not\sim M_{\rm bar} \quad\text{après contrôle de }\Sigma_0. } $$
+
+Cela transforme le problème.
+
+25. Ce que je considère comme le véritable résultat de cette campagne
+
+Ce n'est pas :
+
+« H2C est validé. »
+
+Ce n'est pas non plus :
+
+« Nous avons trouvé la nouvelle loi gravitationnelle. »
+
+Le résultat important est :
+
+$$ \boxed{ \textbf{La masse baryonique seule semble être une description incomplète de la relation.} } $$
+
+et :
+
+$$ \boxed{ \textbf{Une variable de densité de surface }\Sigma_0 \textbf{ absorbe une grande partie de la déviation apparente de la pente massique.} } $$
+
+avec, dans les données actuelles :
+
+$$ \boxed{\alpha_M\simeq1} $$
+
+et :
+
+$$ \boxed{\gamma_\Sigma\simeq0.28}. $$
+26. Statut scientifique complet à inscrire dans notre suivi
+Élément	Statut actuel
+175 galaxies analysées	établi pour cette campagne
+Relation \(V^4\)-\(M_{\rm bar}\)	établie empiriquement
+Pente \(1.1475\pm0.0320\)	mesurée
+Écart à 1 de 4,60 σ	mesuré dans OLS
+Introduction de \(\Sigma_0\)	testée
+Pente \(1.0032\pm0.0410\)	mesurée
+Compatibilité avec \(\alpha_M=1\)	très forte
+\(\gamma_\Sigma=0.2787\pm0.0542\)	mesuré
+Significativité de \(\Sigma_0\)	~5,1 σ dans OLS
+Bootstrap \(\alpha_M\)	compatible avec 1
+Bootstrap \(\gamma_\Sigma\)	positif et stable
+VIF ≈ 1.88	pas de colinéarité sévère
+AIC/BIC	fortement en faveur du modèle B
+Résidu H2C corrélé à \(\Sigma_0\)	oui
+Effet indépendant de \(M_{\rm bar}\) dans le résidu	compatible avec zéro
+\(\Sigma_0\) cause physique	non démontré
+\(\gamma=0.28\) constante fondamentale	non démontré
+Dépendance à \(R_d\) contrôlée	pas encore
+Dépendance à la fraction gazeuse contrôlée	pas encore
+Dépendance morphologique contrôlée	pas encore
+Nouvelle loi gravitationnelle H2C	pas encore dérivée
+Lien \(\Sigma_0\rightarrow C\)	pas encore dérivé
+Équations d'Einstein émergentes	toujours non dérivées
+27. Et je pense qu'il faut conserver précisément cette formulation dans le README
+
+Je proposerais d'ajouter une section historique du type :
+
+Résultat majeur — Juge de paix 2 : décomposition du résidu \(M_{\rm bar}/\Sigma_0\)
+
+Sur 175 galaxies SPARC, la régression de \(\log V^4\) sur \(\log M_{\rm bar}\) seul donne une pente \(1.1475\pm0.0320\), s'écartant de 1 à 4,60 σ. L'introduction de la densité de surface baryonique \(\Sigma_0\) dans une régression multivariée donne \(1.0032\pm0.0410\) pour le coefficient de \(\log M_{\rm bar}\), compatible avec la pente théorique 1, tandis que le coefficient de \(\log\Sigma_0\) vaut \(0.2787\pm0.0542\). Les critères AIC/BIC favorisent nettement le modèle à deux variables et les VIF (~1,88) n'indiquent pas de colinéarité sévère. La régression directe du résidu H2C sur \(\Sigma_0\) conserve un coefficient positif significatif, tandis que l'effet indépendant de \(M_{\rm bar}\) devient compatible avec zéro. Ce résultat constitue une contrainte observationnelle/statistique nouvelle pour le projet, mais ne constitue pas une validation de la théorie H2C ni une dérivation physique du coefficient \(0.28\). Des contrôles supplémentaires sur le rayon de disque, la fraction gazeuse, la morphologie et les choix de masse stellaire sont nécessaires avant toute interprétation physique.
+
+C'est, à mon avis, la formulation la plus défendable scientifiquement à ce stade.
+
+Et surtout, je garderais séparées les trois couches :
+
+$$ \boxed{\text{DONNÉES}} \rightarrow \boxed{\text{RELATION STATISTIQUE}} \rightarrow \boxed{\text{INTERPRÉTATION PHYSIQUE}} $$
+
+Nous avons maintenant un résultat solide dans les deux premières couches. La troisième est précisément ce que les prochaines campagnes devront essayer de construire ou, éventuellement, de réfuter.
+
+  ---
 ### B. Dérivation Variationnelle et Origine Géométrique
 Pour rendre compte de cette constante universelle, l'action effective du champ de phase $\Phi$ couplé à la densité baryonique $\rho_{\text{bar}}$ est formulée en régime stationnaire :
 
