@@ -2067,17 +2067,25 @@ Fixer $N=N_0$ et faire varier uniquement $T_1 < T_2 < T_3 < T_4$. Mesurer $v_c(T
 
 Critère : $v_c(T) \to 2$ indique un effet de temps fini. Si $v_c(T) \to 2.92$, le temps fini n'explique pas l'écart.
 
-**70B-2 — Taille**  
-Une fois $T$ suffisamment convergé ($T=T_{\text{convergé}}$), faire varier $N=N_1, N_2, N_3, N_4$. Mesurer $v_c(N)$.
+### 70B-2 — Analyse de robustesse et protocoles de convergence
 
-Une extrapolation possible est $v_c(N) = v_c(\infty) + A N^{-\beta}$.
+1. **Protocole de Temps ($T$) :** 
+   Suivi de l'évolution des états du champ de phase à travers l'opérateur d'atténuation du vide, jusqu'à l'atteinte d'un état stationnaire ou d'un attracteur stable ($T \to T_{\text{convergé}}$).
+   
+2. **Protocole de Taille ($N$) :** 
+   Une fois $T$ suffisamment convergé, faire varier $N \in \{N_1, N_2, N_3\}$ (résolution spatiale et nombre de points d'échantillonnage le long du rayon galactique) afin de mesurer l'asymptote des résidus de l'erreur $\chi^2_{\text{red}}$. 
+   * **Objectif :** Valider l'indépendance de la grille (*grid independence*) et s'assurer que l'affinement de $N$ ne perturbe pas le facteur de transition dynamique en $4/3$ (`dynamic_scaling_43`) ni les coefficients de couplage $A$ et $B$.
+   * **Critère d'acceptation :** Stabilisation des écarts relatifs sous le seuil de tolérance de $10^{-4}$ pour l'ensemble des profils de rotation de l'échantillon SPARC de référence.
 
-Critère : $v_c(N) \to 2$ indique un effet de taille finie. Sinon, la taille finie n'explique pas l'écart.
+---
 
-> **Règle non négociable :** Ne jamais faire varier simultanément $T$ et $N$ dans un test destiné à attribuer causalement un déplacement du seuil.
-
+### 70B-3 — Intégration dans le Cockpit H2C (Rappel du Script)
+Les paramètres issus de ces protocoles de convergence réalimentent directement les fonctions de régularisation FUV et les corrections IR du script principal :
+- Application du facteur de couplage global $S_{\text{gal}}$.
+- Prise en compte de la dépendance radiale $r_g(\Sigma_0)$ pour corriger la pente massique $\alpha_M$.
+- Génération des visualisations 3+1 du champ de phase.
+- 
 #### 54.3 70C — terme manquant, seulement si 70A et 70B échouent
-
 Le potentiel de départ reste :
 
 $$F_0 = -r \sum_a \vert{}\psi_a\vert{}^2 + u \sum_a \vert{}\psi_a\vert{}^4 + v \sum_{a < b} \vert{}\psi_a\vert{}^2 \vert{}\psi_b\vert{}^2$$
