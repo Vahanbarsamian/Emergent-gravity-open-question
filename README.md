@@ -1043,15 +1043,13 @@ Version Finale H2CMarkdown# Cadre H2C : Émergence Géométrique, Auto-Correctio
 
 Le script ci-dessous intègre l'ensemble de la boucle de calcul H2C finale, incluant la correction infrarouge (IR), ultraviolette (FUV), les coefficients d'ajustement A & B, le facteur de transition dynamique en $4/3$ et la projection du cône de visualisation géométrique.
 
-import numpy as np
-import matplotlib.pyplot as plt
-
+"""import numpy as np
+"""import matplotlib.pyplot as plt
 class H2CUniversalCockpit:
     def __init__(self, c0=0.2, a0=1.20e-10, r_g0=2.74):
         self.C_c = c0             # Seuil critique du substrat (1/5)
         self.a_0 = a0             # Accélération caractéristique H2C
         self.r_g0 = r_g0          # Longueur caractéristique (kpc)
-        
     def fuv_correction(self, r, r_core=0.5):
         """FUV (Far Ultraviolet / Région Centrale) : Régularisation des singularités."""
         return 1.0 - np.exp(-(r / r_core)**2)
@@ -1095,13 +1093,12 @@ class H2CUniversalCockpit:
         theta_cone = 2.0 * np.arcsin(self.C_c / (1.0 - self.C_c))
         t_proper = r_array / (3e5 * np.cos(theta_cone))
         return t_proper, theta_cone
-
-# --- Exemple d'exécution test ---
+--- Exemple d'exécution test ---
 if __name__ == "__main__":
     r = np.linspace(0.1, 30.0, 300) # Rayon en kpc
     h2c = H2CUniversalCockpit()
     v_pred, alpha_map, r_g_val = h2c.compute_field(r, M_bar=5e10, Sigma_0=300.0)
-    print(f"Modèle H2C initialisé avec succès. r_g = {r_g_val:.2f} kpc")
+    print(f"Modèle H2C initialisé avec succès. r_g = {r_g_val:.2f} kpc")'''
 ---
 ## 🌌 Résultats de Validation sur le Catalogue SPARC (165+ Galaxies)
 L'architecture complète du modèle H2C (combinant le solveur auto-consistant, l'écrantage radial $s(r)$, la dépendance en densité de surface $\Sigma_0$ et les corrections IR/FUV) a été confrontée à l'ensemble du catalogue de galaxies à rotation mesurée SPARC ($N = 165$ galaxies analysées dans nos campagnes de validation).
