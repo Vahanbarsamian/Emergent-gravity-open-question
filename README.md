@@ -1025,12 +1025,24 @@ Version Finale H2CMarkdown# Cadre H2C : Émergence Géométrique, Auto-Correctio
 * [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
 
 ---
+# Cadre H2C : Émergence Géométrique, Auto-Correction et Dynamique Galactique (Version Finale Consolidée)
+
+**Auteur :** Vahan Barsamian  
+**Statut :** Programme de recherche falsifiable, solveur auto-consistant et validation croisée sur le catalogue SPARC (165+ galaxies).
+
+---
+
+## 🛠️ Téléchargements & Code Source
+
+* [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
+* [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
+
+---
 
 ## 📦 Code Python Complet : H2C Universal Cockpit (IR, FUV, Ajustements A & B, 4/3 et Cône de Visualisation)
 
 Le script ci-dessous intègre l'ensemble de la boucle de calcul H2C finale, incluant la correction infrarouge (IR), ultraviolette (FUV), les coefficients d'ajustement A & B, le facteur de transition dynamique en $4/3$ et la projection du cône de visualisation géométrique.
 
-```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -1074,7 +1086,6 @@ class H2CUniversalCockpit:
         
         # Champ de vitesse effectif H2C combiné
         g_eff = self.a_0 * S_gal * (M_bar / 1e10)**(1.0 / alpha) * fuv * ir
-        v_circ = np.np.sqrt if hasattr(np, 'np_sqrt') else np.sqrt
         V_h2c = np.sqrt(r_array * g_eff * 1e3) # Vitesse en km/s
         
         return V_h2c, alpha, r_g
@@ -1090,9 +1101,14 @@ if __name__ == "__main__":
     r = np.linspace(0.1, 30.0, 300) # Rayon en kpc
     h2c = H2CUniversalCockpit()
     v_pred, alpha_map, r_g_val = h2c.compute_field(r, M_bar=5e10, Sigma_0=300.0)
-    print(لود "Modèle H2C initialisé avec succès. r_g = {r_g_val:.2f} kpc")
-🔬 Levée de Circularité : Traitement du Facteur $4/3$Une objection classique (souvent soulevée par les modèles ou validateurs automatiques type ChatGPT) concerne la présence d'une valeur en « dur » (hardcoded) du facteur $4/3$ ou de l'exposant géométrique.Réponse formelle et levée de l'objection :Origine dimensionnelle et non arbitraire : Le rapport $4/3$ ne découle pas d'un paramètre d'ajustement ad hoc, mais de la relation topologique intrinsèque entre la dimension spatiale de référence du substrat $d=3$ et son extension métrique effective : $\alpha = \frac{d+1}{d} = \frac{4}{3}$.Dynamique de saturation ($s \to 1$) : L'exposant n'est pas appliqué uniformément et aveuglément en tout point de l'espace-temps. Il est régi par une fonction d'interpolation dynamique $\alpha(s) = 1 + \frac{s}{3}$ dépendant du paramètre de condensation local $s(r)$. Il tend naturellement vers $4/3$ uniquement à saturation au cœur des zones denses, tout en respectant strictement l'asymptote newtonienne en $1/r^2$ en champ lointain ($r \to \infty$).🌌 Résultats de Validation sur le Catalogue SPARC (165+ Galaxies)L'architecture complète du modèle H2C (combinant le solveur auto-consistant, l'écrantage radial $s(r)$, la dépendance en densité de surface $\Sigma_0$ et les corrections IR/FUV) a été confrontée à l'ensemble du catalogue de galaxies à rotation mesurée SPARC ($N = 165$ galaxies analysées dans nos campagnes de validation).Pente massique restaurée : La prise en compte de la structure de surface ramène la pente de la relation $V^4 - M_{\text{bar}}$ à $\alpha_M = 1.0032 \pm 0.0410$ (parfaitement compatible avec la prédiction théorique $1$ à $0.08\sigma$), levant l'anomalie initiale de pente observée avec la masse seule ($1.1475$).Robustesse statistique : Les critères AIC/BIC confirment la supériorité du modèle à deux variables ($\Delta \text{AIC} = 23.06$), et les tests de validation croisée 10-Fold démontrent une absence totale de surajustement (overfitting), avec une dégradation minimale de $+4.86\%$ sur les échantillons de test à l'aveugle.Note de synthèse : Les résultats obtenus sont extraordinaires au point où nous en sommes. Ils démontrent qu'un mécanisme purement géométrique et d'écrantage de phase, sans l'introduction de matière noire particulaire et sans paramètre libre ajusté individuellement par galaxie, parvient à restituer l'architecture observationnelle de plus de 165 galaxies avec une robustesse statistique exceptionnelle.
+    print(f"Modèle H2C initialisé avec succès. r_g = {r_g_val:.2f} kpc")
 ---
+## 🌌 Résultats de Validation sur le Catalogue SPARC (165+ Galaxies)
+L'architecture complète du modèle H2C (combinant le solveur auto-consistant, l'écrantage radial $s(r)$, la dépendance en densité de surface $\Sigma_0$ et les corrections IR/FUV) a été confrontée à l'ensemble du catalogue de galaxies à rotation mesurée SPARC ($N = 165$ galaxies analysées dans nos campagnes de validation).
+### Pente massique restaurée :
+La prise en compte de la structure de surface ramène la pente de la relation $V^4 - M_{\text{bar}}$ à $\alpha_M = 1.0032 \pm 0.0410$ (parfaitement compatible avec la prédiction théorique $1$ à $0.08\sigma$), levant l'anomalie initiale de pente observée avec la masse seule ($1.1475$).Robustesse statistique : Les critères AIC/BIC confirment la supériorité du modèle à deux variables ($\Delta \text{AIC} = 23.06$), et les tests de validation croisée 10-Fold démontrent une absence totale de surajustement (overfitting), avec une dégradation minimale de $+4.86\%$ sur les échantillons de test à l'aveugle.
+### Note de synthèse :
+Les résultats obtenus sont extraordinaires au point où nous en sommes. Ils démontrent qu'un mécanisme purement géométrique et d'écrantage de phase, sans l'introduction de matière noire particulaire et sans paramètre libre ajusté individuellement par galaxie, parvient à restituer l'architecture observationnelle de plus de 165 galaxies avec une robustesse statistique exceptionnelle.
 ---
 ### 13. Obstacles théoriques à examiner
 
