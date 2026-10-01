@@ -1,17 +1,13 @@
-🛠️ H2C SOFTWARE DOWNLOADS
+## 🛠️ Téléchargements logiciels H2C
 
 * [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
-
 * [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
 
 > **💡 Comment générer l'exécutable Windows (.exe) :**
 >
 > 1. Téléchargez les deux fichiers ci-dessus (`H2C_Universal_Cockpit.py` et `H2C_Windows_Builder.py`).
->
 > 2. Placez-les dans le même dossier sur votre ordinateur.
->
 > 3. Ouvrez un terminal et lancez le builder : `python H2C_Windows_Builder.py`.
->
 > 4. Votre application autonome sera créée dans le dossier `dist/`.
 
 # Émergence Géométrique, Auto-Correction et Dynamique Galactique (Cadre H2C)
@@ -20,7 +16,7 @@
 
 Si vous référencez ces travaux, merci d'utiliser la citation suivante :
 
-> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field* $C(x)$*: An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22068679
+> Barsamian, V. (2026). *Emergent Gravity and Spacetime Geometry from a Phase Coherence Field C(x): An Exploratory Framework and Numerical Test Program*. Zenodo. https://doi.org/10.5281/zenodo.22068679
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22068679.svg)](https://doi.org/10.5281/zenodo.22068679)
 
@@ -29,6 +25,7 @@ Si vous référencez ces travaux, merci d'utiliser la citation suivante :
 # Question Ouverte & Manuscrit Théorique : La géométrie gravitationnelle peut-elle émerger d'une structure quantique ?
 
 > ⚠️ **Note :** ce document évolue fréquemment. Pensez à rafraîchir la page pour consulter la dernière version.
+>
 > 📎 **Document compagnon :** [Cartographie des pistes de recherche](./Reflexion-ouverte-sur-la-gravite.fr.md) — contient les références précises à la littérature existante et le critère de validation quantitatif (section 11), à ne consulter et modifier qu'à cet endroit.
 
 **Statut du document :** Note de synthèse théorique, formalisation du solveur auto-consistant et rapport de validation sur le catalogue SPARC (175 galaxies).  
@@ -73,7 +70,7 @@ Cette question conduit notamment au concept de **gravité induite**, associé hi
 
 ## 4. La Piste de la Gravité Induite
 
-Dans l'idée de gravité induite, le terme gravitationnel de type Einstein-Hilbert peut apparaître comme un terme effective résultant des fluctuations quantiques de champs couplés à une géométrie :
+Dans l'idée de gravité induite, le terme gravitationnel de type Einstein-Hilbert peut apparaître comme un terme effectif résultant des fluctuations quantiques de champs couplés à une géométrie :
 
 $$
 S_{\mathrm{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g}\, R
@@ -113,7 +110,7 @@ $$
 
 ## 8. Hypothèse de Travail
 
-> **La métrique classique** $g_{\mu\nu}$ **pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux** $\hat{\Phi}_i$**.**
+> **La métrique classique $g_{\mu\nu}$ pourrait être une variable collective émergente résultant de l'organisation ou des corrélations d'un ensemble de degrés de liberté quantiques plus fondamentaux $\hat{\Phi}_i$.**
 
 ## 9. La Question Mathématique Centrale
 
@@ -143,7 +140,22 @@ La gravité est modélisée non pas comme une interaction fondamentale primordia
 
 L'énergie de point zéro du vide quantique dépasse la valeur cosmologique observée d'un facteur $10^{120}$. Dans le modèle H2C, ce facteur traduit le taux d'interférence destructive massive au sein d'un réseau d'agents à phases libres orientées sur la sphère $S^2$. Le champ résiduel observable $\Lambda$ représente la composante non annulée issue de ce moyennage statistique :
 
-[ Micro-fluctuations de Phase à l'Échelle de Planck ]ρ_micro ~ ρ_Planck ~ 10^{114} J/m³│▼ ( Moyennage d'ensemble sur N >> 1 modes )[ Filtre de Phase Destructive (R < 0) ]│▼ ( Condensation du fond critique C_c )[ Densité Macro Émergente ρ_vac = V(C_c) ]ρ_macro ~ 10^{-6} J/m³ (Facteur 10^{-120})│▼[ Métrique Effective & Équation d'Einstein Cosmologique ]G_μν[g^{eff}] + Λ(C_c) g_μν^{eff} = (8π G_{eff}(C) / c_loc^4) T_μν^{eff}
+```text
+[ Micro-fluctuations de phase à l'échelle de Planck ]
+  ρ_micro ~ ρ_Planck ~ 10^114 J/m³
+        │
+        ▼   ( Moyennage d'ensemble sur N >> 1 modes )
+[ Filtre de phase destructive (R < 0) ]
+        │
+        ▼   ( Condensation du fond critique C_c )
+[ Densité macro émergente ρ_vac = V(C_c) ]
+  ρ_macro ~ 10^-6 J/m³ (facteur 10^-120)
+        │
+        ▼
+[ Métrique effective & équation d'Einstein cosmologique ]
+  G_μν[g^eff] + Λ(C_c) g_μν^eff = (8π G_eff(C) / c_loc^4) T_μν^eff
+```
+
 $$
 \langle Z \rangle_{S^2} = \frac{1}{N} \sum_{k=1}^N A_k e^{i\phi_k} \sim \frac{1}{\sqrt{N}} \approx 10^{-60} \implies \rho_\Lambda \sim 10^{-120} \rho_{\text{Planck}}
 $$
@@ -213,28 +225,32 @@ $$
 
 ### Cadre Théorique et Ancrage Cosmologique
 Le modèle H2C (*Emergent Gravity / Phase Coherence*) postule une échelle d'accélération critique cosmologique universelle :
-$$a_{0\,\mathrm{H2C}} = c^2 \sqrt{\frac{\Lambda}{3}} \approx 5,456 \times 10^{-10} \text{ m/s}^2$$
+
+$$a_{0\,\mathrm{H2C}} = c^2 \sqrt{\frac{\Lambda}{3}} \approx 5{,}456 \times 10^{-10} \text{ m/s}^2$$
 
 De cette constante dérive directement la densité de surface caractéristique du cadre H2C, sans aucun paramètre ajusté ou importé de MOND empirique :
-$$\Sigma_{\star\,\mathrm{H2C}} = \frac{a_{0\,\mathrm{H2C}}}{2\pi G} \approx 623,1 M_\odot/\text{pc}^2$$
+
+$$\Sigma_{\star\,\mathrm{H2C}} = \frac{a_{0\,\mathrm{H2C}}}{2\pi G} \approx 623{,}1 M_\odot/\text{pc}^2$$
 
 ### Raccordement à la Littérature et Dépendance en Densité de Surface
 L'analyse de corrélation de rang non paramétrique (Spearman) menée sur les 122 galaxies de l'échantillon SPARC $Q=1$ met en évidence une forte anticorrélation entre l'amplitude d'accélération effective $\xi_i$ et la densité de surface centrale $\Sigma_0$ :
-* **Corrélation globale :** $\rho(\xi_i, \Sigma_0) = -0,682$ ($p = 1,4\times10^{-17} < 0,0167$, Bonferroni)
-* **Corrélation partielle isolant $M_{\mathrm{bar}}$ :** $\rho_{\mathrm{partiel}}(\xi_i, \Sigma_0 \mid M_{\mathrm{bar}}) = -0,521$ ($p = 3,1\times10^{-9}$)
-* **Corrélation partielle isolant $\Sigma_0$ :** $\rho_{\mathrm{partiel}}(\xi_i, M_{\mathrm{bar}} \mid \Sigma_0) = -0,084$ ($p = 0,361$, non significatif)
+* **Corrélation globale :** $\rho(\xi_i, \Sigma_0) = -0{,}682$ ($p = 1{,}4\times10^{-17} < 0{,}0167$, Bonferroni)
+* **Corrélation partielle isolant $M_{\mathrm{bar}}$ :** $\rho_{\mathrm{partiel}}(\xi_i, \Sigma_0 \mid M_{\mathrm{bar}}) = -0{,}521$ ($p = 3{,}1\times10^{-9}$)
+* **Corrélation partielle isolant $\Sigma_0$ :** $\rho_{\mathrm{partiel}}(\xi_i, M_{\mathrm{bar}} \mid \Sigma_0) = -0{,}084$ ($p = 0{,}361$, non significatif)
 
 **Cadrage théorique**  
 Ce résultat n'est pas présenté comme une découverte ex-nihilo, mais comme la reproduction mécaniste, au sein du formalisme H2C, de la *Radial Acceleration Relation* (RAR — McGaugh, Lelli & Schombert 2016) et des effets de champ/environnement documentés dans la littérature (Chae et al. 2020). Le modèle H2C fournit une explication physique sous-jacente (écrantage de phase au cœur des systèmes denses) à cette transition empirique.
 
 ### Mécanisme d'Écrantage Radial $s(r)$ et Discrimination Géométrique
 Afin d'incorporer la modulation spatiale de la cohérence de phase du cœur vers le halo, un profil d'écrantage $s(r)$ est introduit :
-$$a_0(r) = a_{0\,\mathrm{H2C}} \cdot [1 - s(r)]^2, \quad \text{avec } s(r) = (1 + r / r_g)^{-n} \quad (n=2, C_c=0,2 \text{ fixé a priori})$$
 
-Le test comparatif entre un simple facteur d'échelle constant $\xi_{\mathrm{fit}}$ (Test A) et le profil radial $s(r)$ (Test B) démontre sur la naine diffuse DDO 154 que la forme radiale apporte une véritable information géométrique (RMSE passant de $11,10 \text{ km/s}$ pour Test A à $7,10 \text{ km/s}$ pour Test B), suggérant que l'écrantage ne se réduit pas à une re-normalisation globale d'amplitude.
+$$a_0(r) = a_{0\,\mathrm{H2C}} \cdot [1 - s(r)]^2, \quad \text{avec } s(r) = (1 + r / r_g)^{-n} \quad (n=2, C_c=0{,}2 \text{ fixé a priori})$$
+
+Le test comparatif entre un simple facteur d'échelle constant $\xi_{\mathrm{fit}}$ (Test A) et le profil radial $s(r)$ (Test B) démontre sur la naine diffuse DDO 154 que la forme radiale apporte une véritable information géométrique (RMSE passant de $11{,}10 \text{ km/s}$ pour Test A à $7{,}10 \text{ km/s}$ pour Test B), suggérant que l'écrantage ne se réduit pas à une re-normalisation globale d'amplitude.
 
 ### Formulation Dynamique $r_g(\Sigma_0)$ et Validation Croisée Étanchée (10-Fold)
 Pour modéliser la dépendance du rayon d'écrantage $r_g$ à l'environnement baryonique local, une unique forme fonctionnelle à ancrage dimensionnel strict a été retenue :
+
 $$r_g(\Sigma_0) = r_{g,0} \cdot \left(\frac{\Sigma_0}{\Sigma_{\star\,\mathrm{H2C}}}\right)^{1/2}$$
 
 **Protocole de validation à l'aveugle**
@@ -244,18 +260,18 @@ $$r_g(\Sigma_0) = r_{g,0} \cdot \left(\frac{\Sigma_0}{\Sigma_{\star\,\mathrm{H2C
 
 **Résultats de la validation croisée 10-Fold :**
 
-| Échantillon | $r_{g,0}$ calibré | RMSE Moyen (km/s) | Median $\chi^2/N$ |
+| Échantillon | $r_{g,0}$ calibré | RMSE Moyen (km/s) | $\chi^2/N$ médian |
 | :--- | :--- | :--- | :--- |
-| **Train ($N=61$)** | $2,74 \pm 0,18 \text{ kpc}$ | $8,95 \pm 0,42$ | $12,15 \pm 0,85$ |
-| **Test ($N=61$, à l'aveugle)** | — | $9,21 \pm 0,51$ | $12,74 \pm 0,92$ |
+| **Train ($N=61$)** | $2{,}74 \pm 0{,}18 \text{ kpc}$ | $8{,}95 \pm 0{,}42$ | $12{,}15 \pm 0{,}85$ |
+| **Test ($N=61$, à l'aveugle)** | — | $9{,}21 \pm 0{,}51$ | $12{,}74 \pm 0{,}92$ |
 
-* **Dégradation moyenne sur Test :** $+4,86\%$ (maximum sur 10 tirages : $+8,3\%$), très largement en dessous du seuil critique de $+15\%$.
+* **Dégradation moyenne sur Test :** $+4{,}86\%$ (maximum sur 10 tirages : $+8{,}3\%$), très largement en dessous du seuil critique de $+15\%$.
 * **Conclusion :** Absence de surajustement. La généralisation à l'aveugle est démontrée.
-* **Interprétation physique :** La valeur $r_{g,0} \approx 2,74 \text{ kpc}$ s'avère physiquement cohérente avec les échelles de longueur typiques des régions centrales galactiques.
+* **Interprétation physique :** La valeur $r_{g,0} \approx 2{,}74 \text{ kpc}$ s'avère physiquement cohérente avec les échelles de longueur typiques des régions centrales galactiques.
 
 ### Synthèse Globale des Performances du Catalogue SPARC Q=1
 
-| Modèle / Référence | Nombre de paramètres d'ajustement local par galaxie | Median $\chi^2/N$ ($N=122$) | RMSE Moyen (km/s) |
+| Modèle / Référence | Nombre de paramètres d'ajustement local par galaxie | $\chi^2/N$ médian ($N=122$) | RMSE Moyen (km/s) |
 | :--- | :--- | :--- | :--- |
 | **Newton pur (Baryons seuls)** | 0 | 412,5 | 48,30 |
 | **H2C Solveur A ($a_{0\,\mathrm{H2C}}$ fixe)** | 0 | 74,2 | 19,45 |
@@ -263,8 +279,8 @@ $$r_g(\Sigma_0) = r_{g,0} \cdot \left(\frac{\Sigma_0}{\Sigma_{\star\,\mathrm{H2C
 | **H2C Modèle Couplé $r_g(\Sigma_0)$** | **0** (1 constante globale $r_{g,0}$ calibrée sur Train) | **12,45** | **9,08** |
 
 ### Portée et Limites Diagnostiquées
-* **Acquis :** L'intégration de $r_g(\Sigma_0)$ fait chuter le $\chi^2/N$ médian global de $74,2$ à $12,45$ par rapport au Solveur A sans ajouter aucun degré de liberté ajusté localement au niveau de chaque galaxie.
-* **Limites explicites :** Le résidu médian $\chi^2/N \approx 12,5$ reste supérieur d'un facteur 2 à 4 aux ajustements MOND empiriques ($\chi^2/N \approx 2\text{--}5$). Cette distance impose de présenter H2C non pas comme un modèle opérationnel achevé, mais comme une étape théorique prometteuse démontrant la viabilité d'un mécanisme d'écrantage émergent.
+* **Acquis :** L'intégration de $r_g(\Sigma_0)$ fait chuter le $\chi^2/N$ médian global de $74{,}2$ à $12{,}45$ par rapport au Solveur A sans ajouter aucun degré de liberté ajusté localement au niveau de chaque galaxie.
+* **Limites explicites :** Le résidu médian $\chi^2/N \approx 12{,}5$ reste supérieur d'un facteur 2 à 4 aux ajustements MOND empiriques ($\chi^2/N \approx 2\text{--}5$). Cette distance impose de présenter H2C non pas comme un modèle opérationnel achevé, mais comme une étape théorique prometteuse démontrant la viabilité d'un mécanisme d'écrantage émergent.
 
 > La note de synthèse est stabilisée et prête pour diffusion ou archivage.
 
@@ -278,20 +294,25 @@ $$
 \text{corrélations quantiques} \to \text{géométrie} \to G_{\mu\nu} \to \text{gravité}
 $$
 
-$G$ serait un paramètre effective de la géométrie émergente, plutôt que le point de départ de la théorie.
+$G$ serait un paramètre effectif de la géométrie émergente, plutôt que le point de départ de la théorie.
+
 ---
-## 5. Validation Empirique et Origine Théorique du Facteur de Couplage Universel ($S_{\text{gal}}$)
+
+## 5 bis. Validation Empirique et Origine Théorique du Facteur de Couplage Universel ($S_{\text{gal}}$)
 
 ### A. Analyse de la Dispersion et Indépendance de Masse
 L'analyse statistique menée sur l'ensemble du catalogue de galaxies SPARC démontre que le décalage d'échelle $Z_i$ (ou facteur d'accélération effectif) est rigoureusement indépendant de la masse baryonique ($M_{\text{bar}}$) sur plus de quatre décades.
 
-* **Pente de la tendance :** $\approx 0,078$ (comportement plat, écartant définitivement tout artéfact de troncature radiale).
-* **Facteur d'échelle global identifié :** $Z_0 \approx 8,76$, ce qui correspond à un facteur de couplage effectif adimensionnel :
-  $$S_{\text{gal}} = \frac{1}{Z_0} \approx 0,114$$
-  ---
-  ## H2C — SYNTHÈSE MAJEURE DE LA CAMPAGNE « JUGE DE PAIX 2 »
-  
-### 0. Le point de départ
+* **Pente de la tendance :** $\approx 0{,}078$ (comportement plat, écartant définitivement tout artéfact de troncature radiale).
+* **Facteur d'échelle global identifié :** $Z_0 \approx 8{,}76$, ce qui correspond à un facteur de couplage effectif adimensionnel :
+
+  $$S_{\text{gal}} = \frac{1}{Z_0} \approx 0{,}114$$
+
+---
+
+## H2C — SYNTHÈSE MAJEURE DE LA CAMPAGNE « JUGE DE PAIX 2 »
+
+#### Point 0 — Le point de départ
 
 L'objectif de cette campagne était de répondre à une question précise :
 
@@ -299,25 +320,25 @@ Pourquoi la relation observée entre la vitesse asymptotique et la masse baryoni
 
 La relation H2C testée dans la branche « juge de paix » est de type :
 
-$$ V_\infty^4 = G\,M_{\rm bar}\,a_0^{\rm H2C}. $$
+$$ V_\infty^4 = G\,M_{\mathrm{bar}}\,a_0^{\mathrm{H2C}}. $$
 
 C'est-à-dire :
 
-$$ \log_{10}V_\infty^4 = \log_{10}M_{\rm bar} + \log_{10}(G a_0). $$
+$$ \log_{10}V_\infty^4 = \log_{10}M_{\mathrm{bar}} + \log_{10}(G a_0). $$
 
 La prédiction structurelle est donc :
 
 $$ \boxed{\alpha_M=1} $$
 
-La pente de $\log V^4$ en fonction de $\log M_{\rm bar}$.
+La pente de $\log V^4$ en fonction de $\log M_{\mathrm{bar}}$.
 
 Le problème initial était que les données SPARC semblaient donner une pente sensiblement supérieure à 1.
 
-### 1. Première observation : la loi $M_{\rm bar}$ seule donne une pente trop forte
+#### Point 1 — Première observation : la loi $M_{\mathrm{bar}}$ seule donne une pente trop forte
 
 Sur les 175 galaxies utilisées dans cette campagne, le modèle :
 
-$$ \log V^4=A+\alpha_M\log M_{\rm bar} $$
+$$ \log V^4=A+\alpha_M\log M_{\mathrm{bar}} $$
 
 donne :
 
@@ -327,7 +348,7 @@ avec :
 
 $$ R^2=0.8811. $$
 
-Le test de la valeur théorique \(\alpha_M=1\) donne :
+Le test de la valeur théorique $\alpha_M=1$ donne :
 
 $$ \boxed{z=4.603\sigma}. $$
 
@@ -345,36 +366,36 @@ La masse baryonique seule ne suffit pas à décrire la structure de la relation 
 
 C'était justement la question à résoudre.
 
-### 2. Le graphique que tu viens de fournir permet de voir cette anomalie directement
+#### Point 2 — Le graphique que tu viens de fournir permet de voir cette anomalie directement
 
 Le graphique représente :
 
-$$ \boxed{ \delta_{\rm H2C} = \log_{10} \left( \frac{V_{\rm obs}^4} {V_{\rm H2C}^4} \right) } $$
+$$ \boxed{ \delta_{\mathrm{H2C}} = \log_{10} \left( \frac{V_{\mathrm{obs}}^4} {V_{\mathrm{H2C}}^4} \right) } $$
 
 en fonction de :
 
-$$ \log_{10}(M_{\rm bar}/M_\odot). $$
+$$ \log_{10}(M_{\mathrm{bar}}/M_\odot). $$
 
-La ligne horizontale \(\delta=0\) correspond à :
+La ligne horizontale $\delta=0$ correspond à :
 
-$$ V_{\rm obs}=V_{\rm H2C}. $$
+$$ V_{\mathrm{obs}}=V_{\mathrm{H2C}}. $$
 
 Or le nuage n'est pas centré uniformément autour de zéro.
 
 On observe notamment :
 
-beaucoup de résidus négatifs ;
-des résidus très négatifs chez certaines galaxies ;
-une tendance globale des résidus à devenir moins négatifs lorsque la masse augmente ;
-mais une dispersion encore importante à masse donnée.
+- beaucoup de résidus négatifs ;
+- des résidus très négatifs chez certaines galaxies ;
+- une tendance globale des résidus à devenir moins négatifs lorsque la masse augmente ;
+- mais une dispersion encore importante à masse donnée.
 
 Donc le premier graphique montre bien que :
 
-$$ \boxed{\delta_{\rm H2C}\ \text{n'est pas indépendant de la structure galactique}.} $$
+$$ \boxed{\delta_{\mathrm{H2C}}\ \text{n'est pas indépendant de la structure galactique}.} $$
 
 Il confirme visuellement pourquoi une régression simple en masse produit une pente effective différente de 1.
 
-### 3. Le changement majeur : introduction de $\Sigma_0$
+#### Point 3 — Le changement majeur : introduction de $\Sigma_0$
 
 Nous avons alors testé une hypothèse très précise :
 
@@ -390,7 +411,7 @@ $$\boxed{\log V^4 = A + \alpha_M \log M_{\mathrm{bar}} + \gamma \log \Sigma_0}$$
 
 et là, le résultat change radicalement.
 
-### 4. Résultat central : la pente massique revient à 1
+#### Point 4 — Résultat central : la pente massique revient à 1
 
 Le modèle à deux variables donne :
 
@@ -414,44 +435,47 @@ $$ \boxed{\alpha_M=1}. $$
 
 C'est le résultat le plus important de toute la campagne.
 
-### 5. Ce n'est pas seulement une amélioration de pente : $$(\Sigma_0\)$$ devient significative
+#### Point 5 — Ce n'est pas seulement une amélioration de pente : $\Sigma_0$ devient significative
 
 Le coefficient obtenu pour la densité de surface est :
 
 $$ \boxed{ \gamma=0.278734\pm0.054169 } $$
 
 avec :
+
 $$z=5.146.$$
 
 Le bootstrap donne :
+
 $$\boxed{\gamma_{\mathrm{median}} = 0.279935}$$
 
 et :
-$$\boxed{\mathrm{IC}_{95\\%} = [0.171844,\, 0.386952]}$$
+
+$$\boxed{\mathrm{IC}_{95\%} = [0.171844,\, 0.386952]}$$
 
 Donc le modèle empirique trouvé est approximativement :
 
-$$\boxed{V^4\propto M_{\rm bar}\,\Sigma_0^{0.28} }$$
+$$\boxed{V^4\propto M_{\mathrm{bar}}\,\Sigma_0^{0.28} }$$
 
 ou encore :
 
-$$ V^4 = A\,M_{\rm bar}\Sigma_0^{0.28}. $$
+$$ V^4 = A\,M_{\mathrm{bar}}\Sigma_0^{0.28}. $$
 
 Attention : cette équation est une relation statistique obtenue sur le catalogue. Ce n'est pas encore une nouvelle équation fondamentale H2C.
 
-### 6. Pourquoi ce résultat est beaucoup plus intéressant qu'une simple corrélation
+#### Point 6 — Pourquoi ce résultat est beaucoup plus intéressant qu'une simple corrélation
 
 Il y avait une objection évidente :
 
-$$\(M_{\rm bar}\)$$ et $$\(\Sigma_0\)$$ pourraient simplement être fortement corrélés.
+$M_{\mathrm{bar}}$ et $\Sigma_0$ pourraient simplement être fortement corrélés.
 
 C'est effectivement le cas :
 
-$$ r_{\rm Pearson}=0.684 $$
+$$ r_{\mathrm{Pearson}}=0.684 $$
 
 et :
 
-$$ \rho_{\rm Spearman}=0.706. $$
+$$ \rho_{\mathrm{Spearman}}=0.706. $$
 
 Les deux corrélations sont extrêmement significatives.
 
@@ -459,7 +483,7 @@ Mais la colinéarité n'est pas suffisamment forte pour rendre le modèle inutil
 
 On obtient :
 
-$$ \boxed{VIF(M)=1.879} $$ $$ \boxed{VIF(\Sigma_0)=1.879}. $$
+$$ \boxed{VIF(M)=1.879}, \qquad \boxed{VIF(\Sigma_0)=1.879}. $$
 
 C'est un point important.
 
@@ -467,29 +491,29 @@ Conclusion
 
 Nous avons :
 
-$$ M_{\rm bar}\leftrightarrow\Sigma_0 $$
+$$ M_{\mathrm{bar}}\leftrightarrow\Sigma_0 $$
 
 corrélés, mais pas suffisamment pour expliquer mécaniquement le résultat par une dégénérescence numérique évidente.
 
 Les deux coefficients restent identifiables dans la régression multivariée.
 
-### 7. Les critères AIC/BIC renforcent le résultat
+#### Point 7 — Les critères AIC/BIC renforcent le résultat
 
 Le modèle A :
 
-$$ M_{\rm bar} $$
+$$ M_{\mathrm{bar}} $$
 
 donne :
 
-$$ AIC=170.057 $$ $$ BIC=176.386. $$
+$$ AIC=170.057, \qquad BIC=176.386. $$
 
 Le modèle B :
 
-$$ M_{\rm bar}+\Sigma_0 $$
+$$ M_{\mathrm{bar}}+\Sigma_0 $$
 
 donne :
 
-$$ AIC=147.000 $$ $$ BIC=156.495. $$
+$$ AIC=147.000, \qquad BIC=156.495. $$
 
 Donc :
 
@@ -499,31 +523,31 @@ et :
 
 $$ \boxed{\Delta BIC=19.892}. $$
 
-L'ajout de $$\(\Sigma_0\)$$ améliore donc fortement le compromis ajustement/complexité.
+L'ajout de $\Sigma_0$ améliore donc fortement le compromis ajustement/complexité.
 
 Ce n'est pas simplement :
 
-« ajouter une variable fait toujours monter $$\(R^2\)$$ ».
+« ajouter une variable fait toujours monter $R^2$ ».
 
 Ici, même les critères pénalisant l'ajout d'une variable sont nettement améliorés.
 
-### 8. Le résultat encore plus fort : on peut regarder directement le résidu H2C
+#### Point 8 — Le résultat encore plus fort : on peut regarder directement le résidu H2C
 
 C'est ici que la campagne devient particulièrement intéressante.
 
 On définit :
 
-$$\delta_{\rm H2C}=\log_{10}\left(\frac{V_{\rm obs}^4} {V_{\rm H2C}^4}\right).$$
+$$\delta_{\mathrm{H2C}}=\log_{10}\left(\frac{V_{\mathrm{obs}}^4} {V_{\mathrm{H2C}}^4}\right).$$
 
 Nous pouvons alors demander directement :
 
-Le résidu H2C dépend-il de $$\(\Sigma_0\)$$ ?
+Le résidu H2C dépend-il de $\Sigma_0$ ?
 
 La réponse statistique est oui.
 
 La régression :
 
-$$\delta_{\rm H2C}=A+\gamma\log\Sigma_0$$
+$$\delta_{\mathrm{H2C}}=A+\gamma\log\Sigma_0$$
 
 donne :
 
@@ -535,17 +559,17 @@ $$R^2=0.228.$$
 
 Cela signifie que la densité de surface explique environ :
 
-$$\boxed{22.8\\\%}$$
+$$\boxed{22.8\%}$$
 
 de la variance du résidu dans cette régression simple.
 
-### 9. Et lorsque la masse est contrôlée, l'effet de la masse disparaît
+#### Point 9 — Et lorsque la masse est contrôlée, l'effet de la masse disparaît
 
 C'est peut-être le résultat statistique le plus propre de la campagne.
 
 On fait :
 
-$$\boxed{\delta_{\rm H2C}=A+\eta\log M_{\rm bar}+\gamma\log\Sigma_0 }$$
+$$\boxed{\delta_{\mathrm{H2C}}=A+\eta\log M_{\mathrm{bar}}+\gamma\log\Sigma_0 }$$
 
 On trouve :
 
@@ -565,31 +589,33 @@ reste significatif.
 
 Cela donne la structure suivante :
 
-Avant contrôle de \(\Sigma_0\) :
+Avant contrôle de $\Sigma_0$ :
 
-$$ \delta_{\rm H2C} \quad\text{semble dépendre de}\quad M_{\rm bar}. $$
+$$ \delta_{\mathrm{H2C}} \quad\text{semble dépendre de}\quad M_{\mathrm{bar}}. $$
 
-Après contrôle de \(\Sigma_0\) :
+Après contrôle de $\Sigma_0$ :
 
-$$ \boxed{ \delta_{\rm H2C} \not\sim M_{\rm bar} } $$
+$$ \boxed{ \delta_{\mathrm{H2C}} \not\sim M_{\mathrm{bar}} } $$
 
 mais :
 
-$$ \boxed{ \delta_{\rm H2C}\sim\Sigma_0^{0.28}. } $$
+$$ \boxed{ \delta_{\mathrm{H2C}}\sim\Sigma_0^{0.28}. } $$
 
 C'est une différence conceptuelle importante.
 
-### 10. Comment comprendre le passage de 1.147 à 1.003
+#### Point 10 — Comment comprendre le passage de 1.147 à 1.003
 
 C'est probablement la meilleure manière de résumer toute la découverte statistique.
 
 Modèle incomplet
-$$V^4\sim M_{\rm bar}^{1.1475}.$$
+
+$$V^4\sim M_{\mathrm{bar}}^{1.1475}.$$
 
 La pente semble trop forte.
 
 Modèle enrichi
-$$V^4\sim M_{\rm bar}^{1.0032}\Sigma_0^{0.2787}.$$
+
+$$V^4\sim M_{\mathrm{bar}}^{1.0032}\Sigma_0^{0.2787}.$$
 
 La pente massique devient :
 
@@ -597,7 +623,7 @@ $$1.0032\simeq1.$$
 
 Donc ce qui ressemblait initialement à une anomalie de la loi massique peut être en grande partie expliqué par une variable structurelle omise.
 
-### 11. Cela change la question physique
+#### Point 11 — Cela change la question physique
 
 Avant cette campagne, la question pouvait être formulée ainsi :
 
@@ -609,19 +635,19 @@ La réponse gravitationnelle effective pourrait-elle dépendre non seulement de 
 
 Mathématiquement, le résultat empirique suggère :
 
-$$V^4\propto M_{\rm bar}\Sigma_0^\gamma,\qquad \gamma\simeq0.28.$$
+$$V^4\propto M_{\mathrm{bar}}\Sigma_0^\gamma,\qquad \gamma\simeq0.28.$$
 
 Ce n'est encore qu'une hypothèse de travail.
 
 Mais elle est désormais motivée par les données du catalogue, et non simplement inventée pour sauver le modèle.
 
-### 12. Cela rejoint une idée déjà présente dans la branche fondamentale
+#### Point 12 — Cela rejoint une idée déjà présente dans la branche fondamentale
 
 C'est particulièrement intéressant au regard de la philosophie générale H2C.
 
 Depuis le début, le projet ne cherche pas seulement à utiliser une masse scalaire :
 
-$$M_{\rm bar}.$$
+$$M_{\mathrm{bar}}.$$
 
 Il cherche à faire émerger une réponse effective à partir d'une structure locale/collective.
 
@@ -633,11 +659,11 @@ et une dépendance potentielle aux gradients :
 
 $$\nabla C.$$
 
-Or $$\(\Sigma_0\)$$ est une mesure macroscopique de la manière dont la matière baryonique est spatialement distribuée, et non simplement de sa quantité totale.
+Or $\Sigma_0$ est une mesure macroscopique de la manière dont la matière baryonique est spatialement distribuée, et non simplement de sa quantité totale.
 
 Il serait donc tentant de voir ici un pont conceptuel :
 
-$$M_{\rm bar} \quad\longrightarrow\quad \text{contenu baryonique global}$$
+$$M_{\mathrm{bar}} \quad\longrightarrow\quad \text{contenu baryonique global}$$
 
 tandis que :
 
@@ -655,11 +681,15 @@ $$\boxed{\Sigma_0\neq|\nabla C|^2}$$
 
 Nous n'avons aucune dérivation permettant de les identifier.
 
-### 13. Il faut également revenir au déficit global H2C
+#### Point 13 — Il faut également revenir au déficit global H2C
 
 La campagne donne :
 
-$$\text{médiane}(\delta)=-0.611130\{\rm dex}$$ $$\text{moyenne}(\delta)=-0.657223\{\rm dex}$$ $$\sigma_\delta=0.413185\{\rm dex}.$$
+$$\text{médiane}(\delta)=-0.611130\ \mathrm{dex}$$
+
+$$\text{moyenne}(\delta)=-0.657223\ \mathrm{dex}$$
+
+$$\sigma_\delta=0.413185\ \mathrm{dex}.$$
 
 La médiane correspond à un facteur :
 
@@ -667,15 +697,15 @@ $$ 10^{-0.61113}\approx0.245. $$
 
 C'est pourquoi le programme trouve :
 
-$$ a_0^{\rm eff}\approx1.336\times10^{-10}\ {\rm m/s^2} $$
+$$ a_0^{\mathrm{eff}}\approx1.336\times10^{-10}\ \mathrm{m/s^2} $$
 
-alors que le \(a_0\) H2C utilisé est :
+alors que le $a_0$ H2C utilisé est :
 
-$$ 5.456\times10^{-10}\ {\rm m/s^2}. $$
+$$ 5.456\times10^{-10}\ \mathrm{m/s^2}. $$
 
 C'est un point essentiel :
 
-H2C n'est pas actuellement correctement normalisé avec son \(a_0\) imposé.
+H2C n'est pas actuellement correctement normalisé avec son $a_0$ imposé.
 
 Et :
 
@@ -683,9 +713,9 @@ $$ 1.336\times10^{-10} $$
 
 est remarquablement proche de l'échelle souvent utilisée dans les formulations MOND, mais cela ne constitue pas une validation de MOND ni une dérivation de cette valeur par H2C.
 
-Cela signifie simplement que l'échelle d'accélération effectivement requise par cette relation empirique est beaucoup plus basse que le \(a_0^{H2C}\) choisi.
+Cela signifie simplement que l'échelle d'accélération effectivement requise par cette relation empirique est beaucoup plus basse que le $a_0^{H2C}$ choisi.
 
-### 14. Cela permet de séparer deux problèmes qui étaient mélangés
+#### Point 14 — Cela permet de séparer deux problèmes qui étaient mélangés
 
 C'est une avancée méthodologique importante.
 
@@ -711,11 +741,11 @@ Ce sont deux questions différentes.
 
 Il ne faut surtout pas modifier simultanément les deux paramètres, sinon on ne saura plus ce qui améliore réellement le modèle.
 
-### 15. Le graphique masse–résidu permet également d'identifier la population problématique
+#### Point 15 — Le graphique masse–résidu permet également d'identifier la population problématique
 
 Le nuage que tu viens d'envoyer montre une dispersion particulièrement importante dans la région :
 
-$$\log_{10}(M_{\rm bar}/M_\odot)\sim8.5-10.$$
+$$\log_{10}(M_{\mathrm{bar}}/M_\odot)\sim8.5-10.$$
 
 On trouve plusieurs résidus très négatifs :
 
@@ -725,30 +755,30 @@ et même :
 
 $$\delta<-2.$$
 
-Ces objets sont très loin de la ligne H2C $$\(\delta=0\)$$.
+Ces objets sont très loin de la ligne H2C $\delta=0$.
 
 Mais il faut éviter de les appeler immédiatement « anomalies physiques ».
 
 Ils peuvent correspondre à :
 
-galaxies à faible surface brightness ;
-différences de structure radiale ;
-incertitudes sur la masse baryonique ;
-incertitudes de distance ;
-incertitudes de vitesse ;
-différences dans les modèles de masse ;
-galaxies dont \(V_\infty\) est mal représenté par l'estimation utilisée ;
-effets de sélection du catalogue.
+- galaxies à faible brillance de surface ;
+- différences de structure radiale ;
+- incertitudes sur la masse baryonique ;
+- incertitudes de distance ;
+- incertitudes de vitesse ;
+- différences dans les modèles de masse ;
+- galaxies dont $V_\infty$ est mal représenté par l'estimation utilisée ;
+- effets de sélection du catalogue.
 
-C'est précisément pour cela que $$\(\Sigma_0\)$$, $$\(R_d\)$$, fraction gazeuse et morphologie doivent maintenant être testés.
+C'est précisément pour cela que $\Sigma_0$, $R_d$, fraction gazeuse et morphologie doivent maintenant être testés.
 
-### 16. Une autre observation importante : les résidus ne sont pas gaussiens
+#### Point 16 — Une autre observation importante : les résidus ne sont pas gaussiens
 
 Les tests OLS donnent des statistiques Omnibus/Jarque-Bera très significatives.
 
 Par exemple, pour le modèle B :
 
-$${\rm JB}=66.178,\qquad p=4.26\times10^{-15}.$$
+$${\mathrm{JB}}=66.178,\qquad p=4.26\times10^{-15}.$$
 
 Donc la distribution des résidus n'est pas compatible avec une simple distribution normale.
 
@@ -756,36 +786,36 @@ Cela implique que les erreurs standards OLS classiques doivent être considéré
 
 Le résultat principal reste intéressant, mais la prochaine étape doit utiliser également :
 
-erreurs robustes HC3 ;
-régression robuste ;
-bootstrap ;
-éventuellement régression quantile.
+- erreurs robustes HC3 ;
+- régression robuste ;
+- bootstrap ;
+- éventuellement régression quantile.
 
 Le bootstrap que nous avons déjà effectué est donc particulièrement utile.
 
-### 17. Le bootstrap confirme que ce n'est pas un accident d'un petit nombre de galaxies
+#### Point 17 — Le bootstrap confirme que ce n'est pas un accident d'un petit nombre de galaxies
 
 Pour le modèle multivarié :
 
-$$\alpha_M :\quad \boxed{\mathrm{IC}_{95\\%} = [0.915956, 1.090684]}$$
+$$\alpha_M :\quad \boxed{\mathrm{IC}_{95\%} = [0.915956, 1.090684]}$$
 
 et :
 
-$$\boxed{\mathrm{IC}_{95\\%} = [0.171844, 0.386952]}$$
+$$\boxed{\mathrm{IC}_{95\%} = [0.171844, 0.386952]}$$
 
-Donc le coefficient massique reste compatible avec 1 et le coefficient $$\(\Sigma_0\)$$ reste positif dans tout l'intervalle bootstrap.
+Donc le coefficient massique reste compatible avec 1 et le coefficient $\Sigma_0$ reste positif dans tout l'intervalle bootstrap.
 
 C'est une confirmation importante de la stabilité statistique du résultat.
 
-### 18. Ce que nous pouvons maintenant dire avec confiance
+#### Point 18 — Ce que nous pouvons maintenant dire avec confiance
 
 Je formulerais le résultat scientifique actuel ainsi :
 
-Sur les 175 galaxies SPARC analysées dans cette campagne, la relation $$\(\log V^4\)-\(\log M_{\rm bar}\)$$ donne une pente $$\(1.1475\pm0.0320\)$$, incompatible avec 1 à 4,6 σ dans le modèle à une variable. L'introduction d'une seconde variable structurelle $$\(\log\Sigma_0\)$$ ramène la pente massique à $$\(1.0032\pm0.0410\)$$, compatible avec 1 à 0,08 σ, tandis que le coefficient de $$\(\log\Sigma_0\)$$ est $$\(0.2787\pm0.0542\)$$$, significatif à environ 5,1 σ. Le VIF ≈1,88 ne suggère pas de colinéarité sévère, et les critères AIC/BIC favorisent nettement le modèle à deux variables. Le résidu par rapport à la relation H2C présente lui-même une dépendance à $$\(\Sigma_0\)$$, tandis que sa dépendance indépendante à $$\(M_{\rm bar}\)$$ devient compatible avec zéro.
+Sur les 175 galaxies SPARC analysées dans cette campagne, la relation $\log V^4$-$\log M_{\mathrm{bar}}$ donne une pente $1.1475\pm0.0320$, incompatible avec 1 à 4,6 σ dans le modèle à une variable. L'introduction d'une seconde variable structurelle $\log\Sigma_0$ ramène la pente massique à $1.0032\pm0.0410$, compatible avec 1 à 0,08 σ, tandis que le coefficient de $\log\Sigma_0$ est $0.2787\pm0.0542$, significatif à environ 5,1 σ. Le VIF ≈1,88 ne suggère pas de colinéarité sévère, et les critères AIC/BIC favorisent nettement le modèle à deux variables. Le résidu par rapport à la relation H2C présente lui-même une dépendance à $\Sigma_0$, tandis que sa dépendance indépendante à $M_{\mathrm{bar}}$ devient compatible avec zéro.
 
 C'est une formulation que je considère défendable.
 
-### 19. Ce que nous ne devons surtout pas écrire
+#### Point 19 — Ce que nous ne devons surtout pas écrire
 
 Il serait prématuré d'écrire :
 
@@ -795,11 +825,11 @@ Non.
 
 Nous pouvons écrire :
 
-« Les données SPARC analysées présentent une dépendance résiduelle significative à la densité de surface baryonique \(\Sigma_0\), qui restaure une pente massique compatible avec la prédiction $$\(V^4\propto M_{\rm bar}\).$$ »
+« Les données SPARC analysées présentent une dépendance résiduelle significative à la densité de surface baryonique $\Sigma_0$, qui restaure une pente massique compatible avec la prédiction $V^4\propto M_{\mathrm{bar}}$. »
 
 C'est beaucoup plus solide.
 
-### 20. Et surtout : ne pas transformer $$\(0.28\)$$ en constante fondamentale H2C
+#### Point 20 — Et surtout : ne pas transformer $0.28$ en constante fondamentale H2C
 
 Nous avons maintenant :
 
@@ -821,7 +851,7 @@ puis de construire une nouvelle équation H2C autour de cette valeur.
 
 Je déconseille absolument cette étape pour l'instant.
 
-### 21. La campagne suivante doit donc être un « test de robustesse structurelle »
+#### Point 21 — La campagne suivante doit donc être un « test de robustesse structurelle »
 
 Je proposerais maintenant cette hiérarchie.
 
@@ -829,44 +859,46 @@ Je proposerais maintenant cette hiérarchie.
 
 Tester :
 
-$$\boxed{\log V^4=A+\alpha_M\log M_{\rm bar}+\gamma_\Sigma\log\Sigma_0 +\eta_R\log R_d }$$
+$$\boxed{\log V^4=A+\alpha_M\log M_{\mathrm{bar}}+\gamma_\Sigma\log\Sigma_0 +\eta_R\log R_d }$$
 
 C'est probablement le contrôle le plus important.
 
 Pourquoi ?
 
-Parce que $$\(\Sigma_0\)$$ peut elle-même être liée à la taille du système.
+Parce que $\Sigma_0$ peut elle-même être liée à la taille du système.
 
 Étape 2 — tester la fraction gazeuse
 
 Par exemple :
 
-$$f_{\rm gas}=\frac{M_{\rm gas}}{M_{\rm bar}}.$$
+$$f_{\mathrm{gas}}=\frac{M_{\mathrm{gas}}}{M_{\mathrm{bar}}}.$$
 
 Puis :
 
-$$\log V^4=A+\alpha_M\log M_{\rm bar}+\gamma_\Sigma\log\Sigma_0 +\eta_g\log f_{\rm gas}.$$
+$$\log V^4=A+\alpha_M\log M_{\mathrm{bar}}+\gamma_\Sigma\log\Sigma_0 +\eta_g\log f_{\mathrm{gas}}.$$
+
 Étape 3 — tester la morphologie
 
 Séparer au minimum :
 
-galaxies avec bulbe ;
-galaxies sans bulbe ;
-galaxies très concentrées ;
-galaxies diffuses.
+- galaxies avec bulbe ;
+- galaxies sans bulbe ;
+- galaxies très concentrées ;
+- galaxies diffuses.
 
-Le coefficient $$\(\gamma_\Sigma\)$$ doit être comparé entre populations.
+Le coefficient $\gamma_\Sigma$ doit être comparé entre populations.
 
 Étape 4 — vérifier l'effet du modèle de masse
 
 Le catalogue SPARC utilise les composantes :
 
-$$V_{\rm bar}^2=V_{\rm gas}^2 +\Upsilon_{\rm disk}V_{\rm disk}^2 +\Upsilon_{\rm bulge}V_{\rm bulge}^2.$$
+$$V_{\mathrm{bar}}^2=V_{\mathrm{gas}}^2 +\Upsilon_{\mathrm{disk}}V_{\mathrm{disk}}^2 +\Upsilon_{\mathrm{bulge}}V_{\mathrm{bulge}}^2.$$
 
 Notre analyse doit vérifier que le résultat ne dépend pas excessivement du choix :
 
-$$\Upsilon_{\rm disk}=0.5, \qquad \Upsilon_{\rm bulge}=0.7.$$
-### 22. Puis seulement une question beaucoup plus profonde
+$$\Upsilon_{\mathrm{disk}}=0.5, \qquad \Upsilon_{\mathrm{bulge}}=0.7.$$
+
+#### Point 22 — Puis seulement une question beaucoup plus profonde
 
 Si le coefficient :
 
@@ -874,15 +906,15 @@ $$\gamma_\Sigma\approx0.28$$
 
 survit à toutes ces vérifications, alors nous pourrons poser une question physique beaucoup plus intéressante :
 
-Existe-t-il dans la formulation covariante H2C une combinaison naturelle de $$\(C\)$$, $$\(\nabla C\)$$, $$\(M_{\rm bar}\)$$ ou d'un tenseur de contrainte capable de produire une réponse dépendant de la concentration spatiale de la matière ?
+Existe-t-il dans la formulation covariante H2C une combinaison naturelle de $C$, $\nabla C$, $M_{\mathrm{bar}}$ ou d'un tenseur de contrainte capable de produire une réponse dépendant de la concentration spatiale de la matière ?
 
 C'est là que les deux branches de ton projet pourraient éventuellement commencer à se rejoindre :
 
-$$\boxed{ \text{structure baryonique}\rightarrow\text{réponse du champ }C\rightarrow g_{\mu\nu}^{\rm eff} }$$
+$$\boxed{ \text{structure baryonique}\rightarrow\text{réponse du champ }C\rightarrow g_{\mu\nu}^{\mathrm{eff}} }$$
 
 Mais cette flèche reste à dériver.
 
-### 23. La relation avec la formulation covariante V1.2/V1.4
+#### Point 23 — La relation avec la formulation covariante V1.2/V1.4
 
 C'est justement ici que cette campagne devient conceptuellement intéressante.
 
@@ -898,7 +930,7 @@ Nous savons déjà que la branche covariante a passé les tests numériques B1�
 
 Mais nous n'avons toujours pas de dérivation de :
 
-$$g_{\mu\nu}^{\rm eff}=F(C,\nabla C,\ldots).$$
+$$g_{\mu\nu}^{\mathrm{eff}}=F(C,\nabla C,\ldots).$$
 
 Donc le résultat SPARC ne doit pas être injecté artificiellement dans V1.2.
 
@@ -908,29 +940,29 @@ le résultat observationnel fournit désormais une contrainte empirique que la f
 
 C'est beaucoup plus propre.
 
-### 24. Le changement de statut du projet
+#### Point 24 — Le changement de statut du projet
 
 Avant cette campagne, nous avions essentiellement :
 
-$$V^4\propto M_{\rm bar}^{1.147}$$
+$$V^4\propto M_{\mathrm{bar}}^{1.147}$$
 
 contre une construction H2C voulant :
 
-$$V^4\propto M_{\rm bar}.$$
+$$V^4\propto M_{\mathrm{bar}}.$$
 
 Cela pouvait être interprété comme une difficulté du modèle.
 
 Maintenant nous avons :
 
-$$\boxed{ V^4\propto M_{\rm bar}^{1.003} \Sigma_0^{0.279} }$$
+$$\boxed{ V^4\propto M_{\mathrm{bar}}^{1.003} \Sigma_0^{0.279} }$$
 
 et :
 
-$$\boxed{ \delta_{\rm H2C}\sim\Sigma_0^{0.279},\qquad\delta_{\rm H2C}\not\sim M_{\rm bar}\quad\text{après contrôle de }\Sigma_0. }$$
+$$\boxed{ \delta_{\mathrm{H2C}}\sim\Sigma_0^{0.279},\qquad\delta_{\mathrm{H2C}}\not\sim M_{\mathrm{bar}}\quad\text{après contrôle de }\Sigma_0. }$$
 
 Cela transforme le problème.
 
-### 25. Ce que je considère comme le véritable résultat de cette campagne
+#### Point 25 — Ce que je considère comme le véritable résultat de cette campagne
 
 Ce n'est pas :
 
@@ -955,35 +987,38 @@ $$\boxed{\alpha_M\simeq1}$$
 et :
 
 $$\boxed{\gamma_\Sigma\simeq0.28}.$$
-### 26. Statut scientifique complet à inscrire dans notre suivi
-Élément	Statut actuel
-175 galaxies analysées	établi pour cette campagne
-Relation $$\(V^4\)-\(M_{\rm bar}\)$$	établie empiriquement
-Pente $$\(1.1475\pm0.0320\)$$	mesurée
-Écart à 1 de 4,60 σ	mesuré dans OLS
-Introduction de $$\(\Sigma_0\)$$	testée
-Pente $$\(1.0032\pm0.0410\)$$	mesurée
-Compatibilité avec $$\(\alpha_M=1\)$$	très forte
-$$\(\gamma_\Sigma=0.2787\pm0.0542\)$$	mesuré
-Significativité de $$\(\Sigma_0\)$$	~5,1 σ dans OLS
-Bootstrap $$\(\alpha_M\)$$	compatible avec 1
-Bootstrap $$\(\gamma_\Sigma\)$$	positif et stable
-VIF ≈ 1.88	pas de colinéarité sévère
-AIC/BIC	fortement en faveur du modèle B
-Résidu H2C corrélé à $$\(\Sigma_0\)$$	oui
-Effet indépendant de $$\(M_{\rm bar}\)$$ dans le résidu	compatible avec zéro
-\(\Sigma_0\) cause physique	non démontré
-\(\gamma=0.28\) constante fondamentale	non démontré
-Dépendance à \(R_d\) contrôlée	pas encore
-Dépendance à la fraction gazeuse contrôlée	pas encore
-Dépendance morphologique contrôlée	pas encore
-Nouvelle loi gravitationnelle H2C	pas encore dérivée
-Lien $$\(\Sigma_0\rightarrow C\)$$	pas encore dérivé
-Équations d'Einstein émergentes	toujours non dérivées
 
-### 27. Résultat majeur — Juge de paix 2 : décomposition du résidu \(M_{\rm bar}/\Sigma_0\)
+#### Point 26 — Statut scientifique complet à inscrire dans notre suivi
 
-Sur 175 galaxies SPARC, la régression de $$\(\log V^4\)$$ sur $$\(\log M_{\rm bar}\)$$ seul donne une pente $$\(1.1475\pm0.0320\)$$, s'écartant de 1 à 4,60 σ. L'introduction de la densité de surface baryonique $$\(\Sigma_0\)$$ dans une régression multivariée donne $$\(1.0032\pm0.0410\)$$ pour le coefficient de $$\(\log M_{\rm bar}\)$$, compatible avec la pente théorique 1, tandis que le coefficient de $$\(\log\Sigma_0\)$$ vaut $$\(0.2787\pm0.0542\)$$. Les critères AIC/BIC favorisent nettement le modèle à deux variables et les VIF (~1,88) n'indiquent pas de colinéarité sévère. La régression directe du résidu H2C sur $$\(\Sigma_0\)$$ conserve un coefficient positif significatif, tandis que l'effet indépendant de $$\(M_{\rm bar}\)$$ devient compatible avec zéro. Ce résultat constitue une contrainte observationnelle/statistique nouvelle pour le projet, mais ne constitue pas une validation de la théorie H2C ni une dérivation physique du coefficient $$\(0.28\)$$. Des contrôles supplémentaires sur le rayon de disque, la fraction gazeuse, la morphologie et les choix de masse stellaire sont nécessaires avant toute interprétation physique.
+| Élément | Statut actuel |
+| :--- | :--- |
+| 175 galaxies analysées | établi pour cette campagne |
+| Relation $V^4$-$M_{\mathrm{bar}}$ | établie empiriquement |
+| Pente $1.1475\pm0.0320$ | mesurée |
+| Écart à 1 de 4,60 σ | mesuré dans OLS |
+| Introduction de $\Sigma_0$ | testée |
+| Pente $1.0032\pm0.0410$ | mesurée |
+| Compatibilité avec $\alpha_M=1$ | très forte |
+| $\gamma_\Sigma=0.2787\pm0.0542$ | mesuré |
+| Significativité de $\Sigma_0$ | ~5,1 σ dans OLS |
+| Bootstrap $\alpha_M$ | compatible avec 1 |
+| Bootstrap $\gamma_\Sigma$ | positif et stable |
+| VIF ≈ 1.88 | pas de colinéarité sévère |
+| AIC/BIC | fortement en faveur du modèle B |
+| Résidu H2C corrélé à $\Sigma_0$ | oui |
+| Effet indépendant de $M_{\mathrm{bar}}$ dans le résidu | compatible avec zéro |
+| $\Sigma_0$ cause physique | non démontré |
+| $\gamma=0.28$ constante fondamentale | non démontré |
+| Dépendance à $R_d$ contrôlée | pas encore |
+| Dépendance à la fraction gazeuse contrôlée | pas encore |
+| Dépendance morphologique contrôlée | pas encore |
+| Nouvelle loi gravitationnelle H2C | pas encore dérivée |
+| Lien $\Sigma_0\rightarrow C$ | pas encore dérivé |
+| Équations d'Einstein émergentes | toujours non dérivées |
+
+#### Point 27 — Résultat majeur — Juge de paix 2 : décomposition du résidu $M_{\mathrm{bar}}/\Sigma_0$
+
+Sur 175 galaxies SPARC, la régression de $\log V^4$ sur $\log M_{\mathrm{bar}}$ seul donne une pente $1.1475\pm0.0320$, s'écartant de 1 à 4,60 σ. L'introduction de la densité de surface baryonique $\Sigma_0$ dans une régression multivariée donne $1.0032\pm0.0410$ pour le coefficient de $\log M_{\mathrm{bar}}$, compatible avec la pente théorique 1, tandis que le coefficient de $\log\Sigma_0$ vaut $0.2787\pm0.0542$. Les critères AIC/BIC favorisent nettement le modèle à deux variables et les VIF (~1,88) n'indiquent pas de colinéarité sévère. La régression directe du résidu H2C sur $\Sigma_0$ conserve un coefficient positif significatif, tandis que l'effet indépendant de $M_{\mathrm{bar}}$ devient compatible avec zéro. Ce résultat constitue une contrainte observationnelle/statistique nouvelle pour le projet, mais ne constitue pas une validation de la théorie H2C ni une dérivation physique du coefficient $0.28$. Des contrôles supplémentaires sur le rayon de disque, la fraction gazeuse, la morphologie et les choix de masse stellaire sont nécessaires avant toute interprétation physique.
 
 C'est, à mon avis, la formulation la plus défendable scientifiquement à ce stade.
 
@@ -993,63 +1028,42 @@ $$\boxed{\text{DONNÉES}}\rightarrow \boxed{\text{RELATION STATISTIQUE}}\rightar
 
 Nous avons maintenant un résultat solide dans les deux premières couches. La troisième est précisément ce que les prochaines campagnes devront essayer de construire ou, éventuellement, de réfuter.
 
-  ---
+---
+
 ### B. Dérivation Variationnelle et Origine Géométrique
 Pour rendre compte de cette constante universelle, l'action effective du champ de phase $\Phi$ couplé à la densité baryonique $\rho_{\text{bar}}$ est formulée en régime stationnaire :
 
-$$S_{\text{tot}}=\int\left[\frac{1}{2} g^{\mu\nu}\partial_\mu\Phi\partial\nu\Phi - V(\Phi) - \frac{8\pi G}{c^2} \rho_{\text{bar}}\Phi\right] \sqrt{-g}\,d^4x$$
+$$S_{\text{tot}}=\int\left[\frac{1}{2} g^{\mu\nu}\partial_\mu\Phi\,\partial_\nu\Phi - V(\Phi) - \frac{8\pi G}{c^2} \rho_{\text{bar}}\Phi\right] \sqrt{-g}\,d^4x$$
 
 En appliquant le théorème de flux d'Ostrogradsky sur le volume limite du halo galactique et en intégrant les fluctuations de phase de type Ginzburg-Landau, le facteur de couplage géométrique pur émerge naturellement de l'angle solide $4\pi$ et de la métrique d'interférence $\sqrt{2}$ :
 
-$$S_{\text{gal, théo}}=\frac{\sqrt{2}}{4\pi}\approx 0,1125$$
+$$S_{\text{gal, théo}}=\frac{\sqrt{2}}{4\pi}\approx 0{,}1125$$
 
 ### C. Bilan et Comparaison
 La confrontation entre la prédiction analytique pure et les données empiriques du catalogue SPARC met en évidence un accord remarquable :
 
-* **Valeur théorique :** $\approx 0,1125$
-* **Valeur empirique (SPARC) :** $\approx 0,1143$
-* **Écart relatif :** $< 1,5\,\%$
+* **Valeur théorique :** $\approx 0{,}1125$
+* **Valeur empirique (SPARC) :** $\approx 0{,}1143$
+* **Écart relatif :** $< 1{,}5\,\%$
 
 Cette convergence valide la robustesse du modèle de gravité à cohérence de phase (H2C) et ancre l'accélération effective sur une base topologique et géométrique rigoureuse.
----
-Version Finale H2CMarkdown# Cadre H2C : Émergence Géométrique, Auto-Correction et Dynamique Galactique (Version Finale Consolidée)
-
-**Auteur :** Vahan Barsamian  
-**Statut :** Programme de recherche falsifiable, solveur auto-consistant et validation croisée sur le catalogue SPARC (165+ galaxies).
 
 ---
 
-## 🛠️ Téléchargements & Code Source
-
-* [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
-* [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
-
----
-# Cadre H2C : Émergence Géométrique, Auto-Correction et Dynamique Galactique (Version Finale Consolidée)
-
-**Auteur :** Vahan Barsamian  
-**Statut :** Programme de recherche falsifiable, solveur auto-consistant et validation croisée sur le catalogue SPARC (165+ galaxies).
-
----
-
-## 🛠️ Téléchargements & Code Source
-
-* [🚀 **Version Pro (Python)** : H2C_Universal_Cockpit.py](./H2C_Universal_Cockpit.py) (Fonctions scientifiques complètes)
-* [🪟 **Version Windows (Builder)** : H2C_Windows_Builder.py](./H2C_Windows_Builder.py) (Génère un .exe autonome)
-
----
-
-## 📦 Code Python Complet : H2C Universal Cockpit (IR, FUV, Ajustements A & B, 4/3 et Cône de Visualisation)
+## 📦 Code Python complet : H2C Universal Cockpit (IR, FUV, ajustements A & B, 4/3 et cône de visualisation)
 
 Le script ci-dessous intègre l'ensemble de la boucle de calcul H2C finale, incluant la correction infrarouge (IR), ultraviolette (FUV), les coefficients d'ajustement A & B, le facteur de transition dynamique en $4/3$ et la projection du cône de visualisation géométrique.
 
-"""import numpy as np
-"""import matplotlib.pyplot as plt
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
 class H2CUniversalCockpit:
     def __init__(self, c0=0.2, a0=1.20e-10, r_g0=2.74):
         self.C_c = c0             # Seuil critique du substrat (1/5)
         self.a_0 = a0             # Accélération caractéristique H2C
         self.r_g0 = r_g0          # Longueur caractéristique (kpc)
+
     def fuv_correction(self, r, r_core=0.5):
         """FUV (Far Ultraviolet / Région Centrale) : Régularisation des singularités."""
         return 1.0 - np.exp(-(r / r_core)**2)
@@ -1093,20 +1107,32 @@ class H2CUniversalCockpit:
         theta_cone = 2.0 * np.arcsin(self.C_c / (1.0 - self.C_c))
         t_proper = r_array / (3e5 * np.cos(theta_cone))
         return t_proper, theta_cone
---- Exemple d'exécution test ---
+
+# --- Exemple d'exécution test ---
 if __name__ == "__main__":
     r = np.linspace(0.1, 30.0, 300) # Rayon en kpc
     h2c = H2CUniversalCockpit()
     v_pred, alpha_map, r_g_val = h2c.compute_field(r, M_bar=5e10, Sigma_0=300.0)
-    print(f"Modèle H2C initialisé avec succès. r_g = {r_g_val:.2f} kpc")'''
+    print(f"Modèle H2C initialisé avec succès. r_g = {r_g_val:.2f} kpc")
+```
+
 ---
+
 ## 🌌 Résultats de Validation sur le Catalogue SPARC (165+ Galaxies)
 L'architecture complète du modèle H2C (combinant le solveur auto-consistant, l'écrantage radial $s(r)$, la dépendance en densité de surface $\Sigma_0$ et les corrections IR/FUV) a été confrontée à l'ensemble du catalogue de galaxies à rotation mesurée SPARC ($N = 165$ galaxies analysées dans nos campagnes de validation).
-### Pente massique restaurée :
-La prise en compte de la structure de surface ramène la pente de la relation $V^4 - M_{\text{bar}}$ à $\alpha_M = 1.0032 \pm 0.0410$ (parfaitement compatible avec la prédiction théorique $1$ à $0.08\sigma$), levant l'anomalie initiale de pente observée avec la masse seule ($1.1475$).Robustesse statistique : Les critères AIC/BIC confirment la supériorité du modèle à deux variables ($\Delta \text{AIC} = 23.06$), et les tests de validation croisée 10-Fold démontrent une absence totale de surajustement (overfitting), avec une dégradation minimale de $+4.86\%$ sur les échantillons de test à l'aveugle.
-### Note de synthèse :
+
+### Pente massique restaurée
+
+La prise en compte de la structure de surface ramène la pente de la relation $V^4 - M_{\text{bar}}$ à $\alpha_M = 1.0032 \pm 0.0410$ (parfaitement compatible avec la prédiction théorique $1$ à $0.08\sigma$), levant l'anomalie initiale de pente observée avec la masse seule ($1.1475$).
+
+**Robustesse statistique :** Les critères AIC/BIC confirment la supériorité du modèle à deux variables ($\Delta \text{AIC} = 23.06$), et les tests de validation croisée 10-Fold démontrent une absence totale de surajustement (overfitting), avec une dégradation minimale de $+4.86\%$ sur les échantillons de test à l'aveugle.
+
+### Note de synthèse
+
 Les résultats obtenus sont extraordinaires au point où nous en sommes. Ils démontrent qu'un mécanisme purement géométrique et d'écrantage de phase, sans l'introduction de matière noire particulaire et sans paramètre libre ajusté individuellement par galaxie, parvient à restituer l'architecture observationnelle de plus de 165 galaxies avec une robustesse statistique exceptionnelle.
+
 ---
+
 ### 13. Obstacles théoriques à examiner
 
 | Obstacle | Description |
@@ -1364,7 +1390,7 @@ Cette section rassemble le formalisme phénoménologique et les résultats numé
 
 #### 47.1 Champ de cohérence et variables fondamentales
 
-On considers un champ scalaire de cohérence de phase :
+On considère un champ scalaire de cohérence de phase :
 
 $$ C(x) \in [0,1] $$
 
@@ -1507,7 +1533,7 @@ $$ R_{\text{trans}} = 0.61 \text{ kpc}, \quad R_{\text{gentle}} = 1.31 \text{ kp
 
 Le rapport $\simeq 2.15$ entre ces rayons reste une entrée géométrique et n'est pas encore dérivé.
 
-Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ 0,005% et un écart relatif d'environ $-0,004\%$ dans le calcul rapporté.
+Le Test 43 conserve l'asymptote newtonienne avec un coefficient de variation d'environ 0,005% et un écart relatif d'environ $-0{,}004\%$ dans le calcul rapporté.
 
 Pour rendre le $4/3$ compatible avec cette contrainte, une interpolation dynamique a été testée :
 
@@ -1779,7 +1805,7 @@ La géométrie gravitationnelle décrite par la relativité générale est ici �
 
 Le problème scientifique central reste :
 
-> **Existe-t-il une dynamique microscopique suffisamment précise pour produire simultanément la cohérence** $C$**, une structure métrique émergente, la limite newtonienne, les équations d'Einstein et les paramètres cosmologiques observés sans les imposer à l'avance ?**
+> **Existe-t-il une dynamique microscopique suffisamment précise pour produire simultanément la cohérence $C$, une structure métrique émergente, la limite newtonienne, les équations d'Einstein et les paramètres cosmologiques observés sans les imposer à l'avance ?**
 
 Document de réflexion personnelle et d'open science — à confronter à la littérature scientifique et à des validations indépendantes.
 
@@ -2067,7 +2093,7 @@ Fixer $N=N_0$ et faire varier uniquement $T_1 < T_2 < T_3 < T_4$. Mesurer $v_c(T
 
 Critère : $v_c(T) \to 2$ indique un effet de temps fini. Si $v_c(T) \to 2.92$, le temps fini n'explique pas l'écart.
 
-### 70B-2 — Analyse de robustesse et protocoles de convergence
+**70B-2 — Analyse de robustesse et protocoles de convergence**
 
 1. **Protocole de Temps ($T$) :** 
    Suivi de l'évolution des états du champ de phase à travers l'opérateur d'atténuation du vide, jusqu'à l'atteinte d'un état stationnaire ou d'un attracteur stable ($T \to T_{\text{convergé}}$).
@@ -2079,13 +2105,15 @@ Critère : $v_c(T) \to 2$ indique un effet de temps fini. Si $v_c(T) \to 2.92$, 
 
 ---
 
-### 70B-3 — Intégration dans le Cockpit H2C (Rappel du Script)
+**70B-3 — Intégration dans le Cockpit H2C (rappel du script)**
+
 Les paramètres issus de ces protocoles de convergence réalimentent directement les fonctions de régularisation FUV et les corrections IR du script principal :
 - Application du facteur de couplage global $S_{\text{gal}}$.
 - Prise en compte de la dépendance radiale $r_g(\Sigma_0)$ pour corriger la pente massique $\alpha_M$.
 - Génération des visualisations 3+1 du champ de phase.
-- 
+
 #### 54.3 70C — terme manquant, seulement si 70A et 70B échouent
+
 Le potentiel de départ reste :
 
 $$F_0 = -r \sum_a \vert{}\psi_a\vert{}^2 + u \sum_a \vert{}\psi_a\vert{}^4 + v \sum_{a < b} \vert{}\psi_a\vert{}^2 \vert{}\psi_b\vert{}^2$$
@@ -2095,7 +2123,7 @@ Un seul terme supplémentaire doit être introduit à la fois.
 * **Candidat phase-couplé :** Par exemple $F_3 = w(\psi_1 \psi_2 \psi_3 + \text{c.c.})$. Mais ce terme ne doit être retenu que si les symétries microscopiques l'autorisent. D'autres couplages sont possibles, par exemple $w_{12}(\psi_1^* \psi_2 + \text{c.c.})$, qui sélectionne une autre combinaison de phases. Il n'est donc plus correct de présenter le terme cubique comme « le » terme manquant privilégié a priori.
 * **Candidat spatial :** Si les variables $\psi_a$ sont réellement des champs spatiaux, on peut tester $F_\nabla = \sum_a \kappa_a \vert{}\nabla\psi_a\vert{}^2 + \sum_{a<b} \kappa_{ab} \nabla\psi_a \cdot \nabla\psi_b$. Mais cette extension change la nature du modèle : elle introduit des degrés de liberté spatiaux qui n'existent pas dans le modèle homogène 0D.
 
-Critère de causalité : Un terme supplémentaire n'est explicatif que si :
+**Critère de causalité :** un terme supplémentaire n'est explicatif que si :
 
 1. Il est autorisé par les symétries ;
 2. Son coefficient est mesurable ou dérivable microscopiquement ;
@@ -2167,33 +2195,30 @@ La valeur 0.86 doit donc être conservée dans le journal uniquement comme résu
 
 ### 57. Arbre décisionnel consolidé
 
-     v_c apparent ≈ 2,92
-          │
-          ▼
-   70A — extrapolation α → 0
-          │
-     ┌─────────┴─────────┐
-     ▼          ▼
-   → 2,0       reste ≈ 2,92
-     │          │
- artefact α         ▼
-           70B — convergence
-            T puis N séparément
-               │
-          ┌──────────┴──────────┐
-          ▼           ▼
-        → 2,0       reste ≈ 2,92
-          │           │
-       effet fini         ▼
-                  70C — terme
-                  supplémentaire
-                     │
-                     ▼
-               validation microscopique
-                     │
-                     ▼
-                  70D — F_eff
-               reconstruction directe
+```text
+                v_c apparent ≈ 2,92
+                        │
+                        ▼
+          70A — extrapolation α → 0
+              │                 │
+              ▼                 ▼
+            → 2,0         reste ≈ 2,92
+              │                 │
+              ▼                 ▼
+     artefact d'extrapolation   70B — convergence : T puis N, séparément
+                                    │                 │
+                                    ▼                 ▼
+                                  → 2,0         reste ≈ 2,92
+                                    │                 │
+                                    ▼                 ▼
+                          effet de temps/taille       70C — terme supplémentaire
+                          finis                            │
+                                                           ▼
+                                                validation microscopique
+                                                           │
+                                                           ▼
+                                             70D — reconstruction directe de F_eff
+```
 
 Une étape 70S doit être considérée comme transversale et préalable à l'interprétation physique :
 
@@ -2226,16 +2251,15 @@ $$\frac{\gamma_2}{\gamma_3} \approx 1.37$$
 obtenu avec anisotropie, car l'ajustement de plusieurs $v_{ab}$ sur une seule cible ne constitue pas à lui seul une démonstration causale.
 
 ### 59. Questions restant ouvertes après l'audit
-
- 1. Quelle est exactement la définition opérationnelle de $v_c$ dans les campagnes 68–69e ?
- 2. Quels sont les points bruts $(\alpha_i, v_c(\alpha_i))$ ?
- 3. Quelle est la sensibilité de $v_c$ à la durée $T$ ?
- 4. Quelle est sa convergence en $N$ une fois $T$ convergé ?
- 5. La réduction microscopique vers $\psi_a$ peut-elle être dérivée explicitement ?
- 6. Le gel $\dot{\theta}_a = 0$ existe-t-il au niveau microscopique ou est-il créé par la réduction ?
- 7. Quels couplages de phase sont réellement permis par les symétries microscopiques ?
- 8. Les coefficients $v_{ab}$ peuvent-ils être reconstruits directement à partir des trajectoires ?
- 9. Les anisotropies $v_{12} < v_{13} < v_{23}$ sont-elles explicitement imposées ou émergent-elles ?
+1. Quelle est exactement la définition opérationnelle de $v_c$ dans les campagnes 68–69e ?
+2. Quels sont les points bruts $(\alpha_i, v_c(\alpha_i))$ ?
+3. Quelle est la sensibilité de $v_c$ à la durée $T$ ?
+4. Quelle est sa convergence en $N$ une fois $T$ convergé ?
+5. La réduction microscopique vers $\psi_a$ peut-elle être dérivée explicitement ?
+6. Le gel $\dot{\theta}_a = 0$ existe-t-il au niveau microscopique ou est-il créé par la réduction ?
+7. Quels couplages de phase sont réellement permis par les symétries microscopiques ?
+8. Les coefficients $v_{ab}$ peuvent-ils être reconstruits directement à partir des trajectoires ?
+9. Les anisotropies $v_{12} < v_{13} < v_{23}$ sont-elles explicitement imposées ou émergent-elles ?
 10. Le modèle homogène 0D est-il suffisant, ou faut-il introduire une structure spatiale ?
 
 ### 60. Principe de conservation du fil de recherche
@@ -2258,7 +2282,18 @@ La règle directrice reste :
 
 $$\text{on ne choisit plus le résultat recherché ; on cherche d'abord si la dynamique le produit.}$$
 
-61. Bilan d'Étape et Transition vers l'AuditLe modèle H2C parvient à unifier la phénoménologie MOND et les contraintes de relativité générale au sein d'un cadre cohérent de cohérence de phase quantique. Les sections suivantes regroupent les scripts d'audit automatisés et de validation numérique permettant de reproduire l'intégralité des résultats sur le catalogue SPARC.70. Suite d'Audit et Validation Automatisée (70A–70D)70A. Script de Vérification des Intégrités des Données SPARC (audit_sparc_data.py)Ce script valide la conformité des fichiers de rotation galaxy par galaxy avant injection dans le solveur.Pythonimport os
+### 61. Bilan d'étape et transition vers l'audit
+
+Le modèle H2C parvient à unifier la phénoménologie MOND et les contraintes de relativité générale au sein d'un cadre cohérent de cohérence de phase quantique. Les sections suivantes regroupent les scripts d'audit automatisés et de validation numérique permettant de reproduire l'intégralité des résultats sur le catalogue SPARC.
+
+### 70. Suite d'audit et validation automatisée (70A–70D)
+
+#### 70A. Script de vérification de l'intégrité des données SPARC (`audit_sparc_data.py`)
+
+Ce script valide la conformité des fichiers de rotation galaxie par galaxie avant injection dans le solveur.
+
+```python
+import os
 import pandas as pd
 import numpy as np
 
@@ -2286,7 +2321,14 @@ def audit_sparc_dataset(data_dir):
     print(f"Fichiers corrompus : {report['corrupted']}")
     print(f"Colonnes manquantes : {report['missing_columns']}")
     return report
-70B. Moteur de Calcul de Phase Cohérente (audit_phase_coherence.py)Ce bloc isole le calcul de l'accélération émergente $g_{\text{emergent}}$ en fonction du champ baryonnique $g_{\text{bar}}$.Pythonimport numpy as np
+```
+
+#### 70B. Moteur de calcul de phase cohérente (`audit_phase_coherence.py`)
+
+Ce bloc isole le calcul de l'accélération émergente $g_{\text{emergent}}$ en fonction du champ baryonnique $g_{\text{bar}}$.
+
+```python
+import numpy as np
 
 G = 6.67430e-11  # m^3 kg^-1 s^-2
 a0_MOND = 1.2e-10 # m/s^2
@@ -2313,7 +2355,14 @@ def process_galaxy_curve(r_kpc, v_bar):
     
     v_pred_m = np.sqrt(g_tot * r_m)
     return v_pred_m / 1000.0
-70C. Script de Calcul du Chi-Deux Global (audit_chi2_fit.py)Validation statistique globale de la déviation entre $V_{\text{obs}}$ et $V_{\text{pred}}$ sur l'ensemble de l'échantillon.Pythonimport numpy as np
+```
+
+#### 70C. Script de calcul du chi-deux global (`audit_chi2_fit.py`)
+
+Validation statistique globale de la déviation entre $V_{\text{obs}}$ et $V_{\text{pred}}$ sur l'ensemble de l'échantillon.
+
+```python
+import numpy as np
 
 def calculate_galaxy_chi2(v_obs, e_vobs, v_pred, dof_adjustment=1):
     mask = e_vobs > 0
@@ -2335,7 +2384,14 @@ def global_benchmark(dataset_results):
         total_points += len(res['v_obs'])
         
     print(f"Chi2 Reduced Global H2C : {total_chi2 / total_points:.3f}")
-70D. Générateur de Graphiques d'Residuals et Métriques (audit_export_plots.py)Génération automatisée des figures d'audit pour le dépôt d'archivage.Pythonimport matplotlib.pyplot as plt
+```
+
+#### 70D. Générateur de graphiques de résidus et de métriques (`audit_export_plots.py`)
+
+Génération automatisée des figures d'audit pour le dépôt d'archivage.
+
+```python
+import matplotlib.pyplot as plt
 import numpy as np
 
 def plot_residuals(r_kpc, v_obs, e_vobs, v_pred, galaxy_name, save_path=None):
@@ -2361,12 +2417,15 @@ def plot_residuals(r_kpc, v_obs, e_vobs, v_pred, galaxy_name, save_path=None):
     if save_path:
         plt.savefig(save_path, dpi=300)
     plt.close()
+```
+
+---
 
 # PARTIE IV : ANNEXES NUMÉRIQUES & GUIDE DES PREUVES
 
 Cette section archive les briques logicielles critiques et le guide de lecture des données brutes validant le modèle.
 
-### 1. Moteur d'Inversion de Phase (Audit 61H-10A)
+### 1. Moteur d'inversion de phase (audit 61H-10A)
 
 Preuve de la suppression des singularités par dynamique libre des phases ($A_{\text{min}} > 0$).
 
@@ -2383,14 +2442,37 @@ def run_phase_inversion_audit(N=2000, max_steps=500, dt=0.01):
         amplitudes += d_amplitude * dt
         phases += np.sin(d_phase) * dt
     return np.min(np.abs(amplitudes))  # ~0.6132
-2. Moteur d'Émergence MOND (Audit 61H-13)Validation analytique de la pente $-1.0000$ en champ faible.Pythonimport numpy as np
+```
+
+### 2. Moteur d'émergence MOND (audit 61H-13)
+
+Validation analytique de la pente $-1.0000$ en champ faible.
+
+```python
+import numpy as np
 
 def compute_mond_emergence(a_0=1.2e-10, g_bar_scale=1e-8):
     r = np.linspace(5.0, 50.0, 50)
     g_bar = g_bar_scale / (r**2)
     g_h2c = np.sqrt(g_bar * a_0 + np.sqrt((g_bar * a_0)**2 + 4 * g_bar**2)) / np.sqrt(2)
     return np.polyfit(np.log(r[-15:]), np.log(g_h2c[-15:]), 1)[0]  # -0.9999
-3. Guide de Lecture des Preuves (Numerical_Evidence/)Pour garantir une transparence totale, les fichiers de données brutes sont archivés dans Numerical_Evidence/.61H8C_limit_audit.json : Preuve de la régularité du substrat ($A_{\text{min}} > 0$).61H9_convergence_report.json : Rapport de scaling haute résolution ($N=4000$).61H12_extended_results.csv : Documente l'effet de forme galactique.61H11_final_report.json : Synthèse des performances sur 175 galaxies (Gain de 19% de $\chi^2$).55. Solveur Auto-Consistant H2C & Validation SPARC (175 Galaxies)55.1 Code source complet d'exécution (Backend Agg)Pythonimport os
+```
+
+### 3. Guide de lecture des preuves (`Numerical_Evidence/`)
+
+Pour garantir une transparence totale, les fichiers de données brutes sont archivés dans `Numerical_Evidence/` :
+
+* `61H8C_limit_audit.json` : preuve de la régularité du substrat ($A_{\text{min}} > 0$) ;
+* `61H9_convergence_report.json` : rapport de scaling haute résolution ($N=4000$) ;
+* `61H12_extended_results.csv` : documente l'effet de forme galactique ;
+* `61H11_final_report.json` : synthèse des performances sur 175 galaxies (gain de 19 % de $\chi^2$).
+
+### 4. Solveur auto-consistant H2C & validation SPARC (175 galaxies)
+
+#### 4.1 Code source complet d'exécution (backend Agg)
+
+```python
+import os
 import re
 import zipfile
 import requests
@@ -2446,3 +2528,4 @@ class H2CSolverCoupledExperimental:
             "eta": eta_curr,
             "iterations": iteration + 1
         }
+```
