@@ -439,7 +439,7 @@ C'est le résultat le plus important de toute la campagne.
 
 Le coefficient obtenu pour la densité de surface est :
 
-$$ \boxed{ \gamma=0.278734\pm0.054169 } $$
+$$\boxed{ \gamma=0.278734\pm0.054169 }$$
 
 avec :
 
@@ -450,8 +450,7 @@ Le bootstrap donne :
 $$\boxed{\gamma_{\mathrm{median}} = 0.279935}$$
 
 et :
-
-$$\boxed{\mathrm{IC}_{95\%} = [0.171844,\, 0.386952]}$$
+\mathrm{IC}_{95\%} = [0.171844,\, 0.386952]
 
 Donc le modèle empirique trouvé est approximativement :
 
@@ -559,7 +558,9 @@ $$R^2=0.228.$$
 
 Cela signifie que la densité de surface explique environ :
 
-$$\boxed{22.8\%}$$
+$$
+\boxed{22.8\%}
+$$
 
 de la variance du résidu dans cette régression simple.
 
