@@ -798,7 +798,9 @@ Le bootstrap que nous avons déjà effectué est donc particulièrement utile.
 
 Pour le modèle multivarié :
 
-$$\alpha_M :\quad \boxed{\mathrm{IC}_{95\%} = [0.915956, 1.090684]}$$
+$$
+\alpha_M : \quad \mathrm{IC}_{95\%} = [0.915956, 1.090684]
+$$
 
 et :
 
