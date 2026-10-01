@@ -558,9 +558,9 @@ $$R^2=0.228.$$
 
 Cela signifie que la densité de surface explique environ :
 
-$$
-\boxed{22.8\%}
-$$
+```math
+22.8\%
+```
 
 de la variance du résidu dans cette régression simple.
 
