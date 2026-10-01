@@ -802,7 +802,7 @@ Pour le modèle multivarié :
 
 et :
 
-$$\boxed{\mathrm{IC}_{95\%} = [0.171844, 0.386952]}$$
+$\mathrm{IC}_{95\%} = [0.171844, 0.386952]$
 
 Donc le coefficient massique reste compatible avec 1 et le coefficient $\Sigma_0$ reste positif dans tout l'intervalle bootstrap.
 
