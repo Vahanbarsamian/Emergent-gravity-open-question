@@ -2529,8 +2529,7 @@ class H2CSolverCoupledExperimental:
             "eta": eta_curr,
             "iterations": iteration + 1
         }
-'''text
-
+```
 ---
 ---
 ### Bilan et resultat final 
