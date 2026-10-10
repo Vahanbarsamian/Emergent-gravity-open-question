@@ -2534,7 +2534,7 @@ class H2CSolverCoupledExperimental:
 ---
 ### Bilan et resultat final 
 # H2C Ultimate : Moteur Unifié de Dynamique et de Rétro-Ingénierie Galactique
-
+[H2C Ultimate v2.0.apk] (https://mega.nz/file/nqoHyR4S#OpKHH1d5HSne12NeRlsBLjzVVxfrik2jNMEjfARt9K0)
 ## 🌌 Présentation du Projet
 **H2C Ultimate** est un modèle physique et informatique unifié conçu pour résoudre la cinématique des galaxies sur l'ensemble du spectre morphologique (spirales massives, galaxies à faible brillance de surface - LSB, et galaxies naines). En s'affranchissant des singularités centrales et en modélisant la réponse dynamique d'un milieu élastique couplé aux distributions baryoniques, le modèle atteint un niveau de précision inédit validé à grande échelle.
 
